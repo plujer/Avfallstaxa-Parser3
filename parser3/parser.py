@@ -14,6 +14,7 @@ from parser3.rows import RowClassifier
 from parser3.tables import SmartTableDetector
 from parser3.utils.constants import APP_NAME, APP_VERSION
 from parser3.utils.logger import get_logger
+from parser3.validation import ValidationEngine
 
 
 def main() -> None:
@@ -22,6 +23,8 @@ def main() -> None:
     arg_parser.add_argument("--headings", action="store_true", help="Print detected heading tree")
     arg_parser.add_argument("--tables", action="store_true", help="Print detected tables and row classes")
     arg_parser.add_argument("--extract", action="store_true", help="Extract preliminary tax rows")
+    arg_parser.add_argument("--validate", action="store_true", help="Validate preliminary extraction")
+    arg_parser.add_argument("--golden", default="golden_master/parser_facit.yaml", help="Golden master YAML")
     args = arg_parser.parse_args()
 
     logger = get_logger("parser3")
@@ -35,6 +38,11 @@ def main() -> None:
     print(f"Config loaded: {name} {version}")
 
     if not args.word:
+        if args.validate:
+            result = ValidationEngine().validate([], args.golden)
+            print(f"Validation passed: {result.passed}")
+            for error in result.errors:
+                print(f"ERROR: {error}")
         return
 
     blocks = DocumentReader().read(Path(args.word))
@@ -61,7 +69,7 @@ def main() -> None:
                 print(f"  {classified.row_type:10s} | {' | '.join(row)}")
         return
 
-    if args.extract:
+    if args.extract or args.validate:
         tables = SmartTableDetector().detect(blocks)
         extractor = TaxRowExtractor()
         rows = []
@@ -72,6 +80,14 @@ def main() -> None:
         print(f"Extracted preliminary tax rows: {len(rows)}")
         print("Output: output/parser3_result.json")
         print("Report: output/parser3_report.txt")
+
+        if args.validate:
+            result = ValidationEngine().validate(rows, args.golden)
+            print(f"Validation passed: {result.passed}")
+            for warning in result.warnings:
+                print(f"WARNING: {warning}")
+            for error in result.errors:
+                print(f"ERROR: {error}")
         return
 
     for block in blocks[:10]:
