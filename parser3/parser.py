@@ -9,12 +9,23 @@ from parser3.config_loader import load_config
 from parser3.document import DocumentReader
 from parser3.export import JsonExporter, TextReporter
 from parser3.extractors import TaxRowExtractor
+from parser3.golden import GoldenMasterBuilder, GoldenMasterWriter
 from parser3.headings import HeadingTreeBuilder
 from parser3.rows import RowClassifier
 from parser3.tables import SmartTableDetector
 from parser3.utils.constants import APP_NAME, APP_VERSION
 from parser3.utils.logger import get_logger
 from parser3.validation import ValidationEngine
+
+
+def extract_rows_from_word(word_path: str | Path):
+    blocks = DocumentReader().read(Path(word_path))
+    tables = SmartTableDetector().detect(blocks)
+    extractor = TaxRowExtractor()
+    rows = []
+    for table in tables:
+        rows.extend(extractor.extract_from_rows(table.rows))
+    return blocks, rows
 
 
 def main() -> None:
@@ -24,6 +35,7 @@ def main() -> None:
     arg_parser.add_argument("--tables", action="store_true", help="Print detected tables and row classes")
     arg_parser.add_argument("--extract", action="store_true", help="Extract preliminary tax rows")
     arg_parser.add_argument("--validate", action="store_true", help="Validate preliminary extraction")
+    arg_parser.add_argument("--build-golden", action="store_true", help="Build preliminary golden master from extracted rows")
     arg_parser.add_argument("--golden", default="golden_master/parser_facit.yaml", help="Golden master YAML")
     args = arg_parser.parse_args()
 
@@ -69,7 +81,7 @@ def main() -> None:
                 print(f"  {classified.row_type:10s} | {' | '.join(row)}")
         return
 
-    if args.extract or args.validate:
+    if args.extract or args.validate or args.build_golden:
         tables = SmartTableDetector().detect(blocks)
         extractor = TaxRowExtractor()
         rows = []
@@ -80,6 +92,11 @@ def main() -> None:
         print(f"Extracted preliminary tax rows: {len(rows)}")
         print("Output: output/parser3_result.json")
         print("Report: output/parser3_report.txt")
+
+        if args.build_golden:
+            data = GoldenMasterBuilder().from_tax_rows(rows)
+            GoldenMasterWriter().write(data, "output/parser_facit_generated.yaml")
+            print("Golden master draft: output/parser_facit_generated.yaml")
 
         if args.validate:
             result = ValidationEngine().validate(rows, args.golden)

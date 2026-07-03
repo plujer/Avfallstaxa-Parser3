@@ -1,0 +1,12 @@
+# Exempel på manuellt verifierade facit-rader.
+# Den kompletta listan kan fyllas på från vår manuella genomgång.
+
+section: "6.1.2"
+rows:
+  - name: "Avfall till energiåtervinning (240 L sopsäck)"
+    unit: "styck"
+    export: true
+  - name: "Toner, färgpatron utan elektronik"
+    unit: ""
+    export: false
+    comment: "Hänvisning: se farligt avfall"
