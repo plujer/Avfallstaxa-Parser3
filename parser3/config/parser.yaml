@@ -1,0 +1,21 @@
+app:
+  name: Avfallstaxa Parser 3.0
+  version: 0.1.0
+
+input:
+  default_word_path: ""
+  default_excel_path: ""
+
+output:
+  folder: output
+  json_file: parser3_result.json
+  text_file: parser3_report.txt
+
+parser:
+  strict_mode: true
+  include_metadata: true
+  export_references: false
+  export_information_rows: false
+
+logging:
+  level: INFO
