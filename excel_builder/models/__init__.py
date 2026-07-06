@@ -20,3 +20,4 @@ from .standard_tax_models import (
 )
 from .decision_models import TaxDecision, TaxDecisionReport
 from .template_models import TemplateInfo
+from .knowledge_models import TaxKnowledgeFeature, TaxKnowledgeReport
