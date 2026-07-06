@@ -1,0 +1,11 @@
+tests\test_output_structure_files.py:12: SyntaxWarning: "\w" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\w"? A raw string is also an option.
+  assert "output\word" in text
+tests\test_output_structure_files.py:25: SyntaxWarning: "\d" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\d"? A raw string is also an option.
+  assert "output\diagnostics\parser_console.txt" in text
+tests\test_output_structure_files.py:26: SyntaxWarning: "\d" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\d"? A raw string is also an option.
+  assert "output\diagnostics\pytest_report.txt" in text
+tests\test_rapportzip_structure.py:16: SyntaxWarning: "\d" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\d"? A raw string is also an option.
+  assert "output\diagnostics\parser_console.txt" in text
+tests\test_rapportzip_structure.py:17: SyntaxWarning: "\o" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\o"? A raw string is also an option.
+  assert "tools\organize_output.py" not in text
+All test files parsed successfully.

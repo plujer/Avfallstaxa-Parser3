@@ -1,8 +1,9 @@
 ﻿Excel Builder Report Package
-Created: 2026-07-06_23-39-38
+Created: 2026-07-06_23-48-14
 
 Included files:
 [OK] output\diagnostics\test_cleanup_report.txt
+[OK] output\diagnostics\test_syntax_report.txt
 [OK] output\excel\ArbetsExcel_byggd_fran_parser.xlsx
 [OK] output\excel\tax_knowledge_report.txt
 [OK] output\excel\tax_knowledge_features.csv
@@ -16,16 +17,8 @@ Included files:
 [OK] output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx
 [OK] output\projects\Sorsele\reports\edp_isolated_run_report_Sorsele.txt
 [OK] output\projects\Sorsele\manifest\project_run_manifest.json
-[OK] output\projects\Mala\excel\ArbetsExcel_Mala_byggd.xlsx
-[OK] output\projects\Mala\reports\edp_isolated_run_report_Mala.txt
-[OK] output\projects\Mala\manifest\project_run_manifest.json
-[OK] output\projects\Norsjo\excel\ArbetsExcel_Norsjo_byggd.xlsx
-[OK] output\projects\Norsjo\reports\edp_isolated_run_report_Norsjo.txt
-[OK] output\projects\Norsjo\manifest\project_run_manifest.json
 [OK] data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx
 [OK] output\excel\sorsele_project_run_console.txt
-[OK] output\excel\mala_project_run_console.txt
-[OK] output\excel\norsjo_project_run_console.txt
 [OK] output\excel\taxepunkter_row_plan_report.txt
 [OK] output\excel\taxepunkter_row_plan.csv
 [OK] output\excel\taxepunkter_row_plan_console.txt

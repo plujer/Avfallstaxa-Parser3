@@ -4,38 +4,248 @@ cachedir: .pytest_cache
 rootdir: C:\PyProjects\Taxa 3.0
 configfile: pytest.ini
 testpaths: tests
-collecting ... collected 216 items / 1 error
+collecting ... collected 221 items
 
-=================================== ERRORS ====================================
-__________ ERROR collecting tests/test_tax_knowledge_cli_workbook.py __________
-.venv\Lib\site-packages\_pytest\python.py:508: in importtestmodule
-    mod = import_path(
-.venv\Lib\site-packages\_pytest\pathlib.py:596: in import_path
-    importlib.import_module(module_name)
-C:\Users\Isak.Hjelte\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-<frozen importlib._bootstrap>:1406: in _gcd_import
-    ???
-<frozen importlib._bootstrap>:1371: in _find_and_load
-    ???
-<frozen importlib._bootstrap>:1342: in _find_and_load_unlocked
-    ???
-<frozen importlib._bootstrap>:938: in _load_unlocked
-    ???
-.venv\Lib\site-packages\_pytest\assertion\rewrite.py:179: in exec_module
-    source_stat, co = _rewrite_test(fn, self.config)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.venv\Lib\site-packages\_pytest\assertion\rewrite.py:348: in _rewrite_test
-    tree = ast.parse(source, filename=strfn)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-C:\Users\Isak.Hjelte\AppData\Local\Python\pythoncore-3.14-64\Lib\ast.py:46: in parse
-    return compile(source, filename, mode, flags,
-E     File "C:\PyProjects\Taxa 3.0\tests\test_tax_knowledge_cli_workbook.py", line 13
-E       assert "--workbook "output\excel\ArbetsExcel_byggd_fran_parser.xlsx"" in text
-E                                  ^
-E   SyntaxError: unexpected character after line continuation character
+tests/test_acceptance_debugger.py::test_acceptance_debugger_reports_missing_from_catalog PASSED [  0%]
+tests/test_acceptance_debugger.py::test_acceptance_debugger_possible_matches PASSED [  0%]
+tests/test_acceptance_debugger.py::test_acceptance_debugger_handles_multiple_facit_sections PASSED [  1%]
+tests/test_acceptance_runner.py::test_acceptance_runner_passes_count_and_required_names PASSED [  1%]
+tests/test_acceptance_runner.py::test_acceptance_runner_fails_wrong_count PASSED [  2%]
+tests/test_acceptance_runner.py::test_acceptance_runner_fails_ignored_export PASSED [  2%]
+tests/test_acceptance_with_yaml.py::test_acceptance_can_pass_612_yaml_expectation PASSED [  3%]
+tests/test_apply_suggestions_cli_package.py::test_apply_suggestions_cli_exists PASSED [  3%]
+tests/test_apply_suggestions_cli_package.py::test_build_excel_report_applies_suggestions_to_workbooks PASSED [  4%]
+tests/test_check_test_syntax_tool.py::test_check_test_syntax_tool_exists PASSED [  4%]
+tests/test_check_test_syntax_tool.py::test_check_test_syntax_tool_runs_successfully PASSED [  4%]
+tests/test_check_test_syntax_tool.py::test_build_excel_report_runs_syntax_check_before_pytest PASSED [  5%]
+tests/test_context_engine.py::test_context_assigner_keeps_section_active PASSED [  5%]
+tests/test_context_engine.py::test_context_engine_summary PASSED         [  6%]
+tests/test_context_engine.py::test_table_row_context_inherits_section PASSED [  6%]
+tests/test_context_no_circular_import.py::test_context_imports_without_circular_dependency PASSED [  7%]
+tests/test_decision_cli_package.py::test_decision_cli_exists PASSED      [  7%]
+tests/test_decision_cli_package.py::test_build_excel_report_runs_decision_engine PASSED [  8%]
+tests/test_decision_cli_package.py::test_zip_includes_decision_reports PASSED [  8%]
+tests/test_decision_workbook_writer.py::test_decision_workbook_writer_adds_status_columns_and_trace PASSED [  9%]
+tests/test_deviation_workbook_writer.py::test_deviation_workbook_writer_writes_review_rows PASSED [  9%]
+tests/test_diff_engine.py::test_diff_engine_detects_match_missing_extra PASSED [  9%]
+tests/test_document_engine.py::test_style_reader_detects_heading PASSED  [ 10%]
+tests/test_document_engine.py::test_page_iterator_groups_blocks PASSED   [ 10%]
+tests/test_document_reader_heading_numbering.py::test_document_reader_adds_generated_heading_numbers PASSED [ 11%]
+tests/test_edp_deviation_cli_package.py::test_edp_deviation_cli_exists PASSED [ 11%]
+tests/test_edp_deviation_cli_package.py::test_build_excel_report_runs_edp_deviation_analysis PASSED [ 12%]
+tests/test_edp_export_reader.py::test_edp_export_reader_reads_edp_export PASSED [ 12%]
+tests/test_edp_standard_deviation_engine.py::test_edp_standard_deviation_engine_marks_same_code_ok PASSED [ 13%]
+tests/test_edp_standard_deviation_engine.py::test_edp_standard_deviation_engine_marks_factor_deviation_review PASSED [ 13%]
+tests/test_excel_builder_inspect_cli_exists.py::test_excel_builder_inspect_cli_exists PASSED [ 14%]
+tests/test_excel_builder_inspect_cli_exists.py::test_build_excel_runs_inspect_step PASSED [ 14%]
+tests/test_excel_builder_match_cli_exists.py::test_excel_builder_match_cli_exists PASSED [ 14%]
+tests/test_excel_builder_match_cli_exists.py::test_build_excel_report_runs_matching_preview PASSED [ 15%]
+tests/test_excel_builder_reader.py::test_parser_result_reader_reads_rows PASSED [ 15%]
+tests/test_excel_builder_writer.py::test_workbook_writer_creates_arbets_excel PASSED [ 16%]
+tests/test_excel_report_package_standard.py::test_excel_report_zip_includes_expected_core_files PASSED [ 16%]
+tests/test_excel_report_package_standard.py::test_build_excel_report_creates_snapshot_before_zip PASSED [ 17%]
+tests/test_excel_report_zip_scripts.py::test_excel_report_zip_script_exists_and_targets_rapportzip PASSED [ 17%]
+tests/test_excel_report_zip_scripts.py::test_build_excel_report_bat_exists PASSED [ 18%]
+tests/test_facit_611_yaml.py::test_facit_yaml_loader_loads_611_rows PASSED [ 18%]
+tests/test_facit_613_yaml.py::test_facit_yaml_loader_loads_613_rows PASSED [ 19%]
+tests/test_facit_614_yaml.py::test_facit_yaml_loader_loads_614_rows PASSED [ 19%]
+tests/test_facit_yaml_loader.py::test_facit_yaml_loader_loads_612_rows PASSED [ 19%]
+tests/test_final_cleanup_before_release.py::test_zip_output_does_not_include_archive_folder_as_source PASSED [ 20%]
+tests/test_final_cleanup_before_release.py::test_build_report_keeps_rapportzip_output PASSED [ 20%]
+tests/test_final_cleanup_before_release.py::test_release_ready_docs_folders_exist PASSED [ 21%]
+tests/test_fixed_edp_and_standard_deviation_rule.py::test_proposal_trace_adds_edp_standard_deviation_sheet PASSED [ 21%]
+tests/test_fixed_edp_and_standard_deviation_rule.py::test_isolated_workbook_documents_fixed_edp_rule PASSED [ 22%]
+tests/test_flat_tax_extractor.py::test_flat_extractor_removes_single_price_from_name PASSED [ 22%]
+tests/test_flat_tax_extractor.py::test_flat_extractor_creates_multiple_price_rows PASSED [ 23%]
+tests/test_flat_tax_extractor.py::test_flat_extractor_skips_lowercase_continuation_fragment PASSED [ 23%]
+tests/test_flat_tax_extractor.py::test_flat_extractor_skips_tillkommer_note PASSED [ 23%]
+tests/test_flat_tax_extractor_unit_suffix.py::test_flat_extractor_splits_fraktion_suffix_from_name PASSED [ 24%]
+tests/test_flat_tax_extractor_unit_suffix.py::test_flat_extractor_splits_besok_suffix_from_name PASSED [ 24%]
+tests/test_golden_builder.py::test_golden_master_builder_counts_rows PASSED [ 25%]
+tests/test_golden_builder.py::test_golden_master_merger_avoids_duplicates PASSED [ 25%]
+tests/test_golden_builder.py::test_section_rule_engine_known_count PASSED [ 26%]
+tests/test_golden_builder.py::test_reference_rule_engine PASSED          [ 26%]
+tests/test_golden_builder.py::test_variant_rule_engine PASSED            [ 27%]
+tests/test_golden_builder.py::test_confidence_scoring PASSED             [ 27%]
+tests/test_golden_builder.py::test_tax_pattern_matcher_best_match PASSED [ 28%]
+tests/test_heading_numberer.py::test_heading_numberer_generates_section_numbers PASSED [ 28%]
+tests/test_heading_numberer.py::test_heading_numberer_increments_siblings PASSED [ 28%]
+tests/test_heading_numberer.py::test_heading_numberer_does_not_double_prefix PASSED [ 29%]
+tests/test_heading_tree.py::test_section_classifier_detects_numbered_heading PASSED [ 29%]
+tests/test_heading_tree.py::test_heading_tree_builder_creates_hierarchy PASSED [ 30%]
+tests/test_isolated_edp_run.py::test_isolated_workbook_builder_creates_taxa_fran_edp_sheet PASSED [ 30%]
+tests/test_isolated_run_cli_and_package.py::test_isolated_run_cli_exists PASSED [ 31%]
+tests/test_isolated_run_cli_and_package.py::test_build_sorsele_excel_bat_exists PASSED [ 31%]
+tests/test_isolated_run_cli_and_package.py::test_all_edp_exports_are_kept_separate PASSED [ 32%]
+tests/test_knowledge_workbook_writer.py::test_knowledge_workbook_writer_adds_tax_knowledge_sheet PASSED [ 32%]
+tests/test_knowledge_workbook_writer.py::test_knowledge_package_imports_writer PASSED [ 33%]
+tests/test_master_excel_reader.py::test_master_excel_reader_reads_basic_rows PASSED [ 33%]
+tests/test_match_normalizer_section.py::test_match_normalizer_removes_section_symbol PASSED [ 33%]
+tests/test_match_normalizer_section.py::test_match_normalizer_row_key_matches_section_symbol_variants PASSED [ 34%]
+tests/test_match_normalizer_section.py::test_match_normalizer_weak_key_matches_section_symbol_variants PASSED [ 34%]
+tests/test_matching_engine.py::test_matching_engine_exact_match PASSED   [ 35%]
+tests/test_matching_engine.py::test_matching_engine_new_when_no_match PASSED [ 35%]
+tests/test_matching_engine.py::test_matching_engine_probable_when_variant_or_unit_differs PASSED [ 36%]
+tests/test_missing_row_diagnostics.py::test_missing_row_diagnostics_finds_semantic_candidate PASSED [ 36%]
+tests/test_name_normalizer.py::test_name_normalizer_aliases_common_612_spellings PASSED [ 37%]
+tests/test_name_normalizer.py::test_acceptance_runner_uses_alias_normalization PASSED [ 37%]
+tests/test_name_normalizer_block22.py::test_normalizer_treats_multiplication_symbols_same PASSED [ 38%]
+tests/test_name_normalizer_block22.py::test_normalizer_removes_metadata_and_units PASSED [ 38%]
+tests/test_name_normalizer_block22.py::test_normalizer_aliases_stubbar_roetter PASSED [ 38%]
+tests/test_name_normalizer_block22.py::test_normalizer_keeps_full_long_name PASSED [ 39%]
+tests/test_name_normalizer_block23.py::test_normalizer_collapses_duplicated_name_after_metadata_removal PASSED [ 39%]
+tests/test_name_normalizer_block23.py::test_normalizer_does_not_damage_single_name PASSED [ 40%]
+tests/test_name_normalizer_block23.py::test_normalizer_removes_duplicate_with_units_between_end PASSED [ 40%]
+tests/test_name_normalizer_block25.py::test_name_normalizer_does_not_remove_four_digit_measurements PASSED [ 41%]
+tests/test_name_normalizer_block25.py::test_name_normalizer_removes_ewc_but_not_product_number_text PASSED [ 41%]
+tests/test_name_normalizer_block26.py::test_normalizer_removes_ewc_with_star_before_symbol_normalization PASSED [ 42%]
+tests/test_name_normalizer_block26.py::test_normalizer_keeps_multiplication_dimension_after_fix PASSED [ 42%]
+tests/test_name_normalizer_block27.py::test_normalizer_removes_ewc_code_with_star_without_leaving_x PASSED [ 42%]
+tests/test_name_normalizer_block27.py::test_normalizer_removes_duplicated_ewc_code_with_star_without_leaving_x PASSED [ 43%]
+tests/test_name_normalizer_block27.py::test_normalizer_keeps_dimension_star_as_x PASSED [ 43%]
+tests/test_output_structure_files.py::test_output_structure_tool_exists PASSED [ 44%]
+tests/test_output_structure_files.py::test_build_report_mentions_word_output_folder PASSED [ 44%]
+tests/test_output_structure_files.py::test_build_report_uses_rapportzip_not_docs_for_feedback_zip PASSED [ 45%]
+tests/test_output_structure_files.py::test_build_report_writes_directly_to_diagnostics PASSED [ 45%]
+tests/test_project_config_reader.py::test_project_config_reader_reads_config PASSED [ 46%]
+tests/test_project_runner.py::test_project_runner_creates_isolated_output PASSED [ 46%]
+tests/test_project_scripts.py::test_project_scripts_exist PASSED         [ 47%]
+tests/test_project_scripts.py::test_project_configs_exist PASSED         [ 47%]
+tests/test_project_scripts.py::test_report_package_includes_project_outputs FAILED [ 47%]
+tests/test_project_scripts.py::test_build_excel_report_runs_project_outputs FAILED [ 48%]
+tests/test_project_scripts.py::test_standard_tax_reference_is_not_project_specific PASSED [ 48%]
+tests/test_proposal_trace_docs.py::test_block_docs_mention_proposal_and_trace_sheets PASSED [ 49%]
+tests/test_proposal_trace_docs.py::test_isolated_builder_mentions_trace_sheets PASSED [ 49%]
+tests/test_proposal_trace_sheets.py::test_proposal_trace_sheets_are_added_to_workbook PASSED [ 50%]
+tests/test_proposal_trace_sheets.py::test_isolated_workbook_builder_includes_proposal_and_trace_sheets PASSED [ 50%]
+tests/test_proposal_trace_sheets.py::test_parser_workbook_writer_includes_proposal_and_trace_sheets PASSED [ 51%]
+tests/test_rapportzip_structure.py::test_zip_output_targets_rapportzip PASSED [ 51%]
+tests/test_rapportzip_structure.py::test_build_report_mentions_rapportzip PASSED [ 52%]
+tests/test_rapportzip_structure.py::test_build_report_writes_directly_to_output_subfolders PASSED [ 52%]
+tests/test_rapportzip_structure.py::test_clean_output_root_tool_exists PASSED [ 52%]
+tests/test_repository_cleanup.py::test_cleanup_duplicate_tests_tool_exists PASSED [ 53%]
+tests/test_repository_cleanup.py::test_find_duplicate_test_filenames_detects_duplicates PASSED [ 53%]
+tests/test_repository_cleanup.py::test_build_excel_report_runs_cleanup_before_pytest PASSED [ 54%]
+tests/test_row_plan_cli_package.py::test_row_plan_cli_exists PASSED      [ 54%]
+tests/test_row_plan_cli_package.py::test_build_excel_report_runs_row_plan_step PASSED [ 55%]
+tests/test_row_plan_cli_package.py::test_zip_excel_report_includes_row_plan_files PASSED [ 55%]
+tests/test_rulebook_cli_and_report_package.py::test_rulebook_cli_exists PASSED [ 56%]
+tests/test_rulebook_cli_and_report_package.py::test_build_excel_report_runs_rulebook_step PASSED [ 56%]
+tests/test_rulebook_cli_and_report_package.py::test_zip_excel_report_includes_rulebook_report PASSED [ 57%]
+tests/test_rulebook_reader.py::test_rulebook_reader_reads_rule_sheets PASSED [ 57%]
+tests/test_rulebook_reader.py::test_rulebook_reader_reports_missing_file PASSED [ 57%]
+tests/test_rulebook_reader.py::test_edp_rule_validator_detects_missing_terms PASSED [ 58%]
+tests/test_rulebook_reader.py::test_edp_rule_validator_accepts_minimum_documented_terms PASSED [ 58%]
+tests/test_section611_extractor.py::test_section611_extracts_split_ej_redovisad_ankomst_row PASSED [ 59%]
+tests/test_section612_block22.py::test_section612_extracts_multiplication_star_variant PASSED [ 59%]
+tests/test_section612_block22.py::test_section612_extracts_remaining_block_a_rows PASSED [ 60%]
+tests/test_section612_block23.py::test_section612_extracts_duplicated_skrtymmande_word_row PASSED [ 60%]
+tests/test_section612_extractor.py::test_section612_extractor_extracts_block_a_without_price PASSED [ 61%]
+tests/test_section612_extractor.py::test_section612_extractor_ignores_reference PASSED [ 61%]
+tests/test_section612_specific_match.py::test_section612_prefers_longest_specific_match PASSED [ 61%]
+tests/test_section612_specific_match.py::test_section612_does_not_let_short_substring_win PASSED [ 62%]
+tests/test_section612_trace.py::test_section612_trace_records_export_decision PASSED [ 62%]
+tests/test_section612_trace.py::test_section612_trace_records_not_exported_decision PASSED [ 63%]
+tests/test_section613_dedup_policy.py::test_section613_duplicate_policy_keeps_identical_rows PASSED [ 63%]
+tests/test_section614_extractor.py::test_section614_extracts_split_elkretsen_row PASSED [ 64%]
+tests/test_section_classifier_rewrite.py::test_accepts_real_section_with_paragraph_symbol PASSED [ 64%]
+tests/test_section_classifier_rewrite.py::test_accepts_main_chapter PASSED [ 65%]
+tests/test_section_classifier_rewrite.py::test_rejects_year PASSED       [ 65%]
+tests/test_section_classifier_rewrite.py::test_rejects_date PASSED       [ 66%]
+tests/test_section_classifier_rewrite.py::test_rejects_ewc_code PASSED   [ 66%]
+tests/test_section_classifier_rewrite.py::test_rejects_un_number PASSED  [ 66%]
+tests/test_section_classifier_rewrite.py::test_rejects_price_row PASSED  [ 67%]
+tests/test_section_classifier_rewrite.py::test_rejects_tax_data_row_starting_with_container PASSED [ 67%]
+tests/test_section_classifier_rewrite.py::test_rejects_document_title_with_year PASSED [ 68%]
+tests/test_section_number.py::test_section_number_parts PASSED           [ 68%]
+tests/test_section_number.py::test_section_number_child PASSED           [ 69%]
+tests/test_section_number.py::test_section_filter_false_heading PASSED   [ 69%]
+tests/test_semantic_parser.py::test_row_type_classifier_reference PASSED [ 70%]
+tests/test_semantic_parser.py::test_section_tax_rules_reference_not_exported PASSED [ 70%]
+tests/test_semantic_parser.py::test_semantic_parser_assigns_section_to_tax_row PASSED [ 71%]
+tests/test_semantic_parser.py::test_semantic_parser_keeps_reference_but_does_not_export PASSED [ 71%]
+tests/test_standard_tax_package.py::test_standard_tax_file_path_is_documented_in_package PASSED [ 71%]
+tests/test_standard_tax_package.py::test_zip_report_includes_standard_tax_source PASSED [ 72%]
+tests/test_standard_tax_package.py::test_edp_run_report_mentions_standard_tax_reference PASSED [ 72%]
+tests/test_standard_tax_package.py::test_standard_tax_can_only_be_reference_not_override PASSED [ 73%]
+tests/test_standard_tax_reader_and_suggestions.py::test_standard_tax_reader_reads_catalog PASSED [ 73%]
+tests/test_standard_tax_reader_and_suggestions.py::test_standard_tax_suggestion_engine_finds_proposal PASSED [ 74%]
+tests/test_standard_tax_reader_and_suggestions.py::test_standard_tax_suggestion_engine_marks_no_suggestion PASSED [ 74%]
+tests/test_standard_tax_suggestion_cli_package.py::test_standard_suggestions_cli_exists PASSED [ 75%]
+tests/test_standard_tax_suggestion_cli_package.py::test_build_excel_report_runs_standard_suggestions PASSED [ 75%]
+tests/test_standard_tax_suggestion_cli_package.py::test_zip_includes_standard_suggestion_reports PASSED [ 76%]
+tests/test_standard_tax_workbook_injector.py::test_standard_tax_workbook_injector_adds_reference_sheet PASSED [ 76%]
+tests/test_standard_tax_workbook_injector.py::test_isolated_workbook_builder_includes_standard_tax_reference PASSED [ 76%]
+tests/test_suggestion_workbook_writer.py::test_suggestion_workbook_writer_writes_proposals_and_trace PASSED [ 77%]
+tests/test_suggestion_workbook_writer.py::test_suggestion_workbook_writer_does_not_write_no_suggestion PASSED [ 77%]
+tests/test_table_engine.py::test_cell_normalizer PASSED                  [ 78%]
+tests/test_table_engine.py::test_row_classifier_header PASSED            [ 78%]
+tests/test_table_engine.py::test_row_classifier_tax PASSED               [ 79%]
+tests/test_table_engine.py::test_row_classifier_reference PASSED         [ 79%]
+tests/test_table_engine.py::test_smart_table_detector_visual_rows PASSED [ 80%]
+tests/test_table_engine2.py::test_price_cell_detector PASSED             [ 80%]
+tests/test_table_engine2.py::test_structured_extractor_splits_three_prices_into_variants PASSED [ 80%]
+tests/test_table_engine2.py::test_structured_extractor_keeps_name_separate_from_price PASSED [ 81%]
+tests/test_tax_classifier_precision.py::test_definition_text_with_unit_word_is_not_tax PASSED [ 81%]
+tests/test_tax_classifier_precision.py::test_long_legal_text_with_avgift_is_not_tax PASSED [ 82%]
+tests/test_tax_classifier_precision.py::test_price_placeholder_is_tax PASSED [ 82%]
+tests/test_tax_classifier_precision.py::test_numeric_decimal_price_is_tax PASSED [ 83%]
+tests/test_tax_classifier_precision.py::test_chapter_1_never_exports PASSED [ 83%]
+tests/test_tax_classifier_precision.py::test_real_tax_section_exports PASSED [ 84%]
+tests/test_tax_decision_engine.py::test_decision_engine_prefers_existing_edp_match PASSED [ 84%]
+tests/test_tax_decision_engine.py::test_decision_engine_uses_standard_only_when_no_edp_match PASSED [ 85%]
+tests/test_tax_decision_engine.py::test_decision_engine_marks_new_taxa_without_match_or_suggestion PASSED [ 85%]
+tests/test_tax_extractor.py::test_unit_detector_detects_kr_per_fraktion PASSED [ 85%]
+tests/test_tax_extractor.py::test_metadata_extractor_ewc_and_un PASSED   [ 86%]
+tests/test_tax_extractor.py::test_metadata_extractor_ewc_without_star PASSED [ 86%]
+tests/test_tax_extractor.py::test_tax_row_extractor_extracts_row PASSED  [ 87%]
+tests/test_tax_knowledge_cli_package.py::test_tax_knowledge_cli_exists PASSED [ 87%]
+tests/test_tax_knowledge_cli_package.py::test_build_excel_report_runs_tax_knowledge_step PASSED [ 88%]
+tests/test_tax_knowledge_cli_package.py::test_zip_includes_tax_knowledge_reports PASSED [ 88%]
+tests/test_tax_knowledge_cli_workbook.py::test_tax_knowledge_cli_supports_workbook_argument PASSED [ 89%]
+tests/test_tax_knowledge_cli_workbook.py::test_build_excel_report_writes_tax_knowledge_to_workbook PASSED [ 89%]
+tests/test_tax_knowledge_extractor.py::test_tax_knowledge_extractor_detects_avc_weight_asbest PASSED [ 90%]
+tests/test_tax_knowledge_extractor.py::test_tax_knowledge_extractor_detects_container_volume PASSED [ 90%]
+tests/test_tax_knowledge_extractor.py::test_tax_knowledge_extractor_detects_slam_category FAILED [ 90%]
+tests/test_tax_pipeline.py::test_tax_pipeline_runs_single_official_flow PASSED [ 91%]
+tests/test_tax_pipeline_export_section.py::test_tax_pipeline_exports_tax_row_outside_chapter_1 PASSED [ 91%]
+tests/test_taxepunkter_row_builder.py::test_taxepunkter_row_builder_creates_row_when_word_tax_missing PASSED [ 92%]
+tests/test_taxepunkter_row_builder.py::test_taxepunkter_row_builder_reuses_existing_row_without_tax_code PASSED [ 92%]
+tests/test_taxepunkter_row_builder.py::test_taxepunkter_row_builder_has_one_plan_row_per_parser_row PASSED [ 93%]
+tests/test_template_copy_cli_package.py::test_template_copy_cli_exists PASSED [ 93%]
+tests/test_template_copy_cli_package.py::test_template_version_history_exists PASSED [ 94%]
+tests/test_template_copy_cli_package.py::test_docs_include_user_approval_rule PASSED [ 94%]
+tests/test_template_master_manager.py::test_template_manager_creates_working_copy PASSED [ 95%]
+tests/test_template_master_manager.py::test_template_manager_refuses_overwrite_template PASSED [ 95%]
+tests/test_template_master_manager.py::test_template_manager_proposes_versioned_template_name PASSED [ 95%]
+tests/test_validation_engine.py::test_duplicate_detector_finds_duplicate PASSED [ 96%]
+tests/test_validation_engine.py::test_missing_tax_detector_finds_missing_section PASSED [ 96%]
+tests/test_validation_engine.py::test_validation_engine_passes_valid_rows_without_golden PASSED [ 97%]
+tests/test_word_tax_coverage_imports.py::test_coverage_modules_import_cleanly PASSED [ 97%]
+tests/test_word_tax_coverage_imports.py::test_coverage_cli_exists PASSED [ 98%]
+tests/test_workbook_profiler.py::test_workbook_profiler_detects_headers_tables_hidden_columns_and_validations PASSED [ 98%]
+tests/test_workbook_profiler.py::test_workbook_profile_reporter_writes_report PASSED [ 99%]
+tests/test_workbook_snapshot.py::test_workbook_snapshot_writes_selected_sheets PASSED [ 99%]
+tests/test_workbook_taxepunkter_reader.py::test_workbook_taxepunkter_reader_reads_rows PASSED [100%]
+
+================================== FAILURES ===================================
+________________ test_report_package_includes_project_outputs _________________
+tests\test_project_scripts.py:20: in test_report_package_includes_project_outputs
+    assert r"output\projects\Mala" in text
+E   assert 'output\\projects\\Mala' in '$date = Get-Date -Format "yyyy-MM-dd_HH-mm-ss"\n$zipDir = "rapportzip"\n$zip = "$zipDir\\ExcelBuilder_Run_$date.zip"\n\nNew-Item -ItemType Directory -Force -Path $zipDir | Out-Null\nNew-Item -ItemType Directory -Force -Path "output\\archive" | Out-Null\nNew-Item -ItemType Directory -Force -Path "output\\excel" | Out-Null\nNew-Item -ItemType Directory -Force -Path "output\\diagnostics" | Out-Null\n\n$manifest = "output\\excel\\excel_report_manifest.txt"\n\n$files = @(\n    "output\\diagnostics\\test_cleanup_report.txt",\n    "output\\diagnostics\\test_syntax_report.txt",\n    "output\\excel\\ArbetsExcel_byggd_fran_parser.xlsx",\n    "output\\excel\\tax_knowledge_report.txt",\n    "output\\excel\\tax_knowledge_features.csv",\n    "output\\excel\\tax_knowledge_console.txt",\n    "output\\excel\\tax_decision_report.txt",\n    "output\\excel\\tax_decision_results.csv",\n    "output\\excel\\tax_decision_console.txt",\n    "output\\excel\\standard_tax_suggestions_report.txt",\n    "output\\excel\\standard_tax_suggestions.csv",\n    "output\\excel\\standard_tax_suggestions_console.txt",\n    "output\\projects\\Sorsele\\excel\\ArbetsExcel_Sorsele_byggd.xlsx",\n    "output\\projects\\Sors...    "output\\excel\\edp_rulebook_console.txt",\n    "output\\excel\\excel_builder_report.txt",\n    "output\\excel\\excel_builder_console.txt",\n    "output\\excel\\excel_inspect_console.txt",\n    "output\\diagnostics\\pytest_report.txt",\n    "output\\reports\\parser3_result.json",\n    "output\\acceptance\\parser3_acceptance_report.txt"\n)\n\n$manifestLines = @()\n$manifestLines += "Excel Builder Report Package"\n$manifestLines += "Created: $date"\n$manifestLines += ""\n$manifestLines += "Included files:"\n\n$existing = @()\nforeach ($file in $files) {\n    if (Test-Path $file) {\n        $existing += $file\n        $manifestLines += "[OK] $file"\n    } else {\n        $manifestLines += "[MISSING] $file"\n    }\n}\n\n$manifestLines | Out-File -FilePath $manifest -Encoding utf8\n$existing += $manifest\n\nif ($existing.Count -eq 0) {\n    Write-Host "Inga Excel Builder-rapporter hittades att zippa."\n    exit 1\n}\n\nCompress-Archive -Path $existing -DestinationPath $zip -Force\n\n$archiveZip = "output\\archive\\ExcelBuilder_Run_$date.zip"\nCopy-Item $zip $archiveZip -Force\n\nWrite-Host "ZIP skapad: $zip"\nWrite-Host "Arkivkopia: $archiveZip"\nWrite-Host "Manifest: $manifest"\n'
+________________ test_build_excel_report_runs_project_outputs _________________
+tests\test_project_scripts.py:29: in test_build_excel_report_runs_project_outputs
+    assert r"data\projects\Mala\project_config.json" in text
+E   assert 'data\\projects\\Mala\\project_config.json' in '@echo off\nsetlocal\n\necho ==========================================\necho Excel Builder Report Package\necho ==========================================\n\nif not exist output mkdir output\nif not exist output\\excel mkdir output\\excel\nif not exist output\\diagnostics mkdir output\\diagnostics\nif not exist output\\reports mkdir output\\reports\nif not exist output\\acceptance mkdir output\\acceptance\nif not exist output\\projects mkdir output\\projects\nif not exist rapportzip mkdir rapportzip\n\necho.\necho [1/18] Rensar dubbletter i teststruktur...\npython tools\\cleanup_duplicate_tests.py > output\\diagnostics\\test_cleanup_report.txt 2>&1\n\necho.\necho [2/18] Kontrollerar testsyntax...\npython tools\\check_test_syntax.py > output\\diagnostics\\test_syntax_report.txt 2>&1\n\necho.\necho [3/18] Kör tester...\npython -m pytest -v --tb=short > output\\diagnostics\\pytest_report.txt 2>&1\n\necho.\necho [4/18] Extraherar taxekunskap...\npython excel_builder_tax_knowledge.py --parser-result "output\\reports\\parser3_result.json" > output\\excel\\tax_knowledge_console.txt 2>&1\n\necho.\necho [5/18] Profilerar Arbets-Excel...\npython excel_builder_inspect.py --workbook "data\\...tput\\reports\\parser3_result.json" --workbook "output\\projects\\Sorsele\\excel\\ArbetsExcel_Sorsele_byggd.xlsx" >> output\\excel\\sorsele_project_run_console.txt 2>&1\npython excel_builder_apply_suggestions.py --parser-result "output\\reports\\parser3_result.json" --standard-tax "data\\edp_standard\\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\\projects\\Sorsele\\excel\\ArbetsExcel_Sorsele_byggd.xlsx" --municipality "Sorsele" >> output\\excel\\sorsele_project_run_console.txt 2>&1\npython excel_builder_edp_deviations.py --municipality "Sorsele" --edp-export "data\\edp_exports\\Sorsele.xlsx" --standard-tax "data\\edp_standard\\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\\projects\\Sorsele\\excel\\ArbetsExcel_Sorsele_byggd.xlsx" >> output\\excel\\sorsele_project_run_console.txt 2>&1\n\necho.\necho [17/18] Skapar standardiserad rapportzip...\npowershell -NoProfile -ExecutionPolicy Bypass -File tools\\zip_excel_report.ps1\n\necho.\necho [18/18] Klar.\n\necho.\necho ==========================================\necho KLAR\necho Skicka senaste ZIP-filen från rapportzip till ChatGPT.\necho ==========================================\n\npause\nendlocal\n'
+_____________ test_tax_knowledge_extractor_detects_slam_category ______________
+tests\test_tax_knowledge_extractor.py:37: in test_tax_knowledge_extractor_detects_slam_category
+    assert feature.waste_type == "Slam"
+E   AssertionError: assert 'Träavfall' == 'Slam'
+E     
+E     - Slam
+E     + Träavfall
 =========================== short test summary info ===========================
-ERROR tests/test_tax_knowledge_cli_workbook.py
-!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
-============================== 1 error in 0.68s ===============================
+FAILED tests/test_project_scripts.py::test_report_package_includes_project_outputs
+FAILED tests/test_project_scripts.py::test_build_excel_report_runs_project_outputs
+FAILED tests/test_tax_knowledge_extractor.py::test_tax_knowledge_extractor_detects_slam_category
+======================== 3 failed, 218 passed in 8.97s ========================
