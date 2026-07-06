@@ -48,4 +48,4 @@ tests\test_project_scripts.py:19
 =========================== short test summary info ===========================
 ERROR tests/test_project_scripts.py
 !!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
-======================== 2 warnings, 1 error in 0.65s =========================
+======================== 2 warnings, 1 error in 0.87s =========================
