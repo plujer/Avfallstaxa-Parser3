@@ -4,22 +4,38 @@ cachedir: .pytest_cache
 rootdir: C:\PyProjects\Taxa 3.0
 configfile: pytest.ini
 testpaths: tests
-collecting ... collected 211 items / 1 error
+collecting ... collected 216 items / 1 error
 
 =================================== ERRORS ====================================
-___________ ERROR collecting tests/test_tax_knowledge_extractor.py ____________
-ImportError while importing test module 'C:\PyProjects\Taxa 3.0\tests\test_tax_knowledge_extractor.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
+__________ ERROR collecting tests/test_tax_knowledge_cli_workbook.py __________
+.venv\Lib\site-packages\_pytest\python.py:508: in importtestmodule
+    mod = import_path(
+.venv\Lib\site-packages\_pytest\pathlib.py:596: in import_path
+    importlib.import_module(module_name)
 C:\Users\Isak.Hjelte\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-tests\test_tax_knowledge_extractor.py:1: in <module>
-    from excel_builder.knowledge import TaxKnowledgeExtractor
-excel_builder\knowledge\__init__.py:2: in <module>
-    from .knowledge_workbook_writer import KnowledgeWorkbookWriter
-E   ModuleNotFoundError: No module named 'excel_builder.knowledge.knowledge_workbook_writer'
+<frozen importlib._bootstrap>:1406: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1342: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:938: in _load_unlocked
+    ???
+.venv\Lib\site-packages\_pytest\assertion\rewrite.py:179: in exec_module
+    source_stat, co = _rewrite_test(fn, self.config)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\_pytest\assertion\rewrite.py:348: in _rewrite_test
+    tree = ast.parse(source, filename=strfn)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Isak.Hjelte\AppData\Local\Python\pythoncore-3.14-64\Lib\ast.py:46: in parse
+    return compile(source, filename, mode, flags,
+E     File "C:\PyProjects\Taxa 3.0\tests\test_tax_knowledge_cli_workbook.py", line 13
+E       assert "--workbook "output\excel\ArbetsExcel_byggd_fran_parser.xlsx"" in text
+E                                  ^
+E   SyntaxError: unexpected character after line continuation character
 =========================== short test summary info ===========================
-ERROR tests/test_tax_knowledge_extractor.py
+ERROR tests/test_tax_knowledge_cli_workbook.py
 !!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
-============================== 1 error in 0.78s ===============================
+============================== 1 error in 0.68s ===============================

@@ -4,6 +4,12 @@ Excel: output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx
 Rapport: output\projects\Sorsele\reports\edp_isolated_run_report_Sorsele.txt
 Manifest: output\projects\Sorsele\manifest\project_run_manifest.json
 Warnings: 0
+Tax Knowledge extraction klar
+Parser rows: 241
+Features: 241
+TXT: output\excel\tax_knowledge_report.txt
+CSV: output\excel\tax_knowledge_features.csv
+Workbook updated: output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx
 Standardtaxeförslag skrivna till arbetsbok
 Workbook: output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx
 Parser rows: 241

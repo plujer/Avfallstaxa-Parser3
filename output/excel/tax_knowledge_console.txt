@@ -1,6 +1,11 @@
-Traceback (most recent call last):
-  File "C:\PyProjects\Taxa 3.0\excel_builder_tax_knowledge.py", line 6, in <module>
-    from excel_builder.knowledge import TaxKnowledgeExtractor
-  File "C:\PyProjects\Taxa 3.0\excel_builder\knowledge\__init__.py", line 2, in <module>
-    from .knowledge_workbook_writer import KnowledgeWorkbookWriter
-ModuleNotFoundError: No module named 'excel_builder.knowledge.knowledge_workbook_writer'
+Tax Knowledge extraction klar
+Parser rows: 241
+Features: 241
+TXT: output\excel\tax_knowledge_report.txt
+CSV: output\excel\tax_knowledge_features.csv
+Tax Knowledge extraction klar
+Parser rows: 241
+Features: 241
+TXT: output\excel\tax_knowledge_report.txt
+CSV: output\excel\tax_knowledge_features.csv
+Workbook updated: output\excel\ArbetsExcel_byggd_fran_parser.xlsx

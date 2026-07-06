@@ -54,31 +54,27 @@ echo [10/17] Bygger Arbets-Excel från parseroutput...
 python excel_builder_cli.py --parser-result "output\reports\parser3_result.json" --out "output\excel\ArbetsExcel_byggd_fran_parser.xlsx" > output\excel\excel_builder_console.txt 2>&1
 
 echo.
-echo [11/17] Skriver standardtaxeförslag till Arbets-Excel...
+echo [11/17] Skriver Tax Knowledge till Arbets-Excel...
+python excel_builder_tax_knowledge.py --parser-result "output\reports\parser3_result.json" --workbook "output\excel\ArbetsExcel_byggd_fran_parser.xlsx" >> output\excel\tax_knowledge_console.txt 2>&1
+
+echo.
+echo [12/17] Skriver standardtaxeförslag till Arbets-Excel...
 python excel_builder_apply_suggestions.py --parser-result "output\reports\parser3_result.json" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\excel\ArbetsExcel_byggd_fran_parser.xlsx" --municipality "" >> output\excel\standard_tax_suggestions_console.txt 2>&1
 
 echo.
-echo [12/17] Kör samlad beslutsmotor...
+echo [13/17] Kör samlad beslutsmotor...
 python excel_builder_decide.py --parser-result "output\reports\parser3_result.json" --reference-workbook "data\ArbetsExcel_Reference.xlsx" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\excel\ArbetsExcel_byggd_fran_parser.xlsx" > output\excel\tax_decision_console.txt 2>&1
 
 echo.
-echo [13/17] Validerar att alla Word-taxor finns i Taxepunkter...
+echo [14/17] Validerar att alla Word-taxor finns i Taxepunkter...
 python excel_builder_coverage.py --parser-result "output\reports\parser3_result.json" --workbook "output\excel\ArbetsExcel_byggd_fran_parser.xlsx" > output\excel\word_tax_coverage_console.txt 2>&1
 
 echo.
-echo [14/17] Kör isolerad Sorsele projektkörning...
+echo [15/17] Kör isolerad Sorsele projektkörning...
 python excel_builder_project_run.py --config "data\projects\Sorsele\project_config.json" > output\excel\sorsele_project_run_console.txt 2>&1
+python excel_builder_tax_knowledge.py --parser-result "output\reports\parser3_result.json" --workbook "output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx" >> output\excel\sorsele_project_run_console.txt 2>&1
 python excel_builder_apply_suggestions.py --parser-result "output\reports\parser3_result.json" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx" --municipality "Sorsele" >> output\excel\sorsele_project_run_console.txt 2>&1
 python excel_builder_edp_deviations.py --municipality "Sorsele" --edp-export "data\edp_exports\Sorsele.xlsx" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx" >> output\excel\sorsele_project_run_console.txt 2>&1
-
-echo.
-echo [15/17] Kör isolerade projekt för alla kommuner...
-python excel_builder_project_run.py --config "data\projects\Mala\project_config.json" > output\excel\mala_project_run_console.txt 2>&1
-python excel_builder_apply_suggestions.py --parser-result "output\reports\parser3_result.json" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\projects\Mala\excel\ArbetsExcel_Mala_byggd.xlsx" --municipality "Malå" >> output\excel\mala_project_run_console.txt 2>&1
-python excel_builder_edp_deviations.py --municipality "Malå" --edp-export "data\edp_exports\Mala.xlsx" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\projects\Mala\excel\ArbetsExcel_Mala_byggd.xlsx" >> output\excel\mala_project_run_console.txt 2>&1
-python excel_builder_project_run.py --config "data\projects\Norsjo\project_config.json" > output\excel\norsjo_project_run_console.txt 2>&1
-python excel_builder_apply_suggestions.py --parser-result "output\reports\parser3_result.json" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\projects\Norsjo\excel\ArbetsExcel_Norsjo_byggd.xlsx" --municipality "Norsjö" >> output\excel\norsjo_project_run_console.txt 2>&1
-python excel_builder_edp_deviations.py --municipality "Norsjö" --edp-export "data\edp_exports\Norsjo.xlsx" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\projects\Norsjo\excel\ArbetsExcel_Norsjo_byggd.xlsx" >> output\excel\norsjo_project_run_console.txt 2>&1
 
 echo.
 echo [16/17] Skapar standardiserad rapportzip...
