@@ -2,7 +2,7 @@ Parser 3.0 precision report
 
 Matched: 0
 Missing: 271
-Extra: 233
+Extra: 236
 Passed: False
 
 MISSING
@@ -419,8 +419,10 @@ EXTRA
 - 6.1.2 | fönster- och planglas utan karm |  | kilogram | Extra parser row
 - 6.1.2 | fönster med karm |  |  | Extra parser row
 - 6.1.2 | plast |  | kilogram | Extra parser row
+- 6.1.2 | isolering utan innehåll av asbest |  | m³ | Extra parser row
 - 6.1.2 | klinker, keramik, porslin |  | kilogram | Extra parser row
 - 6.1.2 | handfat |  | styck | Extra parser row
+- 6.1.2 | wc-stol |  | styck | Extra parser row
 - 6.1.2 | metall |  | kilogram | Extra parser row
 - 6.1.2 | textilier |  | kilogram | Extra parser row
 - 6.1.2 | fiskeredskap |  | kilogram | Extra parser row
@@ -428,6 +430,7 @@ EXTRA
 - 6.1.2 | kvistar och grenar |  | m³ | Extra parser row
 - 6.1.2 | jord |  |  | Extra parser row
 - 6.1.2 | sten |  |  | Extra parser row
+- 6.1.2 | stubbar/rötter för krossning |  |  | Extra parser row
 - 6.1.2 | flera fraktioner för egen sortering på ramp (max 2 m³) |  | m³ | Extra parser row
 - 6.1.2 | osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) |  |  | Extra parser row
 - 6.1.2 | tonerkassetter, utan elektronik/chip |  | kilogram | Extra parser row

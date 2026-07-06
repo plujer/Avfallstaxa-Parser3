@@ -7,20 +7,23 @@ platform: Windows-11-10.0.26200-SP0
 PYTHONPATH: 
 
 git status:
-M build_report.bat
- M output/environment_report.txt
+M output/environment_report.txt
+ M output/parser3_acceptance_debug_report.txt
+ M output/parser3_acceptance_report.txt
+ M output/parser3_architecture_report.txt
+ M output/parser3_missing_diagnostics.txt
+ M output/parser3_precision_report.txt
+ M output/parser3_report.txt
+ M output/parser3_result.json
  M output/parser_console.txt
  M output/pytest_report.txt
- M parser3/acceptance/__init__.py
- M parser3/parser.py
- M tools/zip_output.ps1
-?? CHANGELOG_Block21.md
-?? INSTALL_Block21.md
-?? docs/MissingRowDiagnostics.md
-?? output/parser3_missing_diagnostics.txt
-?? parser3/acceptance/missing_row_diagnostics.py
-?? parser3/acceptance/missing_row_reporter.py
-?? tests/test_missing_row_diagnostics.py
+ M parser3/acceptance/name_normalizer.py
+ M parser3/extractors/section612_extractor.py
+?? CHANGELOG_Block22.md
+?? INSTALL_Block22.md
+?? docs/Block22_NormalizerFixes.md
+?? tests/test_name_normalizer_block22.py
+?? tests/test_section612_block22.py
 
 git branch:
 main

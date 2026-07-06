@@ -4,8 +4,8 @@ Purpose: identify exactly which manually verified facit rows are missing.
 
 SECTION 6.1.2
 Expected names: 103
-Exported names: 99
-Missing names: 4
+Exported names: 102
+Missing names: 1
 Extra names: 0
 
 MISSING
@@ -13,8 +13,9 @@ MISSING
   possible parser names:
     - Avfall till energiåtervinning
     - Avfall till energiåtervinning (240 L sopsäck)
-- Isolering utan innehåll av asbest
-- WC-stol
-- Stubbar/rötter för krossning
+
+FOUND IN SEMANTIC ROWS BUT NOT EXPORTED
+- info | default info | Avfall till energiåtervinning Avfall till energiåtervinning 200301 200301 kilogram kilogram
+- info | default info | Skrymmande avfall till energiåtervinning större än 20*20*80 Skrymmande avfall till energiåtervinning större än 20*20*80 200307 200307 kilogram kilogram
 
 --------------------------------------------------------------------------------
