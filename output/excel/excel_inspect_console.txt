@@ -1,0 +1,4 @@
+Arbets-Excel profile klar
+Workbook: C:\PyProjects\data\Master.xlsx
+Sheets: 32
+Report: output\excel\arbets_excel_profile_report.txt

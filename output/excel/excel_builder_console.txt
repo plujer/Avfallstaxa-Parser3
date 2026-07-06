@@ -1,0 +1,4 @@
+Excel Builder klar
+Rader: 241
+Excel: output\excel\ArbetsExcel_byggd_fran_parser.xlsx
+Rapport: output\excel\excel_builder_report.txt
