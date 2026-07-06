@@ -7,29 +7,33 @@ from parser3.acceptance.acceptance_models import (
     AcceptanceResult,
     SectionAcceptanceResult,
 )
+from parser3.acceptance.name_normalizer import NameNormalizer
 from parser3.models import TaxRow
 
 
 class AcceptanceRunner:
+    def __init__(self) -> None:
+        self.normalizer = NameNormalizer()
+
     def run(self, rows: list[TaxRow], expectations: list[AcceptanceExpectation]) -> AcceptanceResult:
         result = AcceptanceResult()
 
         for expectation in expectations:
             section_rows = [
                 row for row in rows
-                if row.export and self._norm(row.section) == self._norm(expectation.section)
+                if row.export and self._norm_section(row.section) == self._norm_section(expectation.section)
             ]
 
-            names = [self._norm(row.name) for row in section_rows]
+            names = [self.normalizer.normalize(row.name) for row in section_rows]
 
             missing_required = [
                 name for name in expectation.required_names
-                if self._norm(name) not in names
+                if self.normalizer.normalize(name) not in names
             ]
 
             wrongly_exported_ignored = [
                 name for name in expectation.ignored_names
-                if self._norm(name) in names
+                if self.normalizer.normalize(name) in names
             ]
 
             actual_count = len(section_rows)
@@ -52,6 +56,5 @@ class AcceptanceRunner:
 
         return result
 
-    def _norm(self, value: str) -> str:
-        value = (value or "").replace("\xa0", " ").replace("–", "-").strip().lower()
-        return " ".join(value.split())
+    def _norm_section(self, value: str) -> str:
+        return " ".join((value or "").replace("\xa0", " ").strip().lower().split())

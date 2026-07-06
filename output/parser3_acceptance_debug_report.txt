@@ -4,118 +4,17 @@ Purpose: identify exactly which manually verified facit rows are missing.
 
 SECTION 6.1.2
 Expected names: 103
-Exported names: 91
-Missing names: 35
-Extra names: 9
+Exported names: 99
+Missing names: 4
+Extra names: 0
 
 MISSING
-- Avfall till energiåtervinning (240 L sopsäck)
-- Avfall till energiåtervinning
 - Skrymmande avfall till energiåtervinning större än 20×20×80
-- Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp
-- Träavfall – behandlat, utan tapet, plastmatta, tjärpapp
-- Tryckimpregnerat virke, pall
-- Betong, lättbetong
-- Gips, gipsskivor
-- Tegel
-- Fönster- och planglas utan karm
-- Fönster med karm
   possible parser names:
-    - Rökdetektor med Am 241
-- Plast
+    - Avfall till energiåtervinning
+    - Avfall till energiåtervinning (240 L sopsäck)
 - Isolering utan innehåll av asbest
-- Klinker, keramik, porslin
-- Handfat
 - WC-stol
-- Metall
-- Textilier
-  possible parser names:
-    - Fotokemikalier
-- Fiskeredskap
-- Ätbart fett/frityrolja
-- Kvistar och grenar
-- Jord
-- Sten
 - Stubbar/rötter för krossning
-- Flera fraktioner för egen sortering på ramp (max 2 m³)
-- Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall)
-- Förpackningar, tömda ej rengjorda
-  possible parser names:
-    - Förpackningar, tömde ej rengjorda
-- Oljeavfall, fast osorterat emballage
-  possible parser names:
-    - Oljeavfall, fast osorterat emba
-    - El-avfall fast installation
-    - El-avfall fast installation
-- Gasol inkl. tub
-  possible parser names:
-    - Gasol inkl tub
-- Fluorvätesyra
-  possible parser names:
-    - Flourvätesyra
-    - Salpetersyra
-- Surt oorganiskt fast ämne
-  possible parser names:
-    - Surt oorganisk fast ämne
-    - Surt organisk fast ämne
-    - Surt oorganisk vätska
-    - Basiskt organiskt fast/flytande
-    - Surt organisk vätska
-- Surt organiskt fast ämne
-  possible parser names:
-    - Surt organisk fast ämne
-    - Surt oorganisk fast ämne
-    - Basiskt organiskt fast/flytande
-    - Surt organisk vätska
-    - Surt oorganisk vätska
-- Härdare metyl-etylketonperoxid
-  possible parser names:
-    - Härdare metyl- etylketonperoxid
-    - Härdare dibenzoylperoxid
-- Färg-, lack-, limburkar vattenbaserade
-  possible parser names:
-    - Färg-,lack-, limburkar vattenbaserade
-    - Färg-, lack-, limburkar lösning
-    - Färg-, lack-, limburkar lösning aerosoler
-- Rengörings-/vaskmedel fast
-  possible parser names:
-    - Rengöring/vaskmedel fast
-    - Bekämpningsmedel fast
-
-EXTRA EXPORTED
-- Förpackningar, tömde ej rengjorda
-- Oljeavfall, fast osorterat emba
-- Gasol inkl tub
-- Flourvätesyra
-- Surt oorganisk fast ämne
-- Surt organisk fast ämne
-- Härdare metyl- etylketonperoxid
-- Färg-,lack-, limburkar vattenbaserade
-- Rengöring/vaskmedel fast
-
-FOUND IN SEMANTIC ROWS BUT NOT EXPORTED
-- info | default info | Avfall till energiåtervinning (240 L sopsäck) Avfall till energiåtervinning (240 L sopsäck) 200301 200301 styck styck
-- info | default info | Avfall till energiåtervinning Avfall till energiåtervinning 200301 200301 kilogram kilogram
-- info | default info | Skrymmande avfall till energiåtervinning större än 20*20*80 Skrymmande avfall till energiåtervinning större än 20*20*80 200307 200307 kilogram kilogram
-- info | default info | Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp 170201 170201 kilogram kilogram
-- info | default info | Träavfall – behandlat, utan tapet, plastmatta, tjärpapp Träavfall – behandlat, utan tapet, plastmatta, tjärpapp 170201 170201 kilogram kilogram
-- info | default info | Tryckimpregnerat virke, pall Tryckimpregnerat virke, pall 170204* 170204* kilogram kilogram
-- info | default info | Betong, lättbetong Betong, lättbetong 170101 170101 kilogram kilogram
-- info | default info | Gips, gipsskivor Gips, gipsskivor 170802 170802 kilogram kilogram
-- info | default info | Tegel Tegel 170102 170102 kilogram kilogram
-- info | default info | Fönster- och planglas utan karm Fönster- och planglas utan karm 170202 170202 kilogram kilogram
-- info | default info | Fönster med karm Fönster med karm
-- info | default info | Plast Plast kilogram kilogram
-- info | default info | Klinker, keramik, porslin Klinker, keramik, porslin 170103 170103 kilogram kilogram
-- info | default info | Handfat Handfat 170103 170103 styck styck
-- info | default info | Metall Metall 200140 200140 kilogram kilogram
-- info | default info | Textilier Textilier kilogram kilogram
-- info | default info | Fiskeredskap Fiskeredskap kilogram kilogram
-- info | default info | Ätbart fett/frityrolja Ätbart fett/frityrolja liter liter
-- info | default info | Kvistar och grenar 200201 m3
-- info | default info | Jord
-- info | default info | Sten
-- info | default info | Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) besök
-- tax | low-level tax candidate | Förpackningar, tömde ej rengjorda 150110* kilogram 25,50
 
 --------------------------------------------------------------------------------

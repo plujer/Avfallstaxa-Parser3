@@ -6,6 +6,7 @@ from dataclasses import dataclass, field
 from difflib import SequenceMatcher
 
 from parser3.acceptance.facit_catalog import FacitCatalog
+from parser3.acceptance.name_normalizer import NameNormalizer
 from parser3.models import TaxRow
 from parser3.semantic import SemanticRow
 
@@ -29,15 +30,16 @@ class AcceptanceDebugResult:
 class AcceptanceDebugger:
     def __init__(self) -> None:
         self.catalog = FacitCatalog()
+        self.normalizer = NameNormalizer()
 
     def debug(self, rows: list[TaxRow], semantic_rows: list[SemanticRow]) -> AcceptanceDebugResult:
         result = AcceptanceDebugResult()
         catalog = self.catalog.rows_by_section()
 
         for section, expected_names in catalog.items():
-            exported = [row.name for row in rows if row.export and self._norm(row.section) == self._norm(section)]
-            exported_norm = {self._norm(name): name for name in exported}
-            expected_norm = {self._norm(name): name for name in expected_names}
+            exported = [row.name for row in rows if row.export and self._norm_section(row.section) == self._norm_section(section)]
+            exported_norm = {self.normalizer.normalize(name): name for name in exported}
+            expected_norm = {self.normalizer.normalize(name): name for name in expected_names}
 
             missing = [
                 original for norm, original in expected_norm.items()
@@ -73,9 +75,9 @@ class AcceptanceDebugger:
 
     def _closest(self, name: str, candidates: list[str]) -> list[str]:
         scored = []
-        name_norm = self._norm(name)
+        name_norm = self.normalizer.normalize(name)
         for candidate in candidates:
-            score = SequenceMatcher(None, name_norm, self._norm(candidate)).ratio()
+            score = SequenceMatcher(None, name_norm, self.normalizer.normalize(candidate)).ratio()
             if score >= 0.55:
                 scored.append((score, candidate))
         scored.sort(reverse=True)
@@ -83,12 +85,12 @@ class AcceptanceDebugger:
 
     def _semantic_candidates(self, section: str, missing: list[str], semantic_rows: list[SemanticRow]) -> list[str]:
         found: list[str] = []
-        missing_norm = [(name, self._norm(name)) for name in missing]
+        missing_norm = [(name, self.normalizer.normalize(name)) for name in missing]
 
         for row in semantic_rows:
-            if self._norm(row.section) != self._norm(section):
+            if self._norm_section(row.section) != self._norm_section(section):
                 continue
-            text_norm = self._norm(row.text)
+            text_norm = self.normalizer.normalize(row.text)
             for original, norm in missing_norm:
                 if norm and (norm in text_norm or text_norm in norm):
                     found.append(f"{row.row_type} | {row.reason} | {row.text}")
@@ -96,6 +98,5 @@ class AcceptanceDebugger:
 
         return found
 
-    def _norm(self, value: str) -> str:
-        value = (value or "").replace("\xa0", " ").replace("–", "-").strip().lower()
-        return " ".join(value.split())
+    def _norm_section(self, value: str) -> str:
+        return " ".join((value or "").replace("\xa0", " ").strip().lower().split())

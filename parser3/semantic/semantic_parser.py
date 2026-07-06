@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 
 from parser3.context.context_engine import ContextEngine
 from parser3.document import DocumentBlock
-from parser3.extractors import FlatTaxExtractor, TaxRowExtractor
+from parser3.extractors import FlatTaxExtractor, Section612Extractor, TaxRowExtractor
 from parser3.models import TaxRow
 from parser3.semantic.row_type_classifier import RowTypeClassifier
 from parser3.semantic.section_tax_rules import SectionTaxRules
@@ -29,11 +29,20 @@ class SemanticParser:
         self.tax_extractor = TaxRowExtractor()
         self.flat_extractor = FlatTaxExtractor()
         self.structured_extractor = StructuredTaxExtractor()
+        self.section612_extractor = Section612Extractor()
 
     def parse(self, blocks: list[DocumentBlock]) -> SemanticParseResult:
         context_blocks = self.context_engine.assign(blocks)
         semantic_rows: list[SemanticRow] = []
         tax_rows: list[TaxRow] = []
+        seen_keys: set[tuple[str, str, str, str]] = set()
+
+        def add_rows(new_rows: list[TaxRow]) -> None:
+            for row in new_rows:
+                key = (row.section, row.name, row.variant, row.unit)
+                if key not in seen_keys:
+                    seen_keys.add(key)
+                    tax_rows.append(row)
 
         for context_block in context_blocks:
             block = context_block.block
@@ -56,10 +65,20 @@ class SemanticParser:
                         )
                     )
 
+                    # §6.1.2 may contain tax rows without explicit price markers.
+                    if row_context.section == "6.1.2" and row_type != ROW_TYPE_TAX:
+                        add_rows(
+                            self.section612_extractor.extract_line(
+                                text,
+                                chapter=row_context.chapter,
+                                section=row_context.section,
+                                group=row_context.group,
+                            )
+                        )
+
                 if self.section_rules.should_export(context.section, "table"):
-                    # Native multi-cell tables use StructuredTaxExtractor.
                     if any(len([c for c in row if (c or '').strip()]) > 1 for row in block.rows):
-                        tax_rows.extend(
+                        add_rows(
                             self.structured_extractor.extract_table(
                                 block.rows,
                                 chapter=context.chapter,
@@ -68,10 +87,9 @@ class SemanticParser:
                             )
                         )
                     else:
-                        # Visual tables stored as one-cell rows use FlatTaxExtractor.
                         for row in block.rows:
                             text = " ".join(c for c in row if c).strip()
-                            tax_rows.extend(
+                            add_rows(
                                 self.flat_extractor.extract_line(
                                     text,
                                     chapter=context.chapter,
@@ -94,8 +112,18 @@ class SemanticParser:
                 )
             )
 
+            if context.section == "6.1.2" and row_type != ROW_TYPE_TAX:
+                add_rows(
+                    self.section612_extractor.extract_line(
+                        block.text,
+                        chapter=context.chapter,
+                        section=context.section,
+                        group=context.group,
+                    )
+                )
+
             if row_type == ROW_TYPE_TAX and self.section_rules.should_export(context.section, block.text):
-                tax_rows.extend(
+                add_rows(
                     self.flat_extractor.extract_line(
                         block.text,
                         chapter=context.chapter,
