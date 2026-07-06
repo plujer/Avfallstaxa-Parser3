@@ -97,40 +97,24 @@ Diff missing: 271
 Diff extra: 238
 Diff passed: False
 Precision report: output/parser3_precision_report.txt
- Volume in drive C has no label.
- Volume Serial Number is 641C-C805
+Traceback (most recent call last):
+  File "C:\Users\Isak.Hjelte\AppData\Local\Python\pythoncore-3.14-64\Lib\shutil.py", line 922, in move
+    os.rename(src, real_dst)
+    ~~~~~~~~~^^^^^^^^^^^^^^^
+PermissionError: [WinError 32] Det går inte att komma åt filen eftersom den
+används av en annan process: 'output\\parser_console.txt' -> 'output\\diagnostics\\parser_console.txt'
 
- Directory of C:\PyProjects\Taxa 3.0\output
+During handling of the above exception, another exception occurred:
 
-2026-07-06  15:48    <DIR>          .
-2026-07-06  15:53    <DIR>          ..
-2026-07-06  15:54             1ÿ348 environment_report.txt
-2026-07-06  15:54               336 master_console.txt
-2026-07-06  15:54             9ÿ938 master_profile_report.txt
-2026-07-06  15:54               850 parser3_acceptance_debug_report.txt
-2026-07-06  15:54               370 parser3_acceptance_report.txt
-2026-07-06  15:54               231 parser3_architecture_report.txt
-2026-07-06  15:54            67ÿ665 parser3_explain_report.txt
-2026-07-06  15:54             2ÿ725 parser3_missing_diagnostics.txt
-2026-07-06  15:54            46ÿ625 parser3_precision_report.txt
-2026-07-06  15:54            16ÿ298 parser3_report.txt
-2026-07-06  15:54            60ÿ570 parser3_result.json
-2026-07-06  12:31            28ÿ849 Parser3_Run_2026-07-06_12-31-18.zip
-2026-07-06  13:13            33ÿ421 Parser3_Run_2026-07-06_13-13-22.zip
-2026-07-06  13:37            34ÿ110 Parser3_Run_2026-07-06_13-37-08.zip
-2026-07-06  13:44            34ÿ749 Parser3_Run_2026-07-06_13-44-12.zip
-2026-07-06  14:36            36ÿ311 Parser3_Run_2026-07-06_14-36-16.zip
-2026-07-06  14:45            35ÿ683 Parser3_Run_2026-07-06_14-45-51.zip
-2026-07-06  14:52            37ÿ470 Parser3_Run_2026-07-06_14-52-33.zip
-2026-07-06  15:00            37ÿ636 Parser3_Run_2026-07-06_15-00-47.zip
-2026-07-06  15:11            37ÿ763 Parser3_Run_2026-07-06_15-11-10.zip
-2026-07-06  15:32            39ÿ934 Parser3_Run_2026-07-06_15-32-50.zip
-2026-07-06  15:37            38ÿ533 Parser3_Run_2026-07-06_15-37-19.zip
-2026-07-06  15:43            38ÿ217 Parser3_Run_2026-07-06_15-43-13.zip
-2026-07-06  15:48            37ÿ975 Parser3_Run_2026-07-06_15-48-14.zip
-2026-07-06  15:54            16ÿ651 parser3_trace_report.txt
-2026-07-06  15:54             1ÿ969 parser_console.txt
-2026-07-03  17:22            51ÿ337 parser_facit_generated.yaml
-2026-07-06  15:54            12ÿ039 pytest_report.txt
-              28 File(s)        759ÿ603 bytes
-               2 Dir(s)  23ÿ846ÿ354ÿ944 bytes free
+Traceback (most recent call last):
+  File "C:\PyProjects\Taxa 3.0\tools\organize_output.py", line 59, in <module>
+    main()
+    ~~~~^^
+  File "C:\PyProjects\Taxa 3.0\tools\organize_output.py", line 53, in main
+    shutil.move(str(src), str(dst))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Isak.Hjelte\AppData\Local\Python\pythoncore-3.14-64\Lib\shutil.py", line 943, in move
+    os.unlink(src)
+    ~~~~~~~~~^^^^^
+PermissionError: [WinError 32] Det går inte att komma åt filen eftersom den
+används av en annan process: 'output\\parser_console.txt'

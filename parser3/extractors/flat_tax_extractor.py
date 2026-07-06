@@ -1,13 +1,4 @@
-"""Extract tax rows from visually formatted paragraph rows.
-
-Many source documents look like tables on the page, but python-docx receives them
-as normal paragraphs. This extractor handles rows such as:
-
-    Fritidshus XX kr
-    Kärl 240 l (mat-/restavfall) XX kr XX kr XX kr
-
-and keeps the name separate from the price markers.
-"""
+"""Extract tax rows from visually formatted paragraph rows."""
 
 from __future__ import annotations
 
@@ -21,6 +12,9 @@ class FlatTaxExtractor:
     PRICE_RE = re.compile(r"(?i)(XX+\s*kr|\d[\d\s]*,\d{2}\s*(?:kr)?|\d+\s*kr)")
     BAD_NOTE_RE = re.compile(r"(?i)tillkommer\s+XX+\s*kr\s+eller\s+%")
     STARTS_LOWER_RE = re.compile(r"^[a-zåäö]")
+    UNIT_SUFFIX_RE = re.compile(
+        r"(?i)\s*/\s*(fraktion|besök|tillfälle|kärl|container|dygn|vecka|år|tömning|budning|bunt|säck)\s*$"
+    )
 
     def __init__(self) -> None:
         self.unit_detector = UnitDetector()
@@ -40,7 +34,6 @@ class FlatTaxExtractor:
         if self.BAD_NOTE_RE.search(clean):
             return []
 
-        # Most orphan continuation fragments start lowercase and should not become tax rows.
         if self.STARTS_LOWER_RE.match(clean):
             return []
 
@@ -49,8 +42,11 @@ class FlatTaxExtractor:
             return []
 
         name = self._name_without_prices(clean)
+        name, suffix_unit = self._split_unit_suffix(name)
         if not name:
             return []
+
+        detected_unit = suffix_unit or self.unit_detector.detect([name], clean)
 
         variants = variants or []
         rows: list[TaxRow] = []
@@ -63,7 +59,7 @@ class FlatTaxExtractor:
                     group=group,
                     name=name,
                     variant=variant,
-                    unit=self.unit_detector.detect([name], clean),
+                    unit=detected_unit,
                     price=price,
                     export=True,
                 )
@@ -76,5 +72,13 @@ class FlatTaxExtractor:
         name = name.strip(" -–—:;,.")
         return name.strip()
 
+    def _split_unit_suffix(self, name: str) -> tuple[str, str]:
+        match = self.UNIT_SUFFIX_RE.search(name)
+        if not match:
+            return name, ""
+        unit = match.group(1).lower()
+        clean_name = self.UNIT_SUFFIX_RE.sub("", name).strip(" -–—:;,.")
+        return clean_name, unit
+
     def _clean(self, text: str) -> str:
-        return " ".join((text or "").replace("\\xa0", " ").split())
+        return " ".join((text or "").replace("\xa0", " ").split())

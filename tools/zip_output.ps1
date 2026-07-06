@@ -1,34 +1,18 @@
 $date = Get-Date -Format "yyyy-MM-dd_HH-mm-ss"
-$zip = "output\Parser3_Run_$date.zip"
+$zip = "docs\Parser3_Run_$date.zip"
 
-$files = @(
-    "output\parser3_result.json",
-    "output\parser3_report.txt",
-    "output\parser3_precision_report.txt",
-    "output\parser3_explain_report.txt",
-    "output\parser3_architecture_report.txt",
-    "output\parser3_acceptance_report.txt",
-    "output\parser3_acceptance_debug_report.txt",
-    "output\parser3_missing_diagnostics.txt",
-    "output\parser3_trace_report.txt",
-    "output\pytest_report.txt",
-    "output\parser_console.txt",
-    "output\master_console.txt",
-    "output\master_profile_report.txt",
-    "output\environment_report.txt"
-)
+New-Item -ItemType Directory -Force -Path "docs" | Out-Null
+New-Item -ItemType Directory -Force -Path "output\archive" | Out-Null
 
-$existing = @()
-foreach ($file in $files) {
-    if (Test-Path $file) {
-        $existing += $file
-    }
-}
-
-if ($existing.Count -eq 0) {
-    Write-Host "Inga rapportfiler hittades i output."
+if (-not (Test-Path "output")) {
+    Write-Host "Output-mappen saknas."
     exit 1
 }
 
-Compress-Archive -Path $existing -DestinationPath $zip -Force
+Compress-Archive -Path "output\*" -DestinationPath $zip -Force
+
+$archiveZip = "output\archive\Parser3_Run_$date.zip"
+Copy-Item $zip $archiveZip -Force
+
 Write-Host "ZIP skapad: $zip"
+Write-Host "Arkivkopia: $archiveZip"

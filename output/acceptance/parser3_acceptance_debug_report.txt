@@ -1,0 +1,19 @@
+Parser Acceptance Debug Report
+
+Purpose: identify exactly which manually verified facit rows are missing.
+
+SECTION 6.1.1
+Expected names: 6
+Exported names: 6
+Missing names: 0
+Extra names: 0
+
+--------------------------------------------------------------------------------
+
+SECTION 6.1.2
+Expected names: 103
+Exported names: 103
+Missing names: 0
+Extra names: 0
+
+--------------------------------------------------------------------------------
