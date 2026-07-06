@@ -7,29 +7,21 @@ platform: Windows-11-10.0.26200-SP0
 PYTHONPATH: 
 
 git status:
-M build_report.bat
+M output/diagnostics/cleanup_report.txt
  M output/diagnostics/environment_report.txt
  M output/diagnostics/parser_console.txt
  M output/diagnostics/pytest_report.txt
- D output/environment_report.txt
- D output/master_console.txt
- D output/master_profile_report.txt
- D output/parser3_architecture_report.txt
- D output/parser3_explain_report.txt
- D output/parser3_precision_report.txt
- D output/parser3_report.txt
- D output/parser3_result.json
- D output/parser3_trace_report.txt
- D output/parser_console.txt
- D output/parser_facit_generated.yaml
- D output/pytest_report.txt
- M tests/test_rapportzip_structure.py
- M tools/organize_output.py
-?? docs/Block32_CleanupAndParserV10Candidate.md
-?? docs/changelogg/CHANGELOG_Block32.md
-?? docs/install/INSTALL_Block32.md
-?? output/diagnostics/cleanup_report.txt
-?? tools/clean_output_root.py
+ M tests/test_acceptance_debugger.py
+ M tests/test_output_structure_files.py
+?? RELEASE_NOTES.md
+?? VERSION
+?? docs/Block33_ReleaseCleanup.md
+?? docs/changelogg/CHANGELOG_Block33.md
+?? docs/changelogg/CHANGELOG_v1.0.0.md
+?? docs/install/INSTALL_Block33.md
+?? docs/install/INSTALL_v1.0.0.md
+?? output/archive/Parser3_Run_2026-07-06_16-42-28.zip
+?? rapportzip/Parser3_Run_2026-07-06_16-42-28.zip
 
 git branch:
 main

@@ -1,1 +1,1 @@
-Stale root output files removed: 12
+Stale root output files removed: 0
