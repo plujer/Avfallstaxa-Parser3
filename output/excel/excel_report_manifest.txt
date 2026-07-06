@@ -1,5 +1,5 @@
 ﻿Excel Builder Report Package
-Created: 2026-07-06_17-54-42
+Created: 2026-07-06_18-04-44
 
 Included files:
 [OK] output\excel\ArbetsExcel_byggd_fran_parser.xlsx

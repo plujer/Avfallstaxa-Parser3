@@ -1,21 +1,21 @@
 ﻿Status;Metod;Score;Parser paragraf;Parser taxapunkt;Parser variant;Parser enhet;Excel rad;Excel taxapunkt;Excel variant;Excel enhet;Excel taxakod;Kommentar
-NEW;no match;0.000;2.1;En- och tvåbostadshus;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.1;Fritidshus;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.1;Verksamhet;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.1;Lägenhet i flerbostadshus;;lägenhet;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.1;Lägenhet för specialändamål;;lägenhet;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.1;Anläggning;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.1;Säsongsbaserad uppställningsplats;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.1;Campingstuga/-lägenhet;;lägenhet;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.1;En- och tvåbostadshus;;;7;En- och tvåbostadshus;;st/år;GRUNDSMÅ;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.1;Fritidshus;;;8;Fritidshus;;st/år;GRUNDFRI;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.1;Verksamhet;;;9;Verksamhet;;st/år;GRUNDVHT;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.1;Lägenhet i flerbostadshus;;lägenhet;10;Lägenhet i flerbostadshus;;st/år;GRUNDFLB;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.1;Lägenhet för specialändamål;;lägenhet;11;Lägenhet för specialändamål;;st/år;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.1;Anläggning;;;12;Anläggning;;st/år;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.1;Säsongsbaserad uppställningsplats;;;13;Säsongsbaserad uppställningsplats;;st/år;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.1;Campingstuga/-lägenhet;;lägenhet;14;Campingstuga/-lägenhet;;st/år;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.2.1;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.1;Extrakärl 190 l (restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.2;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.2.2;Extrakärl 190 l (restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.2.3;Extra digital licens (årskostnad);;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.2.3;Byte av telefonnummer kopplat till licens;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.2.3;Kostnad för öppning av behållare;;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.2.2;Extrakärl 190 l (restavfall);;;27;Extrakärl 190 l (restavfall);Hämtning var 14:e dag;st/år;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;32;Gemensam uppsamlingsplats för mat-/restavfall;;st/år;GEMUPPFRI;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.2.3;Extra digital licens (årskostnad);;;34;Extra digital licens (årskostnad);;st/år;GEMUPPEXTRAFRI;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;35;Fysisk nyckel, kallad fob (engångskostnad);;st/tillfälle;FOBFRI;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.2.3;Byte av telefonnummer kopplat till licens;;;36;Byte av telefonnummer kopplat till licens;;st/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.2.3;Kostnad för öppning av behållare;;;37;Kostnad för öppning av behållare;;st/tillfälle;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.2.4;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.4;Kärl 370 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.4;Kärl 660 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
@@ -30,19 +30,19 @@ NEW;no match;0.000;2.2.5;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behöv
 NEW;no match;0.000;2.2.5;Kärl 370 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.5;Kärl 660 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.5;Kärl 140 l (matavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.2.5;Bottentömmande behållare (mat-/restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.2.5;Lastväxlarflak (restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.2.5;Bottentömmande behållare (mat-/restavfall);;;86;Bottentömmande behållare (mat-/restavfall);Tillägg för två tömningar per vecka;st/tömning;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.2.5;Lastväxlarflak (restavfall);;;85;Lastväxlarflak (restavfall);Avgift per tömning;st/tömning;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.2.6;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.6;Kärl 370 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.6;Kärl 660 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.6;Kärl 140 l (matavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.2.6;Bottentömmande behållare (mat-/restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.2.6;Lastväxlarflak (restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.2.6;Bottentömmande behållare (mat-/restavfall);;;103;Bottentömmande behållare (mat-/restavfall);Tillägg för två tömningar per vecka;st/tömning;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.2.6;Lastväxlarflak (restavfall);;;102;Lastväxlarflak (restavfall);Avgift per tömning;st/tömning;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;106;Kärl 140 l (kontors-/returpapper);;st/år;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.3;Viktavgift matavfall;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.3;Viktavgift restavfall;;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;108;Egen överlämning av förbrukat matfett enligt anvisning;;st/år;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.3;Viktavgift matavfall;;;111;Viktavgift matavfall;;kr/kg;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.3;Viktavgift restavfall;;;112;Viktavgift restavfall;;kr/kg;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.3;Lyftavgift kärl;;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.4.1;Fakturavgift;;;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.4.2;Delat kärl 240 l matavfall 40 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
@@ -51,97 +51,97 @@ NEW;no match;0.000;2.4.2;Extra kärl 140 l matavfall 60 kg;;kilogram;;;;;;Ny rad
 NEW;no match;0.000;2.4.2;Extra kärl 140-190 l restavfall 60 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.4.2;Kärl 370 l restavfall 60 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.4.2;Kärl 660 l restavfall 100 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.3;Överfullt kärl;;kärl;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.3;Överfull bottentömmande behållare;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.4;Byte av trasigt kärl vid oaktsamhet;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.4.3;Överfullt kärl;;kärl;127;Överfullt kärl;;st/tillfälle/behållare;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.4.3;Överfull bottentömmande behållare;;;128;Överfull bottentömmande behållare;;st/tillfälle/behållare;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.4.4;Byte av trasigt kärl vid oaktsamhet;;kärl;131;Byte av trasigt kärl vid oaktsamhet;;st/kärl;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.4.5;Byte/återtag av kärl en (1) ggr/år 140–240 liter;;liter;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.4.5;Byte/återtag av kärl en (1) ggr/år 370–660 liter;;liter;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.5;Ytterligare byte av kärl under kalenderåret;;kärl;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.6;Kärl;;kärl;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.6;Bottentömmande behållare;;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.4.5;Ytterligare byte av kärl under kalenderåret;;kärl;136;Ytterligare byte av kärl under kalenderåret;;st/kärl;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.4.6;Kärl;;kärl;139;Kärl;;st/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.4.6;Bottentömmande behållare;;;140;Bottentömmande behållare;;st/tillfälle;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.4.7;Kärl 140-660 L 1,5-10;;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.4.7;Kärl 140-660 L 10-20;;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.4.7;Kärl 140-660 L 20-30;;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.4.7;Avfallsport/dörr;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.7;Låst dörr, med kod;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.8;Kärl 140 l matavfall;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.4.7;Låst dörr, med kod;;;147;Låst dörr, med kod;;st/år;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.4.8;Kärl 140 l matavfall;;kärl;150;Kärl 140 l matavfall;;st/period;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.4.8;Kärl 190 l restavfall;;kärl;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.8;Kärl 370 l restavfall;;kärl;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.8;Kärl 660 l restavfall;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.4.8;Kärl 370 l restavfall;;kärl;152;Kärl 370 l restavfall;;st/period;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.4.8;Kärl 660 l restavfall;;kärl;153;Kärl 660 l restavfall;;st/period;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.4.8;Bottentömmande behållare;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.9;Sidlastande fordon;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.9;Bottentömmande fordon;;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.4.9;Sidlastande fordon;;;157;Sidlastande fordon;;st/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.4.9;Bottentömmande fordon;;;158;Bottentömmande fordon;;st/tillfälle;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.4.9;Tömningsavgift per behållare;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.10;Betalsäck;;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.4.10;Betalsäck;;;162;Betalsäck;;st/säck;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.4.10;Akutsäck;;;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.4.11;Matavfallspåsar 9 L;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.11;Matavfallspåsar 22 L;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.11;Gravitationslås till kärl;;kärl;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.4.11;Extra nyckel till gravitationslås;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.5.1;Kommunalt avfall;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.5.1;Farligt avfall (ej uppmärkt);;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;2.5.1;Farligt avfall (uppmärkt);;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.4.11;Matavfallspåsar 22 L;;;167;Matavfallspåsar 22 L;;bunt;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.4.11;Gravitationslås till kärl;;kärl;168;Gravitationslås till kärl;;st;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.4.11;Extra nyckel till gravitationslås;;;169;Extra nyckel till gravitationslås;;st;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.5.1;Kommunalt avfall;;;172;Kommunalt avfall;;st/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.5.1;Farligt avfall (ej uppmärkt);;;173;Farligt avfall (ej uppmärkt);;st/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.5.1;Farligt avfall (uppmärkt);;;174;Farligt avfall (uppmärkt);;st/tillfälle;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.5.1;Avisering av ankomst;;;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;3.1;Upp till 3 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.1;Mellan 3 m3 och 6 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.1;Mellan 6 m3 och 9 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.1;Tillägg per m3 över 9 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.1;Bad-, disk- och tvättbrunn upp till 3 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;3.1;Mellan 3 m3 och 6 m3;;m³;179;Mellan 3 m3 och 6 m3;;kr/tömning;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;3.1;Mellan 6 m3 och 9 m3;;m³;180;Mellan 6 m3 och 9 m3;;kr/tömning;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;3.1;Tillägg per m3 över 9 m3;;m³;181;Tillägg per m3 över 9 m3;;kr/m3;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;3.1;Bad-, disk- och tvättbrunn upp till 3 m3;;m³;182;Bad-, disk- och tvättbrunn upp till 3 m3;;kr/tömning;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;3.1;Tillägg per m3 över 3 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;3.2;Dragning av extra slang vid 5-25 m;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.2;Dragning av extra slang vid 25-35 m;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.2;Dragning av extra slang vid 36-45 m;;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;3.2;Dragning av extra slang vid 25-35 m;;;187;Dragning av extra slang vid 25-35 m;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;3.2;Dragning av extra slang vid 36-45 m;;;188;Dragning av extra slang vid 36-45 m;;kr/tillfälle;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;3.2;Dragning av extra slang vid 46-55 m;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.2;Krav på information om tömningstid;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.2;Krav på närvaro vid specificerad tömningstid;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.2;Hantering av kod för kodlås vid slamtömning;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.2;Hetvattentvätt med spolbil, timersättning;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.2;Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;3.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;190;Hantering av brunnslock som väger 15-25 kg;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;3.2;Krav på information om tömningstid;;;191;Krav på information om tömningstid;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;3.2;Krav på närvaro vid specificerad tömningstid;;;192;Krav på närvaro vid specificerad tömningstid;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;3.2;Hantering av kod för kodlås vid slamtömning;;;193;Hantering av kod för kodlås vid slamtömning;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;3.2;Hetvattentvätt med spolbil, timersättning;;;194;Hetvattentvätt med spolbil, timersättning;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;3.2;Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3;;m³;196;Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;3.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;199;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);Inom 24 timmar;kr/tillfälle;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;3.3;Budning utanför ordinarie tömningsperiod (1 nov – 30 april);;;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;3.3;Tömning av toalettvagnar eller liknande /styck;;styck;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;3.4;Latrinbehållare 37 liter inkl. mottagning och behandling;;liter;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;4.1;Filtermassor upp till 500 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;3.4;Latrinbehållare 37 liter inkl. mottagning och behandling;;liter;208;Latrinbehållare 37 liter inkl. mottagning och behandling;;st;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;4.1;Filtermassor upp till 500 kg;;kilogram;211;Filtermassor upp till 500 kg;Budad hämtning inom sju (7) arbetsdagar;kr/tillfälle;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;4.1;Filtermassor 500-1000 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;4.2;Krav på information om hämtningstid;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;4.2;Krav på närvaro vid specificerad hämtningstid;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;4.2;Hantering av kod för kodlås;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;5.1;Upp till 3 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;4.2;Krav på information om hämtningstid;;;217;Krav på information om hämtningstid;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;4.2;Krav på närvaro vid specificerad hämtningstid;;;218;Krav på närvaro vid specificerad hämtningstid;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;4.2;Hantering av kod för kodlås;;;219;Hantering av kod för kodlås;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;5.1;Upp till 3 m3;;m³;223;Upp till 3 m3;Tömning, transport och behandling av fettavskiljare/tank enligt anmält tömningsintervall;kr/tillfälle;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;5.1;Mellan 3 m3 och 6 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;5.1;Över 6 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;5.2;Dragning av extra slang vid 5-25 m;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;5.2;Dragning av extra slang vid 25-35 m;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;5.2;Dragning av extra slang vid 36-45 m;;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;5.2;Dragning av extra slang vid 5-25 m;;;231;Dragning av extra slang vid 5-25 m;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;5.2;Dragning av extra slang vid 25-35 m;;;232;Dragning av extra slang vid 25-35 m;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;5.2;Dragning av extra slang vid 36-45 m;;;233;Dragning av extra slang vid 36-45 m;;kr/tillfälle;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;5.2;Dragning av extra slang vid 46-55 m;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;5.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;5.2;Krav på information om tömningstid;;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;5.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;235;Hantering av brunnslock som väger 15-25 kg;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;5.2;Krav på information om tömningstid;;;236;Krav på information om tömningstid;;kr/tillfälle;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;5.2;Krav på närvaro vid specificerad tömningstid;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;5.2;Hantering av kod för kodlås vid tömning;;tömning;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;5.2;Hetvattentvätt med spolbil, timersättning;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;5.2;Silikontätning per lock;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;5.2;Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;5.2;Hantering av kod för kodlås vid tömning;;tömning;238;Hantering av kod för kodlås vid tömning;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;5.2;Hetvattentvätt med spolbil, timersättning;;;239;Hetvattentvätt med spolbil, timersättning;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;5.2;Silikontätning per lock;;;240;Silikontätning per lock;;kr/tillfälle;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;5.2;Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;;m³;242;Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;;kr/tillfälle;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;5.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;5.3;Budning utanför ordinarie tömningsperiod;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;6.1.1;Verksamheter;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;6.1.1;Övriga abonnemangstyper;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;6.1.1;Vågkort;;;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;6.1.1;Borttappat vågkort;;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;6.1.1;Verksamheter;;;253;Verksamheter;;kr/besök;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;6.1.1;Övriga abonnemangstyper;;;254;Övriga abonnemangstyper;;kr/besök;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;6.1.1;Vågkort;;;255;Vågkort;;kr/besök;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;6.1.1;Borttappat vågkort;;;256;Borttappat vågkort;;kr/besök;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;6.1.1;Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst);;besök;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;6.1.1;Ej redovisad eller fel redovisad fraktion av avfall;;fraktion;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;6.1.2;Avfall till energiåtervinning (240 L sopsäck);;styck;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;6.1.2;Avfall till energiåtervinning;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;6.1.2;Skrymmande avfall till energiåtervinning större än 20×20×80;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;6.1.2;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;6.1.2;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;6.1.2;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;;kilogram;262;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;;kr/ton;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;6.1.2;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;;kilogram;263;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;;kr/ton;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;6.1.2;Tryckimpregnerat virke, pall;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;6.1.2;Betong, lättbetong;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;6.1.2;Gips, gipsskivor;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;6.1.2;Tegel;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;6.1.2;Tegel;;kilogram;267;Tegel;;kr/ton;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;6.1.2;Fönster- och planglas utan karm;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;6.1.2;Fönster med karm;;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;6.1.2;Fönster med karm;;;269;Fönster med karm;;kr/ton;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;6.1.2;Plast;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
-NEW;no match;0.000;6.1.2;Isolering utan innehåll av asbest;;m³;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;6.1.2;Isolering utan innehåll av asbest;;m³;270;Isolering utan innehåll av asbest;;kr/ton;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;6.1.2;Klinker, keramik, porslin;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;6.1.2;Handfat;;styck;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;6.1.2;WC-stol;;styck;;;;;;Ny rad behövs i Arbets-Excel

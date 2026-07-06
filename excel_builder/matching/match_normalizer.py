@@ -21,9 +21,24 @@ class MatchNormalizer:
         text = text.strip(" .;:")
         return text
 
+    def normalize_section(self, value: str) -> str:
+        """Normalize paragraph/section numbers for matching.
+
+        Examples:
+        - "§2.1" -> "2.1"
+        - "§ 6.1.2" -> "6.1.2"
+        - "6.1.2 " -> "6.1.2"
+        """
+        text = self.normalize(value)
+        text = text.replace("§", "").strip()
+        text = re.sub(r"^paragraf\s+", "", text)
+        text = re.sub(r"^avsnitt\s+", "", text)
+        text = text.strip(" .;:")
+        return text
+
     def row_key(self, section: str, tax_point: str, variant: str = "", unit: str = "") -> str:
         return "|".join([
-            self.normalize(section),
+            self.normalize_section(section),
             self.normalize(tax_point),
             self.normalize(variant),
             self.normalize(unit),
@@ -31,6 +46,6 @@ class MatchNormalizer:
 
     def weak_key(self, section: str, tax_point: str) -> str:
         return "|".join([
-            self.normalize(section),
+            self.normalize_section(section),
             self.normalize(tax_point),
         ])
