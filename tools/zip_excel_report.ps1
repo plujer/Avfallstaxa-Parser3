@@ -10,6 +10,7 @@ New-Item -ItemType Directory -Force -Path "output\diagnostics" | Out-Null
 $manifest = "output\excel\excel_report_manifest.txt"
 
 $files = @(
+    "output\diagnostics\test_cleanup_report.txt",
     "output\excel\ArbetsExcel_byggd_fran_parser.xlsx",
     "output\excel\taxepunkter_row_plan_report.txt",
     "output\excel\taxepunkter_row_plan.csv",
