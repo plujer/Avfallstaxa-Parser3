@@ -10,7 +10,31 @@ if (-not (Test-Path "output")) {
     exit 1
 }
 
-Compress-Archive -Path "output\*" -DestinationPath $zip -Force
+# Viktigt:
+# Zippa inte output\archive, annars packas gamla ZIP-filer in i nya ZIP-filer
+# och varje rapportpaket blir större för varje körning.
+$paths = @(
+    "output\acceptance",
+    "output\diagnostics",
+    "output\trace",
+    "output\reports",
+    "output\excel",
+    "output\word"
+)
+
+$existing = @()
+foreach ($path in $paths) {
+    if (Test-Path $path) {
+        $existing += $path
+    }
+}
+
+if ($existing.Count -eq 0) {
+    Write-Host "Inga output-mappar hittades att zippa."
+    exit 1
+}
+
+Compress-Archive -Path $existing -DestinationPath $zip -Force
 
 $archiveZip = "output\archive\Parser3_Run_$date.zip"
 Copy-Item $zip $archiveZip -Force

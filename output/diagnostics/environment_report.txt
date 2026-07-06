@@ -7,21 +7,14 @@ platform: Windows-11-10.0.26200-SP0
 PYTHONPATH: 
 
 git status:
-M output/diagnostics/cleanup_report.txt
- M output/diagnostics/environment_report.txt
+M output/diagnostics/environment_report.txt
  M output/diagnostics/parser_console.txt
  M output/diagnostics/pytest_report.txt
- M tests/test_acceptance_debugger.py
- M tests/test_output_structure_files.py
-?? RELEASE_NOTES.md
-?? VERSION
-?? docs/Block33_ReleaseCleanup.md
-?? docs/changelogg/CHANGELOG_Block33.md
-?? docs/changelogg/CHANGELOG_v1.0.0.md
-?? docs/install/INSTALL_Block33.md
-?? docs/install/INSTALL_v1.0.0.md
-?? output/archive/Parser3_Run_2026-07-06_16-42-28.zip
-?? rapportzip/Parser3_Run_2026-07-06_16-42-28.zip
+ M tools/zip_output.ps1
+?? docs/Block34_FinalCleanupBeforeV100.md
+?? docs/changelogg/CHANGELOG_Block34.md
+?? docs/install/INSTALL_Block34.md
+?? tests/test_final_cleanup_before_release.py
 
 git branch:
 main
