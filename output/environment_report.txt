@@ -1,0 +1,41 @@
+Parser 3.1 environment report
+
+cwd: C:\PyProjects\Taxa 3.0
+python: C:\PyProjects\Taxa 3.0\.venv\Scripts\python.exe
+python_version: 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]
+platform: Windows-11-10.0.26200-SP0
+PYTHONPATH: 
+
+git status:
+?? CHANGELOG_Block15.md
+?? INSTALL_Block15.md
+?? build_report.bat
+?? build_report.ps1
+?? docs/BuildSystem.md
+?? output/environment_report.txt
+?? output/parser_console.txt
+?? output/pytest_report.txt
+?? pytest.ini
+?? tests/conftest.py
+?? tools/
+
+git branch:
+main
+
+pip freeze:
+annotated-types==0.7.0
+colorama==0.4.6
+et_xmlfile==2.0.0
+iniconfig==2.3.0
+lxml==6.1.1
+openpyxl==3.1.5
+packaging==26.2
+pluggy==1.6.0
+pydantic==2.13.4
+pydantic_core==2.46.4
+Pygments==2.20.0
+pytest==9.1.1
+python-docx==1.2.0
+PyYAML==6.0.3
+typing-inspection==0.4.2
+typing_extensions==4.16.0
