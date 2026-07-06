@@ -88,7 +88,7 @@ reason: longest substring match; matched expected normalized=tryckimpregnerat vi
 score: 1.000
 best_match: Tryckimpregnerat virke, pall
 input_text: Tryckimpregnerat virke, pall Tryckimpregnerat virke, pall 170204* 170204* kilogram kilogram
-normalized_text: tryckimpregnerat virke, pall 170204x170204xkilogram
+normalized_text: tryckimpregnerat virke, pall tryckimpregnerat virke, pallxxkilogram
 
 ====================================================================================================
 component: Section612Extractor
@@ -382,7 +382,7 @@ section: 6.1.2
 order: 431
 decision: not_exported
 reason: best score below threshold or no expected name
-score: 0.310
+score: 0.341
 best_match: Toner, färgpatron med elektronik
 input_text: Toner, färgpatron utan elektronik Toner, färgpatron utan elektronik 080307* 080307* se farligt avfall se farligt avfall se farligt avfall se farligt avfall se farligt avfall se farligt avfall
-normalized_text: toner, färgpatron utan elektronik 080307x080307xse farligt avfall se farligt avfall se farligt avfall se farligt avfall se farligt avfall se farligt avfall
+normalized_text: toner, färgpatron utan elektronik farligt avfall se farligt avfall se farligt avfall se farligt avfall se farligt avfall se farligt avfall

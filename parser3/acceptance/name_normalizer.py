@@ -28,7 +28,12 @@ class NameNormalizer:
 
     def normalize(self, value: str) -> str:
         text = self._basic_clean(value)
+
+        # Remove EWC metadata before multiplication-symbol normalization would
+        # transform trailing stars into x.
         text = self._remove_metadata_tokens(text)
+
+        text = self._normalize_symbols(text)
         text = self._remove_trailing_price(text)
         text = self._standardize_spacing(text)
         text = self._remove_trailing_units(text)
@@ -43,8 +48,10 @@ class NameNormalizer:
     def _basic_clean(self, value: str) -> str:
         text = (value or "").replace("\xa0", " ")
         text = text.replace("–", "-").replace("—", "-")
-        text = text.replace("×", "x").replace("*", "x")
         return text.lower().strip()
+
+    def _normalize_symbols(self, text: str) -> str:
+        return text.replace("×", "x").replace("*", "x")
 
     def _standardize_spacing(self, text: str) -> str:
         text = re.sub(r"\s+", " ", text)
@@ -58,9 +65,7 @@ class NameNormalizer:
         return text.strip()
 
     def _remove_metadata_tokens(self, text: str) -> str:
-        # Remove EWC codes like 200307 or 170601*. Do not remove ordinary
-        # four-digit UN numbers here because short product names can also contain
-        # numbers that must remain meaningful in other sections.
+        # Remove EWC codes like 200307 or 170601* before * is normalized.
         text = re.sub(r"\b\d{6}\*?\b", " ", text)
         text = re.sub(r"\bun[- ]?nr\b", " ", text)
         text = re.sub(r"\bewc(?: kod)?\b", " ", text)

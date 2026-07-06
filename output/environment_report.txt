@@ -8,23 +8,16 @@ PYTHONPATH:
 
 git status:
 M output/environment_report.txt
- M output/parser3_acceptance_debug_report.txt
- M output/parser3_acceptance_report.txt
- M output/parser3_architecture_report.txt
- M output/parser3_missing_diagnostics.txt
- M output/parser3_precision_report.txt
- M output/parser3_report.txt
- M output/parser3_result.json
  M output/parser3_trace_report.txt
  M output/parser_console.txt
  M output/pytest_report.txt
  M parser3/acceptance/name_normalizer.py
- M parser3/extractors/section612_extractor.py
-?? docs/Block25_SpecificMatchFix.md
-?? docs/changelogg/CHANGELOG_Block25.md
-?? docs/install/INSTALL_Block25.md
-?? tests/test_name_normalizer_block25.py
-?? tests/test_section612_specific_match.py
+ M tests/test_tax_pipeline.py
+?? docs/Block26_GreenTests.md
+?? docs/changelogg/CHANGELOG_Block26.md
+?? docs/install/INSTALL_Block26.md
+?? tests/test_name_normalizer_block26.py
+?? tests/test_tax_pipeline_export_section.py
 
 git branch:
 main
