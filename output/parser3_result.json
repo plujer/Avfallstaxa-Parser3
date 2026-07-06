@@ -1539,6 +1539,18 @@
     "chapter": "6",
     "section": "6.1.1",
     "group": "",
+    "name": "Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst)",
+    "variant": "",
+    "unit": "besök",
+    "price": "XX kr",
+    "ewc": "",
+    "un_number": "",
+    "export": true
+  },
+  {
+    "chapter": "6",
+    "section": "6.1.1",
+    "group": "",
     "name": "Ej redovisad eller fel redovisad fraktion av avfall /fraktion",
     "variant": "",
     "unit": "fraktion",

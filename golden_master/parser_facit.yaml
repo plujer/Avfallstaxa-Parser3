@@ -1,342 +1,355 @@
-facit_version: "1.0"
-source: "Manuellt verifierat facit i samtal"
-status: "arbetsfacit"
+facit_version: '1.0'
+source: Manuellt verifierat facit i samtal
+status: arbetsfacit
 principer:
   word_dokumentet_ar_facit: true
   arbets_excel_ar_inte_facit: true
   parsern_ska_verifieras_innan_excel_builder: true
 sections:
-  "6.1.1":
-    title: "Avfall inlämnat på återvinningscentral"
+  6.1.1:
+    title: Inpassering på ÅVC
     tax_count: 6
-    tax_rows: []
-  "6.1.2":
-    title: "Hanteringsavgifter för avfall inlämnat på återvinningscentral"
+    tax_rows:
+    - number: 1
+      taxapunkt: Verksamheter
+    - number: 2
+      taxapunkt: Övriga abonnemangstyper
+    - number: 3
+      taxapunkt: Vågkort
+    - number: 4
+      taxapunkt: Borttappat vågkort
+    - number: 5
+      taxapunkt: Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla
+        sin ankomst)
+    - number: 6
+      taxapunkt: Ej redovisad eller fel redovisad fraktion av avfall
+  6.1.2:
+    title: Hanteringsavgifter för avfall inlämnat på återvinningscentral
     tax_count: 103
     notes:
-      - "Block A: 26 taxor"
-      - "Block B: 63 taxor"
-      - "Block C: 14 taxor"
-      - "Toner, färgpatron utan elektronik – se farligt avfall är hänvisning och ska inte exporteras."
+    - 'Block A: 26 taxor'
+    - 'Block B: 63 taxor'
+    - 'Block C: 14 taxor'
+    - Toner, färgpatron utan elektronik – se farligt avfall är hänvisning och ska inte exporteras.
     ignored_rows:
-      - number: null
-        taxapunkt: "Toner, färgpatron utan elektronik – se farligt avfall"
-        reason: "Hänvisning – inte taxa"
+    - number: null
+      taxapunkt: Toner, färgpatron utan elektronik – se farligt avfall
+      reason: Hänvisning – inte taxa
     tax_rows:
-      - number: 1
-        taxapunkt: "Avfall till energiåtervinning (240 L sopsäck)"
-        block: "A"
-      - number: 2
-        taxapunkt: "Avfall till energiåtervinning"
-        block: "A"
-      - number: 3
-        taxapunkt: "Skrymmande avfall till energiåtervinning större än 20×20×80"
-        block: "A"
-      - number: 4
-        taxapunkt: "Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp"
-        block: "A"
-      - number: 5
-        taxapunkt: "Träavfall – behandlat, utan tapet, plastmatta, tjärpapp"
-        block: "A"
-      - number: 6
-        taxapunkt: "Tryckimpregnerat virke, pall"
-        block: "A"
-      - number: 7
-        taxapunkt: "Betong, lättbetong"
-        block: "A"
-      - number: 8
-        taxapunkt: "Gips, gipsskivor"
-        block: "A"
-      - number: 9
-        taxapunkt: "Tegel"
-        block: "A"
-      - number: 10
-        taxapunkt: "Fönster- och planglas utan karm"
-        block: "A"
-      - number: 11
-        taxapunkt: "Fönster med karm"
-        block: "A"
-      - number: 12
-        taxapunkt: "Plast"
-        block: "A"
-      - number: 13
-        taxapunkt: "Isolering utan innehåll av asbest"
-        block: "A"
-      - number: 14
-        taxapunkt: "Klinker, keramik, porslin"
-        block: "A"
-      - number: 15
-        taxapunkt: "Handfat"
-        block: "A"
-      - number: 16
-        taxapunkt: "WC-stol"
-        block: "A"
-      - number: 17
-        taxapunkt: "Metall"
-        block: "A"
-      - number: 18
-        taxapunkt: "Textilier"
-        block: "A"
-      - number: 19
-        taxapunkt: "Fiskeredskap"
-        block: "A"
-      - number: 20
-        taxapunkt: "Ätbart fett/frityrolja"
-        block: "A"
-      - number: 21
-        taxapunkt: "Kvistar och grenar"
-        block: "A"
-      - number: 22
-        taxapunkt: "Jord"
-        block: "A"
-      - number: 23
-        taxapunkt: "Sten"
-        block: "A"
-      - number: 24
-        taxapunkt: "Stubbar/rötter för krossning"
-        block: "A"
-      - number: 25
-        taxapunkt: "Flera fraktioner för egen sortering på ramp (max 2 m³)"
-        block: "A"
-      - number: 26
-        taxapunkt: "Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall)"
-        block: "A"
-      - number: 27
-        taxapunkt: "Tonerkassetter, utan elektronik/chip"
-        block: "B"
-      - number: 28
-        taxapunkt: "Oljeemulsion, emballerat"
-        block: "B"
-      - number: 29
-        taxapunkt: "Förorenad olja innehållande PCB"
-        block: "B"
-      - number: 30
-        taxapunkt: "Oljeavskiljarslam"
-        block: "B"
-      - number: 31
-        taxapunkt: "Diesel"
-        block: "B"
-      - number: 32
-        taxapunkt: "Bensinrester"
-        block: "B"
-      - number: 33
-        taxapunkt: "Hydralslang, med/utan koppling"
-        block: "B"
-      - number: 34
-        taxapunkt: "Förpackningar, tömda ej rengjorda"
-        block: "B"
-      - number: 35
-        taxapunkt: "Oljeavfall, fast osorterat emballage"
-        block: "B"
-      - number: 36
-        taxapunkt: "Absorbermedel, filtermaterial"
-        block: "B"
-      - number: 37
-        taxapunkt: "Oljefilter"
-        block: "B"
-      - number: 38
-        taxapunkt: "Bromsvätska"
-        block: "B"
-      - number: 39
-        taxapunkt: "Transformator, kondensator med PCB"
-        block: "B"
-      - number: 40
-        taxapunkt: "Fogskum"
-        block: "B"
-      - number: 41
-        taxapunkt: "Halon"
-        block: "B"
-      - number: 42
-        taxapunkt: "Koldioxid"
-        block: "B"
-      - number: 43
-        taxapunkt: "Brandsläckare"
-        block: "B"
-      - number: 44
-        taxapunkt: "Helium"
-        block: "B"
-      - number: 45
-        taxapunkt: "Tändare"
-        block: "B"
-      - number: 46
-        taxapunkt: "Syrgas"
-        block: "B"
-      - number: 47
-        taxapunkt: "Oxiderande fast ämne/vätska"
-        block: "B"
-      - number: 48
-        taxapunkt: "Klorex"
-        block: "B"
-      - number: 49
-        taxapunkt: "Aerosoler isocyanat, bekämpning"
-        block: "B"
-      - number: 50
-        taxapunkt: "Gasol inkl. tub"
-        block: "B"
-      - number: 51
-        taxapunkt: "Gasol, blå programmet"
-        block: "B"
-      - number: 52
-        taxapunkt: "Giftig organisk vätska"
-        block: "B"
-      - number: 53
-        taxapunkt: "Småkemikalier, ej Hg-haltiga"
-        block: "B"
-      - number: 54
-        taxapunkt: "Giftig oorganisk vätska"
-        block: "B"
-      - number: 55
-        taxapunkt: "Oxidationsmedel, flytande"
-        block: "B"
-      - number: 56
-        taxapunkt: "Asbest, emballerat"
-        block: "B"
-      - number: 57
-        taxapunkt: "Smittförande avfall"
-        block: "B"
-      - number: 58
-        taxapunkt: "Lösningsmedel"
-        block: "B"
-      - number: 59
-        taxapunkt: "Väteperoxid"
-        block: "B"
-      - number: 60
-        taxapunkt: "Fluorvätesyra"
-        block: "B"
-      - number: 61
-        taxapunkt: "Svavelsyra"
-        block: "B"
-      - number: 62
-        taxapunkt: "Salpetersyra"
-        block: "B"
-      - number: 63
-        taxapunkt: "Surt oorganiskt fast ämne"
-        block: "B"
-      - number: 64
-        taxapunkt: "Surt organiskt fast ämne"
-        block: "B"
-      - number: 65
-        taxapunkt: "Surt oorganisk vätska"
-        block: "B"
-      - number: 66
-        taxapunkt: "Surt organisk vätska"
-        block: "B"
-      - number: 67
-        taxapunkt: "Ammoniaklösning"
-        block: "B"
-      - number: 68
-        taxapunkt: "Alkaliskt avfall fast"
-        block: "B"
-      - number: 69
-        taxapunkt: "Basiskt organiskt fast/flytande"
-        block: "B"
-      - number: 70
-        taxapunkt: "Fotokemikalier"
-        block: "B"
-      - number: 71
-        taxapunkt: "Bekämpningsmedel aerosoler"
-        block: "B"
-      - number: 72
-        taxapunkt: "Bekämpningsmedel fast"
-        block: "B"
-      - number: 73
-        taxapunkt: "Bekämpningsmedel flytande"
-        block: "B"
-      - number: 74
-        taxapunkt: "Kvicksilverhaltigt avfall"
-        block: "B"
-      - number: 75
-        taxapunkt: "Kvicksilver i föremål"
-        block: "B"
-      - number: 76
-        taxapunkt: "Oljehaltigt avfall (ej PCB)"
-        block: "B"
-      - number: 77
-        taxapunkt: "Olja förorenad (ej PCB)"
-        block: "B"
-      - number: 78
-        taxapunkt: "Färg-, lack-, limburkar lösning"
-        block: "B"
-      - number: 79
-        taxapunkt: "Färg-, lack-, limburkar lösning aerosoler"
-        block: "B"
-      - number: 80
-        taxapunkt: "Isocyanater"
-        block: "B"
-      - number: 81
-        taxapunkt: "Härdare metyl-etylketonperoxid"
-        block: "B"
-      - number: 82
-        taxapunkt: "Härdare dibenzoylperoxid"
-        block: "B"
-      - number: 83
-        taxapunkt: "Färg-, lack-, limburkar vattenbaserade"
-        block: "B"
-      - number: 84
-        taxapunkt: "Tensida alkaliska flytande avfall"
-        block: "B"
-      - number: 85
-        taxapunkt: "Rengörings-/vaskmedel fast"
-        block: "B"
-      - number: 86
-        taxapunkt: "Alkaliska flytande avfall"
-        block: "B"
-      - number: 87
-        taxapunkt: "Cytotoxiska läkemedel, cytostat"
-        block: "B"
-      - number: 88
-        taxapunkt: "Rökdetektor med andra isotoper"
-        block: "B"
-      - number: 89
-        taxapunkt: "Rökdetektor med Am 241"
-        block: "B"
-      - number: 90
-        taxapunkt: "Batterier stav, pencell"
-        block: "C"
-      - number: 91
-        taxapunkt: "Batterier lithium"
-        block: "C"
-      - number: 92
-        taxapunkt: "Bil-, mcbatteri med bly"
-        block: "C"
-      - number: 93
-        taxapunkt: "Glödlampor"
-        block: "C"
-      - number: 94
-        taxapunkt: "Lysrör"
-        block: "C"
-      - number: 95
-        taxapunkt: "Elavfall, små elektronik"
-        block: "C"
-      - number: 96
-        taxapunkt: "El-avfall fast installation"
-        block: "C"
-      - number: 97
-        taxapunkt: "El-avfall kabel"
-        block: "C"
-      - number: 98
-        taxapunkt: "Toner, färgpatron med elektronik"
-        block: "C"
-      - number: 99
-        taxapunkt: "Tv, radio, skärm, skrivare utan färgpatron"
-        block: "C"
-      - number: 100
-        taxapunkt: "Kyl-, frysskåp, -box"
-        block: "C"
-      - number: 101
-        taxapunkt: "Kyl-, frysskåp, -box från verksamhet"
-        block: "C"
-      - number: 102
-        taxapunkt: "Spis, tvätt-, diskmaskin"
-        block: "C"
-      - number: 103
-        taxapunkt: "Spis, tvätt-, diskmaskin från verksamhet"
-        block: "C"
-  "6.1.3":
-    title: "Hyra av container"
+    - number: 1
+      taxapunkt: Avfall till energiåtervinning (240 L sopsäck)
+      block: A
+    - number: 2
+      taxapunkt: Avfall till energiåtervinning
+      block: A
+    - number: 3
+      taxapunkt: Skrymmande avfall till energiåtervinning större än 20×20×80
+      block: A
+    - number: 4
+      taxapunkt: Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp
+      block: A
+    - number: 5
+      taxapunkt: Träavfall – behandlat, utan tapet, plastmatta, tjärpapp
+      block: A
+    - number: 6
+      taxapunkt: Tryckimpregnerat virke, pall
+      block: A
+    - number: 7
+      taxapunkt: Betong, lättbetong
+      block: A
+    - number: 8
+      taxapunkt: Gips, gipsskivor
+      block: A
+    - number: 9
+      taxapunkt: Tegel
+      block: A
+    - number: 10
+      taxapunkt: Fönster- och planglas utan karm
+      block: A
+    - number: 11
+      taxapunkt: Fönster med karm
+      block: A
+    - number: 12
+      taxapunkt: Plast
+      block: A
+    - number: 13
+      taxapunkt: Isolering utan innehåll av asbest
+      block: A
+    - number: 14
+      taxapunkt: Klinker, keramik, porslin
+      block: A
+    - number: 15
+      taxapunkt: Handfat
+      block: A
+    - number: 16
+      taxapunkt: WC-stol
+      block: A
+    - number: 17
+      taxapunkt: Metall
+      block: A
+    - number: 18
+      taxapunkt: Textilier
+      block: A
+    - number: 19
+      taxapunkt: Fiskeredskap
+      block: A
+    - number: 20
+      taxapunkt: Ätbart fett/frityrolja
+      block: A
+    - number: 21
+      taxapunkt: Kvistar och grenar
+      block: A
+    - number: 22
+      taxapunkt: Jord
+      block: A
+    - number: 23
+      taxapunkt: Sten
+      block: A
+    - number: 24
+      taxapunkt: Stubbar/rötter för krossning
+      block: A
+    - number: 25
+      taxapunkt: Flera fraktioner för egen sortering på ramp (max 2 m³)
+      block: A
+    - number: 26
+      taxapunkt: Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall)
+      block: A
+    - number: 27
+      taxapunkt: Tonerkassetter, utan elektronik/chip
+      block: B
+    - number: 28
+      taxapunkt: Oljeemulsion, emballerat
+      block: B
+    - number: 29
+      taxapunkt: Förorenad olja innehållande PCB
+      block: B
+    - number: 30
+      taxapunkt: Oljeavskiljarslam
+      block: B
+    - number: 31
+      taxapunkt: Diesel
+      block: B
+    - number: 32
+      taxapunkt: Bensinrester
+      block: B
+    - number: 33
+      taxapunkt: Hydralslang, med/utan koppling
+      block: B
+    - number: 34
+      taxapunkt: Förpackningar, tömda ej rengjorda
+      block: B
+    - number: 35
+      taxapunkt: Oljeavfall, fast osorterat emballage
+      block: B
+    - number: 36
+      taxapunkt: Absorbermedel, filtermaterial
+      block: B
+    - number: 37
+      taxapunkt: Oljefilter
+      block: B
+    - number: 38
+      taxapunkt: Bromsvätska
+      block: B
+    - number: 39
+      taxapunkt: Transformator, kondensator med PCB
+      block: B
+    - number: 40
+      taxapunkt: Fogskum
+      block: B
+    - number: 41
+      taxapunkt: Halon
+      block: B
+    - number: 42
+      taxapunkt: Koldioxid
+      block: B
+    - number: 43
+      taxapunkt: Brandsläckare
+      block: B
+    - number: 44
+      taxapunkt: Helium
+      block: B
+    - number: 45
+      taxapunkt: Tändare
+      block: B
+    - number: 46
+      taxapunkt: Syrgas
+      block: B
+    - number: 47
+      taxapunkt: Oxiderande fast ämne/vätska
+      block: B
+    - number: 48
+      taxapunkt: Klorex
+      block: B
+    - number: 49
+      taxapunkt: Aerosoler isocyanat, bekämpning
+      block: B
+    - number: 50
+      taxapunkt: Gasol inkl. tub
+      block: B
+    - number: 51
+      taxapunkt: Gasol, blå programmet
+      block: B
+    - number: 52
+      taxapunkt: Giftig organisk vätska
+      block: B
+    - number: 53
+      taxapunkt: Småkemikalier, ej Hg-haltiga
+      block: B
+    - number: 54
+      taxapunkt: Giftig oorganisk vätska
+      block: B
+    - number: 55
+      taxapunkt: Oxidationsmedel, flytande
+      block: B
+    - number: 56
+      taxapunkt: Asbest, emballerat
+      block: B
+    - number: 57
+      taxapunkt: Smittförande avfall
+      block: B
+    - number: 58
+      taxapunkt: Lösningsmedel
+      block: B
+    - number: 59
+      taxapunkt: Väteperoxid
+      block: B
+    - number: 60
+      taxapunkt: Fluorvätesyra
+      block: B
+    - number: 61
+      taxapunkt: Svavelsyra
+      block: B
+    - number: 62
+      taxapunkt: Salpetersyra
+      block: B
+    - number: 63
+      taxapunkt: Surt oorganiskt fast ämne
+      block: B
+    - number: 64
+      taxapunkt: Surt organiskt fast ämne
+      block: B
+    - number: 65
+      taxapunkt: Surt oorganisk vätska
+      block: B
+    - number: 66
+      taxapunkt: Surt organisk vätska
+      block: B
+    - number: 67
+      taxapunkt: Ammoniaklösning
+      block: B
+    - number: 68
+      taxapunkt: Alkaliskt avfall fast
+      block: B
+    - number: 69
+      taxapunkt: Basiskt organiskt fast/flytande
+      block: B
+    - number: 70
+      taxapunkt: Fotokemikalier
+      block: B
+    - number: 71
+      taxapunkt: Bekämpningsmedel aerosoler
+      block: B
+    - number: 72
+      taxapunkt: Bekämpningsmedel fast
+      block: B
+    - number: 73
+      taxapunkt: Bekämpningsmedel flytande
+      block: B
+    - number: 74
+      taxapunkt: Kvicksilverhaltigt avfall
+      block: B
+    - number: 75
+      taxapunkt: Kvicksilver i föremål
+      block: B
+    - number: 76
+      taxapunkt: Oljehaltigt avfall (ej PCB)
+      block: B
+    - number: 77
+      taxapunkt: Olja förorenad (ej PCB)
+      block: B
+    - number: 78
+      taxapunkt: Färg-, lack-, limburkar lösning
+      block: B
+    - number: 79
+      taxapunkt: Färg-, lack-, limburkar lösning aerosoler
+      block: B
+    - number: 80
+      taxapunkt: Isocyanater
+      block: B
+    - number: 81
+      taxapunkt: Härdare metyl-etylketonperoxid
+      block: B
+    - number: 82
+      taxapunkt: Härdare dibenzoylperoxid
+      block: B
+    - number: 83
+      taxapunkt: Färg-, lack-, limburkar vattenbaserade
+      block: B
+    - number: 84
+      taxapunkt: Tensida alkaliska flytande avfall
+      block: B
+    - number: 85
+      taxapunkt: Rengörings-/vaskmedel fast
+      block: B
+    - number: 86
+      taxapunkt: Alkaliska flytande avfall
+      block: B
+    - number: 87
+      taxapunkt: Cytotoxiska läkemedel, cytostat
+      block: B
+    - number: 88
+      taxapunkt: Rökdetektor med andra isotoper
+      block: B
+    - number: 89
+      taxapunkt: Rökdetektor med Am 241
+      block: B
+    - number: 90
+      taxapunkt: Batterier stav, pencell
+      block: C
+    - number: 91
+      taxapunkt: Batterier lithium
+      block: C
+    - number: 92
+      taxapunkt: Bil-, mcbatteri med bly
+      block: C
+    - number: 93
+      taxapunkt: Glödlampor
+      block: C
+    - number: 94
+      taxapunkt: Lysrör
+      block: C
+    - number: 95
+      taxapunkt: Elavfall, små elektronik
+      block: C
+    - number: 96
+      taxapunkt: El-avfall fast installation
+      block: C
+    - number: 97
+      taxapunkt: El-avfall kabel
+      block: C
+    - number: 98
+      taxapunkt: Toner, färgpatron med elektronik
+      block: C
+    - number: 99
+      taxapunkt: Tv, radio, skärm, skrivare utan färgpatron
+      block: C
+    - number: 100
+      taxapunkt: Kyl-, frysskåp, -box
+      block: C
+    - number: 101
+      taxapunkt: Kyl-, frysskåp, -box från verksamhet
+      block: C
+    - number: 102
+      taxapunkt: Spis, tvätt-, diskmaskin
+      block: C
+    - number: 103
+      taxapunkt: Spis, tvätt-, diskmaskin från verksamhet
+      block: C
+  6.1.3:
+    title: Hyra av container
     tax_count: 4
     tax_rows: []
-  "6.1.4":
-    title: "Övriga avgifter och tillägg"
+  6.1.4:
+    title: Övriga avgifter och tillägg
     tax_count: 4
     tax_rows: []

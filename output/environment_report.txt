@@ -7,15 +7,26 @@ platform: Windows-11-10.0.26200-SP0
 PYTHONPATH: 
 
 git status:
-M output/environment_report.txt
- M output/parser3_trace_report.txt
+M golden_master/parser_facit.yaml
+ M output/environment_report.txt
+ M output/parser3_acceptance_debug_report.txt
+ M output/parser3_acceptance_report.txt
+ M output/parser3_architecture_report.txt
+ M output/parser3_missing_diagnostics.txt
+ M output/parser3_precision_report.txt
+ M output/parser3_report.txt
+ M output/parser3_result.json
  M output/parser_console.txt
  M output/pytest_report.txt
- M parser3/acceptance/name_normalizer.py
-?? docs/Block27_EwcStarNormalizerFix.md
-?? docs/changelogg/CHANGELOG_Block27.md
-?? docs/install/INSTALL_Block27.md
-?? tests/test_name_normalizer_block27.py
+ M parser3/extractors/__init__.py
+ M parser3/semantic/semantic_parser.py
+ M parser_facit.yaml
+?? docs/Block28_Section611.md
+?? docs/changelogg/CHANGELOG_Block28.md
+?? docs/install/INSTALL_Block28.md
+?? parser3/extractors/section611_extractor.py
+?? tests/test_facit_611_yaml.py
+?? tests/test_section611_extractor.py
 
 git branch:
 main

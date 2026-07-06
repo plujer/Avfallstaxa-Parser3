@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 
 from parser3.context.context_engine import ContextEngine
 from parser3.document import DocumentBlock
-from parser3.extractors import FlatTaxExtractor, Section612Extractor, TaxRowExtractor
+from parser3.extractors import FlatTaxExtractor, Section611Extractor, Section612Extractor, TaxRowExtractor
 from parser3.models import TaxRow
 from parser3.semantic.row_type_classifier import RowTypeClassifier
 from parser3.semantic.section_tax_rules import SectionTaxRules
@@ -33,12 +33,14 @@ class SemanticParser:
         self.flat_extractor = FlatTaxExtractor()
         self.structured_extractor = StructuredTaxExtractor()
         self.section612_extractor = Section612Extractor(trace_store=self.trace_store)
+        self.section611_extractor = Section611Extractor()
 
     def parse(self, blocks: list[DocumentBlock]) -> SemanticParseResult:
         context_blocks = self.context_engine.assign(blocks)
         semantic_rows: list[SemanticRow] = []
         tax_rows: list[TaxRow] = []
         seen_keys: set[tuple[str, str, str, str]] = set()
+        pending_611_text = ""
 
         def add_rows(new_rows: list[TaxRow]) -> None:
             for row in new_rows:
@@ -50,6 +52,9 @@ class SemanticParser:
         for context_block in context_blocks:
             block = context_block.block
             context = context_block.context
+
+            if context.section != "6.1.1":
+                pending_611_text = ""
 
             if block.kind == "table":
                 for index, row in enumerate(block.rows):
@@ -114,6 +119,24 @@ class SemanticParser:
                     reason=reason,
                 )
             )
+
+            if context.section == "6.1.1":
+                if pending_611_text and row_type == ROW_TYPE_TAX:
+                    add_rows(
+                        self.section611_extractor.extract_combined(
+                            pending_611_text,
+                            block.text,
+                            chapter=context.chapter,
+                            section=context.section,
+                            group=context.group,
+                        )
+                    )
+
+                # Keep only the known split-row opener as pending context.
+                if block.text.strip().lower().startswith("ej redovisad ankomst till åvc"):
+                    pending_611_text = block.text
+                elif row_type == ROW_TYPE_TAX:
+                    pending_611_text = ""
 
             if context.section == "6.1.2" and row_type != ROW_TYPE_TAX:
                 add_rows(

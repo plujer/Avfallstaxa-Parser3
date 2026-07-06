@@ -2,6 +2,25 @@ Parser Acceptance Debug Report
 
 Purpose: identify exactly which manually verified facit rows are missing.
 
+SECTION 6.1.1
+Expected names: 6
+Exported names: 6
+Missing names: 1
+Extra names: 1
+
+MISSING
+- Ej redovisad eller fel redovisad fraktion av avfall
+  possible parser names:
+    - Ej redovisad eller fel redovisad fraktion av avfall /fraktion
+
+EXTRA EXPORTED
+- Ej redovisad eller fel redovisad fraktion av avfall /fraktion
+
+FOUND IN SEMANTIC ROWS BUT NOT EXPORTED
+- tax | low-level tax candidate | Ej redovisad eller fel redovisad fraktion av avfall XXXX kr/fraktion
+
+--------------------------------------------------------------------------------
+
 SECTION 6.1.2
 Expected names: 103
 Exported names: 103

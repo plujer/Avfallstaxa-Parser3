@@ -2,7 +2,7 @@ Parser 3.0 precision report
 
 Matched: 0
 Missing: 271
-Extra: 237
+Extra: 238
 Passed: False
 
 MISSING
@@ -407,6 +407,7 @@ EXTRA
 - 6.1.1 | övriga abonnemangstyper |  |  | Extra parser row
 - 6.1.1 | vågkort |  |  | Extra parser row
 - 6.1.1 | borttappat vågkort |  |  | Extra parser row
+- 6.1.1 | ej redovisad ankomst till åvc (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst) |  | besök | Extra parser row
 - 6.1.1 | ej redovisad eller fel redovisad fraktion av avfall /fraktion |  | fraktion | Extra parser row
 - 6.1.2 | avfall till energiåtervinning (240 l sopsäck) |  | styck | Extra parser row
 - 6.1.2 | avfall till energiåtervinning |  | kilogram | Extra parser row
