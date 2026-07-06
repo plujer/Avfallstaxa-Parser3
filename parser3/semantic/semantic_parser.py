@@ -1,4 +1,4 @@
-"""Semantic parser using ContextEngine."""
+"""Semantic parser using ContextEngine and structured table extraction."""
 
 from __future__ import annotations
 
@@ -11,6 +11,7 @@ from parser3.models import TaxRow
 from parser3.semantic.row_type_classifier import RowTypeClassifier
 from parser3.semantic.section_tax_rules import SectionTaxRules
 from parser3.semantic.semantic_row import SemanticRow
+from parser3.tables2 import StructuredTaxExtractor
 from parser3.utils.constants import ROW_TYPE_TAX
 
 
@@ -26,6 +27,7 @@ class SemanticParser:
         self.row_classifier = RowTypeClassifier()
         self.section_rules = SectionTaxRules()
         self.tax_extractor = TaxRowExtractor()
+        self.structured_extractor = StructuredTaxExtractor()
 
     def parse(self, blocks: list[DocumentBlock]) -> SemanticParseResult:
         context_blocks = self.context_engine.assign(blocks)
@@ -37,11 +39,11 @@ class SemanticParser:
             context = context_block.context
 
             if block.kind == "table":
+                # Keep the explain rows row-by-row.
                 for index, row in enumerate(block.rows):
                     row_context = context_block.row_contexts[index] if index < len(context_block.row_contexts) else context
                     row_type, reason = self.row_classifier.classify(row)
                     text = " ".join(c for c in row if c).strip()
-
                     semantic_rows.append(
                         SemanticRow(
                             row_type=row_type,
@@ -54,16 +56,19 @@ class SemanticParser:
                         )
                     )
 
-                    if row_type == ROW_TYPE_TAX and self.section_rules.should_export(row_context.section, text):
-                        tax_rows.extend(
-                            self.tax_extractor.extract_from_rows(
-                                [row],
-                                chapter=row_context.chapter,
-                                section=row_context.section,
-                                group=row_context.group,
-                                header=row_context.header,
-                            )
+                # But extract tax rows with preserved cell structure for the whole table.
+                section = context.section
+                chapter = context.chapter
+                group = context.group
+                if self.section_rules.should_export(section, "table"):
+                    tax_rows.extend(
+                        self.structured_extractor.extract_table(
+                            block.rows,
+                            chapter=chapter,
+                            section=section,
+                            group=group,
                         )
+                    )
                 continue
 
             row_type, reason = self.row_classifier.classify([block.text])

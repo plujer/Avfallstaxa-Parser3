@@ -2,7 +2,7 @@ Parser 3.0 precision report
 
 Matched: 0
 Missing: 0
-Extra: 236
+Extra: 250
 Passed: False
 
 EXTRA
@@ -221,18 +221,32 @@ EXTRA
 - 6.1.2 | rökdetektor med andra isotoper |  | kilogram | Extra parser row
 - 6.1.2 | rökdetektor med am 241 |  | kilogram | Extra parser row
 - 6.1.2 | batterier stav, pencell |  | kilogram | Extra parser row
+- 6.1.2 | batterier stav, pencell |  | kilogram | Extra parser row
+- 6.1.2 | batterier lithium |  | kilogram | Extra parser row
 - 6.1.2 | batterier lithium |  | kilogram | Extra parser row
 - 6.1.2 | bil-, mcbatteri med bly |  | styck | Extra parser row
+- 6.1.2 | bil-, mcbatteri med bly |  | styck | Extra parser row
+- 6.1.2 | glödlampor |  | kilogram | Extra parser row
 - 6.1.2 | glödlampor |  | kilogram | Extra parser row
 - 6.1.2 | lysrör |  | kilogram | Extra parser row
+- 6.1.2 | lysrör |  | kilogram | Extra parser row
+- 6.1.2 | elavfall, små elektronik |  | kilogram | Extra parser row
 - 6.1.2 | elavfall, små elektronik |  | kilogram | Extra parser row
 - 6.1.2 | el-avfall fast installation |  | kilogram | Extra parser row
+- 6.1.2 | el-avfall fast installation |  | kilogram | Extra parser row
+- 6.1.2 | el-avfall kabel |  | kilogram | Extra parser row
 - 6.1.2 | el-avfall kabel |  | kilogram | Extra parser row
 - 6.1.2 | toner, färgpatron med elektronik |  | kilogram | Extra parser row
+- 6.1.2 | toner, färgpatron med elektronik |  | kilogram | Extra parser row
+- 6.1.2 | tv, radio, skärm, skrivare utan färgpatron |  | kilogram | Extra parser row
 - 6.1.2 | tv, radio, skärm, skrivare utan färgpatron |  | kilogram | Extra parser row
 - 6.1.2 | kyl-, frysskåp, -box |  | styck | Extra parser row
+- 6.1.2 | kyl-, frysskåp, -box |  | styck | Extra parser row
+- 6.1.2 | kyl-, frysskåp, -box från verksamhet |  | kilogram | Extra parser row
 - 6.1.2 | kyl-, frysskåp, -box från verksamhet |  | kilogram | Extra parser row
 - 6.1.2 | spis, tvätt-, diskmaskin |  | styck | Extra parser row
+- 6.1.2 | spis, tvätt-, diskmaskin |  | styck | Extra parser row
+- 6.1.2 | spis, tvätt-, diskmaskin från verksamhet |  | kilogram | Extra parser row
 - 6.1.2 | spis, tvätt-, diskmaskin från verksamhet |  | kilogram | Extra parser row
 - 6.1.3 | container x m3 xx kr |  | m³ | Extra parser row
 - 6.1.3 | container x m3 xx kr |  | m³ | Extra parser row
