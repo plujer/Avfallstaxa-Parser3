@@ -24,6 +24,7 @@ $files = @(
     "output\projects\Norsjo\excel\ArbetsExcel_Norsjo_byggd.xlsx",
     "output\projects\Norsjo\reports\edp_isolated_run_report_Norsjo.txt",
     "output\projects\Norsjo\manifest\project_run_manifest.json",
+    "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx",
     "output\excel\sorsele_project_run_console.txt",
     "output\excel\mala_project_run_console.txt",
     "output\excel\norsjo_project_run_console.txt",

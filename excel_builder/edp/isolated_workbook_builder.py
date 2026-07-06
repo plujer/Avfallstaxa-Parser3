@@ -1,9 +1,4 @@
-"""Build one isolated output workbook for one EDP export.
-
-This does not create the final production workbook yet. It creates a controlled
-run artifact proving that municipality/EDP data is isolated and written to its
-own workbook.
-"""
+"""Build one isolated output workbook for one EDP export."""
 
 from __future__ import annotations
 
@@ -63,9 +58,11 @@ class IsolatedWorkbookBuilder:
         info.append(["EDP-källa", edp_export.source_path])
         info.append(["EDP-rader", edp_export.row_count])
         info.append(["Status", "Isolerad körning – får inte blandas med annan kommun"])
+        info.append(["EDP-regel", "Taxor i Taxa_från_edp är fasta och ändras inte automatiskt"])
         info.append(["Standardtaxor", "Inkluderade som referensflikar om standardtaxefilen finns"])
-        info.append(["Taxa_Förslag", "Ingår i alla outputfiler för föreslagna saknade taxekoder"])
-        info.append(["Regelspårning", "Ingår i alla outputfiler för spårbarhet av beslut/regler"])
+        info.append(["Taxa_Förslag", "Ingår för föreslagna saknade taxekoder"])
+        info.append(["EDP_Avviker_Standard", "Ingår för avvikelser mot standardtaxor"])
+        info.append(["Regelspårning", "Ingår för spårbarhet av beslut/regler"])
         info.column_dimensions["A"].width = 24
         info.column_dimensions["B"].width = 90
         for cell in info[1]:

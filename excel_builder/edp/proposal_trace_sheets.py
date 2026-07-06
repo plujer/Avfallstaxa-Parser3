@@ -1,4 +1,4 @@
-"""Add proposal and rule tracing sheets to generated workbooks."""
+"""Add proposal, deviation and rule tracing sheets to generated workbooks."""
 
 from __future__ import annotations
 
@@ -12,11 +12,17 @@ class ProposalTraceSheets:
     Taxa_Förslag:
         Holds suggested tax codes when no safe municipality-specific EDP match exists.
 
+    EDP_Export_Avviker_Standard:
+        Holds detected deviations where existing EDP export differs from standard tax
+        reference. Existing Taxa_från_edp codes/prices remain fixed and must not be
+        overwritten automatically.
+
     Regelspårning:
         Documents how each generated row/value was created.
     """
 
     PROPOSAL_SHEET = "Taxa_Förslag"
+    DEVIATION_SHEET = "EDP_Avviker_Standard"
     TRACE_SHEET = "Regelspårning"
 
     PROPOSAL_HEADERS = [
@@ -31,6 +37,21 @@ class ProposalTraceSheets:
         "Säkerhet",
         "Status",
         "Kommentar",
+    ]
+
+    DEVIATION_HEADERS = [
+        "Kommun",
+        "EDP taxekod",
+        "EDP benämning",
+        "EDP faktor",
+        "EDP taxedel",
+        "Standard taxekod",
+        "Standard benämning",
+        "Standard faktor",
+        "Standard taxedel",
+        "Avvikelse",
+        "Rekommendation",
+        "Status",
     ]
 
     TRACE_HEADERS = [
@@ -48,12 +69,15 @@ class ProposalTraceSheets:
 
     def add(self, wb, municipality: str = "", context: str = "") -> None:
         self._remove_existing_if_empty_or_template(wb, self.PROPOSAL_SHEET)
+        self._remove_existing_if_empty_or_template(wb, self.DEVIATION_SHEET)
         self._remove_existing_if_empty_or_template(wb, self.TRACE_SHEET)
 
         proposal = wb.create_sheet(self.PROPOSAL_SHEET)
+        deviation = wb.create_sheet(self.DEVIATION_SHEET)
         trace = wb.create_sheet(self.TRACE_SHEET)
 
         self._setup_proposal_sheet(proposal, municipality, context)
+        self._setup_deviation_sheet(deviation, municipality, context)
         self._setup_trace_sheet(trace, municipality, context)
 
     def _setup_proposal_sheet(self, ws, municipality: str, context: str) -> None:
@@ -64,7 +88,6 @@ class ProposalTraceSheets:
         ws.append([])
         ws.append(self.PROPOSAL_HEADERS)
 
-        # One instruction/example row so the sheet is self-documenting.
         ws.append([
             municipality,
             "",
@@ -85,6 +108,36 @@ class ProposalTraceSheets:
             "F": 22, "G": 44, "H": 42, "I": 12, "J": 18, "K": 50,
         })
 
+    def _setup_deviation_sheet(self, ws, municipality: str, context: str) -> None:
+        ws.append(["EDP Export avviker från standardtaxa"])
+        ws.append(["Syfte", "Visar avvikelser mot standardtaxor. Befintlig Taxa_från_edp är fast och ändras aldrig automatiskt."])
+        ws.append(["Kommun", municipality])
+        ws.append(["Källa", context])
+        ws.append([])
+        ws.append(self.DEVIATION_HEADERS)
+
+        ws.append([
+            municipality,
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Granska manuellt. Ändra inte befintlig EDP automatiskt.",
+            "Ej granskad",
+        ])
+
+        self._style(ws, header_row=6, table_name="EdpAvvikerStandardTable")
+        self._set_widths(ws, {
+            "A": 16, "B": 18, "C": 44, "D": 18, "E": 42,
+            "F": 22, "G": 44, "H": 18, "I": 42, "J": 46,
+            "K": 54, "L": 18,
+        })
+
     def _setup_trace_sheet(self, ws, municipality: str, context: str) -> None:
         ws.append(["Regelspårning"])
         ws.append(["Syfte", "Spårar hur varje rad/fält byggdes: Word, EDP, standardtaxor eller manuell granskning."])
@@ -100,7 +153,7 @@ class ProposalTraceSheets:
             "Taxakod",
             "",
             "Ej satt",
-            "Taxakod får endast sättas från säker EDP-match eller markerat förslag.",
+            "Befintlig Taxa_från_edp är fast. Standardtaxor får endast ge förslag/avvikelse.",
             "Regelverk",
             "Ej granskad",
             "Standardflik för framtida spårning.",
@@ -109,7 +162,7 @@ class ProposalTraceSheets:
         self._style(ws, header_row=6, table_name="RegelsparningTable")
         self._set_widths(ws, {
             "A": 16, "B": 12, "C": 48, "D": 18, "E": 28,
-            "F": 24, "G": 60, "H": 30, "I": 18, "J": 50,
+            "F": 24, "G": 70, "H": 30, "I": 18, "J": 50,
         })
 
     def _style(self, ws, header_row: int, table_name: str) -> None:
@@ -155,5 +208,4 @@ class ProposalTraceSheets:
     def _remove_existing_if_empty_or_template(self, wb, sheet_name: str) -> None:
         if sheet_name not in wb.sheetnames:
             return
-        ws = wb[sheet_name]
-        wb.remove(ws)
+        wb.remove(wb[sheet_name])
