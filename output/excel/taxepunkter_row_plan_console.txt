@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\PyProjects\Taxa 3.0\excel_builder_row_plan.py", line 5, in <module>
+    from excel_builder.builder import TaxepunkterRowBuilder
+  File "C:\PyProjects\Taxa 3.0\excel_builder\builder\__init__.py", line 1, in <module>
+    from .taxepunkter_row_builder import TaxepunkterRowBuilder
+  File "C:\PyProjects\Taxa 3.0\excel_builder\builder\taxepunkter_row_builder.py", line 10, in <module>
+    from excel_builder.matching import MatchNormalizer
+  File "C:\PyProjects\Taxa 3.0\excel_builder\matching\__init__.py", line 2, in <module>
+    from .matching_engine import MatchingEngine
+  File "C:\PyProjects\Taxa 3.0\excel_builder\matching\matching_engine.py", line 11, in <module>
+    from excel_builder.models import MatchCandidate, MatchReport, ParserTaxRow, WorkbookTaxRow
+  File "C:\PyProjects\Taxa 3.0\excel_builder\models\__init__.py", line 11, in <module>
+    from .coverage_models import CoverageItem, CoverageReport
+ModuleNotFoundError: No module named 'excel_builder.models.coverage_models'

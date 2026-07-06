@@ -1,6 +1,20 @@
-Arbets-Excel profile klar
-Workbook: data\ArbetsExcel_Reference.xlsx
-Sheets: 32
-Report: output\excel\arbets_excel_profile_report.txt
-Arbets-Excel snapshot klar
-Snapshot: output\excel\arbets_excel_snapshot.txt
+Traceback (most recent call last):
+  File "C:\PyProjects\Taxa 3.0\excel_builder_inspect.py", line 5, in <module>
+    from excel_builder.io import WorkbookProfiler
+  File "C:\PyProjects\Taxa 3.0\excel_builder\io\__init__.py", line 1, in <module>
+    from .parser_result_reader import ParserResultReader
+  File "C:\PyProjects\Taxa 3.0\excel_builder\io\parser_result_reader.py", line 8, in <module>
+    from excel_builder.models import BuilderInputRow, BuilderResult
+  File "C:\PyProjects\Taxa 3.0\excel_builder\models\__init__.py", line 11, in <module>
+    from .coverage_models import CoverageItem, CoverageReport
+ModuleNotFoundError: No module named 'excel_builder.models.coverage_models'
+Traceback (most recent call last):
+  File "C:\PyProjects\Taxa 3.0\excel_builder_snapshot.py", line 5, in <module>
+    from excel_builder.io import WorkbookSnapshot
+  File "C:\PyProjects\Taxa 3.0\excel_builder\io\__init__.py", line 1, in <module>
+    from .parser_result_reader import ParserResultReader
+  File "C:\PyProjects\Taxa 3.0\excel_builder\io\parser_result_reader.py", line 8, in <module>
+    from excel_builder.models import BuilderInputRow, BuilderResult
+  File "C:\PyProjects\Taxa 3.0\excel_builder\models\__init__.py", line 11, in <module>
+    from .coverage_models import CoverageItem, CoverageReport
+ModuleNotFoundError: No module named 'excel_builder.models.coverage_models'

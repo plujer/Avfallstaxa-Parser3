@@ -1,8 +1,14 @@
 ﻿Excel Builder Report Package
-Created: 2026-07-06_19-31-43
+Created: 2026-07-06_19-38-32
 
 Included files:
 [OK] output\excel\ArbetsExcel_byggd_fran_parser.xlsx
+[MISSING] output\excel\taxepunkter_row_plan_report.txt
+[MISSING] output\excel\taxepunkter_row_plan.csv
+[OK] output\excel\taxepunkter_row_plan_console.txt
+[MISSING] output\excel\word_tax_coverage_report.txt
+[MISSING] output\excel\word_tax_coverage_results.csv
+[OK] output\excel\word_tax_coverage_console.txt
 [OK] output\excel\excel_matching_results.csv
 [OK] output\excel\excel_matching_report.txt
 [OK] output\excel\excel_matching_console.txt

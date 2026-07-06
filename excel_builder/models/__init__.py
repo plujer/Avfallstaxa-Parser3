@@ -8,3 +8,5 @@ from .workbook_profile_models import (
 )
 from .matching_models import WorkbookTaxRow, ParserTaxRow, MatchCandidate, MatchReport
 from .rulebook_models import RuleEntry, Rulebook
+from .coverage_models import CoverageItem, CoverageReport
+from .row_builder_models import TaxepunkterBuildRow, TaxepunkterBuildPlan
