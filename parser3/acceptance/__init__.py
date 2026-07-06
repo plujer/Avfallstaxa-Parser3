@@ -6,3 +6,5 @@ from .acceptance_debug_reporter import AcceptanceDebugReporter
 from .facit_loader import FacitLoader
 from .facit_yaml_loader import FacitYamlLoader
 from .facit_catalog import FacitCatalog
+from .missing_row_diagnostics import MissingRowDiagnostics, MissingDiagnosticsResult, MissingRowDiagnostic
+from .missing_row_reporter import MissingRowReporter

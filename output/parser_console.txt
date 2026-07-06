@@ -46,6 +46,7 @@ Acceptance expected total: 117
 Acceptance actual total: 109
 Acceptance report: output/parser3_acceptance_report.txt
 Acceptance debug report: output/parser3_acceptance_debug_report.txt
+Missing diagnostics report: output/parser3_missing_diagnostics.txt
 INFO | parser3 | Avfallstaxa Parser 3.0 version 0.1.0
 Avfallstaxa Parser 3.1 bootstrap OK
 Config loaded: Avfallstaxa Parser 3.0 0.1.0
@@ -100,25 +101,27 @@ Precision report: output/parser3_precision_report.txt
 
  Directory of C:\PyProjects\Taxa 3.0\output
 
-2026-07-06  14:36    <DIR>          .
-2026-07-06  14:45    <DIR>          ..
-2026-07-06  14:45             1ÿ361 environment_report.txt
-2026-07-06  14:45               336 master_console.txt
-2026-07-06  14:45             9ÿ938 master_profile_report.txt
-2026-07-06  14:45               566 parser3_acceptance_debug_report.txt
-2026-07-06  14:45               479 parser3_acceptance_report.txt
-2026-07-06  14:45               231 parser3_architecture_report.txt
-2026-07-06  14:45            67ÿ665 parser3_explain_report.txt
-2026-07-06  14:45            46ÿ156 parser3_precision_report.txt
-2026-07-06  14:45            15ÿ899 parser3_report.txt
-2026-07-06  14:45            59ÿ256 parser3_result.json
+2026-07-06  14:52    <DIR>          .
+2026-07-06  14:51    <DIR>          ..
+2026-07-06  14:52             1ÿ080 environment_report.txt
+2026-07-06  14:52               336 master_console.txt
+2026-07-06  14:52             9ÿ938 master_profile_report.txt
+2026-07-06  14:52               566 parser3_acceptance_debug_report.txt
+2026-07-06  14:52               479 parser3_acceptance_report.txt
+2026-07-06  14:52               231 parser3_architecture_report.txt
+2026-07-06  14:52            67ÿ665 parser3_explain_report.txt
+2026-07-06  14:52             8ÿ333 parser3_missing_diagnostics.txt
+2026-07-06  14:52            46ÿ156 parser3_precision_report.txt
+2026-07-06  14:52            15ÿ899 parser3_report.txt
+2026-07-06  14:52            59ÿ256 parser3_result.json
 2026-07-06  12:31            28ÿ849 Parser3_Run_2026-07-06_12-31-18.zip
 2026-07-06  13:13            33ÿ421 Parser3_Run_2026-07-06_13-13-22.zip
 2026-07-06  13:37            34ÿ110 Parser3_Run_2026-07-06_13-37-08.zip
 2026-07-06  13:44            34ÿ749 Parser3_Run_2026-07-06_13-44-12.zip
 2026-07-06  14:36            36ÿ311 Parser3_Run_2026-07-06_14-36-16.zip
-2026-07-06  14:45             1ÿ852 parser_console.txt
+2026-07-06  14:45            35ÿ683 Parser3_Run_2026-07-06_14-45-51.zip
+2026-07-06  14:52             1ÿ920 parser_console.txt
 2026-07-03  17:22            51ÿ337 parser_facit_generated.yaml
-2026-07-06  14:45             8ÿ750 pytest_report.txt
-              18 File(s)        431ÿ266 bytes
-               2 Dir(s)  25ÿ925ÿ787ÿ648 bytes free
+2026-07-06  14:52             8ÿ858 pytest_report.txt
+              20 File(s)        475ÿ177 bytes
+               2 Dir(s)  25ÿ514ÿ995ÿ712 bytes free

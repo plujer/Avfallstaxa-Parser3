@@ -7,6 +7,8 @@ from parser3.acceptance import (
     AcceptanceReporter,
     AcceptanceRunner,
     FacitLoader,
+    MissingRowDiagnostics,
+    MissingRowReporter,
 )
 from parser3.config_loader import load_config
 from parser3.context import ContextEngine
@@ -35,6 +37,7 @@ def main() -> None:
     arg_parser.add_argument("--semantic", action="store_true")
     arg_parser.add_argument("--acceptance", action="store_true")
     arg_parser.add_argument("--acceptance-debug", action="store_true")
+    arg_parser.add_argument("--missing-debug", action="store_true")
     arg_parser.add_argument("--validate", action="store_true")
     arg_parser.add_argument("--build-golden", action="store_true")
     arg_parser.add_argument("--diff", action="store_true")
@@ -70,7 +73,7 @@ def main() -> None:
     if not args.word:
         return
 
-    if args.semantic or args.acceptance or args.acceptance_debug or args.validate or args.build_golden or args.diff or args.explain or args.architecture:
+    if args.semantic or args.acceptance or args.acceptance_debug or args.missing_debug or args.validate or args.build_golden or args.diff or args.explain or args.architecture:
         pipeline_result = TaxPipeline().run(args.word)
         blocks = pipeline_result.blocks
         rows = pipeline_result.tax_rows
@@ -91,7 +94,7 @@ def main() -> None:
             ExplainReporter().write(pipeline_result.semantic_rows, "output/parser3_explain_report.txt")
             print("Explain report: output/parser3_explain_report.txt")
 
-        if args.acceptance or args.acceptance_debug:
+        if args.acceptance or args.acceptance_debug or args.missing_debug:
             expectations = FacitLoader().load_builtin()
             acceptance = AcceptanceRunner().run(rows, expectations)
             AcceptanceReporter().write(acceptance, "output/parser3_acceptance_report.txt")
@@ -100,10 +103,15 @@ def main() -> None:
             print(f"Acceptance actual total: {acceptance.actual_total}")
             print("Acceptance report: output/parser3_acceptance_report.txt")
 
-        if args.acceptance_debug:
+        if args.acceptance_debug or args.missing_debug:
             debug = AcceptanceDebugger().debug(rows, pipeline_result.semantic_rows)
             AcceptanceDebugReporter().write(debug, "output/parser3_acceptance_debug_report.txt")
             print("Acceptance debug report: output/parser3_acceptance_debug_report.txt")
+
+        if args.missing_debug:
+            missing = MissingRowDiagnostics().run(rows, pipeline_result.semantic_rows)
+            MissingRowReporter().write(missing, "output/parser3_missing_diagnostics.txt")
+            print("Missing diagnostics report: output/parser3_missing_diagnostics.txt")
 
         if args.build_golden:
             data = GoldenMasterBuilder().from_tax_rows(rows)

@@ -1,0 +1,101 @@
+Parser Missing Row Diagnostics
+
+Missing diagnostics: 4
+
+====================================================================================================
+SECTION: 6.1.2
+EXPECTED: Skrymmande avfall till energiåtervinning större än 20×20×80
+NORMALIZED EXPECTED: skrymmande avfall till energiåtervinning större än 20x20x80
+
+EXACT SEMANTIC HITS
+- none
+
+FUZZY SEMANTIC HITS
+- 0.543 | order=422 | type=info | reason=default info | text=Skrymmande avfall till energiåtervinning större än 20*20*80 Skrymmande avfall till energiåtervinning större än 20*20*80 200307 200307 kilogram kilogram | normalized=skrymmande avfall till energiåtervinning större än 20*20*80 skrymmande avfall till energiåtervinning större än 20*20*80 200307 200307 kilogram kilogram
+- 0.507 | order=422 | type=info | reason=default info | text=Avfall till energiåtervinning Avfall till energiåtervinning 200301 200301 kilogram kilogram | normalized=avfall till energiåtervinning avfall till energiåtervinning 200301 200301 kilogram kilogram
+- 0.466 | order=422 | type=info | reason=default info | text=Avfall till energiåtervinning (240 L sopsäck) Avfall till energiåtervinning (240 L sopsäck) 200301 200301 styck styck | normalized=avfall till energiåtervinning (240 l sopsäck) avfall till energiåtervinning (240 l sopsäck) 200301 200301 styck styck
+- 0.422 | order=421 | type=section | reason=default info | text=6.1.2 § Hanteringsavgifter för avfall inlämnat på återvinningscentral | normalized=6.1.2 § hanteringsavgifter för avfall inlämnat på återvinningscentral
+- 0.369 | order=425 | type=info | reason=default info | text=Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) besök | normalized=osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) besök
+- 0.354 | order=428 | type=tax | reason=low-level tax candidate | text=Alkaliska flytande avfall 200129* 3266 kilogram 27,75 | normalized=alkaliska flytande avfall 200129* 3266 kilogram 27, 75
+
+NEARBY / SHARED-WORD SEMANTIC ROWS
+- order=422 | type=info | reason=default info | text=Avfall till energiåtervinning (240 L sopsäck) Avfall till energiåtervinning (240 L sopsäck) 200301 200301 styck styck | normalized=avfall till energiåtervinning (240 l sopsäck) avfall till energiåtervinning (240 l sopsäck) 200301 200301 styck styck
+- order=422 | type=info | reason=default info | text=Avfall till energiåtervinning Avfall till energiåtervinning 200301 200301 kilogram kilogram | normalized=avfall till energiåtervinning avfall till energiåtervinning 200301 200301 kilogram kilogram
+- order=422 | type=info | reason=default info | text=Skrymmande avfall till energiåtervinning större än 20*20*80 Skrymmande avfall till energiåtervinning större än 20*20*80 200307 200307 kilogram kilogram | normalized=skrymmande avfall till energiåtervinning större än 20*20*80 skrymmande avfall till energiåtervinning större än 20*20*80 200307 200307 kilogram kilogram
+- order=425 | type=info | reason=default info | text=Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) besök | normalized=osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) besök
+- order=426 | type=group | reason=group phrase | text=Tillägg för farligt avfall | normalized=tillägg för farligt avfall
+- order=427 | type=info | reason=default info | text=Då man som verksamhet och företag, sedan den 1 november 2020, ska rapportera sitt farliga avfall till Naturvårdsverket så ska även intyget även lämnas in till personalen på ÅVC. Om man kommer in med farligt avfall* så ska säkerhetsdatablad för varje fraktion följa med. | normalized=då man som verksamhet och företag, sedan den 1 november 2020, ska rapportera sitt farliga avfall till naturvårdsverket så ska även intyget även lämnas in till personalen på åvc. om man kommer in med farligt avfall* så ska säkerhetsdatablad för varje fraktion följa med
+- order=429 | type=group | reason=group phrase | text=Tillägg för el-avfall | normalized=tillägg för el-avfall
+- order=430 | type=info | reason=default info | text=När el-avfall ska lämnas måste det först anmälas i Hämtplatsportalen på Elkretsens hemsida. En kopia på avlämningsintyg lämnas till åvc personalen innan el-avfallet lämnas i miljöboden. Uppmärksamma att visst el-avfall även är klassat som farlig avfall* och kräver då även registrering hos Naturvårdsverket. | normalized=när el-avfall ska lämnas måste det först anmälas i hämtplatsportalen på elkretsens hemsida. en kopia på avlämningsintyg lämnas till åvc personalen innan el-avfallet lämnas i miljöboden. uppmärksamma att visst el-avfall även är klassat som farlig avfall* och kräver då även registrering hos naturvårdsverket
+
+SIMILAR EXPORTED ROWS
+- 0.659 | Avfall till energiåtervinning | unit=kilogram | price=
+- 0.615 | Avfall till energiåtervinning (240 L sopsäck) | unit=styck | price=
+- 0.385 | Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) | unit= | price=
+
+====================================================================================================
+SECTION: 6.1.2
+EXPECTED: Isolering utan innehåll av asbest
+NORMALIZED EXPECTED: isolering utan innehåll av asbest
+
+EXACT SEMANTIC HITS
+- none
+
+FUZZY SEMANTIC HITS
+- 0.550 | order=422 | type=info | reason=default info | text=Isolering utan innehåll av asbets Isolering utan innehåll av asbets 170604 170604 m3 m3 | normalized=isolering utan innehåll av asbets isolering utan innehåll av asbets 170604 170604 m³ m³
+- 0.452 | order=425 | type=info | reason=default info | text=Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) besök | normalized=osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) besök
+
+NEARBY / SHARED-WORD SEMANTIC ROWS
+- order=422 | type=info | reason=default info | text=Isolering utan innehåll av asbets Isolering utan innehåll av asbets 170604 170604 m3 m3 | normalized=isolering utan innehåll av asbets isolering utan innehåll av asbets 170604 170604 m³ m³
+
+SIMILAR EXPORTED ROWS
+- 0.440 | Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) | unit= | price=
+- 0.438 | Förorenad olja innehållande PCB | unit=kilogram | price=38,25
+- 0.414 | Kvicksilverhaltigt avfall | unit=kilogram | price=1 034,81
+- 0.407 | Rengöring/vaskmedel fast | unit=kilogram | price=27,19
+- 0.381 | Fönster- och planglas utan karm | unit=kilogram | price=
+- 0.381 | Hydralslang, med/utan koppling | unit=kilogram | price=33,94
+- 0.379 | Alkaliska flytande avfall | unit=kilogram | price=27,75
+- 0.375 | Gasol inkl tub | unit=kilogram | price=102,00
+- 0.370 | Alkaliskt avfall fast | unit=kilogram | price=27,75
+- 0.370 | Bekämpningsmedel fast | unit=kilogram | price=85,88
+
+====================================================================================================
+SECTION: 6.1.2
+EXPECTED: WC-stol
+NORMALIZED EXPECTED: wc-stol
+
+EXACT SEMANTIC HITS
+- none
+
+FUZZY SEMANTIC HITS
+- 0.364 | order=423 | type=info | reason=default info | text=Sten | normalized=sten
+
+NEARBY / SHARED-WORD SEMANTIC ROWS
+- none
+
+SIMILAR EXPORTED ROWS
+- 0.364 | Sten | unit= | price=
+
+====================================================================================================
+SECTION: 6.1.2
+EXPECTED: Stubbar/rötter för krossning
+NORMALIZED EXPECTED: stubbar/rötter för krossning
+
+EXACT SEMANTIC HITS
+- none
+
+FUZZY SEMANTIC HITS
+- 0.964 | order=423 | type=info | reason=default info | text=Stubbar rötter för krossning | normalized=stubbar rötter för krossning
+- 0.361 | order=422 | type=info | reason=default info | text=Fönster med karm Fönster med karm | normalized=fönster med karm fönster med karm
+
+NEARBY / SHARED-WORD SEMANTIC ROWS
+- none
+
+SIMILAR EXPORTED ROWS
+- 0.400 | Batterier lithium | unit=kilogram | price=0,00
+- 0.392 | Batterier stav, pencell | unit=kilogram | price=0,00
+- 0.375 | Tonerkassetter, utan elektronik/chip | unit=kilogram | price=31,88
+- 0.364 | Fönster med karm | unit= | price=
+- 0.360 | Ätbart fett/frityrolja | unit=liter | price=
+- 0.353 | Bil-, mcbatteri med bly | unit=styck | price=0,00
