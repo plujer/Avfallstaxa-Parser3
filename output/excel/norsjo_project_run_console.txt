@@ -4,3 +4,10 @@ Excel: output\projects\Norsjo\excel\ArbetsExcel_Norsjo_byggd.xlsx
 Rapport: output\projects\Norsjo\reports\edp_isolated_run_report_Norsjo.txt
 Manifest: output\projects\Norsjo\manifest\project_run_manifest.json
 Warnings: 0
+Standardtaxeförslag skrivna till arbetsbok
+Workbook: output\projects\Norsjo\excel\ArbetsExcel_Norsjo_byggd.xlsx
+Parser rows: 241
+Standard rows: 27
+PROPOSAL: 0
+REVIEW: 0
+NO_SUGGESTION: 241

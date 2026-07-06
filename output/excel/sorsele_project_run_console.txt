@@ -4,3 +4,10 @@ Excel: output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx
 Rapport: output\projects\Sorsele\reports\edp_isolated_run_report_Sorsele.txt
 Manifest: output\projects\Sorsele\manifest\project_run_manifest.json
 Warnings: 0
+Standardtaxeförslag skrivna till arbetsbok
+Workbook: output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx
+Parser rows: 241
+Standard rows: 27
+PROPOSAL: 0
+REVIEW: 0
+NO_SUGGESTION: 241

@@ -4,3 +4,10 @@ Excel: output\projects\Mala\excel\ArbetsExcel_Mala_byggd.xlsx
 Rapport: output\projects\Mala\reports\edp_isolated_run_report_Mala.txt
 Manifest: output\projects\Mala\manifest\project_run_manifest.json
 Warnings: 0
+Standardtaxeförslag skrivna till arbetsbok
+Workbook: output\projects\Mala\excel\ArbetsExcel_Mala_byggd.xlsx
+Parser rows: 241
+Standard rows: 27
+PROPOSAL: 0
+REVIEW: 0
+NO_SUGGESTION: 241

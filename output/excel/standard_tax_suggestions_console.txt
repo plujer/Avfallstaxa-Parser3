@@ -6,3 +6,10 @@ REVIEW: 0
 NO_SUGGESTION: 241
 TXT: output\excel\standard_tax_suggestions_report.txt
 CSV: output\excel\standard_tax_suggestions.csv
+Standardtaxeförslag skrivna till arbetsbok
+Workbook: output\excel\ArbetsExcel_byggd_fran_parser.xlsx
+Parser rows: 241
+Standard rows: 27
+PROPOSAL: 0
+REVIEW: 0
+NO_SUGGESTION: 241
