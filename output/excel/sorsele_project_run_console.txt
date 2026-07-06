@@ -1,0 +1,6 @@
+Isolerad projektkörning klar
+Kommun: Sorsele
+Excel: output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx
+Rapport: output\projects\Sorsele\reports\edp_isolated_run_report_Sorsele.txt
+Manifest: output\projects\Sorsele\manifest\project_run_manifest.json
+Warnings: 0

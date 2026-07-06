@@ -1,0 +1,8 @@
+{
+  "municipality": "Sorsele",
+  "word_path": "data/projects/Sorsele/taxadokument.docx",
+  "edp_export_path": "data/edp_exports/Sorsele.xlsx",
+  "output_dir": "output/projects/Sorsele",
+  "parser_result_path": "output/reports/parser3_result.json",
+  "notes": "Primär utvecklingskommun. Projektdata får inte blandas med andra kommuner."
+}

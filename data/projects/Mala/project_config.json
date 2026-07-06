@@ -1,0 +1,8 @@
+{
+  "municipality": "Malå",
+  "word_path": "data/projects/Mala/taxadokument.docx",
+  "edp_export_path": "data/edp_exports/Mala.xlsx",
+  "output_dir": "output/projects/Mala",
+  "parser_result_path": "output/reports/parser3_result.json",
+  "notes": "Isolerat projekt. Används inte i Sorsele eller Norsjö."
+}

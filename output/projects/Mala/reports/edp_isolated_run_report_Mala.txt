@@ -1,0 +1,12 @@
+Excel Builder Isolated EDP Run Report
+
+Kommun: Malå
+EDP-källa: data\edp_exports\Mala.xlsx
+EDP-rader: 301
+Output workbook: output\projects\Mala\excel\ArbetsExcel_Mala_byggd.xlsx
+Warnings: 0
+
+KRAV:
+Varje EDP-export ska skapa ett unikt Excel-dokument.
+EDP-data får inte blandas mellan kommuner eller användas i fel Excel/Word-fil.
+Generella regelverk får återanvändas mellan dokument.

@@ -1,0 +1,11 @@
+{
+  "created": "2026-07-06T21:26:52",
+  "municipality": "Malå",
+  "word_path": "data/projects/Mala/taxadokument.docx",
+  "edp_export_path": "data/edp_exports/Mala.xlsx",
+  "parser_result_path": "output/reports/parser3_result.json",
+  "output_excel": "output\\projects\\Mala\\excel\\ArbetsExcel_Mala_byggd.xlsx",
+  "output_report": "output\\projects\\Mala\\reports\\edp_isolated_run_report_Mala.txt",
+  "warnings": [],
+  "isolation_rule": "Projektdata får inte blandas mellan kommuner. Generella regelverk får återanvändas."
+}

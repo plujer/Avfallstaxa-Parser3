@@ -1,0 +1,6 @@
+Isolerad projektkörning klar
+Kommun: Malå
+Excel: output\projects\Mala\excel\ArbetsExcel_Mala_byggd.xlsx
+Rapport: output\projects\Mala\reports\edp_isolated_run_report_Mala.txt
+Manifest: output\projects\Mala\manifest\project_run_manifest.json
+Warnings: 0

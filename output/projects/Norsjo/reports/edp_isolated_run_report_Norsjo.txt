@@ -1,0 +1,12 @@
+Excel Builder Isolated EDP Run Report
+
+Kommun: Norsjö
+EDP-källa: data\edp_exports\Norsjo.xlsx
+EDP-rader: 372
+Output workbook: output\projects\Norsjo\excel\ArbetsExcel_Norsjo_byggd.xlsx
+Warnings: 0
+
+KRAV:
+Varje EDP-export ska skapa ett unikt Excel-dokument.
+EDP-data får inte blandas mellan kommuner eller användas i fel Excel/Word-fil.
+Generella regelverk får återanvändas mellan dokument.

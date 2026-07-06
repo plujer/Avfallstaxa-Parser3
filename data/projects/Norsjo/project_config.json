@@ -1,0 +1,8 @@
+{
+  "municipality": "Norsjö",
+  "word_path": "data/projects/Norsjo/taxadokument.docx",
+  "edp_export_path": "data/edp_exports/Norsjo.xlsx",
+  "output_dir": "output/projects/Norsjo",
+  "parser_result_path": "output/reports/parser3_result.json",
+  "notes": "Isolerat projekt. Nuvarande arbetsbok innehåller Norsjö-taxor som referens, inte global master."
+}

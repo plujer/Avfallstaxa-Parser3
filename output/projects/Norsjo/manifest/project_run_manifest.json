@@ -1,0 +1,11 @@
+{
+  "created": "2026-07-06T21:26:53",
+  "municipality": "Norsjö",
+  "word_path": "data/projects/Norsjo/taxadokument.docx",
+  "edp_export_path": "data/edp_exports/Norsjo.xlsx",
+  "parser_result_path": "output/reports/parser3_result.json",
+  "output_excel": "output\\projects\\Norsjo\\excel\\ArbetsExcel_Norsjo_byggd.xlsx",
+  "output_report": "output\\projects\\Norsjo\\reports\\edp_isolated_run_report_Norsjo.txt",
+  "warnings": [],
+  "isolation_rule": "Projektdata får inte blandas mellan kommuner. Generella regelverk får återanvändas."
+}
