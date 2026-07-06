@@ -1,0 +1,6 @@
+Isolerad EDP-körning klar
+Kommun: Sorsele
+EDP-export: data\edp_exports\Sorsele.xlsx
+Rader: 276
+Excel: output\excel\Sorsele\ArbetsExcel_Sorsele_byggd.xlsx
+Rapport: output\excel\Sorsele\edp_isolated_run_report_Sorsele.txt

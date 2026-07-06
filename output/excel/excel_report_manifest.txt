@@ -1,9 +1,12 @@
 ﻿Excel Builder Report Package
-Created: 2026-07-06_20-14-45
+Created: 2026-07-06_21-14-47
 
 Included files:
 [OK] output\diagnostics\test_cleanup_report.txt
 [OK] output\excel\ArbetsExcel_byggd_fran_parser.xlsx
+[OK] output\excel\Sorsele\ArbetsExcel_Sorsele_byggd.xlsx
+[OK] output\excel\Sorsele\edp_isolated_run_report_Sorsele.txt
+[OK] output\excel\sorsele_isolated_run_console.txt
 [OK] output\excel\taxepunkter_row_plan_report.txt
 [OK] output\excel\taxepunkter_row_plan.csv
 [OK] output\excel\taxepunkter_row_plan_console.txt

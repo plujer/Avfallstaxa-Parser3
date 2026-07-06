@@ -12,6 +12,9 @@ $manifest = "output\excel\excel_report_manifest.txt"
 $files = @(
     "output\diagnostics\test_cleanup_report.txt",
     "output\excel\ArbetsExcel_byggd_fran_parser.xlsx",
+    "output\excel\Sorsele\ArbetsExcel_Sorsele_byggd.xlsx",
+    "output\excel\Sorsele\edp_isolated_run_report_Sorsele.txt",
+    "output\excel\sorsele_isolated_run_console.txt",
     "output\excel\taxepunkter_row_plan_report.txt",
     "output\excel\taxepunkter_row_plan.csv",
     "output\excel\taxepunkter_row_plan_console.txt",

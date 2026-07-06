@@ -4,3 +4,4 @@ from .matching_reporter import MatchingReporter
 from .rulebook_reporter import RulebookReporter
 from .coverage_reporter import CoverageReporter
 from .row_builder_reporter import RowBuilderReporter
+from .edp_run_reporter import EdpRunReporter
