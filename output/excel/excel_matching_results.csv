@@ -1,0 +1,242 @@
+﻿Status;Metod;Score;Parser paragraf;Parser taxapunkt;Parser variant;Parser enhet;Excel rad;Excel taxapunkt;Excel variant;Excel enhet;Excel taxakod;Kommentar
+NEW;no match;0.000;2.1;En- och tvåbostadshus;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.1;Fritidshus;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.1;Verksamhet;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.1;Lägenhet i flerbostadshus;;lägenhet;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.1;Lägenhet för specialändamål;;lägenhet;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.1;Anläggning;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.1;Säsongsbaserad uppställningsplats;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.1;Campingstuga/-lägenhet;;lägenhet;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.1;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.1;Extrakärl 190 l (restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.2;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.2;Extrakärl 190 l (restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.3;Extra digital licens (årskostnad);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.3;Byte av telefonnummer kopplat till licens;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.3;Kostnad för öppning av behållare;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.4;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.4;Kärl 370 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.4;Kärl 660 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.4;Kärl 140 l (matavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.4;Kärl 190 l (förpackningar);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.4;Kärl 370 l (förpackningar);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.4;Kärl 660 l (förpackningar);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.4;Kärl 190 l (tidningar och returpapper);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.4;Kärl 370 l (tidningar och returpapper);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.4;(mat-/restavfall, förpackningar);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.5;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.5;Kärl 370 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.5;Kärl 660 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.5;Kärl 140 l (matavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.5;Bottentömmande behållare (mat-/restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.5;Lastväxlarflak (restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.6;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.6;Kärl 370 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.6;Kärl 660 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.6;Kärl 140 l (matavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.6;Bottentömmande behållare (mat-/restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.6;Lastväxlarflak (restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.3;Viktavgift matavfall;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.3;Viktavgift restavfall;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.3;Lyftavgift kärl;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.1;Fakturavgift;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.2;Delat kärl 240 l matavfall 40 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.2;Delat kärl 240 l restavfall 40 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.2;Extra kärl 140 l matavfall 60 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.2;Extra kärl 140-190 l restavfall 60 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.2;Kärl 370 l restavfall 60 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.2;Kärl 660 l restavfall 100 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.3;Överfullt kärl;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.3;Överfull bottentömmande behållare;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.4;Byte av trasigt kärl vid oaktsamhet;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.5;Byte/återtag av kärl en (1) ggr/år 140–240 liter;;liter;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.5;Byte/återtag av kärl en (1) ggr/år 370–660 liter;;liter;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.5;Ytterligare byte av kärl under kalenderåret;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.6;Kärl;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.6;Bottentömmande behållare;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.7;Kärl 140-660 L 1,5-10;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.7;Kärl 140-660 L 10-20;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.7;Kärl 140-660 L 20-30;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.7;Avfallsport/dörr;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.7;Låst dörr, med kod;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.8;Kärl 140 l matavfall;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.8;Kärl 190 l restavfall;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.8;Kärl 370 l restavfall;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.8;Kärl 660 l restavfall;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.8;Bottentömmande behållare;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.9;Sidlastande fordon;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.9;Bottentömmande fordon;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.9;Tömningsavgift per behållare;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.10;Betalsäck;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.10;Akutsäck;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.11;Matavfallspåsar 9 L;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.11;Matavfallspåsar 22 L;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.11;Gravitationslås till kärl;;kärl;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.4.11;Extra nyckel till gravitationslås;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.5.1;Kommunalt avfall;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.5.1;Farligt avfall (ej uppmärkt);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.5.1;Farligt avfall (uppmärkt);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.5.1;Avisering av ankomst;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.1;Upp till 3 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.1;Mellan 3 m3 och 6 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.1;Mellan 6 m3 och 9 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.1;Tillägg per m3 över 9 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.1;Bad-, disk- och tvättbrunn upp till 3 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.1;Tillägg per m3 över 3 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.2;Dragning av extra slang vid 5-25 m;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.2;Dragning av extra slang vid 25-35 m;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.2;Dragning av extra slang vid 36-45 m;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.2;Dragning av extra slang vid 46-55 m;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.2;Krav på information om tömningstid;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.2;Krav på närvaro vid specificerad tömningstid;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.2;Hantering av kod för kodlås vid slamtömning;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.2;Hetvattentvätt med spolbil, timersättning;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.2;Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.3;Budning utanför ordinarie tömningsperiod (1 nov – 30 april);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.3;Tömning av toalettvagnar eller liknande /styck;;styck;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;3.4;Latrinbehållare 37 liter inkl. mottagning och behandling;;liter;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;4.1;Filtermassor upp till 500 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;4.1;Filtermassor 500-1000 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;4.2;Krav på information om hämtningstid;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;4.2;Krav på närvaro vid specificerad hämtningstid;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;4.2;Hantering av kod för kodlås;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.1;Upp till 3 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.1;Mellan 3 m3 och 6 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.1;Över 6 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.2;Dragning av extra slang vid 5-25 m;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.2;Dragning av extra slang vid 25-35 m;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.2;Dragning av extra slang vid 36-45 m;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.2;Dragning av extra slang vid 46-55 m;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.2;Krav på information om tömningstid;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.2;Krav på närvaro vid specificerad tömningstid;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.2;Hantering av kod för kodlås vid tömning;;tömning;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.2;Hetvattentvätt med spolbil, timersättning;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.2;Silikontätning per lock;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.2;Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;5.3;Budning utanför ordinarie tömningsperiod;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.1;Verksamheter;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.1;Övriga abonnemangstyper;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.1;Vågkort;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.1;Borttappat vågkort;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.1;Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst);;besök;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.1;Ej redovisad eller fel redovisad fraktion av avfall;;fraktion;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Avfall till energiåtervinning (240 L sopsäck);;styck;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Avfall till energiåtervinning;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Skrymmande avfall till energiåtervinning större än 20×20×80;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Tryckimpregnerat virke, pall;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Betong, lättbetong;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Gips, gipsskivor;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Tegel;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Fönster- och planglas utan karm;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Fönster med karm;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Plast;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Isolering utan innehåll av asbest;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Klinker, keramik, porslin;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Handfat;;styck;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;WC-stol;;styck;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Metall;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Textilier;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Fiskeredskap;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Ätbart fett/frityrolja;;liter;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Kvistar och grenar;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Jord;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Sten;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Stubbar/rötter för krossning;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Flera fraktioner för egen sortering på ramp (max 2 m³);;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Tonerkassetter, utan elektronik/chip;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Oljeemulsion, emballerat;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Förorenad olja innehållande PCB;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Oljeavskiljarslam;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Diesel;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Bensinrester;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Hydralslang, med/utan koppling;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Förpackningar, tömde ej rengjorda;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Oljeavfall, fast osorterat emba;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Absorbermedel, filtermaterial;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Oljefilter;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Bromsvätska;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Transformator, kondensator med PCB;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Fogskum;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Halon;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Koldioxid;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Brandsläckare;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Helium;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Tändare;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Syrgas;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Oxiderande fast ämne/vätska;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Klorex;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Aerosoler isocyanat, bekämpning;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Gasol inkl tub;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Gasol, blå programmet;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Giftig organisk vätska;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Småkemikalier, ej Hg-haltiga;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Giftig oorganisk vätska;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Oxidationsmedel, flytande;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Asbest, emballerat;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Smittförande avfall;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Lösningsmedel;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Väteperoxid;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Flourvätesyra;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Svavelsyra;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Salpetersyra;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Surt oorganisk fast ämne;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Surt organisk fast ämne;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Surt oorganisk vätska;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Surt organisk vätska;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Ammoniaklösning;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Alkaliskt avfall fast;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Basiskt organiskt fast/flytande;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Fotokemikalier;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Bekämpningsmedel aerosoler;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Bekämpningsmedel fast;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Bekämpningsmedel flytande;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Kvicksilverhaltigt avfall;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Kvicksilver i föremål;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Oljehaltigt avfall (ej PCB);;liter;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Olja förorenad (ej PCB);;liter;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Färg-, lack-, limburkar lösning;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Färg-, lack-, limburkar lösning aerosoler;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Isocyanater;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Härdare metyl- etylketonperoxid;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Härdare dibenzoylperoxid;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Färg-,lack-, limburkar vattenbaserade;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Tensida alkaliska flytande avfall;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Rengöring/vaskmedel fast;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Alkaliska flytande avfall;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Cytotoxiska läkemedel, cytostat;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Rökdetektor med andra isotoper;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Rökdetektor med Am 241;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Batterier stav, pencell;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Batterier lithium;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Bil-, mcbatteri med bly;;styck;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Glödlampor;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Lysrör;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Elavfall, små elektronik;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;El-avfall fast installation;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;El-avfall kabel;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Toner, färgpatron med elektronik;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Tv, radio, skärm, skrivare utan färgpatron;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Kyl-, frysskåp, -box;;styck;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Kyl-, frysskåp, -box från verksamhet;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Spis, tvätt-, diskmaskin;;styck;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.2;Spis, tvätt-, diskmaskin från verksamhet;;kilogram;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.3;Container X m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.3;Container X m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.3;Container X m3;;m³;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.3;Omklassning av felsorterad container;;container;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.4;Okänt farligt avfall (säkerhetsdatablad saknas);;fraktion;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.4;Ombud för rapportering av farligt avfall i Avfallsregistret;;tillfälle;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.4;Administrativ rapporteringsavgift till Avfallsregistret;;tillfälle;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;6.1.4;Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen;;tillfälle;;;;;;Ny rad behövs i Arbets-Excel

@@ -6,3 +6,4 @@ from .workbook_profile_models import (
     TableProfile,
     WorkbookProfile,
 )
+from .matching_models import WorkbookTaxRow, ParserTaxRow, MatchCandidate, MatchReport

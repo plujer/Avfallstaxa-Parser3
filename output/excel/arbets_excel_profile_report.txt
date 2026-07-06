@@ -1,6 +1,6 @@
 Arbets-Excel Profile Report
 
-Workbook: C:\PyProjects\data\Master.xlsx
+Workbook: data\ArbetsExcel_Reference.xlsx
 Sheets: 32
 Warnings: 0
 
