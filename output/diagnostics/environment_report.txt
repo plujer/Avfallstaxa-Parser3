@@ -10,10 +10,14 @@ git status:
 M output/diagnostics/environment_report.txt
  M output/diagnostics/parser_console.txt
  M output/diagnostics/pytest_report.txt
- M tests/test_final_cleanup_before_release.py
-?? docs/Block35_FinalTestEscapeFix.md
-?? docs/changelogg/CHANGELOG_Block35.md
-?? docs/install/INSTALL_Block35.md
+?? build_excel.bat
+?? docs/ExcelBuilder_Block01_Bootstrap.md
+?? docs/changelogg/CHANGELOG_ExcelBuilder_Block01.md
+?? docs/install/INSTALL_ExcelBuilder_Block01.md
+?? excel_builder/
+?? excel_builder_cli.py
+?? tests/test_excel_builder_reader.py
+?? tests/test_excel_builder_writer.py
 
 git branch:
 main
