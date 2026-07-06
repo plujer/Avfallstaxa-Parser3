@@ -2,161 +2,186 @@ Parser 3.0 precision report
 
 Matched: 0
 Missing: 0
-Extra: 250
+Extra: 274
 Passed: False
 
 EXTRA
-- 2.1 | en- och tvåbostadshus 1 650,00 kr |  |  | Extra parser row
-- 2.1 | fritidshus xx kr |  |  | Extra parser row
-- 2.1 | verksamhet xx kr |  |  | Extra parser row
-- 2.1 | lägenhet i flerbostadshus xx kr |  | lägenhet | Extra parser row
-- 2.1 | lägenhet för specialändamål xx kr |  | lägenhet | Extra parser row
-- 2.1 | anläggning xx kr |  |  | Extra parser row
-- 2.1 | säsongsbaserad uppställningsplats xx kr |  |  | Extra parser row
-- 2.1 | campingstuga/-lägenhet xx kr |  | lägenhet | Extra parser row
-- 2.1 | av avfall under kommunalt ansvar. xx kr |  |  | Extra parser row
-- 2.2.1 | kärl 240 l (mat-/restavfall) xx kr xx kr |  | kärl | Extra parser row
-- 2.2.1 | extrakärl 190 l (restavfall) xx kr xx kr |  |  | Extra parser row
-- 2.2.2 | kärl 240 l (mat-/restavfall) xx kr xx kr |  | kärl | Extra parser row
-- 2.2.2 | extrakärl 190 l (restavfall) xx kr xx kr |  |  | Extra parser row
-- 2.2.3 | gemensam uppsamlingsplats för mat-/restavfall xx kr |  |  | Extra parser row
-- 2.2.3 | extra digital licens (årskostnad) xx kr |  |  | Extra parser row
-- 2.2.3 | fysisk nyckel, kallad fob (engångskostnad) xx kr |  |  | Extra parser row
-- 2.2.3 | byte av telefonnummer kopplat till licens xx kr |  |  | Extra parser row
-- 2.2.3 | kostnad för öppning av behållare xx kr |  |  | Extra parser row
-- 2.2.4 | kärl 240 l (mat-/restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.4 | kärl 370 l (restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.4 | kärl 660 l (restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.4 | kärl 140 l (matavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.4 | kärl 190 l (förpackningar) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.4 | kärl 370 l (förpackningar) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.4 | kärl 660 l (förpackningar) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.4 | kärl 190 l (tidningar och returpapper) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.4 | kärl 370 l (tidningar och returpapper) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.4 | (mat-/restavfall, förpackningar) xx kr |  |  | Extra parser row
-- 2.2.4 | vid tömning två (2) gånger per vecka tillkommer xxx kr eller %. |  | tömning | Extra parser row
-- 2.2.4 | mat-/restavfall, förpackningar xx kr |  |  | Extra parser row
-- 2.2.5 | kärl 240 l (mat-/restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.5 | kärl 370 l (restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.5 | kärl 660 l (restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.5 | kärl 140 l (matavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.5 | bottentömmande behållare (mat-/restavfall) xx kr |  |  | Extra parser row
-- 2.2.5 | lastväxlarflak (restavfall) xx kr |  |  | Extra parser row
-- 2.2.5 | vid tömning två (2) gånger per vecka tillkommer xxx kr eller %. |  | tömning | Extra parser row
-- 2.2.6 | kärl 240 l (mat-/restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.6 | kärl 370 l (restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.6 | kärl 660 l (restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.6 | kärl 140 l (matavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
-- 2.2.6 | bottentömmande behållare (mat-/restavfall) xx kr |  |  | Extra parser row
-- 2.2.6 | lastväxlarflak (restavfall) xx kr |  |  | Extra parser row
-- 2.2.6 | vid tömning två (2) gånger per vecka tillkommer xxx kr eller %. |  | tömning | Extra parser row
-- 2.2.7 | kärl 140 l (kontors-/returpapper) xx kr |  | kärl | Extra parser row
-- 2.2.7 | egen överlämning av förbrukat kontors-/returpapper enligt anvisning xx kr |  |  | Extra parser row
-- 2.2.7 | egen överlämning av förbrukat matfett enligt anvisning xx kr |  |  | Extra parser row
-- 2.3 | viktavgift matavfall xx kr |  |  | Extra parser row
-- 2.3 | viktavgift restavfall xx kr |  |  | Extra parser row
-- 2.3 | lyftavgift kärl xx kr |  | kärl | Extra parser row
-- 2.4.1 | fakturavgift xx kr |  |  | Extra parser row
-- 2.4.2 | delat kärl 240 l matavfall 40 kg xx kr |  | kilogram | Extra parser row
-- 2.4.2 | delat kärl 240 l restavfall 40 kg xx kr |  | kilogram | Extra parser row
-- 2.4.2 | extra kärl 140 l matavfall 60 kg xx kr |  | kilogram | Extra parser row
-- 2.4.2 | extra kärl 140-190 l restavfall 60 kg xx kr |  | kilogram | Extra parser row
-- 2.4.2 | kärl 370 l restavfall 60 kg xx kr |  | kilogram | Extra parser row
-- 2.4.2 | kärl 660 l restavfall 100 kg xx kr |  | kilogram | Extra parser row
-- 2.4.3 | överfullt kärl xx kr |  | kärl | Extra parser row
-- 2.4.3 | överfull bottentömmande behållare xx kr |  |  | Extra parser row
-- 2.4.4 | byte av trasigt kärl vid oaktsamhet xx kr |  | kärl | Extra parser row
-- 2.4.5 | byte/återtag av kärl en (1) ggr/år 140–240 liter xx kr |  | liter | Extra parser row
-- 2.4.5 | byte/återtag av kärl en (1) ggr/år 370–660 liter xx kr |  | liter | Extra parser row
-- 2.4.5 | ytterligare byte av kärl under kalenderåret xx kr |  | kärl | Extra parser row
-- 2.4.6 | kärl xx kr |  | kärl | Extra parser row
-- 2.4.6 | bottentömmande behållare xx kr |  |  | Extra parser row
-- 2.4.7 | kärl 140-660 l 1,5-10 xx kr |  | kärl | Extra parser row
-- 2.4.7 | kärl 140-660 l 10-20 xx kr |  | kärl | Extra parser row
-- 2.4.7 | kärl 140-660 l 20-30 xx kr |  | kärl | Extra parser row
-- 2.4.7 | avfallsport/dörr xx kr |  |  | Extra parser row
-- 2.4.7 | låst dörr, med kod xx kr |  |  | Extra parser row
-- 2.4.8 | kärl 140 l matavfall xx kr |  | kärl | Extra parser row
-- 2.4.8 | kärl 190 l restavfall xx kr |  | kärl | Extra parser row
-- 2.4.8 | kärl 370 l restavfall xx kr |  | kärl | Extra parser row
-- 2.4.8 | kärl 660 l restavfall xx kr |  | kärl | Extra parser row
-- 2.4.8 | bottentömmande behållare xx kr |  |  | Extra parser row
-- 2.4.9 | sidlastande fordon xx kr |  |  | Extra parser row
-- 2.4.9 | bottentömmande fordon xx kr |  |  | Extra parser row
-- 2.4.9 | tömningsavgift per behållare xx kr |  |  | Extra parser row
-- 2.4.10 | betalsäck xx kr |  |  | Extra parser row
-- 2.4.10 | akutsäck xx kr |  |  | Extra parser row
-- 2.4.11 | matavfallspåsar 9 l xx kr |  |  | Extra parser row
-- 2.4.11 | matavfallspåsar 22 l xx kr |  |  | Extra parser row
-- 2.4.11 | gravitationslås till kärl xx kr |  | kärl | Extra parser row
-- 2.4.11 | extra nyckel till gravitationslås xx kr |  |  | Extra parser row
-- 2.5.1 | kommunalt avfall xx kr |  |  | Extra parser row
-- 2.5.1 | farligt avfall (ej uppmärkt) xx kr |  |  | Extra parser row
-- 2.5.1 | farligt avfall (uppmärkt) xx kr |  |  | Extra parser row
-- 2.5.1 | avisering av ankomst xx kr |  |  | Extra parser row
-- 3.1 | upp till 3 m3 xx kr |  | m³ | Extra parser row
-- 3.1 | mellan 3 m3 och 6 m3 xx kr |  | m³ | Extra parser row
-- 3.1 | mellan 6 m3 och 9 m3 xx kr |  | m³ | Extra parser row
-- 3.1 | tillägg per m3 över 9 m3 xx kr |  | m³ | Extra parser row
-- 3.1 | bad-, disk- och tvättbrunn upp till 3 m3 xx kr |  | m³ | Extra parser row
-- 3.1 | tillägg per m3 över 3 m3 xx kr |  | m³ | Extra parser row
-- 3.2 | dragning av extra slang vid 5-25 m xx kr |  |  | Extra parser row
-- 3.2 | dragning av extra slang vid 25-35 m xx kr |  |  | Extra parser row
-- 3.2 | dragning av extra slang vid 36-45 m xx kr |  |  | Extra parser row
-- 3.2 | dragning av extra slang vid 46-55 m xx kr |  |  | Extra parser row
-- 3.2 | hantering av brunnslock som väger 15-25 kg xx kr |  | kilogram | Extra parser row
-- 3.2 | krav på information om tömningstid xx kr |  |  | Extra parser row
-- 3.2 | krav på närvaro vid specificerad tömningstid xx kr |  |  | Extra parser row
-- 3.2 | hantering av kod för kodlås vid slamtömning xx kr |  |  | Extra parser row
-- 3.2 | hetvattentvätt med spolbil, timersättning xx kr |  |  | Extra parser row
-- 3.2 | transportväg, betonglock, lock tyngre än 25 kg eller vägran xx kr |  | kilogram | Extra parser row
-- 3.2 | tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3 xx kr |  | m³ | Extra parser row
-- 3.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) xx kr |  |  | Extra parser row
-- 3.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) xx kr |  |  | Extra parser row
-- 3.3 | budning utanför ordinarie tömningsperiod (1 nov – 30 april) xx kr |  |  | Extra parser row
-- 3.3 | budning utanför ordinarie tömningsperiod (1 nov – 30 april) xx kr |  |  | Extra parser row
-- 3.3 | tömning av toalettvagnar eller liknande xx kr/styck |  | styck | Extra parser row
-- 3.3 | bristfällig väg eller annat xx kr/tillfälle |  | tillfälle | Extra parser row
-- 3.3 | slamtömning meddelas efter 1 april innevarande år. xx kr/tillfälle |  | tillfälle | Extra parser row
-- 3.4 | latrinbehållare 37 liter inkl. mottagning och behandling xx kr |  | liter | Extra parser row
-- 4.1 | filtermassor upp till 500 kg xx kr |  | kilogram | Extra parser row
-- 4.1 | filtermassor upp till 500 kg xx kr |  | kilogram | Extra parser row
-- 4.1 | filtermassor 500-1000 kg xx kr |  | kilogram | Extra parser row
-- 4.1 | filtermassor 500-1000 kg xx kr |  | kilogram | Extra parser row
-- 4.2 | krav på information om hämtningstid xx kr |  |  | Extra parser row
-- 4.2 | krav på närvaro vid specificerad hämtningstid xx kr |  |  | Extra parser row
-- 4.2 | hantering av kod för kodlås xx kr |  |  | Extra parser row
-- 4.2 | bristande väg eller vägran xx kr |  |  | Extra parser row
-- 5.1 | upp till 3 m3 xx kr |  | m³ | Extra parser row
-- 5.1 | upp till 3 m3 xx kr |  | m³ | Extra parser row
-- 5.1 | mellan 3 m3 och 6 m3 xx kr |  | m³ | Extra parser row
-- 5.1 | mellan 3 m3 och 6 m3 xx kr |  | m³ | Extra parser row
-- 5.1 | över 6 m3 xx kr |  | m³ | Extra parser row
-- 5.1 | över 6 m3 xx kr |  | m³ | Extra parser row
-- 5.2 | dragning av extra slang vid 5-25 m xx kr |  |  | Extra parser row
-- 5.2 | dragning av extra slang vid 25-35 m xx kr |  |  | Extra parser row
-- 5.2 | dragning av extra slang vid 36-45 m xx kr |  |  | Extra parser row
-- 5.2 | dragning av extra slang vid 46-55 m xx kr |  |  | Extra parser row
-- 5.2 | hantering av brunnslock som väger 15-25 kg xx kr |  | kilogram | Extra parser row
-- 5.2 | krav på information om tömningstid xx kr |  |  | Extra parser row
-- 5.2 | krav på närvaro vid specificerad tömningstid xx kr |  |  | Extra parser row
-- 5.2 | hantering av kod för kodlås vid tömning xx kr |  | tömning | Extra parser row
-- 5.2 | hetvattentvätt med spolbil, timersättning xx kr |  |  | Extra parser row
-- 5.2 | silikontätning per lock xx kr |  |  | Extra parser row
-- 5.2 | bristande transportväg, betonglock, lock tyngre än 25 kg eller vägran xx kr |  | kilogram | Extra parser row
-- 5.2 | tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3 xx kr |  | m³ | Extra parser row
-- 5.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) xx kr |  |  | Extra parser row
-- 5.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) xx kr |  |  | Extra parser row
-- 5.3 | budning utanför ordinarie tömningsperiod xx kr |  |  | Extra parser row
-- 5.3 | budning utanför ordinarie tömningsperiod xx kr |  |  | Extra parser row
-- 5.3 | bristfällig väg eller annat xx kr/tillfälle |  | tillfälle | Extra parser row
-- 5.3 | tömning meddelas efter 1 april innevarande år. xx kr/tillfälle |  | tillfälle | Extra parser row
-- 6.1.1 | verksamheter xx kr |  |  | Extra parser row
-- 6.1.1 | övriga abonnemangstyper xx kr |  |  | Extra parser row
-- 6.1.1 | vågkort xx kr |  |  | Extra parser row
-- 6.1.1 | borttappat vågkort xx kr |  |  | Extra parser row
-- 6.1.1 | som lämnar verksamhetsavfall utan att anmälan sin ankomst) xx kr/besök |  | besök | Extra parser row
-- 6.1.1 | ej redovisad eller fel redovisad fraktion av avfall xxxx kr/fraktion |  | fraktion | Extra parser row
+- 2.1 | en- och tvåbostadshus |  |  | Extra parser row
+- 2.1 | fritidshus |  |  | Extra parser row
+- 2.1 | verksamhet |  |  | Extra parser row
+- 2.1 | lägenhet i flerbostadshus |  | lägenhet | Extra parser row
+- 2.1 | lägenhet för specialändamål |  | lägenhet | Extra parser row
+- 2.1 | anläggning |  |  | Extra parser row
+- 2.1 | säsongsbaserad uppställningsplats |  |  | Extra parser row
+- 2.1 | campingstuga/-lägenhet |  | lägenhet | Extra parser row
+- 2.2.1 | kärl 240 l (mat-/restavfall) |  | kärl | Extra parser row
+- 2.2.1 | kärl 240 l (mat-/restavfall) |  | kärl | Extra parser row
+- 2.2.1 | extrakärl 190 l (restavfall) |  |  | Extra parser row
+- 2.2.1 | extrakärl 190 l (restavfall) |  |  | Extra parser row
+- 2.2.2 | kärl 240 l (mat-/restavfall) |  | kärl | Extra parser row
+- 2.2.2 | kärl 240 l (mat-/restavfall) |  | kärl | Extra parser row
+- 2.2.2 | extrakärl 190 l (restavfall) |  |  | Extra parser row
+- 2.2.2 | extrakärl 190 l (restavfall) |  |  | Extra parser row
+- 2.2.3 | gemensam uppsamlingsplats för mat-/restavfall |  |  | Extra parser row
+- 2.2.3 | extra digital licens (årskostnad) |  |  | Extra parser row
+- 2.2.3 | fysisk nyckel, kallad fob (engångskostnad) |  |  | Extra parser row
+- 2.2.3 | byte av telefonnummer kopplat till licens |  |  | Extra parser row
+- 2.2.3 | kostnad för öppning av behållare |  |  | Extra parser row
+- 2.2.4 | kärl 240 l (mat-/restavfall) |  | kärl | Extra parser row
+- 2.2.4 | kärl 240 l (mat-/restavfall) |  | kärl | Extra parser row
+- 2.2.4 | kärl 240 l (mat-/restavfall) |  | kärl | Extra parser row
+- 2.2.4 | kärl 370 l (restavfall) |  | kärl | Extra parser row
+- 2.2.4 | kärl 370 l (restavfall) |  | kärl | Extra parser row
+- 2.2.4 | kärl 370 l (restavfall) |  | kärl | Extra parser row
+- 2.2.4 | kärl 660 l (restavfall) |  | kärl | Extra parser row
+- 2.2.4 | kärl 660 l (restavfall) |  | kärl | Extra parser row
+- 2.2.4 | kärl 660 l (restavfall) |  | kärl | Extra parser row
+- 2.2.4 | kärl 140 l (matavfall) |  | kärl | Extra parser row
+- 2.2.4 | kärl 140 l (matavfall) |  | kärl | Extra parser row
+- 2.2.4 | kärl 140 l (matavfall) |  | kärl | Extra parser row
+- 2.2.4 | kärl 190 l (förpackningar) |  | kärl | Extra parser row
+- 2.2.4 | kärl 190 l (förpackningar) |  | kärl | Extra parser row
+- 2.2.4 | kärl 190 l (förpackningar) |  | kärl | Extra parser row
+- 2.2.4 | kärl 370 l (förpackningar) |  | kärl | Extra parser row
+- 2.2.4 | kärl 370 l (förpackningar) |  | kärl | Extra parser row
+- 2.2.4 | kärl 370 l (förpackningar) |  | kärl | Extra parser row
+- 2.2.4 | kärl 660 l (förpackningar) |  | kärl | Extra parser row
+- 2.2.4 | kärl 660 l (förpackningar) |  | kärl | Extra parser row
+- 2.2.4 | kärl 660 l (förpackningar) |  | kärl | Extra parser row
+- 2.2.4 | kärl 190 l (tidningar och returpapper) |  | kärl | Extra parser row
+- 2.2.4 | kärl 190 l (tidningar och returpapper) |  | kärl | Extra parser row
+- 2.2.4 | kärl 190 l (tidningar och returpapper) |  | kärl | Extra parser row
+- 2.2.4 | kärl 370 l (tidningar och returpapper) |  | kärl | Extra parser row
+- 2.2.4 | kärl 370 l (tidningar och returpapper) |  | kärl | Extra parser row
+- 2.2.4 | kärl 370 l (tidningar och returpapper) |  | kärl | Extra parser row
+- 2.2.4 | (mat-/restavfall, förpackningar) |  |  | Extra parser row
+- 2.2.5 | kärl 240 l (mat-/restavfall) |  | kärl | Extra parser row
+- 2.2.5 | kärl 240 l (mat-/restavfall) |  | kärl | Extra parser row
+- 2.2.5 | kärl 240 l (mat-/restavfall) |  | kärl | Extra parser row
+- 2.2.5 | kärl 370 l (restavfall) |  | kärl | Extra parser row
+- 2.2.5 | kärl 370 l (restavfall) |  | kärl | Extra parser row
+- 2.2.5 | kärl 370 l (restavfall) |  | kärl | Extra parser row
+- 2.2.5 | kärl 660 l (restavfall) |  | kärl | Extra parser row
+- 2.2.5 | kärl 660 l (restavfall) |  | kärl | Extra parser row
+- 2.2.5 | kärl 660 l (restavfall) |  | kärl | Extra parser row
+- 2.2.5 | kärl 140 l (matavfall) |  | kärl | Extra parser row
+- 2.2.5 | kärl 140 l (matavfall) |  | kärl | Extra parser row
+- 2.2.5 | kärl 140 l (matavfall) |  | kärl | Extra parser row
+- 2.2.5 | bottentömmande behållare (mat-/restavfall) |  |  | Extra parser row
+- 2.2.5 | lastväxlarflak (restavfall) |  |  | Extra parser row
+- 2.2.6 | kärl 240 l (mat-/restavfall) |  | kärl | Extra parser row
+- 2.2.6 | kärl 240 l (mat-/restavfall) |  | kärl | Extra parser row
+- 2.2.6 | kärl 240 l (mat-/restavfall) |  | kärl | Extra parser row
+- 2.2.6 | kärl 370 l (restavfall) |  | kärl | Extra parser row
+- 2.2.6 | kärl 370 l (restavfall) |  | kärl | Extra parser row
+- 2.2.6 | kärl 370 l (restavfall) |  | kärl | Extra parser row
+- 2.2.6 | kärl 660 l (restavfall) |  | kärl | Extra parser row
+- 2.2.6 | kärl 660 l (restavfall) |  | kärl | Extra parser row
+- 2.2.6 | kärl 660 l (restavfall) |  | kärl | Extra parser row
+- 2.2.6 | kärl 140 l (matavfall) |  | kärl | Extra parser row
+- 2.2.6 | kärl 140 l (matavfall) |  | kärl | Extra parser row
+- 2.2.6 | kärl 140 l (matavfall) |  | kärl | Extra parser row
+- 2.2.6 | bottentömmande behållare (mat-/restavfall) |  |  | Extra parser row
+- 2.2.6 | lastväxlarflak (restavfall) |  |  | Extra parser row
+- 2.2.7 | kärl 140 l (kontors-/returpapper) |  | kärl | Extra parser row
+- 2.2.7 | egen överlämning av förbrukat kontors-/returpapper enligt anvisning |  |  | Extra parser row
+- 2.2.7 | egen överlämning av förbrukat matfett enligt anvisning |  |  | Extra parser row
+- 2.3 | viktavgift matavfall |  |  | Extra parser row
+- 2.3 | viktavgift restavfall |  |  | Extra parser row
+- 2.3 | lyftavgift kärl |  | kärl | Extra parser row
+- 2.4.1 | fakturavgift |  |  | Extra parser row
+- 2.4.2 | delat kärl 240 l matavfall 40 kg |  | kilogram | Extra parser row
+- 2.4.2 | delat kärl 240 l restavfall 40 kg |  | kilogram | Extra parser row
+- 2.4.2 | extra kärl 140 l matavfall 60 kg |  | kilogram | Extra parser row
+- 2.4.2 | extra kärl 140-190 l restavfall 60 kg |  | kilogram | Extra parser row
+- 2.4.2 | kärl 370 l restavfall 60 kg |  | kilogram | Extra parser row
+- 2.4.2 | kärl 660 l restavfall 100 kg |  | kilogram | Extra parser row
+- 2.4.3 | överfullt kärl |  | kärl | Extra parser row
+- 2.4.3 | överfull bottentömmande behållare |  |  | Extra parser row
+- 2.4.4 | byte av trasigt kärl vid oaktsamhet |  | kärl | Extra parser row
+- 2.4.5 | byte/återtag av kärl en (1) ggr/år 140–240 liter |  | liter | Extra parser row
+- 2.4.5 | byte/återtag av kärl en (1) ggr/år 370–660 liter |  | liter | Extra parser row
+- 2.4.5 | ytterligare byte av kärl under kalenderåret |  | kärl | Extra parser row
+- 2.4.6 | kärl |  | kärl | Extra parser row
+- 2.4.6 | bottentömmande behållare |  |  | Extra parser row
+- 2.4.7 | kärl 140-660 l 1,5-10 |  | kärl | Extra parser row
+- 2.4.7 | kärl 140-660 l 10-20 |  | kärl | Extra parser row
+- 2.4.7 | kärl 140-660 l 20-30 |  | kärl | Extra parser row
+- 2.4.7 | avfallsport/dörr |  |  | Extra parser row
+- 2.4.7 | låst dörr, med kod |  |  | Extra parser row
+- 2.4.8 | kärl 140 l matavfall |  | kärl | Extra parser row
+- 2.4.8 | kärl 190 l restavfall |  | kärl | Extra parser row
+- 2.4.8 | kärl 370 l restavfall |  | kärl | Extra parser row
+- 2.4.8 | kärl 660 l restavfall |  | kärl | Extra parser row
+- 2.4.8 | bottentömmande behållare |  |  | Extra parser row
+- 2.4.9 | sidlastande fordon |  |  | Extra parser row
+- 2.4.9 | bottentömmande fordon |  |  | Extra parser row
+- 2.4.9 | tömningsavgift per behållare |  |  | Extra parser row
+- 2.4.10 | betalsäck |  |  | Extra parser row
+- 2.4.10 | akutsäck |  |  | Extra parser row
+- 2.4.11 | matavfallspåsar 9 l |  |  | Extra parser row
+- 2.4.11 | matavfallspåsar 22 l |  |  | Extra parser row
+- 2.4.11 | gravitationslås till kärl |  | kärl | Extra parser row
+- 2.4.11 | extra nyckel till gravitationslås |  |  | Extra parser row
+- 2.5.1 | kommunalt avfall |  |  | Extra parser row
+- 2.5.1 | farligt avfall (ej uppmärkt) |  |  | Extra parser row
+- 2.5.1 | farligt avfall (uppmärkt) |  |  | Extra parser row
+- 2.5.1 | avisering av ankomst |  |  | Extra parser row
+- 3.1 | upp till 3 m3 |  | m³ | Extra parser row
+- 3.1 | mellan 3 m3 och 6 m3 |  | m³ | Extra parser row
+- 3.1 | mellan 6 m3 och 9 m3 |  | m³ | Extra parser row
+- 3.1 | tillägg per m3 över 9 m3 |  | m³ | Extra parser row
+- 3.1 | bad-, disk- och tvättbrunn upp till 3 m3 |  | m³ | Extra parser row
+- 3.1 | tillägg per m3 över 3 m3 |  | m³ | Extra parser row
+- 3.2 | dragning av extra slang vid 5-25 m |  |  | Extra parser row
+- 3.2 | dragning av extra slang vid 25-35 m |  |  | Extra parser row
+- 3.2 | dragning av extra slang vid 36-45 m |  |  | Extra parser row
+- 3.2 | dragning av extra slang vid 46-55 m |  |  | Extra parser row
+- 3.2 | hantering av brunnslock som väger 15-25 kg |  | kilogram | Extra parser row
+- 3.2 | krav på information om tömningstid |  |  | Extra parser row
+- 3.2 | krav på närvaro vid specificerad tömningstid |  |  | Extra parser row
+- 3.2 | hantering av kod för kodlås vid slamtömning |  |  | Extra parser row
+- 3.2 | hetvattentvätt med spolbil, timersättning |  |  | Extra parser row
+- 3.2 | tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3 |  | m³ | Extra parser row
+- 3.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) |  |  | Extra parser row
+- 3.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) |  |  | Extra parser row
+- 3.3 | budning utanför ordinarie tömningsperiod (1 nov – 30 april) |  |  | Extra parser row
+- 3.3 | budning utanför ordinarie tömningsperiod (1 nov – 30 april) |  |  | Extra parser row
+- 3.3 | tömning av toalettvagnar eller liknande /styck |  | styck | Extra parser row
+- 3.4 | latrinbehållare 37 liter inkl. mottagning och behandling |  | liter | Extra parser row
+- 4.1 | filtermassor upp till 500 kg |  | kilogram | Extra parser row
+- 4.1 | filtermassor upp till 500 kg |  | kilogram | Extra parser row
+- 4.1 | filtermassor 500-1000 kg |  | kilogram | Extra parser row
+- 4.1 | filtermassor 500-1000 kg |  | kilogram | Extra parser row
+- 4.2 | krav på information om hämtningstid |  |  | Extra parser row
+- 4.2 | krav på närvaro vid specificerad hämtningstid |  |  | Extra parser row
+- 4.2 | hantering av kod för kodlås |  |  | Extra parser row
+- 5.1 | upp till 3 m3 |  | m³ | Extra parser row
+- 5.1 | upp till 3 m3 |  | m³ | Extra parser row
+- 5.1 | mellan 3 m3 och 6 m3 |  | m³ | Extra parser row
+- 5.1 | mellan 3 m3 och 6 m3 |  | m³ | Extra parser row
+- 5.1 | över 6 m3 |  | m³ | Extra parser row
+- 5.1 | över 6 m3 |  | m³ | Extra parser row
+- 5.2 | dragning av extra slang vid 5-25 m |  |  | Extra parser row
+- 5.2 | dragning av extra slang vid 25-35 m |  |  | Extra parser row
+- 5.2 | dragning av extra slang vid 36-45 m |  |  | Extra parser row
+- 5.2 | dragning av extra slang vid 46-55 m |  |  | Extra parser row
+- 5.2 | hantering av brunnslock som väger 15-25 kg |  | kilogram | Extra parser row
+- 5.2 | krav på information om tömningstid |  |  | Extra parser row
+- 5.2 | krav på närvaro vid specificerad tömningstid |  |  | Extra parser row
+- 5.2 | hantering av kod för kodlås vid tömning |  | tömning | Extra parser row
+- 5.2 | hetvattentvätt med spolbil, timersättning |  |  | Extra parser row
+- 5.2 | silikontätning per lock |  |  | Extra parser row
+- 5.2 | tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3 |  | m³ | Extra parser row
+- 5.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) |  |  | Extra parser row
+- 5.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) |  |  | Extra parser row
+- 5.3 | budning utanför ordinarie tömningsperiod |  |  | Extra parser row
+- 5.3 | budning utanför ordinarie tömningsperiod |  |  | Extra parser row
+- 6.1.1 | verksamheter |  |  | Extra parser row
+- 6.1.1 | övriga abonnemangstyper |  |  | Extra parser row
+- 6.1.1 | vågkort |  |  | Extra parser row
+- 6.1.1 | borttappat vågkort |  |  | Extra parser row
+- 6.1.1 | ej redovisad eller fel redovisad fraktion av avfall /fraktion |  | fraktion | Extra parser row
 - 6.1.2 | tonerkassetter, utan elektronik/chip |  | kilogram | Extra parser row
 - 6.1.2 | oljeemulsion, emballerat |  | kilogram | Extra parser row
 - 6.1.2 | förorenad olja innehållande pcb |  | kilogram | Extra parser row
@@ -248,11 +273,10 @@ EXTRA
 - 6.1.2 | spis, tvätt-, diskmaskin |  | styck | Extra parser row
 - 6.1.2 | spis, tvätt-, diskmaskin från verksamhet |  | kilogram | Extra parser row
 - 6.1.2 | spis, tvätt-, diskmaskin från verksamhet |  | kilogram | Extra parser row
-- 6.1.3 | container x m3 xx kr |  | m³ | Extra parser row
-- 6.1.3 | container x m3 xx kr |  | m³ | Extra parser row
-- 6.1.3 | container x m3 xx kr |  | m³ | Extra parser row
-- 6.1.3 | omklassning av felsorterad container xx kr |  | container | Extra parser row
-- 6.1.4 | okänt farligt avfall (säkerhetsdatablad saknas) xxx kr/fraktion |  | fraktion | Extra parser row
-- 6.1.4 | ombud för rapportering av farligt avfall i avfallsregistret xxx kr/tillfälle |  | tillfälle | Extra parser row
-- 6.1.4 | administrativ rapporteringsavgift till avfallsregistret xxx kr/tillfälle |  | tillfälle | Extra parser row
-- 6.1.4 | i hämtplatsportalen xxx kr/tillfälle |  | tillfälle | Extra parser row
+- 6.1.3 | container x m3 |  | m³ | Extra parser row
+- 6.1.3 | container x m3 |  | m³ | Extra parser row
+- 6.1.3 | container x m3 |  | m³ | Extra parser row
+- 6.1.3 | omklassning av felsorterad container |  | container | Extra parser row
+- 6.1.4 | okänt farligt avfall (säkerhetsdatablad saknas) /fraktion |  | fraktion | Extra parser row
+- 6.1.4 | ombud för rapportering av farligt avfall i avfallsregistret /tillfälle |  | tillfälle | Extra parser row
+- 6.1.4 | administrativ rapporteringsavgift till avfallsregistret /tillfälle |  | tillfälle | Extra parser row

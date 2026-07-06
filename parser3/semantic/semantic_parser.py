@@ -1,4 +1,4 @@
-"""Semantic parser using ContextEngine and structured table extraction."""
+"""Semantic parser using ContextEngine and unified extraction."""
 
 from __future__ import annotations
 
@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 
 from parser3.context.context_engine import ContextEngine
 from parser3.document import DocumentBlock
-from parser3.extractors import TaxRowExtractor
+from parser3.extractors import FlatTaxExtractor, TaxRowExtractor
 from parser3.models import TaxRow
 from parser3.semantic.row_type_classifier import RowTypeClassifier
 from parser3.semantic.section_tax_rules import SectionTaxRules
@@ -27,6 +27,7 @@ class SemanticParser:
         self.row_classifier = RowTypeClassifier()
         self.section_rules = SectionTaxRules()
         self.tax_extractor = TaxRowExtractor()
+        self.flat_extractor = FlatTaxExtractor()
         self.structured_extractor = StructuredTaxExtractor()
 
     def parse(self, blocks: list[DocumentBlock]) -> SemanticParseResult:
@@ -39,7 +40,6 @@ class SemanticParser:
             context = context_block.context
 
             if block.kind == "table":
-                # Keep the explain rows row-by-row.
                 for index, row in enumerate(block.rows):
                     row_context = context_block.row_contexts[index] if index < len(context_block.row_contexts) else context
                     row_type, reason = self.row_classifier.classify(row)
@@ -56,19 +56,29 @@ class SemanticParser:
                         )
                     )
 
-                # But extract tax rows with preserved cell structure for the whole table.
-                section = context.section
-                chapter = context.chapter
-                group = context.group
-                if self.section_rules.should_export(section, "table"):
-                    tax_rows.extend(
-                        self.structured_extractor.extract_table(
-                            block.rows,
-                            chapter=chapter,
-                            section=section,
-                            group=group,
+                if self.section_rules.should_export(context.section, "table"):
+                    # Native multi-cell tables use StructuredTaxExtractor.
+                    if any(len([c for c in row if (c or '').strip()]) > 1 for row in block.rows):
+                        tax_rows.extend(
+                            self.structured_extractor.extract_table(
+                                block.rows,
+                                chapter=context.chapter,
+                                section=context.section,
+                                group=context.group,
+                            )
                         )
-                    )
+                    else:
+                        # Visual tables stored as one-cell rows use FlatTaxExtractor.
+                        for row in block.rows:
+                            text = " ".join(c for c in row if c).strip()
+                            tax_rows.extend(
+                                self.flat_extractor.extract_line(
+                                    text,
+                                    chapter=context.chapter,
+                                    section=context.section,
+                                    group=context.group,
+                                )
+                            )
                 continue
 
             row_type, reason = self.row_classifier.classify([block.text])
@@ -86,12 +96,11 @@ class SemanticParser:
 
             if row_type == ROW_TYPE_TAX and self.section_rules.should_export(context.section, block.text):
                 tax_rows.extend(
-                    self.tax_extractor.extract_from_rows(
-                        [[block.text]],
+                    self.flat_extractor.extract_line(
+                        block.text,
                         chapter=context.chapter,
                         section=context.section,
                         group=context.group,
-                        header=context.header,
                     )
                 )
 
