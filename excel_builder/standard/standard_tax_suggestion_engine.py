@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from difflib import SequenceMatcher
 
+from excel_builder.knowledge import TaxKnowledgeExtractor
 from excel_builder.matching import MatchNormalizer
 from excel_builder.models import (
     ParserTaxRow,
@@ -16,16 +17,54 @@ from excel_builder.models import (
     StandardTaxSuggestion,
     StandardTaxSuggestionReport,
 )
+from excel_builder.standard.knowledge_based_standard_matcher import KnowledgeBasedStandardMatcher
 
 
 class StandardTaxSuggestionEngine:
     PROPOSAL_THRESHOLD = 0.86
     REVIEW_THRESHOLD = 0.70
 
-    def __init__(self) -> None:
+    def __init__(self, use_knowledge_matching: bool = True) -> None:
         self.normalizer = MatchNormalizer()
+        self.use_knowledge_matching = use_knowledge_matching
+        self.knowledge_extractor = TaxKnowledgeExtractor()
+        self.knowledge_matcher = KnowledgeBasedStandardMatcher()
 
     def suggest(self, parser_rows: list[ParserTaxRow], catalog: StandardTaxCatalog) -> StandardTaxSuggestionReport:
+        if self.use_knowledge_matching:
+            return self._suggest_with_knowledge(parser_rows, catalog)
+
+        return self._suggest_with_text_similarity(parser_rows, catalog)
+
+    def _suggest_with_knowledge(self, parser_rows: list[ParserTaxRow], catalog: StandardTaxCatalog) -> StandardTaxSuggestionReport:
+        report = StandardTaxSuggestionReport()
+        report.warnings.extend(catalog.warnings)
+
+        features = self.knowledge_extractor.extract(parser_rows).features
+        matches = self.knowledge_matcher.match(features, catalog)
+
+        for match in matches:
+            if match.status == "PROPOSAL":
+                comment = f"Kunskapsbaserad standardträff. {match.explanation}"
+            elif match.status == "REVIEW":
+                comment = f"Möjlig kunskapsbaserad standardträff. {match.explanation}"
+            else:
+                comment = match.explanation
+
+            report.suggestions.append(
+                StandardTaxSuggestion(
+                    parser_row=match.feature.parser_row,
+                    standard_row=match.standard_row,
+                    status=match.status,
+                    score=match.score,
+                    method=match.rule,
+                    comment=comment,
+                )
+            )
+
+        return report
+
+    def _suggest_with_text_similarity(self, parser_rows: list[ParserTaxRow], catalog: StandardTaxCatalog) -> StandardTaxSuggestionReport:
         report = StandardTaxSuggestionReport()
         report.warnings.extend(catalog.warnings)
 
@@ -84,7 +123,6 @@ class StandardTaxSuggestionEngine:
 
             name_score = SequenceMatcher(None, parser_name, standard_name).ratio()
 
-            # Small boost when unit appears inside standard text fields.
             combined_standard = self.normalizer.normalize(
                 " ".join([
                     standard_row.strTaxebenamning,
