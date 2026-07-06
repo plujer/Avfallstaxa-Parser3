@@ -14,13 +14,12 @@ FUZZY SEMANTIC HITS
 - 1.000 | order=422 | type=info | reason=default info | text=Skrymmande avfall till energiåtervinning större än 20*20*80 Skrymmande avfall till energiåtervinning större än 20*20*80 200307 200307 kilogram kilogram | normalized=skrymmande avfall till energiåtervinning större än 20x20x80
 - 0.659 | order=422 | type=info | reason=default info | text=Avfall till energiåtervinning Avfall till energiåtervinning 200301 200301 kilogram kilogram | normalized=avfall till energiåtervinning
 - 0.615 | order=422 | type=info | reason=default info | text=Avfall till energiåtervinning (240 L sopsäck) Avfall till energiåtervinning (240 L sopsäck) 200301 200301 styck styck | normalized=avfall till energiåtervinning (240 l sopsäck)
+- 0.426 | order=422 | type=header | reason=header phrase | text=Typ av avfall Typ av avfall EWC kod EWC kod UN-nr UN-nr Enhet Enhet Pris Pris | normalized=typ av avfall enhet enhet pris pris
 - 0.422 | order=421 | type=section | reason=default info | text=6.1.2 § Hanteringsavgifter för avfall inlämnat på återvinningscentral | normalized=6.1.2 § hanteringsavgifter för avfall inlämnat på återvinningscentral
-- 0.407 | order=422 | type=header | reason=header phrase | text=Typ av avfall Typ av avfall EWC kod EWC kod UN-nr UN-nr Enhet Enhet Pris Pris | normalized=typ av avfall typ av avfall enhet enhet pris pris
 - 0.385 | order=425 | type=info | reason=default info | text=Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) besök | normalized=osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall)
 - 0.374 | order=428 | type=tax | reason=low-level tax candidate | text=Alkaliska flytande avfall 200129* 3266 kilogram 27,75 | normalized=alkaliska flytande avfall 200129xkilogram 27, 75
 - 0.365 | order=428 | type=tax | reason=low-level tax candidate | text=Tensida alkaliska flytande avfall 200129* 1304 kilogram 25,50 | normalized=tensida alkaliska flytande avfall 200129xkilogram 25, 50
 - 0.356 | order=428 | type=tax | reason=low-level tax candidate | text=Smittförande avfall 180103* 3291 kilogram 40,31 | normalized=smittförande avfall 180103xkilogram 40, 31
-- 0.350 | order=431 | type=tax | reason=low-level tax candidate | text=El-avfall kabel El-avfall kabel 170411 170411 kilogram kilogram 0,00 0,00 | normalized=el-avfall kabel el-avfall kabel kilogram kilogram 0, 00 0, 00
 
 NEARBY / SHARED-WORD SEMANTIC ROWS
 - order=422 | type=info | reason=default info | text=Avfall till energiåtervinning (240 L sopsäck) Avfall till energiåtervinning (240 L sopsäck) 200301 200301 styck styck | normalized=avfall till energiåtervinning (240 l sopsäck)

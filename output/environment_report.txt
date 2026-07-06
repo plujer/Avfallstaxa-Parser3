@@ -7,23 +7,43 @@ platform: Windows-11-10.0.26200-SP0
 PYTHONPATH: 
 
 git status:
-M output/environment_report.txt
- M output/parser3_acceptance_debug_report.txt
- M output/parser3_acceptance_report.txt
- M output/parser3_architecture_report.txt
+D CHANGELOG_Block10.md
+ D CHANGELOG_Block11.md
+ D CHANGELOG_Block12.md
+ D CHANGELOG_Block13.md
+ D CHANGELOG_Block14.md
+ D CHANGELOG_Block15.md
+ D CHANGELOG_Block16.md
+ D CHANGELOG_Block17.md
+ D CHANGELOG_Block18.md
+ D CHANGELOG_Block19.md
+ D CHANGELOG_Block1A.md
+ D CHANGELOG_Block1A_Part2.md
+ D CHANGELOG_Block1C.md
+ D CHANGELOG_Block2.md
+ D CHANGELOG_Block20.md
+ D CHANGELOG_Block21.md
+ D CHANGELOG_Block22.md
+ D CHANGELOG_Block3.md
+ D CHANGELOG_Block4.md
+ D CHANGELOG_Block4_Hotfix_EWC.md
+ D CHANGELOG_Block4_Hotfix_EWC_v2.md
+ D CHANGELOG_Block5.md
+ D CHANGELOG_Block6.md
+ D CHANGELOG_Block7.md
+ D CHANGELOG_Block8.md
+ D CHANGELOG_Block9.md
+ D CHANGELOG_Block9_Hotfix.md
+ M output/environment_report.txt
  M output/parser3_missing_diagnostics.txt
- M output/parser3_precision_report.txt
- M output/parser3_report.txt
- M output/parser3_result.json
  M output/parser_console.txt
  M output/pytest_report.txt
  M parser3/acceptance/name_normalizer.py
- M parser3/extractors/section612_extractor.py
-?? CHANGELOG_Block22.md
-?? INSTALL_Block22.md
-?? docs/Block22_NormalizerFixes.md
-?? tests/test_name_normalizer_block22.py
-?? tests/test_section612_block22.py
+?? docs/Block23_DuplicateNameNormalizer.md
+?? docs/changelogg/
+?? docs/install/
+?? tests/test_name_normalizer_block23.py
+?? tests/test_section612_block23.py
 
 git branch:
 main
