@@ -1,6 +1,7 @@
 from __future__ import annotations
 import argparse
 from pathlib import Path
+from parser3.acceptance import AcceptanceReporter, AcceptanceRunner, FacitLoader
 from parser3.config_loader import load_config
 from parser3.context import ContextEngine
 from parser3.diff import DiffEngine, ExplainReporter, PrecisionReporter
@@ -26,6 +27,7 @@ def main() -> None:
     arg_parser.add_argument("--tables", action="store_true")
     arg_parser.add_argument("--context", action="store_true")
     arg_parser.add_argument("--semantic", action="store_true")
+    arg_parser.add_argument("--acceptance", action="store_true")
     arg_parser.add_argument("--validate", action="store_true")
     arg_parser.add_argument("--build-golden", action="store_true")
     arg_parser.add_argument("--diff", action="store_true")
@@ -61,7 +63,7 @@ def main() -> None:
     if not args.word:
         return
 
-    if args.semantic or args.validate or args.build_golden or args.diff or args.explain or args.architecture:
+    if args.semantic or args.acceptance or args.validate or args.build_golden or args.diff or args.explain or args.architecture:
         pipeline_result = TaxPipeline().run(args.word)
         blocks = pipeline_result.blocks
         rows = pipeline_result.tax_rows
@@ -82,6 +84,15 @@ def main() -> None:
             ExplainReporter().write(pipeline_result.semantic_rows, "output/parser3_explain_report.txt")
             print("Explain report: output/parser3_explain_report.txt")
 
+        if args.acceptance:
+            expectations = FacitLoader().load_builtin()
+            acceptance = AcceptanceRunner().run(rows, expectations)
+            AcceptanceReporter().write(acceptance, "output/parser3_acceptance_report.txt")
+            print(f"Acceptance passed: {acceptance.passed}")
+            print(f"Acceptance expected total: {acceptance.expected_total}")
+            print(f"Acceptance actual total: {acceptance.actual_total}")
+            print("Acceptance report: output/parser3_acceptance_report.txt")
+
         if args.build_golden:
             data = GoldenMasterBuilder().from_tax_rows(rows)
             GoldenMasterWriter().write(data, "output/parser_facit_generated.yaml")
@@ -94,11 +105,11 @@ def main() -> None:
                 profile = WorkbookProfiler().profile(args.master)
                 ProfileReporter().write(profile, "output/master_profile_report.txt")
                 expected = MasterExcelReader().read(args.master)
-                print(f"Master rows read: {len(expected)}")
+                print(f"Arbeets-Excel rows read: {len(expected)}")
                 best = profile.best_sheet
                 if best:
-                    print(f"Master best sheet: {best.sheet_name}")
-                    print(f"Master detected columns: {best.detected_columns}")
+                    print(f"Arbets-Excel best sheet: {best.sheet_name}")
+                    print(f"Arbets-Excel detected columns: {best.detected_columns}")
                 diff = DiffEngine().compare(rows, expected)
                 PrecisionReporter().write(diff, "output/parser3_precision_report.txt")
                 print(f"Diff matched: {len(diff.matched)}")
