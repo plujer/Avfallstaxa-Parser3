@@ -1,1 +1,2 @@
 from .builder_reporter import BuilderReporter
+from .workbook_profile_reporter import WorkbookProfileReporter

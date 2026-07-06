@@ -1,0 +1,1132 @@
+Arbets-Excel Profile Report
+
+Workbook: C:\PyProjects\data\Master.xlsx
+Sheets: 32
+Warnings: 0
+
+IMPORTANT:
+This is read-only analysis. Arbets-Excel is not master.
+
+====================================================================================================
+Sheet: Dashboard
+State: visible
+Rows: 9
+Columns: 2
+Frozen panes: 
+Likely header row: 5
+Detected fields: {'price': 'A'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Saknade priser (tomma)' visible width=None non_empty=7 formulas=0
+- B (2) header='' visible width=None non_empty=0 formulas=6
+
+====================================================================================================
+Sheet: Taxepunkter
+State: visible
+Rows: 370
+Columns: 14
+Frozen panes: 
+Likely header row: 5
+Detected fields: {'section': 'A', 'paragraph_name': 'B', 'tax_point': 'C', 'variant': 'D', 'unit': 'E', 'edp_code': 'F', 'price': 'G'}
+Merged ranges: 96
+  - A39:E39
+  - A166:E166
+  - A142:E142
+  - A207:E207
+  - A216:E216
+  - A87:E87
+  - A363:E363
+  - A234:L234
+  - A137:E137
+  - B1:L1
+  - A105:E105
+  - A113:E113
+  - A210:E210
+  - A71:E71
+  - A129:E129
+  - A185:E185
+  - A23:E23
+  - A184:E184
+  - A156:E156
+  - A171:E171
+  ... 76 more
+
+Tables:
+- none
+
+Data validations:
+- type=list sqref=F7:F367 formula1=Taxa_från_edp!$B$2:$B$371
+- type=list sqref=F7:F370 formula1=Taxa_från_edp!$B$2:$B$371
+
+Columns:
+- A (1) header='Paragraf' visible width=14.0 non_empty=366 formulas=0
+- B (2) header='Paragrafnamn' visible width=40.0 non_empty=274 formulas=0
+- C (3) header='Taxapunkt' visible width=42.0 non_empty=272 formulas=0
+- D (4) header='Variant' visible width=30.0 non_empty=153 formulas=0
+- E (5) header='Enhet' visible width=14.0 non_empty=272 formulas=0
+- F (6) header='Taxakod' visible width=18.0 non_empty=28 formulas=0
+- G (7) header='Föreslagen Taxa' visible width=20.0 non_empty=85 formulas=351
+- H (8) header='Taxabeskrivning' visible width=34.0 non_empty=1 formulas=351
+- I (9) header='Faktor' visible width=18.0 non_empty=1 formulas=351
+- J (10) header='Aktuellt pris (exkl m)' visible width=18.0 non_empty=1 formulas=351
+- K (11) header='Föreslaget pris' visible width=18.0 non_empty=1 formulas=0
+- L (12) header='Antal' visible width=12.0 non_empty=1 formulas=0
+- M (13) header='Pris kr (inkl.)' visible width=16.0 non_empty=1 formulas=364
+- N (14) header='Intäkt (kr) exkl' visible width=18.0 non_empty=1 formulas=364
+
+====================================================================================================
+Sheet: Taxepunkter_Rådata
+State: visible
+Rows: 292
+Columns: 12
+Frozen panes: 
+Likely header row: 1
+Detected fields: {'section': 'A', 'paragraph_name': 'B', 'tax_point': 'C', 'variant': 'D', 'unit': 'E', 'edp_code': 'F', 'price': 'I'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Paragraf' visible width=23.140625 non_empty=292 formulas=291
+- B (2) header='Paragrafnamn' visible width=None non_empty=292 formulas=291
+- C (3) header='Taxapunkt' visible width=None non_empty=292 formulas=291
+- D (4) header='Variant' visible width=None non_empty=292 formulas=291
+- E (5) header='Enhet' visible width=None non_empty=292 formulas=291
+- F (6) header='Taxakod' visible width=None non_empty=292 formulas=291
+- G (7) header='Taxabeskrivning' visible width=None non_empty=76 formulas=291
+- H (8) header='Faktor' visible width=None non_empty=1 formulas=291
+- I (9) header='Aktuellt pris (exkl m)' visible width=None non_empty=1 formulas=291
+- J (10) header='Antal' visible width=None non_empty=1 formulas=291
+- K (11) header='Pris (kr)' visible width=None non_empty=292 formulas=291
+- L (12) header='Intäkt (kr)' visible width=None non_empty=292 formulas=291
+
+====================================================================================================
+Sheet: Pivot Variant
+State: visible
+Rows: 74
+Columns: 3
+Frozen panes: 
+Likely header row: 1
+Detected fields: {'section': 'A', 'variant': 'A'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Intäkt per Paragraf och Variant' visible width=None non_empty=73 formulas=0
+- B (2) header='' visible width=None non_empty=72 formulas=0
+- C (3) header='' visible width=None non_empty=1 formulas=71
+
+====================================================================================================
+Sheet: Pivot Paragraf
+State: visible
+Rows: 35
+Columns: 2
+Frozen panes: 
+Likely header row: 1
+Detected fields: {'section': 'A'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Summering – total intäkt per paragraf' visible width=None non_empty=34 formulas=0
+- B (2) header='' visible width=None non_empty=1 formulas=32
+
+====================================================================================================
+Sheet: Pivot Kapitel
+State: visible
+Rows: 8
+Columns: 2
+Frozen panes: 
+Likely header row: None
+Detected fields: {}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='' visible width=None non_empty=7 formulas=0
+- B (2) header='' visible width=None non_empty=1 formulas=5
+
+====================================================================================================
+Sheet: Diagram Intäkt
+State: visible
+Rows: 1
+Columns: 1
+Frozen panes: 
+Likely header row: 1
+Detected fields: {'section': 'A'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Diagram – intäkt per paragraf' visible width=None non_empty=1 formulas=0
+
+====================================================================================================
+Sheet: Kontroller
+State: visible
+Rows: 8
+Columns: 3
+Frozen panes: 
+Likely header row: 5
+Detected fields: {'price': 'A'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Saknade priser (tomma)' visible width=None non_empty=7 formulas=0
+- B (2) header='' visible width=None non_empty=1 formulas=5
+- C (3) header='' visible width=None non_empty=1 formulas=5
+
+====================================================================================================
+Sheet: Taxa_från_edp
+State: visible
+Rows: 371
+Columns: 26
+Frozen panes: 
+Likely header row: 1
+Detected fields: {'edp_code': 'B', 'tax_point': 'C', 'price': 'K'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='intRecnum' visible width=18.140625 non_empty=371 formulas=0
+- B (2) header='strTaxekod' visible width=None non_empty=371 formulas=0
+- C (3) header='strTaxebenamning' visible width=None non_empty=371 formulas=0
+- D (4) header='strProdukt' visible width=None non_empty=371 formulas=0
+- E (5) header='strDelProdukt' visible width=None non_empty=358 formulas=0
+- F (6) header='bytDelradnr' visible width=None non_empty=371 formulas=0
+- G (7) header='strFaktor' visible width=None non_empty=371 formulas=0
+- H (8) header='strTaxedelAvser' visible width=None non_empty=371 formulas=0
+- I (9) header='strEntreprenorkod' visible width=None non_empty=1 formulas=0
+- J (10) header='strRenhDistrKod' visible width=None non_empty=1 formulas=0
+- K (11) header='curNuvarandePris' visible width=None non_empty=332 formulas=0
+- L (12) header='datNuvarandePrisDatum' visible width=None non_empty=332 formulas=0
+- M (13) header='bolPrisPerTomning' visible width=None non_empty=371 formulas=0
+- N (14) header='strAvvikandeFormel' visible width=None non_empty=1 formulas=0
+- O (15) header='bolPriserInklMoms' visible width=None non_empty=371 formulas=0
+- P (16) header='bytMomskod' visible width=None non_empty=371 formulas=0
+- Q (17) header='strFormel' visible width=None non_empty=331 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: Taxa_till_edp
+State: visible
+Rows: 1
+Columns: 17
+Frozen panes: 
+Likely header row: 1
+Detected fields: {'edp_code': 'B', 'tax_point': 'C', 'price': 'K'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='intRecnum' visible width=None non_empty=1 formulas=0
+- B (2) header='strTaxekod' visible width=None non_empty=1 formulas=0
+- C (3) header='strTaxebenamning' visible width=None non_empty=1 formulas=0
+- D (4) header='strProdukt' visible width=None non_empty=1 formulas=0
+- E (5) header='strDelProdukt' visible width=None non_empty=1 formulas=0
+- F (6) header='bytDelradnr' visible width=None non_empty=1 formulas=0
+- G (7) header='strFaktor' visible width=None non_empty=1 formulas=0
+- H (8) header='strTaxedelAvser' visible width=None non_empty=1 formulas=0
+- I (9) header='strEntreprenorkod' visible width=None non_empty=1 formulas=0
+- J (10) header='strRenhDistrKod' visible width=None non_empty=1 formulas=0
+- K (11) header='curNuvarandePris' visible width=None non_empty=1 formulas=0
+- L (12) header='datNuvarandePrisDatum' visible width=None non_empty=1 formulas=0
+- M (13) header='bolPrisPerTomning' visible width=None non_empty=1 formulas=0
+- N (14) header='strAvvikandeFormel' visible width=None non_empty=1 formulas=0
+- O (15) header='bolPriserInklMoms' visible width=None non_empty=1 formulas=0
+- P (16) header='bytMomskod' visible width=None non_empty=1 formulas=0
+- Q (17) header='strFormel' visible width=None non_empty=1 formulas=0
+
+====================================================================================================
+Sheet: Sammanställning
+State: visible
+Rows: 35
+Columns: 4
+Frozen panes: 
+Likely header row: 3
+Detected fields: {'section': 'B', 'paragraph_name': 'C'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='' visible width=None non_empty=0 formulas=0
+- B (2) header='Paragraf' visible width=None non_empty=34 formulas=0
+- C (3) header='Paragrafnamn' visible width=None non_empty=33 formulas=0
+- D (4) header='Total intäkt (kr)' visible width=None non_empty=18 formulas=32
+
+====================================================================================================
+Sheet: Kostnadstäckning
+State: visible
+Rows: 5
+Columns: 3
+Frozen panes: 
+Likely header row: None
+Detected fields: {}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='' visible width=None non_empty=0 formulas=0
+- B (2) header='' visible width=None non_empty=4 formulas=0
+- C (3) header='' visible width=None non_empty=1 formulas=2
+
+====================================================================================================
+Sheet: QA Word-Excel struktur
+State: visible
+Rows: 16
+Columns: 2
+Frozen panes: 
+Likely header row: 16
+Detected fields: {'tax_point': 'B', 'price': 'B', 'edp_code': 'B'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Obs' visible width=30.0 non_empty=14 formulas=0
+- B (2) header='Taxakod/pris har bara bevarats där befintlig rad kunde matchas. Nya rader saknar taxakod/pris tills ni fyller i dessa.' visible width=95.0 non_empty=14 formulas=0
+
+====================================================================================================
+Sheet: Taxa_Saknas
+State: visible
+Rows: 200
+Columns: 25
+Frozen panes: 
+Likely header row: 1
+Detected fields: {'section': 'A', 'tax_point': 'C', 'edp_code': 'G', 'price': 'S'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Källparagraf' visible width=12.0 non_empty=74 formulas=126
+- B (2) header='Källpunkt' visible width=10.0 non_empty=71 formulas=0
+- C (3) header='Rad i Taxepunkter' visible width=16.0 non_empty=74 formulas=0
+- D (4) header='Wordtext' visible width=44.0 non_empty=74 formulas=126
+- E (5) header='Status' visible width=36.0 non_empty=74 formulas=126
+- F (6) header='Matchmetod' visible width=44.0 non_empty=74 formulas=126
+- G (7) header='FöreslagenTaxekod' visible width=22.0 non_empty=74 formulas=0
+- H (8) header='intRecnum' visible width=14.0 non_empty=74 formulas=126
+- I (9) header='Taxepunkt' visible width=50.0 non_empty=74 formulas=126
+- J (10) header='strTaxekod' visible width=22.0 non_empty=74 formulas=126
+- K (11) header='strTaxebenamning' visible width=44.0 non_empty=74 formulas=126
+- L (12) header='strProdukt' visible width=12.0 non_empty=74 formulas=126
+- M (13) header='strDelProdukt' visible width=14.0 non_empty=74 formulas=126
+- N (14) header='bytDelradnr' visible width=12.0 non_empty=74 formulas=126
+- O (15) header='strFaktor' visible width=14.0 non_empty=74 formulas=126
+- P (16) header='strTaxedelAvser' visible width=48.0 non_empty=74 formulas=126
+- Q (17) header='strEntreprenorkod' visible width=14.0 non_empty=1 formulas=0
+- R (18) header='strRenhDistrKod' visible width=14.0 non_empty=1 formulas=0
+- S (19) header='curNuvarandePris' visible width=16.0 non_empty=17 formulas=0
+- T (20) header='datNuvarandePrisDatum' visible width=16.0 non_empty=17 formulas=0
+- U (21) header='bolPrisPerTomning' visible width=14.0 non_empty=74 formulas=126
+- V (22) header='strAvvikandeFormel' visible width=18.0 non_empty=1 formulas=0
+- W (23) header='bolPriserInklMoms' visible width=14.0 non_empty=74 formulas=126
+- X (24) header='bytMomskod' visible width=12.0 non_empty=74 formulas=126
+- Y (25) header='strFormel' visible width=18.0 non_empty=74 formulas=126
+
+====================================================================================================
+Sheet: Kontrollrapport
+State: visible
+Rows: 156
+Columns: 8
+Frozen panes: 
+Likely header row: 1
+Detected fields: {'section': 'B', 'tax_point': 'C', 'variant': 'F', 'edp_code': 'G'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Typ' visible width=24.0 non_empty=135 formulas=0
+- B (2) header='Paragraf' visible width=24.0 non_empty=135 formulas=0
+- C (3) header='Rad i Taxepunkter' visible width=24.0 non_empty=133 formulas=0
+- D (4) header='Källpunkt' visible width=24.0 non_empty=135 formulas=0
+- E (5) header='Taxapunkt' visible width=24.0 non_empty=135 formulas=0
+- F (6) header='Variant' visible width=24.0 non_empty=108 formulas=0
+- G (7) header='Föreslagen taxekod' visible width=24.0 non_empty=125 formulas=0
+- H (8) header='Status/Kommentar' visible width=24.0 non_empty=135 formulas=0
+
+====================================================================================================
+Sheet: Taxekod_Tolkning
+State: visible
+Rows: 80
+Columns: 8
+Frozen panes: 
+Likely header row: 23
+Detected fields: {'tax_point': 'B', 'edp_code': 'E'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='FLB' visible width=18.0 non_empty=55 formulas=0
+- B (2) header='Förkortning i benämning' visible width=22.0 non_empty=55 formulas=0
+- C (3) header='Flerbostadshus' visible width=38.0 non_empty=55 formulas=0
+- D (4) header='FLB/VHT' visible width=22.0 non_empty=55 formulas=0
+- E (5) header='Taxa_från_edp, flera rader' visible width=42.0 non_empty=55 formulas=0
+- F (6) header='strTaxebenamning' visible width=35.0 non_empty=55 formulas=0
+- G (7) header='Bekräftad' visible width=18.0 non_empty=55 formulas=0
+- H (8) header='Förekommer i strTaxebenamning, inte nödvändigtvis som egen koddel.' visible width=65.0 non_empty=18 formulas=0
+
+====================================================================================================
+Sheet: Källa_Prislista_DH
+State: visible
+Rows: 28
+Columns: 26
+Frozen panes: 
+Likely header row: 1
+Detected fields: {'price': 'A'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Prislista ASN – kärltömning och kärlhyra' visible width=52.0 non_empty=24 formulas=0
+- B (2) header='' visible width=18.0 non_empty=22 formulas=0
+- C (3) header='' visible width=18.0 non_empty=19 formulas=0
+- D (4) header='' visible width=None non_empty=0 formulas=0
+- E (5) header='' visible width=None non_empty=0 formulas=0
+- F (6) header='' visible width=None non_empty=0 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: Källa_Kvantitetskoder
+State: visible
+Rows: 15
+Columns: 26
+Frozen panes: 
+Likely header row: 4
+Detected fields: {'price': 'B', 'tax_point': 'C', 'edp_code': 'C'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='ÅRPR' visible width=18.0 non_empty=15 formulas=0
+- B (2) header='Årspris' visible width=38.0 non_empty=15 formulas=0
+- C (3) header='Kvantitetskoder + Taxa_från_edp strFaktor' visible width=58.0 non_empty=15 formulas=0
+- D (4) header='' visible width=None non_empty=0 formulas=0
+- E (5) header='' visible width=None non_empty=0 formulas=0
+- F (6) header='' visible width=None non_empty=0 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: 01_Projektöversikt
+State: visible
+Rows: 300
+Columns: 26
+Frozen panes: 
+Likely header row: 2
+Detected fields: {'tax_point': 'B', 'price': 'B', 'edp_code': 'B'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Syfte' visible width=22.0 non_empty=6 formulas=0
+- B (2) header='Bygga och kvalitetssäkra Taxepunkter från Word, EDP och kompletterande prislistor.' visible width=90.0 non_empty=5 formulas=0
+- C (3) header='' visible width=None non_empty=0 formulas=0
+- D (4) header='' visible width=None non_empty=0 formulas=0
+- E (5) header='' visible width=None non_empty=0 formulas=0
+- F (6) header='' visible width=None non_empty=0 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: 02_Projektregler
+State: visible
+Rows: 300
+Columns: 26
+Frozen panes: 
+Likely header row: 25
+Detected fields: {'tax_point': 'B', 'section': 'C', 'paragraph_name': 'C', 'variant': 'C', 'unit': 'C'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='R024' visible width=12.0 non_empty=25 formulas=0
+- B (2) header='Vanliga taxerader i Taxepunkter' visible width=34.0 non_empty=25 formulas=0
+- C (3) header='Rader där A:E innehåller uppdelad information, t.ex. Paragraf, Paragrafnamn, Taxapunkt, Variant och Enhet, ska inte vara sammanslagna och A:E ska ha vit bakgrund.' visible width=100.0 non_empty=25 formulas=0
+- D (4) header='' visible width=None non_empty=0 formulas=0
+- E (5) header='' visible width=None non_empty=0 formulas=0
+- F (6) header='' visible width=None non_empty=0 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: 03_Arbetsflöde
+State: visible
+Rows: 300
+Columns: 26
+Frozen panes: 
+Likely header row: 8
+Detected fields: {'tax_point': 'B', 'edp_code': 'B'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='7' visible width=10.0 non_empty=13 formulas=0
+- B (2) header='Matcha mot Taxa_från_edp' visible width=34.0 non_empty=13 formulas=0
+- C (3) header='Använd matchningsordningen strTaxekod → strTaxebenamning → strTaxedelAvser → strFaktor.' visible width=100.0 non_empty=13 formulas=0
+- D (4) header='' visible width=None non_empty=0 formulas=0
+- E (5) header='' visible width=None non_empty=0 formulas=0
+- F (6) header='' visible width=None non_empty=0 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: 04_Källdokument
+State: visible
+Rows: 300
+Columns: 26
+Frozen panes: 
+Likely header row: 3
+Detected fields: {'tax_point': 'A', 'edp_code': 'A', 'price': 'C'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Taxa_från_edp' visible width=28.0 non_empty=9 formulas=0
+- B (2) header='Ja' visible width=16.0 non_empty=9 formulas=0
+- C (3) header='Bekräftade taxekoder, benämningar, faktorer, formler och priser' visible width=50.0 non_empty=9 formulas=0
+- D (4) header='Ja' visible width=24.0 non_empty=9 formulas=0
+- E (5) header='Enda källa för Aktuellt pris. Får bytas mot ny export.' visible width=70.0 non_empty=9 formulas=0
+- F (6) header='' visible width=None non_empty=0 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: 06_Prompt_ChatGPT
+State: visible
+Rows: 300
+Columns: 26
+Frozen panes: 
+Likely header row: 7
+Detected fields: {'tax_point': 'A', 'price': 'A', 'edp_code': 'A'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='6. Aktuellt pris får aldrig redigeras manuellt. Det hämtas från Taxa_från_edp.' visible width=120.0 non_empty=15 formulas=0
+- B (2) header='' visible width=None non_empty=0 formulas=0
+- C (3) header='' visible width=None non_empty=0 formulas=0
+- D (4) header='' visible width=None non_empty=0 formulas=0
+- E (5) header='' visible width=None non_empty=0 formulas=0
+- F (6) header='' visible width=None non_empty=0 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: 07_Word_export_senare
+State: visible
+Rows: 300
+Columns: 26
+Frozen panes: 
+Likely header row: 3
+Detected fields: {'tax_point': 'A', 'price': 'A'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Preliminära principer: Word-text får inte ändras, endast prisfält/XX kr ska uppdateras från rätt rad i Taxepunkter.' visible width=120.0 non_empty=4 formulas=0
+- B (2) header='' visible width=None non_empty=0 formulas=0
+- C (3) header='' visible width=None non_empty=0 formulas=0
+- D (4) header='' visible width=None non_empty=0 formulas=0
+- E (5) header='' visible width=None non_empty=0 formulas=0
+- F (6) header='' visible width=None non_empty=0 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: Projektstatus
+State: visible
+Rows: 300
+Columns: 26
+Frozen panes: 
+Likely header row: 7
+Detected fields: {'price': 'A'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='DH-prislogik' visible width=26.0 non_empty=8 formulas=0
+- B (2) header='Fastställd' visible width=22.0 non_empty=8 formulas=0
+- C (3) header='DH-priser är fristående och får inte användas för andra modeller.' visible width=90.0 non_empty=8 formulas=0
+- D (4) header='' visible width=None non_empty=0 formulas=0
+- E (5) header='' visible width=None non_empty=0 formulas=0
+- F (6) header='' visible width=None non_empty=0 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: Dokumentation_Taxepunkter
+State: visible
+Rows: 300
+Columns: 26
+Frozen panes: 
+Likely header row: 11
+Detected fields: {'price': 'B', 'tax_point': 'D', 'edp_code': 'D'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='J' visible width=18.0 non_empty=23 formulas=0
+- B (2) header='Aktuellt pris (exkl m)' visible width=24.0 non_empty=23 formulas=0
+- C (3) header='Automatisk' visible width=26.0 non_empty=18 formulas=0
+- D (4) header='Taxa_från_edp[curNuvarandePris]' visible width=42.0 non_empty=18 formulas=0
+- E (5) header='Slår upp Taxakod och returnerar aktuellt pris exkl. moms. Får aldrig redigeras manuellt.' visible width=90.0 non_empty=16 formulas=3
+- F (6) header='Nej' visible width=18.0 non_empty=18 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: Beslutslogg
+State: visible
+Rows: 300
+Columns: 26
+Frozen panes: 
+Likely header row: 5
+Detected fields: {'tax_point': 'B', 'price': 'B', 'edp_code': 'B'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='2026-07-02' visible width=18.0 non_empty=9 formulas=0
+- B (2) header='Aktuellt pris hämtas bara från Taxa_från_edp' visible width=50.0 non_empty=9 formulas=0
+- C (3) header='Priskolumnen får inte redigeras manuellt.' visible width=90.0 non_empty=9 formulas=0
+- D (4) header='' visible width=None non_empty=0 formulas=0
+- E (5) header='' visible width=None non_empty=0 formulas=0
+- F (6) header='' visible width=None non_empty=0 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: Färgstandard
+State: visible
+Rows: 300
+Columns: 26
+Frozen panes: 
+Likely header row: 5
+Detected fields: {'price': 'C', 'edp_code': 'C', 'tax_point': 'D'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Förslag' visible width=24.0 non_empty=14 formulas=0
+- B (2) header='#FCE4D6' visible width=14.0 non_empty=14 formulas=0
+- C (3) header='Föreslagna taxekoder och arbetspris' visible width=60.0 non_empty=14 formulas=0
+- D (4) header='Taxepunkter G och K, Taxa_Saknas FöreslagenTaxekod' visible width=60.0 non_empty=14 formulas=0
+- E (5) header='' visible width=None non_empty=0 formulas=0
+- F (6) header='' visible width=None non_empty=0 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: Dokumentation_Taxa_Saknas
+State: visible
+Rows: 300
+Columns: 26
+Frozen panes: 
+Likely header row: 11
+Detected fields: {'edp_code': 'B', 'tax_point': 'D'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='J:Y' visible width=12.0 non_empty=15 formulas=0
+- B (2) header='EDP-kolumner' visible width=26.0 non_empty=15 formulas=0
+- C (3) header='Importstruktur' visible width=22.0 non_empty=15 formulas=0
+- D (4) header='Taxa_från_edp' visible width=38.0 non_empty=15 formulas=0
+- E (5) header='Samma struktur som Taxa_från_edp för att kunna skapa/importera nya taxor.' visible width=80.0 non_empty=15 formulas=0
+- F (6) header='Ja, men följ EDP-format' visible width=20.0 non_empty=15 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: Dokumentation_Taxa_från_edp
+State: visible
+Rows: 300
+Columns: 26
+Frozen panes: 
+Likely header row: 10
+Detected fields: {'price': 'B', 'tax_point': 'D'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='K' visible width=12.0 non_empty=11 formulas=0
+- B (2) header='curNuvarandePris' visible width=28.0 non_empty=11 formulas=0
+- C (3) header='Aktuellt pris exkl. moms' visible width=48.0 non_empty=11 formulas=0
+- D (4) header='Enda källa till Aktuellt pris i Taxepunkter. Får inte ändras manuellt.' visible width=90.0 non_empty=11 formulas=0
+- E (5) header='' visible width=None non_empty=0 formulas=0
+- F (6) header='' visible width=None non_empty=0 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: Revision_Etapp1
+State: visible
+Rows: 300
+Columns: 26
+Frozen panes: 
+Likely header row: 4
+Detected fields: {'tax_point': 'A', 'price': 'C', 'edp_code': 'C'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Taxepunkter kolumnstruktur' visible width=30.0 non_empty=13 formulas=0
+- B (2) header='Kontrollerad' visible width=30.0 non_empty=13 formulas=0
+- C (3) header='A:N används med Taxakod, Föreslagen Taxa, Aktuellt pris och Föreslaget pris.' visible width=90.0 non_empty=13 formulas=0
+- D (4) header='OK' visible width=20.0 non_empty=13 formulas=0
+- E (5) header='' visible width=None non_empty=0 formulas=0
+- F (6) header='' visible width=None non_empty=0 formulas=0
+- G (7) header='' visible width=None non_empty=0 formulas=0
+- H (8) header='' visible width=None non_empty=0 formulas=0
+- I (9) header='' visible width=None non_empty=0 formulas=0
+- J (10) header='' visible width=None non_empty=0 formulas=0
+- K (11) header='' visible width=None non_empty=0 formulas=0
+- L (12) header='' visible width=None non_empty=0 formulas=0
+- M (13) header='' visible width=None non_empty=0 formulas=0
+- N (14) header='' visible width=None non_empty=0 formulas=0
+- O (15) header='' visible width=None non_empty=0 formulas=0
+- P (16) header='' visible width=None non_empty=0 formulas=0
+- Q (17) header='' visible width=None non_empty=0 formulas=0
+- R (18) header='' visible width=None non_empty=0 formulas=0
+- S (19) header='' visible width=None non_empty=0 formulas=0
+- T (20) header='' visible width=None non_empty=0 formulas=0
+- U (21) header='' visible width=None non_empty=0 formulas=0
+- V (22) header='' visible width=None non_empty=0 formulas=0
+- W (23) header='' visible width=None non_empty=0 formulas=0
+- X (24) header='' visible width=None non_empty=0 formulas=0
+- Y (25) header='' visible width=None non_empty=0 formulas=0
+- Z (26) header='' visible width=None non_empty=0 formulas=0
+
+====================================================================================================
+Sheet: Revision_Formler_DV
+State: visible
+Rows: 20
+Columns: 4
+Frozen panes: 
+Likely header row: 2
+Detected fields: {'tax_point': 'A', 'price': 'B', 'edp_code': 'D'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Taxepunkter G' visible width=28.0 non_empty=9 formulas=0
+- B (2) header='Föreslagen Taxa' visible width=30.0 non_empty=9 formulas=0
+- C (3) header='OK' visible width=16.0 non_empty=9 formulas=0
+- D (4) header='Visar Taxakod om F finns, annars XLOOKUP mot Taxa_Saknas intRecnum/H och FöreslagenTaxekod/G.' visible width=90.0 non_empty=9 formulas=0
