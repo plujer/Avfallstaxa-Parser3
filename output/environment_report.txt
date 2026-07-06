@@ -12,12 +12,10 @@ M output/environment_report.txt
  M output/parser_console.txt
  M output/pytest_report.txt
  M parser3/acceptance/name_normalizer.py
- M tests/test_tax_pipeline.py
-?? docs/Block26_GreenTests.md
-?? docs/changelogg/CHANGELOG_Block26.md
-?? docs/install/INSTALL_Block26.md
-?? tests/test_name_normalizer_block26.py
-?? tests/test_tax_pipeline_export_section.py
+?? docs/Block27_EwcStarNormalizerFix.md
+?? docs/changelogg/CHANGELOG_Block27.md
+?? docs/install/INSTALL_Block27.md
+?? tests/test_name_normalizer_block27.py
 
 git branch:
 main

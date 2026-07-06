@@ -4,7 +4,7 @@ cachedir: .pytest_cache
 rootdir: C:\PyProjects\Taxa 3.0
 configfile: pytest.ini
 testpaths: tests
-collecting ... collected 96 items
+collecting ... collected 99 items
 
 tests/test_acceptance_debugger.py::test_acceptance_debugger_reports_missing_from_catalog PASSED [  1%]
 tests/test_acceptance_debugger.py::test_acceptance_debugger_possible_matches PASSED [  2%]
@@ -29,54 +29,57 @@ tests/test_golden_builder.py::test_golden_master_builder_counts_rows PASSED [ 20
 tests/test_golden_builder.py::test_golden_master_merger_avoids_duplicates PASSED [ 21%]
 tests/test_golden_builder.py::test_section_rule_engine_known_count PASSED [ 22%]
 tests/test_golden_builder.py::test_reference_rule_engine PASSED          [ 23%]
-tests/test_golden_builder.py::test_variant_rule_engine PASSED            [ 25%]
-tests/test_golden_builder.py::test_confidence_scoring PASSED             [ 26%]
-tests/test_golden_builder.py::test_tax_pattern_matcher_best_match PASSED [ 27%]
-tests/test_heading_numberer.py::test_heading_numberer_generates_section_numbers PASSED [ 28%]
-tests/test_heading_numberer.py::test_heading_numberer_increments_siblings PASSED [ 29%]
-tests/test_heading_numberer.py::test_heading_numberer_does_not_double_prefix PASSED [ 30%]
-tests/test_heading_tree.py::test_section_classifier_detects_numbered_heading PASSED [ 31%]
-tests/test_heading_tree.py::test_heading_tree_builder_creates_hierarchy PASSED [ 32%]
-tests/test_master_excel_reader.py::test_master_excel_reader_reads_basic_rows PASSED [ 33%]
-tests/test_missing_row_diagnostics.py::test_missing_row_diagnostics_finds_semantic_candidate PASSED [ 34%]
-tests/test_name_normalizer.py::test_name_normalizer_aliases_common_612_spellings PASSED [ 35%]
-tests/test_name_normalizer.py::test_acceptance_runner_uses_alias_normalization PASSED [ 36%]
-tests/test_name_normalizer_block22.py::test_normalizer_treats_multiplication_symbols_same PASSED [ 37%]
-tests/test_name_normalizer_block22.py::test_normalizer_removes_metadata_and_units FAILED [ 38%]
-tests/test_name_normalizer_block22.py::test_normalizer_aliases_stubbar_roetter PASSED [ 39%]
-tests/test_name_normalizer_block22.py::test_normalizer_keeps_full_long_name PASSED [ 40%]
-tests/test_name_normalizer_block23.py::test_normalizer_collapses_duplicated_name_after_metadata_removal PASSED [ 41%]
-tests/test_name_normalizer_block23.py::test_normalizer_does_not_damage_single_name PASSED [ 42%]
-tests/test_name_normalizer_block23.py::test_normalizer_removes_duplicate_with_units_between_end PASSED [ 43%]
-tests/test_name_normalizer_block25.py::test_name_normalizer_does_not_remove_four_digit_measurements PASSED [ 44%]
-tests/test_name_normalizer_block25.py::test_name_normalizer_removes_ewc_but_not_product_number_text PASSED [ 45%]
-tests/test_name_normalizer_block26.py::test_normalizer_removes_ewc_with_star_before_symbol_normalization FAILED [ 46%]
-tests/test_name_normalizer_block26.py::test_normalizer_keeps_multiplication_dimension_after_fix PASSED [ 47%]
-tests/test_section612_block22.py::test_section612_extracts_multiplication_star_variant PASSED [ 48%]
-tests/test_section612_block22.py::test_section612_extracts_remaining_block_a_rows PASSED [ 50%]
-tests/test_section612_block23.py::test_section612_extracts_duplicated_skrtymmande_word_row PASSED [ 51%]
-tests/test_section612_extractor.py::test_section612_extractor_extracts_block_a_without_price PASSED [ 52%]
-tests/test_section612_extractor.py::test_section612_extractor_ignores_reference PASSED [ 53%]
-tests/test_section612_specific_match.py::test_section612_prefers_longest_specific_match PASSED [ 54%]
-tests/test_section612_specific_match.py::test_section612_does_not_let_short_substring_win PASSED [ 55%]
-tests/test_section612_trace.py::test_section612_trace_records_export_decision PASSED [ 56%]
-tests/test_section612_trace.py::test_section612_trace_records_not_exported_decision PASSED [ 57%]
-tests/test_section_classifier_rewrite.py::test_accepts_real_section_with_paragraph_symbol PASSED [ 58%]
-tests/test_section_classifier_rewrite.py::test_accepts_main_chapter PASSED [ 59%]
-tests/test_section_classifier_rewrite.py::test_rejects_year PASSED       [ 60%]
-tests/test_section_classifier_rewrite.py::test_rejects_date PASSED       [ 61%]
-tests/test_section_classifier_rewrite.py::test_rejects_ewc_code PASSED   [ 62%]
-tests/test_section_classifier_rewrite.py::test_rejects_un_number PASSED  [ 63%]
-tests/test_section_classifier_rewrite.py::test_rejects_price_row PASSED  [ 64%]
-tests/test_section_classifier_rewrite.py::test_rejects_tax_data_row_starting_with_container PASSED [ 65%]
-tests/test_section_classifier_rewrite.py::test_rejects_document_title_with_year PASSED [ 66%]
-tests/test_section_number.py::test_section_number_parts PASSED           [ 67%]
-tests/test_section_number.py::test_section_number_child PASSED           [ 68%]
-tests/test_section_number.py::test_section_filter_false_heading PASSED   [ 69%]
-tests/test_semantic_parser.py::test_row_type_classifier_reference PASSED [ 70%]
-tests/test_semantic_parser.py::test_section_tax_rules_reference_not_exported PASSED [ 71%]
-tests/test_semantic_parser.py::test_semantic_parser_assigns_section_to_tax_row PASSED [ 72%]
-tests/test_semantic_parser.py::test_semantic_parser_keeps_reference_but_does_not_export PASSED [ 73%]
+tests/test_golden_builder.py::test_variant_rule_engine PASSED            [ 24%]
+tests/test_golden_builder.py::test_confidence_scoring PASSED             [ 25%]
+tests/test_golden_builder.py::test_tax_pattern_matcher_best_match PASSED [ 26%]
+tests/test_heading_numberer.py::test_heading_numberer_generates_section_numbers PASSED [ 27%]
+tests/test_heading_numberer.py::test_heading_numberer_increments_siblings PASSED [ 28%]
+tests/test_heading_numberer.py::test_heading_numberer_does_not_double_prefix PASSED [ 29%]
+tests/test_heading_tree.py::test_section_classifier_detects_numbered_heading PASSED [ 30%]
+tests/test_heading_tree.py::test_heading_tree_builder_creates_hierarchy PASSED [ 31%]
+tests/test_master_excel_reader.py::test_master_excel_reader_reads_basic_rows PASSED [ 32%]
+tests/test_missing_row_diagnostics.py::test_missing_row_diagnostics_finds_semantic_candidate PASSED [ 33%]
+tests/test_name_normalizer.py::test_name_normalizer_aliases_common_612_spellings PASSED [ 34%]
+tests/test_name_normalizer.py::test_acceptance_runner_uses_alias_normalization PASSED [ 35%]
+tests/test_name_normalizer_block22.py::test_normalizer_treats_multiplication_symbols_same PASSED [ 36%]
+tests/test_name_normalizer_block22.py::test_normalizer_removes_metadata_and_units PASSED [ 37%]
+tests/test_name_normalizer_block22.py::test_normalizer_aliases_stubbar_roetter PASSED [ 38%]
+tests/test_name_normalizer_block22.py::test_normalizer_keeps_full_long_name PASSED [ 39%]
+tests/test_name_normalizer_block23.py::test_normalizer_collapses_duplicated_name_after_metadata_removal PASSED [ 40%]
+tests/test_name_normalizer_block23.py::test_normalizer_does_not_damage_single_name PASSED [ 41%]
+tests/test_name_normalizer_block23.py::test_normalizer_removes_duplicate_with_units_between_end PASSED [ 42%]
+tests/test_name_normalizer_block25.py::test_name_normalizer_does_not_remove_four_digit_measurements PASSED [ 43%]
+tests/test_name_normalizer_block25.py::test_name_normalizer_removes_ewc_but_not_product_number_text PASSED [ 44%]
+tests/test_name_normalizer_block26.py::test_normalizer_removes_ewc_with_star_before_symbol_normalization PASSED [ 45%]
+tests/test_name_normalizer_block26.py::test_normalizer_keeps_multiplication_dimension_after_fix PASSED [ 46%]
+tests/test_name_normalizer_block27.py::test_normalizer_removes_ewc_code_with_star_without_leaving_x PASSED [ 47%]
+tests/test_name_normalizer_block27.py::test_normalizer_removes_duplicated_ewc_code_with_star_without_leaving_x PASSED [ 48%]
+tests/test_name_normalizer_block27.py::test_normalizer_keeps_dimension_star_as_x PASSED [ 49%]
+tests/test_section612_block22.py::test_section612_extracts_multiplication_star_variant PASSED [ 50%]
+tests/test_section612_block22.py::test_section612_extracts_remaining_block_a_rows PASSED [ 51%]
+tests/test_section612_block23.py::test_section612_extracts_duplicated_skrtymmande_word_row PASSED [ 52%]
+tests/test_section612_extractor.py::test_section612_extractor_extracts_block_a_without_price PASSED [ 53%]
+tests/test_section612_extractor.py::test_section612_extractor_ignores_reference PASSED [ 54%]
+tests/test_section612_specific_match.py::test_section612_prefers_longest_specific_match PASSED [ 55%]
+tests/test_section612_specific_match.py::test_section612_does_not_let_short_substring_win PASSED [ 56%]
+tests/test_section612_trace.py::test_section612_trace_records_export_decision PASSED [ 57%]
+tests/test_section612_trace.py::test_section612_trace_records_not_exported_decision PASSED [ 58%]
+tests/test_section_classifier_rewrite.py::test_accepts_real_section_with_paragraph_symbol PASSED [ 59%]
+tests/test_section_classifier_rewrite.py::test_accepts_main_chapter PASSED [ 60%]
+tests/test_section_classifier_rewrite.py::test_rejects_year PASSED       [ 61%]
+tests/test_section_classifier_rewrite.py::test_rejects_date PASSED       [ 62%]
+tests/test_section_classifier_rewrite.py::test_rejects_ewc_code PASSED   [ 63%]
+tests/test_section_classifier_rewrite.py::test_rejects_un_number PASSED  [ 64%]
+tests/test_section_classifier_rewrite.py::test_rejects_price_row PASSED  [ 65%]
+tests/test_section_classifier_rewrite.py::test_rejects_tax_data_row_starting_with_container PASSED [ 66%]
+tests/test_section_classifier_rewrite.py::test_rejects_document_title_with_year PASSED [ 67%]
+tests/test_section_number.py::test_section_number_parts PASSED           [ 68%]
+tests/test_section_number.py::test_section_number_child PASSED           [ 69%]
+tests/test_section_number.py::test_section_filter_false_heading PASSED   [ 70%]
+tests/test_semantic_parser.py::test_row_type_classifier_reference PASSED [ 71%]
+tests/test_semantic_parser.py::test_section_tax_rules_reference_not_exported PASSED [ 72%]
+tests/test_semantic_parser.py::test_semantic_parser_assigns_section_to_tax_row PASSED [ 73%]
+tests/test_semantic_parser.py::test_semantic_parser_keeps_reference_but_does_not_export PASSED [ 74%]
 tests/test_table_engine.py::test_cell_normalizer PASSED                  [ 75%]
 tests/test_table_engine.py::test_row_classifier_header PASSED            [ 76%]
 tests/test_table_engine.py::test_row_classifier_tax PASSED               [ 77%]
@@ -103,24 +106,4 @@ tests/test_validation_engine.py::test_validation_engine_passes_valid_rows_withou
 tests/test_workbook_profiler.py::test_workbook_profiler_finds_best_sheet PASSED [ 98%]
 tests/test_workbook_profiler.py::test_master_excel_reader_reads_best_sheet PASSED [100%]
 
-================================== FAILURES ===================================
-_________________ test_normalizer_removes_metadata_and_units __________________
-tests\test_name_normalizer_block22.py:11: in test_normalizer_removes_metadata_and_units
-    assert norm.normalize("Isolering utan innehåll av asbest 170601* kilogram") == "isolering utan innehåll av asbest"
-E   AssertionError: assert 'isolering ut...bestxkilogram' == 'isolering ut...åll av asbest'
-E     
-E     - isolering utan innehåll av asbest
-E     + isolering utan innehåll av asbestxkilogram
-E     ?                                  +++++++++
-______ test_normalizer_removes_ewc_with_star_before_symbol_normalization ______
-tests\test_name_normalizer_block26.py:6: in test_normalizer_removes_ewc_with_star_before_symbol_normalization
-    assert norm.normalize("Isolering utan innehåll av asbest 170601* kilogram") == "isolering utan innehåll av asbest"
-E   AssertionError: assert 'isolering ut...bestxkilogram' == 'isolering ut...åll av asbest'
-E     
-E     - isolering utan innehåll av asbest
-E     + isolering utan innehåll av asbestxkilogram
-E     ?                                  +++++++++
-=========================== short test summary info ===========================
-FAILED tests/test_name_normalizer_block22.py::test_normalizer_removes_metadata_and_units
-FAILED tests/test_name_normalizer_block26.py::test_normalizer_removes_ewc_with_star_before_symbol_normalization
-======================== 2 failed, 94 passed in 1.57s =========================
+============================= 99 passed in 1.72s ==============================

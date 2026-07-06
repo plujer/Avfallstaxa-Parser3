@@ -66,7 +66,9 @@ class NameNormalizer:
 
     def _remove_metadata_tokens(self, text: str) -> str:
         # Remove EWC codes like 200307 or 170601* before * is normalized.
-        text = re.sub(r"\b\d{6}\*?\b", " ", text)
+        # Do not use a trailing word boundary after optional *, because * is not
+        # a word character and `\b` would fail after it.
+        text = re.sub(r"(?<!\d)\d{6}\*?(?!\d)", " ", text)
         text = re.sub(r"\bun[- ]?nr\b", " ", text)
         text = re.sub(r"\bewc(?: kod)?\b", " ", text)
         return text
