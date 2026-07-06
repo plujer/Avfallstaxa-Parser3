@@ -25,7 +25,7 @@ tests/test_facit_611_yaml.py::test_facit_yaml_loader_loads_611_rows PASSED [ 13%
 tests/test_facit_613_yaml.py::test_facit_yaml_loader_loads_613_rows PASSED [ 14%]
 tests/test_facit_614_yaml.py::test_facit_yaml_loader_loads_614_rows PASSED [ 15%]
 tests/test_facit_yaml_loader.py::test_facit_yaml_loader_loads_612_rows PASSED [ 15%]
-tests/test_final_cleanup_before_release.py::test_zip_output_does_not_include_archive_folder_as_source FAILED [ 16%]
+tests/test_final_cleanup_before_release.py::test_zip_output_does_not_include_archive_folder_as_source PASSED [ 16%]
 tests/test_final_cleanup_before_release.py::test_build_report_keeps_rapportzip_output PASSED [ 17%]
 tests/test_final_cleanup_before_release.py::test_release_ready_docs_folders_exist PASSED [ 18%]
 tests/test_flat_tax_extractor.py::test_flat_extractor_removes_single_price_from_name PASSED [ 19%]
@@ -126,11 +126,4 @@ tests/test_validation_engine.py::test_validation_engine_passes_valid_rows_withou
 tests/test_workbook_profiler.py::test_workbook_profiler_finds_best_sheet PASSED [ 99%]
 tests/test_workbook_profiler.py::test_master_excel_reader_reads_best_sheet PASSED [100%]
 
-================================== FAILURES ===================================
-__________ test_zip_output_does_not_include_archive_folder_as_source __________
-tests\test_final_cleanup_before_release.py:8: in test_zip_output_does_not_include_archive_folder_as_source
-    assert "output\acceptance" in text
-E   assert 'output\x07cceptance' in '$date = Get-Date -Format "yyyy-MM-dd_HH-mm-ss"\n$zipDir = "rapportzip"\n$zip = "$zipDir\\Parser3_Run_$date.zip"\n\nNew-Item -ItemType Directory -Force -Path $zipDir | Out-Null\nNew-Item -ItemType Directory -Force -Path "output\\archive" | Out-Null\n\nif (-not (Test-Path "output")) {\n    Write-Host "Output-mappen saknas."\n    exit 1\n}\n\n# Viktigt:\n# Zippa inte output\\archive, annars packas gamla ZIP-filer in i nya ZIP-filer\n# och varje rapportpaket blir större för varje körning.\n$paths = @(\n    "output\\acceptance",\n    "output\\diagnostics",\n    "output\\trace",\n    "output\\reports",\n    "output\\excel",\n    "output\\word"\n)\n\n$existing = @()\nforeach ($path in $paths) {\n    if (Test-Path $path) {\n        $existing += $path\n    }\n}\n\nif ($existing.Count -eq 0) {\n    Write-Host "Inga output-mappar hittades att zippa."\n    exit 1\n}\n\nCompress-Archive -Path $existing -DestinationPath $zip -Force\n\n$archiveZip = "output\\archive\\Parser3_Run_$date.zip"\nCopy-Item $zip $archiveZip -Force\n\nWrite-Host "ZIP skapad: $zip"\nWrite-Host "Arkivkopia: $archiveZip"\n'
-=========================== short test summary info ===========================
-FAILED tests/test_final_cleanup_before_release.py::test_zip_output_does_not_include_archive_folder_as_source
-======================== 1 failed, 118 passed in 1.85s ========================
+============================= 119 passed in 1.82s =============================

@@ -10,11 +10,10 @@ git status:
 M output/diagnostics/environment_report.txt
  M output/diagnostics/parser_console.txt
  M output/diagnostics/pytest_report.txt
- M tools/zip_output.ps1
-?? docs/Block34_FinalCleanupBeforeV100.md
-?? docs/changelogg/CHANGELOG_Block34.md
-?? docs/install/INSTALL_Block34.md
-?? tests/test_final_cleanup_before_release.py
+ M tests/test_final_cleanup_before_release.py
+?? docs/Block35_FinalTestEscapeFix.md
+?? docs/changelogg/CHANGELOG_Block35.md
+?? docs/install/INSTALL_Block35.md
 
 git branch:
 main
