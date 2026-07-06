@@ -16,6 +16,8 @@ $files = @(
     "output\excel\excel_matching_console.txt",
     "output\excel\arbets_excel_profile_report.txt",
     "output\excel\arbets_excel_snapshot.txt",
+    "output\excel\edp_rulebook_report.txt",
+    "output\excel\edp_rulebook_console.txt",
     "output\excel\excel_builder_report.txt",
     "output\excel\excel_builder_console.txt",
     "output\excel\excel_inspect_console.txt",

@@ -1,3 +1,4 @@
 from .builder_reporter import BuilderReporter
 from .workbook_profile_reporter import WorkbookProfileReporter
 from .matching_reporter import MatchingReporter
+from .rulebook_reporter import RulebookReporter

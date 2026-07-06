@@ -1,0 +1,5 @@
+EDP rulebook läst
+Entries: 225
+Workbook warnings: 0
+Validation warnings: 0
+Report: output\excel\edp_rulebook_report.txt

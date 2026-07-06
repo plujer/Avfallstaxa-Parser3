@@ -1,0 +1,376 @@
+Excel Builder EDP Rulebook Report
+
+Status: Read-only rule extraction from Arbets-Excel.
+Arbets-Excel is not master.
+
+Rule entries: 225
+Workbook warnings: 0
+Validation warnings: 0
+
+Rule entries by sheet:
+- 01_Projektöversikt: 6
+- 02_Projektregler: 25
+- 03_Arbetsflöde: 13
+- 04_Källdokument: 9
+- 06_Prompt_ChatGPT: 15
+- Beslutslogg: 9
+- Dokumentation_Taxa_Saknas: 15
+- Dokumentation_Taxa_från_edp: 11
+- Dokumentation_Taxepunkter: 23
+- Färgstandard: 14
+- Projektstatus: 8
+- Revision_Etapp1: 13
+- Revision_Formler_DV: 9
+- Taxekod_Tolkning: 55
+
+Key extracted rules:
+- 01_Projektöversikt row 3: Fas 1 | Word → Excel: pågår. Word styr struktur, Taxepunkter byggs successivt, Taxa_Saknas byggs successivt.
+- 01_Projektöversikt row 6: Viktig princip | Arbetsboken ska kunna återanvändas med ny Taxa_från_edp från annat verksamhetssystem genom att läsa regler, källdokument, lexikon och beslutslogg.
+- 02_Projektregler row 5: R004 | Taxakod | Kolumn Taxakod innehåller endast bekräftad exakt strTaxekod från Taxa_från_edp.
+- 02_Projektregler row 6: R005 | Ingen påhittad Taxakod | Om match finns i Taxa_från_edp används exakt strTaxekod. Hitta inte på egen kod om EDP-kod finns.
+- 02_Projektregler row 7: R006 | Föreslagen Taxa | Visar Taxakod om den är bekräftad, annars föreslagen taxa från Taxa_Saknas.
+- 02_Projektregler row 8: R007 | Aktuellt pris | Aktuellt pris (exkl moms) hämtas alltid från Taxa_från_edp och får aldrig redigeras manuellt.
+- 02_Projektregler row 9: R008 | Föreslaget pris | Får fyllas manuellt/beräknas som arbetspris när Aktuellt pris saknas. Detta är inte EDP-pris.
+- 02_Projektregler row 11: R010 | Taxa_Saknas | Innehåller saknade eller föreslagna taxor med samma EDP-kolumner som Taxa_från_edp samt arbetskolumner.
+- 02_Projektregler row 12: R011 | intRecnum i Taxa_Saknas | intRecnum = radnummer i Taxepunkter för felsökning, inte EDP:s original-ID.
+- 02_Projektregler row 13: R012 | Taxepunkt i Taxa_Saknas | Taxepunkt = Paragrafnamn / Taxapunkt.
+- 02_Projektregler row 14: R013 | Matchningsordning | Sök först strTaxekod, sedan strTaxebenamning, strTaxedelAvser och strFaktor/strFormel.
+- 02_Projektregler row 21: R020 | Kostnadsfria rader | Kostnadsfri rad ska finnas i Taxepunkter, men pris ska fortfarande hämtas från Taxa_från_edp om bekräftad taxekod finns.
+- 02_Projektregler row 22: R021 | Kostnadsfria rader i Taxepunkter | Rader som i Word anges som kostnadsfria ska finnas i Taxepunkter med Variant = Kostnadsfritt. Aktuellt pris får ändå inte fyllas manuellt.
+- 02_Projektregler row 23: R022 | Kostnadsfria rader i Taxa_Saknas | Om kostnadsfri tjänst saknar bekräftad EDP-taxa ska den läggas i Taxa_Saknas med föreslagen taxekod och utan manuellt Aktuellt pris.
+- 03_Arbetsflöde row 5: 4 | Läs Taxekod_Tolkning | Använd lexikonet för prefix, suffix, koddelar, strFaktor och strFormel.
+- 03_Arbetsflöde row 6: 5 | Importera/ersätt Taxa_från_edp | Om ny EDP-export används ska endast importfliken bytas, inte arbetsflikarna.
+- 03_Arbetsflöde row 8: 7 | Matcha mot Taxa_från_edp | Använd matchningsordningen strTaxekod → strTaxebenamning → strTaxedelAvser → strFaktor.
+- 03_Arbetsflöde row 9: 8 | Uppdatera Taxa_Saknas | Alla saknade/osäkra taxor ska dokumenteras med intRecnum = Taxepunkter-rad.
+- 03_Arbetsflöde row 10: 9 | Uppdatera Föreslagen Taxa | Kolumnen hämtar bekräftad Taxakod eller förslag från Taxa_Saknas.
+- 03_Arbetsflöde row 11: 10 | Fyll Föreslaget pris vid behov | Aktuellt pris får aldrig ändras. Föreslaget pris används bara som arbetspris.
+- 04_Källdokument row 3: Taxa_från_edp | Ja | Bekräftade taxekoder, benämningar, faktorer, formler och priser | Ja | Enda källa för Aktuellt pris. Får bytas mot ny export.
+- 04_Källdokument row 5: Källa_Kvantitetskoder | Ja | Referens för strFaktor/strFormel | Ja | Används för tolkning, inte för pris.
+- 04_Källdokument row 7: Taxa_Saknas | Ja | Saknade/föreslagna taxor | Nej | Under uppbyggnad och ska inte ersättas.
+- 06_Prompt_ChatGPT row 4: 3. Taxepunkter är en arbetsflik under uppbyggnad. Den ska byggas från Word och Taxa_från_edp, inte ersättas.
+- 06_Prompt_ChatGPT row 6: 5. Taxakod får endast innehålla bekräftad exakt strTaxekod från Taxa_från_edp.
+- 06_Prompt_ChatGPT row 7: 6. Aktuellt pris får aldrig redigeras manuellt. Det hämtas från Taxa_från_edp.
+- 06_Prompt_ChatGPT row 8: 7. Föreslagen Taxa visar Taxakod om bekräftad, annars förslag från Taxa_Saknas.
+- 06_Prompt_ChatGPT row 9: 8. Föreslaget pris kan användas som arbetspris när Aktuellt pris saknas. DH-priser får bara användas för DH.
+- 06_Prompt_ChatGPT row 10: 9. Matcha taxor via strTaxekod, strTaxebenamning, strTaxedelAvser, strFaktor och strFormel.
+- 06_Prompt_ChatGPT row 11: 10. Om taxan saknas: lägg i Taxa_Saknas med intRecnum = radnumret i Taxepunkter.
+- 06_Prompt_ChatGPT row 14: 13. Kostnadsfria rader i Word ska alltid finnas i Taxepunkter och vid saknad EDP-taxa även i Taxa_Saknas.
+- 06_Prompt_ChatGPT row 15: 14. Sätt aldrig Aktuellt pris manuellt till 0. Pris hämtas bara från Taxa_från_edp; använd Föreslaget pris endast som arbetskolumn vid behov.
+- Projektstatus row 3: Taxa_Saknas | Under uppbyggnad | Fylls löpande med saknade taxor och förslag.
+- Projektstatus row 8: Kostnadsfria rader | Åtgärdat | Tre kostnadsfria rader från Word har lagts till i Taxepunkter och Taxa_Saknas.
+- Dokumentation_Taxepunkter row 7: F | Taxakod | Manuell med dropdown | Taxa_från_edp | Endast bekräftad exakt strTaxekod från Taxa_från_edp. | Ja
+- Dokumentation_Taxepunkter row 8: G | Föreslagen Taxa | Automatisk | Taxakod + Taxa_Saknas | Ja | Nej
+- Dokumentation_Taxepunkter row 9: H | Taxabeskrivning | Automatisk | Taxa_från_edp[strTaxebenamning] | Slår upp Taxakod i Taxa_från_edp kolumn strTaxekod och returnerar strTaxebenamning. | Nej
+- Dokumentation_Taxepunkter row 10: I | Faktor | Automatisk | Taxa_från_edp[strFaktor] | Slår upp Taxakod och returnerar strFaktor. | Nej
+- Dokumentation_Taxepunkter row 11: J | Aktuellt pris (exkl m) | Automatisk | Taxa_från_edp[curNuvarandePris] | Slår upp Taxakod och returnerar aktuellt pris exkl. moms. Får aldrig redigeras manuellt. | Nej
+- Dokumentation_Taxepunkter row 12: K | Föreslaget pris | Manuell/beräknad arbetskolumn | Projektdata/DH-prislista/bedömning | Används bara när Aktuellt pris saknas. DH-priser får endast användas för DH. | Ja
+- Dokumentation_Taxepunkter row 18: F påverkar G/H/I/J | Taxakod styr föreslagen taxa, taxabeskrivning, faktor och aktuellt pris.
+- Dokumentation_Taxepunkter row 19: G hämtar från Taxa_Saknas | Om Taxakod saknas används intRecnum/radnummer för att hämta föreslagen taxa.
+- Dokumentation_Taxepunkter row 20: J är låst principmässigt | Aktuellt pris är alltid EDP-pris och får inte ändras manuellt.
+- Dokumentation_Taxa_Saknas row 7: F | Matchmetod | Arbetskolumn | Projektet | Hur förslaget togs fram: strTaxebenamning, strTaxedelAvser, kodregel, etc. | Ja
+- Dokumentation_Taxa_Saknas row 11: J:Y | EDP-kolumner | Importstruktur | Taxa_från_edp | Samma struktur som Taxa_från_edp för att kunna skapa/importera nya taxor. | Ja, men följ EDP-format
+- Dokumentation_Taxa_från_edp row 2: A | intRecnum | EDP:s interna rad-ID | Läses som källdata men används inte som nyckel i Taxa_Saknas.
+- Dokumentation_Taxa_från_edp row 3: B | strTaxekod | Primär nyckel för bekräftade taxor | Taxakod i Taxepunkter måste vara exakt värdet härifrån.
+- Dokumentation_Taxa_från_edp row 4: C | strTaxebenamning | Matchning och dokumentation | Kontrolleras alltid innan nya taxor föreslås.
+- Dokumentation_Taxa_från_edp row 5: D | strProdukt | EDP-produkt | Behålls vid förslag i Taxa_Saknas där möjligt.
+- Dokumentation_Taxa_från_edp row 8: G | strFaktor | Faktor/beräkningsgrund | Tolkning hämtas från Källa_Kvantitetskoder och Taxekod_Tolkning.
+- Dokumentation_Taxa_från_edp row 9: H | strTaxedelAvser | Viktig matchningskolumn | Används före frågor ställs. Ofta tydligast för vad delraden avser.
+- Dokumentation_Taxa_från_edp row 10: K | curNuvarandePris | Aktuellt pris exkl. moms | Enda källa till Aktuellt pris i Taxepunkter. Får inte ändras manuellt.
+- Dokumentation_Taxa_från_edp row 11: Q | strFormel | Beräkningsformel/faktor | Används för att förstå enhet och beräkning, t.ex. ANTB, VIKG, DR10.
+- Taxekod_Tolkning row 2: KÄ | Prefix | Kärl | KÄ240RM26 | Taxa_från_edp rad 234 / strTaxekod KÄ240RM26 | strTaxekod + strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 3: MB | Prefix | Markbehållare eller underjordsbehållare | MB3200RE26 | Taxa_från_edp rad 211 / 271 | strTaxebenamning + användarbekräftelse | Bekräftad | Kan omfatta både mark- och underjordsbehållare.
+- Taxekod_Tolkning row 4: BTMR | Kodstruktur | Bottentömmande behållare, mat-/restavfall | BTMRFV | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används för nya föreslagna taxor när EDP-träff saknas.
+- Taxekod_Tolkning row 5: LVRE | Kodstruktur | Lastväxlarflak, restavfall | LVREFV | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används för nya föreslagna taxor när EDP-träff saknas.
+- Taxekod_Tolkning row 6: RM | Avfallsslag | Rest-/matavfall | KÄ240RM26 | Taxa_från_edp rad 234 / strTaxekod KÄ240RM26 | strTaxebenamning: rest/matavfall | Bekräftad
+- Taxekod_Tolkning row 7: RK | Avfallsslag | Restavfall/kompost | KÄ240RK26 | Taxa_från_edp rad 232 / strTaxekod KÄ240RK26 | strTaxebenamning: restavfall/kompost | Bekräftad
+- Taxekod_Tolkning row 8: RE | Avfallsslag | Restavfall | KÄ370RE26FV | Taxa_från_edp rad 242 / strTaxekod KÄ370RE26FV | strTaxebenamning + strTaxedelAvser | Bekräftad
+- Taxekod_Tolkning row 9: MA | Avfallsslag | Matavfall | KÄ140MA52FV | Taxa_från_edp rad 221 / strTaxekod KÄ140MA52FV | strTaxebenamning + strTaxedelAvser | Bekräftad
+- Taxekod_Tolkning row 10: TI | Avfallsslag | Tidningar/returpapper | KÄ190TI26FV | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används där EDP-träff saknas för tidningar/returpapper.
+- Taxekod_Tolkning row 11: FP | Avfallsslag | Förpackningar | KÄ370FP26FV | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används där EDP-träff saknas för förpackningar.
+- Taxekod_Tolkning row 12: XRM | Avfallsslag/kärltyp | Extrakärl rest-/matavfall | KÄ190XRM26 | Taxa_från_edp rad 226 / strTaxekod KÄ190XRM26 | strTaxebenamning: extrakärl, rest/matavfall | Bekräftad
+- Taxekod_Tolkning row 13: 140 | Volym | 140 liter | KÄ140MA26FV | Taxa_från_edp rad 216 / strTaxekod KÄ140MA26FV | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 14: 190 | Volym | 190 liter / 120–190 liter för extrakärl | KÄ190XRM26 | Taxa_från_edp rad 226 / strTaxekod KÄ190XRM26 | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 15: 240 | Volym | 240 liter | KÄ240RM26 | Taxa_från_edp rad 234 / strTaxekod KÄ240RM26 | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 16: 370 | Volym | 370 liter | KÄ370RE26FV | Taxa_från_edp rad 242 / strTaxekod KÄ370RE26FV | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 17: 660 | Volym | 660 liter | KÄ660RE26FV | Taxa_från_edp rad 254 / strTaxekod KÄ660RE26FV | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 18: 26 | Frekvens | Var 14:e dag / 26 tömningar per år | KÄ240RM26 | Taxa_från_edp rad 234 / strTaxekod KÄ240RM26 | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 19: 52 | Frekvens | Varje vecka / 52 tömningar per år | KÄ240RM52FV | Taxa_från_edp rad 31 / strTaxekod KÄ240RM52FV | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 20: 12 | Frekvens | Månadsvis / 12 tömningar per år | KÄ240RM12FV | Taxa_Saknas / föreslagen struktur | Härledd från kodmönster och Word | Härledd | Finns inte som säker EDP-träff i genomgången hittills.
+- Taxekod_Tolkning row 21: FRI | Suffix | Fritidshus | KÄ240RM26FRI | Taxa_från_edp rad 236 / strTaxekod KÄ240RM26FRI | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 22: FV | Suffix | Flerbostadshus eller verksamhet | KÄ660RE52FV | Taxa_från_edp rad 259 / strTaxekod KÄ660RE52FV | strTaxebenamning: FLB/VHT + användarbekräftelse | Bekräftad | Samma FV-taxekod kan användas både för flerbostadshus och verksamhet om övriga villkor stämmer.
+- Taxekod_Tolkning row 23: FLB | Förkortning i benämning | Flerbostadshus | FLB/VHT | Taxa_från_edp, flera rader | strTaxebenamning | Bekräftad | Förekommer i strTaxebenamning, inte nödvändigtvis som egen koddel.
+- Taxekod_Tolkning row 24: VHT | Förkortning i benämning | Verksamhet | FLB/VHT | Taxa_från_edp, flera rader | strTaxebenamning | Bekräftad | Förekommer i strTaxebenamning, inte nödvändigtvis som egen koddel.
+- Taxekod_Tolkning row 25: SL | Prefix/kategori | Slam | SLBUDFOS | Taxa_från_edp rad 133 / strTaxekod SLBUDFOS | strDelProdukt + strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 26: ÅVC | Kategori | Återvinningscentral | ASBEST | Taxa_från_edp rad 66 / strDelProdukt ÅVC | strDelProdukt | Bekräftad
+- Taxekod_Tolkning row 27: TÖM | Koddel | Tömning | MB3200TÖM | Taxa_från_edp rad 211 / strTaxekod MB3200TÖM | strTaxebenamning + strTaxedelAvser | Bekräftad
+- Taxekod_Tolkning row 28: KVAN | strFaktor | Kvantitet | KVAN | Taxa_från_edp rad 2 | kvantitetskoder + strFaktor | Bekräftad
+- Taxekod_Tolkning row 29: ÅRKV | strFaktor | Årskvantitet | ÅRKV | Taxa_från_edp rad 216 | kvantitetskoder + strFaktor | Bekräftad
+- Taxekod_Tolkning row 30: ÅRPR | strFaktor | Årspris | ÅRPR | Taxa_från_edp VA-rader | kvantitetskoder + strFaktor | Bekräftad
+- Taxekod_Tolkning row 31: FÖRB | strFaktor | Förbrukning | FÖRB | Taxa_från_edp VA-rader | kvantitetskoder + strFaktor | Bekräftad
+- Taxekod_Tolkning row 32: UPFÖ | strFaktor | Uppskattad förbrukning | UPFÖ | Taxa_från_edp VA-rader | kvantitetskoder + strFaktor | Bekräftad
+- Taxekod_Tolkning row 33: ANTB | strFormel | Antal behållare | ANTB | Taxa_från_edp, kärlrader | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 34: ANTL | strFormel | Övriga antal / antal tillfällen | ANTL | Taxa_från_edp, t.ex. FELSORT | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 35: FAST | strFormel | Fast avgift | FAST | Taxa_från_edp rad 215 GEMUPPFRI | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 36: LÄGH | strFormel | Lägenheter | LÄGH | Taxa_från_edp VA-rader | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 37: VIKG | strFormel | Vikt i kilo | VIKG | Taxa_från_edp flera viktavgifter | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 38: DR10 | strFormel | Dragväg 1,5–10 meter | DR10 | Taxa_från_edp kärlrader | strTaxedelAvser + strFormel | Bekräftad
+- Taxekod_Tolkning row 39: DR20 | strFormel | Dragväg 10,1–20 meter | DR20 | Taxa_från_edp kärlrader | strTaxedelAvser + strFormel | Bekräftad
+- Taxekod_Tolkning row 40: KBMÖ | strFormel | Kubikmeter övrigt | KBMÖ | Taxa_från_edp ÅVC-rader | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 41: KBMS | strFormel | Kubikmeter slam | KBMS | Taxa_från_edp slamrader | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 45: DH | Suffix | Detaljhandel med beviljad hantering av kommunalt avfall | KÄ240RM26DH | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används för §2.2.6. Ska inte använda FV eftersom detaljhandel inte räknas som vanlig verksamhet/flerbostad i denna taxa.
+- Taxekod_Tolkning row 49: MBRMFPFV | Föreslagen kodstruktur | Bottentömmande/markbehållare för mat-/restavfall och förpackningar, flerbostad/verksamhet | MBRMFPFV | Taxa_Saknas §2.2.4 | Projektregel MB + Word | Föreslagen | Ersätter tidigare BTMR-struktur.
+- Taxekod_Tolkning row 50: MBRMFP2VFV | Föreslagen kodstruktur | Tillägg för två tömningar per vecka för bottentömmande/markbehållare, flerbostad/verksamhet | MBRMFP2VFV | Taxa_Saknas §2.2.4 | Projektregel MB + Word | Föreslagen
+- Taxekod_Tolkning row 51: GEMUPPMRFPFLB | Föreslagen funktionskod | Gemensam uppsamlingsplats för mat-/restavfall och förpackningar per lägenhet, flerbostadshus | GEMUPPMRFPFLB | Taxa_Saknas §2.2.4 | Word + jämförelse med GEMUPPFÖRPFLB | Föreslagen | Befintlig GEMUPPFÖRPFLB avser endast förpackning enligt EDP, därför används inte som bekräftad taxekod.
+- Taxekod_Tolkning row 52: MBRMFV | Föreslagen kodstruktur | Bottentömmande/markbehållare för mat-/restavfall, flerbostad/verksamhet | MBRMFV | Taxa_Saknas §2.2.5 | Projektregel MB + Word | Föreslagen | Ersätter tidigare BTMR-struktur.
+- Taxekod_Tolkning row 53: MBRM2VFV | Föreslagen kodstruktur | Tillägg för två tömningar per vecka för bottentömmande/markbehållare, flerbostad/verksamhet | MBRM2VFV | Taxa_Saknas §2.2.5 | Projektregel MB + Word | Föreslagen
+- Taxekod_Tolkning row 54: LVREFV | Föreslagen kodstruktur | Lastväxlarflak restavfall, flerbostad/verksamhet | LVREFV | Taxa_Saknas §2.2.5 | Projektregel LV + Word | Föreslagen
+- Taxekod_Tolkning row 56: MBRMDH | Föreslagen kodstruktur | Bottentömmande/markbehållare för mat-/restavfall, detaljhandel | MBRMDH | Taxa_Saknas §2.2.6 | Projektregel MB + DH | Föreslagen | Ersätter tidigare BTMRDH.
+- Taxekod_Tolkning row 57: MBRM2VDH | Föreslagen kodstruktur | Tillägg två tömningar per vecka för bottentömmande/markbehållare, detaljhandel | MBRM2VDH | Taxa_Saknas §2.2.6 | Projektregel MB + DH | Föreslagen | Ersätter tidigare BTMR2VDH.
+- Taxekod_Tolkning row 59: KÄ140TI | Föreslagen kodstruktur | Kärl 140 l för kontors-/returpapper | KÄ140TI | Taxa_Saknas §2.2.7 | Word + TI-regel | Föreslagen | TI är sedan tidigare bekräftat för tidningar/returpapper.
+- Taxekod_Tolkning row 60: EGENKONTRET | Föreslagen funktionskod | Egen överlämning av förbrukat kontors-/returpapper enligt anvisning | EGENKONTRET | Taxa_Saknas §2.2.7 | Word | Föreslagen
+- Taxekod_Tolkning row 61: EGENMATFETT | Föreslagen funktionskod | Egen överlämning av förbrukat matfett enligt anvisning | EGENMATFETT | Taxa_Saknas §2.2.7 | Word | Föreslagen
+- Taxekod_Tolkning row 62: KONTRET | Avfallsslag/funktionsdel | Kontors-/returpapper | EGENKONTRET | Taxa_Saknas §2.2.7 | Word | Föreslagen
+- Beslutslogg row 5: 2026-07-02 | Aktuellt pris hämtas bara från Taxa_från_edp | Priskolumnen får inte redigeras manuellt.
+- Beslutslogg row 6: 2026-07-02 | Föreslaget pris får användas som arbetspris | Ny kolumn efter Aktuellt pris.
+- Färgstandard row 3: Manuell inmatning | #FFF2CC | Fält som får fyllas manuellt | Taxepunkter A–F, L samt Taxa_Saknas arbetskolumner
+- Färgstandard row 4: Automatisk uppslagning | #DDEBF7 | Formler och uppslag mot Taxa_från_edp | Taxepunkter H–J
+- Färgstandard row 5: Förslag | #FCE4D6 | Föreslagna taxekoder och arbetspris | Taxepunkter G och K, Taxa_Saknas FöreslagenTaxekod
+- Färgstandard row 9: Import/referens | #D9EAD3 | Importerade eller externa källflikar | Taxa_från_edp, Källa_Prislista_DH
+- Revision_Etapp1 row 4: Taxepunkter kolumnstruktur | Kontrollerad | A:N används med Taxakod, Föreslagen Taxa, Aktuellt pris och Föreslaget pris. | OK
+- Revision_Etapp1 row 5: Taxa_Saknas struktur | Kontrollerad | Arbetskolumner + EDP-kolumner är dokumenterade. | OK
+- Revision_Etapp1 row 6: Kostnadsfria rader | Åtgärdad | Tre saknade kostnadsfria rader är tillagda i Taxepunkter och Taxa_Saknas. | OK
+- Revision_Etapp1 row 7: Aktuellt pris | Regel dokumenterad | Aktuellt pris hämtas endast från Taxa_från_edp. | OK
+- Revision_Etapp1 row 10: Datavalidering | Ej fullrevision | Dropdown i Taxakod bör kontrolleras mer detaljerat i nästa revision. | Nästa revision
+- Revision_Formler_DV row 2: Taxepunkter G | Föreslagen Taxa | OK | Visar Taxakod om F finns, annars XLOOKUP mot Taxa_Saknas intRecnum/H och FöreslagenTaxekod/G.
+- Revision_Formler_DV row 3: Taxepunkter H | Taxabeskrivning | OK | Hämtas från Taxa_från_edp strTaxebenamning via Taxakod.
+- Revision_Formler_DV row 4: Taxepunkter I | Faktor | OK | Hämtas från Taxa_från_edp strFaktor via Taxakod.
+- Revision_Formler_DV row 5: Taxepunkter J | Aktuellt pris | OK | Hämtas från Taxa_från_edp curNuvarandePris via Taxakod. Ska inte redigeras manuellt.
+- Revision_Formler_DV row 8: Taxepunkter F | Datavalidering | OK | Dropdown mot Taxa_från_edp!$B$2:$B$371 tillagd på F7:F370.
+- Revision_Formler_DV row 9: Taxa_Saknas 72:200 | Automationsmall | OK | Fyll Rad i Taxepunkter i C och FöreslagenTaxekod i G. Övriga fält fylls med formler.
+
+All entries:
+- 01_Projektöversikt row 1: Avfallstaxa – självdokumenterande masterfil
+- 01_Projektöversikt row 2: Syfte | Bygga och kvalitetssäkra Taxepunkter från Word, EDP och kompletterande prislistor.
+- 01_Projektöversikt row 3: Fas 1 | Word → Excel: pågår. Word styr struktur, Taxepunkter byggs successivt, Taxa_Saknas byggs successivt.
+- 01_Projektöversikt row 4: Fas 2 | Excel → Word: ej påbörjad. Ska hanteras separat senare. Regler för Fas 1 får inte blandas med Fas 2.
+- 01_Projektöversikt row 5: Status | Taxepunkter är under uppbyggnad. Arbetet är genomfört till och med §2.2.6 med kända justeringar.
+- 01_Projektöversikt row 6: Viktig princip | Arbetsboken ska kunna återanvändas med ny Taxa_från_edp från annat verksamhetssystem genom att läsa regler, källdokument, lexikon och beslutslogg.
+- 02_Projektregler row 1: ID | Regel | Beskrivning
+- 02_Projektregler row 2: R001 | Fasindelning | Projektet består av två separata faser: Fas 1 Word → Excel och Fas 2 Excel → Word. De får inte blandas.
+- 02_Projektregler row 3: R002 | Word styr struktur i Fas 1 | Alla taxepunkter, rader och kostnadsfria tjänster som finns i Word ska finnas i Taxepunkter.
+- 02_Projektregler row 4: R003 | Taxepunkter byggs successivt | Taxepunkter är en arbetsflik under uppbyggnad och får inte ersättas med importdata.
+- 02_Projektregler row 5: R004 | Taxakod | Kolumn Taxakod innehåller endast bekräftad exakt strTaxekod från Taxa_från_edp.
+- 02_Projektregler row 6: R005 | Ingen påhittad Taxakod | Om match finns i Taxa_från_edp används exakt strTaxekod. Hitta inte på egen kod om EDP-kod finns.
+- 02_Projektregler row 7: R006 | Föreslagen Taxa | Visar Taxakod om den är bekräftad, annars föreslagen taxa från Taxa_Saknas.
+- 02_Projektregler row 8: R007 | Aktuellt pris | Aktuellt pris (exkl moms) hämtas alltid från Taxa_från_edp och får aldrig redigeras manuellt.
+- 02_Projektregler row 9: R008 | Föreslaget pris | Får fyllas manuellt/beräknas som arbetspris när Aktuellt pris saknas. Detta är inte EDP-pris.
+- 02_Projektregler row 10: R009 | DH-priser | Prislista DH används endast för detaljhandel och får aldrig användas för beräkningsmodeller för andra taxor.
+- 02_Projektregler row 11: R010 | Taxa_Saknas | Innehåller saknade eller föreslagna taxor med samma EDP-kolumner som Taxa_från_edp samt arbetskolumner.
+- 02_Projektregler row 12: R011 | intRecnum i Taxa_Saknas | intRecnum = radnummer i Taxepunkter för felsökning, inte EDP:s original-ID.
+- 02_Projektregler row 13: R012 | Taxepunkt i Taxa_Saknas | Taxepunkt = Paragrafnamn / Taxapunkt.
+- 02_Projektregler row 14: R013 | Matchningsordning | Sök först strTaxekod, sedan strTaxebenamning, strTaxedelAvser och strFaktor/strFormel.
+- 02_Projektregler row 15: R014 | FV | FV betyder flerbostadshus eller verksamhet och kan återanvändas om övriga villkor stämmer.
+- 02_Projektregler row 16: R015 | DH | DH betyder detaljhandel med beviljad hantering av kommunalt avfall. §2.2.6 använder DH, inte FV.
+- 02_Projektregler row 17: R016 | MB | MB används för markbehållare eller underjordsbehållare och ska användas som prefix för bottentömmande behållare.
+- 02_Projektregler row 18: R017 | LV | LV används för lastväxlarflak.
+- 02_Projektregler row 19: R018 | GEMUPP | GEMUPP används för gemensam uppsamlingsplats.
+- 02_Projektregler row 20: R019 | FOB | FOB används för fysisk nyckel/fob.
+- 02_Projektregler row 21: R020 | Kostnadsfria rader | Kostnadsfri rad ska finnas i Taxepunkter, men pris ska fortfarande hämtas från Taxa_från_edp om bekräftad taxekod finns.
+- 02_Projektregler row 22: R021 | Kostnadsfria rader i Taxepunkter | Rader som i Word anges som kostnadsfria ska finnas i Taxepunkter med Variant = Kostnadsfritt. Aktuellt pris får ändå inte fyllas manuellt.
+- 02_Projektregler row 23: R022 | Kostnadsfria rader i Taxa_Saknas | Om kostnadsfri tjänst saknar bekräftad EDP-taxa ska den läggas i Taxa_Saknas med föreslagen taxekod och utan manuellt Aktuellt pris.
+- 02_Projektregler row 24: R023 | Underrubriker i Taxepunkter | Rader där kolumn A innehåller paragraf + rubriktext och B:E är tomma ska behandlas som underrubriker. De ska vara sammanslagna över A:E och enfärgade.
+- 02_Projektregler row 25: R024 | Vanliga taxerader i Taxepunkter | Rader där A:E innehåller uppdelad information, t.ex. Paragraf, Paragrafnamn, Taxapunkt, Variant och Enhet, ska inte vara sammanslagna och A:E ska ha vit bakgrund.
+- 03_Arbetsflöde row 1: Steg | Arbetsmoment | Beskrivning
+- 03_Arbetsflöde row 2: 1 | Läs Projektöversikt | Identifiera om arbetet gäller Fas 1 Word→Excel eller Fas 2 Excel→Word.
+- 03_Arbetsflöde row 3: 2 | Läs Projektregler | Följ reglerna innan några ändringar görs.
+- 03_Arbetsflöde row 4: 3 | Läs Källdokument | Kontrollera vilka importflikar och externa filer som krävs.
+- 03_Arbetsflöde row 5: 4 | Läs Taxekod_Tolkning | Använd lexikonet för prefix, suffix, koddelar, strFaktor och strFormel.
+- 03_Arbetsflöde row 6: 5 | Importera/ersätt Taxa_från_edp | Om ny EDP-export används ska endast importfliken bytas, inte arbetsflikarna.
+- 03_Arbetsflöde row 7: 6 | Kontrollera Word mot Taxepunkter | Lägg till saknade rader från Word, inklusive kostnadsfria rader.
+- 03_Arbetsflöde row 8: 7 | Matcha mot Taxa_från_edp | Använd matchningsordningen strTaxekod → strTaxebenamning → strTaxedelAvser → strFaktor.
+- 03_Arbetsflöde row 9: 8 | Uppdatera Taxa_Saknas | Alla saknade/osäkra taxor ska dokumenteras med intRecnum = Taxepunkter-rad.
+- 03_Arbetsflöde row 10: 9 | Uppdatera Föreslagen Taxa | Kolumnen hämtar bekräftad Taxakod eller förslag från Taxa_Saknas.
+- 03_Arbetsflöde row 11: 10 | Fyll Föreslaget pris vid behov | Aktuellt pris får aldrig ändras. Föreslaget pris används bara som arbetspris.
+- 03_Arbetsflöde row 12: 11 | Dokumentera beslut | Uppdatera Beslutslogg och Kontrollrapport.
+- 03_Arbetsflöde row 13: 12 | Vänta med Excel→Word | Prisöverföring till Word hanteras i senare separat fas.
+- 04_Källdokument row 1: Källa/flik | Obligatorisk | Funktion | Får ersättas vid ny körning | Kommentar
+- 04_Källdokument row 2: Word taxedokument (.docx) | Ja | Juridisk/strukturell källa för Taxepunkter | Ja | Ska importeras/läsas vid ny taxemall. Nuvarande Word ligger ej som komplett filflik i Excel.
+- 04_Källdokument row 3: Taxa_från_edp | Ja | Bekräftade taxekoder, benämningar, faktorer, formler och priser | Ja | Enda källa för Aktuellt pris. Får bytas mot ny export.
+- 04_Källdokument row 4: Källa_Prislista_DH | Ja om DH finns | Unik prislista för detaljhandel | Ja | Får endast användas för DH och aldrig för andra beräkningsmodeller.
+- 04_Källdokument row 5: Källa_Kvantitetskoder | Ja | Referens för strFaktor/strFormel | Ja | Används för tolkning, inte för pris.
+- 04_Källdokument row 6: Taxepunkter | Ja | Arbetsflik som byggs från Word + EDP | Nej | Under uppbyggnad och ska inte ersättas.
+- 04_Källdokument row 7: Taxa_Saknas | Ja | Saknade/föreslagna taxor | Nej | Under uppbyggnad och ska inte ersättas.
+- 04_Källdokument row 8: Taxekod_Tolkning | Ja | Lexikon över koddelar | Nej | Byggs successivt.
+- 04_Källdokument row 9: Projektregler/Arbetsflöde/Beslutslogg | Ja | Självdokumentation | Nej | Behövs för framtida promptning.
+- 06_Prompt_ChatGPT row 1: Instruktion till ChatGPT för fortsatt arbete
+- 06_Prompt_ChatGPT row 2: 1. Läs flikarna 01_Projektöversikt, 02_Projektregler, 03_Arbetsflöde, 04_Källdokument, Taxekod_Tolkning och Beslutslogg innan du ändrar något.
+- 06_Prompt_ChatGPT row 3: 2. Arbetet är i Fas 1 Word → Excel tills annat uttryckligen anges. Regler för Excel → Word ska inte användas ännu.
+- 06_Prompt_ChatGPT row 4: 3. Taxepunkter är en arbetsflik under uppbyggnad. Den ska byggas från Word och Taxa_från_edp, inte ersättas.
+- 06_Prompt_ChatGPT row 5: 4. Alla rader i Word, även kostnadsfria rader, ska finnas i Taxepunkter.
+- 06_Prompt_ChatGPT row 6: 5. Taxakod får endast innehålla bekräftad exakt strTaxekod från Taxa_från_edp.
+- 06_Prompt_ChatGPT row 7: 6. Aktuellt pris får aldrig redigeras manuellt. Det hämtas från Taxa_från_edp.
+- 06_Prompt_ChatGPT row 8: 7. Föreslagen Taxa visar Taxakod om bekräftad, annars förslag från Taxa_Saknas.
+- 06_Prompt_ChatGPT row 9: 8. Föreslaget pris kan användas som arbetspris när Aktuellt pris saknas. DH-priser får bara användas för DH.
+- 06_Prompt_ChatGPT row 10: 9. Matcha taxor via strTaxekod, strTaxebenamning, strTaxedelAvser, strFaktor och strFormel.
+- 06_Prompt_ChatGPT row 11: 10. Om taxan saknas: lägg i Taxa_Saknas med intRecnum = radnumret i Taxepunkter.
+- 06_Prompt_ChatGPT row 12: 11. Uppdatera Taxekod_Tolkning när nya koddelar identifieras.
+- 06_Prompt_ChatGPT row 13: 12. Dokumentera nya beslut i Beslutslogg och resultat i Kontrollrapport.
+- 06_Prompt_ChatGPT row 14: 13. Kostnadsfria rader i Word ska alltid finnas i Taxepunkter och vid saknad EDP-taxa även i Taxa_Saknas.
+- 06_Prompt_ChatGPT row 15: 14. Sätt aldrig Aktuellt pris manuellt till 0. Pris hämtas bara från Taxa_från_edp; använd Föreslaget pris endast som arbetskolumn vid behov.
+- Projektstatus row 1: Delprojekt | Status | Progress/Kommentar
+- Projektstatus row 2: Taxepunkter | Under uppbyggnad | Kontrollerad till och med §2.2.6; fortsättning återstår.
+- Projektstatus row 3: Taxa_Saknas | Under uppbyggnad | Fylls löpande med saknade taxor och förslag.
+- Projektstatus row 4: Taxekod_Tolkning | Under uppbyggnad | Lexikon påbörjat och uppdateras löpande.
+- Projektstatus row 5: Word → Excel | Pågår | Fas 1.
+- Projektstatus row 6: Excel → Word | Ej påbörjad | Fas 2 hanteras separat senare.
+- Projektstatus row 7: DH-prislogik | Fastställd | DH-priser är fristående och får inte användas för andra modeller.
+- Projektstatus row 8: Kostnadsfria rader | Åtgärdat | Tre kostnadsfria rader från Word har lagts till i Taxepunkter och Taxa_Saknas.
+- Dokumentation_Taxepunkter row 1: Kolumn | Rubrik | Typ | Källa/beroende | Formel/regel för en normalrad | Får ändras manuellt
+- Dokumentation_Taxepunkter row 2: A | Paragraf | Manuell | Word | Anges utifrån paragraf i Word. | Ja
+- Dokumentation_Taxepunkter row 3: B | Paragrafnamn | Manuell | Word | Anges utifrån rubrik i Word. | Ja
+- Dokumentation_Taxepunkter row 4: C | Taxapunkt | Manuell | Word | Anges utifrån raden/tjänsten i Word. | Ja
+- Dokumentation_Taxepunkter row 5: D | Variant | Manuell | Word | Anger t.ex. Hämtning varje vecka, Avgift per tömning, var 14:e dag. | Ja
+- Dokumentation_Taxepunkter row 6: E | Enhet | Manuell | Word/bedömning | Anger debiteringsenhet, t.ex. st/år, st/tömning, kg. | Ja
+- Dokumentation_Taxepunkter row 7: F | Taxakod | Manuell med dropdown | Taxa_från_edp | Endast bekräftad exakt strTaxekod från Taxa_från_edp. | Ja
+- Dokumentation_Taxepunkter row 8: G | Föreslagen Taxa | Automatisk | Taxakod + Taxa_Saknas | Ja | Nej
+- Dokumentation_Taxepunkter row 9: H | Taxabeskrivning | Automatisk | Taxa_från_edp[strTaxebenamning] | Slår upp Taxakod i Taxa_från_edp kolumn strTaxekod och returnerar strTaxebenamning. | Nej
+- Dokumentation_Taxepunkter row 10: I | Faktor | Automatisk | Taxa_från_edp[strFaktor] | Slår upp Taxakod och returnerar strFaktor. | Nej
+- Dokumentation_Taxepunkter row 11: J | Aktuellt pris (exkl m) | Automatisk | Taxa_från_edp[curNuvarandePris] | Slår upp Taxakod och returnerar aktuellt pris exkl. moms. Får aldrig redigeras manuellt. | Nej
+- Dokumentation_Taxepunkter row 12: K | Föreslaget pris | Manuell/beräknad arbetskolumn | Projektdata/DH-prislista/bedömning | Används bara när Aktuellt pris saknas. DH-priser får endast användas för DH. | Ja
+- Dokumentation_Taxepunkter row 13: L | Antal | Manuell | Taxevolym/bedömning | Anges vid behov för intäktsberäkning. | Ja
+- Dokumentation_Taxepunkter row 14: M | Pris kr (inkl.) | Automatisk | J eller K + moms | Nej
+- Dokumentation_Taxepunkter row 15: N | Intäkt (kr) exkl | Automatisk | J/K och L | Nej
+- Dokumentation_Taxepunkter row 17: Beroende | Beskrivning
+- Dokumentation_Taxepunkter row 18: F påverkar G/H/I/J | Taxakod styr föreslagen taxa, taxabeskrivning, faktor och aktuellt pris.
+- Dokumentation_Taxepunkter row 19: G hämtar från Taxa_Saknas | Om Taxakod saknas används intRecnum/radnummer för att hämta föreslagen taxa.
+- Dokumentation_Taxepunkter row 20: J är låst principmässigt | Aktuellt pris är alltid EDP-pris och får inte ändras manuellt.
+- Dokumentation_Taxepunkter row 21: K är arbetspris | Föreslaget pris används endast som arbetsunderlag när J saknas.
+- Dokumentation_Taxepunkter row 22: Radtyp | Kännetecken | Format | Regel | Exempel | Får ändras manuellt
+- Dokumentation_Taxepunkter row 23: Underrubrik | Endast kolumn A har text, B:E är tomma | A:E sammanslaget, enfärgad ljusblå rad | Används för avsnittsrubriker | §2.1 Grundavgift | Nej
+- Dokumentation_Taxepunkter row 24: Taxerad | A:E innehåller uppdelade fält | A:E ej sammanslaget, vit bakgrund | Används för faktiska taxepunkter | §2.1 | Grundavgift | En- och tvåbostadshus | st/år | Ja
+- Dokumentation_Taxa_Saknas row 1: Kolumn | Rubrik | Typ | Källa/beroende | Regel/användning | Får ändras manuellt
+- Dokumentation_Taxa_Saknas row 2: A | Källparagraf | Arbetskolumn | Word/Taxepunkter | Paragraf där raden hör hemma. | Ja
+- Dokumentation_Taxa_Saknas row 3: B | Källpunkt | Arbetskolumn | Granskningslista | Punktnummer i löpande Word-Excel-kontroll om tillgängligt. | Ja
+- Dokumentation_Taxa_Saknas row 4: C | Rad i Taxepunkter | Arbetskolumn | Taxepunkter | Radnummer i Taxepunkter för felsökning. | Ja
+- Dokumentation_Taxa_Saknas row 5: D | Wordtext | Arbetskolumn | Word | Kort beskrivning av texten/raden i Word. | Ja
+- Dokumentation_Taxa_Saknas row 6: E | Status | Arbetskolumn | Projektet | Saknas i EDP, osäker, åtgärdad, etc. | Ja
+- Dokumentation_Taxa_Saknas row 7: F | Matchmetod | Arbetskolumn | Projektet | Hur förslaget togs fram: strTaxebenamning, strTaxedelAvser, kodregel, etc. | Ja
+- Dokumentation_Taxa_Saknas row 8: G | FöreslagenTaxekod | Förslag | Taxekod_Tolkning/projektregler | Taxekod som föreslås om ingen bekräftad EDP-kod finns. | Ja
+- Dokumentation_Taxa_Saknas row 9: H | intRecnum | Arbetsnyckel | Taxepunkter | Ska vara radnumret i Taxepunkter, inte EDP:s intRecnum. | Ja
+- Dokumentation_Taxa_Saknas row 10: I | Taxepunkt | Arbetskolumn | Taxepunkter | Paragrafnamn / Taxapunkt. | Ja
+- Dokumentation_Taxa_Saknas row 11: J:Y | EDP-kolumner | Importstruktur | Taxa_från_edp | Samma struktur som Taxa_från_edp för att kunna skapa/importera nya taxor. | Ja, men följ EDP-format
+- Dokumentation_Taxa_Saknas row 13: Automationsmall | Rad 72:200 | Typ | Källa/beroende | Regel/användning | Får ändras manuellt
+- Dokumentation_Taxa_Saknas row 14: Input 1 | Rad i Taxepunkter | Manuell | Taxepunkter | Fyll kolumn C med radnummer från Taxepunkter. | Ja
+- Dokumentation_Taxa_Saknas row 15: Input 2 | FöreslagenTaxekod | Manuell | Kodregler | Fyll kolumn G med föreslagen taxekod. | Ja
+- Dokumentation_Taxa_Saknas row 16: Automatiskt | Övriga fält | Formler | Taxepunkter + standardvärden | Kolumner A, D:F, H:Y fylls automatiskt utifrån C och G. | Nej/vid behov
+- Dokumentation_Taxa_från_edp row 1: Kolumn | Rubrik | Användning i projektet | Regel
+- Dokumentation_Taxa_från_edp row 2: A | intRecnum | EDP:s interna rad-ID | Läses som källdata men används inte som nyckel i Taxa_Saknas.
+- Dokumentation_Taxa_från_edp row 3: B | strTaxekod | Primär nyckel för bekräftade taxor | Taxakod i Taxepunkter måste vara exakt värdet härifrån.
+- Dokumentation_Taxa_från_edp row 4: C | strTaxebenamning | Matchning och dokumentation | Kontrolleras alltid innan nya taxor föreslås.
+- Dokumentation_Taxa_från_edp row 5: D | strProdukt | EDP-produkt | Behålls vid förslag i Taxa_Saknas där möjligt.
+- Dokumentation_Taxa_från_edp row 6: E | strDelProdukt | EDP-delprodukt | Används för kategori, t.ex. HUSH, ÅVC, SLAM.
+- Dokumentation_Taxa_från_edp row 7: F | bytDelradnr | Delrad i EDP-taxa | Nya föreslagna taxor får ofta 1 om endast en grundrad skapas.
+- Dokumentation_Taxa_från_edp row 8: G | strFaktor | Faktor/beräkningsgrund | Tolkning hämtas från Källa_Kvantitetskoder och Taxekod_Tolkning.
+- Dokumentation_Taxa_från_edp row 9: H | strTaxedelAvser | Viktig matchningskolumn | Används före frågor ställs. Ofta tydligast för vad delraden avser.
+- Dokumentation_Taxa_från_edp row 10: K | curNuvarandePris | Aktuellt pris exkl. moms | Enda källa till Aktuellt pris i Taxepunkter. Får inte ändras manuellt.
+- Dokumentation_Taxa_från_edp row 11: Q | strFormel | Beräkningsformel/faktor | Används för att förstå enhet och beräkning, t.ex. ANTB, VIKG, DR10.
+- Taxekod_Tolkning row 1: Koddel | Typ | Betydelse | Exempel | Första förekomst | Källa | Status | Kommentar
+- Taxekod_Tolkning row 2: KÄ | Prefix | Kärl | KÄ240RM26 | Taxa_från_edp rad 234 / strTaxekod KÄ240RM26 | strTaxekod + strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 3: MB | Prefix | Markbehållare eller underjordsbehållare | MB3200RE26 | Taxa_från_edp rad 211 / 271 | strTaxebenamning + användarbekräftelse | Bekräftad | Kan omfatta både mark- och underjordsbehållare.
+- Taxekod_Tolkning row 4: BTMR | Kodstruktur | Bottentömmande behållare, mat-/restavfall | BTMRFV | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används för nya föreslagna taxor när EDP-träff saknas.
+- Taxekod_Tolkning row 5: LVRE | Kodstruktur | Lastväxlarflak, restavfall | LVREFV | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används för nya föreslagna taxor när EDP-träff saknas.
+- Taxekod_Tolkning row 6: RM | Avfallsslag | Rest-/matavfall | KÄ240RM26 | Taxa_från_edp rad 234 / strTaxekod KÄ240RM26 | strTaxebenamning: rest/matavfall | Bekräftad
+- Taxekod_Tolkning row 7: RK | Avfallsslag | Restavfall/kompost | KÄ240RK26 | Taxa_från_edp rad 232 / strTaxekod KÄ240RK26 | strTaxebenamning: restavfall/kompost | Bekräftad
+- Taxekod_Tolkning row 8: RE | Avfallsslag | Restavfall | KÄ370RE26FV | Taxa_från_edp rad 242 / strTaxekod KÄ370RE26FV | strTaxebenamning + strTaxedelAvser | Bekräftad
+- Taxekod_Tolkning row 9: MA | Avfallsslag | Matavfall | KÄ140MA52FV | Taxa_från_edp rad 221 / strTaxekod KÄ140MA52FV | strTaxebenamning + strTaxedelAvser | Bekräftad
+- Taxekod_Tolkning row 10: TI | Avfallsslag | Tidningar/returpapper | KÄ190TI26FV | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används där EDP-träff saknas för tidningar/returpapper.
+- Taxekod_Tolkning row 11: FP | Avfallsslag | Förpackningar | KÄ370FP26FV | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används där EDP-träff saknas för förpackningar.
+- Taxekod_Tolkning row 12: XRM | Avfallsslag/kärltyp | Extrakärl rest-/matavfall | KÄ190XRM26 | Taxa_från_edp rad 226 / strTaxekod KÄ190XRM26 | strTaxebenamning: extrakärl, rest/matavfall | Bekräftad
+- Taxekod_Tolkning row 13: 140 | Volym | 140 liter | KÄ140MA26FV | Taxa_från_edp rad 216 / strTaxekod KÄ140MA26FV | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 14: 190 | Volym | 190 liter / 120–190 liter för extrakärl | KÄ190XRM26 | Taxa_från_edp rad 226 / strTaxekod KÄ190XRM26 | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 15: 240 | Volym | 240 liter | KÄ240RM26 | Taxa_från_edp rad 234 / strTaxekod KÄ240RM26 | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 16: 370 | Volym | 370 liter | KÄ370RE26FV | Taxa_från_edp rad 242 / strTaxekod KÄ370RE26FV | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 17: 660 | Volym | 660 liter | KÄ660RE26FV | Taxa_från_edp rad 254 / strTaxekod KÄ660RE26FV | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 18: 26 | Frekvens | Var 14:e dag / 26 tömningar per år | KÄ240RM26 | Taxa_från_edp rad 234 / strTaxekod KÄ240RM26 | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 19: 52 | Frekvens | Varje vecka / 52 tömningar per år | KÄ240RM52FV | Taxa_från_edp rad 31 / strTaxekod KÄ240RM52FV | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 20: 12 | Frekvens | Månadsvis / 12 tömningar per år | KÄ240RM12FV | Taxa_Saknas / föreslagen struktur | Härledd från kodmönster och Word | Härledd | Finns inte som säker EDP-träff i genomgången hittills.
+- Taxekod_Tolkning row 21: FRI | Suffix | Fritidshus | KÄ240RM26FRI | Taxa_från_edp rad 236 / strTaxekod KÄ240RM26FRI | strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 22: FV | Suffix | Flerbostadshus eller verksamhet | KÄ660RE52FV | Taxa_från_edp rad 259 / strTaxekod KÄ660RE52FV | strTaxebenamning: FLB/VHT + användarbekräftelse | Bekräftad | Samma FV-taxekod kan användas både för flerbostadshus och verksamhet om övriga villkor stämmer.
+- Taxekod_Tolkning row 23: FLB | Förkortning i benämning | Flerbostadshus | FLB/VHT | Taxa_från_edp, flera rader | strTaxebenamning | Bekräftad | Förekommer i strTaxebenamning, inte nödvändigtvis som egen koddel.
+- Taxekod_Tolkning row 24: VHT | Förkortning i benämning | Verksamhet | FLB/VHT | Taxa_från_edp, flera rader | strTaxebenamning | Bekräftad | Förekommer i strTaxebenamning, inte nödvändigtvis som egen koddel.
+- Taxekod_Tolkning row 25: SL | Prefix/kategori | Slam | SLBUDFOS | Taxa_från_edp rad 133 / strTaxekod SLBUDFOS | strDelProdukt + strTaxebenamning | Bekräftad
+- Taxekod_Tolkning row 26: ÅVC | Kategori | Återvinningscentral | ASBEST | Taxa_från_edp rad 66 / strDelProdukt ÅVC | strDelProdukt | Bekräftad
+- Taxekod_Tolkning row 27: TÖM | Koddel | Tömning | MB3200TÖM | Taxa_från_edp rad 211 / strTaxekod MB3200TÖM | strTaxebenamning + strTaxedelAvser | Bekräftad
+- Taxekod_Tolkning row 28: KVAN | strFaktor | Kvantitet | KVAN | Taxa_från_edp rad 2 | kvantitetskoder + strFaktor | Bekräftad
+- Taxekod_Tolkning row 29: ÅRKV | strFaktor | Årskvantitet | ÅRKV | Taxa_från_edp rad 216 | kvantitetskoder + strFaktor | Bekräftad
+- Taxekod_Tolkning row 30: ÅRPR | strFaktor | Årspris | ÅRPR | Taxa_från_edp VA-rader | kvantitetskoder + strFaktor | Bekräftad
+- Taxekod_Tolkning row 31: FÖRB | strFaktor | Förbrukning | FÖRB | Taxa_från_edp VA-rader | kvantitetskoder + strFaktor | Bekräftad
+- Taxekod_Tolkning row 32: UPFÖ | strFaktor | Uppskattad förbrukning | UPFÖ | Taxa_från_edp VA-rader | kvantitetskoder + strFaktor | Bekräftad
+- Taxekod_Tolkning row 33: ANTB | strFormel | Antal behållare | ANTB | Taxa_från_edp, kärlrader | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 34: ANTL | strFormel | Övriga antal / antal tillfällen | ANTL | Taxa_från_edp, t.ex. FELSORT | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 35: FAST | strFormel | Fast avgift | FAST | Taxa_från_edp rad 215 GEMUPPFRI | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 36: LÄGH | strFormel | Lägenheter | LÄGH | Taxa_från_edp VA-rader | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 37: VIKG | strFormel | Vikt i kilo | VIKG | Taxa_från_edp flera viktavgifter | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 38: DR10 | strFormel | Dragväg 1,5–10 meter | DR10 | Taxa_från_edp kärlrader | strTaxedelAvser + strFormel | Bekräftad
+- Taxekod_Tolkning row 39: DR20 | strFormel | Dragväg 10,1–20 meter | DR20 | Taxa_från_edp kärlrader | strTaxedelAvser + strFormel | Bekräftad
+- Taxekod_Tolkning row 40: KBMÖ | strFormel | Kubikmeter övrigt | KBMÖ | Taxa_från_edp ÅVC-rader | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 41: KBMS | strFormel | Kubikmeter slam | KBMS | Taxa_från_edp slamrader | kvantitetskoder + strFormel | Bekräftad
+- Taxekod_Tolkning row 45: DH | Suffix | Detaljhandel med beviljad hantering av kommunalt avfall | KÄ240RM26DH | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används för §2.2.6. Ska inte använda FV eftersom detaljhandel inte räknas som vanlig verksamhet/flerbostad i denna taxa.
+- Taxekod_Tolkning row 49: MBRMFPFV | Föreslagen kodstruktur | Bottentömmande/markbehållare för mat-/restavfall och förpackningar, flerbostad/verksamhet | MBRMFPFV | Taxa_Saknas §2.2.4 | Projektregel MB + Word | Föreslagen | Ersätter tidigare BTMR-struktur.
+- Taxekod_Tolkning row 50: MBRMFP2VFV | Föreslagen kodstruktur | Tillägg för två tömningar per vecka för bottentömmande/markbehållare, flerbostad/verksamhet | MBRMFP2VFV | Taxa_Saknas §2.2.4 | Projektregel MB + Word | Föreslagen
+- Taxekod_Tolkning row 51: GEMUPPMRFPFLB | Föreslagen funktionskod | Gemensam uppsamlingsplats för mat-/restavfall och förpackningar per lägenhet, flerbostadshus | GEMUPPMRFPFLB | Taxa_Saknas §2.2.4 | Word + jämförelse med GEMUPPFÖRPFLB | Föreslagen | Befintlig GEMUPPFÖRPFLB avser endast förpackning enligt EDP, därför används inte som bekräftad taxekod.
+- Taxekod_Tolkning row 52: MBRMFV | Föreslagen kodstruktur | Bottentömmande/markbehållare för mat-/restavfall, flerbostad/verksamhet | MBRMFV | Taxa_Saknas §2.2.5 | Projektregel MB + Word | Föreslagen | Ersätter tidigare BTMR-struktur.
+- Taxekod_Tolkning row 53: MBRM2VFV | Föreslagen kodstruktur | Tillägg för två tömningar per vecka för bottentömmande/markbehållare, flerbostad/verksamhet | MBRM2VFV | Taxa_Saknas §2.2.5 | Projektregel MB + Word | Föreslagen
+- Taxekod_Tolkning row 54: LVREFV | Föreslagen kodstruktur | Lastväxlarflak restavfall, flerbostad/verksamhet | LVREFV | Taxa_Saknas §2.2.5 | Projektregel LV + Word | Föreslagen
+- Taxekod_Tolkning row 55: DH | Suffix | Detaljhandel med beviljad hantering av kommunalt avfall | KÄ240RM26DH | Projektregel | Användarbekräftelse | Bekräftad | Ska inte behandlas som FV.
+- Taxekod_Tolkning row 56: MBRMDH | Föreslagen kodstruktur | Bottentömmande/markbehållare för mat-/restavfall, detaljhandel | MBRMDH | Taxa_Saknas §2.2.6 | Projektregel MB + DH | Föreslagen | Ersätter tidigare BTMRDH.
+- Taxekod_Tolkning row 57: MBRM2VDH | Föreslagen kodstruktur | Tillägg två tömningar per vecka för bottentömmande/markbehållare, detaljhandel | MBRM2VDH | Taxa_Saknas §2.2.6 | Projektregel MB + DH | Föreslagen | Ersätter tidigare BTMR2VDH.
+- Taxekod_Tolkning row 59: KÄ140TI | Föreslagen kodstruktur | Kärl 140 l för kontors-/returpapper | KÄ140TI | Taxa_Saknas §2.2.7 | Word + TI-regel | Föreslagen | TI är sedan tidigare bekräftat för tidningar/returpapper.
+- Taxekod_Tolkning row 60: EGENKONTRET | Föreslagen funktionskod | Egen överlämning av förbrukat kontors-/returpapper enligt anvisning | EGENKONTRET | Taxa_Saknas §2.2.7 | Word | Föreslagen
+- Taxekod_Tolkning row 61: EGENMATFETT | Föreslagen funktionskod | Egen överlämning av förbrukat matfett enligt anvisning | EGENMATFETT | Taxa_Saknas §2.2.7 | Word | Föreslagen
+- Taxekod_Tolkning row 62: KONTRET | Avfallsslag/funktionsdel | Kontors-/returpapper | EGENKONTRET | Taxa_Saknas §2.2.7 | Word | Föreslagen
+- Beslutslogg row 1: Datum | Beslut | Konsekvens
+- Beslutslogg row 2: 2026-07-02 | FV betyder flerbostadshus eller verksamhet | FV-taxor kan återanvändas mellan §2.2.4 och §2.2.5 om övriga villkor matchar.
+- Beslutslogg row 3: 2026-07-02 | DH införs som suffix för detaljhandel | §2.2.6 ska använda DH och inte FV.
+- Beslutslogg row 4: 2026-07-02 | MB används för bottentömmande behållare | BTMR ska inte användas som framtida standardförslag.
+- Beslutslogg row 5: 2026-07-02 | Aktuellt pris hämtas bara från Taxa_från_edp | Priskolumnen får inte redigeras manuellt.
+- Beslutslogg row 6: 2026-07-02 | Föreslaget pris får användas som arbetspris | Ny kolumn efter Aktuellt pris.
+- Beslutslogg row 7: 2026-07-02 | DH-prislista är fristående | DH-priser får inte användas som jämförelse för andra taxor.
+- Beslutslogg row 8: 2026-07-02 | Taxepunkter är under uppbyggnad | Fliken är arbetsflik och får inte ersättas.
+- Beslutslogg row 9: 2026-07-02 | Fas 2 Excel→Word hanteras separat | Nuvarande regler gäller Word→Excel.
+- Färgstandard row 1: Färgtyp | Hex | Användning | Exempel
+- Färgstandard row 2: Rubrik | #1F4E78 | Tabellrubriker och huvudrubriker | Rad 1/5 i arbets- och dokumentationsflikar
+- Färgstandard row 3: Manuell inmatning | #FFF2CC | Fält som får fyllas manuellt | Taxepunkter A–F, L samt Taxa_Saknas arbetskolumner
+- Färgstandard row 4: Automatisk uppslagning | #DDEBF7 | Formler och uppslag mot Taxa_från_edp | Taxepunkter H–J
+- Färgstandard row 5: Förslag | #FCE4D6 | Föreslagna taxekoder och arbetspris | Taxepunkter G och K, Taxa_Saknas FöreslagenTaxekod
+- Färgstandard row 6: Beräkning | #E2F0D9 | Beräknade värden | Taxepunkter M–N
+- Färgstandard row 7: Kontroll krävs | #F4CCCC | Fel, saknad match eller manuellt beslut | Kontrollrapport och statusrader
+- Färgstandard row 8: Dokumentation | #E7E6E6 | Regel- och dokumentationsflikar | Projektregler, Arbetsflöde, Dokumentation_*
+- Färgstandard row 9: Import/referens | #D9EAD3 | Importerade eller externa källflikar | Taxa_från_edp, Källa_Prislista_DH
+- Färgstandard row 11: Border-standard | Värde | Användning | Kommentar
+- Färgstandard row 12: Rutnätslinjer | #D9D9D9 | Alla celler i använda tabellområden | Tunn ljusgrå kant runt varje cell, både inne i och runt tabellen.
+- Färgstandard row 13: Ytterkant | #7F7F7F | Runt hela tabellområden | Tunn mörkare grå kant runt tabellens ytterkant.
+- Färgstandard row 14: Rubrikrad | #7F7F7F | Rubrikrader | Rubrikrad får mörkblå fyllning och konsekvent rutnät.
+- Färgstandard row 15: Underrubrik i Taxepunkter | #BDD7EE | Rader där A har paragraf+text och B:E är tomma | A:E sammanslaget, hela raden färgad och samma rutnät.
+- Revision_Etapp1 row 1: Kontrollpunkt | Resultat | Åtgärd/kommentar | Status
+- Revision_Etapp1 row 2: Flikstruktur | Inventerad | Flikarna är klassade i dokumentationsflikar, importflikar, arbetsflikar och rapportflikar. | OK
+- Revision_Etapp1 row 3: Formler | Översiktligt kontrollerad | Ingen #REF! hittad. #NAME? kan visas i artifact_tool pga XLOOKUP/evalueringsstöd men formler finns kvar. | OK
+- Revision_Etapp1 row 4: Taxepunkter kolumnstruktur | Kontrollerad | A:N används med Taxakod, Föreslagen Taxa, Aktuellt pris och Föreslaget pris. | OK
+- Revision_Etapp1 row 5: Taxa_Saknas struktur | Kontrollerad | Arbetskolumner + EDP-kolumner är dokumenterade. | OK
+- Revision_Etapp1 row 6: Kostnadsfria rader | Åtgärdad | Tre saknade kostnadsfria rader är tillagda i Taxepunkter och Taxa_Saknas. | OK
+- Revision_Etapp1 row 7: Aktuellt pris | Regel dokumenterad | Aktuellt pris hämtas endast från Taxa_från_edp. | OK
+- Revision_Etapp1 row 8: DH-priser | Regel dokumenterad | Källa_Prislista_DH får bara användas för detaljhandel. | OK
+- Revision_Etapp1 row 9: Färgstandard | Skapad | Färgstandard-flik finns och färger är tillämpade på centrala flikar. | OK
+- Revision_Etapp1 row 10: Datavalidering | Ej fullrevision | Dropdown i Taxakod bör kontrolleras mer detaljerat i nästa revision. | Nästa revision
+- Revision_Etapp1 row 11: Villkorsstyrd formatering | Ej fullrevision | Inventeras i nästa tekniska revision vid behov. | Nästa revision
+- Revision_Etapp1 row 13: Underrubriker i Taxepunkter | Åtgärdad | Rader med endast text i kolumn A har formaterats som sammanslagna underrubriker A:E. | OK
+- Revision_Etapp1 row 14: Taxerader A:E | Åtgärdad | Vanliga taxerader har vit bakgrund i A:E. | OK
+- Revision_Formler_DV row 1: Område | Kontroll | Resultat | Kommentar
+- Revision_Formler_DV row 2: Taxepunkter G | Föreslagen Taxa | OK | Visar Taxakod om F finns, annars XLOOKUP mot Taxa_Saknas intRecnum/H och FöreslagenTaxekod/G.
+- Revision_Formler_DV row 3: Taxepunkter H | Taxabeskrivning | OK | Hämtas från Taxa_från_edp strTaxebenamning via Taxakod.
+- Revision_Formler_DV row 4: Taxepunkter I | Faktor | OK | Hämtas från Taxa_från_edp strFaktor via Taxakod.
+- Revision_Formler_DV row 5: Taxepunkter J | Aktuellt pris | OK | Hämtas från Taxa_från_edp curNuvarandePris via Taxakod. Ska inte redigeras manuellt.
+- Revision_Formler_DV row 6: Taxepunkter M | Pris inkl. moms | OK | Beräknar J*1,25 eller K*1,25 om J saknas.
+- Revision_Formler_DV row 7: Taxepunkter N | Intäkt exkl. moms | OK | Beräknar L*J eller L*K om J saknas.
+- Revision_Formler_DV row 8: Taxepunkter F | Datavalidering | OK | Dropdown mot Taxa_från_edp!$B$2:$B$371 tillagd på F7:F370.
+- Revision_Formler_DV row 9: Taxa_Saknas 72:200 | Automationsmall | OK | Fyll Rad i Taxepunkter i C och FöreslagenTaxekod i G. Övriga fält fylls med formler.

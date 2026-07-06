@@ -7,3 +7,4 @@ from .workbook_profile_models import (
     WorkbookProfile,
 )
 from .matching_models import WorkbookTaxRow, ParserTaxRow, MatchCandidate, MatchReport
+from .rulebook_models import RuleEntry, Rulebook
