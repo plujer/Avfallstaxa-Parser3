@@ -1,9 +1,12 @@
 ﻿Excel Builder Report Package
-Created: 2026-07-06_22-44-36
+Created: 2026-07-06_22-52-47
 
 Included files:
 [OK] output\diagnostics\test_cleanup_report.txt
 [OK] output\excel\ArbetsExcel_byggd_fran_parser.xlsx
+[OK] output\excel\tax_decision_report.txt
+[OK] output\excel\tax_decision_results.csv
+[OK] output\excel\tax_decision_console.txt
 [OK] output\excel\standard_tax_suggestions_report.txt
 [OK] output\excel\standard_tax_suggestions.csv
 [OK] output\excel\standard_tax_suggestions_console.txt

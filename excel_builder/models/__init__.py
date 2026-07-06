@@ -18,3 +18,4 @@ from .standard_tax_models import (
     StandardTaxSuggestion,
     StandardTaxSuggestionReport,
 )
+from .decision_models import TaxDecision, TaxDecisionReport
