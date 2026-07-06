@@ -1,0 +1,8 @@
+Master Rule Repository klar
+Workbook: data\ArbetsExcel_Reference.xlsx
+Rules: 508
+EDP rules: 370
+Taxepunkt rules: 0
+Documentation rules: 138
+TXT: output\excel\master_rule_repository_report.txt
+CSV: output\excel\master_rule_repository.csv

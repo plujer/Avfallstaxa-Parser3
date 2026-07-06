@@ -9,3 +9,4 @@ from .standard_tax_suggestion_reporter import StandardTaxSuggestionReporter
 from .decision_reporter import DecisionReporter
 from .knowledge_reporter import KnowledgeReporter
 from .knowledge_index_reporter import KnowledgeIndexReporter
+from .rule_repository_reporter import RuleRepositoryReporter

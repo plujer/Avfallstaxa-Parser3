@@ -22,3 +22,4 @@ from .decision_models import TaxDecision, TaxDecisionReport
 from .template_models import TemplateInfo
 from .knowledge_models import TaxKnowledgeFeature, TaxKnowledgeReport
 from .knowledge_index_models import KnowledgeIndexKey, KnowledgeIndexEntry, KnowledgeIndex
+from .rule_repository_models import MasterRule, RuleRepository

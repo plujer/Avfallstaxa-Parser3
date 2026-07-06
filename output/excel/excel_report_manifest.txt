@@ -1,10 +1,13 @@
 ﻿Excel Builder Report Package
-Created: 2026-07-07_00-21-03
+Created: 2026-07-07_00-30-39
 
 Included files:
 [OK] output\diagnostics\test_cleanup_report.txt
 [OK] output\diagnostics\test_syntax_report.txt
 [OK] output\excel\ArbetsExcel_byggd_fran_parser.xlsx
+[OK] output\excel\master_rule_repository_report.txt
+[OK] output\excel\master_rule_repository.csv
+[OK] output\excel\master_rule_repository_console.txt
 [OK] output\excel\tax_knowledge_report.txt
 [OK] output\excel\tax_knowledge_features.csv
 [OK] output\excel\tax_knowledge_console.txt

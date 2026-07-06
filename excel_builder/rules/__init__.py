@@ -1,2 +1,3 @@
 from .rulebook_reader import RulebookReader
 from .edp_rule_validator import EdpRuleValidator
+from .master_rule_repository_reader import MasterRuleRepositoryReader
