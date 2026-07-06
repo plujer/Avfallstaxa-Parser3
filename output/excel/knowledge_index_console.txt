@@ -1,0 +1,6 @@
+Knowledge Index klar
+Parser rows: 241
+Index entries: 65
+Standard rows indexed: 27
+TXT: output\excel\knowledge_index_report.txt
+CSV: output\excel\knowledge_index.csv

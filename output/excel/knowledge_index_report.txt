@@ -1,0 +1,75 @@
+Knowledge Index Report
+
+Status: Grupperar Word-taxor och standardtaxor inför regelbaserad matchning.
+Detta ändrar inte Taxa_från_edp.
+
+Index entries: 65
+Standard rows indexed: 27
+Warnings: 2
+
+Entries:
+- category=Flerbostad/verksamhet waste= unit= factor= volume= features=9 standards=0
+- category=Flerbostad/verksamhet waste= unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=37 features=1 standards=0
+- category=Flerbostad/verksamhet waste= unit=Styck factor=ST volume= features=1 standards=0
+- category=Flerbostad/verksamhet waste= unit=Vikt factor=VIKG volume= features=1 standards=0
+- category=Flerbostad/verksamhet waste= unit=Volym factor=VOLM volume= features=7 standards=0
+- category=Flerbostad/verksamhet waste=Slam unit= factor= volume= features=1 standards=0
+- category=Hushåll waste= unit= factor= volume= features=34 standards=0
+- category=Hushåll waste= unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume= features=1 standards=0
+- category=Hushåll waste= unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=140 features=1 standards=0
+- category=Hushåll waste= unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=190 features=1 standards=0
+- category=Hushåll waste= unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=22 features=1 standards=0
+- category=Hushåll waste= unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=240 features=1 standards=0
+- category=Hushåll waste= unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=370 features=1 standards=0
+- category=Hushåll waste= unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=660 features=4 standards=0
+- category=Hushåll waste=Farligt avfall unit= factor= volume= features=2 standards=0
+- category=Hushåll waste=Förpackningar unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=190 features=1 standards=0
+- category=Hushåll waste=Förpackningar unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=370 features=1 standards=0
+- category=Hushåll waste=Förpackningar unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=660 features=1 standards=0
+- category=Hushåll waste=Matavfall unit= factor= volume= features=1 standards=0
+- category=Hushåll waste=Matavfall unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=140 features=4 standards=0
+- category=Hushåll waste=Matavfall unit=Vikt factor=VIKG volume=140 features=1 standards=0
+- category=Hushåll waste=Matavfall unit=Vikt factor=VIKG volume=240 features=1 standards=0
+- category=Hushåll waste=Restavfall unit= factor= volume= features=7 standards=0
+- category=Hushåll waste=Restavfall unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=190 features=3 standards=0
+- category=Hushåll waste=Restavfall unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=240 features=5 standards=0
+- category=Hushåll waste=Restavfall unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=370 features=4 standards=0
+- category=Hushåll waste=Restavfall unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume=660 features=4 standards=0
+- category=Hushåll waste=Restavfall unit=Vikt factor=VIKG volume=190 features=1 standards=0
+- category=Hushåll waste=Restavfall unit=Vikt factor=VIKG volume=240 features=1 standards=0
+- category=Hushåll waste=Restavfall unit=Vikt factor=VIKG volume=370 features=1 standards=0
+- category=Hushåll waste=Restavfall unit=Vikt factor=VIKG volume=660 features=1 standards=0
+- category=Slam waste= unit= factor= volume= features=11 standards=0
+- category=Slam waste= unit=Vikt factor=VIKG volume= features=1 standards=0
+- category=Slam waste= unit=Volym factor=VOLM volume= features=4 standards=0
+- category=Tilläggstjänst waste= unit= factor= volume= features=3 standards=0
+- category=Tilläggstjänst waste= unit=Vikt factor=VIKG volume= features=2 standards=0
+- category=Verksamhetsavfall waste= unit= factor= volume= features=7 standards=0
+- category=Verksamhetsavfall waste= unit=Tillfälle factor=TILLFÄLLE volume= features=2 standards=0
+- category=Verksamhetsavfall waste= unit=Volym factor=VOLM volume= features=3 standards=0
+- category=Verksamhetsavfall waste=Farligt avfall unit= factor= volume= features=1 standards=0
+- category=Verksamhetsavfall waste=Farligt avfall unit=Tillfälle factor=TILLFÄLLE volume= features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste= unit= factor= volume= features=4 standards=0
+- category=ÅVC/verksamhetsavfall waste= unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume= features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste= unit=Styck factor=ST volume= features=4 standards=0
+- category=ÅVC/verksamhetsavfall waste= unit=Styck factor=ST volume=240 features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste= unit=Vikt factor=VIKG volume= features=67 standards=0
+- category=ÅVC/verksamhetsavfall waste= unit=Volym factor=VOLM volume= features=2 standards=0
+- category=ÅVC/verksamhetsavfall waste=Asbest unit=Vikt factor=VIKG volume= features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste=Asbest unit=Volym factor=VOLM volume= features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste=Batterier unit=Vikt factor=VIKG volume= features=2 standards=0
+- category=ÅVC/verksamhetsavfall waste=Betong unit=Vikt factor=VIKG volume= features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste=Elavfall unit= factor= volume= features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste=Elavfall unit=Vikt factor=VIKG volume= features=3 standards=0
+- category=ÅVC/verksamhetsavfall waste=Förpackningar unit=Vikt factor=VIKG volume= features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste=Gips unit=Vikt factor=VIKG volume= features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste=Kyl/frys unit=Styck factor=ST volume= features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste=Kyl/frys unit=Vikt factor=VIKG volume= features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste=Metall unit=Vikt factor=VIKG volume= features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste=Oljeavfall unit=Behållarvolym factor=VOLYM/BEHÅLLARE volume= features=2 standards=0
+- category=ÅVC/verksamhetsavfall waste=Oljeavfall unit=Vikt factor=VIKG volume= features=5 standards=0
+- category=ÅVC/verksamhetsavfall waste=Plast unit=Vikt factor=VIKG volume= features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste=Tegel unit=Vikt factor=VIKG volume= features=1 standards=0
+- category=ÅVC/verksamhetsavfall waste=Tryckimpregnerat trä unit=Vikt factor=VIKG volume= features=1 standards=0
+- category=ÅVS waste= unit= factor=KVAN volume= features=0 standards=20
+- category=ÅVS waste= unit= factor=ÅRKV volume= features=0 standards=7

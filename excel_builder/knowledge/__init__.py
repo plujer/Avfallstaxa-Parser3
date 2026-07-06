@@ -1,2 +1,3 @@
 from .tax_knowledge_extractor import TaxKnowledgeExtractor
 from .knowledge_workbook_writer import KnowledgeWorkbookWriter
+from .knowledge_index_builder import KnowledgeIndexBuilder
