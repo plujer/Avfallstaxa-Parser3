@@ -142,4 +142,4 @@ E   assert 'docs-mappen' in '@echo off\nsetlocal\n\necho =======================
 FAILED tests/test_acceptance_debugger.py::test_acceptance_debugger_reports_missing_from_catalog
 FAILED tests/test_acceptance_debugger.py::test_acceptance_debugger_possible_matches
 FAILED tests/test_output_structure_files.py::test_build_report_mentions_word_output_folder
-======================== 3 failed, 109 passed in 2.27s ========================
+======================== 3 failed, 109 passed in 2.05s ========================

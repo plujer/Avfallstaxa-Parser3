@@ -7,57 +7,9 @@ platform: Windows-11-10.0.26200-SP0
 PYTHONPATH: 
 
 git status:
-M build_report.bat
- D docs/Parser3_Run_2026-07-06_16-04-51.zip
- M golden_master/parser_facit.yaml
- D output/Parser3_Run_2026-07-06_12-31-18.zip
- D output/Parser3_Run_2026-07-06_13-13-22.zip
- D output/Parser3_Run_2026-07-06_13-37-08.zip
- D output/Parser3_Run_2026-07-06_13-44-12.zip
- D output/Parser3_Run_2026-07-06_14-36-16.zip
- D output/Parser3_Run_2026-07-06_14-45-51.zip
- D output/Parser3_Run_2026-07-06_14-52-33.zip
- D output/Parser3_Run_2026-07-06_15-00-47.zip
- D output/Parser3_Run_2026-07-06_15-11-10.zip
- D output/Parser3_Run_2026-07-06_15-32-50.zip
- D output/Parser3_Run_2026-07-06_15-37-19.zip
- D output/Parser3_Run_2026-07-06_15-43-13.zip
- D output/Parser3_Run_2026-07-06_15-48-14.zip
- D output/Parser3_Run_2026-07-06_15-54-29.zip
- M output/acceptance/parser3_acceptance_debug_report.txt
- M output/acceptance/parser3_acceptance_report.txt
+M output/diagnostics/environment_report.txt
  M output/diagnostics/parser_console.txt
- M parser3/extractors/__init__.py
- M parser3/parser.py
- M parser3/semantic/semantic_parser.py
- M parser_facit.yaml
- M tests/test_rapportzip_structure.py
-?? docs/Block31_Section614_OutputFix.md
-?? docs/changelogg/CHANGELOG_Block31.md
-?? docs/install/INSTALL_Block31.md
-?? output/diagnostics/environment_report.txt
-?? output/diagnostics/master_console.txt
-?? output/diagnostics/pytest_report.txt
-?? output/reports/
-?? output/trace/
-?? parser3/extractors/section614_extractor.py
-?? rapportzip/Parser3_Run_2026-07-06_12-31-18.zip
-?? rapportzip/Parser3_Run_2026-07-06_13-13-22.zip
-?? rapportzip/Parser3_Run_2026-07-06_13-37-08.zip
-?? rapportzip/Parser3_Run_2026-07-06_13-44-12.zip
-?? rapportzip/Parser3_Run_2026-07-06_14-36-16.zip
-?? rapportzip/Parser3_Run_2026-07-06_14-45-51.zip
-?? rapportzip/Parser3_Run_2026-07-06_14-52-33.zip
-?? rapportzip/Parser3_Run_2026-07-06_15-00-47.zip
-?? rapportzip/Parser3_Run_2026-07-06_15-11-10.zip
-?? rapportzip/Parser3_Run_2026-07-06_15-32-50.zip
-?? rapportzip/Parser3_Run_2026-07-06_15-37-19.zip
-?? rapportzip/Parser3_Run_2026-07-06_15-43-13.zip
-?? rapportzip/Parser3_Run_2026-07-06_15-48-14.zip
-?? rapportzip/Parser3_Run_2026-07-06_15-54-29.zip
-?? rapportzip/Parser3_Run_2026-07-06_16-04-51.zip
-?? tests/test_facit_614_yaml.py
-?? tests/test_section614_extractor.py
+ M output/diagnostics/pytest_report.txt
 
 git branch:
 main
