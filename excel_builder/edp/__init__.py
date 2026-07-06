@@ -1,3 +1,4 @@
 from .edp_export_reader import EdpExportReader
 from .isolated_workbook_builder import IsolatedWorkbookBuilder
+from .proposal_trace_sheets import ProposalTraceSheets
 from .standard_tax_workbook_injector import StandardTaxWorkbookInjector

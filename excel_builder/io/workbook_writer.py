@@ -7,6 +7,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.worksheet.table import Table, TableStyleInfo
 
+from excel_builder.edp.proposal_trace_sheets import ProposalTraceSheets
 from excel_builder.models import BuilderResult
 
 
@@ -52,6 +53,7 @@ class WorkbookWriter:
         self._add_table(ws)
         self._add_summary_sheet(wb, result)
         self._add_readme_sheet(wb)
+        ProposalTraceSheets().add(wb, municipality="", context="Parseroutput")
 
         wb.save(out)
         return out
@@ -102,6 +104,8 @@ class WorkbookWriter:
         ws.append(["Antal rader från parser", result.row_count])
         ws.append(["Varningar", len(result.warnings)])
         ws.append(["Status", "Arbets-Excel – inte master"])
+        ws.append(["Taxa_Förslag", "Ingår för föreslagna saknade taxekoder"])
+        ws.append(["Regelspårning", "Ingår för spårbarhet"])
         ws.column_dimensions["A"].width = 35
         ws.column_dimensions["B"].width = 45
         for cell in ws[1]:
@@ -110,10 +114,12 @@ class WorkbookWriter:
     def _add_readme_sheet(self, wb) -> None:
         ws = wb.create_sheet("README")
         rows = [
-            ["Excel Builder v2.0.0-alpha.1"],
+            ["Excel Builder"],
             [""],
             ["Denna fil är en arbets-Excel."],
             ["Den är inte master förrän användaren uttryckligen godkänner den."],
+            [""],
+            ["Taxa_Förslag och Regelspårning ingår i alla genererade arbetsböcker."],
             [""],
             ["Nästa steg:"],
             ["1. Koppla mot befintlig Arbets-Excel/EDP-data."],

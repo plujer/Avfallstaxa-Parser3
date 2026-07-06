@@ -12,6 +12,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill
 from openpyxl.worksheet.table import Table, TableStyleInfo
 
+from excel_builder.edp.proposal_trace_sheets import ProposalTraceSheets
 from excel_builder.edp.standard_tax_workbook_injector import StandardTaxWorkbookInjector
 from excel_builder.models import EdpExport
 
@@ -40,6 +41,7 @@ class IsolatedWorkbookBuilder:
     def __init__(self, include_standard_tax_sheets: bool = True) -> None:
         self.include_standard_tax_sheets = include_standard_tax_sheets
         self.standard_injector = StandardTaxWorkbookInjector()
+        self.proposal_trace_sheets = ProposalTraceSheets()
 
     def build(self, edp_export: EdpExport, out_path: str | Path) -> Path:
         out = Path(out_path)
@@ -62,11 +64,19 @@ class IsolatedWorkbookBuilder:
         info.append(["EDP-rader", edp_export.row_count])
         info.append(["Status", "Isolerad körning – får inte blandas med annan kommun"])
         info.append(["Standardtaxor", "Inkluderade som referensflikar om standardtaxefilen finns"])
+        info.append(["Taxa_Förslag", "Ingår i alla outputfiler för föreslagna saknade taxekoder"])
+        info.append(["Regelspårning", "Ingår i alla outputfiler för spårbarhet av beslut/regler"])
         info.column_dimensions["A"].width = 24
         info.column_dimensions["B"].width = 90
         for cell in info[1]:
             cell.font = Font(bold=True)
             cell.fill = PatternFill("solid", fgColor="D9EAF7")
+
+        self.proposal_trace_sheets.add(
+            wb,
+            municipality=edp_export.municipality,
+            context=f"EDP-export: {edp_export.source_path}",
+        )
 
         if self.include_standard_tax_sheets:
             warnings = self.standard_injector.attach(wb)
