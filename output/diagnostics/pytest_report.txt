@@ -1,0 +1,145 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.6, pytest-9.1.1, pluggy-1.6.0 -- C:\PyProjects\Taxa 3.0\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\PyProjects\Taxa 3.0
+configfile: pytest.ini
+testpaths: tests
+collecting ... collected 112 items
+
+tests/test_acceptance_debugger.py::test_acceptance_debugger_reports_missing_from_catalog FAILED [  0%]
+tests/test_acceptance_debugger.py::test_acceptance_debugger_possible_matches FAILED [  1%]
+tests/test_acceptance_runner.py::test_acceptance_runner_passes_count_and_required_names PASSED [  2%]
+tests/test_acceptance_runner.py::test_acceptance_runner_fails_wrong_count PASSED [  3%]
+tests/test_acceptance_runner.py::test_acceptance_runner_fails_ignored_export PASSED [  4%]
+tests/test_acceptance_with_yaml.py::test_acceptance_can_pass_612_yaml_expectation PASSED [  5%]
+tests/test_context_engine.py::test_context_assigner_keeps_section_active PASSED [  6%]
+tests/test_context_engine.py::test_context_engine_summary PASSED         [  7%]
+tests/test_context_engine.py::test_table_row_context_inherits_section PASSED [  8%]
+tests/test_context_no_circular_import.py::test_context_imports_without_circular_dependency PASSED [  8%]
+tests/test_diff_engine.py::test_diff_engine_detects_match_missing_extra PASSED [  9%]
+tests/test_document_engine.py::test_style_reader_detects_heading PASSED  [ 10%]
+tests/test_document_engine.py::test_page_iterator_groups_blocks PASSED   [ 11%]
+tests/test_document_reader_heading_numbering.py::test_document_reader_adds_generated_heading_numbers PASSED [ 12%]
+tests/test_facit_611_yaml.py::test_facit_yaml_loader_loads_611_rows PASSED [ 13%]
+tests/test_facit_613_yaml.py::test_facit_yaml_loader_loads_613_rows PASSED [ 14%]
+tests/test_facit_614_yaml.py::test_facit_yaml_loader_loads_614_rows PASSED [ 15%]
+tests/test_facit_yaml_loader.py::test_facit_yaml_loader_loads_612_rows PASSED [ 16%]
+tests/test_flat_tax_extractor.py::test_flat_extractor_removes_single_price_from_name PASSED [ 16%]
+tests/test_flat_tax_extractor.py::test_flat_extractor_creates_multiple_price_rows PASSED [ 17%]
+tests/test_flat_tax_extractor.py::test_flat_extractor_skips_lowercase_continuation_fragment PASSED [ 18%]
+tests/test_flat_tax_extractor.py::test_flat_extractor_skips_tillkommer_note PASSED [ 19%]
+tests/test_flat_tax_extractor_unit_suffix.py::test_flat_extractor_splits_fraktion_suffix_from_name PASSED [ 20%]
+tests/test_flat_tax_extractor_unit_suffix.py::test_flat_extractor_splits_besok_suffix_from_name PASSED [ 21%]
+tests/test_golden_builder.py::test_golden_master_builder_counts_rows PASSED [ 22%]
+tests/test_golden_builder.py::test_golden_master_merger_avoids_duplicates PASSED [ 23%]
+tests/test_golden_builder.py::test_section_rule_engine_known_count PASSED [ 24%]
+tests/test_golden_builder.py::test_reference_rule_engine PASSED          [ 25%]
+tests/test_golden_builder.py::test_variant_rule_engine PASSED            [ 25%]
+tests/test_golden_builder.py::test_confidence_scoring PASSED             [ 26%]
+tests/test_golden_builder.py::test_tax_pattern_matcher_best_match PASSED [ 27%]
+tests/test_heading_numberer.py::test_heading_numberer_generates_section_numbers PASSED [ 28%]
+tests/test_heading_numberer.py::test_heading_numberer_increments_siblings PASSED [ 29%]
+tests/test_heading_numberer.py::test_heading_numberer_does_not_double_prefix PASSED [ 30%]
+tests/test_heading_tree.py::test_section_classifier_detects_numbered_heading PASSED [ 31%]
+tests/test_heading_tree.py::test_heading_tree_builder_creates_hierarchy PASSED [ 32%]
+tests/test_master_excel_reader.py::test_master_excel_reader_reads_basic_rows PASSED [ 33%]
+tests/test_missing_row_diagnostics.py::test_missing_row_diagnostics_finds_semantic_candidate PASSED [ 33%]
+tests/test_name_normalizer.py::test_name_normalizer_aliases_common_612_spellings PASSED [ 34%]
+tests/test_name_normalizer.py::test_acceptance_runner_uses_alias_normalization PASSED [ 35%]
+tests/test_name_normalizer_block22.py::test_normalizer_treats_multiplication_symbols_same PASSED [ 36%]
+tests/test_name_normalizer_block22.py::test_normalizer_removes_metadata_and_units PASSED [ 37%]
+tests/test_name_normalizer_block22.py::test_normalizer_aliases_stubbar_roetter PASSED [ 38%]
+tests/test_name_normalizer_block22.py::test_normalizer_keeps_full_long_name PASSED [ 39%]
+tests/test_name_normalizer_block23.py::test_normalizer_collapses_duplicated_name_after_metadata_removal PASSED [ 40%]
+tests/test_name_normalizer_block23.py::test_normalizer_does_not_damage_single_name PASSED [ 41%]
+tests/test_name_normalizer_block23.py::test_normalizer_removes_duplicate_with_units_between_end PASSED [ 41%]
+tests/test_name_normalizer_block25.py::test_name_normalizer_does_not_remove_four_digit_measurements PASSED [ 42%]
+tests/test_name_normalizer_block25.py::test_name_normalizer_removes_ewc_but_not_product_number_text PASSED [ 43%]
+tests/test_name_normalizer_block26.py::test_normalizer_removes_ewc_with_star_before_symbol_normalization PASSED [ 44%]
+tests/test_name_normalizer_block26.py::test_normalizer_keeps_multiplication_dimension_after_fix PASSED [ 45%]
+tests/test_name_normalizer_block27.py::test_normalizer_removes_ewc_code_with_star_without_leaving_x PASSED [ 46%]
+tests/test_name_normalizer_block27.py::test_normalizer_removes_duplicated_ewc_code_with_star_without_leaving_x PASSED [ 47%]
+tests/test_name_normalizer_block27.py::test_normalizer_keeps_dimension_star_as_x PASSED [ 48%]
+tests/test_output_structure_files.py::test_output_structure_tool_exists PASSED [ 49%]
+tests/test_output_structure_files.py::test_build_report_mentions_word_output_folder FAILED [ 50%]
+tests/test_rapportzip_structure.py::test_zip_output_targets_rapportzip PASSED [ 50%]
+tests/test_rapportzip_structure.py::test_build_report_mentions_rapportzip PASSED [ 51%]
+tests/test_rapportzip_structure.py::test_build_report_writes_directly_to_output_subfolders PASSED [ 52%]
+tests/test_section611_extractor.py::test_section611_extracts_split_ej_redovisad_ankomst_row PASSED [ 53%]
+tests/test_section612_block22.py::test_section612_extracts_multiplication_star_variant PASSED [ 54%]
+tests/test_section612_block22.py::test_section612_extracts_remaining_block_a_rows PASSED [ 55%]
+tests/test_section612_block23.py::test_section612_extracts_duplicated_skrtymmande_word_row PASSED [ 56%]
+tests/test_section612_extractor.py::test_section612_extractor_extracts_block_a_without_price PASSED [ 57%]
+tests/test_section612_extractor.py::test_section612_extractor_ignores_reference PASSED [ 58%]
+tests/test_section612_specific_match.py::test_section612_prefers_longest_specific_match PASSED [ 58%]
+tests/test_section612_specific_match.py::test_section612_does_not_let_short_substring_win PASSED [ 59%]
+tests/test_section612_trace.py::test_section612_trace_records_export_decision PASSED [ 60%]
+tests/test_section612_trace.py::test_section612_trace_records_not_exported_decision PASSED [ 61%]
+tests/test_section613_dedup_policy.py::test_section613_duplicate_policy_keeps_identical_rows PASSED [ 62%]
+tests/test_section614_extractor.py::test_section614_extracts_split_elkretsen_row PASSED [ 63%]
+tests/test_section_classifier_rewrite.py::test_accepts_real_section_with_paragraph_symbol PASSED [ 64%]
+tests/test_section_classifier_rewrite.py::test_accepts_main_chapter PASSED [ 65%]
+tests/test_section_classifier_rewrite.py::test_rejects_year PASSED       [ 66%]
+tests/test_section_classifier_rewrite.py::test_rejects_date PASSED       [ 66%]
+tests/test_section_classifier_rewrite.py::test_rejects_ewc_code PASSED   [ 67%]
+tests/test_section_classifier_rewrite.py::test_rejects_un_number PASSED  [ 68%]
+tests/test_section_classifier_rewrite.py::test_rejects_price_row PASSED  [ 69%]
+tests/test_section_classifier_rewrite.py::test_rejects_tax_data_row_starting_with_container PASSED [ 70%]
+tests/test_section_classifier_rewrite.py::test_rejects_document_title_with_year PASSED [ 71%]
+tests/test_section_number.py::test_section_number_parts PASSED           [ 72%]
+tests/test_section_number.py::test_section_number_child PASSED           [ 73%]
+tests/test_section_number.py::test_section_filter_false_heading PASSED   [ 74%]
+tests/test_semantic_parser.py::test_row_type_classifier_reference PASSED [ 75%]
+tests/test_semantic_parser.py::test_section_tax_rules_reference_not_exported PASSED [ 75%]
+tests/test_semantic_parser.py::test_semantic_parser_assigns_section_to_tax_row PASSED [ 76%]
+tests/test_semantic_parser.py::test_semantic_parser_keeps_reference_but_does_not_export PASSED [ 77%]
+tests/test_table_engine.py::test_cell_normalizer PASSED                  [ 78%]
+tests/test_table_engine.py::test_row_classifier_header PASSED            [ 79%]
+tests/test_table_engine.py::test_row_classifier_tax PASSED               [ 80%]
+tests/test_table_engine.py::test_row_classifier_reference PASSED         [ 81%]
+tests/test_table_engine.py::test_smart_table_detector_visual_rows PASSED [ 82%]
+tests/test_table_engine2.py::test_price_cell_detector PASSED             [ 83%]
+tests/test_table_engine2.py::test_structured_extractor_splits_three_prices_into_variants PASSED [ 83%]
+tests/test_table_engine2.py::test_structured_extractor_keeps_name_separate_from_price PASSED [ 84%]
+tests/test_tax_classifier_precision.py::test_definition_text_with_unit_word_is_not_tax PASSED [ 85%]
+tests/test_tax_classifier_precision.py::test_long_legal_text_with_avgift_is_not_tax PASSED [ 86%]
+tests/test_tax_classifier_precision.py::test_price_placeholder_is_tax PASSED [ 87%]
+tests/test_tax_classifier_precision.py::test_numeric_decimal_price_is_tax PASSED [ 88%]
+tests/test_tax_classifier_precision.py::test_chapter_1_never_exports PASSED [ 89%]
+tests/test_tax_classifier_precision.py::test_real_tax_section_exports PASSED [ 90%]
+tests/test_tax_extractor.py::test_unit_detector_detects_kr_per_fraktion PASSED [ 91%]
+tests/test_tax_extractor.py::test_metadata_extractor_ewc_and_un PASSED   [ 91%]
+tests/test_tax_extractor.py::test_metadata_extractor_ewc_without_star PASSED [ 92%]
+tests/test_tax_extractor.py::test_tax_row_extractor_extracts_row PASSED  [ 93%]
+tests/test_tax_pipeline.py::test_tax_pipeline_runs_single_official_flow PASSED [ 94%]
+tests/test_tax_pipeline_export_section.py::test_tax_pipeline_exports_tax_row_outside_chapter_1 PASSED [ 95%]
+tests/test_validation_engine.py::test_duplicate_detector_finds_duplicate PASSED [ 96%]
+tests/test_validation_engine.py::test_missing_tax_detector_finds_missing_section PASSED [ 97%]
+tests/test_validation_engine.py::test_validation_engine_passes_valid_rows_without_golden PASSED [ 98%]
+tests/test_workbook_profiler.py::test_workbook_profiler_finds_best_sheet PASSED [ 99%]
+tests/test_workbook_profiler.py::test_master_excel_reader_reads_best_sheet PASSED [100%]
+
+================================== FAILURES ===================================
+____________ test_acceptance_debugger_reports_missing_from_catalog ____________
+tests\test_acceptance_debugger.py:20: in test_acceptance_debugger_reports_missing_from_catalog
+    assert section.section == "6.1.2"
+E   AssertionError: assert '6.1.1' == '6.1.2'
+E     
+E     - 6.1.2
+E     ?     ^
+E     + 6.1.1
+E     ?     ^
+__________________ test_acceptance_debugger_possible_matches __________________
+tests\test_acceptance_debugger.py:32: in test_acceptance_debugger_possible_matches
+    assert "Rökdetektor med Am 241" in section.missing_names
+E   AssertionError: assert 'Rökdetektor med Am 241' in ['Verksamheter', 'Övriga abonnemangstyper', 'Vågkort', 'Borttappat vågkort', 'Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst)', 'Ej redovisad eller fel redovisad fraktion av avfall']
+E    +  where ['Verksamheter', 'Övriga abonnemangstyper', 'Vågkort', 'Borttappat vågkort', 'Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst)', 'Ej redovisad eller fel redovisad fraktion av avfall'] = SectionDebugResult(section='6.1.1', expected_names=['Verksamheter', 'Övriga abonnemangstyper', 'Vågkort', 'Borttappat vågkort', 'Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst)', 'Ej redovisad eller fel redovisad fraktion av avfall'], exported_names=[], missing_names=['Verksamheter', 'Övriga abonnemangstyper', 'Vågkort', 'Borttappat vågkort', 'Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst)', 'Ej redovisad eller fel redovisad fraktion av avfall'], extra_names=[], possible_matches={}, non_tax_candidates=[]).missing_names
+________________ test_build_report_mentions_word_output_folder ________________
+tests\test_output_structure_files.py:11: in test_build_report_mentions_word_output_folder
+    assert "docs-mappen" in text
+E   assert 'docs-mappen' in '@echo off\nsetlocal\n\necho ==========================================\necho Parser 3.1 Build Report\necho ==========================================\n\nif not exist output mkdir output\nif not exist rapportzip mkdir rapportzip\nif not exist output\\acceptance mkdir output\\acceptance\nif not exist output\\diagnostics mkdir output\\diagnostics\nif not exist output\\trace mkdir output\\trace\nif not exist output\\reports mkdir output\\reports\nif not exist output\\excel mkdir output\\excel\nif not exist output\\word mkdir output\\word\nif not exist output\\archive mkdir output\\archive\n\necho.\necho [1/7] Arbets-Excel profile...\npython run.py --profile-master --master "C:\\PyProjects\\data\\Master.xlsx" > output\\diagnostics\\master_console.txt 2>&1\n\necho.\necho [2/7] Parser semantic/explain/architecture/missing-debug/trace...\npython run.py --word "C:\\PyProjects\\data\\Taxestruktur.docx" --semantic --explain --architecture --missing-debug --trace > output\\diagnostics\\parser_console.txt 2>&1\n\necho.\necho [3/7] Parser diff mot Arbets-Excel...\npython run.py --word "C:\\PyProjects\\data\\Taxestruktur.docx" --semantic --diff --master "C:\\PyProjects\\data\\Master.xlsx" >> output\\diagnostics\\parser_console.txt 2>&1\n\necho.\necho [4/7] Pytest...\npython -m pytest -v --tb=short > output\\diagnostics\\pytest_report.txt 2>&1\n\necho.\necho [5/7] Environment info...\npython tools\\write_environment_report.py > output\\diagnostics\\environment_report.txt 2>&1\n\necho.\necho [6/7] Kontroll av rapportfiler...\ndir output /s >> output\\diagnostics\\parser_console.txt 2>&1\n\necho.\necho [7/7] Skapar zip i rapportzip...\npowershell -NoProfile -ExecutionPolicy Bypass -File tools\\zip_output.ps1\n\necho.\necho ==========================================\necho KLAR\necho Zipfilen finns i rapportzip-mappen.\necho ==========================================\n\npause\nendlocal\n'
+=========================== short test summary info ===========================
+FAILED tests/test_acceptance_debugger.py::test_acceptance_debugger_reports_missing_from_catalog
+FAILED tests/test_acceptance_debugger.py::test_acceptance_debugger_possible_matches
+FAILED tests/test_output_structure_files.py::test_build_report_mentions_word_output_folder
+======================== 3 failed, 109 passed in 2.27s ========================

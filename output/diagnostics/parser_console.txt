@@ -3,7 +3,7 @@ Avfallstaxa Parser 3.1 bootstrap OK
 Config loaded: Avfallstaxa Parser 3.0 0.1.0
 Document blocks read: 446
 Semantic rows: 547
-Semantic tax rows: 240
+Semantic tax rows: 241
 Section summary:
   2.1: 8
   2.2.1: 2
@@ -38,22 +38,22 @@ Section summary:
   6.1.1: 6
   6.1.2: 103
   6.1.3: 4
-  6.1.4: 3
-Trace report: output/parser3_trace_report.txt
-Architecture report: output/parser3_architecture_report.txt
-Explain report: output/parser3_explain_report.txt
-Acceptance passed: False
+  6.1.4: 4
+Trace report: output/trace/parser3_trace_report.txt
+Architecture report: output/reports/parser3_architecture_report.txt
+Explain report: output/reports/parser3_explain_report.txt
+Acceptance passed: True
 Acceptance expected total: 117
-Acceptance actual total: 116
-Acceptance report: output/parser3_acceptance_report.txt
-Acceptance debug report: output/parser3_acceptance_debug_report.txt
-Missing diagnostics report: output/parser3_missing_diagnostics.txt
+Acceptance actual total: 117
+Acceptance report: output/acceptance/parser3_acceptance_report.txt
+Acceptance debug report: output/acceptance/parser3_acceptance_debug_report.txt
+Missing diagnostics report: output/acceptance/parser3_missing_diagnostics.txt
 INFO | parser3 | Avfallstaxa Parser 3.0 version 0.1.0
 Avfallstaxa Parser 3.1 bootstrap OK
 Config loaded: Avfallstaxa Parser 3.0 0.1.0
 Document blocks read: 446
 Semantic rows: 547
-Semantic tax rows: 240
+Semantic tax rows: 241
 Section summary:
   2.1: 8
   2.2.1: 2
@@ -88,25 +88,25 @@ Section summary:
   6.1.1: 6
   6.1.2: 103
   6.1.3: 4
-  6.1.4: 3
+  6.1.4: 4
 Arbets-Excel rows read: 271
 Arbets-Excel best sheet: Taxepunkter
 Arbets-Excel detected columns: {'section': 1, 'name': 2, 'price': 3, 'variant': 4, 'unit': 5}
 Diff matched: 0
 Diff missing: 271
-Diff extra: 240
+Diff extra: 241
 Diff passed: False
-Precision report: output/parser3_precision_report.txt
+Precision report: output/reports/parser3_precision_report.txt
  Volume in drive C has no label.
  Volume Serial Number is 641C-C805
 
  Directory of C:\PyProjects\Taxa 3.0\output
 
-2026-07-06  16:13    <DIR>          .
-2026-07-06  16:13    <DIR>          ..
+2026-07-06  16:16    <DIR>          .
+2026-07-06  16:22    <DIR>          ..
 2026-07-06  16:13    <DIR>          acceptance
-2026-07-06  16:04    <DIR>          archive
-2026-07-06  16:13    <DIR>          diagnostics
+2026-07-06  16:13    <DIR>          archive
+2026-07-06  16:23    <DIR>          diagnostics
 2026-07-06  16:13             1ÿ365 environment_report.txt
 2026-07-06  16:04    <DIR>          excel
 2026-07-06  16:13               336 master_console.txt
@@ -116,76 +116,73 @@ Precision report: output/parser3_precision_report.txt
 2026-07-06  16:13            46ÿ691 parser3_precision_report.txt
 2026-07-06  16:13            16ÿ342 parser3_report.txt
 2026-07-06  16:13            60ÿ980 parser3_result.json
-2026-07-06  12:31            28ÿ849 Parser3_Run_2026-07-06_12-31-18.zip
-2026-07-06  13:13            33ÿ421 Parser3_Run_2026-07-06_13-13-22.zip
-2026-07-06  13:37            34ÿ110 Parser3_Run_2026-07-06_13-37-08.zip
-2026-07-06  13:44            34ÿ749 Parser3_Run_2026-07-06_13-44-12.zip
-2026-07-06  14:36            36ÿ311 Parser3_Run_2026-07-06_14-36-16.zip
-2026-07-06  14:45            35ÿ683 Parser3_Run_2026-07-06_14-45-51.zip
-2026-07-06  14:52            37ÿ470 Parser3_Run_2026-07-06_14-52-33.zip
-2026-07-06  15:00            37ÿ636 Parser3_Run_2026-07-06_15-00-47.zip
-2026-07-06  15:11            37ÿ763 Parser3_Run_2026-07-06_15-11-10.zip
-2026-07-06  15:32            39ÿ934 Parser3_Run_2026-07-06_15-32-50.zip
-2026-07-06  15:37            38ÿ533 Parser3_Run_2026-07-06_15-37-19.zip
-2026-07-06  15:43            38ÿ217 Parser3_Run_2026-07-06_15-43-13.zip
-2026-07-06  15:48            37ÿ975 Parser3_Run_2026-07-06_15-48-14.zip
-2026-07-06  15:54            39ÿ613 Parser3_Run_2026-07-06_15-54-29.zip
 2026-07-06  16:13            16ÿ651 parser3_trace_report.txt
 2026-07-06  16:13             2ÿ995 parser_console.txt
 2026-07-03  17:22            51ÿ337 parser_facit_generated.yaml
 2026-07-06  16:13             2ÿ218 pytest_report.txt
-2026-07-06  16:04    <DIR>          reports
-2026-07-06  16:04    <DIR>          trace
+2026-07-06  16:23    <DIR>          reports
+2026-07-06  16:23    <DIR>          trace
 2026-07-06  16:04    <DIR>          word
-              26 File(s)        787ÿ013 bytes
+              12 File(s)        276ÿ749 bytes
 
  Directory of C:\PyProjects\Taxa 3.0\output\acceptance
 
 2026-07-06  16:13    <DIR>          .
-2026-07-06  16:13    <DIR>          ..
-2026-07-06  16:13               632 parser3_acceptance_debug_report.txt
-2026-07-06  16:13               286 parser3_acceptance_report.txt
-2026-07-06  16:13                58 parser3_missing_diagnostics.txt
-               3 File(s)            976 bytes
+2026-07-06  16:16    <DIR>          ..
+2026-07-06  16:23               805 parser3_acceptance_debug_report.txt
+2026-07-06  16:23               283 parser3_acceptance_report.txt
+2026-07-06  16:23                58 parser3_missing_diagnostics.txt
+               3 File(s)          1ÿ146 bytes
 
  Directory of C:\PyProjects\Taxa 3.0\output\archive
 
-2026-07-06  16:04    <DIR>          .
-2026-07-06  16:13    <DIR>          ..
+2026-07-06  16:13    <DIR>          .
+2026-07-06  16:16    <DIR>          ..
 2026-07-06  16:04           545ÿ275 Parser3_Run_2026-07-06_16-04-51.zip
-               1 File(s)        545ÿ275 bytes
+2026-07-06  16:13         1ÿ087ÿ182 Parser3_Run_2026-07-06_16-13-13.zip
+               2 File(s)      1ÿ632ÿ457 bytes
 
  Directory of C:\PyProjects\Taxa 3.0\output\diagnostics
 
-2026-07-06  16:13    <DIR>          .
-2026-07-06  16:13    <DIR>          ..
-2026-07-06  16:13             1ÿ969 parser_console.txt
-               1 File(s)          1ÿ969 bytes
+2026-07-06  16:23    <DIR>          .
+2026-07-06  16:16    <DIR>          ..
+2026-07-06  16:23             2ÿ859 environment_report.txt
+2026-07-06  16:23               344 master_console.txt
+2026-07-06  16:23             2ÿ031 parser_console.txt
+2026-07-06  16:23            15ÿ331 pytest_report.txt
+               4 File(s)         20ÿ565 bytes
 
  Directory of C:\PyProjects\Taxa 3.0\output\excel
 
 2026-07-06  16:04    <DIR>          .
-2026-07-06  16:13    <DIR>          ..
+2026-07-06  16:16    <DIR>          ..
                0 File(s)              0 bytes
 
  Directory of C:\PyProjects\Taxa 3.0\output\reports
 
-2026-07-06  16:04    <DIR>          .
-2026-07-06  16:13    <DIR>          ..
-               0 File(s)              0 bytes
+2026-07-06  16:23    <DIR>          .
+2026-07-06  16:16    <DIR>          ..
+2026-07-06  16:23             9ÿ938 master_profile_report.txt
+2026-07-06  16:23               231 parser3_architecture_report.txt
+2026-07-06  16:23            67ÿ665 parser3_explain_report.txt
+2026-07-06  16:23            46ÿ811 parser3_precision_report.txt
+2026-07-06  16:23            16ÿ453 parser3_report.txt
+2026-07-06  16:23            61ÿ274 parser3_result.json
+               6 File(s)        202ÿ372 bytes
 
  Directory of C:\PyProjects\Taxa 3.0\output\trace
 
-2026-07-06  16:04    <DIR>          .
-2026-07-06  16:13    <DIR>          ..
-               0 File(s)              0 bytes
+2026-07-06  16:23    <DIR>          .
+2026-07-06  16:16    <DIR>          ..
+2026-07-06  16:23            16ÿ651 parser3_trace_report.txt
+               1 File(s)         16ÿ651 bytes
 
  Directory of C:\PyProjects\Taxa 3.0\output\word
 
 2026-07-06  16:04    <DIR>          .
-2026-07-06  16:13    <DIR>          ..
+2026-07-06  16:16    <DIR>          ..
                0 File(s)              0 bytes
 
      Total Files Listed:
-              31 File(s)      1ÿ335ÿ233 bytes
-              23 Dir(s)  26ÿ403ÿ864ÿ576 bytes free
+              28 File(s)      2ÿ149ÿ940 bytes
+              23 Dir(s)  25ÿ713ÿ295ÿ360 bytes free

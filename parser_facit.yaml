@@ -370,6 +370,20 @@ sections:
       variant: Avgift per container
       enhet: container
   6.1.4:
-    title: Övriga avgifter och tillägg
+    title: Tillägg och avgifter
     tax_count: 4
-    tax_rows: []
+    notes:
+    - Raden 'Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen' ligger delad över två Word-rader.
+    tax_rows:
+    - number: 1
+      taxapunkt: Okänt farligt avfall (säkerhetsdatablad saknas)
+      enhet: fraktion
+    - number: 2
+      taxapunkt: Ombud för rapportering av farligt avfall i Avfallsregistret
+      enhet: tillfälle
+    - number: 3
+      taxapunkt: Administrativ rapporteringsavgift till Avfallsregistret
+      enhet: tillfälle
+    - number: 4
+      taxapunkt: Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen
+      enhet: tillfälle

@@ -27,7 +27,25 @@ from parser3.utils.constants import APP_NAME, APP_VERSION
 from parser3.utils.logger import get_logger
 from parser3.validation import ValidationEngine
 
+
+def ensure_output_dirs() -> None:
+    for folder in [
+        "output",
+        "output/acceptance",
+        "output/diagnostics",
+        "output/trace",
+        "output/reports",
+        "output/excel",
+        "output/word",
+        "output/archive",
+        "rapportzip",
+    ]:
+        Path(folder).mkdir(parents=True, exist_ok=True)
+
+
 def main() -> None:
+    ensure_output_dirs()
+
     arg_parser = argparse.ArgumentParser(description="Avfallstaxa Parser 3.1")
     arg_parser.add_argument("--word", default="")
     arg_parser.add_argument("--master", default="")
@@ -62,9 +80,9 @@ def main() -> None:
             print("ERROR: --profile-master requires --master <xlsx path>")
             return
         profile = WorkbookProfiler().profile(args.master)
-        ProfileReporter().write(profile, "output/master_profile_report.txt")
+        ProfileReporter().write(profile, "output/reports/master_profile_report.txt")
         best = profile.best_sheet
-        print("Arbets-Excel profile report: output/master_profile_report.txt")
+        print("Arbets-Excel profile report: output/reports/master_profile_report.txt")
         if best:
             print(f"Best sheet: {best.sheet_name}")
             print(f"Detected columns: {best.detected_columns}")
@@ -80,8 +98,8 @@ def main() -> None:
         blocks = pipeline_result.blocks
         rows = pipeline_result.tax_rows
         print(f"Document blocks read: {len(blocks)}")
-        JsonExporter().export(rows, "output/parser3_result.json")
-        TextReporter().write(rows, "output/parser3_report.txt")
+        JsonExporter().export(rows, "output/reports/parser3_result.json")
+        TextReporter().write(rows, "output/reports/parser3_report.txt")
         print(f"Semantic rows: {len(pipeline_result.semantic_rows)}")
         print(f"Semantic tax rows: {len(rows)}")
         print("Section summary:")
@@ -89,47 +107,47 @@ def main() -> None:
             print(f"  {summary.section}: {summary.tax_count}")
 
         if args.trace:
-            TraceReporter().write(pipeline_result.trace_store, "output/parser3_trace_report.txt")
-            print("Trace report: output/parser3_trace_report.txt")
+            TraceReporter().write(pipeline_result.trace_store, "output/trace/parser3_trace_report.txt")
+            print("Trace report: output/trace/parser3_trace_report.txt")
 
         if args.architecture:
-            PipelineReporter().write(pipeline_result, "output/parser3_architecture_report.txt")
-            print("Architecture report: output/parser3_architecture_report.txt")
+            PipelineReporter().write(pipeline_result, "output/reports/parser3_architecture_report.txt")
+            print("Architecture report: output/reports/parser3_architecture_report.txt")
 
         if args.explain:
-            ExplainReporter().write(pipeline_result.semantic_rows, "output/parser3_explain_report.txt")
-            print("Explain report: output/parser3_explain_report.txt")
+            ExplainReporter().write(pipeline_result.semantic_rows, "output/reports/parser3_explain_report.txt")
+            print("Explain report: output/reports/parser3_explain_report.txt")
 
         if args.acceptance or args.acceptance_debug or args.missing_debug:
             expectations = FacitLoader().load_builtin()
             acceptance = AcceptanceRunner().run(rows, expectations)
-            AcceptanceReporter().write(acceptance, "output/parser3_acceptance_report.txt")
+            AcceptanceReporter().write(acceptance, "output/acceptance/parser3_acceptance_report.txt")
             print(f"Acceptance passed: {acceptance.passed}")
             print(f"Acceptance expected total: {acceptance.expected_total}")
             print(f"Acceptance actual total: {acceptance.actual_total}")
-            print("Acceptance report: output/parser3_acceptance_report.txt")
+            print("Acceptance report: output/acceptance/parser3_acceptance_report.txt")
 
         if args.acceptance_debug or args.missing_debug:
             debug = AcceptanceDebugger().debug(rows, pipeline_result.semantic_rows)
-            AcceptanceDebugReporter().write(debug, "output/parser3_acceptance_debug_report.txt")
-            print("Acceptance debug report: output/parser3_acceptance_debug_report.txt")
+            AcceptanceDebugReporter().write(debug, "output/acceptance/parser3_acceptance_debug_report.txt")
+            print("Acceptance debug report: output/acceptance/parser3_acceptance_debug_report.txt")
 
         if args.missing_debug:
             missing = MissingRowDiagnostics().run(rows, pipeline_result.semantic_rows)
-            MissingRowReporter().write(missing, "output/parser3_missing_diagnostics.txt")
-            print("Missing diagnostics report: output/parser3_missing_diagnostics.txt")
+            MissingRowReporter().write(missing, "output/acceptance/parser3_missing_diagnostics.txt")
+            print("Missing diagnostics report: output/acceptance/parser3_missing_diagnostics.txt")
 
         if args.build_golden:
             data = GoldenMasterBuilder().from_tax_rows(rows)
-            GoldenMasterWriter().write(data, "output/parser_facit_generated.yaml")
-            print("Golden master draft: output/parser_facit_generated.yaml")
+            GoldenMasterWriter().write(data, "output/reports/parser_facit_generated.yaml")
+            print("Golden master draft: output/reports/parser_facit_generated.yaml")
 
         if args.diff:
             if not args.master:
                 print("ERROR: --diff requires --master <xlsx path>")
             else:
                 profile = WorkbookProfiler().profile(args.master)
-                ProfileReporter().write(profile, "output/master_profile_report.txt")
+                ProfileReporter().write(profile, "output/reports/master_profile_report.txt")
                 expected = MasterExcelReader().read(args.master)
                 print(f"Arbets-Excel rows read: {len(expected)}")
                 best = profile.best_sheet
@@ -137,12 +155,12 @@ def main() -> None:
                     print(f"Arbets-Excel best sheet: {best.sheet_name}")
                     print(f"Arbets-Excel detected columns: {best.detected_columns}")
                 diff = DiffEngine().compare(rows, expected)
-                PrecisionReporter().write(diff, "output/parser3_precision_report.txt")
+                PrecisionReporter().write(diff, "output/reports/parser3_precision_report.txt")
                 print(f"Diff matched: {len(diff.matched)}")
                 print(f"Diff missing: {len(diff.missing)}")
                 print(f"Diff extra: {len(diff.extra)}")
                 print(f"Diff passed: {diff.passed}")
-                print("Precision report: output/parser3_precision_report.txt")
+                print("Precision report: output/reports/parser3_precision_report.txt")
 
         if args.validate:
             validation = ValidationEngine().validate(rows, args.golden)

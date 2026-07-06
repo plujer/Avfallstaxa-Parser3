@@ -1,0 +1,7 @@
+INFO | parser3 | Avfallstaxa Parser 3.0 version 0.1.0
+Avfallstaxa Parser 3.1 bootstrap OK
+Config loaded: Avfallstaxa Parser 3.0 0.1.0
+Arbets-Excel profile report: output/reports/master_profile_report.txt
+Best sheet: Taxepunkter
+Detected columns: {'section': 1, 'name': 2, 'price': 3, 'variant': 4, 'unit': 5}
+Arbets-Excel rows read: 271

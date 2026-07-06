@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 
 from parser3.context.context_engine import ContextEngine
 from parser3.document import DocumentBlock
-from parser3.extractors import FlatTaxExtractor, Section611Extractor, Section612Extractor, TaxRowExtractor
+from parser3.extractors import FlatTaxExtractor, Section611Extractor, Section612Extractor, Section614Extractor, TaxRowExtractor
 from parser3.models import TaxRow
 from parser3.semantic.row_type_classifier import RowTypeClassifier
 from parser3.semantic.section_tax_rules import SectionTaxRules
@@ -34,6 +34,7 @@ class SemanticParser:
         self.structured_extractor = StructuredTaxExtractor()
         self.section612_extractor = Section612Extractor(trace_store=self.trace_store)
         self.section611_extractor = Section611Extractor()
+        self.section614_extractor = Section614Extractor()
 
     def parse(self, blocks: list[DocumentBlock]) -> SemanticParseResult:
         context_blocks = self.context_engine.assign(blocks)
@@ -41,11 +42,12 @@ class SemanticParser:
         tax_rows: list[TaxRow] = []
         seen_keys: set[tuple[str, str, str, str]] = set()
         pending_611_text = ""
+        pending_614_text = ""
 
         def add_rows(new_rows: list[TaxRow]) -> None:
             for row in new_rows:
                 # §6.1.3 contains three visually identical Container X m³ rows.
-                # They must remain three export rows, so do not deduplicate them.
+                # They must remain three export rows.
                 if row.section == "6.1.3":
                     tax_rows.append(row)
                     continue
@@ -61,6 +63,8 @@ class SemanticParser:
 
             if context.section != "6.1.1":
                 pending_611_text = ""
+            if context.section != "6.1.4":
+                pending_614_text = ""
 
             if block.kind == "table":
                 for index, row in enumerate(block.rows):
@@ -142,6 +146,23 @@ class SemanticParser:
                     pending_611_text = block.text
                 elif row_type == ROW_TYPE_TAX:
                     pending_611_text = ""
+
+            if context.section == "6.1.4":
+                if pending_614_text and row_type == ROW_TYPE_TAX:
+                    add_rows(
+                        self.section614_extractor.extract_combined(
+                            pending_614_text,
+                            block.text,
+                            chapter=context.chapter,
+                            section=context.section,
+                            group=context.group,
+                        )
+                    )
+
+                if block.text.strip().lower().startswith("ombud för registrering av el-kretsen"):
+                    pending_614_text = block.text
+                elif row_type == ROW_TYPE_TAX:
+                    pending_614_text = ""
 
             if context.section == "6.1.2" and row_type != ROW_TYPE_TAX:
                 add_rows(
