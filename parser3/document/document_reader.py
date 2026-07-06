@@ -1,18 +1,19 @@
 """Word document reader for Parser 3.0.
 
 This module reads paragraphs and native Word tables into a common sequence of
-DocumentBlock objects. It does not decide what is a tax row. Classification is
-done later by the row engine.
+DocumentBlock objects. It also reconstructs automatic Word heading numbering,
+because python-docx does not include generated heading numbers in paragraph.text.
 """
 
 from __future__ import annotations
 
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any
 
 from docx import Document
 
+from parser3.document.heading_numberer import HeadingNumberer
 from parser3.utils.exceptions import DocumentReadError
 
 
@@ -43,16 +44,27 @@ class DocumentReader:
 
         blocks: list[DocumentBlock] = []
         order = 0
+        heading_numberer = HeadingNumberer()
 
         for child in document.element.body:
             tag = child.tag.lower()
 
             if tag.endswith("}p"):
                 paragraph = self._paragraph_from_element(document, child)
-                text = self._clean(paragraph.text)
+                raw_text = self._clean(paragraph.text)
                 style = paragraph.style.name if paragraph.style else ""
-                if text:
-                    blocks.append(DocumentBlock(order=order, kind="paragraph", text=text, style=style))
+
+                if raw_text:
+                    text, metadata = heading_numberer.prefix_heading(raw_text, style)
+                    blocks.append(
+                        DocumentBlock(
+                            order=order,
+                            kind="paragraph",
+                            text=text,
+                            style=style,
+                            metadata=metadata,
+                        )
+                    )
                     order += 1
 
             elif tag.endswith("}tbl"):
