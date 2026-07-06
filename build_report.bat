@@ -6,7 +6,7 @@ echo Parser 3.1 Build Report
 echo ==========================================
 
 if not exist output mkdir output
-if not exist docs mkdir docs
+if not exist rapportzip mkdir rapportzip
 if not exist output\acceptance mkdir output\acceptance
 if not exist output\diagnostics mkdir output\diagnostics
 if not exist output\trace mkdir output\trace
@@ -44,13 +44,13 @@ echo [7/8] Kontroll av rapportfiler...
 dir output /s >> output\diagnostics\parser_console.txt 2>&1
 
 echo.
-echo [8/8] Skapar zip i docs...
+echo [8/8] Skapar zip i rapportzip...
 powershell -NoProfile -ExecutionPolicy Bypass -File tools\zip_output.ps1
 
 echo.
 echo ==========================================
 echo KLAR
-echo Zipfilen finns i docs-mappen.
+echo Zipfilen finns i rapportzip-mappen.
 echo ==========================================
 
 pause

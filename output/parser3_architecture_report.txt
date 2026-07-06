@@ -1,1 +1,1 @@
-Parser 3.1 architecture report\n\nOfficial pipeline:\nDocumentReader -> ContextEngine -> SemanticParser -> Unified extractors -> Export\n\nBlocks: 446\nSemantic rows: 547\nTax rows: 238\n\nBlock types:\n- paragraph: 440\n- table: 6
+Parser 3.1 architecture report\n\nOfficial pipeline:\nDocumentReader -> ContextEngine -> SemanticParser -> Unified extractors -> Export\n\nBlocks: 446\nSemantic rows: 547\nTax rows: 240\n\nBlock types:\n- paragraph: 440\n- table: 6

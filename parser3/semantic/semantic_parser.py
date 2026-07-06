@@ -44,6 +44,12 @@ class SemanticParser:
 
         def add_rows(new_rows: list[TaxRow]) -> None:
             for row in new_rows:
+                # §6.1.3 contains three visually identical Container X m³ rows.
+                # They must remain three export rows, so do not deduplicate them.
+                if row.section == "6.1.3":
+                    tax_rows.append(row)
+                    continue
+
                 key = (row.section, row.name, row.variant, row.unit)
                 if key not in seen_keys:
                     seen_keys.add(key)
@@ -132,7 +138,6 @@ class SemanticParser:
                         )
                     )
 
-                # Keep only the known split-row opener as pending context.
                 if block.text.strip().lower().startswith("ej redovisad ankomst till åvc"):
                     pending_611_text = block.text
                 elif row_type == ROW_TYPE_TAX:

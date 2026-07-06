@@ -348,7 +348,27 @@ sections:
   6.1.3:
     title: Hyra av container
     tax_count: 4
-    tax_rows: []
+    notes:
+    - Tre containerrader enligt dokumentets Container X m³-rader.
+    - Omklassning av felsorterad container är en separat tilläggstaxa.
+    - Förklarande text efter tabellen ska inte exporteras.
+    tax_rows:
+    - number: 1
+      taxapunkt: Container X m³
+      variant: Avgift per container per dygn
+      enhet: container/dygn
+    - number: 2
+      taxapunkt: Container X m³
+      variant: Avgift per container per dygn
+      enhet: container/dygn
+    - number: 3
+      taxapunkt: Container X m³
+      variant: Avgift per container per dygn
+      enhet: container/dygn
+    - number: 4
+      taxapunkt: Omklassning av felsorterad container
+      variant: Avgift per container
+      enhet: container
   6.1.4:
     title: Övriga avgifter och tillägg
     tax_count: 4

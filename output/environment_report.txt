@@ -8,23 +8,26 @@ PYTHONPATH:
 
 git status:
 M build_report.bat
+ M golden_master/parser_facit.yaml
  M output/environment_report.txt
- M output/parser3_acceptance_debug_report.txt
- M output/parser3_acceptance_report.txt
- M output/parser3_missing_diagnostics.txt
+ M output/parser3_architecture_report.txt
  M output/parser3_precision_report.txt
  M output/parser3_report.txt
  M output/parser3_result.json
  M output/parser_console.txt
  M output/pytest_report.txt
- M parser3/extractors/flat_tax_extractor.py
+ M parser3/semantic/semantic_parser.py
+ M parser_facit.yaml
  M tools/zip_output.ps1
-?? docs/Block29_OutputStructureAndUnitSplit.md
-?? docs/changelogg/CHANGELOG_Block29.md
-?? docs/install/INSTALL_Block29.md
-?? tests/test_flat_tax_extractor_unit_suffix.py
-?? tests/test_output_structure_files.py
-?? tools/organize_output.py
+?? docs/Block30_Section613_Rapportzip.md
+?? docs/changelogg/CHANGELOG_Block30.md
+?? docs/install/INSTALL_Block30.md
+?? output/parser3_acceptance_debug_report.txt
+?? output/parser3_acceptance_report.txt
+?? output/parser3_missing_diagnostics.txt
+?? tests/test_facit_613_yaml.py
+?? tests/test_rapportzip_structure.py
+?? tests/test_section613_dedup_policy.py
 
 git branch:
 main

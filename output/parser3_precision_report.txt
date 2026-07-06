@@ -2,7 +2,7 @@ Parser 3.0 precision report
 
 Matched: 0
 Missing: 271
-Extra: 238
+Extra: 240
 Passed: False
 
 MISSING
@@ -512,6 +512,8 @@ EXTRA
 - 6.1.2 | kyl-, frysskåp, -box från verksamhet |  | kilogram | Extra parser row
 - 6.1.2 | spis, tvätt-, diskmaskin |  | styck | Extra parser row
 - 6.1.2 | spis, tvätt-, diskmaskin från verksamhet |  | kilogram | Extra parser row
+- 6.1.3 | container x m³ |  | m³ | Extra parser row
+- 6.1.3 | container x m³ |  | m³ | Extra parser row
 - 6.1.3 | container x m³ |  | m³ | Extra parser row
 - 6.1.3 | omklassning av felsorterad container |  | container | Extra parser row
 - 6.1.4 | okänt farligt avfall (säkerhetsdatablad saknas) |  | fraktion | Extra parser row

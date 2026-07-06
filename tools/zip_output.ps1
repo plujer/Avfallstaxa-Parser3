@@ -1,7 +1,8 @@
 $date = Get-Date -Format "yyyy-MM-dd_HH-mm-ss"
-$zip = "docs\Parser3_Run_$date.zip"
+$zipDir = "rapportzip"
+$zip = "$zipDir\Parser3_Run_$date.zip"
 
-New-Item -ItemType Directory -Force -Path "docs" | Out-Null
+New-Item -ItemType Directory -Force -Path $zipDir | Out-Null
 New-Item -ItemType Directory -Force -Path "output\archive" | Out-Null
 
 if (-not (Test-Path "output")) {
