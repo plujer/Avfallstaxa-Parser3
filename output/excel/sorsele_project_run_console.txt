@@ -11,3 +11,10 @@ Standard rows: 27
 PROPOSAL: 0
 REVIEW: 0
 NO_SUGGESTION: 241
+EDP standardavvikelser skrivna till arbetsbok
+Kommun: Sorsele
+EDP rows: 276
+Standard rows: 27
+REVIEW: 276
+OK: 0
+Workbook: output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx

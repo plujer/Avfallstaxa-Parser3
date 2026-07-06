@@ -11,3 +11,15 @@ Standard rows: 27
 PROPOSAL: 0
 REVIEW: 0
 NO_SUGGESTION: 241
+EDP standardavvikelser skrivna till arbetsbok
+Traceback (most recent call last):
+  File "C:\PyProjects\Taxa 3.0\excel_builder_edp_deviations.py", line 32, in <module>
+    main()
+    ~~~~^^
+  File "C:\PyProjects\Taxa 3.0\excel_builder_edp_deviations.py", line 23, in main
+    print(f"Kommun: {args.municipality}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Isak.Hjelte\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u251c' in position 13: character maps to <undefined>
