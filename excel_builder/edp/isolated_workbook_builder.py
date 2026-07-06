@@ -12,6 +12,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill
 from openpyxl.worksheet.table import Table, TableStyleInfo
 
+from excel_builder.edp.standard_tax_workbook_injector import StandardTaxWorkbookInjector
 from excel_builder.models import EdpExport
 
 
@@ -36,6 +37,10 @@ class IsolatedWorkbookBuilder:
         "strFormel",
     ]
 
+    def __init__(self, include_standard_tax_sheets: bool = True) -> None:
+        self.include_standard_tax_sheets = include_standard_tax_sheets
+        self.standard_injector = StandardTaxWorkbookInjector()
+
     def build(self, edp_export: EdpExport, out_path: str | Path) -> Path:
         out = Path(out_path)
         out.parent.mkdir(parents=True, exist_ok=True)
@@ -56,11 +61,21 @@ class IsolatedWorkbookBuilder:
         info.append(["EDP-källa", edp_export.source_path])
         info.append(["EDP-rader", edp_export.row_count])
         info.append(["Status", "Isolerad körning – får inte blandas med annan kommun"])
+        info.append(["Standardtaxor", "Inkluderade som referensflikar om standardtaxefilen finns"])
         info.column_dimensions["A"].width = 24
-        info.column_dimensions["B"].width = 80
+        info.column_dimensions["B"].width = 90
         for cell in info[1]:
             cell.font = Font(bold=True)
             cell.fill = PatternFill("solid", fgColor="D9EAF7")
+
+        if self.include_standard_tax_sheets:
+            warnings = self.standard_injector.attach(wb)
+            if warnings:
+                start_row = info.max_row + 2
+                info.cell(start_row, 1).value = "Standardtaxevarningar"
+                info.cell(start_row, 1).font = Font(bold=True)
+                for idx, warning in enumerate(warnings, start=start_row + 1):
+                    info.cell(idx, 1).value = warning
 
         wb.save(out)
         return out

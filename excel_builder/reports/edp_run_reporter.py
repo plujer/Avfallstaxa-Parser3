@@ -25,6 +25,10 @@ class EdpRunReporter:
             "Varje EDP-export ska skapa ett unikt Excel-dokument.",
             "EDP-data får inte blandas mellan kommuner eller användas i fel Excel/Word-fil.",
             "Generella regelverk får återanvändas mellan dokument.",
+            "",
+            "STANDARDTAXOR:",
+            "EDP Future Standard TAXOR RENHÅLLNING bifogas som referensflikar i varje framtida output-Excel.",
+            "Standardtaxor är stöd för förslag på saknade taxekoder, inte kommununik EDP-data.",
         ]
 
         if export.warnings:
