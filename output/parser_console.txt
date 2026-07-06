@@ -100,23 +100,24 @@ Precision report: output/parser3_precision_report.txt
 
  Directory of C:\PyProjects\Taxa 3.0\output
 
-2026-07-06  13:43    <DIR>          .
-2026-07-06  13:43    <DIR>          ..
-2026-07-06  13:44             1ÿ184 environment_report.txt
-2026-07-06  13:44               336 master_console.txt
-2026-07-06  13:44             9ÿ938 master_profile_report.txt
-2026-07-06  13:44               710 parser3_acceptance_debug_report.txt
-2026-07-06  13:44               289 parser3_acceptance_report.txt
-2026-07-06  13:44               231 parser3_architecture_report.txt
-2026-07-06  13:44            67ÿ665 parser3_explain_report.txt
-2026-07-06  13:44            49ÿ029 parser3_precision_report.txt
-2026-07-06  13:44            18ÿ774 parser3_report.txt
-2026-07-06  13:44            69ÿ728 parser3_result.json
+2026-07-06  13:44    <DIR>          .
+2026-07-06  14:35    <DIR>          ..
+2026-07-06  14:36             1ÿ165 environment_report.txt
+2026-07-06  14:36               336 master_console.txt
+2026-07-06  14:36             9ÿ938 master_profile_report.txt
+2026-07-06  14:36             5ÿ070 parser3_acceptance_debug_report.txt
+2026-07-06  14:36             1ÿ533 parser3_acceptance_report.txt
+2026-07-06  14:36               231 parser3_architecture_report.txt
+2026-07-06  14:36            67ÿ665 parser3_explain_report.txt
+2026-07-06  14:36            49ÿ029 parser3_precision_report.txt
+2026-07-06  14:36            18ÿ774 parser3_report.txt
+2026-07-06  14:36            69ÿ728 parser3_result.json
 2026-07-06  12:31            28ÿ849 Parser3_Run_2026-07-06_12-31-18.zip
 2026-07-06  13:13            33ÿ421 Parser3_Run_2026-07-06_13-13-22.zip
 2026-07-06  13:37            34ÿ110 Parser3_Run_2026-07-06_13-37-08.zip
-2026-07-06  13:44             1ÿ856 parser_console.txt
+2026-07-06  13:44            34ÿ749 Parser3_Run_2026-07-06_13-44-12.zip
+2026-07-06  14:36             1ÿ856 parser_console.txt
 2026-07-03  17:22            51ÿ337 parser_facit_generated.yaml
-2026-07-06  13:44             8ÿ174 pytest_report.txt
-              16 File(s)        375ÿ631 bytes
-               2 Dir(s)  26ÿ084ÿ241ÿ408 bytes free
+2026-07-06  14:36             8ÿ357 pytest_report.txt
+              17 File(s)        416ÿ148 bytes
+               2 Dir(s)  26ÿ557ÿ530ÿ112 bytes free

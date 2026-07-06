@@ -4,4 +4,5 @@ from .acceptance_reporter import AcceptanceReporter
 from .acceptance_debugger import AcceptanceDebugger, AcceptanceDebugResult, SectionDebugResult
 from .acceptance_debug_reporter import AcceptanceDebugReporter
 from .facit_loader import FacitLoader
+from .facit_yaml_loader import FacitYamlLoader
 from .facit_catalog import FacitCatalog

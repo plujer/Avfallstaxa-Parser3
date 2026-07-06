@@ -7,23 +7,22 @@ platform: Windows-11-10.0.26200-SP0
 PYTHONPATH: 
 
 git status:
-M build_report.bat
+M golden_master/parser_facit.yaml
  M output/environment_report.txt
- M output/master_console.txt
+ M output/parser3_acceptance_debug_report.txt
+ M output/parser3_acceptance_report.txt
  M output/parser_console.txt
  M output/pytest_report.txt
  M parser3/acceptance/__init__.py
+ M parser3/acceptance/facit_catalog.py
  M parser3/acceptance/facit_loader.py
- M parser3/parser.py
- M tools/zip_output.ps1
-?? CHANGELOG_Block18.md
-?? INSTALL_Block18.md
-?? docs/AcceptanceDebug.md
-?? output/parser3_acceptance_debug_report.txt
-?? parser3/acceptance/acceptance_debug_reporter.py
-?? parser3/acceptance/acceptance_debugger.py
-?? parser3/acceptance/facit_catalog.py
-?? tests/test_acceptance_debugger.py
+?? CHANGELOG_Block19.md
+?? INSTALL_Block19.md
+?? docs/FacitYaml612.md
+?? parser3/acceptance/facit_yaml_loader.py
+?? parser_facit.yaml
+?? tests/test_acceptance_with_yaml.py
+?? tests/test_facit_yaml_loader.py
 
 git branch:
 main
