@@ -2,6 +2,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 from parser3.config_loader import load_config
+from parser3.context import ContextEngine
 from parser3.document import DocumentReader
 from parser3.export import JsonExporter, TextReporter
 from parser3.golden import GoldenMasterBuilder, GoldenMasterWriter
@@ -19,6 +20,7 @@ def main() -> None:
     arg_parser.add_argument("--word", default="")
     arg_parser.add_argument("--headings", action="store_true")
     arg_parser.add_argument("--tables", action="store_true")
+    arg_parser.add_argument("--context", action="store_true")
     arg_parser.add_argument("--semantic", action="store_true")
     arg_parser.add_argument("--validate", action="store_true")
     arg_parser.add_argument("--build-golden", action="store_true")
@@ -39,6 +41,13 @@ def main() -> None:
 
     blocks = DocumentReader().read(Path(args.word))
     print(f"Document blocks read: {len(blocks)}")
+
+    if args.context:
+        summary = ContextEngine().summary(blocks)
+        print("Context section summary:")
+        for section, count in summary.section_counts.items():
+            print(f"  {section}: {count}")
+        return
 
     if args.headings:
         builder = HeadingTreeBuilder()
