@@ -12,6 +12,9 @@ $manifest = "output\excel\excel_report_manifest.txt"
 $files = @(
     "output\diagnostics\test_cleanup_report.txt",
     "output\excel\ArbetsExcel_byggd_fran_parser.xlsx",
+    "output\excel\standard_tax_suggestions_report.txt",
+    "output\excel\standard_tax_suggestions.csv",
+    "output\excel\standard_tax_suggestions_console.txt",
     "output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx",
     "output\projects\Sorsele\reports\edp_isolated_run_report_Sorsele.txt",
     "output\projects\Sorsele\manifest\project_run_manifest.json",
@@ -21,7 +24,6 @@ $files = @(
     "output\projects\Norsjo\excel\ArbetsExcel_Norsjo_byggd.xlsx",
     "output\projects\Norsjo\reports\edp_isolated_run_report_Norsjo.txt",
     "output\projects\Norsjo\manifest\project_run_manifest.json",
-    "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx",
     "output\excel\sorsele_project_run_console.txt",
     "output\excel\mala_project_run_console.txt",
     "output\excel\norsjo_project_run_console.txt",

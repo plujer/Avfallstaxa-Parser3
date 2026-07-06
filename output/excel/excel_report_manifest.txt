@@ -1,9 +1,12 @@
 ﻿Excel Builder Report Package
-Created: 2026-07-06_21-55-29
+Created: 2026-07-06_22-05-29
 
 Included files:
 [OK] output\diagnostics\test_cleanup_report.txt
 [OK] output\excel\ArbetsExcel_byggd_fran_parser.xlsx
+[OK] output\excel\standard_tax_suggestions_report.txt
+[OK] output\excel\standard_tax_suggestions.csv
+[OK] output\excel\standard_tax_suggestions_console.txt
 [OK] output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx
 [OK] output\projects\Sorsele\reports\edp_isolated_run_report_Sorsele.txt
 [OK] output\projects\Sorsele\manifest\project_run_manifest.json
@@ -13,7 +16,6 @@ Included files:
 [OK] output\projects\Norsjo\excel\ArbetsExcel_Norsjo_byggd.xlsx
 [OK] output\projects\Norsjo\reports\edp_isolated_run_report_Norsjo.txt
 [OK] output\projects\Norsjo\manifest\project_run_manifest.json
-[OK] data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx
 [OK] output\excel\sorsele_project_run_console.txt
 [OK] output\excel\mala_project_run_console.txt
 [OK] output\excel\norsjo_project_run_console.txt
