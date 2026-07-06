@@ -154,7 +154,7 @@ ___________________ test_rulebook_reader_reads_rule_sheets ____________________
 tests\test_rulebook_reader.py:18: in test_rulebook_reader_reads_rule_sheets
     assert rulebook.count >= 2
 E   AssertionError: assert 0 >= 2
-E    +  where 0 = Rulebook(entries=[], warnings=['Arbets-Excel saknas: C:\\Users\\Isak.Hjelte\\AppData\\Local\\Temp\\pytest-of-Isak.Hjelte\\pytest-57\\test_rulebook_reader_reads_rul0\\arbets.xlsx']).count
+E    +  where 0 = Rulebook(entries=[], warnings=['Arbets-Excel saknas: C:\\Users\\Isak.Hjelte\\AppData\\Local\\Temp\\pytest-of-Isak.Hjelte\\pytest-59\\test_rulebook_reader_reads_rul0\\arbets.xlsx']).count
 =========================== short test summary info ===========================
 FAILED tests/test_rulebook_reader.py::test_rulebook_reader_reads_rule_sheets
-======================== 1 failed, 141 passed in 2.21s ========================
+======================== 1 failed, 141 passed in 2.40s ========================
