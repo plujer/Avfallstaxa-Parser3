@@ -12,6 +12,7 @@ from parser3.semantic.row_type_classifier import RowTypeClassifier
 from parser3.semantic.section_tax_rules import SectionTaxRules
 from parser3.semantic.semantic_row import SemanticRow
 from parser3.tables2 import StructuredTaxExtractor
+from parser3.trace import TraceStore
 from parser3.utils.constants import ROW_TYPE_TAX
 
 
@@ -19,17 +20,19 @@ from parser3.utils.constants import ROW_TYPE_TAX
 class SemanticParseResult:
     semantic_rows: list[SemanticRow] = field(default_factory=list)
     tax_rows: list[TaxRow] = field(default_factory=list)
+    trace_store: TraceStore = field(default_factory=TraceStore)
 
 
 class SemanticParser:
-    def __init__(self) -> None:
+    def __init__(self, trace_store: TraceStore | None = None) -> None:
+        self.trace_store = trace_store or TraceStore()
         self.context_engine = ContextEngine()
         self.row_classifier = RowTypeClassifier()
         self.section_rules = SectionTaxRules()
         self.tax_extractor = TaxRowExtractor()
         self.flat_extractor = FlatTaxExtractor()
         self.structured_extractor = StructuredTaxExtractor()
-        self.section612_extractor = Section612Extractor()
+        self.section612_extractor = Section612Extractor(trace_store=self.trace_store)
 
     def parse(self, blocks: list[DocumentBlock]) -> SemanticParseResult:
         context_blocks = self.context_engine.assign(blocks)
@@ -65,7 +68,6 @@ class SemanticParser:
                         )
                     )
 
-                    # §6.1.2 may contain tax rows without explicit price markers.
                     if row_context.section == "6.1.2" and row_type != ROW_TYPE_TAX:
                         add_rows(
                             self.section612_extractor.extract_line(
@@ -73,6 +75,7 @@ class SemanticParser:
                                 chapter=row_context.chapter,
                                 section=row_context.section,
                                 group=row_context.group,
+                                order=block.order,
                             )
                         )
 
@@ -119,6 +122,7 @@ class SemanticParser:
                         chapter=context.chapter,
                         section=context.section,
                         group=context.group,
+                        order=block.order,
                     )
                 )
 
@@ -132,4 +136,4 @@ class SemanticParser:
                     )
                 )
 
-        return SemanticParseResult(semantic_rows=semantic_rows, tax_rows=tax_rows)
+        return SemanticParseResult(semantic_rows=semantic_rows, tax_rows=tax_rows, trace_store=self.trace_store)

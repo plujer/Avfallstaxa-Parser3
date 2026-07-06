@@ -22,6 +22,7 @@ from parser3.pipeline import PipelineReporter, TaxPipeline
 from parser3.rows import RowClassifier
 from parser3.sections import SectionSummaryBuilder
 from parser3.tables import SmartTableDetector
+from parser3.trace import TraceReporter
 from parser3.utils.constants import APP_NAME, APP_VERSION
 from parser3.utils.logger import get_logger
 from parser3.validation import ValidationEngine
@@ -38,6 +39,7 @@ def main() -> None:
     arg_parser.add_argument("--acceptance", action="store_true")
     arg_parser.add_argument("--acceptance-debug", action="store_true")
     arg_parser.add_argument("--missing-debug", action="store_true")
+    arg_parser.add_argument("--trace", action="store_true")
     arg_parser.add_argument("--validate", action="store_true")
     arg_parser.add_argument("--build-golden", action="store_true")
     arg_parser.add_argument("--diff", action="store_true")
@@ -73,8 +75,8 @@ def main() -> None:
     if not args.word:
         return
 
-    if args.semantic or args.acceptance or args.acceptance_debug or args.missing_debug or args.validate or args.build_golden or args.diff or args.explain or args.architecture:
-        pipeline_result = TaxPipeline().run(args.word)
+    if args.semantic or args.acceptance or args.acceptance_debug or args.missing_debug or args.trace or args.validate or args.build_golden or args.diff or args.explain or args.architecture:
+        pipeline_result = TaxPipeline().run(args.word, trace=args.trace)
         blocks = pipeline_result.blocks
         rows = pipeline_result.tax_rows
         print(f"Document blocks read: {len(blocks)}")
@@ -85,6 +87,10 @@ def main() -> None:
         print("Section summary:")
         for summary in SectionSummaryBuilder().build(rows):
             print(f"  {summary.section}: {summary.tax_count}")
+
+        if args.trace:
+            TraceReporter().write(pipeline_result.trace_store, "output/parser3_trace_report.txt")
+            print("Trace report: output/parser3_trace_report.txt")
 
         if args.architecture:
             PipelineReporter().write(pipeline_result, "output/parser3_architecture_report.txt")

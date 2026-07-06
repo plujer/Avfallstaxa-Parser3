@@ -7,29 +7,41 @@ from difflib import SequenceMatcher
 from parser3.acceptance.facit_yaml_loader import FacitYamlLoader
 from parser3.acceptance.name_normalizer import NameNormalizer
 from parser3.models import TaxRow
+from parser3.trace import TraceEvent, TraceStore
 
 
 class Section612Extractor:
-    def __init__(self) -> None:
+    def __init__(self, trace_store: TraceStore | None = None) -> None:
         self.normalizer = NameNormalizer()
         self.expected_names = self._load_expected_names()
         self.ignored_names = self._load_ignored_names()
+        self.trace_store = trace_store
 
-    def extract_line(self, text: str, chapter: str = "6", section: str = "6.1.2", group: str = "") -> list[TaxRow]:
+    def extract_line(
+        self,
+        text: str,
+        chapter: str = "6",
+        section: str = "6.1.2",
+        group: str = "",
+        order: int | None = None,
+    ) -> list[TaxRow]:
         if section != "6.1.2":
             return []
 
         clean_norm = self.normalizer.normalize(text)
         if not clean_norm:
+            self._trace(section, text, clean_norm, "", 0.0, "not_exported", "empty normalized text", order)
             return []
 
         for ignored in self.ignored_names:
             ignored_norm = self.normalizer.normalize(ignored)
             if ignored_norm and (ignored_norm == clean_norm or ignored_norm in clean_norm):
+                self._trace(section, text, clean_norm, ignored, 1.0, "not_exported", "ignored/reference row", order)
                 return []
 
         best_name = ""
         best_score = 0.0
+        best_expected_norm = ""
 
         for name in self.expected_names:
             expected_norm = self.normalizer.normalize(name)
@@ -39,30 +51,76 @@ class Section612Extractor:
             if expected_norm == clean_norm or expected_norm in clean_norm:
                 best_name = name
                 best_score = 1.0
+                best_expected_norm = expected_norm
                 break
 
             score = SequenceMatcher(None, expected_norm, clean_norm).ratio()
             if score > best_score:
                 best_name = name
                 best_score = score
+                best_expected_norm = expected_norm
 
-        # High threshold prevents accidental exports. This handles minor symbols,
-        # appended units/codes and small Word parsing differences.
         if best_name and best_score >= 0.86:
-            return [
-                TaxRow(
-                    chapter=chapter,
-                    section=section,
-                    group=group,
-                    name=best_name,
-                    variant="",
-                    unit=self._unit_from_text(text),
-                    price="",
-                    export=True,
-                )
-            ]
+            row = TaxRow(
+                chapter=chapter,
+                section=section,
+                group=group,
+                name=best_name,
+                variant="",
+                unit=self._unit_from_text(text),
+                price="",
+                export=True,
+            )
+            self._trace(
+                section,
+                text,
+                clean_norm,
+                best_name,
+                best_score,
+                "exported",
+                f"matched expected normalized={best_expected_norm}",
+                order,
+            )
+            return [row]
 
+        self._trace(
+            section,
+            text,
+            clean_norm,
+            best_name,
+            best_score,
+            "not_exported",
+            "best score below threshold or no expected name",
+            order,
+        )
         return []
+
+    def _trace(
+        self,
+        section: str,
+        input_text: str,
+        normalized_text: str,
+        best_match: str,
+        score: float,
+        decision: str,
+        reason: str,
+        order: int | None,
+    ) -> None:
+        if self.trace_store is None:
+            return
+        self.trace_store.add(
+            TraceEvent(
+                component="Section612Extractor",
+                section=section,
+                input_text=input_text,
+                normalized_text=normalized_text,
+                best_match=best_match,
+                score=score,
+                decision=decision,
+                reason=reason,
+                order=order,
+            )
+        )
 
     def _load_expected_names(self) -> list[str]:
         for expectation in FacitYamlLoader().load():
