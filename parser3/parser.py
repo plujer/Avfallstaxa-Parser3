@@ -5,7 +5,7 @@ from parser3.config_loader import load_config
 from parser3.context import ContextEngine
 from parser3.diff import DiffEngine, ExplainReporter, PrecisionReporter
 from parser3.document import DocumentReader
-from parser3.excel import MasterExcelReader
+from parser3.excel import MasterExcelReader, ProfileReporter, WorkbookProfiler
 from parser3.export import JsonExporter, TextReporter
 from parser3.golden import GoldenMasterBuilder, GoldenMasterWriter
 from parser3.headings import HeadingTreeBuilder
@@ -21,6 +21,7 @@ def main() -> None:
     arg_parser = argparse.ArgumentParser(description="Avfallstaxa Parser 3.1")
     arg_parser.add_argument("--word", default="")
     arg_parser.add_argument("--master", default="")
+    arg_parser.add_argument("--profile-master", action="store_true")
     arg_parser.add_argument("--headings", action="store_true")
     arg_parser.add_argument("--tables", action="store_true")
     arg_parser.add_argument("--context", action="store_true")
@@ -41,6 +42,21 @@ def main() -> None:
     logger.info("%s version %s", name, version)
     print("Avfallstaxa Parser 3.1 bootstrap OK")
     print(f"Config loaded: {name} {version}")
+
+    if args.profile_master:
+        if not args.master:
+            print("ERROR: --profile-master requires --master <xlsx path>")
+            return
+        profile = WorkbookProfiler().profile(args.master)
+        ProfileReporter().write(profile, "output/master_profile_report.txt")
+        best = profile.best_sheet
+        print("Master profile report: output/master_profile_report.txt")
+        if best:
+            print(f"Best sheet: {best.sheet_name}")
+            print(f"Detected columns: {best.detected_columns}")
+        rows = MasterExcelReader().read(args.master)
+        print(f"Master rows read: {len(rows)}")
+        return
 
     if not args.word:
         return
@@ -75,7 +91,14 @@ def main() -> None:
             if not args.master:
                 print("ERROR: --diff requires --master <xlsx path>")
             else:
+                profile = WorkbookProfiler().profile(args.master)
+                ProfileReporter().write(profile, "output/master_profile_report.txt")
                 expected = MasterExcelReader().read(args.master)
+                print(f"Master rows read: {len(expected)}")
+                best = profile.best_sheet
+                if best:
+                    print(f"Master best sheet: {best.sheet_name}")
+                    print(f"Master detected columns: {best.detected_columns}")
                 diff = DiffEngine().compare(rows, expected)
                 PrecisionReporter().write(diff, "output/parser3_precision_report.txt")
                 print(f"Diff matched: {len(diff.matched)}")

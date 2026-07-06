@@ -7,17 +7,25 @@ platform: Windows-11-10.0.26200-SP0
 PYTHONPATH: 
 
 git status:
-?? CHANGELOG_Block15.md
-?? INSTALL_Block15.md
-?? build_report.bat
-?? build_report.ps1
-?? docs/BuildSystem.md
-?? output/environment_report.txt
-?? output/parser_console.txt
-?? output/pytest_report.txt
-?? pytest.ini
-?? tests/conftest.py
-?? tools/
+M build_report.bat
+ M output/environment_report.txt
+ M output/parser3_precision_report.txt
+ M output/parser_console.txt
+ M output/pytest_report.txt
+ M parser3/diff/diff_engine.py
+ M parser3/excel/__init__.py
+ M parser3/excel/master_excel_reader.py
+ M parser3/parser.py
+ M tools/zip_output.ps1
+?? CHANGELOG_Block16.md
+?? INSTALL_Block16.md
+?? docs/FacitMasterReader.md
+?? output/master_console.txt
+?? output/master_profile_report.txt
+?? parser3/excel/excel_models.py
+?? parser3/excel/profile_reporter.py
+?? parser3/excel/workbook_profiler.py
+?? tests/test_workbook_profiler.py
 
 git branch:
 main

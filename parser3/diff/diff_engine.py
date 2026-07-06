@@ -1,16 +1,25 @@
+"""Compare parsed rows against a reference/facit row list."""
+
+from __future__ import annotations
+
 from dataclasses import dataclass, field
+from difflib import SequenceMatcher
+
 from parser3.diff.diff_models import DiffItem
 from parser3.models import TaxRow
+
 
 @dataclass
 class DiffResult:
     matched: list[DiffItem] = field(default_factory=list)
     missing: list[DiffItem] = field(default_factory=list)
     extra: list[DiffItem] = field(default_factory=list)
+    fuzzy: list[DiffItem] = field(default_factory=list)
 
     @property
     def passed(self) -> bool:
         return not self.missing and not self.extra
+
 
 class DiffEngine:
     def compare(self, parsed: list[TaxRow], expected: list[TaxRow]) -> DiffResult:
@@ -18,11 +27,18 @@ class DiffEngine:
         expected_map = self._to_multimap(expected)
         result = DiffResult()
 
+        consumed_parsed: set[tuple[str, str, str, str]] = set()
+        consumed_expected: set[tuple[str, str, str, str]] = set()
+
         for key, expected_rows in expected_map.items():
             parsed_rows = parsed_map.get(key, [])
             match_count = min(len(expected_rows), len(parsed_rows))
             for _ in range(match_count):
                 result.matched.append(self._item("matched", key))
+            if match_count:
+                consumed_parsed.add(key)
+                consumed_expected.add(key)
+
             for _ in range(max(0, len(expected_rows) - len(parsed_rows))):
                 result.missing.append(self._item("missing", key, "Expected row not found"))
 
@@ -34,11 +50,16 @@ class DiffEngine:
         return result
 
     def _to_multimap(self, rows: list[TaxRow]) -> dict[tuple[str, str, str, str], list[TaxRow]]:
-        result = {}
+        result: dict[tuple[str, str, str, str], list[TaxRow]] = {}
         for row in rows:
             if not row.export:
                 continue
-            key = (self._norm(row.section), self._norm(row.name), self._norm(row.variant), self._norm(row.unit))
+            key = (
+                self._norm(row.section),
+                self._norm(row.name),
+                self._norm(row.variant),
+                self._norm(row.unit),
+            )
             result.setdefault(key, []).append(row)
         return result
 
@@ -46,4 +67,7 @@ class DiffEngine:
         return DiffItem(status=status, section=key[0], name=key[1], variant=key[2], unit=key[3], reason=reason)
 
     def _norm(self, value: str) -> str:
-        return " ".join((value or "").replace("\xa0", " ").strip().lower().split())
+        value = (value or "").replace("\xa0", " ").strip().lower()
+        value = value.replace("m3", "m³")
+        value = value.replace("liter", "l")
+        return " ".join(value.split())

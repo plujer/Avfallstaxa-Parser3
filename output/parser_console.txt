@@ -82,8 +82,11 @@ Section summary:
   6.1.2: 91
   6.1.3: 4
   6.1.4: 3
+Master rows read: 271
+Master best sheet: Taxepunkter
+Master detected columns: {'section': 1, 'name': 2, 'price': 3, 'variant': 4, 'unit': 5}
 Diff matched: 0
-Diff missing: 0
+Diff missing: 271
 Diff extra: 274
 Diff passed: False
 Precision report: output/parser3_precision_report.txt

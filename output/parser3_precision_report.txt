@@ -1,9 +1,282 @@
 Parser 3.0 precision report
 
 Matched: 0
-Missing: 0
+Missing: 271
 Extra: 274
 Passed: False
+
+MISSING
+- §2.1 | grundavgift |  | st/år | Expected row not found
+- §2.1 | grundavgift |  | st/år | Expected row not found
+- §2.1 | grundavgift |  | st/år | Expected row not found
+- §2.1 | grundavgift |  | st/år | Expected row not found
+- §2.1 | grundavgift |  | st/år | Expected row not found
+- §2.1 | grundavgift |  | st/år | Expected row not found
+- §2.1 | grundavgift |  | st/år | Expected row not found
+- §2.1 | grundavgift |  | st/år | Expected row not found
+- §2.1 | grundavgift |  | st/år | Expected row not found
+- §2.2.1 | hämtningsavgift per år för en- och tvåbostadshus | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.1 | hämtningsavgift per år för en- och tvåbostadshus | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.1 | hämtningsavgift per år för en- och tvåbostadshus | hämtning månadsvis | st/år | Expected row not found
+- §2.2.1 | hämtningsavgift per år för en- och tvåbostadshus | hämtning månadsvis | st/år | Expected row not found
+- §2.2.2 | hämtningsavgift per år för fritidshus | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.2 | hämtningsavgift per år för fritidshus | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.2 | hämtningsavgift per år för fritidshus | hämtning månadsvis | st/år | Expected row not found
+- §2.2.2 | hämtningsavgift per år för fritidshus | kostnadsfritt | st/år | Expected row not found
+- §2.2.3 | gemensam uppsamlingsplats inom hämtningsområde x |  | st/år | Expected row not found
+- §2.2.3 | gemensam uppsamlingsplats inom hämtningsområde x |  | st/år | Expected row not found
+- §2.2.3 | gemensam uppsamlingsplats inom hämtningsområde x | kostnadsfritt | st/år | Expected row not found
+- §2.2.3 | gemensam uppsamlingsplats inom hämtningsområde x |  | st/tillfälle | Expected row not found
+- §2.2.3 | gemensam uppsamlingsplats inom hämtningsområde x |  | st/tillfälle | Expected row not found
+- §2.2.3 | gemensam uppsamlingsplats inom hämtningsområde x |  | st/tillfälle | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning varje vecka | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning varje vecka | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning varje vecka | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning varje vecka | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning varje vecka | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning varje vecka | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning varje vecka | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning varje vecka | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning varje vecka | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning månadsvis | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning månadsvis | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning månadsvis | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning månadsvis | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning månadsvis | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning månadsvis | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning månadsvis | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning månadsvis | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | hämtning månadsvis | st/år | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | avgift per tömning | st/tömning | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | tillägg för två tömningar per vecka | st/tömning | Expected row not found
+- §2.2.4 | hämtningsavgift per år för flerbostadshus | avgift per lägenhet | lägenhet/år | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | hämtning varje vecka | st/år | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | hämtning varje vecka | st/år | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | hämtning varje vecka | st/år | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | hämtning varje vecka | st/år | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | hämtning månadsvis | st/år | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | hämtning månadsvis | st/år | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | hämtning månadsvis | st/år | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | hämtning månadsvis | st/år | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | avgift per tömning | st/tömning | Expected row not found
+- §2.2.5 | hämtningsavgift per år för verksamheter | tillägg för två tömningar per vecka | st/tömning | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | hämtning varje vecka | st/år | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | hämtning varje vecka | st/år | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | hämtning varje vecka | st/år | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | hämtning varje vecka | st/år | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | hämtning var 14:e dag | st/år | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | hämtning månadsvis | st/år | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | hämtning månadsvis | st/år | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | hämtning månadsvis | st/år | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | hämtning månadsvis | st/år | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | avgift per tömning | st/tömning | Expected row not found
+- §2.2.6 | hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | tillägg för två tömningar per vecka | st/tömning | Expected row not found
+- §2.2.7 | verksamheter med beviljad hantering av förbrukat matfett, kontorspapper eller returpapper |  | st/år | Expected row not found
+- §2.2.7 | verksamheter med beviljad hantering av förbrukat matfett, kontorspapper eller returpapper |  | st/år | Expected row not found
+- §2.3 | rörlig avgift (gäller ej gemensam uppsamlingsplats) |  | kr/kg | Expected row not found
+- §2.3 | rörlig avgift (gäller ej gemensam uppsamlingsplats) |  | kr/kg | Expected row not found
+- §2.4.2 | överviktsavgift kärl | över 40 kg | kr/kg | Expected row not found
+- §2.4.2 | överviktsavgift kärl | över 60 kg | kr/kg | Expected row not found
+- §2.4.2 | överviktsavgift kärl | över 60 kg | kr/kg | Expected row not found
+- §2.4.2 | överviktsavgift kärl | över 100 kg | kr/kg | Expected row not found
+- §2.4.3 | överfull behållare |  | st/tillfälle/behållare | Expected row not found
+- §2.4.3 | överfull behållare |  | st/tillfälle/behållare | Expected row not found
+- §2.4.4 | byte av trasigt kärl |  | st/kärl | Expected row not found
+- §2.4.5 | byte av abonnemang | 140–240 l | st/kärl | Expected row not found
+- §2.4.5 | byte av abonnemang | 370–660 l | st/kärl | Expected row not found
+- §2.4.5 | byte av abonnemang |  | st/kärl | Expected row not found
+- §2.4.6 | felsorteringsavgift |  | st/tillfälle | Expected row not found
+- §2.4.6 | felsorteringsavgift |  | st/tillfälle | Expected row not found
+- §2.4.7 | dragväg och avfallsutrymmen | 10-20 | st/år | Expected row not found
+- §2.4.7 | dragväg och avfallsutrymmen | 20-30 | st/år | Expected row not found
+- §2.4.7 | dragväg och avfallsutrymmen |  | st/år | Expected row not found
+- §2.4.8 | evenemang och andra tillfälliga händelser |  | st/period | Expected row not found
+- §2.4.8 | evenemang och andra tillfälliga händelser |  | st/period | Expected row not found
+- §2.4.8 | evenemang och andra tillfälliga händelser |  | st/period | Expected row not found
+- §2.4.9 | budning av mat- och restavfall |  | st/tillfälle | Expected row not found
+- §2.4.9 | budning av mat- och restavfall |  | st/tillfälle | Expected row not found
+- §2.4.10 | betalsäck och akutsäck |  | st/säck | Expected row not found
+- §2.4.11 | tillbehör |  | bunt | Expected row not found
+- §2.4.11 | tillbehör |  | st | Expected row not found
+- §2.4.11 | tillbehör |  | st | Expected row not found
+- §2.5.1 | budning för fastighetsnära hämtning av kommunalt avfall |  | st/tillfälle | Expected row not found
+- §2.5.1 | budning för fastighetsnära hämtning av kommunalt avfall |  | st/tillfälle | Expected row not found
+- §2.5.1 | budning för fastighetsnära hämtning av kommunalt avfall |  | st/tillfälle | Expected row not found
+- §3.1 | ordinarie tömning slam |  | kr/tömning | Expected row not found
+- §3.1 | ordinarie tömning slam |  | kr/tömning | Expected row not found
+- §3.1 | ordinarie tömning slam |  | kr/tömning | Expected row not found
+- §3.1 | ordinarie tömning slam |  | kr/m³ | Expected row not found
+- §3.2 | tilläggstjänster slam |  | kr/tillfälle | Expected row not found
+- §3.2 | tilläggstjänster slam |  | kr/tillfälle | Expected row not found
+- §3.2 | tilläggstjänster slam |  | kr/tillfälle | Expected row not found
+- §3.2 | tilläggstjänster slam |  | kr/tillfälle | Expected row not found
+- §3.2 | tilläggstjänster slam |  | kr/tillfälle | Expected row not found
+- §3.2 | tilläggstjänster slam |  | kr/tillfälle | Expected row not found
+- §3.2 | tilläggstjänster slam |  | kr/tillfälle | Expected row not found
+- §3.2 | tilläggstjänster slam |  | kr/tillfälle | Expected row not found
+- §3.2 | tilläggstjänster slam |  | kr/tillfälle | Expected row not found
+- §3.3 | övriga avgifter och tillägg slam | inom 24 timmar | kr/tillfälle | Expected row not found
+- §3.3 | övriga avgifter och tillägg slam | inom 24 timmar | kr/tillfälle | Expected row not found
+- §3.3 | övriga avgifter och tillägg slam | inom 7 arbetsdagar | kr/tillfälle | Expected row not found
+- §3.3 | övriga avgifter och tillägg slam |  | kr/tillfälle | Expected row not found
+- §3.3 | övriga avgifter och tillägg slam |  | kr/tillfälle | Expected row not found
+- §3.3 | övriga avgifter och tillägg slam |  | kr/tillfälle | Expected row not found
+- §3.4 | latrinbehållare |  | st | Expected row not found
+- §4.1 | budad hämtning fosforfilter | budad hämtning inom sju (7) arbetsdagar | kr/tillfälle | Expected row not found
+- §4.1 | budad hämtning fosforfilter | budad hämtning inom sju (7) arbetsdagar | kr/tillfälle | Expected row not found
+- §4.1 | budad hämtning fosforfilter | tillägg för transport och behandlingskostnad | kr/tillfälle | Expected row not found
+- §4.2 | tilläggstjänster fosforfilter |  | kr/tillfälle | Expected row not found
+- §4.2 | tilläggstjänster fosforfilter |  | kr/tillfälle | Expected row not found
+- §4.2 | tilläggstjänster fosforfilter |  | kr/tillfälle | Expected row not found
+- §4.2 | tilläggstjänster fosforfilter |  | kr/tillfälle | Expected row not found
+- §5.1 | ordinarie tömning av fettavskiljare | tömning, transport och behandling av fettavskiljare/tank enligt anmält tömningsintervall | kr/tillfälle | Expected row not found
+- §5.1 | ordinarie tömning av fettavskiljare | tömning, transport och behandling av fettavskiljare/tank enligt anmält tömningsintervall | kr/tillfälle | Expected row not found
+- §5.1 | ordinarie tömning av fettavskiljare | tömning, transport och behandling av fettavskiljare/tank enligt anmält tömningsintervall | kr/tillfälle | Expected row not found
+- §5.1 | ordinarie tömning av fettavskiljare | tillägg för transport och behandlingskostnad | kr/tillfälle | Expected row not found
+- §5.1 | ordinarie tömning av fettavskiljare | tillägg för transport och behandlingskostnad | kr/tillfälle | Expected row not found
+- §5.2 | tilläggstjänster fettavskiljare |  | kr/tillfälle | Expected row not found
+- §5.2 | tilläggstjänster fettavskiljare |  | kr/tillfälle | Expected row not found
+- §5.2 | tilläggstjänster fettavskiljare |  | kr/tillfälle | Expected row not found
+- §5.2 | tilläggstjänster fettavskiljare |  | kr/tillfälle | Expected row not found
+- §5.2 | tilläggstjänster fettavskiljare |  | kr/tillfälle | Expected row not found
+- §5.2 | tilläggstjänster fettavskiljare |  | kr/tillfälle | Expected row not found
+- §5.2 | tilläggstjänster fettavskiljare |  | kr/tillfälle | Expected row not found
+- §5.2 | tilläggstjänster fettavskiljare |  | kr/tillfälle | Expected row not found
+- §5.2 | tilläggstjänster fettavskiljare |  | kr/tillfälle | Expected row not found
+- §5.2 | tilläggstjänster fettavskiljare |  | kr/tillfälle | Expected row not found
+- §5.3 | övriga avgifter och tillägg fettavskiljare | inom 48 timmar | kr/tillfälle | Expected row not found
+- §5.3 | övriga avgifter och tillägg fettavskiljare | inom 48 timmar | kr/tillfälle | Expected row not found
+- §5.3 | övriga avgifter och tillägg fettavskiljare | inom 8 arbetsdagar | kr/tillfälle | Expected row not found
+- §5.3 | övriga avgifter och tillägg fettavskiljare | inom 8 arbetsdagar | kr/tillfälle | Expected row not found
+- §5.3 | övriga avgifter och tillägg fettavskiljare |  | kr/tillfälle | Expected row not found
+- §5.3 | övriga avgifter och tillägg fettavskiljare |  | kr/tillfälle | Expected row not found
+- §6.1.1 | inpassering på åvc |  | kr/besök | Expected row not found
+- §6.1.1 | inpassering på åvc |  | kr/besök | Expected row not found
+- §6.1.1 | inpassering på åvc |  | kr/besök | Expected row not found
+- §6.1.1 | inpassering på åvc |  | kr/besök | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/ton | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/fordon | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3295 | kr/l | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3295 | kr/l | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3295 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3295 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3295 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3295 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3295 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1203 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1202 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1202 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1202 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1263 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1950 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1950 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1950 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3266 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3262 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1993 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1993 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3291 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 2903 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 2903 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 2588 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3287 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 2810 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3265 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3261 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3260 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3264 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1832 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 2031 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1790 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3263 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 2672 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 2014 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3106 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3106 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3105 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 2809 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3506 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3286 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1479 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1495 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1057 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 2037 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1044 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1013 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1965 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1046 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1072 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1009 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3249 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 3080 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1304 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1497 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 12 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 12 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 333 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 1043 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 2212 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 2911 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral | 2911 | kr/kg | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | st | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | st | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | st | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr | Expected row not found
+- §6.1.2 | hanteringsavgifter för avfall inlämnat på återvinningscentral |  | kr | Expected row not found
+- §6.1.3 | hyra av container |  | st/dygn | Expected row not found
+- §6.1.3 | hyra av container |  | st/dygn | Expected row not found
+- §6.1.3 | hyra av container |  | st/dygn | Expected row not found
+- §6.1.4 | tillägg och avgifter |  | st/tillfälle | Expected row not found
 
 EXTRA
 - 2.1 | en- och tvåbostadshus |  |  | Extra parser row
@@ -99,8 +372,8 @@ EXTRA
 - 2.4.3 | överfullt kärl |  | kärl | Extra parser row
 - 2.4.3 | överfull bottentömmande behållare |  |  | Extra parser row
 - 2.4.4 | byte av trasigt kärl vid oaktsamhet |  | kärl | Extra parser row
-- 2.4.5 | byte/återtag av kärl en (1) ggr/år 140–240 liter |  | liter | Extra parser row
-- 2.4.5 | byte/återtag av kärl en (1) ggr/år 370–660 liter |  | liter | Extra parser row
+- 2.4.5 | byte/återtag av kärl en (1) ggr/år 140–240 l |  | l | Extra parser row
+- 2.4.5 | byte/återtag av kärl en (1) ggr/år 370–660 l |  | l | Extra parser row
 - 2.4.5 | ytterligare byte av kärl under kalenderåret |  | kärl | Extra parser row
 - 2.4.6 | kärl |  | kärl | Extra parser row
 - 2.4.6 | bottentömmande behållare |  |  | Extra parser row
@@ -127,12 +400,12 @@ EXTRA
 - 2.5.1 | farligt avfall (ej uppmärkt) |  |  | Extra parser row
 - 2.5.1 | farligt avfall (uppmärkt) |  |  | Extra parser row
 - 2.5.1 | avisering av ankomst |  |  | Extra parser row
-- 3.1 | upp till 3 m3 |  | m³ | Extra parser row
-- 3.1 | mellan 3 m3 och 6 m3 |  | m³ | Extra parser row
-- 3.1 | mellan 6 m3 och 9 m3 |  | m³ | Extra parser row
-- 3.1 | tillägg per m3 över 9 m3 |  | m³ | Extra parser row
-- 3.1 | bad-, disk- och tvättbrunn upp till 3 m3 |  | m³ | Extra parser row
-- 3.1 | tillägg per m3 över 3 m3 |  | m³ | Extra parser row
+- 3.1 | upp till 3 m³ |  | m³ | Extra parser row
+- 3.1 | mellan 3 m³ och 6 m³ |  | m³ | Extra parser row
+- 3.1 | mellan 6 m³ och 9 m³ |  | m³ | Extra parser row
+- 3.1 | tillägg per m³ över 9 m³ |  | m³ | Extra parser row
+- 3.1 | bad-, disk- och tvättbrunn upp till 3 m³ |  | m³ | Extra parser row
+- 3.1 | tillägg per m³ över 3 m³ |  | m³ | Extra parser row
 - 3.2 | dragning av extra slang vid 5-25 m |  |  | Extra parser row
 - 3.2 | dragning av extra slang vid 25-35 m |  |  | Extra parser row
 - 3.2 | dragning av extra slang vid 36-45 m |  |  | Extra parser row
@@ -142,13 +415,13 @@ EXTRA
 - 3.2 | krav på närvaro vid specificerad tömningstid |  |  | Extra parser row
 - 3.2 | hantering av kod för kodlås vid slamtömning |  |  | Extra parser row
 - 3.2 | hetvattentvätt med spolbil, timersättning |  |  | Extra parser row
-- 3.2 | tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3 |  | m³ | Extra parser row
+- 3.2 | tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m³ |  | m³ | Extra parser row
 - 3.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) |  |  | Extra parser row
 - 3.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) |  |  | Extra parser row
 - 3.3 | budning utanför ordinarie tömningsperiod (1 nov – 30 april) |  |  | Extra parser row
 - 3.3 | budning utanför ordinarie tömningsperiod (1 nov – 30 april) |  |  | Extra parser row
 - 3.3 | tömning av toalettvagnar eller liknande /styck |  | styck | Extra parser row
-- 3.4 | latrinbehållare 37 liter inkl. mottagning och behandling |  | liter | Extra parser row
+- 3.4 | latrinbehållare 37 l inkl. mottagning och behandling |  | l | Extra parser row
 - 4.1 | filtermassor upp till 500 kg |  | kilogram | Extra parser row
 - 4.1 | filtermassor upp till 500 kg |  | kilogram | Extra parser row
 - 4.1 | filtermassor 500-1000 kg |  | kilogram | Extra parser row
@@ -156,12 +429,12 @@ EXTRA
 - 4.2 | krav på information om hämtningstid |  |  | Extra parser row
 - 4.2 | krav på närvaro vid specificerad hämtningstid |  |  | Extra parser row
 - 4.2 | hantering av kod för kodlås |  |  | Extra parser row
-- 5.1 | upp till 3 m3 |  | m³ | Extra parser row
-- 5.1 | upp till 3 m3 |  | m³ | Extra parser row
-- 5.1 | mellan 3 m3 och 6 m3 |  | m³ | Extra parser row
-- 5.1 | mellan 3 m3 och 6 m3 |  | m³ | Extra parser row
-- 5.1 | över 6 m3 |  | m³ | Extra parser row
-- 5.1 | över 6 m3 |  | m³ | Extra parser row
+- 5.1 | upp till 3 m³ |  | m³ | Extra parser row
+- 5.1 | upp till 3 m³ |  | m³ | Extra parser row
+- 5.1 | mellan 3 m³ och 6 m³ |  | m³ | Extra parser row
+- 5.1 | mellan 3 m³ och 6 m³ |  | m³ | Extra parser row
+- 5.1 | över 6 m³ |  | m³ | Extra parser row
+- 5.1 | över 6 m³ |  | m³ | Extra parser row
 - 5.2 | dragning av extra slang vid 5-25 m |  |  | Extra parser row
 - 5.2 | dragning av extra slang vid 25-35 m |  |  | Extra parser row
 - 5.2 | dragning av extra slang vid 36-45 m |  |  | Extra parser row
@@ -172,7 +445,7 @@ EXTRA
 - 5.2 | hantering av kod för kodlås vid tömning |  | tömning | Extra parser row
 - 5.2 | hetvattentvätt med spolbil, timersättning |  |  | Extra parser row
 - 5.2 | silikontätning per lock |  |  | Extra parser row
-- 5.2 | tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3 |  | m³ | Extra parser row
+- 5.2 | tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m³ |  | m³ | Extra parser row
 - 5.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) |  |  | Extra parser row
 - 5.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) |  |  | Extra parser row
 - 5.3 | budning utanför ordinarie tömningsperiod |  |  | Extra parser row
@@ -231,8 +504,8 @@ EXTRA
 - 6.1.2 | bekämpningsmedel flytande |  | kilogram | Extra parser row
 - 6.1.2 | kvicksilverhaltigt avfall |  | kilogram | Extra parser row
 - 6.1.2 | kvicksilver i föremål |  | kilogram | Extra parser row
-- 6.1.2 | oljehaltigt avfall (ej pcb) |  | liter | Extra parser row
-- 6.1.2 | olja förorenad (ej pcb) |  | liter | Extra parser row
+- 6.1.2 | oljehaltigt avfall (ej pcb) |  | l | Extra parser row
+- 6.1.2 | olja förorenad (ej pcb) |  | l | Extra parser row
 - 6.1.2 | färg-, lack-, limburkar lösning |  | kilogram | Extra parser row
 - 6.1.2 | färg-, lack-, limburkar lösning aerosoler |  | kilogram | Extra parser row
 - 6.1.2 | isocyanater |  | kilogram | Extra parser row
@@ -273,9 +546,9 @@ EXTRA
 - 6.1.2 | spis, tvätt-, diskmaskin |  | styck | Extra parser row
 - 6.1.2 | spis, tvätt-, diskmaskin från verksamhet |  | kilogram | Extra parser row
 - 6.1.2 | spis, tvätt-, diskmaskin från verksamhet |  | kilogram | Extra parser row
-- 6.1.3 | container x m3 |  | m³ | Extra parser row
-- 6.1.3 | container x m3 |  | m³ | Extra parser row
-- 6.1.3 | container x m3 |  | m³ | Extra parser row
+- 6.1.3 | container x m³ |  | m³ | Extra parser row
+- 6.1.3 | container x m³ |  | m³ | Extra parser row
+- 6.1.3 | container x m³ |  | m³ | Extra parser row
 - 6.1.3 | omklassning av felsorterad container |  | container | Extra parser row
 - 6.1.4 | okänt farligt avfall (säkerhetsdatablad saknas) /fraktion |  | fraktion | Extra parser row
 - 6.1.4 | ombud för rapportering av farligt avfall i avfallsregistret /tillfälle |  | tillfälle | Extra parser row

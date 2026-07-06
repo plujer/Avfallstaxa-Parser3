@@ -1,59 +1,81 @@
+"""Read facit/master rows from the real Master.xlsx.
+
+This reader first profiles all sheets and then reads the best candidate sheet.
+It is deliberately tolerant because Master.xlsx can have Swedish column names,
+merged header rows, and extra metadata columns.
+"""
+
+from __future__ import annotations
+
 from pathlib import Path
 from openpyxl import load_workbook
+
+from parser3.excel.workbook_profiler import WorkbookProfiler
 from parser3.models import TaxRow
 
+
 class MasterExcelReader:
-    SECTION_NAMES = {"section", "paragraf", "§", "kapitel"}
-    NAME_NAMES = {"name", "taxepunkt", "taxa", "benämning", "tjänst", "typ av avfall"}
-    VARIANT_NAMES = {"variant", "intervall", "avgiftstyp"}
-    UNIT_NAMES = {"unit", "enhet"}
+    def __init__(self) -> None:
+        self.profiler = WorkbookProfiler()
 
     def read(self, path: str | Path, sheet_name: str | None = None) -> list[TaxRow]:
-        wb = load_workbook(Path(path), data_only=True)
-        ws = wb[sheet_name] if sheet_name else wb[wb.sheetnames[0]]
-        rows = list(ws.iter_rows(values_only=True))
-        if not rows:
+        workbook_path = Path(path)
+        wb = load_workbook(workbook_path, data_only=True)
+        profile = self.profiler.profile(workbook_path)
+
+        sheet_profile = None
+        if sheet_name:
+            for item in profile.sheets:
+                if item.sheet_name == sheet_name:
+                    sheet_profile = item
+                    break
+        else:
+            sheet_profile = profile.best_sheet
+
+        if sheet_profile is None or sheet_profile.header_row is None:
             return []
-        header_index = self._find_header_index(rows)
-        if header_index is None:
+
+        ws = wb[sheet_profile.sheet_name]
+        cols = sheet_profile.detected_columns
+        if "name" not in cols:
             return []
-        headers = [self._norm_header(v) for v in rows[header_index]]
-        col = self._column_map(headers)
-        result = []
-        for row in rows[header_index + 1:]:
-            section = self._cell(row, col.get("section"))
-            name = self._cell(row, col.get("name"))
-            variant = self._cell(row, col.get("variant"))
-            unit = self._cell(row, col.get("unit"))
-            if name:
-                result.append(TaxRow(section=section, name=name, variant=variant, unit=unit, export=True))
+
+        result: list[TaxRow] = []
+        for row_idx in range(sheet_profile.header_row + 1, ws.max_row + 1):
+            name = self._cell(ws, row_idx, cols.get("name"))
+            if not name or self._is_noise_row(name):
+                continue
+
+            section = self._cell(ws, row_idx, cols.get("section"))
+            variant = self._cell(ws, row_idx, cols.get("variant"))
+            unit = self._cell(ws, row_idx, cols.get("unit"))
+            price = self._cell(ws, row_idx, cols.get("price"))
+            edp_code = self._cell(ws, row_idx, cols.get("edp_code"))
+
+            result.append(
+                TaxRow(
+                    section=section,
+                    name=name,
+                    variant=variant,
+                    unit=unit,
+                    price=price,
+                    export=True,
+                    group=edp_code,  # temporary storage until dedicated EDP model exists
+                )
+            )
+
         return result
 
-    def _find_header_index(self, rows: list[tuple]) -> int | None:
-        for idx, row in enumerate(rows[:30]):
-            headers = {self._norm_header(v) for v in row}
-            if headers & self.NAME_NAMES:
-                return idx
-        return None
-
-    def _column_map(self, headers: list[str]) -> dict[str, int]:
-        result = {}
-        for idx, header in enumerate(headers):
-            if header in self.SECTION_NAMES:
-                result["section"] = idx
-            elif header in self.NAME_NAMES:
-                result["name"] = idx
-            elif header in self.VARIANT_NAMES:
-                result["variant"] = idx
-            elif header in self.UNIT_NAMES:
-                result["unit"] = idx
-        return result
-
-    def _cell(self, row: tuple, index: int | None) -> str:
-        if index is None or index >= len(row):
+    def _cell(self, ws, row_idx: int, col_idx: int | None) -> str:
+        if not col_idx:
             return ""
-        value = row[index]
+        value = ws.cell(row_idx, col_idx).value
         return "" if value is None else str(value).strip()
 
-    def _norm_header(self, value) -> str:
-        return " ".join(str(value or "").strip().lower().split())
+    def _is_noise_row(self, name: str) -> bool:
+        lower = " ".join(name.lower().split())
+        if lower in {"", "summa", "totalt", "total", "taxa", "taxepunkt"}:
+            return True
+        if lower.startswith("kommentar"):
+            return True
+        return False
