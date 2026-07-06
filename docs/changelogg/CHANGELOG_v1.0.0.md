@@ -1,9 +1,11 @@
-# Parser3 v1.0.0
+# Changelog – Parser3 v1.0.0
 
-## Release
+## Slutlig parserrelease
 
-- Parser verifierad mot facit (117/117).
-- Stabil output-struktur:
+- Parser verifierad mot manuellt facit.
+- Acceptance: 117/117.
+- Pytest: 119 passed.
+- Output-struktur färdig:
   - output/acceptance
   - output/diagnostics
   - output/reports
@@ -11,11 +13,5 @@
   - output/excel
   - output/word
   - output/archive
-- rapportzip används för återrapporterings-ZIP.
-- Parsern fryses som bas för nästa utvecklingsfas.
-
-## Nästa fas
-
-- Excel Builder
-- EDP Builder
-- Word Builder
+- Återrapportering via `rapportzip/`.
+- Parsern fryses som grund för Excel Builder.

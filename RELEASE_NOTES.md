@@ -1,24 +1,38 @@
-# Parser3 v1.0.0
+# Parser3 v1.0.0 – Final Release
 
 ## Status
 
-Parsern är nu verifierad mot projektets facit.
+Parser3 v1.0.0 är verifierad och färdig för release.
 
-Verifierade sektioner:
+## Verifiering
 
-- §6.1.1 6/6
-- §6.1.2 103/103
-- §6.1.3 4/4
-- §6.1.4 4/4
+Acceptance:
 
-Totalt: **117/117**
+```text
+§6.1.1  6/6
+§6.1.2 103/103
+§6.1.3  4/4
+§6.1.4  4/4
 
-## Projektstatus
+Totalt: 117/117
+Passed: True
+```
 
-Parser v1.0.0 betraktas nu som den frysta grunden för:
+Pytest:
+
+```text
+119 passed
+0 failed
+```
+
+## Releasebeslut
+
+Parsern betraktas från och med denna release som fryst grund för nästa fas.
+
+Fortsatt utveckling sker i nya delprojekt:
 
 1. Excel Builder
 2. EDP Builder
 3. Word Builder
 
-Ny funktionalitet ska i första hand byggas ovanpå parsern och inte genom att ändra parserlogiken.
+Parserlogik ska inte ändras framöver om det inte är en faktisk buggfix.
