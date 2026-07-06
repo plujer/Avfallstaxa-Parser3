@@ -7,49 +7,24 @@ platform: Windows-11-10.0.26200-SP0
 PYTHONPATH: 
 
 git status:
-D INSTALL_Block1.md
- D INSTALL_Block10.md
- D INSTALL_Block11.md
- D INSTALL_Block12.md
- D INSTALL_Block13.md
- D INSTALL_Block14.md
- D INSTALL_Block15.md
- D INSTALL_Block16.md
- D INSTALL_Block17.md
- D INSTALL_Block18.md
- D INSTALL_Block19.md
- D INSTALL_Block1A_Part2.md
- D INSTALL_Block1B.md
- D INSTALL_Block1C.md
- D INSTALL_Block2.md
- D INSTALL_Block20.md
- D INSTALL_Block21.md
- D INSTALL_Block22.md
- D INSTALL_Block3.md
- D INSTALL_Block4.md
- D INSTALL_Block4_Hotfix_EWC.md
- D INSTALL_Block4_Hotfix_EWC_v2.md
- D INSTALL_Block5.md
- D INSTALL_Block6.md
- D INSTALL_Block7.md
- D INSTALL_Block8.md
- D INSTALL_Block9.md
- D INSTALL_Block9_Hotfix.md
- M build_report.bat
- M output/environment_report.txt
+M output/environment_report.txt
+ M output/parser3_acceptance_debug_report.txt
+ M output/parser3_acceptance_report.txt
+ M output/parser3_architecture_report.txt
+ M output/parser3_missing_diagnostics.txt
+ M output/parser3_precision_report.txt
+ M output/parser3_report.txt
+ M output/parser3_result.json
+ M output/parser3_trace_report.txt
  M output/parser_console.txt
  M output/pytest_report.txt
+ M parser3/acceptance/name_normalizer.py
  M parser3/extractors/section612_extractor.py
- M parser3/parser.py
- M parser3/pipeline/tax_pipeline.py
- M parser3/semantic/semantic_parser.py
- M tools/zip_output.ps1
-?? docs/Block24_ExtractorTrace.md
-?? docs/changelogg/CHANGELOG_Block24.md
-?? docs/install/INSTALL_Block24.md
-?? output/parser3_trace_report.txt
-?? parser3/trace/
-?? tests/test_section612_trace.py
+?? docs/Block25_SpecificMatchFix.md
+?? docs/changelogg/CHANGELOG_Block25.md
+?? docs/install/INSTALL_Block25.md
+?? tests/test_name_normalizer_block25.py
+?? tests/test_section612_specific_match.py
 
 git branch:
 main

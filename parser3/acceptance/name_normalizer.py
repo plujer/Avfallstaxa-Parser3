@@ -1,8 +1,4 @@
-"""Name normalization for acceptance comparison.
-
-This layer is only for comparing parser output with facit. It must not change the
-source Word text or the generated Excel rows.
-"""
+"""Name normalization for acceptance comparison."""
 
 from __future__ import annotations
 
@@ -32,16 +28,12 @@ class NameNormalizer:
 
     def normalize(self, value: str) -> str:
         text = self._basic_clean(value)
-
-        # Remove structured metadata before duplicate collapse. Word tables can
-        # produce: NAME NAME EWC EWC UNIT UNIT.
-        text_without_metadata = self._remove_metadata_tokens(text)
-        text_without_metadata = self._remove_trailing_price(text_without_metadata)
-        text_without_metadata = self._standardize_spacing(text_without_metadata)
-        text_without_metadata = self._remove_trailing_units(text_without_metadata)
-        text_without_metadata = self._collapse_repeated_sequence(text_without_metadata)
-
-        text = self._standardize_spacing(text_without_metadata)
+        text = self._remove_metadata_tokens(text)
+        text = self._remove_trailing_price(text)
+        text = self._standardize_spacing(text)
+        text = self._remove_trailing_units(text)
+        text = self._collapse_repeated_sequence(text)
+        text = self._standardize_spacing(text)
         text = self._remove_trailing_units(text)
         text = self._collapse_duplicate_halves(text)
         text = text.strip(" .;:")
@@ -66,13 +58,12 @@ class NameNormalizer:
         return text.strip()
 
     def _remove_metadata_tokens(self, text: str) -> str:
-        # Remove EWC codes and UN numbers that can be appended to table text.
+        # Remove EWC codes like 200307 or 170601*. Do not remove ordinary
+        # four-digit UN numbers here because short product names can also contain
+        # numbers that must remain meaningful in other sections.
         text = re.sub(r"\b\d{6}\*?\b", " ", text)
         text = re.sub(r"\bun[- ]?nr\b", " ", text)
         text = re.sub(r"\bewc(?: kod)?\b", " ", text)
-
-        # Remove common UN numbers when they stand alone after a row.
-        text = re.sub(r"\b\d{4}\b", " ", text)
         return text
 
     def _remove_trailing_price(self, text: str) -> str:
@@ -94,13 +85,6 @@ class NameNormalizer:
         return text
 
     def _collapse_repeated_sequence(self, text: str) -> str:
-        """Collapse repeated name sequences, even after metadata removal.
-
-        Example:
-        "skrymmande ... 20x20x80 skrymmande ... 20x20x80"
-        becomes:
-        "skrymmande ... 20x20x80"
-        """
         text = text.strip()
         if not text:
             return text
@@ -108,14 +92,12 @@ class NameNormalizer:
         parts = text.split()
         n = len(parts)
 
-        # Exact repeated prefix/suffix with possible short residue.
         for size in range(n // 2, 1, -1):
             first = parts[:size]
             second = parts[size:size * 2]
             if first == second:
                 return " ".join(first + parts[size * 2:]).strip()
 
-        # Fuzzy duplicate detection for rows where punctuation changed.
         best_size = 0
         best_score = 0.0
         for size in range(n // 2, 2, -1):

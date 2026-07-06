@@ -1575,6 +1575,18 @@
     "chapter": "6",
     "section": "6.1.2",
     "group": "",
+    "name": "Skrymmande avfall till energiåtervinning större än 20×20×80",
+    "variant": "",
+    "unit": "kilogram",
+    "price": "",
+    "ewc": "",
+    "un_number": "",
+    "export": true
+  },
+  {
+    "chapter": "6",
+    "section": "6.1.2",
+    "group": "",
     "name": "Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp",
     "variant": "",
     "unit": "kilogram",

@@ -3,7 +3,7 @@ Avfallstaxa Parser 3.1 bootstrap OK
 Config loaded: Avfallstaxa Parser 3.0 0.1.0
 Document blocks read: 446
 Semantic rows: 547
-Semantic tax rows: 236
+Semantic tax rows: 237
 Section summary:
   2.1: 8
   2.2.1: 2
@@ -36,7 +36,7 @@ Section summary:
   5.2: 11
   5.3: 2
   6.1.1: 5
-  6.1.2: 102
+  6.1.2: 103
   6.1.3: 2
   6.1.4: 3
 Trace report: output/parser3_trace_report.txt
@@ -44,7 +44,7 @@ Architecture report: output/parser3_architecture_report.txt
 Explain report: output/parser3_explain_report.txt
 Acceptance passed: False
 Acceptance expected total: 117
-Acceptance actual total: 112
+Acceptance actual total: 113
 Acceptance report: output/parser3_acceptance_report.txt
 Acceptance debug report: output/parser3_acceptance_debug_report.txt
 Missing diagnostics report: output/parser3_missing_diagnostics.txt
@@ -53,7 +53,7 @@ Avfallstaxa Parser 3.1 bootstrap OK
 Config loaded: Avfallstaxa Parser 3.0 0.1.0
 Document blocks read: 446
 Semantic rows: 547
-Semantic tax rows: 236
+Semantic tax rows: 237
 Section summary:
   2.1: 8
   2.2.1: 2
@@ -86,7 +86,7 @@ Section summary:
   5.2: 11
   5.3: 2
   6.1.1: 5
-  6.1.2: 102
+  6.1.2: 103
   6.1.3: 2
   6.1.4: 3
 Arbets-Excel rows read: 271
@@ -94,7 +94,7 @@ Arbets-Excel best sheet: Taxepunkter
 Arbets-Excel detected columns: {'section': 1, 'name': 2, 'price': 3, 'variant': 4, 'unit': 5}
 Diff matched: 0
 Diff missing: 271
-Diff extra: 236
+Diff extra: 237
 Diff passed: False
 Precision report: output/parser3_precision_report.txt
  Volume in drive C has no label.
@@ -104,17 +104,17 @@ Precision report: output/parser3_precision_report.txt
 
 2026-07-06  15:32    <DIR>          .
 2026-07-06  15:32    <DIR>          ..
-2026-07-06  15:32             1ÿ777 environment_report.txt
-2026-07-06  15:32               336 master_console.txt
-2026-07-06  15:32             9ÿ938 master_profile_report.txt
-2026-07-06  15:32               829 parser3_acceptance_debug_report.txt
-2026-07-06  15:32               385 parser3_acceptance_report.txt
-2026-07-06  15:32               231 parser3_architecture_report.txt
-2026-07-06  15:32            67ÿ665 parser3_explain_report.txt
-2026-07-06  15:32             5ÿ495 parser3_missing_diagnostics.txt
-2026-07-06  15:32            46ÿ346 parser3_precision_report.txt
-2026-07-06  15:32            16ÿ044 parser3_report.txt
-2026-07-06  15:32            59ÿ950 parser3_result.json
+2026-07-06  15:37             1ÿ313 environment_report.txt
+2026-07-06  15:37               336 master_console.txt
+2026-07-06  15:37             9ÿ938 master_profile_report.txt
+2026-07-06  15:37               286 parser3_acceptance_debug_report.txt
+2026-07-06  15:37               290 parser3_acceptance_report.txt
+2026-07-06  15:37               231 parser3_architecture_report.txt
+2026-07-06  15:37            67ÿ665 parser3_explain_report.txt
+2026-07-06  15:37                58 parser3_missing_diagnostics.txt
+2026-07-06  15:37            46ÿ455 parser3_precision_report.txt
+2026-07-06  15:37            16ÿ138 parser3_report.txt
+2026-07-06  15:37            60ÿ227 parser3_result.json
 2026-07-06  12:31            28ÿ849 Parser3_Run_2026-07-06_12-31-18.zip
 2026-07-06  13:13            33ÿ421 Parser3_Run_2026-07-06_13-13-22.zip
 2026-07-06  13:37            34ÿ110 Parser3_Run_2026-07-06_13-37-08.zip
@@ -124,9 +124,10 @@ Precision report: output/parser3_precision_report.txt
 2026-07-06  14:52            37ÿ470 Parser3_Run_2026-07-06_14-52-33.zip
 2026-07-06  15:00            37ÿ636 Parser3_Run_2026-07-06_15-00-47.zip
 2026-07-06  15:11            37ÿ763 Parser3_Run_2026-07-06_15-11-10.zip
-2026-07-06  15:32            16ÿ201 parser3_trace_report.txt
-2026-07-06  15:32             1ÿ969 parser_console.txt
+2026-07-06  15:32            39ÿ934 Parser3_Run_2026-07-06_15-32-50.zip
+2026-07-06  15:37            16ÿ656 parser3_trace_report.txt
+2026-07-06  15:37             1ÿ969 parser_console.txt
 2026-07-03  17:22            51ÿ337 parser_facit_generated.yaml
-2026-07-06  15:32            11ÿ893 pytest_report.txt
-              24 File(s)        606ÿ388 bytes
-               2 Dir(s)  26ÿ572ÿ029ÿ952 bytes free
+2026-07-06  15:37            11ÿ185 pytest_report.txt
+              25 File(s)        640ÿ010 bytes
+               2 Dir(s)  25ÿ005ÿ744ÿ128 bytes free

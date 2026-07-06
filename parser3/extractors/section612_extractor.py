@@ -39,26 +39,7 @@ class Section612Extractor:
                 self._trace(section, text, clean_norm, ignored, 1.0, "not_exported", "ignored/reference row", order)
                 return []
 
-        best_name = ""
-        best_score = 0.0
-        best_expected_norm = ""
-
-        for name in self.expected_names:
-            expected_norm = self.normalizer.normalize(name)
-            if not expected_norm:
-                continue
-
-            if expected_norm == clean_norm or expected_norm in clean_norm:
-                best_name = name
-                best_score = 1.0
-                best_expected_norm = expected_norm
-                break
-
-            score = SequenceMatcher(None, expected_norm, clean_norm).ratio()
-            if score > best_score:
-                best_name = name
-                best_score = score
-                best_expected_norm = expected_norm
+        best_name, best_score, best_reason, best_expected_norm = self._best_match(clean_norm)
 
         if best_name and best_score >= 0.86:
             row = TaxRow(
@@ -78,7 +59,7 @@ class Section612Extractor:
                 best_name,
                 best_score,
                 "exported",
-                f"matched expected normalized={best_expected_norm}",
+                f"{best_reason}; matched expected normalized={best_expected_norm}",
                 order,
             )
             return [row]
@@ -94,6 +75,42 @@ class Section612Extractor:
             order,
         )
         return []
+
+    def _best_match(self, clean_norm: str) -> tuple[str, float, str, str]:
+        normalized_expected: list[tuple[str, str]] = [
+            (name, self.normalizer.normalize(name))
+            for name in self.expected_names
+            if self.normalizer.normalize(name)
+        ]
+
+        # 1. Exact normalized match wins.
+        for name, expected_norm in normalized_expected:
+            if expected_norm == clean_norm:
+                return name, 1.0, "exact match", expected_norm
+
+        # 2. Substring matches: choose the longest / most specific expected name.
+        substring_matches: list[tuple[int, str, str]] = []
+        for name, expected_norm in normalized_expected:
+            if expected_norm in clean_norm:
+                substring_matches.append((len(expected_norm), name, expected_norm))
+
+        if substring_matches:
+            substring_matches.sort(reverse=True, key=lambda item: item[0])
+            _, name, expected_norm = substring_matches[0]
+            return name, 1.0, "longest substring match", expected_norm
+
+        # 3. Fuzzy fallback.
+        best_name = ""
+        best_score = 0.0
+        best_expected_norm = ""
+        for name, expected_norm in normalized_expected:
+            score = SequenceMatcher(None, expected_norm, clean_norm).ratio()
+            if score > best_score:
+                best_name = name
+                best_score = score
+                best_expected_norm = expected_norm
+
+        return best_name, best_score, "fuzzy match", best_expected_norm
 
     def _trace(
         self,

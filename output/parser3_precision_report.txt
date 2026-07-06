@@ -2,7 +2,7 @@ Parser 3.0 precision report
 
 Matched: 0
 Missing: 271
-Extra: 236
+Extra: 237
 Passed: False
 
 MISSING
@@ -410,6 +410,7 @@ EXTRA
 - 6.1.1 | ej redovisad eller fel redovisad fraktion av avfall /fraktion |  | fraktion | Extra parser row
 - 6.1.2 | avfall till energiåtervinning (240 l sopsäck) |  | styck | Extra parser row
 - 6.1.2 | avfall till energiåtervinning |  | kilogram | Extra parser row
+- 6.1.2 | skrymmande avfall till energiåtervinning större än 20×20×80 |  | kilogram | Extra parser row
 - 6.1.2 | träavfall – obehandlat, utan tapet, plastmatta, tjärpapp |  | kilogram | Extra parser row
 - 6.1.2 | träavfall – behandlat, utan tapet, plastmatta, tjärpapp |  | kilogram | Extra parser row
 - 6.1.2 | tryckimpregnerat virke, pall |  | kilogram | Extra parser row

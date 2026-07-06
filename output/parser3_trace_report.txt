@@ -29,7 +29,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=avfall till energiåtervinning (240 l sopsäck)
+reason: exact match; matched expected normalized=avfall till energiåtervinning (240 l sopsäck)
 score: 1.000
 best_match: Avfall till energiåtervinning (240 L sopsäck)
 input_text: Avfall till energiåtervinning (240 L sopsäck) Avfall till energiåtervinning (240 L sopsäck) 200301 200301 styck styck
@@ -40,7 +40,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=avfall till energiåtervinning
+reason: exact match; matched expected normalized=avfall till energiåtervinning
 score: 1.000
 best_match: Avfall till energiåtervinning
 input_text: Avfall till energiåtervinning Avfall till energiåtervinning 200301 200301 kilogram kilogram
@@ -51,9 +51,9 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=avfall till energiåtervinning
+reason: exact match; matched expected normalized=skrymmande avfall till energiåtervinning större än 20x20x80
 score: 1.000
-best_match: Avfall till energiåtervinning
+best_match: Skrymmande avfall till energiåtervinning större än 20×20×80
 input_text: Skrymmande avfall till energiåtervinning större än 20*20*80 Skrymmande avfall till energiåtervinning större än 20*20*80 200307 200307 kilogram kilogram
 normalized_text: skrymmande avfall till energiåtervinning större än 20x20x80
 
@@ -62,7 +62,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=träavfall-obehandlat, utan tapet, plastmatta, tjärpapp
+reason: exact match; matched expected normalized=träavfall-obehandlat, utan tapet, plastmatta, tjärpapp
 score: 1.000
 best_match: Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp
 input_text: Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp 170201 170201 kilogram kilogram
@@ -73,7 +73,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=träavfall-behandlat, utan tapet, plastmatta, tjärpapp
+reason: exact match; matched expected normalized=träavfall-behandlat, utan tapet, plastmatta, tjärpapp
 score: 1.000
 best_match: Träavfall – behandlat, utan tapet, plastmatta, tjärpapp
 input_text: Träavfall – behandlat, utan tapet, plastmatta, tjärpapp Träavfall – behandlat, utan tapet, plastmatta, tjärpapp 170201 170201 kilogram kilogram
@@ -84,7 +84,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=tryckimpregnerat virke, pall
+reason: longest substring match; matched expected normalized=tryckimpregnerat virke, pall
 score: 1.000
 best_match: Tryckimpregnerat virke, pall
 input_text: Tryckimpregnerat virke, pall Tryckimpregnerat virke, pall 170204* 170204* kilogram kilogram
@@ -95,7 +95,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=betong, lättbetong
+reason: exact match; matched expected normalized=betong, lättbetong
 score: 1.000
 best_match: Betong, lättbetong
 input_text: Betong, lättbetong Betong, lättbetong 170101 170101 kilogram kilogram
@@ -106,7 +106,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=gips, gipsskivor
+reason: exact match; matched expected normalized=gips, gipsskivor
 score: 1.000
 best_match: Gips, gipsskivor
 input_text: Gips, gipsskivor Gips, gipsskivor 170802 170802 kilogram kilogram
@@ -117,7 +117,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=tegel
+reason: exact match; matched expected normalized=tegel
 score: 1.000
 best_match: Tegel
 input_text: Tegel Tegel 170102 170102 kilogram kilogram
@@ -128,7 +128,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=fönster-och planglas utan karm
+reason: exact match; matched expected normalized=fönster-och planglas utan karm
 score: 1.000
 best_match: Fönster- och planglas utan karm
 input_text: Fönster- och planglas utan karm Fönster- och planglas utan karm 170202 170202 kilogram kilogram
@@ -139,7 +139,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=fönster med karm
+reason: exact match; matched expected normalized=fönster med karm
 score: 1.000
 best_match: Fönster med karm
 input_text: Fönster med karm Fönster med karm
@@ -150,7 +150,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=plast
+reason: exact match; matched expected normalized=plast
 score: 1.000
 best_match: Plast
 input_text: Plast Plast kilogram kilogram
@@ -161,7 +161,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=isolering utan innehåll av asbest
+reason: fuzzy match; matched expected normalized=isolering utan innehåll av asbest
 score: 0.970
 best_match: Isolering utan innehåll av asbest
 input_text: Isolering utan innehåll av asbets Isolering utan innehåll av asbets 170604 170604 m3 m3
@@ -172,7 +172,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=klinker, keramik, porslin
+reason: exact match; matched expected normalized=klinker, keramik, porslin
 score: 1.000
 best_match: Klinker, keramik, porslin
 input_text: Klinker, keramik, porslin Klinker, keramik, porslin 170103 170103 kilogram kilogram
@@ -183,7 +183,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=handfat
+reason: exact match; matched expected normalized=handfat
 score: 1.000
 best_match: Handfat
 input_text: Handfat Handfat 170103 170103 styck styck
@@ -194,7 +194,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=wc-stol
+reason: exact match; matched expected normalized=wc-stol
 score: 1.000
 best_match: WC-stol
 input_text: WC stol WC stol 170103 170103 styck styck
@@ -205,7 +205,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=metall
+reason: exact match; matched expected normalized=metall
 score: 1.000
 best_match: Metall
 input_text: Metall Metall 200140 200140 kilogram kilogram
@@ -216,7 +216,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=textilier
+reason: exact match; matched expected normalized=textilier
 score: 1.000
 best_match: Textilier
 input_text: Textilier Textilier kilogram kilogram
@@ -227,7 +227,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=fiskeredskap
+reason: exact match; matched expected normalized=fiskeredskap
 score: 1.000
 best_match: Fiskeredskap
 input_text: Fiskeredskap Fiskeredskap kilogram kilogram
@@ -238,7 +238,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 422
 decision: exported
-reason: matched expected normalized=ätbart fett/frityrolja
+reason: exact match; matched expected normalized=ätbart fett/frityrolja
 score: 1.000
 best_match: Ätbart fett/frityrolja
 input_text: Ätbart fett/frityrolja Ätbart fett/frityrolja liter liter
@@ -249,7 +249,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 423
 decision: exported
-reason: matched expected normalized=kvistar och grenar
+reason: exact match; matched expected normalized=kvistar och grenar
 score: 1.000
 best_match: Kvistar och grenar
 input_text: Kvistar och grenar 200201 m3
@@ -260,7 +260,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 423
 decision: exported
-reason: matched expected normalized=jord
+reason: exact match; matched expected normalized=jord
 score: 1.000
 best_match: Jord
 input_text: Jord
@@ -271,7 +271,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 423
 decision: exported
-reason: matched expected normalized=sten
+reason: exact match; matched expected normalized=sten
 score: 1.000
 best_match: Sten
 input_text: Sten
@@ -282,7 +282,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 423
 decision: exported
-reason: matched expected normalized=stubbar/rötter för krossning
+reason: exact match; matched expected normalized=stubbar/rötter för krossning
 score: 1.000
 best_match: Stubbar/rötter för krossning
 input_text: Stubbar rötter för krossning
@@ -293,7 +293,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 424
 decision: exported
-reason: matched expected normalized=flera fraktioner för egen sortering på ramp (max2 m³)
+reason: exact match; matched expected normalized=flera fraktioner för egen sortering på ramp (max2 m³)
 score: 1.000
 best_match: Flera fraktioner för egen sortering på ramp (max 2 m³)
 input_text: Flera fraktioner för egen sortering på ramp (max 2 m3) besök
@@ -304,7 +304,7 @@ component: Section612Extractor
 section: 6.1.2
 order: 425
 decision: exported
-reason: matched expected normalized=osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall)
+reason: exact match; matched expected normalized=osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall)
 score: 1.000
 best_match: Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall)
 input_text: Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) besök
@@ -327,10 +327,10 @@ section: 6.1.2
 order: 427
 decision: not_exported
 reason: best score below threshold or no expected name
-score: 0.048
-best_match: Stubbar/rötter för krossning
+score: 0.049
+best_match: Skrymmande avfall till energiåtervinning större än 20×20×80
 input_text: Då man som verksamhet och företag, sedan den 1 november 2020, ska rapportera sitt farliga avfall till Naturvårdsverket så ska även intyget även lämnas in till personalen på ÅVC. Om man kommer in med farligt avfall* så ska säkerhetsdatablad för varje fraktion följa med.
-normalized_text: då man som verksamhet och företag, sedan den 1 november, ska rapportera sitt farliga avfall till naturvårdsverket så ska även intyget även lämnas in till personalen på åvc. om man kommer in med farligt avfallxså ska säkerhetsdatablad för varje fraktion följa med
+normalized_text: då man som verksamhet och företag, sedan den 1 november 2020, ska rapportera sitt farliga avfall till naturvårdsverket så ska även intyget även lämnas in till personalen på åvc. om man kommer in med farligt avfallxså ska säkerhetsdatablad för varje fraktion följa med
 
 ====================================================================================================
 component: Section612Extractor
