@@ -36,3 +36,11 @@ def test_tax_knowledge_extractor_detects_slam_category():
     assert feature.category == "Slam"
     assert feature.waste_type == "Slam"
     assert feature.factor_hint == "TILLFÄLLE"
+
+
+def test_tax_knowledge_extractor_does_not_match_tra_inside_extra():
+    rows = [ParserTaxRow(section="5.1", tax_point="Slamtömning extra", unit="tillfälle")]
+
+    report = TaxKnowledgeExtractor().extract(rows)
+
+    assert report.features[0].waste_type != "Träavfall"

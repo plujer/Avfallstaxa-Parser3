@@ -13,18 +13,24 @@ def test_project_configs_exist():
     assert Path("data/projects/Norsjo/project_config.json").exists()
 
 
-def test_report_package_includes_project_outputs():
+def test_report_package_includes_primary_project_output():
     text = Path("tools/zip_excel_report.ps1").read_text(encoding="utf-8")
 
     assert r"output\projects\Sorsele" in text
-    assert r"output\projects\Mala" in text
-    assert r"output\projects\Norsjo" in text
+    assert "ArbetsExcel_Sorsele_byggd.xlsx" in text
 
 
-def test_build_excel_report_runs_project_outputs():
+def test_build_excel_report_runs_primary_sorsele_project():
     text = Path("build_excel_report.bat").read_text(encoding="utf-8")
 
     assert "excel_builder_project_run.py" in text
+    assert r"data\projects\Sorsele\project_config.json" in text
+    assert "sorsele_project_run_console.txt" in text
+
+
+def test_all_projects_script_keeps_batch_option_for_mala_norsjo_sorsele():
+    text = Path("build_all_projects.bat").read_text(encoding="utf-8")
+
     assert r"data\projects\Sorsele\project_config.json" in text
     assert r"data\projects\Mala\project_config.json" in text
     assert r"data\projects\Norsjo\project_config.json" in text

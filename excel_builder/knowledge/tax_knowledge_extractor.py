@@ -26,16 +26,17 @@ class TaxKnowledgeExtractor:
                 row.variant,
                 row.unit,
             ]))
+            tokens = self._tokens(text)
 
             feature = TaxKnowledgeFeature(
                 parser_row=row,
                 section_group=self._section_group(row.section),
-                category=self._category(row.section, text),
-                waste_type=self._waste_type(text),
-                unit_type=self._unit_type(row.unit, text),
+                category=self._category(row.section, text, tokens),
+                waste_type=self._waste_type(text, tokens),
+                unit_type=self._unit_type(row.unit, text, tokens),
                 container_volume_liter=self._container_volume(text),
-                factor_hint=self._factor_hint(row.unit, text),
-                keywords=self._keywords(text),
+                factor_hint=self._factor_hint(row.unit, text, tokens),
+                keywords=self._keywords(tokens),
             )
 
             feature.confidence = self._confidence(feature)
@@ -51,7 +52,7 @@ class TaxKnowledgeExtractor:
             return ".".join(parts[:2])
         return normalized
 
-    def _category(self, section: str, text: str) -> str:
+    def _category(self, section: str, text: str, tokens: set[str]) -> str:
         section_norm = self.normalizer.normalize_section(section)
 
         if section_norm.startswith("6.1.2"):
@@ -66,56 +67,58 @@ class TaxKnowledgeExtractor:
             return "Flerbostad/verksamhet"
         if section_norm.startswith("2"):
             return "Hushåll"
-        if "återvinningscentral" in text or "åvc" in text:
+        if "återvinningscentral" in text or "åvc" in tokens:
             return "ÅVC/verksamhetsavfall"
-        if "slam" in text or "slamtömning" in text:
+        if "slam" in tokens or "slamtömning" in tokens:
             return "Slam"
         return "Okänd"
 
-    def _waste_type(self, text: str) -> str:
-        rules = [
-            ("asbest", "Asbest"),
-            ("gips", "Gips"),
-            ("trä", "Träavfall"),
-            ("tra", "Träavfall"),
-            ("tryckimpregnerat", "Tryckimpregnerat trä"),
-            ("betong", "Betong"),
-            ("tegel", "Tegel"),
-            ("metall", "Metall"),
-            ("plast", "Plast"),
-            ("farligt", "Farligt avfall"),
-            ("olje", "Oljeavfall"),
-            ("batteri", "Batterier"),
-            ("elavfall", "Elavfall"),
-            ("el-avfall", "Elavfall"),
-            ("kyl", "Kyl/frys"),
-            ("frys", "Kyl/frys"),
-            ("slam", "Slam"),
-            ("matavfall", "Matavfall"),
-            ("restavfall", "Restavfall"),
-            ("förpackning", "Förpackningar"),
-            ("forpackning", "Förpackningar"),
+    def _waste_type(self, text: str, tokens: set[str]) -> str:
+        token_rules = [
+            ({"asbest"}, "Asbest"),
+            ({"gips", "gipsskivor"}, "Gips"),
+            ({"tryckimpregnerat"}, "Tryckimpregnerat trä"),
+            ({"betong", "lättbetong"}, "Betong"),
+            ({"tegel"}, "Tegel"),
+            ({"metall"}, "Metall"),
+            ({"plast"}, "Plast"),
+            ({"batteri", "batterier"}, "Batterier"),
+            ({"elavfall", "el-avfall"}, "Elavfall"),
+            ({"slam", "slamtömning"}, "Slam"),
+            ({"matavfall"}, "Matavfall"),
+            ({"restavfall"}, "Restavfall"),
+            ({"förpackning", "förpackningar", "forpackning", "forpackningar"}, "Förpackningar"),
         ]
 
-        for needle, value in rules:
-            if needle in text:
+        for needles, value in token_rules:
+            if tokens.intersection(needles):
                 return value
+
+        if "träavfall" in tokens or "trä" in tokens or "virke" in tokens:
+            return "Träavfall"
+        if "olje" in text or "olja" in tokens or "oljefilter" in tokens:
+            return "Oljeavfall"
+        if "farligt" in tokens:
+            return "Farligt avfall"
+        if "kyl" in tokens or "frys" in tokens or "frysskåp" in tokens:
+            return "Kyl/frys"
+
         return ""
 
-    def _unit_type(self, unit: str, text: str) -> str:
+    def _unit_type(self, unit: str, text: str, tokens: set[str]) -> str:
         unit_norm = self.normalizer.normalize(unit)
 
-        if unit_norm in {"kg", "kilogram"} or "kilogram" in text:
+        if unit_norm in {"kg", "kilogram"} or "kilogram" in tokens:
             return "Vikt"
-        if unit_norm in {"ton"} or " ton" in f" {text}":
+        if unit_norm in {"ton"} or "ton" in tokens:
             return "Vikt"
-        if unit_norm in {"m3", "m³", "kubikmeter"} or "m3" in text or "m³" in text:
+        if unit_norm in {"m3", "m³", "kubikmeter"} or "m3" in tokens or "m³" in tokens or "kubikmeter" in tokens:
             return "Volym"
-        if unit_norm in {"st", "styck", "st."} or "styck" in text:
+        if unit_norm in {"st", "styck", "st."} or "styck" in tokens:
             return "Styck"
-        if "liter" in text or re.search(r"\b\d+\s*l\b", text):
+        if "liter" in tokens or re.search(r"\b\d+\s*l\b", text):
             return "Behållarvolym"
-        if "gång" in text or "gang" in text or "tillfälle" in text:
+        if "gång" in tokens or "gang" in tokens or "tillfälle" in tokens:
             return "Tillfälle"
         return ""
 
@@ -128,8 +131,8 @@ class TaxKnowledgeExtractor:
             return match.group(1)
         return ""
 
-    def _factor_hint(self, unit: str, text: str) -> str:
-        unit_type = self._unit_type(unit, text)
+    def _factor_hint(self, unit: str, text: str, tokens: set[str]) -> str:
+        unit_type = self._unit_type(unit, text, tokens)
         if unit_type == "Vikt":
             return "VIKG"
         if unit_type == "Volym":
@@ -142,9 +145,16 @@ class TaxKnowledgeExtractor:
             return "TILLFÄLLE"
         return ""
 
-    def _keywords(self, text: str) -> list[str]:
+    def _tokens(self, text: str) -> set[str]:
+        return {
+            token
+            for token in re.split(r"[^a-zåäö0-9-]+", text)
+            if token
+        }
+
+    def _keywords(self, tokens: set[str]) -> list[str]:
         words = []
-        for token in re.split(r"[^a-zåäö0-9]+", text):
+        for token in tokens:
             if len(token) < 3:
                 continue
             if token in {"och", "med", "utan", "för", "fran", "från", "till", "per"}:

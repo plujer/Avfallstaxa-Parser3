@@ -1,22 +1,22 @@
 ﻿Paragraf;Taxapunkt;Variant;Enhet;Section group;Kategori;Avfallstyp;Enhetstyp;Behållarvolym liter;Faktorhint;Confidence;Keywords;Notes
-2.1;En- och tvåbostadshus;;;2.1;Hushåll;;;;;0.50;tvåbostadshus;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+2.1;En- och tvåbostadshus;;;2.1;Hushåll;;;;;0.50;en-och, tvåbostadshus;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.1;Fritidshus;;;2.1;Hushåll;;;;;0.50;fritidshus;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.1;Verksamhet;;;2.1;Hushåll;;;;;0.50;verksamhet;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.1;Lägenhet i flerbostadshus;;lägenhet;2.1;Hushåll;;;;;0.50;flerbostadshus, lägenhet;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.1;Lägenhet för specialändamål;;lägenhet;2.1;Hushåll;;;;;0.50;lägenhet, specialändamål;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.1;Anläggning;;;2.1;Hushåll;;;;;0.50;anläggning;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.1;Säsongsbaserad uppställningsplats;;;2.1;Hushåll;;;;;0.50;säsongsbaserad, uppställningsplats;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.1;Campingstuga/-lägenhet;;lägenhet;2.1;Hushåll;;;;;0.50;campingstuga, lägenhet;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.2.1;Kärl 240 l (mat-/restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;240;VOLYM/BEHÅLLARE;1.00;240, kärl, mat, restavfall;
-2.2.1;Extrakärl 190 l (restavfall);;;2.2;Hushåll;Träavfall;Behållarvolym;190;VOLYM/BEHÅLLARE;1.00;190, extrakärl, restavfall;
-2.2.2;Kärl 240 l (mat-/restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;240;VOLYM/BEHÅLLARE;1.00;240, kärl, mat, restavfall;
-2.2.2;Extrakärl 190 l (restavfall);;;2.2;Hushåll;Träavfall;Behållarvolym;190;VOLYM/BEHÅLLARE;1.00;190, extrakärl, restavfall;
-2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;2.2;Hushåll;Restavfall;;;;0.75;gemensam, mat, restavfall, uppsamlingsplats;Faktor kunde inte härledas från enhet/text.
-2.2.3;Extra digital licens (årskostnad);;;2.2;Hushåll;Träavfall;;;;0.75;digital, extra, licens, årskostnad;Faktor kunde inte härledas från enhet/text.
-2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;2.2;Hushåll;;Tillfälle;;TILLFÄLLE;0.75;engångskostnad, fob, fysisk, kallad, nyckel;Avfallstyp kunde inte härledas.
+2.1;Campingstuga/-lägenhet;;lägenhet;2.1;Hushåll;;;;;0.50;-lägenhet, campingstuga, lägenhet;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+2.2.1;Kärl 240 l (mat-/restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;240;VOLYM/BEHÅLLARE;1.00;240, kärl, mat-, restavfall;
+2.2.1;Extrakärl 190 l (restavfall);;;2.2;Hushåll;Restavfall;Behållarvolym;190;VOLYM/BEHÅLLARE;1.00;190, extrakärl, restavfall;
+2.2.2;Kärl 240 l (mat-/restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;240;VOLYM/BEHÅLLARE;1.00;240, kärl, mat-, restavfall;
+2.2.2;Extrakärl 190 l (restavfall);;;2.2;Hushåll;Restavfall;Behållarvolym;190;VOLYM/BEHÅLLARE;1.00;190, extrakärl, restavfall;
+2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;2.2;Hushåll;Restavfall;;;;0.75;gemensam, mat-, restavfall, uppsamlingsplats;Faktor kunde inte härledas från enhet/text.
+2.2.3;Extra digital licens (årskostnad);;;2.2;Hushåll;;;;;0.50;digital, extra, licens, årskostnad;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;2.2;Hushåll;;;;;0.50;engångskostnad, fob, fysisk, kallad, nyckel;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.2.3;Byte av telefonnummer kopplat till licens;;;2.2;Hushåll;;;;;0.50;byte, kopplat, licens, telefonnummer;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.2.3;Kostnad för öppning av behållare;;;2.2;Hushåll;;;;;0.50;behållare, kostnad, öppning;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.2.4;Kärl 240 l (mat-/restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;240;VOLYM/BEHÅLLARE;1.00;240, kärl, mat, restavfall;
+2.2.4;Kärl 240 l (mat-/restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;240;VOLYM/BEHÅLLARE;1.00;240, kärl, mat-, restavfall;
 2.2.4;Kärl 370 l (restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;370;VOLYM/BEHÅLLARE;1.00;370, kärl, restavfall;
 2.2.4;Kärl 660 l (restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;660;VOLYM/BEHÅLLARE;1.00;660, kärl, restavfall;
 2.2.4;Kärl 140 l (matavfall);;kärl;2.2;Hushåll;Matavfall;Behållarvolym;140;VOLYM/BEHÅLLARE;1.00;140, kärl, matavfall;
@@ -25,21 +25,21 @@
 2.2.4;Kärl 660 l (förpackningar);;kärl;2.2;Hushåll;Förpackningar;Behållarvolym;660;VOLYM/BEHÅLLARE;1.00;660, förpackningar, kärl;
 2.2.4;Kärl 190 l (tidningar och returpapper);;kärl;2.2;Hushåll;;Behållarvolym;190;VOLYM/BEHÅLLARE;0.75;190, kärl, returpapper, tidningar;Avfallstyp kunde inte härledas.
 2.2.4;Kärl 370 l (tidningar och returpapper);;kärl;2.2;Hushåll;;Behållarvolym;370;VOLYM/BEHÅLLARE;0.75;370, kärl, returpapper, tidningar;Avfallstyp kunde inte härledas.
-2.2.4;(mat-/restavfall, förpackningar);;;2.2;Hushåll;Restavfall;;;;0.75;förpackningar, mat, restavfall;Faktor kunde inte härledas från enhet/text.
-2.2.5;Kärl 240 l (mat-/restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;240;VOLYM/BEHÅLLARE;1.00;240, kärl, mat, restavfall;
+2.2.4;(mat-/restavfall, förpackningar);;;2.2;Hushåll;Restavfall;;;;0.75;förpackningar, mat-, restavfall;Faktor kunde inte härledas från enhet/text.
+2.2.5;Kärl 240 l (mat-/restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;240;VOLYM/BEHÅLLARE;1.00;240, kärl, mat-, restavfall;
 2.2.5;Kärl 370 l (restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;370;VOLYM/BEHÅLLARE;1.00;370, kärl, restavfall;
 2.2.5;Kärl 660 l (restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;660;VOLYM/BEHÅLLARE;1.00;660, kärl, restavfall;
 2.2.5;Kärl 140 l (matavfall);;kärl;2.2;Hushåll;Matavfall;Behållarvolym;140;VOLYM/BEHÅLLARE;1.00;140, kärl, matavfall;
-2.2.5;Bottentömmande behållare (mat-/restavfall);;;2.2;Hushåll;Restavfall;;;;0.75;behållare, bottentömmande, mat, restavfall;Faktor kunde inte härledas från enhet/text.
+2.2.5;Bottentömmande behållare (mat-/restavfall);;;2.2;Hushåll;Restavfall;;;;0.75;behållare, bottentömmande, mat-, restavfall;Faktor kunde inte härledas från enhet/text.
 2.2.5;Lastväxlarflak (restavfall);;;2.2;Hushåll;Restavfall;;;;0.75;lastväxlarflak, restavfall;Faktor kunde inte härledas från enhet/text.
-2.2.6;Kärl 240 l (mat-/restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;240;VOLYM/BEHÅLLARE;1.00;240, kärl, mat, restavfall;
+2.2.6;Kärl 240 l (mat-/restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;240;VOLYM/BEHÅLLARE;1.00;240, kärl, mat-, restavfall;
 2.2.6;Kärl 370 l (restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;370;VOLYM/BEHÅLLARE;1.00;370, kärl, restavfall;
 2.2.6;Kärl 660 l (restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;660;VOLYM/BEHÅLLARE;1.00;660, kärl, restavfall;
 2.2.6;Kärl 140 l (matavfall);;kärl;2.2;Hushåll;Matavfall;Behållarvolym;140;VOLYM/BEHÅLLARE;1.00;140, kärl, matavfall;
-2.2.6;Bottentömmande behållare (mat-/restavfall);;;2.2;Hushåll;Restavfall;;;;0.75;behållare, bottentömmande, mat, restavfall;Faktor kunde inte härledas från enhet/text.
+2.2.6;Bottentömmande behållare (mat-/restavfall);;;2.2;Hushåll;Restavfall;;;;0.75;behållare, bottentömmande, mat-, restavfall;Faktor kunde inte härledas från enhet/text.
 2.2.6;Lastväxlarflak (restavfall);;;2.2;Hushåll;Restavfall;;;;0.75;lastväxlarflak, restavfall;Faktor kunde inte härledas från enhet/text.
-2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;2.2;Hushåll;;Behållarvolym;140;VOLYM/BEHÅLLARE;0.75;140, kontors, kärl, returpapper;Avfallstyp kunde inte härledas.
-2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;2.2;Hushåll;;;;;0.50;anvisning, egen, enligt, förbrukat, kontors, returpapper, överlämning;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;2.2;Hushåll;;Behållarvolym;140;VOLYM/BEHÅLLARE;0.75;140, kontors-, kärl, returpapper;Avfallstyp kunde inte härledas.
+2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;2.2;Hushåll;;;;;0.50;anvisning, egen, enligt, förbrukat, kontors-, returpapper, överlämning;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;2.2;Hushåll;;;;;0.50;anvisning, egen, enligt, förbrukat, matfett, överlämning;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.3;Viktavgift matavfall;;;2.3;Hushåll;Matavfall;;;;0.75;matavfall, viktavgift;Faktor kunde inte härledas från enhet/text.
 2.3;Viktavgift restavfall;;;2.3;Hushåll;Restavfall;;;;0.75;restavfall, viktavgift;Faktor kunde inte härledas från enhet/text.
@@ -47,21 +47,21 @@
 2.4.1;Fakturavgift;;;2.4;Hushåll;;;;;0.50;fakturavgift;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.4.2;Delat kärl 240 l matavfall 40 kg;;kilogram;2.4;Hushåll;Matavfall;Vikt;240;VIKG;1.00;240, delat, kilogram, kärl, matavfall;
 2.4.2;Delat kärl 240 l restavfall 40 kg;;kilogram;2.4;Hushåll;Restavfall;Vikt;240;VIKG;1.00;240, delat, kilogram, kärl, restavfall;
-2.4.2;Extra kärl 140 l matavfall 60 kg;;kilogram;2.4;Hushåll;Träavfall;Vikt;140;VIKG;1.00;140, extra, kilogram, kärl, matavfall;
-2.4.2;Extra kärl 140-190 l restavfall 60 kg;;kilogram;2.4;Hushåll;Träavfall;Vikt;190;VIKG;1.00;140, 190, extra, kilogram, kärl, restavfall;
+2.4.2;Extra kärl 140 l matavfall 60 kg;;kilogram;2.4;Hushåll;Matavfall;Vikt;140;VIKG;1.00;140, extra, kilogram, kärl, matavfall;
+2.4.2;Extra kärl 140-190 l restavfall 60 kg;;kilogram;2.4;Hushåll;Restavfall;Vikt;190;VIKG;1.00;140-190, extra, kilogram, kärl, restavfall;
 2.4.2;Kärl 370 l restavfall 60 kg;;kilogram;2.4;Hushåll;Restavfall;Vikt;370;VIKG;1.00;370, kilogram, kärl, restavfall;
 2.4.2;Kärl 660 l restavfall 100 kg;;kilogram;2.4;Hushåll;Restavfall;Vikt;660;VIKG;1.00;100, 660, kilogram, kärl, restavfall;
 2.4.3;Överfullt kärl;;kärl;2.4;Hushåll;;;;;0.50;kärl, överfullt;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.4.3;Överfull bottentömmande behållare;;;2.4;Hushåll;;;;;0.50;behållare, bottentömmande, överfull;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.4.4;Byte av trasigt kärl vid oaktsamhet;;kärl;2.4;Hushåll;Träavfall;;;;0.75;byte, kärl, oaktsamhet, trasigt, vid;Faktor kunde inte härledas från enhet/text.
-2.4.5;Byte/återtag av kärl en (1) ggr/år 140–240 liter;;liter;2.4;Hushåll;;Behållarvolym;240;VOLYM/BEHÅLLARE;0.75;140, 240, byte, ggr, kärl, liter, återtag;Avfallstyp kunde inte härledas.
-2.4.5;Byte/återtag av kärl en (1) ggr/år 370–660 liter;;liter;2.4;Hushåll;;Behållarvolym;660;VOLYM/BEHÅLLARE;0.75;370, 660, byte, ggr, kärl, liter, återtag;Avfallstyp kunde inte härledas.
+2.4.4;Byte av trasigt kärl vid oaktsamhet;;kärl;2.4;Hushåll;;;;;0.50;byte, kärl, oaktsamhet, trasigt, vid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+2.4.5;Byte/återtag av kärl en (1) ggr/år 140–240 liter;;liter;2.4;Hushåll;;Behållarvolym;240;VOLYM/BEHÅLLARE;0.75;140-240, byte, ggr, kärl, liter, återtag;Avfallstyp kunde inte härledas.
+2.4.5;Byte/återtag av kärl en (1) ggr/år 370–660 liter;;liter;2.4;Hushåll;;Behållarvolym;660;VOLYM/BEHÅLLARE;0.75;370-660, byte, ggr, kärl, liter, återtag;Avfallstyp kunde inte härledas.
 2.4.5;Ytterligare byte av kärl under kalenderåret;;kärl;2.4;Hushåll;;;;;0.50;byte, kalenderåret, kärl, under, ytterligare;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.4.6;Kärl;;kärl;2.4;Hushåll;;;;;0.50;kärl;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.4.6;Bottentömmande behållare;;;2.4;Hushåll;;;;;0.50;behållare, bottentömmande;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.4.7;Kärl 140-660 L 1,5-10;;kärl;2.4;Hushåll;;Behållarvolym;660;VOLYM/BEHÅLLARE;0.75;140, 660, kärl;Avfallstyp kunde inte härledas.
-2.4.7;Kärl 140-660 L 10-20;;kärl;2.4;Hushåll;;Behållarvolym;660;VOLYM/BEHÅLLARE;0.75;140, 660, kärl;Avfallstyp kunde inte härledas.
-2.4.7;Kärl 140-660 L 20-30;;kärl;2.4;Hushåll;;Behållarvolym;660;VOLYM/BEHÅLLARE;0.75;140, 660, kärl;Avfallstyp kunde inte härledas.
+2.4.7;Kärl 140-660 L 1,5-10;;kärl;2.4;Hushåll;;Behållarvolym;660;VOLYM/BEHÅLLARE;0.75;140-660, 5-10, kärl;Avfallstyp kunde inte härledas.
+2.4.7;Kärl 140-660 L 10-20;;kärl;2.4;Hushåll;;Behållarvolym;660;VOLYM/BEHÅLLARE;0.75;10-20, 140-660, kärl;Avfallstyp kunde inte härledas.
+2.4.7;Kärl 140-660 L 20-30;;kärl;2.4;Hushåll;;Behållarvolym;660;VOLYM/BEHÅLLARE;0.75;140-660, 20-30, kärl;Avfallstyp kunde inte härledas.
 2.4.7;Avfallsport/dörr;;;2.4;Hushåll;;;;;0.50;avfallsport, dörr;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.4.7;Låst dörr, med kod;;;2.4;Hushåll;;;;;0.50;dörr, kod, låst;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.4.8;Kärl 140 l matavfall;;kärl;2.4;Hushåll;Matavfall;Behållarvolym;140;VOLYM/BEHÅLLARE;1.00;140, kärl, matavfall;
@@ -74,10 +74,10 @@
 2.4.9;Tömningsavgift per behållare;;;2.4;Hushåll;;;;;0.50;behållare, tömningsavgift;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.4.10;Betalsäck;;;2.4;Hushåll;;;;;0.50;betalsäck;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.4.10;Akutsäck;;;2.4;Hushåll;;;;;0.50;akutsäck;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.4.11;Matavfallspåsar 9 L;;;2.4;Hushåll;Matavfall;Behållarvolym;;VOLYM/BEHÅLLARE;1.00;matavfallspåsar;
-2.4.11;Matavfallspåsar 22 L;;;2.4;Hushåll;Matavfall;Behållarvolym;22;VOLYM/BEHÅLLARE;1.00;matavfallspåsar;
+2.4.11;Matavfallspåsar 9 L;;;2.4;Hushåll;;Behållarvolym;;VOLYM/BEHÅLLARE;0.75;matavfallspåsar;Avfallstyp kunde inte härledas.
+2.4.11;Matavfallspåsar 22 L;;;2.4;Hushåll;;Behållarvolym;22;VOLYM/BEHÅLLARE;0.75;matavfallspåsar;Avfallstyp kunde inte härledas.
 2.4.11;Gravitationslås till kärl;;kärl;2.4;Hushåll;;;;;0.50;gravitationslås, kärl;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.4.11;Extra nyckel till gravitationslås;;;2.4;Hushåll;Träavfall;;;;0.75;extra, gravitationslås, nyckel;Faktor kunde inte härledas från enhet/text.
+2.4.11;Extra nyckel till gravitationslås;;;2.4;Hushåll;;;;;0.50;extra, gravitationslås, nyckel;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.5.1;Kommunalt avfall;;;2.5;Hushåll;;;;;0.50;avfall, kommunalt;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.5.1;Farligt avfall (ej uppmärkt);;;2.5;Hushåll;Farligt avfall;;;;0.75;avfall, farligt, uppmärkt;Faktor kunde inte härledas från enhet/text.
 2.5.1;Farligt avfall (uppmärkt);;;2.5;Hushåll;Farligt avfall;;;;0.75;avfall, farligt, uppmärkt;Faktor kunde inte härledas från enhet/text.
@@ -86,42 +86,42 @@
 3.1;Mellan 3 m3 och 6 m3;;m³;3.1;Flerbostad/verksamhet;;Volym;;VOLM;0.75;mellan;Avfallstyp kunde inte härledas.
 3.1;Mellan 6 m3 och 9 m3;;m³;3.1;Flerbostad/verksamhet;;Volym;;VOLM;0.75;mellan;Avfallstyp kunde inte härledas.
 3.1;Tillägg per m3 över 9 m3;;m³;3.1;Flerbostad/verksamhet;;Volym;;VOLM;0.75;tillägg, över;Avfallstyp kunde inte härledas.
-3.1;Bad-, disk- och tvättbrunn upp till 3 m3;;m³;3.1;Flerbostad/verksamhet;;Volym;;VOLM;0.75;bad, disk, tvättbrunn, upp;Avfallstyp kunde inte härledas.
+3.1;Bad-, disk- och tvättbrunn upp till 3 m3;;m³;3.1;Flerbostad/verksamhet;;Volym;;VOLM;0.75;bad-, disk-och, tvättbrunn, upp;Avfallstyp kunde inte härledas.
 3.1;Tillägg per m3 över 3 m3;;m³;3.1;Flerbostad/verksamhet;;Volym;;VOLM;0.75;tillägg, över;Avfallstyp kunde inte härledas.
-3.2;Dragning av extra slang vid 5-25 m;;;3.2;Flerbostad/verksamhet;Träavfall;;;;0.75;dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text.
-3.2;Dragning av extra slang vid 25-35 m;;;3.2;Flerbostad/verksamhet;Träavfall;;;;0.75;dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text.
-3.2;Dragning av extra slang vid 36-45 m;;;3.2;Flerbostad/verksamhet;Träavfall;;;;0.75;dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text.
-3.2;Dragning av extra slang vid 46-55 m;;;3.2;Flerbostad/verksamhet;Träavfall;;;;0.75;dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text.
-3.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;3.2;Flerbostad/verksamhet;;Vikt;;VIKG;0.75;brunnslock, hantering, kilogram, som, väger;Avfallstyp kunde inte härledas.
+3.2;Dragning av extra slang vid 5-25 m;;;3.2;Flerbostad/verksamhet;;;;;0.50;5-25, dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+3.2;Dragning av extra slang vid 25-35 m;;;3.2;Flerbostad/verksamhet;;;;;0.50;25-35, dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+3.2;Dragning av extra slang vid 36-45 m;;;3.2;Flerbostad/verksamhet;;;;;0.50;36-45, dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+3.2;Dragning av extra slang vid 46-55 m;;;3.2;Flerbostad/verksamhet;;;;;0.50;46-55, dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+3.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;3.2;Flerbostad/verksamhet;;Vikt;;VIKG;0.75;15-25, brunnslock, hantering, kilogram, som, väger;Avfallstyp kunde inte härledas.
 3.2;Krav på information om tömningstid;;;3.2;Flerbostad/verksamhet;;;;;0.50;information, krav, tömningstid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 3.2;Krav på närvaro vid specificerad tömningstid;;;3.2;Flerbostad/verksamhet;;;;;0.50;krav, närvaro, specificerad, tömningstid, vid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 3.2;Hantering av kod för kodlås vid slamtömning;;;3.2;Flerbostad/verksamhet;Slam;;;;0.75;hantering, kod, kodlås, slamtömning, vid;Faktor kunde inte härledas från enhet/text.
 3.2;Hetvattentvätt med spolbil, timersättning;;;3.2;Flerbostad/verksamhet;;;;;0.50;hetvattentvätt, spolbil, timersättning;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-3.2;Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3;;m³;3.2;Flerbostad/verksamhet;Träavfall;Volym;;VOLM;1.00;brunn, budad, extra, ordinarie, samband, tank, tömning, upp;
-3.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;3.3;Flerbostad/verksamhet;;;;;0.50;budning, inom, maj, oktober, ordinarie, tömningsperiod;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-3.3;Budning utanför ordinarie tömningsperiod (1 nov – 30 april);;;3.3;Flerbostad/verksamhet;;;;;0.50;april, budning, nov, ordinarie, tömningsperiod, utanför;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+3.2;Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3;;m³;3.2;Flerbostad/verksamhet;;Volym;;VOLM;0.75;brunn, budad, extra, ordinarie, samband, tank, tömning, upp;Avfallstyp kunde inte härledas.
+3.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;3.3;Flerbostad/verksamhet;;;;;0.50;budning, inom, maj-31, oktober, ordinarie, tömningsperiod;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+3.3;Budning utanför ordinarie tömningsperiod (1 nov – 30 april);;;3.3;Flerbostad/verksamhet;;;;;0.50;april, budning, nov-30, ordinarie, tömningsperiod, utanför;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 3.3;Tömning av toalettvagnar eller liknande /styck;;styck;3.3;Flerbostad/verksamhet;;Styck;;ST;0.75;eller, liknande, styck, toalettvagnar, tömning;Avfallstyp kunde inte härledas.
 3.4;Latrinbehållare 37 liter inkl. mottagning och behandling;;liter;3.4;Flerbostad/verksamhet;;Behållarvolym;37;VOLYM/BEHÅLLARE;0.75;behandling, inkl, latrinbehållare, liter, mottagning;Avfallstyp kunde inte härledas.
 4.1;Filtermassor upp till 500 kg;;kilogram;4.1;Tilläggstjänst;;Vikt;;VIKG;0.75;500, filtermassor, kilogram, upp;Avfallstyp kunde inte härledas.
-4.1;Filtermassor 500-1000 kg;;kilogram;4.1;Tilläggstjänst;;Vikt;;VIKG;0.75;1000, 500, filtermassor, kilogram;Avfallstyp kunde inte härledas.
+4.1;Filtermassor 500-1000 kg;;kilogram;4.1;Tilläggstjänst;;Vikt;;VIKG;0.75;500-1000, filtermassor, kilogram;Avfallstyp kunde inte härledas.
 4.2;Krav på information om hämtningstid;;;4.2;Tilläggstjänst;;;;;0.50;hämtningstid, information, krav;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 4.2;Krav på närvaro vid specificerad hämtningstid;;;4.2;Tilläggstjänst;;;;;0.50;hämtningstid, krav, närvaro, specificerad, vid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 4.2;Hantering av kod för kodlås;;;4.2;Tilläggstjänst;;;;;0.50;hantering, kod, kodlås;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 5.1;Upp till 3 m3;;m³;5.1;Slam;;Volym;;VOLM;0.75;upp;Avfallstyp kunde inte härledas.
 5.1;Mellan 3 m3 och 6 m3;;m³;5.1;Slam;;Volym;;VOLM;0.75;mellan;Avfallstyp kunde inte härledas.
 5.1;Över 6 m3;;m³;5.1;Slam;;Volym;;VOLM;0.75;över;Avfallstyp kunde inte härledas.
-5.2;Dragning av extra slang vid 5-25 m;;;5.2;Slam;Träavfall;;;;0.75;dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text.
-5.2;Dragning av extra slang vid 25-35 m;;;5.2;Slam;Träavfall;;;;0.75;dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text.
-5.2;Dragning av extra slang vid 36-45 m;;;5.2;Slam;Träavfall;;;;0.75;dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text.
-5.2;Dragning av extra slang vid 46-55 m;;;5.2;Slam;Träavfall;;;;0.75;dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text.
-5.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;5.2;Slam;;Vikt;;VIKG;0.75;brunnslock, hantering, kilogram, som, väger;Avfallstyp kunde inte härledas.
+5.2;Dragning av extra slang vid 5-25 m;;;5.2;Slam;;;;;0.50;5-25, dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+5.2;Dragning av extra slang vid 25-35 m;;;5.2;Slam;;;;;0.50;25-35, dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+5.2;Dragning av extra slang vid 36-45 m;;;5.2;Slam;;;;;0.50;36-45, dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+5.2;Dragning av extra slang vid 46-55 m;;;5.2;Slam;;;;;0.50;46-55, dragning, extra, slang, vid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+5.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;5.2;Slam;;Vikt;;VIKG;0.75;15-25, brunnslock, hantering, kilogram, som, väger;Avfallstyp kunde inte härledas.
 5.2;Krav på information om tömningstid;;;5.2;Slam;;;;;0.50;information, krav, tömningstid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 5.2;Krav på närvaro vid specificerad tömningstid;;;5.2;Slam;;;;;0.50;krav, närvaro, specificerad, tömningstid, vid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 5.2;Hantering av kod för kodlås vid tömning;;tömning;5.2;Slam;;;;;0.50;hantering, kod, kodlås, tömning, vid;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 5.2;Hetvattentvätt med spolbil, timersättning;;;5.2;Slam;;;;;0.50;hetvattentvätt, spolbil, timersättning;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 5.2;Silikontätning per lock;;;5.2;Slam;;;;;0.50;lock, silikontätning;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-5.2;Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;;m³;5.2;Slam;Träavfall;Volym;;VOLM;1.00;budad, extra, ordinarie, samband, tank, tömning, upp;
-5.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;5.3;Slam;;;;;0.50;budning, inom, maj, oktober, ordinarie, tömningsperiod;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
+5.2;Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;;m³;5.2;Slam;;Volym;;VOLM;0.75;budad, extra, ordinarie, samband, tank, tömning, upp;Avfallstyp kunde inte härledas.
+5.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;5.3;Slam;;;;;0.50;budning, inom, maj-31, oktober, ordinarie, tömningsperiod;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 5.3;Budning utanför ordinarie tömningsperiod;;;5.3;Slam;;;;;0.50;budning, ordinarie, tömningsperiod, utanför;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 6.1.1;Verksamheter;;;6.1;Verksamhetsavfall;;;;;0.50;verksamheter;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 6.1.1;Övriga abonnemangstyper;;;6.1;Verksamhetsavfall;;;;;0.50;abonnemangstyper, övriga;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
@@ -132,19 +132,19 @@
 6.1.2;Avfall till energiåtervinning (240 L sopsäck);;styck;6.1;ÅVC/verksamhetsavfall;;Styck;240;ST;0.75;240, avfall, energiåtervinning, sopsäck, styck;Avfallstyp kunde inte härledas.
 6.1.2;Avfall till energiåtervinning;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;avfall, energiåtervinning, kilogram;Avfallstyp kunde inte härledas.
 6.1.2;Skrymmande avfall till energiåtervinning större än 20×20×80;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;20x20x80, avfall, energiåtervinning, kilogram, skrymmande, större;Avfallstyp kunde inte härledas.
-6.1.2;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;;kilogram;6.1;ÅVC/verksamhetsavfall;Träavfall;Vikt;;VIKG;1.00;kilogram, obehandlat, plastmatta, tapet, tjärpapp, träavfall;
-6.1.2;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;;kilogram;6.1;ÅVC/verksamhetsavfall;Träavfall;Vikt;;VIKG;1.00;behandlat, kilogram, plastmatta, tapet, tjärpapp, träavfall;
+6.1.2;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;kilogram, plastmatta, tapet, tjärpapp, träavfall-obehandlat;Avfallstyp kunde inte härledas.
+6.1.2;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;kilogram, plastmatta, tapet, tjärpapp, träavfall-behandlat;Avfallstyp kunde inte härledas.
 6.1.2;Tryckimpregnerat virke, pall;;kilogram;6.1;ÅVC/verksamhetsavfall;Tryckimpregnerat trä;Vikt;;VIKG;1.00;kilogram, pall, tryckimpregnerat, virke;
 6.1.2;Betong, lättbetong;;kilogram;6.1;ÅVC/verksamhetsavfall;Betong;Vikt;;VIKG;1.00;betong, kilogram, lättbetong;
 6.1.2;Gips, gipsskivor;;kilogram;6.1;ÅVC/verksamhetsavfall;Gips;Vikt;;VIKG;1.00;gips, gipsskivor, kilogram;
 6.1.2;Tegel;;kilogram;6.1;ÅVC/verksamhetsavfall;Tegel;Vikt;;VIKG;1.00;kilogram, tegel;
-6.1.2;Fönster- och planglas utan karm;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;fönster, karm, kilogram, planglas;Avfallstyp kunde inte härledas.
+6.1.2;Fönster- och planglas utan karm;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;fönster-och, karm, kilogram, planglas;Avfallstyp kunde inte härledas.
 6.1.2;Fönster med karm;;;6.1;ÅVC/verksamhetsavfall;;;;;0.50;fönster, karm;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 6.1.2;Plast;;kilogram;6.1;ÅVC/verksamhetsavfall;Plast;Vikt;;VIKG;1.00;kilogram, plast;
 6.1.2;Isolering utan innehåll av asbest;;m³;6.1;ÅVC/verksamhetsavfall;Asbest;Volym;;VOLM;1.00;asbest, innehåll, isolering;
 6.1.2;Klinker, keramik, porslin;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;keramik, kilogram, klinker, porslin;Avfallstyp kunde inte härledas.
 6.1.2;Handfat;;styck;6.1;ÅVC/verksamhetsavfall;;Styck;;ST;0.75;handfat, styck;Avfallstyp kunde inte härledas.
-6.1.2;WC-stol;;styck;6.1;ÅVC/verksamhetsavfall;;Styck;;ST;0.75;stol, styck;Avfallstyp kunde inte härledas.
+6.1.2;WC-stol;;styck;6.1;ÅVC/verksamhetsavfall;;Styck;;ST;0.75;styck, wc-stol;Avfallstyp kunde inte härledas.
 6.1.2;Metall;;kilogram;6.1;ÅVC/verksamhetsavfall;Metall;Vikt;;VIKG;1.00;kilogram, metall;
 6.1.2;Textilier;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;kilogram, textilier;Avfallstyp kunde inte härledas.
 6.1.2;Fiskeredskap;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;fiskeredskap, kilogram;Avfallstyp kunde inte härledas.
@@ -154,10 +154,10 @@
 6.1.2;Sten;;;6.1;ÅVC/verksamhetsavfall;;;;;0.50;sten;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 6.1.2;Stubbar/rötter för krossning;;;6.1;ÅVC/verksamhetsavfall;;;;;0.50;krossning, rötter, stubbar;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 6.1.2;Flera fraktioner för egen sortering på ramp (max 2 m³);;m³;6.1;ÅVC/verksamhetsavfall;;Volym;;VOLM;0.75;egen, flera, fraktioner, max2, ramp, sortering;Avfallstyp kunde inte härledas.
-6.1.2;Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall);;;6.1;ÅVC/verksamhetsavfall;Farligt avfall;;;;0.75;avfall, elavfall, farligt, innehåll, osorterat, sortering;Faktor kunde inte härledas från enhet/text.
+6.1.2;Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall);;;6.1;ÅVC/verksamhetsavfall;Elavfall;;;;0.75;avfall, elavfall, farligt, innehåll, osorterat, sortering;Faktor kunde inte härledas från enhet/text.
 6.1.2;Tonerkassetter, utan elektronik/chip;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;chip, elektronik, kilogram, tonerkassetter;Avfallstyp kunde inte härledas.
 6.1.2;Oljeemulsion, emballerat;;kilogram;6.1;ÅVC/verksamhetsavfall;Oljeavfall;Vikt;;VIKG;1.00;emballerat, kilogram, oljeemulsion;
-6.1.2;Förorenad olja innehållande PCB;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;förorenad, innehållande, kilogram, olja, pcb;Avfallstyp kunde inte härledas.
+6.1.2;Förorenad olja innehållande PCB;;kilogram;6.1;ÅVC/verksamhetsavfall;Oljeavfall;Vikt;;VIKG;1.00;förorenad, innehållande, kilogram, olja, pcb;
 6.1.2;Oljeavskiljarslam;;kilogram;6.1;ÅVC/verksamhetsavfall;Oljeavfall;Vikt;;VIKG;1.00;kilogram, oljeavskiljarslam;
 6.1.2;Diesel;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;diesel, kilogram;Avfallstyp kunde inte härledas.
 6.1.2;Bensinrester;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;bensinrester, kilogram;Avfallstyp kunde inte härledas.
@@ -167,7 +167,7 @@
 6.1.2;Absorbermedel, filtermaterial;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;absorbermedel, filtermaterial, kilogram;Avfallstyp kunde inte härledas.
 6.1.2;Oljefilter;;kilogram;6.1;ÅVC/verksamhetsavfall;Oljeavfall;Vikt;;VIKG;1.00;kilogram, oljefilter;
 6.1.2;Bromsvätska;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;bromsvätska, kilogram;Avfallstyp kunde inte härledas.
-6.1.2;Transformator, kondensator med PCB;;kilogram;6.1;ÅVC/verksamhetsavfall;Träavfall;Vikt;;VIKG;1.00;kilogram, kondensator, pcb, transformator;
+6.1.2;Transformator, kondensator med PCB;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;kilogram, kondensator, pcb, transformator;Avfallstyp kunde inte härledas.
 6.1.2;Fogskum;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;fogskum, kilogram;Avfallstyp kunde inte härledas.
 6.1.2;Halon;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;halon, kilogram;Avfallstyp kunde inte härledas.
 6.1.2;Koldioxid;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;kilogram, koldioxid;Avfallstyp kunde inte härledas.
@@ -181,7 +181,7 @@
 6.1.2;Gasol inkl tub;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;gasol, inkl, kilogram, tub;Avfallstyp kunde inte härledas.
 6.1.2;Gasol, blå programmet;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;blå, gasol, kilogram, programmet;Avfallstyp kunde inte härledas.
 6.1.2;Giftig organisk vätska;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;giftig, kilogram, organisk, vätska;Avfallstyp kunde inte härledas.
-6.1.2;Småkemikalier, ej Hg-haltiga;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;haltiga, kilogram, småkemikalier;Avfallstyp kunde inte härledas.
+6.1.2;Småkemikalier, ej Hg-haltiga;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;hg-haltiga, kilogram, småkemikalier;Avfallstyp kunde inte härledas.
 6.1.2;Giftig oorganisk vätska;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;giftig, kilogram, oorganisk, vätska;Avfallstyp kunde inte härledas.
 6.1.2;Oxidationsmedel, flytande;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;flytande, kilogram, oxidationsmedel;Avfallstyp kunde inte härledas.
 6.1.2;Asbest, emballerat;;kilogram;6.1;ÅVC/verksamhetsavfall;Asbest;Vikt;;VIKG;1.00;asbest, emballerat, kilogram;
@@ -205,13 +205,13 @@
 6.1.2;Kvicksilverhaltigt avfall;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;avfall, kilogram, kvicksilverhaltigt;Avfallstyp kunde inte härledas.
 6.1.2;Kvicksilver i föremål;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;föremål, kilogram, kvicksilver;Avfallstyp kunde inte härledas.
 6.1.2;Oljehaltigt avfall (ej PCB);;liter;6.1;ÅVC/verksamhetsavfall;Oljeavfall;Behållarvolym;;VOLYM/BEHÅLLARE;1.00;avfall, liter, oljehaltigt, pcb;
-6.1.2;Olja förorenad (ej PCB);;liter;6.1;ÅVC/verksamhetsavfall;;Behållarvolym;;VOLYM/BEHÅLLARE;0.75;förorenad, liter, olja, pcb;Avfallstyp kunde inte härledas.
-6.1.2;Färg-, lack-, limburkar lösning;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;färg, kilogram, lack, limburkar, lösning;Avfallstyp kunde inte härledas.
-6.1.2;Färg-, lack-, limburkar lösning aerosoler;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;aerosoler, färg, kilogram, lack, limburkar, lösning;Avfallstyp kunde inte härledas.
+6.1.2;Olja förorenad (ej PCB);;liter;6.1;ÅVC/verksamhetsavfall;Oljeavfall;Behållarvolym;;VOLYM/BEHÅLLARE;1.00;förorenad, liter, olja, pcb;
+6.1.2;Färg-, lack-, limburkar lösning;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;färg-, kilogram, lack-, limburkar, lösning;Avfallstyp kunde inte härledas.
+6.1.2;Färg-, lack-, limburkar lösning aerosoler;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;aerosoler, färg-, kilogram, lack-, limburkar, lösning;Avfallstyp kunde inte härledas.
 6.1.2;Isocyanater;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;isocyanater, kilogram;Avfallstyp kunde inte härledas.
-6.1.2;Härdare metyl- etylketonperoxid;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;etylketonperoxid, härdare, kilogram, metyl;Avfallstyp kunde inte härledas.
+6.1.2;Härdare metyl- etylketonperoxid;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;härdare, kilogram, metyl-etylketonperoxid;Avfallstyp kunde inte härledas.
 6.1.2;Härdare dibenzoylperoxid;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;dibenzoylperoxid, härdare, kilogram;Avfallstyp kunde inte härledas.
-6.1.2;Färg-,lack-, limburkar vattenbaserade;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;färg, kilogram, lack, limburkar, vattenbaserade;Avfallstyp kunde inte härledas.
+6.1.2;Färg-,lack-, limburkar vattenbaserade;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;färg-, kilogram, lack-, limburkar, vattenbaserade;Avfallstyp kunde inte härledas.
 6.1.2;Tensida alkaliska flytande avfall;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;alkaliska, avfall, flytande, kilogram, tensida;Avfallstyp kunde inte härledas.
 6.1.2;Rengöring/vaskmedel fast;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;fast, kilogram, rengöring, vaskmedel;Avfallstyp kunde inte härledas.
 6.1.2;Alkaliska flytande avfall;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;alkaliska, avfall, flytande, kilogram;Avfallstyp kunde inte härledas.
@@ -220,23 +220,23 @@
 6.1.2;Rökdetektor med Am 241;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;241, kilogram, rökdetektor;Avfallstyp kunde inte härledas.
 6.1.2;Batterier stav, pencell;;kilogram;6.1;ÅVC/verksamhetsavfall;Batterier;Vikt;;VIKG;1.00;batterier, kilogram, pencell, stav;
 6.1.2;Batterier lithium;;kilogram;6.1;ÅVC/verksamhetsavfall;Batterier;Vikt;;VIKG;1.00;batterier, kilogram, lithium;
-6.1.2;Bil-, mcbatteri med bly;;styck;6.1;ÅVC/verksamhetsavfall;Batterier;Styck;;ST;1.00;bil, bly, mcbatteri, styck;
+6.1.2;Bil-, mcbatteri med bly;;styck;6.1;ÅVC/verksamhetsavfall;;Styck;;ST;0.75;bil-, bly, mcbatteri, styck;Avfallstyp kunde inte härledas.
 6.1.2;Glödlampor;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;glödlampor, kilogram;Avfallstyp kunde inte härledas.
 6.1.2;Lysrör;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;kilogram, lysrör;Avfallstyp kunde inte härledas.
 6.1.2;Elavfall, små elektronik;;kilogram;6.1;ÅVC/verksamhetsavfall;Elavfall;Vikt;;VIKG;1.00;elavfall, elektronik, kilogram, små;
-6.1.2;El-avfall fast installation;;kilogram;6.1;ÅVC/verksamhetsavfall;Elavfall;Vikt;;VIKG;1.00;avfall, fast, installation, kilogram;
-6.1.2;El-avfall kabel;;kilogram;6.1;ÅVC/verksamhetsavfall;Elavfall;Vikt;;VIKG;1.00;avfall, kabel, kilogram;
+6.1.2;El-avfall fast installation;;kilogram;6.1;ÅVC/verksamhetsavfall;Elavfall;Vikt;;VIKG;1.00;el-avfall, fast, installation, kilogram;
+6.1.2;El-avfall kabel;;kilogram;6.1;ÅVC/verksamhetsavfall;Elavfall;Vikt;;VIKG;1.00;el-avfall, kabel, kilogram;
 6.1.2;Toner, färgpatron med elektronik;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;elektronik, färgpatron, kilogram, toner;Avfallstyp kunde inte härledas.
 6.1.2;Tv, radio, skärm, skrivare utan färgpatron;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;färgpatron, kilogram, radio, skrivare, skärm;Avfallstyp kunde inte härledas.
-6.1.2;Kyl-, frysskåp, -box;;styck;6.1;ÅVC/verksamhetsavfall;Kyl/frys;Styck;;ST;1.00;boxstyck, frysskåp, kyl;
-6.1.2;Kyl-, frysskåp, -box från verksamhet;;kilogram;6.1;ÅVC/verksamhetsavfall;Kyl/frys;Vikt;;VIKG;1.00;boxfrån, frysskåp, kilogram, kyl, verksamhet;
-6.1.2;Spis, tvätt-, diskmaskin;;styck;6.1;ÅVC/verksamhetsavfall;;Styck;;ST;0.75;diskmaskin, spis, styck, tvätt;Avfallstyp kunde inte härledas.
-6.1.2;Spis, tvätt-, diskmaskin från verksamhet;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;diskmaskin, kilogram, spis, tvätt, verksamhet;Avfallstyp kunde inte härledas.
+6.1.2;Kyl-, frysskåp, -box;;styck;6.1;ÅVC/verksamhetsavfall;Kyl/frys;Styck;;ST;1.00;-boxstyck, frysskåp, kyl-;
+6.1.2;Kyl-, frysskåp, -box från verksamhet;;kilogram;6.1;ÅVC/verksamhetsavfall;Kyl/frys;Vikt;;VIKG;1.00;-boxfrån, frysskåp, kilogram, kyl-, verksamhet;
+6.1.2;Spis, tvätt-, diskmaskin;;styck;6.1;ÅVC/verksamhetsavfall;;Styck;;ST;0.75;diskmaskin, spis, styck, tvätt-;Avfallstyp kunde inte härledas.
+6.1.2;Spis, tvätt-, diskmaskin från verksamhet;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;diskmaskin, kilogram, spis, tvätt-, verksamhet;Avfallstyp kunde inte härledas.
 6.1.3;Container X m3;;m³;6.1;Verksamhetsavfall;;Volym;;VOLM;0.75;containerxm3;Avfallstyp kunde inte härledas.
 6.1.3;Container X m3;;m³;6.1;Verksamhetsavfall;;Volym;;VOLM;0.75;containerxm3;Avfallstyp kunde inte härledas.
 6.1.3;Container X m3;;m³;6.1;Verksamhetsavfall;;Volym;;VOLM;0.75;containerxm3;Avfallstyp kunde inte härledas.
 6.1.3;Omklassning av felsorterad container;;container;6.1;Verksamhetsavfall;;;;;0.50;container, felsorterad, omklassning;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 6.1.4;Okänt farligt avfall (säkerhetsdatablad saknas);;fraktion;6.1;Verksamhetsavfall;Farligt avfall;;;;0.75;avfall, farligt, fraktion, okänt, saknas, säkerhetsdatablad;Faktor kunde inte härledas från enhet/text.
 6.1.4;Ombud för rapportering av farligt avfall i Avfallsregistret;;tillfälle;6.1;Verksamhetsavfall;Farligt avfall;Tillfälle;;TILLFÄLLE;1.00;avfall, avfallsregistret, farligt, ombud, rapportering, tillfälle;
-6.1.4;Administrativ rapporteringsavgift till Avfallsregistret;;tillfälle;6.1;Verksamhetsavfall;Träavfall;Tillfälle;;TILLFÄLLE;1.00;administrativ, avfallsregistret, rapporteringsavgift, tillfälle;
-6.1.4;Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen;;tillfälle;6.1;Verksamhetsavfall;;Tillfälle;;TILLFÄLLE;0.75;avlämnarintyg, hämtplatsportalen, kretsen, ombud, registrering, tillfälle;Avfallstyp kunde inte härledas.
+6.1.4;Administrativ rapporteringsavgift till Avfallsregistret;;tillfälle;6.1;Verksamhetsavfall;;Tillfälle;;TILLFÄLLE;0.75;administrativ, avfallsregistret, rapporteringsavgift, tillfälle;Avfallstyp kunde inte härledas.
+6.1.4;Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen;;tillfälle;6.1;Verksamhetsavfall;;Tillfälle;;TILLFÄLLE;0.75;avlämnarintyg, el-kretsen, hämtplatsportalen, ombud, registrering, tillfälle;Avfallstyp kunde inte härledas.
