@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import re
+
 from parser3.models import TaxRow
 from parser3.rows import RowClassifier
 from parser3.taxonomy import UnitDetector, VariantBuilder
@@ -10,6 +12,8 @@ from parser3.utils.constants import ROW_TYPE_TAX
 
 
 class TaxRowExtractor:
+    PRICE_RE = re.compile(r"(?i)(XX+\s*kr|\d[\d\s]*,\d{2}\s*(?:kr)?|\d+\s*kr)")
+
     def __init__(self) -> None:
         self.classifier = RowClassifier()
         self.unit_detector = UnitDetector()
@@ -53,15 +57,22 @@ class TaxRowExtractor:
         return result
 
     def _name_from_row(self, row: list[str]) -> str:
+        # Prefer first non-empty cell that is not only a price.
         for cell in row:
             clean = (cell or "").strip()
-            if clean and not clean.lower().startswith(("ewc", "un-nr", "enhet", "pris")):
-                return clean
+            if not clean:
+                continue
+            if clean.lower().startswith(("ewc", "un-nr", "enhet", "pris")):
+                continue
+            if self.PRICE_RE.fullmatch(clean):
+                continue
+            return clean
         return ""
 
     def _price_from_row(self, row: list[str]) -> str:
         for cell in reversed(row):
             clean = (cell or "").strip()
-            if "kr" in clean.lower() or "," in clean:
-                return clean
+            match = self.PRICE_RE.search(clean)
+            if match:
+                return match.group(1).strip()
         return ""

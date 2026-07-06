@@ -1,3 +1,8 @@
+"""Section-specific tax extraction rules."""
+
+from __future__ import annotations
+
+
 class SectionTaxRules:
     SECTION_COUNTS = {
         "6.1.1": 6,
@@ -11,8 +16,18 @@ class SectionTaxRules:
 
     def should_export(self, section: str, text: str) -> bool:
         lower = (text or "").lower()
+
+        # Chapter 1 contains definitions and legal text, not exportable tax rows.
+        if not section or section.startswith("1"):
+            return False
+
         if section == "6.1.2" and "toner" in lower and "utan elektronik" in lower and "se farligt avfall" in lower:
             return False
+
+        # Section headings must never export.
+        if "§" in lower and lower.strip()[0:1].isdigit():
+            return False
+
         return True
 
     def normalize_group(self, text: str, current_group: str = "") -> str:

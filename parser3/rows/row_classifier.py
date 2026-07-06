@@ -41,14 +41,14 @@ class RowClassifier:
         if self.reference_detector.is_reference(text):
             return ClassifiedRow(ROW_TYPE_REFERENCE, text, cells)
 
-        if self.info_detector.is_info(text):
-            return ClassifiedRow(ROW_TYPE_INFO, text, cells)
-
         header_hits = sum(1 for word in self.HEADER_WORDS if word in lower)
-        if header_hits >= 2:
+        if header_hits >= 2 and "kr" not in lower:
             return ClassifiedRow(ROW_TYPE_HEADER, text, cells)
 
         if self.tax_detector.is_tax_candidate(text, cells):
             return ClassifiedRow(ROW_TYPE_TAX, text, cells)
+
+        if self.info_detector.is_info(text):
+            return ClassifiedRow(ROW_TYPE_INFO, text, cells)
 
         return ClassifiedRow(ROW_TYPE_INFO, text, cells)
