@@ -1,0 +1,551 @@
+Parser 3.0 explanation report
+
+order | section | group | row_type | reason | text
+
+0 |  |  | tax | low-level tax candidate | Förslag till taxestruktur för
+1 |  |  | info | default info | Avfallssamverkan Norr
+2 |  |  | info | default info | 2026-03-13
+3 | 1 |  | section | low-level tax candidate | 1 § Allmänna bestämmelser
+4 | 1 |  | info | default info | Taxan är beslutad av kommunfullmäktige 20XX-XX-XX §XX dnr XXX och ersätter där med 20XX-XX-XX §XX dnr XXX.
+5 | 1 |  | info | default info | Avgifter i taxan är angivna inklusive 25% moms och gäller från 202X-XX-XX.
+6 | 1.1 |  | section | default info | 1.1 § Allmänt
+7 | 1.1 |  | tax | low-level tax candidate | Dessa föreskrifter om avgifter har kommunen beslutat med stöd av 27 kap. 4 § miljöbalken. Avgifterna avser den hantering av avfall som utförs genom kommunens försorg och som kommunen ansvarar för enligt 15 kap. 20 § miljöbalken samt enligt 6 kap. 2 och 6 §§ förordningen (2022:1274) om producentansvar för förpackningar. Taxan gäller tills ny taxa beslutas.
+8 | 1.2 |  | section | default info | 1.2 § Ansvar för avfallshanteringen och gällande regler
+9 | 1.2 |  | tax | low-level tax candidate | För kommunens avfallshantering gäller bestämmelserna i miljöbalken, avfallsförordningen, andra förordningar utfärdade med stöd av miljöbalken samt föreskrifter om avfallshantering för XX kommun. I föreskrifter om avfallshantering för XX kommun anges bland annat hur avfall ska sorteras.
+10 | 1.3 |  | section | default info | 1.3 § Definitioner
+11 | 1.3 |  | tax | low-level tax candidate | Abonnemang innebär regelbunden tömning med bestämt intervall. Debitering av abonnemang sker till abonnent.
+12 | 1.3 |  | info | default info | Abonnent är kontaktperson/kund och fakturamottagare för ett abonnemang.
+13 | 1.3 |  | tax | low-level tax candidate | Anläggning är en lokal där det uppstår avfall exempelvis byastugor, föreningslokaler, fiske- och jaktföreningar. Observera att detta gäller ej företag.
+14 | 1.3 |  | tax | low-level tax candidate | Bostad är den/de byggnader på fastigheten som är registrerad som bostad enligt Lantmäteriets fastighetsinformation. En fastighet kan ha en (1) eller flera byggnader för bostad.
+15 | 1.3 |  | info | default info | Budning är en unik beställning som görs inför en enskild hämtning och avgift debiteras.
+16 | 1.3 |  | info | default info | Bygg- och rivningsavfall räknas ej som kommunalt avfall. Avgift debiteras motsvarande taxa för verksamhetsavfall. Bygg- och rivningsavfall avser allt avfall som uppkommer vid nybyggnation, ombyggnad, renovering, reparation eller rivning av byggnader, anläggningar eller delar därav. Avfallet omfattar såväl byggmaterial som fasta inventarier som tillhör byggnaden. Exempel är trä, betong, tegel, gips, metall, isolering, plast, fönster, dörrar och blandat rivningsmaterial. Farligt avfall som uppstår i samband med bygg- eller rivningsarbeten ingår men ska hanteras separat enligt gällande regler.
+17 | 1.3 |  | tax | low-level tax candidate | Campingstuga/-lägenhet är…. XXX
+18 | 1.3 |  | tax | low-level tax candidate | Dragvägen betyder den sträcka som renhållningsarbetaren måste dra avfallsbehållaren manuellt från hämtstället till insamlingsfordonet.
+19 | 1.3 |  | tax | low-level tax candidate | El-avfall avses detsamma som i 16 § förordningen (2022:1276) om producentansvar för elutrustning. Elavfall ska utsorteras och hållas särskilt från annat avfall. El-avfall definieras som allt avfall som består av elektriska eller elektroniska produkter som drivs med sladd eller batteri och som därför måste hanteras separat från vanligt hushållsavfall.
+20 | 1.3 |  | tax | low-level tax candidate | En- och tvåbostadshus är en bostad där någon är permanent skriven eller bostad som används året runt. Innehåller högst två bostadslägenheter. Begreppet omfattar exempelvis villor, radhus, kedjehus och parhus för permanentboende.
+21 | 1.3 |  | tax | low-level tax candidate | Fastighet kan ha en eller flera byggnader. Dessa byggnader har olika ändamål exempelvis: bostad, samhällsfunktion, verksamhet, industri, ekonomi-, komplement- eller övrig byggnad.
+22 | 1.3 |  | tax | low-level tax candidate | Fastighetsinnehavare är den eller de som är fastighetsägare eller som enligt 1 kap. 5 § fastighetstaxeringslagen (1979:1152) ska anses som fastighetsägare, exempelvis tomträttsinnehavare och samfällighetsförening.
+23 | 1.3 |  | tax | low-level tax candidate | Felsorteringsavgift är en extra avgift som kommunen kan ta ut när avfall i ett kärl eller en fraktion är felaktigt sorterat och därmed bryter mot avfallsföreskrifterna. Syftet är att täcka de ökade kostnaderna för hantering och att styra mot bättre sortering. Exempel på felsortering är restavfall eller plastpåsar i matavfallsbehållare eller farligt avfall, el-avfall eller matavfall i behållare för restavfall. Vid upprepad felsortering har kommunen rätt att ändra abonnemangsvillkoren.
+24 | 1.3 |  | tax | low-level tax candidate | Flerbostadshus är ett bostadshus med minst tre bostadslägenheter.
+25 | 1.3 |  | tax | low-level tax candidate | Fritidshus är en- och tvåbostadshus eller flerbostadshus där ingen är folkbokförd. Om en eller flera personer är folkbokförda på bostaden definieras den som en- och tvåbostadshus.
+26 | 1.3 |  | tax | low-level tax candidate | Gemensam avfallsbehållare är när flera bostäder använder en eller flera gemensamma behållare för avfall.
+27 | 1.3 |  | info | default info | Gemensam uppsamlingsplats är ett abonnemang för avlämning av närsorterat avfall till överenskommen plats.
+28 | 1.3 |  | tax | low-level tax candidate | Hushåll menas de boende i en- och tvåbostadshus, i flerbostadshus eller i fritidshus.
+29 | 1.3 |  | info | default info | Hämtningsområde finns beskrivna i Bilaga X i kommunens föreskrifter om avfallshantering.
+30 | 1.3 |  | info | default info | Kommunalt avfall avses detsamma som i 15 kap. 3 § miljöbalken (1998:808), det vill säga avfall som kommer från hushåll och sådant avfall från andra källor som till sin art och sammansättning liknar avfall från hushåll.
+31 | 1.3 |  | reference | low-level reference | Lägenhet i bostadshus avser en bostadslägenhet belägen i ett flerbostadshus, det vill säga en byggnad som innehåller fler än två bostäder under samma tak. Lägenheten är avsedd för boende och ingår i en byggnad där avfallshanteringen normalt sker gemensamt för flera hushåll.
+32 | 1.3 |  | header | low-level header | Lägenhet för specialändamål avser bostad som inte används som permanent hushållsbostad utan för ett särskilt syfte, exempelvis gruppbostad, servicebostad, träningslägenhet, korttidsboende eller annan liknande verksamhet. Avfallsmängder och ansvar för avfallshantering skiljer sig från vanliga hushåll, varför särskild avgiftskategori tillämpas.
+33 | 1.3 |  | tax | low-level tax candidate | Nyttjanderättshavare är den som, utan att omfattas av begreppet fastighetsinnehavare, har rätt att bruka eller nyttja fastighet, exempelvis via arrende.
+34 | 1.3 |  | tax | low-level tax candidate | Samfällighetsförening är en juridisk person. Medlemmarna är ägarna till de deltagande fastigheterna. En samfällighetsförening, för ägande och skötsel av gemensamhetsanläggning för avfallshantering, träder i fastighetsägarens ställe med avseende på betalningsansvar för avgifter enligt denna avfallstaxa.
+35 | 1.3 |  | tax | low-level tax candidate | Säsongsbaserad uppställningsplats är …XXX
+36 | 1.3 |  | reference | low-level reference | Toalettvagn är tillfällig mobil toalett som normalt töms med slamsugningsfordon. Toalettbod och bajamaja ingår i detta begrepp.
+37 | 1.3 |  | info | default info | Transportväg ska vara framkomlig, säker och hållbar för tunga fordon enligt bilaga 4 i kommunens föreskrifter om avfallshantering.
+38 | 1.3 |  | tax | low-level tax candidate | Verksamheter är fastigheter eller lokaler där det uppstår avfall som är jämförligt med avfall från hushåll, exempelvis skolor, förskolor, restauranger, sjukhus, fritidsanläggningar, affärer, hotell, föreningar mm.
+39 | 1.3 |  | tax | low-level tax candidate | Verksamhetsavfall är det avfall som uppstår i en verksamhet som till art och sammansättning inte klassas som kommunalt avfall.
+40 | 1.3 |  | tax | low-level tax candidate | Överfull behållare är ett kärl som inte går att stänga, hantera eller tömma utan risk eller hinder. Vid upprepad överfyllning av behållare har kommunen rätt att ändra abonnemangsvillkoren.
+41 | 1.3 |  | info | default info | I övrigt gäller samma definitioner som i miljöbalken och i föreskrifter för avfallshantering i XX kommun.
+42 | 1.4 |  | section | default info | 1.4 § Betalningsskyldig och betalningsmottagare
+43 | 1.4 |  | group | group phrase | Fastighetsinnehavare är betalningsskyldig och ska teckna abonnemang för aktuell avfallshantering, samt beställa tilläggstjänster enligt denna avfallstaxa utifrån behov som uppstår på fastigheten. Avgiften ska betalas till X kommun.
+44 | 1.4 |  | tax | low-level tax candidate | Betalningsskyldighet gäller även vid de tillfällen då avfall inte har kunnat hämtas, på grund av att avfallsbehållaren inte varit tillgänglig vid tömningstillfället, inte använts eller varit placerad på annat sätt än det i abonnemanget specificerade sättet.
+45 | 1.4 |  | tax | low-level tax candidate | Fakturor kan, om det finns särskilda skäl och efter medgivande från kommunen och fastighetsinnehavare, ställas till nyttjanderättshavare. Avfallsansvarig nämnd kan häva denna överenskommelse om nyttjanderättshavaren inte uppfyller sina åtaganden. Avgiftsskyldigheten kvarstår hos fastighetsinnehavaren och om fakturamottagaren inte betalar fakturorna inom föreskriven tid skickas fakturorna till fastighetsinnehavaren.
+46 | 1.4 |  | info | default info | Fakturering
+47 | 1.4 |  | info | default info | Debitering sker via elektronisk fakturering, en till fyra (1-4) gånger per år.
+48 | 1.4 |  | tax | low-level tax candidate | Debitering för tömning av slam faktureras efter varje tömningstillfälle.
+49 | 1.4 |  | info | default info | Avgift för verksamhetsavfall inlämnat vid ÅVC på XXX, i XXX och XXX faktureras månadsvis.
+50 | 1.4 |  | tax | low-level tax candidate | Ränta och rättegångskostnader
+51 | 1.4 |  | info | default info | Betalas debiterat belopp inte inom tid som anges på fakturan, ska dröjsmålsränta erläggas enligt 5 § räntelagen (SFS, 1975:635) på obetalt belopp från den dag betalning skulle ha skett.
+52 | 1.4 |  | tax | low-level tax candidate | Abonnenten kan bli skyldig att ersätta kommunens rättegångskostnader om ärendet går till domstol och kommunen vinner.
+53 | 1.5 |  | section | default info | 1.5 § Ägarbyte och ändring av abonnemang
+54 | 1.5 |  | info | default info | Anmälan om uppsägning, ägarbyte eller byte av abonnemang ska vara kommunen tillhanda innan förändringen kan träda i kraft. Ingen förändring av abonnemang eller ägare medges retroaktivt.
+55 | 1.5 |  | tax | low-level tax candidate | Anmälan sker till kundtjänst och ska innehålla korrekta uppgifter om fastighetsbeteckning och ny fastighetsinnehavare eller nyttjanderättshavare för att kunna handläggas.
+56 | 1.5 |  | info | default info | Se föreskrifter om avfallshantering för XX kommun angående ansökan om dispens.
+57 | 1.5 |  | tax | low-level tax candidate | Byte av abonnemang och behållare En gång per år har abonnenten rätt att ändra storlek på kärlet och/eller abonnemanget utan extra avgift, räknat från det datum abonnenten ändrade förra gången. Vid tätare ändringar tas avgift ut per ändringstillfälle.
+58 | 1.6 |  | section | default info | 1.6 § Taxans avgifter
+59 | 1.6 |  | tax | low-level tax candidate | Avfallstaxan består av en årlig avgift för hämtning och behandling av kommunalt avfall och därmed jämförligt avfall.
+60 | 1.6 |  | info | default info | Taxeupplägg: Grundavgift + Hämtningsavgift + Viktavgift per kilo
+61 | 1.6 |  | tax | low-level tax candidate | Grundavgift Grundavgift är avgift som bidrar till att finansiera kostnader för administration, tillsyn och planering samt kostnader för återvinningscentraler, hantering av farligt avfall, hantering av returpapper, information, förebyggande och kundtjänst.
+62 | 1.6 |  | header | low-level header | Grundavgift ska betalas för samtliga bostäder (en- och tvåbostadshus, fritidshus och lägenheter i flerbostadshus) samt verksamheter där det uppstår avfall under kommunalt ansvar.
+63 | 1.6 |  | info | default info | Hämtningsavgift
+64 | 1.6 |  | tax | low-level tax candidate | Hämtningsavgift är avgift som i huvudsak finansierar hämtningskostnader såsom kostnader för bl.a. behållare, fordon, bränsle och löner.
+65 | 1.6 |  | info | default info | Rörlig avgift
+66 | 1.6 |  | tax | low-level tax candidate | Den rörliga avgiften, viktavgiften, finansierar behandlingskostnader såsom kostnader för förbränning med energiutvinning, biologisk behandling, eftersortering samt omlastnings- och transportkostnader.
+67 | 1.6 |  | tax | low-level tax candidate | Betalsäck/Akutsäck Får användas när tex behållare inte blivit tömt eller när fastigheten har haft en tillfällig högre avfallsbelastning. Tillfällig gäst/turist kan köpa betalsäck. Märklapp för betalsäck hämtas och betalas hos XXX. Betalsäck lämnas vid ÅVC-anläggningen på anvisad plats.
+68 | 1.6.1 |  | section | default info | 1.6.1 § Reservavgift
+69 | 1.6.1 |  | tax | low-level tax candidate | Om vågutrustningen är ur funktion vid en tömning träder en reservavgift in. Då räknas ett viktmedelvärde utifrån de tre (3) senaste utförda tömningarna hos abonnenten.
+70 | 1.6.1 |  | info | default info | Om reservfordon med endast en fraktion är möjlig att tömma kommer endast en viktavgift att debiteras, oavsett sortering. Vid dessa tillfällen debiteras den lägsta taxan för avfallet för hela innehållet i behållaren.
+71 | 1.6.2 |  | section | default info | 1.6.2 § Felsortering
+72 | 1.6.2 |  | info | default info | Vid felsortering debiteras en felsorteringsavgift.
+73 | 1.6.2 |  | info | default info | Om behållare för matavfall, returpapper eller förpackningar innehåller annat avfall än det behållaren är avsedd för, klassas allt avfall i behållaren om till restavfall och debiteras därefter.
+74 | 1.6.3 |  | section | default info | 1.6.3 § Särskilda avgifter och avgifter när taxan inte kan tillämpas
+75 | 1.6.3 |  | tax | low-level tax candidate | I de fall där taxan inte går att tillämpa, exempelvis vid hämtning med andra metoder än de som är beskrivna i denna avfallstaxa eller där förhållandena väsentligt avviker från vad som är normalt får Avfallsansvarig nämnd besluta om avgifter i enlighet med grunderna för denna avfallstaxa och de grunder som anges i 27 kap 5§ Miljöbalken.
+76 | 1.7 |  | section | default info | 1.7 § Avgifter vid undantag enligt kommunens renhållningsordning
+77 | 1.7 |  | info | default info | Förutsättningar och ansökan av undantag regleras i kommunens föreskrifter för avfallshantering.
+78 | 1.7.1 |  | section | default info | 1.7.1 § Gemensam avfallsbehållare för permanent- eller fritidsboende
+79 | 1.7.1 |  | tax | low-level tax candidate | Upp till tre närliggande fastigheter med permanent- eller fritidsboende kan ansöka om gemensam avfallsbehållare. Fastighetsinnehavaren, tillika sökande, på den fastighet där behållaren står är ansvarig gentemot kommunen för innehållet, skötsel av behållare och hämtvägen.
+80 | 1.7.1 |  | info | default info | Grundavgift debiteras för varje bostad
+81 | 1.7.1 |  | info | default info | Hämtningsavgiften per bostad debiteras med 50 % utifrån fastställda taxan
+82 | 1.7.1 |  | info | default info | Den sökande debiteras avfallsmängderna utifrån gällande taxa
+83 | 1.7.2 |  | section | default info | 1.7.2 § Gemensam avfallsbehållare för förening
+84 | 1.7.2 |  | tax | low-level tax candidate | När det finns samfällighetsförening (SF) eller gemensamhetsanläggning (GA), med ansvar för avfallshantering för fastigheterna, ställs faktura för grundavgifter och rörlig abonnemangsavgift till föreningen.
+85 | 1.7.3 |  | section | default info | 1.7.3 § Uppehåll i hämtning
+86 | 1.7.3 |  | tax | low-level tax candidate | Vid uppehåll ska ingen hämtning av något slags avfall ske från fastigheten under uppehållsperioden.
+87 | 1.7.3 |  | info | default info | Vid uppehåll i hämtning debiteras grundavgift.
+88 | 1.7.4 |  | section | low-level tax candidate | 1.7.4 § Utsträckt hämtningsintervall
+89 | 1.7.4 |  | tax | low-level tax candidate | Fastighetsinnehavaren, tillika sökande, på den fastighet där behållaren står är ansvarig gentemot kommunen för innehållet, skötsel av behållare och hämtvägen.
+90 | 1.7.4 |  | info | default info | Grundavgift debiteras för varje bostad
+91 | 1.7.4 |  | info | default info | Hämtningsavgiften per bostad debiteras med 20 % utifrån fastställda taxan
+92 | 1.7.4 |  | info | default info | Den sökande debiteras avfallsmängderna utifrån gällande taxa
+93 | 1.8 |  | section | default info | 1.8 § Returpapper och producentansvar
+94 | 1.8.1 |  | section | default info | 1.8.1 § Returpapper
+95 | 1.8.1 |  | tax | low-level tax candidate | Fastighetsinnehavare och verksamheter får lämna returpapper och tidningar på återvinningscentralen.
+96 | 1.8.2 |  | section | default info | 1.8.2 § Förpackningar
+97 | 1.8.2 |  | tax | low-level tax candidate | Fastighetsinnehavare får beställa hämtning av förpackningar av någon av de entreprenörer som kommunen har tecknat auktorisationsavtal med, se information på kommunens hemsida.
+98 | 1.8.2 |  | tax | low-level tax candidate | Avgifter för hämtning från fastighet bestäms av entreprenören. Avgifterna betalas till den entreprenör som anlitas.
+99 | 1.8.3 |  | section | default info | 1.8.3 § Flytande fett
+100 | 1.8.3 |  | tax | low-level tax candidate | Fastighetsinnehavare och verksamheter får beställa hämtning av flytande fett av någon av de entreprenörer som kommunen har tecknat auktorisationsavtal med, se information på kommunens hemsida.
+101 | 1.8.3 |  | tax | low-level tax candidate | Avgifter för hämtning från fastighet bestäms av entreprenören. Avgifterna betalas till den entreprenör som anlitas.
+102 | 1.9 |  | section | default info | 1.9 § Samverkan
+103 | 1.9 |  | tax | low-level tax candidate | Verksamheten strävar efter utökad samverkan med angränsande kommuner samt fördjupad samverkan inom trepartens renhållningsnämnd. Av det skälet finns behov av att särskilda avgifter och förutsättningar kan behövas förhandlas fram som möjliggör detta. I denna renhållningstaxa föreslås att särskilda avgifter och överenskommelser kan tecknas mellan Sorsele kommun och samverkande kommuner som är till gagn för båda parter utifrån miljömässiga, verksamhetsmässiga och ekonomiska skäl.
+104 | 1.10 |  | section | default info | 1.10 § Indexreglering
+105 | 1.10 |  | header | low-level header | Ändring av avgifter i denna avfallstaxa får ske högst en gång per år baserat på förändring i avfallsindex A12:1 MD. Förändringen räknas med juli månad, det år då senaste beslutet om avgifter fattades, som basmånad. Basmånadens indextal jämförs med indextalet för augusti månad innevarande år och den procentuella förändringen används för att justera gällande avgifter. Framräknade priser avrundas till hela kronor för avgift inklusive moms. Avfallsansvarig nämnd fattar beslut om ifrågavarande höjning. Höjningen träder i kraft 1 januari efterföljande år.
+106 | 1.11 |  | section | low-level tax candidate | 1.11 § Övergångsbestämmelser
+107 | 1.11 |  | info | default info | Vid införande av utsortering av matavfall/närsorterat kommer denna taxa att debiteras varefter som varje delområde (tömningsdag) och renhållningsområde får kärl för utsortering.
+108 | 1.11 |  | tax | low-level tax candidate | Införande av grundavgift för abonnenter inom renhållningsområde 5 sker med start 1 januari 2026, oavsett när abonnenten informeras om detta.
+109 | 2 |  | section | low-level header | 2 § Avgifter och tjänster – en- och tvåbostadshus, fritidshus, verksamhet, lägenhet och anläggning
+110 | 2.1 |  | section | default info | 2.1 § Grundavgift
+111 | 2.1 |  | tax | low-level tax candidate | Abonnemangstyp Grundavgift per år
+112 | 2.1 |  | tax | low-level tax candidate | En- och tvåbostadshus 1 650,00 kr
+113 | 2.1 |  | tax | low-level tax candidate | Fritidshus XX kr
+114 | 2.1 |  | tax | low-level tax candidate | Verksamhet XX kr
+115 | 2.1 |  | tax | low-level tax candidate | Lägenhet i flerbostadshus XX kr
+116 | 2.1 |  | tax | low-level tax candidate | Lägenhet för specialändamål XX kr
+117 | 2.1 |  | tax | low-level tax candidate | Anläggning XX kr
+118 | 2.1 |  | tax | low-level tax candidate | Säsongsbaserad uppställningsplats XX kr
+119 | 2.1 |  | tax | low-level tax candidate | Campingstuga/-lägenhet XX kr
+120 | 2.1 |  | tax | low-level tax candidate | Administrativ avgift vid beviljad dispens om
+121 | 2.1 |  | info | default info | uppehåll i hämtning eller eget omhändertagande
+122 | 2.1 |  | tax | low-level tax candidate | av avfall under kommunalt ansvar. XX kr
+123 | 2.1 |  | info | default info | Förtydliganden För tvåbostadshus debiteras två grundavgifter, eftersom grundavgifter debiteras per bostad.
+124 | 2.1 |  | info | default info | För verksamheter som hyr ut till andra verksamheter debiteras grundavgifter per verksamhet.
+125 | 2.1 |  | info | default info | Vid beviljat undantag betalas grundavgift.
+126 | 2.2 |  | section | low-level tax candidate | 2.2 § Årlig hämtningsavgift per abonnemangstyp
+127 | 2.2.1 |  | section | low-level tax candidate | 2.2.1 § En- och tvåbostadshus inom hämtningsområde X
+128 | 2.2.1 |  | info | default info | Hämtning var 14:e dag Hämtning månadsvis
+129 | 2.2.1 |  | tax | low-level tax candidate | Kärl 240 l (mat-/restavfall) XX kr XX kr
+130 | 2.2.1 |  | tax | low-level tax candidate | Extrakärl 190 l (restavfall) XX kr XX kr
+131 | 2.2.1 |  | reference | low-level reference | Kärl 370 l (papper-/plastförpackningar) är kostnadsfritt.
+132 | 2.2.2 |  | section | default info | 2.2.2 § Fritidshus inom hämtningsområde X
+133 | 2.2.2 |  | info | default info | Hämtning var 14:e dag Hämtning månadsvis
+134 | 2.2.2 |  | tax | low-level tax candidate | Kärl 240 l (mat-/restavfall) XX kr XX kr
+135 | 2.2.2 |  | tax | low-level tax candidate | Extrakärl 190 l (restavfall) XX kr XX kr
+136 | 2.2.2 |  | reference | low-level reference | Kärl 370 l (papper-/plastförpackningar) är kostnadsfritt.
+137 | 2.2.3 |  | section | default info | 2.2.3 § Gemensam uppsamlingsplats inom hämtningsområde X
+138 | 2.2.3 |  | tax | low-level tax candidate | Gemensam uppsamlingsplats för mat-/restavfall XX kr
+139 | 2.2.3 |  | info | default info | inkl. två (2) digitala licenser
+140 | 2.2.3 |  | reference | low-level reference | Gemensam uppsamlingsplats för förpackningar är kostnadsfritt.
+141 | 2.2.3 |  | tax | low-level tax candidate | Extra digital licens (årskostnad) XX kr
+142 | 2.2.3 |  | tax | low-level tax candidate | Fysisk nyckel, kallad fob (engångskostnad) XX kr
+143 | 2.2.3 |  | tax | low-level tax candidate | Byte av telefonnummer kopplat till licens XX kr
+144 | 2.2.3 |  | tax | low-level tax candidate | Kostnad för öppning av behållare XX kr
+145 | 2.2.4 |  | section | low-level tax candidate | 2.2.4 § Flerbostadshus inom hämtningsområde X
+146 | 2.2.4 |  | info | default info | Hämtning Hämtning Hämtning
+147 | 2.2.4 |  | info | default info | Typ av behållare varje vecka var 14:e dag månadsvis
+148 | 2.2.4 |  | tax | low-level tax candidate | Kärl 240 l (mat-/restavfall) XX kr XX kr XX kr
+149 | 2.2.4 |  | tax | low-level tax candidate | Kärl 370 l (restavfall) XX kr XX kr XX kr
+150 | 2.2.4 |  | tax | low-level tax candidate | Kärl 660 l (restavfall) XX kr XX kr XX kr
+151 | 2.2.4 |  | tax | low-level tax candidate | Kärl 140 l (matavfall) XX kr XX kr XX kr
+152 | 2.2.4 |  | tax | low-level tax candidate | Kärl 190 l (förpackningar) XX kr XX kr XX kr
+153 | 2.2.4 |  | tax | low-level tax candidate | Kärl 370 l (förpackningar) XX kr XX kr XX kr
+154 | 2.2.4 |  | tax | low-level tax candidate | Kärl 660 l (förpackningar) XX kr XX kr XX kr
+155 | 2.2.4 |  | tax | low-level tax candidate | Kärl 190 l (tidningar och returpapper) XX kr XX kr XX kr
+156 | 2.2.4 |  | tax | low-level tax candidate | Kärl 370 l (tidningar och returpapper) XX kr XX kr XX kr
+157 | 2.2.4 |  | header | low-level header | Typ av behållare Avgift per tömning
+158 | 2.2.4 |  | info | default info | Bottentömmande behållare
+159 | 2.2.4 |  | tax | low-level tax candidate | (mat-/restavfall, förpackningar) XX kr
+160 | 2.2.4 |  | tax | low-level tax candidate | Vid tömning två (2) gånger per vecka tillkommer XXX kr eller %.
+161 | 2.2.4 |  | header | header phrase | Typ av behållare Avgift per lägenhet
+162 | 2.2.4 |  | info | default info | Gemensam uppsamlingsplats för
+163 | 2.2.4 |  | tax | low-level tax candidate | mat-/restavfall, förpackningar XX kr
+164 | 2.2.5 |  | section | default info | 2.2.5 § Verksamheter inom hämtningsområde X
+165 | 2.2.5 |  | info | default info | Hämtning Hämtning Hämtning
+166 | 2.2.5 |  | info | default info | Typ av behållare varje vecka var 14:e dag månadsvis
+167 | 2.2.5 |  | tax | low-level tax candidate | Kärl 240 l (mat-/restavfall) XX kr XX kr XX kr
+168 | 2.2.5 |  | tax | low-level tax candidate | Kärl 370 l (restavfall) XX kr XX kr XX kr
+169 | 2.2.5 |  | tax | low-level tax candidate | Kärl 660 l (restavfall) XX kr XX kr XX kr
+170 | 2.2.5 |  | tax | low-level tax candidate | Kärl 140 l (matavfall) XX kr XX kr XX kr
+171 | 2.2.5 |  | header | low-level header | Typ av behållare Avgift per tömning
+172 | 2.2.5 |  | tax | low-level tax candidate | Bottentömmande behållare (mat-/restavfall) XX kr
+173 | 2.2.5 |  | tax | low-level tax candidate | Lastväxlarflak (restavfall) XX kr
+174 | 2.2.5 |  | tax | low-level tax candidate | Vid tömning två (2) gånger per vecka tillkommer XXX kr eller %.
+175 | 2.2.6 |  | section | default info | 2.2.6 § Verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall
+176 | 2.2.6 |  | info | default info | Hämtning Hämtning Hämtning
+177 | 2.2.6 |  | info | default info | Typ av behållare varje vecka var 14:e dag månadsvis
+178 | 2.2.6 |  | tax | low-level tax candidate | Kärl 240 l (mat-/restavfall) XX kr XX kr XX kr
+179 | 2.2.6 |  | tax | low-level tax candidate | Kärl 370 l (restavfall) XX kr XX kr XX kr
+180 | 2.2.6 |  | tax | low-level tax candidate | Kärl 660 l (restavfall) XX kr XX kr XX kr
+181 | 2.2.6 |  | tax | low-level tax candidate | Kärl 140 l (matavfall) XX kr XX kr XX kr
+182 | 2.2.6 |  | header | low-level header | Typ av behållare Avgift per tömning
+183 | 2.2.6 |  | tax | low-level tax candidate | Bottentömmande behållare (mat-/restavfall) XX kr
+184 | 2.2.6 |  | tax | low-level tax candidate | Lastväxlarflak (restavfall) XX kr
+185 | 2.2.6 |  | tax | low-level tax candidate | Vid tömning två (2) gånger per vecka tillkommer XXX kr eller %.
+186 | 2.2.7 |  | section | default info | 2.2.7 § Verksamheter med beviljad hantering av förbrukat matfett, kontorspapper eller returpapper
+187 | 2.2.7 |  | tax | low-level tax candidate | Kärl 140 l (kontors-/returpapper) XX kr
+188 | 2.2.7 |  | tax | low-level tax candidate | Egen överlämning av förbrukat kontors-/returpapper enligt anvisning XX kr
+189 | 2.2.7 |  | tax | low-level tax candidate | Egen överlämning av förbrukat matfett enligt anvisning XX kr
+190 | 2.3 |  | section | default info | 2.3 § Rörlig avgift (gäller ej gemensam uppsamlingsplats)
+191 | 2.3 |  | header | low-level header | Typ av avgift Avgift per kg
+192 | 2.3 |  | tax | low-level tax candidate | Viktavgift matavfall XX kr
+193 | 2.3 |  | tax | low-level tax candidate | Viktavgift restavfall XX kr
+194 | 2.3 |  | header | low-level header | Typ av avgift Avgift per lyft
+195 | 2.3 |  | tax | low-level tax candidate | Lyftavgift kärl XX kr
+196 | 2.4 |  | section | group phrase | 2.4 § Tillägg och avgifter för avfall
+197 | 2.4.1 |  | section | default info | 2.4.1 § Fakturaavgift
+198 | 2.4.1 |  | header | low-level header | Typ av avgift Avgift per faktura
+199 | 2.4.1 |  | tax | low-level tax candidate | Fakturavgift XX kr
+200 | 2.4.1 |  | info | default info | Fakturaavgift debiteras för pappersfakturor vid fler än X fakturor per år.
+201 | 2.4.2 |  | section | default info | 2.4.2 § Överviktsavgift kärl
+202 | 2.4.2 |  | info | default info | Vikter som överstiger de i avfallsföreskrifterna fastställda maxvikterna för respektive kärl, debiteras viktavgift enligt nedan.
+203 | 2.4.2 |  | header | low-level header | Typ av behållare Maxvikt Avgift per kg över maxvikten
+204 | 2.4.2 |  | tax | low-level tax candidate | Delat kärl 240 l matavfall 40 kg XX kr
+205 | 2.4.2 |  | tax | low-level tax candidate | Delat kärl 240 l restavfall 40 kg XX kr
+206 | 2.4.2 |  | tax | low-level tax candidate | Extra kärl 140 l matavfall 60 kg XX kr
+207 | 2.4.2 |  | tax | low-level tax candidate | Extra kärl 140-190 l restavfall 60 kg XX kr
+208 | 2.4.2 |  | tax | low-level tax candidate | Kärl 370 l restavfall 60 kg XX kr
+209 | 2.4.2 |  | tax | low-level tax candidate | Kärl 660 l restavfall 100 kg XX kr
+210 | 2.4.3 |  | section | default info | 2.4.3 § Överfull behållare
+211 | 2.4.3 |  | tax | low-level tax candidate | Avgift tas ut då lock ej är tillslutet. Kärlet töms om möjligt, annars informeras fastighetsägaren och uppmanas begära en budad tömning. Matavfall omklassas till restavfall vid delat kärl.
+212 | 2.4.3 |  | tax | low-level tax candidate | Avgift per tillfälle
+213 | 2.4.3 |  | info | default info | Typ av behållare och behållare
+214 | 2.4.3 |  | tax | low-level tax candidate | Överfullt kärl XX kr
+215 | 2.4.3 |  | tax | low-level tax candidate | Överfull bottentömmande behållare XX kr
+216 | 2.4.4 |  | section | default info | 2.4.4 § Byte av trasigt kärl
+217 | 2.4.4 |  | info | default info | Anledning till byte Avgift per kärl
+218 | 2.4.4 |  | tax | low-level tax candidate | Byte av trasigt kärl vid oaktsamhet XX kr
+219 | 2.4.4 |  | reference | low-level reference | Byte av trasigt kärl vid tömning Ingår i hämtningsavgiften
+220 | 2.4.4 |  | header | low-level header | Avgift utgår vid oaktsamhet av kärlet, tex felplacering som ger upphov till skada eller påkörning av kärlet. Vid utbyte av kärl ingår utkörning i priset.
+221 | 2.4.5 |  | section | default info | 2.4.5 § Byte av abonnemang
+222 | 2.4.5 |  | header | low-level header | Antal byten Typ av kärl Avgift per kärl
+223 | 2.4.5 |  | tax | low-level tax candidate | Byte/återtag av kärl en (1) ggr/år 140–240 liter XX kr
+224 | 2.4.5 |  | tax | low-level tax candidate | Byte/återtag av kärl en (1) ggr/år 370–660 liter XX kr
+225 | 2.4.5 |  | tax | low-level tax candidate | Ytterligare byte av kärl under kalenderåret XX kr
+226 | 2.4.6 |  | section | default info | 2.4.6 § Felsorteringsavgift
+227 | 2.4.6 |  | tax | low-level tax candidate | Avgift per tillfälle
+228 | 2.4.6 |  | info | default info | Typ av behållare och behållare
+229 | 2.4.6 |  | tax | low-level tax candidate | Kärl XX kr
+230 | 2.4.6 |  | tax | low-level tax candidate | Bottentömmande behållare XX kr
+231 | 2.4.7 |  | section | default info | 2.4.7 § Dragväg och avfallsutrymmen
+232 | 2.4.7 |  | group | group phrase | För arbete inom fastighetsgräns eller motsvarande debiteras denna tilläggsavgift när kärl är placerade mer än 1,5 meter från fastighetsgräns.
+233 | 2.4.7 |  | info | default info | Dragväg
+234 | 2.4.7 |  | info | default info | Avgift per kärl och år
+235 | 2.4.7 |  | tax | low-level tax candidate | Typ av kärl Avstånd (m) Tömning var 14:e dag
+236 | 2.4.7 |  | tax | low-level tax candidate | Kärl 140-660 L 1,5-10 XX kr
+237 | 2.4.7 |  | tax | low-level tax candidate | Kärl 140-660 L 10-20 XX kr
+238 | 2.4.7 |  | tax | low-level tax candidate | Kärl 140-660 L 20-30 XX kr
+239 | 2.4.7 |  | info | default info | Avfallsutrymme Avgift
+240 | 2.4.7 |  | tax | low-level tax candidate | Avfallsport/dörr XX kr
+241 | 2.4.7 |  | tax | low-level tax candidate | Låst dörr, med kod XX kr
+242 | 2.4.8 |  | section | default info | 2.4.8 § Evenemang och andra tillfälliga händelser
+243 | 2.4.8 |  | reference | low-level reference | Uthyrning inklusive administration, utkörning, en tömning och hämtning per period av max 14 dagar. Tvätt och behandling ingår. Rörliga avgifter tillkommer enligt 2.3.
+244 | 2.4.8 |  | header | low-level header | Typ av behållare Avgift per behållare
+245 | 2.4.8 |  | tax | low-level tax candidate | Kärl 140 l matavfall XX kr
+246 | 2.4.8 |  | tax | low-level tax candidate | Kärl 190 l restavfall XX kr
+247 | 2.4.8 |  | tax | low-level tax candidate | Kärl 370 l restavfall XX kr
+248 | 2.4.8 |  | tax | low-level tax candidate | Kärl 660 l restavfall XX kr
+249 | 2.4.8 |  | tax | low-level tax candidate | Bottentömmande behållare XX kr
+250 | 2.4.8 |  | info | default info | Andra kärl enligt överenskommelse hyrd av tredje part.
+251 | 2.4.9 |  | section | low-level tax candidate | 2.4.9 § Budning av mat- och restavfall
+252 | 2.4.9 |  | header | low-level header | Typ av fordon Avgift per tillfälle
+253 | 2.4.9 |  | tax | low-level tax candidate | Sidlastande fordon XX kr
+254 | 2.4.9 |  | tax | low-level tax candidate | Bottentömmande fordon XX kr
+255 | 2.4.9 |  | tax | low-level tax candidate | Tömningsavgift per behållare XX kr
+256 | 2.4.9 |  | reference | low-level reference | Rörliga avgifter tillkommer enligt 2.3.
+257 | 2.4.10 |  | section | default info | 2.4.10 § Betalsäck och akutsäck
+258 | 2.4.10 |  | header | low-level header | Typ av säck Avgift per säck
+259 | 2.4.10 |  | tax | low-level tax candidate | Betalsäck XX kr
+260 | 2.4.10 |  | tax | low-level tax candidate | Akutsäck XX kr
+261 | 2.4.11 |  | section | default info | 2.4.11 § Tillbehör
+262 | 2.4.11 |  | info | default info | Avgift per bunt
+263 | 2.4.11 |  | tax | low-level tax candidate | Matavfallspåsar 9 L XX kr
+264 | 2.4.11 |  | tax | low-level tax candidate | Matavfallspåsar 22 L XX kr
+265 | 2.4.11 |  | tax | low-level tax candidate | Gravitationslås till kärl XX kr
+266 | 2.4.11 |  | tax | low-level tax candidate | Extra nyckel till gravitationslås XX kr
+267 | 2.5 |  | section | default info | 2.5 § Övrigt avfall under kommunalt ansvar från hushåll
+268 | 2.5 |  | reference | reference rule | I grundavgiften för bostäder ingår möjligheten att nyttja återvinningscentralen, med dess möjligheter att lämna den del av hushållsavfallet som är el-avfall, farligt avfall och grovavfall som uppkommer vid normalt boende. Latrin, bygg och rivningsavfall samt verksamhetsavfall är inte inkluderat i grundavgiften se 6 §.
+269 | 2.5 |  | info | default info | Avfallet ska lämnas enskilt, eller i genomskinliga säckar.
+270 | 2.5 |  | info | default info | Grovavfall är det kommunala avfallet som är så tungt, skrymmande eller har egenskaper som gör att det inte kan samlas in i det vanliga avfallskärlet. Kan exempelvis vara utrangerade möbler, cyklar och barnvagnar.
+271 | 2.5 |  | tax | low-level tax candidate | Trädgårdsavfall avses sådant biologiskt avfall som uppstår vid normalt nyttjande av trädgård vid bostadshus.
+272 | 2.5 |  | info | default info | Avfall från elektriska och elektroniska hushållsprodukter, glödlampor och vissa belysningsarmaturer, kasserade bilbatterier och små batterier. Innehåller kasserade produkter lösa batterier ska dessa plockas ur. Är batterierna inbyggda i produkten behandlas de som el-avfall.
+273 | 2.5 |  | tax | low-level tax candidate | Med farligt avfall anses bland annat färg, lackavfall, limavfall, spackel, lösningsmedel, sprayburkar, kaustiksoda, svavelsyra, ammoniak, lut, avkalkningsmedel, termometrar, barometrar, reläer.
+274 | 2.5 |  | info | default info | För privata byggare
+275 | 2.5 |  | tax | low-level tax candidate | Avfall med mindre volym än 2,0 m3 får lämnas av privatpersoner fyra (4) gånger per år som själva bygger och som betalar en grundavgift för bostaden i kommunen. Samma krav på att anmäla sin ankomst, samt sortering av avfallet gäller för alla oavsett mängd.
+276 | 2.5.1 |  | section | low-level tax candidate | 2.5.1 § Budning för fastighetsnära hämtning av kommunalt avfall
+277 | 2.5.1 |  | header | header phrase | Typ av avfall Framkörningsavgift per tillfälle
+278 | 2.5.1 |  | tax | low-level tax candidate | Kommunalt avfall XX kr
+279 | 2.5.1 |  | tax | low-level tax candidate | Farligt avfall (ej uppmärkt) XX kr
+280 | 2.5.1 |  | tax | low-level tax candidate | Farligt avfall (uppmärkt) XX kr
+281 | 2.5.1 |  | tax | low-level tax candidate | Avisering av ankomst XX kr
+282 | 2.5.1 |  | reference | low-level reference | Hanteringsavgift tillkommer enligt 6 §.
+283 | 2.5.1 |  | tax | low-level tax candidate | Fastighetsägaren kan beställa hämtning av avfall under kommunalt ansvar mot en framkörningsavgift.
+284 | 2.5.1 |  | tax | low-level tax candidate | Beställnings sker hos kundtjänst. Hämtning utförs inom 14 dagar.
+285 | 2.5.1 |  | tax | low-level tax candidate | Avfallet skall vara märkt och uppställt på sådant sätt att det klart framgår vad det är för typ av avfall. Avfallet skall vid hämtningstillfället vara placerat intill tomtgräns vid gata eller vid farbar väg med vändmöjligheter för lastbil.
+286 | 2.5.1 |  | info | default info | Grovavfall är skrymmande avfall (över 80 cm), till exempel möbler, cyklar, barnvagnar som
+287 | 2.5.1 |  | tax | low-level tax candidate | normalt uppkommer i ett hushåll. Fastighetsägare får göra beställning. Max 10 kolli per tillfälle.
+288 | 2.5.1 |  | tax | low-level tax candidate | Trädgårdsavfall är avfall från normal trädgårdsskötsel inom tomt. Buntat ris/grenar, max 1 m långt, max 15 kg alternativt löst trädgårdsavfall i genomskinlig säck, max 15 kg, max 240 liter.
+289 | 2.5.1 |  | tax | low-level tax candidate | Invasiva arter ska förpackas separat i genomskinlig säck, max 15 kg, max 240 liter. Max 10 kolli per tillfälle.
+290 | 2.5.1 |  | tax | low-level tax candidate | Farligt avfall ska vara tydligt uppmärkt, väl förpackat utan risk för läckage och sorterat enligt kommunens avfallsföreskrifter. Max 25 kg/tillfälle.
+291 | 2.5.1 |  | tax | low-level tax candidate | Latrinbehållare ska vara godkänd och ha försluten innersäck/påse. Vid hämtningstillfället ska behållaren vara väl tillsluten, rengjord på utsidan och placerad i skugga. Max vikt 15 kg.
+292 | 3 |  | section | default info | 3 § Tömning av slam
+293 | 3 |  | info | default info | Slamtömning av avskiljare och tankar utförs av XX kommun eller entreprenör som kommunen anlitar.
+294 | 3.1 |  | section | default info | 3.1 § Ordinarie tömning slam
+295 | 3.1 |  | info | default info | Vid regelbunden hämtning efter av kommunen fastställd körturlista med max erforderlig slanglängd om 5 meter räknat från bilens uppställningsplats till brunnens botten, debiteras nedanstående avgifter.
+296 | 3.1 |  | tax | low-level tax candidate | Arbetet utförs till största del under tömningssäsongen som sträcker sig från 1 maj till och med 30 september. Övrig tid budas tömningar enligt taxa, akut tömning. Anmälan om förändringar av tömningsintervall meddelas senast 1 april.
+297 | 3.1 |  | tax | low-level tax candidate | Permanentbostad
+298 | 3.1 |  | tax | low-level tax candidate | Från permanentbostäder med ansluten WC, ska obligatorisk tömning ske minst en (1) gång per år.
+299 | 3.1 |  | tax | low-level tax candidate | Fritidsbostad
+300 | 3.1 |  | tax | low-level tax candidate | Från fritidsbostäder med ansluten WC, ska tömning ske minst vartannat (2) år.
+301 | 3.1 |  | info | default info | Utökad tömningsintervall
+302 | 3.1 |  | tax | low-level tax candidate | Ansökan om utökad tömningsintervall görs hos samhällsbyggnadsnämnden, senast 1 februari aktuellt år.
+303 | 3.1 |  | info | default info | Latrinbehållare
+304 | 3.1 |  | reference | reference rule | För mer information se taxa för Hanteringsavgifter för avfall inlämnat på återvinningscentral.
+305 | 3.1 |  | info | default info | Heltömning av brunn och tank
+306 | 3.1 |  | info | default info | Volym på brunn Avgift per tömning
+307 | 3.1 |  | tax | low-level tax candidate | Upp till 3 m3 XX kr
+308 | 3.1 |  | tax | low-level tax candidate | Mellan 3 m3 och 6 m3 XX kr
+309 | 3.1 |  | tax | low-level tax candidate | Mellan 6 m3 och 9 m3 XX kr
+310 | 3.1 |  | tax | low-level tax candidate | Tillägg per m3 över 9 m3 XX kr
+311 | 3.1 |  | info | default info | BDT-vatten, s.k. gråvatten
+312 | 3.1 |  | tax | low-level tax candidate | Bad-, disk- och tvättbrunn upp till 3 m3 XX kr
+313 | 3.1 |  | tax | low-level tax candidate | Tillägg per m3 över 3 m3 XX kr
+314 | 3.2 |  | section | group phrase | 3.2 § Tilläggstjänster slam
+315 | 3.2 |  | group | group phrase | Tilläggstjänster Avgift
+316 | 3.2 |  | tax | low-level tax candidate | Dragning av extra slang vid 5-25 m XX kr
+317 | 3.2 |  | tax | low-level tax candidate | Dragning av extra slang vid 25-35 m XX kr
+318 | 3.2 |  | tax | low-level tax candidate | Dragning av extra slang vid 36-45 m XX kr
+319 | 3.2 |  | tax | low-level tax candidate | Dragning av extra slang vid 46-55 m XX kr
+320 | 3.2 |  | tax | low-level tax candidate | Hantering av brunnslock som väger 15-25 kg XX kr
+321 | 3.2 |  | tax | low-level tax candidate | Krav på information om tömningstid XX kr
+322 | 3.2 |  | tax | low-level tax candidate | Krav på närvaro vid specificerad tömningstid XX kr
+323 | 3.2 |  | tax | low-level tax candidate | Hantering av kod för kodlås vid slamtömning XX kr
+324 | 3.2 |  | tax | low-level tax candidate | Hetvattentvätt med spolbil, timersättning XX kr
+325 | 3.2 |  | tax | low-level tax candidate | Avgift om tömning ej kan utföras pga. hinder, bristande
+326 | 3.2 |  | tax | low-level tax candidate | transportväg, betonglock, lock tyngre än 25 kg eller vägran XX kr
+327 | 3.2 |  | tax | low-level tax candidate | Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3 XX kr
+328 | 3.3 |  | section | group phrase | 3.3 § Övriga avgifter och tillägg slam
+329 | 3.3 |  | tax | low-level tax candidate | Budningskostnad av brunn och tank
+330 | 3.3 |  | info | default info | Inom 24 timmar på vardagar Avgift
+331 | 3.3 |  | tax | low-level tax candidate | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) XX kr
+332 | 3.3 |  | tax | low-level tax candidate | Budning utanför ordinarie tömningsperiod (1 nov – 30 april) XX kr
+333 | 3.3 |  | group | group phrase | Tömningskostnad och övriga tilläggstjänster tillkommer.
+334 | 3.3 |  | info | default info | Inom 7 arbetsdagar Avgift
+335 | 3.3 |  | tax | low-level tax candidate | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) XX kr
+336 | 3.3 |  | tax | low-level tax candidate | Budning utanför ordinarie tömningsperiod (1 nov – 30 april) XX kr
+337 | 3.3 |  | group | group phrase | Tömningskostnad och övriga tilläggstjänster tillkommer.
+338 | 3.3 | Övriga avgifter | group | group phrase | Övriga avgifter
+339 | 3.3 | Övriga avgifter | tax | low-level tax candidate | Tömning av toalettvagnar eller liknande XX kr/styck
+340 | 3.3 | Övriga avgifter | info | default info | Framkörningsavgift då ordinarie tömning
+341 | 3.3 | Övriga avgifter | info | default info | inte skett på grund av hinder, abonnenten vägrar,
+342 | 3.3 | Övriga avgifter | tax | low-level tax candidate | bristfällig väg eller annat XX kr/tillfälle
+343 | 3.3 | Övriga avgifter | info | default info | Sen anmälan om förändringar av tömningsintervall.
+344 | 3.3 | Övriga avgifter | info | default info | Om förändring, nyanmälan eller avbokning av
+345 | 3.3 | Övriga avgifter | tax | low-level tax candidate | slamtömning meddelas efter 1 april innevarande år. XX kr/tillfälle
+346 | 3.4 |  | section | default info | 3.4 § Latrinbehållare
+347 | 3.4 |  | header | header phrase | Typ av avfall Avgift per st
+348 | 3.4 |  | tax | low-level tax candidate | Latrinbehållare 37 liter inkl. mottagning och behandling XX kr
+349 | 3.4 |  | info | default info | Engångsbehållare för latrin finns att köpa på XXX återvinningscentral. Betalning sker på plats/via faktura.
+350 | 4 |  | section | default info | 4 § Hämtning av fosforfilter
+351 | 4 |  | info | default info | Hämtning av fosforfilter utförs av XX kommun eller entreprenör som kommunen anlitar.
+352 | 4.1 |  | section | default info | 4.1 § Budad hämtning fosforfilter
+353 | 4.1 |  | info | default info | Budad hämtning inom sju (7) arbetsdagar
+354 | 4.1 |  | tax | low-level tax candidate | Filtermassor upp till 500 kg XX kr
+355 | 4.1 |  | tax | low-level tax candidate | Filtermassor 500-1000 kg XX kr
+356 | 4.1 |  | group | group phrase | Tillägg för transport och behandlingskostnad
+357 | 4.1 |  | tax | low-level tax candidate | Filtermassor upp till 500 kg XX kr
+358 | 4.1 |  | tax | low-level tax candidate | Filtermassor 500-1000 kg XX kr
+359 | 4.2 |  | section | group phrase | 4.2 § Tilläggstjänster fosforfilter
+360 | 4.2 |  | tax | low-level tax candidate | Krav på information om hämtningstid XX kr
+361 | 4.2 |  | tax | low-level tax candidate | Krav på närvaro vid specificerad hämtningstid XX kr
+362 | 4.2 |  | tax | low-level tax candidate | Hantering av kod för kodlås XX kr
+363 | 4.2 |  | info | default info | Avgift om hämtning ej kan utföras pga hinder,
+364 | 4.2 |  | tax | low-level tax candidate | bristande väg eller vägran XX kr
+365 | 5 |  | section | default info | 5 § Tömning av fettavskiljare
+366 | 5 |  | info | default info | Tömning av fettavskiljare utförs av XX kommun eller entreprenör som kommunen anlitar.
+367 | 5.1 |  | section | default info | 5.1 § Ordinarie tömning av fettavskiljare
+368 | 5.1 |  | info | default info | Tömning, transport och behandling av fettavskiljare/tank enligt anmält tömningsintervall
+369 | 5.1 |  | tax | low-level tax candidate | Upp till 3 m3 XX kr
+370 | 5.1 |  | tax | low-level tax candidate | Mellan 3 m3 och 6 m3 XX kr
+371 | 5.1 |  | tax | low-level tax candidate | Över 6 m3 XX kr
+372 | 5.1 |  | group | group phrase | Tillägg för transport och behandlingskostnad
+373 | 5.1 |  | tax | low-level tax candidate | Upp till 3 m3 XX kr
+374 | 5.1 |  | tax | low-level tax candidate | Mellan 3 m3 och 6 m3 XX kr
+375 | 5.1 |  | tax | low-level tax candidate | Över 6 m3 XX kr
+376 | 5.2 |  | section | group phrase | 5.2 § Tilläggstjänster fettavskiljare
+377 | 5.2 |  | tax | low-level tax candidate | Dragning av extra slang vid 5-25 m XX kr
+378 | 5.2 |  | tax | low-level tax candidate | Dragning av extra slang vid 25-35 m XX kr
+379 | 5.2 |  | tax | low-level tax candidate | Dragning av extra slang vid 36-45 m XX kr
+380 | 5.2 |  | tax | low-level tax candidate | Dragning av extra slang vid 46-55 m XX kr
+381 | 5.2 |  | tax | low-level tax candidate | Hantering av brunnslock som väger 15-25 kg XX kr
+382 | 5.2 |  | tax | low-level tax candidate | Krav på information om tömningstid XX kr
+383 | 5.2 |  | tax | low-level tax candidate | Krav på närvaro vid specificerad tömningstid XX kr
+384 | 5.2 |  | tax | low-level tax candidate | Hantering av kod för kodlås vid tömning XX kr
+385 | 5.2 |  | tax | low-level tax candidate | Hetvattentvätt med spolbil, timersättning XX kr
+386 | 5.2 |  | tax | low-level tax candidate | Silikontätning per lock XX kr
+387 | 5.2 |  | info | default info | Avgift om tömning ej kan utföras pga hinder,
+388 | 5.2 |  | tax | low-level tax candidate | bristande transportväg, betonglock, lock tyngre än 25 kg eller vägran XX kr
+389 | 5.2 |  | tax | low-level tax candidate | Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3 XX kr
+390 | 5.3 |  | section | group phrase | 5.3 § Övriga avgifter och tillägg fettavskiljare
+391 | 5.3 |  | tax | low-level tax candidate | Budningskostnad av tank
+392 | 5.3 |  | info | default info | Inom 48 timmar på vardagar
+393 | 5.3 |  | tax | low-level tax candidate | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) XX kr
+394 | 5.3 |  | tax | low-level tax candidate | Budning utanför ordinarie tömningsperiod XX kr
+395 | 5.3 |  | group | group phrase | Tömningskostnad och övriga tilläggstjänster tillkommer.
+396 | 5.3 |  | info | default info | Inom 8 arbetsdagar
+397 | 5.3 |  | tax | low-level tax candidate | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) XX kr
+398 | 5.3 |  | tax | low-level tax candidate | Budning utanför ordinarie tömningsperiod XX kr
+399 | 5.3 |  | group | group phrase | Tömningskostnad och övriga tilläggstjänster tillkommer.
+400 | 5.3 | Övriga avgifter | group | group phrase | Övriga avgifter
+401 | 5.3 | Övriga avgifter | info | default info | Framkörningsavgift då ordinarie tömning
+402 | 5.3 | Övriga avgifter | info | default info | inte skett på grund av hinder, abonnenten vägrar,
+403 | 5.3 | Övriga avgifter | tax | low-level tax candidate | bristfällig väg eller annat XX kr/tillfälle
+404 | 5.3 | Övriga avgifter | info | default info | Sen anmälan om förändringar av tömningsintervall.
+405 | 5.3 | Övriga avgifter | info | default info | Om förändring, nyanmälan eller avbokning av
+406 | 5.3 | Övriga avgifter | tax | low-level tax candidate | tömning meddelas efter 1 april innevarande år. XX kr/tillfälle
+407 | 6 |  | section | default info | 6 § Avfall inlämnat på återvinningscentral
+408 | 6.1.1 |  | section | default info | 6.1.1 § Inpassering på ÅVC
+409 | 6.1.1 |  | tax | low-level tax candidate | Vid besök på återvinningscentralen läses registreringsskylten och automatisk debitering utgår för verksamhetsregistrerade lätta lastbilar, personbilar och släpvagnar.
+410 | 6.1.1 |  | tax | low-level tax candidate | Minimidebitering? Se flera fraktioner nedan.
+411 | 6.1.1 |  | header | low-level header | Typ av abonnemang Avgift per besök
+412 | 6.1.1 |  | tax | low-level tax candidate | Verksamheter XX kr
+413 | 6.1.1 |  | tax | low-level tax candidate | Övriga abonnemangstyper XX kr
+414 | 6.1.1 |  | tax | low-level tax candidate | Vågkort XX kr
+415 | 6.1.1 |  | tax | low-level tax candidate | Borttappat vågkort XX kr
+416 | 6.1.1 |  | tax | low-level tax candidate | Ej registrerat besök vid återvinningscentral
+417 | 6.1.1 |  | info | default info | För företagare och privatpersoner som lämnar verksamhetsavfall vid kommunens återvinningscentral utan att anmäla sin ankomst till personalen debiteras en smitningsavgift. Registrering av närvara vid återvinningscentralen sker via ankomstmätning av företagsägda fordon vid återvinningscentral i XX kommun eller okulärt av personalen vid våra återvinningscentraler.
+418 | 6.1.1 |  | tax | low-level tax candidate | Ej redovisad ankomst till ÅVC (för företagare och privatpersoner
+419 | 6.1.1 |  | tax | low-level tax candidate | som lämnar verksamhetsavfall utan att anmälan sin ankomst) XX kr/besök
+420 | 6.1.1 |  | tax | low-level tax candidate | Ej redovisad eller fel redovisad fraktion av avfall XXXX kr/fraktion
+421 | 6.1.2 |  | section | default info | 6.1.2 § Hanteringsavgifter för avfall inlämnat på återvinningscentral
+422 | 6.1.2 |  | header | header phrase | Typ av avfall Typ av avfall EWC kod EWC kod UN-nr UN-nr Enhet Enhet Pris Pris
+422 | 6.1.2 |  | tax | low-level tax candidate | Avfall till energiåtervinning (240 L sopsäck) Avfall till energiåtervinning (240 L sopsäck) 200301 200301 styck styck
+422 | 6.1.2 |  | tax | low-level tax candidate | Avfall till energiåtervinning Avfall till energiåtervinning 200301 200301 kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Skrymmande avfall till energiåtervinning större än 20*20*80 Skrymmande avfall till energiåtervinning större än 20*20*80 200307 200307 kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp 170201 170201 kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Träavfall – behandlat, utan tapet, plastmatta, tjärpapp Träavfall – behandlat, utan tapet, plastmatta, tjärpapp 170201 170201 kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Tryckimpregnerat virke, pall Tryckimpregnerat virke, pall 170204* 170204* kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Betong, lättbetong Betong, lättbetong 170101 170101 kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Gips, gipsskivor Gips, gipsskivor 170802 170802 kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Tegel Tegel 170102 170102 kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Fönster- och planglas utan karm Fönster- och planglas utan karm 170202 170202 kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Fönster med karm Fönster med karm
+422 | 6.1.2 |  | tax | low-level tax candidate | Plast Plast kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Isolering utan innehåll av asbets Isolering utan innehåll av asbets 170604 170604 m3 m3
+422 | 6.1.2 |  | tax | low-level tax candidate | Klinker, keramik, porslin Klinker, keramik, porslin 170103 170103 kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Handfat Handfat 170103 170103 styck styck
+422 | 6.1.2 |  | tax | low-level tax candidate | WC stol WC stol 170103 170103 styck styck
+422 | 6.1.2 |  | tax | low-level tax candidate | Metall Metall 200140 200140 kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Textilier Textilier kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Fiskeredskap Fiskeredskap kilogram kilogram
+422 | 6.1.2 |  | tax | low-level tax candidate | Ätbart fett/frityrolja Ätbart fett/frityrolja liter liter
+423 | 6.1.2 |  | tax | low-level tax candidate | Kvistar och grenar 200201 m3
+423 | 6.1.2 |  | info | default info | Jord
+423 | 6.1.2 |  | tax | low-level tax candidate | Sten
+423 | 6.1.2 |  | tax | low-level tax candidate | Stubbar rötter för krossning
+424 | 6.1.2 |  | tax | low-level tax candidate | Flera fraktioner för egen sortering på ramp (max 2 m3) besök
+425 | 6.1.2 |  | tax | low-level tax candidate | Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) besök
+426 | 6.1.2 | Tillägg för farligt avfall | group | group phrase | Tillägg för farligt avfall
+427 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Då man som verksamhet och företag, sedan den 1 november 2020, ska rapportera sitt farliga avfall till Naturvårdsverket så ska även intyget även lämnas in till personalen på ÅVC. Om man kommer in med farligt avfall* så ska säkerhetsdatablad för varje fraktion följa med.
+428 | 6.1.2 | Tillägg för farligt avfall | header | header phrase | EWC kod UN-nr Enhet Pris
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Tonerkassetter, utan elektronik/chip 080307 kilogram 31,88
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Oljeemulsion, emballerat 120109* 1202 kilogram 20,81
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Förorenad olja innehållande PCB 130301* 3295 kilogram 38,25
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Oljeavskiljarslam 130508* 3295 kilogram 6,56
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Diesel 130701* 1202 kilogram 21,94
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Bensinrester 130702* 1203 kilogram 21,94
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Hydralslang, med/utan koppling 130899* 3106 kilogram 33,94
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Förpackningar, tömde ej rengjorda 150110* kilogram 25,50
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Oljeavfall, fast osorterat emba 150202* 1202 kilogram 23,44
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Absorbermedel, filtermaterial 150202* 1993 kilogram 15,38
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Oljefilter 160107* 3295 kilogram 15,38
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Bromsvätska 160113* kilogram 11,44
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Transformator, kondensator med PCB 160209* 3295 kilogram 84,94
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Fogskum 160504* 1950 kilogram 90,00
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Halon 160504* 1009 kilogram 127,50
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Koldioxid 160504* 1013 kilogram 112,13
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Brandsläckare 160504* 1044 kilogram 91,69
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Helium 160504* 1046 kilogram 117,19
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Tändare 160504* 1057 kilogram 127,50
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Syrgas 160504* 1072 kilogram 117,19
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Oxiderande fast ämne/vätska 160504* 1479 kilogram 103,31
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Klorex 160504* 1495 kilogram 103,31
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Aerosoler isocyanat, bekämpning 160504* 1950 kilogram 101,06
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Gasol inkl tub 160504* 1965 kilogram 102,00
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Gasol, blå programmet 160504* kilogram 169,88
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Giftig organisk vätska 160506* 2810 kilogram 103,31
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Småkemikalier, ej Hg-haltiga 160506* 3286 kilogram 103,31
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Giftig oorganisk vätska 160506* 3287 kilogram 103,31
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Oxidationsmedel, flytande 160904* 1497 kilogram 103,31
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Asbest, emballerat 170601* 2212 kilogram 22,88
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Smittförande avfall 180103* 3291 kilogram 40,31
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Lösningsmedel 200113* 1993 kilogram 20,63
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Väteperoxid 200113* 2014 kilogram 103,31
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Flourvätesyra 200114* 1790 kilogram 81,38
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Svavelsyra 200114* 1832 kilogram 81,38
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Salpetersyra 200114* 2031 kilogram 81,38
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Surt oorganisk fast ämne 200114* 3260 kilogram 103,31
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Surt organisk fast ämne 200114* 3260 kilogram 127,50
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Surt oorganisk vätska 200114* 3264 kilogram 127,50
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Surt organisk vätska 200114* 3265 kilogram 127,50
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Ammoniaklösning 200115* 2672 kilogram 63,38
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Alkaliskt avfall fast 200115* 3262 kilogram 27,75
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Basiskt organiskt fast/flytande 200115* 3263 kilogram 46,50
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Fotokemikalier 200117* kilogram 38,25
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Bekämpningsmedel aerosoler 200119* 1950 kilogram 73,69
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Bekämpningsmedel fast 200119* 2588 kilogram 85,88
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Bekämpningsmedel flytande 200119* 2903 kilogram 61,69
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Kvicksilverhaltigt avfall 200121* 2809 kilogram 1 034,81
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Kvicksilver i föremål 200121* 3506 kilogram 1 034,81
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Oljehaltigt avfall (ej PCB) 200126* 3295 liter 15,94
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Olja förorenad (ej PCB) 200126* 3295 liter 23,44
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Färg-, lack-, limburkar lösning 200127* 1263 kilogram 19,88
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Färg-, lack-, limburkar lösning aerosoler 200127* 1950 kilogram 43,31
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Isocyanater 200127* 3080 kilogram 103,88
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Härdare metyl- etylketonperoxid 200127* 3105 kilogram 109,88
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Härdare dibenzoylperoxid 200127* 3106 kilogram 114,38
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Färg-,lack-, limburkar vattenbaserade 200128 kilogram 15,38
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Tensida alkaliska flytande avfall 200129* 1304 kilogram 25,50
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Rengöring/vaskmedel fast 200129* 2903 kilogram 27,19
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Alkaliska flytande avfall 200129* 3266 kilogram 27,75
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Cytotoxiska läkemedel, cytostat 200131* 3249 kilogram 64,88
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Rökdetektor med andra isotoper 200135* 2911 kilogram 1 911,75
+428 | 6.1.2 | Tillägg för farligt avfall | tax | low-level tax candidate | Rökdetektor med Am 241 200135* 2911 kilogram 1 911,75
+429 | 6.1.2 | Tillägg för el-avfall | group | group phrase | Tillägg för el-avfall
+430 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | När el-avfall ska lämnas måste det först anmälas i Hämtplatsportalen på Elkretsens hemsida. En kopia på avlämningsintyg lämnas till åvc personalen innan el-avfallet lämnas i miljöboden. Uppmärksamma att visst el-avfall även är klassat som farlig avfall* och kräver då även registrering hos Naturvårdsverket.
+431 | 6.1.2 | Tillägg för el-avfall | header | header phrase | EWC kod EWC kod UN-nr UN-nr Enhet Enhet Pris Pris
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | Batterier stav, pencell Batterier stav, pencell 200133* 200133* kilogram kilogram 0,00 0,00
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | Batterier lithium Batterier lithium 200134* 200134* kilogram kilogram 0,00 0,00
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | Bil-, mcbatteri med bly Bil-, mcbatteri med bly 160601* 160601* styck styck 0,00 0,00
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | Glödlampor Glödlampor 200136* 200136* kilogram kilogram 0,00 0,00
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | Lysrör Lysrör 200121* 200121* kilogram kilogram 0,00 0,00
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | Elavfall, små elektronik Elavfall, små elektronik 200136 200136 kilogram kilogram 0,00 0,00
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | El-avfall fast installation El-avfall fast installation 200136 200136 kilogram kilogram 37,60 37,60
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | El-avfall kabel El-avfall kabel 170411 170411 kilogram kilogram 0,00 0,00
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | Toner, färgpatron med elektronik Toner, färgpatron med elektronik 080307* 080307* kilogram kilogram 37,60 37,60
+431 | 6.1.2 | Tillägg för el-avfall | reference | reference rule | Toner, färgpatron utan elektronik Toner, färgpatron utan elektronik 080307* 080307* se farligt avfall se farligt avfall se farligt avfall se farligt avfall se farligt avfall se farligt avfall
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | Tv, radio, skärm, skrivare utan färgpatron Tv, radio, skärm, skrivare utan färgpatron 200135 200135 kilogram kilogram 0,00 0,00
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | Kyl-, frysskåp, -box Kyl-, frysskåp, -box 200123* 200123* styck styck 0,00 0,00
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | Kyl-, frysskåp, -box från verksamhet Kyl-, frysskåp, -box från verksamhet 200123* 200123* kilogram kilogram 37,60 37,60
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | Spis, tvätt-, diskmaskin Spis, tvätt-, diskmaskin 200135* 200135* styck styck 0,00 0,00
+431 | 6.1.2 | Tillägg för el-avfall | tax | low-level tax candidate | Spis, tvätt-, diskmaskin från verksamhet Spis, tvätt-, diskmaskin från verksamhet 200135* 200135* kilogram kilogram 37,60 37,60
+432 | 6.1.3 |  | section | default info | 6.1.3 § Hyra av container
+433 | 6.1.3 |  | tax | low-level tax candidate | Container storlek Avgift per container per dygn
+434 | 6.1.3 |  | tax | low-level tax candidate | Container X m3 XX kr
+435 | 6.1.3 |  | tax | low-level tax candidate | Container X m3 XX kr
+436 | 6.1.3 |  | tax | low-level tax candidate | Container X m3 XX kr
+437 | 6.1.3 |  | group | group phrase | Tillägg Avgift per container
+438 | 6.1.3 |  | tax | low-level tax candidate | Omklassning av felsorterad container XX kr
+439 | 6.1.3 |  | info | default info | Omklassning sker när container är felsorterad och innehåller avfall som ej är godkänt för containerinsamling, tex el avfall och farligt avfall, då sker omklassning av hela vikten i containern till fraktionen material till sortering.
+440 | 6.1.4 |  | section | group phrase | 6.1.4 § Tillägg och avgifter
+441 | 6.1.4 |  | tax | low-level tax candidate | Okänt farligt avfall (säkerhetsdatablad saknas) XXX kr/fraktion
+442 | 6.1.4 |  | tax | low-level tax candidate | Ombud för rapportering av farligt avfall i Avfallsregistret XXX kr/tillfälle
+443 | 6.1.4 |  | tax | low-level tax candidate | Administrativ rapporteringsavgift till Avfallsregistret XXX kr/tillfälle
+444 | 6.1.4 |  | tax | low-level tax candidate | Ombud för registrering av El-kretsen avlämnarintyg
+445 | 6.1.4 |  | tax | low-level tax candidate | i Hämtplatsportalen XXX kr/tillfälle

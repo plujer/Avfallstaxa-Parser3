@@ -3,7 +3,9 @@ import argparse
 from pathlib import Path
 from parser3.config_loader import load_config
 from parser3.context import ContextEngine
+from parser3.diff import DiffEngine, ExplainReporter, PrecisionReporter
 from parser3.document import DocumentReader
+from parser3.excel import MasterExcelReader
 from parser3.export import JsonExporter, TextReporter
 from parser3.golden import GoldenMasterBuilder, GoldenMasterWriter
 from parser3.headings import HeadingTreeBuilder
@@ -18,12 +20,15 @@ from parser3.validation import ValidationEngine
 def main() -> None:
     arg_parser = argparse.ArgumentParser(description="Avfallstaxa Parser 3.0")
     arg_parser.add_argument("--word", default="")
+    arg_parser.add_argument("--master", default="")
     arg_parser.add_argument("--headings", action="store_true")
     arg_parser.add_argument("--tables", action="store_true")
     arg_parser.add_argument("--context", action="store_true")
     arg_parser.add_argument("--semantic", action="store_true")
     arg_parser.add_argument("--validate", action="store_true")
     arg_parser.add_argument("--build-golden", action="store_true")
+    arg_parser.add_argument("--diff", action="store_true")
+    arg_parser.add_argument("--explain", action="store_true")
     arg_parser.add_argument("--golden", default="golden_master/parser_facit.yaml")
     args = arg_parser.parse_args()
 
@@ -68,7 +73,7 @@ def main() -> None:
                 print(f"  {classified.row_type:10s} | {' | '.join(row)}")
         return
 
-    if args.semantic or args.validate or args.build_golden:
+    if args.semantic or args.validate or args.build_golden or args.diff or args.explain:
         result = SemanticParser().parse(blocks)
         rows = result.tax_rows
         JsonExporter().export(rows, "output/parser3_result.json")
@@ -79,10 +84,27 @@ def main() -> None:
         for summary in SectionSummaryBuilder().build(rows):
             print(f"  {summary.section}: {summary.tax_count}")
 
+        if args.explain:
+            ExplainReporter().write(result.semantic_rows, "output/parser3_explain_report.txt")
+            print("Explain report: output/parser3_explain_report.txt")
+
         if args.build_golden:
             data = GoldenMasterBuilder().from_tax_rows(rows)
             GoldenMasterWriter().write(data, "output/parser_facit_generated.yaml")
             print("Golden master draft: output/parser_facit_generated.yaml")
+
+        if args.diff:
+            if not args.master:
+                print("ERROR: --diff requires --master <xlsx path>")
+            else:
+                expected = MasterExcelReader().read(args.master)
+                diff = DiffEngine().compare(rows, expected)
+                PrecisionReporter().write(diff, "output/parser3_precision_report.txt")
+                print(f"Diff matched: {len(diff.matched)}")
+                print(f"Diff missing: {len(diff.missing)}")
+                print(f"Diff extra: {len(diff.extra)}")
+                print(f"Diff passed: {diff.passed}")
+                print("Precision report: output/parser3_precision_report.txt")
 
         if args.validate:
             validation = ValidationEngine().validate(rows, args.golden)

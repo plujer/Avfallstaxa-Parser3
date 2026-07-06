@@ -1,0 +1,359 @@
+Parser 3.0 precision report
+
+Matched: 0
+Missing: 0
+Extra: 351
+Passed: False
+
+EXTRA
+-  | förslag till taxestruktur för |  |  | Extra parser row
+- 1 | 1 § allmänna bestämmelser |  |  | Extra parser row
+- 1.1 | dessa föreskrifter om avgifter har kommunen beslutat med stöd av 27 kap. 4 § miljöbalken. avgifterna avser den hantering av avfall som utförs genom kommunens försorg och som kommunen ansvarar för enligt 15 kap. 20 § miljöbalken samt enligt 6 kap. 2 och 6 §§ förordningen (2022:1274) om producentansvar för förpackningar. taxan gäller tills ny taxa beslutas. |  |  | Extra parser row
+- 1.2 | för kommunens avfallshantering gäller bestämmelserna i miljöbalken, avfallsförordningen, andra förordningar utfärdade med stöd av miljöbalken samt föreskrifter om avfallshantering för xx kommun. i föreskrifter om avfallshantering för xx kommun anges bland annat hur avfall ska sorteras. |  |  | Extra parser row
+- 1.3 | abonnemang innebär regelbunden tömning med bestämt intervall. debitering av abonnemang sker till abonnent. |  | tömning | Extra parser row
+- 1.3 | anläggning är en lokal där det uppstår avfall exempelvis byastugor, föreningslokaler, fiske- och jaktföreningar. observera att detta gäller ej företag. |  |  | Extra parser row
+- 1.3 | bostad är den/de byggnader på fastigheten som är registrerad som bostad enligt lantmäteriets fastighetsinformation. en fastighet kan ha en (1) eller flera byggnader för bostad. |  |  | Extra parser row
+- 1.3 | campingstuga/-lägenhet är…. xxx |  | lägenhet | Extra parser row
+- 1.3 | dragvägen betyder den sträcka som renhållningsarbetaren måste dra avfallsbehållaren manuellt från hämtstället till insamlingsfordonet. |  |  | Extra parser row
+- 1.3 | el-avfall avses detsamma som i 16 § förordningen (2022:1276) om producentansvar för elutrustning. elavfall ska utsorteras och hållas särskilt från annat avfall. el-avfall definieras som allt avfall som består av elektriska eller elektroniska produkter som drivs med sladd eller batteri och som därför måste hanteras separat från vanligt hushållsavfall. |  |  | Extra parser row
+- 1.3 | en- och tvåbostadshus är en bostad där någon är permanent skriven eller bostad som används året runt. innehåller högst två bostadslägenheter. begreppet omfattar exempelvis villor, radhus, kedjehus och parhus för permanentboende. |  |  | Extra parser row
+- 1.3 | fastighet kan ha en eller flera byggnader. dessa byggnader har olika ändamål exempelvis: bostad, samhällsfunktion, verksamhet, industri, ekonomi-, komplement- eller övrig byggnad. |  |  | Extra parser row
+- 1.3 | fastighetsinnehavare är den eller de som är fastighetsägare eller som enligt 1 kap. 5 § fastighetstaxeringslagen (1979:1152) ska anses som fastighetsägare, exempelvis tomträttsinnehavare och samfällighetsförening. |  |  | Extra parser row
+- 1.3 | felsorteringsavgift är en extra avgift som kommunen kan ta ut när avfall i ett kärl eller en fraktion är felaktigt sorterat och därmed bryter mot avfallsföreskrifterna. syftet är att täcka de ökade kostnaderna för hantering och att styra mot bättre sortering. exempel på felsortering är restavfall eller plastpåsar i matavfallsbehållare eller farligt avfall, el-avfall eller matavfall i behållare för restavfall. vid upprepad felsortering har kommunen rätt att ändra abonnemangsvillkoren. |  | fraktion | Extra parser row
+- 1.3 | flerbostadshus är ett bostadshus med minst tre bostadslägenheter. |  |  | Extra parser row
+- 1.3 | fritidshus är en- och tvåbostadshus eller flerbostadshus där ingen är folkbokförd. om en eller flera personer är folkbokförda på bostaden definieras den som en- och tvåbostadshus. |  |  | Extra parser row
+- 1.3 | gemensam avfallsbehållare är när flera bostäder använder en eller flera gemensamma behållare för avfall. |  |  | Extra parser row
+- 1.3 | hushåll menas de boende i en- och tvåbostadshus, i flerbostadshus eller i fritidshus. |  |  | Extra parser row
+- 1.3 | nyttjanderättshavare är den som, utan att omfattas av begreppet fastighetsinnehavare, har rätt att bruka eller nyttja fastighet, exempelvis via arrende. |  |  | Extra parser row
+- 1.3 | samfällighetsförening är en juridisk person. medlemmarna är ägarna till de deltagande fastigheterna. en samfällighetsförening, för ägande och skötsel av gemensamhetsanläggning för avfallshantering, träder i fastighetsägarens ställe med avseende på betalningsansvar för avgifter enligt denna avfallstaxa. |  |  | Extra parser row
+- 1.3 | säsongsbaserad uppställningsplats är …xxx |  |  | Extra parser row
+- 1.3 | verksamheter är fastigheter eller lokaler där det uppstår avfall som är jämförligt med avfall från hushåll, exempelvis skolor, förskolor, restauranger, sjukhus, fritidsanläggningar, affärer, hotell, föreningar mm. |  |  | Extra parser row
+- 1.3 | verksamhetsavfall är det avfall som uppstår i en verksamhet som till art och sammansättning inte klassas som kommunalt avfall. |  |  | Extra parser row
+- 1.3 | överfull behållare är ett kärl som inte går att stänga, hantera eller tömma utan risk eller hinder. vid upprepad överfyllning av behållare har kommunen rätt att ändra abonnemangsvillkoren. |  | kärl | Extra parser row
+- 1.4 | betalningsskyldighet gäller även vid de tillfällen då avfall inte har kunnat hämtas, på grund av att avfallsbehållaren inte varit tillgänglig vid tömningstillfället, inte använts eller varit placerad på annat sätt än det i abonnemanget specificerade sättet. |  |  | Extra parser row
+- 1.4 | fakturor kan, om det finns särskilda skäl och efter medgivande från kommunen och fastighetsinnehavare, ställas till nyttjanderättshavare. avfallsansvarig nämnd kan häva denna överenskommelse om nyttjanderättshavaren inte uppfyller sina åtaganden. avgiftsskyldigheten kvarstår hos fastighetsinnehavaren och om fakturamottagaren inte betalar fakturorna inom föreskriven tid skickas fakturorna till fastighetsinnehavaren. |  |  | Extra parser row
+- 1.4 | debitering för tömning av slam faktureras efter varje tömningstillfälle. |  | tömning | Extra parser row
+- 1.4 | ränta och rättegångskostnader |  |  | Extra parser row
+- 1.4 | abonnenten kan bli skyldig att ersätta kommunens rättegångskostnader om ärendet går till domstol och kommunen vinner. |  |  | Extra parser row
+- 1.5 | anmälan sker till kundtjänst och ska innehålla korrekta uppgifter om fastighetsbeteckning och ny fastighetsinnehavare eller nyttjanderättshavare för att kunna handläggas. |  |  | Extra parser row
+- 1.5 | byte av abonnemang och behållare en gång per år har abonnenten rätt att ändra storlek på kärlet och/eller abonnemanget utan extra avgift, räknat från det datum abonnenten ändrade förra gången. vid tätare ändringar tas avgift ut per ändringstillfälle. |  | år | Extra parser row
+- 1.6 | avfallstaxan består av en årlig avgift för hämtning och behandling av kommunalt avfall och därmed jämförligt avfall. |  |  | Extra parser row
+- 1.6 | grundavgift grundavgift är avgift som bidrar till att finansiera kostnader för administration, tillsyn och planering samt kostnader för återvinningscentraler, hantering av farligt avfall, hantering av returpapper, information, förebyggande och kundtjänst. |  |  | Extra parser row
+- 1.6 | hämtningsavgift är avgift som i huvudsak finansierar hämtningskostnader såsom kostnader för bl.a. behållare, fordon, bränsle och löner. |  |  | Extra parser row
+- 1.6 | den rörliga avgiften, viktavgiften, finansierar behandlingskostnader såsom kostnader för förbränning med energiutvinning, biologisk behandling, eftersortering samt omlastnings- och transportkostnader. |  |  | Extra parser row
+- 1.6 | betalsäck/akutsäck får användas när tex behållare inte blivit tömt eller när fastigheten har haft en tillfällig högre avfallsbelastning. tillfällig gäst/turist kan köpa betalsäck. märklapp för betalsäck hämtas och betalas hos xxx. betalsäck lämnas vid åvc-anläggningen på anvisad plats. |  |  | Extra parser row
+- 1.6.1 | om vågutrustningen är ur funktion vid en tömning träder en reservavgift in. då räknas ett viktmedelvärde utifrån de tre (3) senaste utförda tömningarna hos abonnenten. |  | tömning | Extra parser row
+- 1.6.3 | i de fall där taxan inte går att tillämpa, exempelvis vid hämtning med andra metoder än de som är beskrivna i denna avfallstaxa eller där förhållandena väsentligt avviker från vad som är normalt får avfallsansvarig nämnd besluta om avgifter i enlighet med grunderna för denna avfallstaxa och de grunder som anges i 27 kap 5§ miljöbalken. |  |  | Extra parser row
+- 1.7.1 | upp till tre närliggande fastigheter med permanent- eller fritidsboende kan ansöka om gemensam avfallsbehållare. fastighetsinnehavaren, tillika sökande, på den fastighet där behållaren står är ansvarig gentemot kommunen för innehållet, skötsel av behållare och hämtvägen. |  |  | Extra parser row
+- 1.7.2 | när det finns samfällighetsförening (sf) eller gemensamhetsanläggning (ga), med ansvar för avfallshantering för fastigheterna, ställs faktura för grundavgifter och rörlig abonnemangsavgift till föreningen. |  | faktura | Extra parser row
+- 1.7.3 | vid uppehåll ska ingen hämtning av något slags avfall ske från fastigheten under uppehållsperioden. |  |  | Extra parser row
+- 1.7.4 | 1.7.4 § utsträckt hämtningsintervall |  |  | Extra parser row
+- 1.7.4 | fastighetsinnehavaren, tillika sökande, på den fastighet där behållaren står är ansvarig gentemot kommunen för innehållet, skötsel av behållare och hämtvägen. |  |  | Extra parser row
+- 1.8.1 | fastighetsinnehavare och verksamheter får lämna returpapper och tidningar på återvinningscentralen. |  |  | Extra parser row
+- 1.8.2 | fastighetsinnehavare får beställa hämtning av förpackningar av någon av de entreprenörer som kommunen har tecknat auktorisationsavtal med, se information på kommunens hemsida. |  |  | Extra parser row
+- 1.8.2 | avgifter för hämtning från fastighet bestäms av entreprenören. avgifterna betalas till den entreprenör som anlitas. |  |  | Extra parser row
+- 1.8.3 | fastighetsinnehavare och verksamheter får beställa hämtning av flytande fett av någon av de entreprenörer som kommunen har tecknat auktorisationsavtal med, se information på kommunens hemsida. |  |  | Extra parser row
+- 1.8.3 | avgifter för hämtning från fastighet bestäms av entreprenören. avgifterna betalas till den entreprenör som anlitas. |  |  | Extra parser row
+- 1.9 | verksamheten strävar efter utökad samverkan med angränsande kommuner samt fördjupad samverkan inom trepartens renhållningsnämnd. av det skälet finns behov av att särskilda avgifter och förutsättningar kan behövas förhandlas fram som möjliggör detta. i denna renhållningstaxa föreslås att särskilda avgifter och överenskommelser kan tecknas mellan sorsele kommun och samverkande kommuner som är till gagn för båda parter utifrån miljömässiga, verksamhetsmässiga och ekonomiska skäl. |  |  | Extra parser row
+- 1.11 | 1.11 § övergångsbestämmelser |  |  | Extra parser row
+- 1.11 | införande av grundavgift för abonnenter inom renhållningsområde 5 sker med start 1 januari 2026, oavsett när abonnenten informeras om detta. |  |  | Extra parser row
+- 2.1 | abonnemangstyp grundavgift per år |  | år | Extra parser row
+- 2.1 | en- och tvåbostadshus 1 650,00 kr |  |  | Extra parser row
+- 2.1 | fritidshus xx kr |  |  | Extra parser row
+- 2.1 | verksamhet xx kr |  |  | Extra parser row
+- 2.1 | lägenhet i flerbostadshus xx kr |  | lägenhet | Extra parser row
+- 2.1 | lägenhet för specialändamål xx kr |  | lägenhet | Extra parser row
+- 2.1 | anläggning xx kr |  |  | Extra parser row
+- 2.1 | säsongsbaserad uppställningsplats xx kr |  |  | Extra parser row
+- 2.1 | campingstuga/-lägenhet xx kr |  | lägenhet | Extra parser row
+- 2.1 | administrativ avgift vid beviljad dispens om |  |  | Extra parser row
+- 2.1 | av avfall under kommunalt ansvar. xx kr |  |  | Extra parser row
+- 2.2 | 2.2 § årlig hämtningsavgift per abonnemangstyp |  |  | Extra parser row
+- 2.2.1 | 2.2.1 § en- och tvåbostadshus inom hämtningsområde x |  |  | Extra parser row
+- 2.2.1 | kärl 240 l (mat-/restavfall) xx kr xx kr |  | kärl | Extra parser row
+- 2.2.1 | extrakärl 190 l (restavfall) xx kr xx kr |  |  | Extra parser row
+- 2.2.2 | kärl 240 l (mat-/restavfall) xx kr xx kr |  | kärl | Extra parser row
+- 2.2.2 | extrakärl 190 l (restavfall) xx kr xx kr |  |  | Extra parser row
+- 2.2.3 | gemensam uppsamlingsplats för mat-/restavfall xx kr |  |  | Extra parser row
+- 2.2.3 | extra digital licens (årskostnad) xx kr |  |  | Extra parser row
+- 2.2.3 | fysisk nyckel, kallad fob (engångskostnad) xx kr |  |  | Extra parser row
+- 2.2.3 | byte av telefonnummer kopplat till licens xx kr |  |  | Extra parser row
+- 2.2.3 | kostnad för öppning av behållare xx kr |  |  | Extra parser row
+- 2.2.4 | 2.2.4 § flerbostadshus inom hämtningsområde x |  |  | Extra parser row
+- 2.2.4 | kärl 240 l (mat-/restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.4 | kärl 370 l (restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.4 | kärl 660 l (restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.4 | kärl 140 l (matavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.4 | kärl 190 l (förpackningar) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.4 | kärl 370 l (förpackningar) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.4 | kärl 660 l (förpackningar) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.4 | kärl 190 l (tidningar och returpapper) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.4 | kärl 370 l (tidningar och returpapper) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.4 | (mat-/restavfall, förpackningar) xx kr |  |  | Extra parser row
+- 2.2.4 | vid tömning två (2) gånger per vecka tillkommer xxx kr eller %. |  | tömning | Extra parser row
+- 2.2.4 | mat-/restavfall, förpackningar xx kr |  |  | Extra parser row
+- 2.2.5 | kärl 240 l (mat-/restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.5 | kärl 370 l (restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.5 | kärl 660 l (restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.5 | kärl 140 l (matavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.5 | bottentömmande behållare (mat-/restavfall) xx kr |  |  | Extra parser row
+- 2.2.5 | lastväxlarflak (restavfall) xx kr |  |  | Extra parser row
+- 2.2.5 | vid tömning två (2) gånger per vecka tillkommer xxx kr eller %. |  | tömning | Extra parser row
+- 2.2.6 | kärl 240 l (mat-/restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.6 | kärl 370 l (restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.6 | kärl 660 l (restavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.6 | kärl 140 l (matavfall) xx kr xx kr xx kr |  | kärl | Extra parser row
+- 2.2.6 | bottentömmande behållare (mat-/restavfall) xx kr |  |  | Extra parser row
+- 2.2.6 | lastväxlarflak (restavfall) xx kr |  |  | Extra parser row
+- 2.2.6 | vid tömning två (2) gånger per vecka tillkommer xxx kr eller %. |  | tömning | Extra parser row
+- 2.2.7 | kärl 140 l (kontors-/returpapper) xx kr |  | kärl | Extra parser row
+- 2.2.7 | egen överlämning av förbrukat kontors-/returpapper enligt anvisning xx kr |  |  | Extra parser row
+- 2.2.7 | egen överlämning av förbrukat matfett enligt anvisning xx kr |  |  | Extra parser row
+- 2.3 | viktavgift matavfall xx kr |  |  | Extra parser row
+- 2.3 | viktavgift restavfall xx kr |  |  | Extra parser row
+- 2.3 | lyftavgift kärl xx kr |  | kärl | Extra parser row
+- 2.4.1 | fakturavgift xx kr |  |  | Extra parser row
+- 2.4.2 | delat kärl 240 l matavfall 40 kg xx kr |  | kilogram | Extra parser row
+- 2.4.2 | delat kärl 240 l restavfall 40 kg xx kr |  | kilogram | Extra parser row
+- 2.4.2 | extra kärl 140 l matavfall 60 kg xx kr |  | kilogram | Extra parser row
+- 2.4.2 | extra kärl 140-190 l restavfall 60 kg xx kr |  | kilogram | Extra parser row
+- 2.4.2 | kärl 370 l restavfall 60 kg xx kr |  | kilogram | Extra parser row
+- 2.4.2 | kärl 660 l restavfall 100 kg xx kr |  | kilogram | Extra parser row
+- 2.4.3 | avgift tas ut då lock ej är tillslutet. kärlet töms om möjligt, annars informeras fastighetsägaren och uppmanas begära en budad tömning. matavfall omklassas till restavfall vid delat kärl. |  | tömning | Extra parser row
+- 2.4.3 | avgift per tillfälle | avgift per tillfälle | tillfälle | Extra parser row
+- 2.4.3 | överfullt kärl xx kr |  | kärl | Extra parser row
+- 2.4.3 | överfull bottentömmande behållare xx kr |  |  | Extra parser row
+- 2.4.4 | byte av trasigt kärl vid oaktsamhet xx kr |  | kärl | Extra parser row
+- 2.4.5 | byte/återtag av kärl en (1) ggr/år 140–240 liter xx kr |  | liter | Extra parser row
+- 2.4.5 | byte/återtag av kärl en (1) ggr/år 370–660 liter xx kr |  | liter | Extra parser row
+- 2.4.5 | ytterligare byte av kärl under kalenderåret xx kr |  | kärl | Extra parser row
+- 2.4.6 | avgift per tillfälle | avgift per tillfälle | tillfälle | Extra parser row
+- 2.4.6 | kärl xx kr |  | kärl | Extra parser row
+- 2.4.6 | bottentömmande behållare xx kr |  |  | Extra parser row
+- 2.4.7 | typ av kärl avstånd (m) tömning var 14:e dag |  | tömning | Extra parser row
+- 2.4.7 | kärl 140-660 l 1,5-10 xx kr |  | kärl | Extra parser row
+- 2.4.7 | kärl 140-660 l 10-20 xx kr |  | kärl | Extra parser row
+- 2.4.7 | kärl 140-660 l 20-30 xx kr |  | kärl | Extra parser row
+- 2.4.7 | avfallsport/dörr xx kr |  |  | Extra parser row
+- 2.4.7 | låst dörr, med kod xx kr |  |  | Extra parser row
+- 2.4.8 | kärl 140 l matavfall xx kr |  | kärl | Extra parser row
+- 2.4.8 | kärl 190 l restavfall xx kr |  | kärl | Extra parser row
+- 2.4.8 | kärl 370 l restavfall xx kr |  | kärl | Extra parser row
+- 2.4.8 | kärl 660 l restavfall xx kr |  | kärl | Extra parser row
+- 2.4.8 | bottentömmande behållare xx kr |  |  | Extra parser row
+- 2.4.9 | 2.4.9 § budning av mat- och restavfall |  |  | Extra parser row
+- 2.4.9 | sidlastande fordon xx kr |  |  | Extra parser row
+- 2.4.9 | bottentömmande fordon xx kr |  |  | Extra parser row
+- 2.4.9 | tömningsavgift per behållare xx kr |  |  | Extra parser row
+- 2.4.10 | betalsäck xx kr |  |  | Extra parser row
+- 2.4.10 | akutsäck xx kr |  |  | Extra parser row
+- 2.4.11 | matavfallspåsar 9 l xx kr |  |  | Extra parser row
+- 2.4.11 | matavfallspåsar 22 l xx kr |  |  | Extra parser row
+- 2.4.11 | gravitationslås till kärl xx kr |  | kärl | Extra parser row
+- 2.4.11 | extra nyckel till gravitationslås xx kr |  |  | Extra parser row
+- 2.5 | trädgårdsavfall avses sådant biologiskt avfall som uppstår vid normalt nyttjande av trädgård vid bostadshus. |  |  | Extra parser row
+- 2.5 | med farligt avfall anses bland annat färg, lackavfall, limavfall, spackel, lösningsmedel, sprayburkar, kaustiksoda, svavelsyra, ammoniak, lut, avkalkningsmedel, termometrar, barometrar, reläer. |  |  | Extra parser row
+- 2.5 | avfall med mindre volym än 2,0 m3 får lämnas av privatpersoner fyra (4) gånger per år som själva bygger och som betalar en grundavgift för bostaden i kommunen. samma krav på att anmäla sin ankomst, samt sortering av avfallet gäller för alla oavsett mängd. |  | m³ | Extra parser row
+- 2.5.1 | 2.5.1 § budning för fastighetsnära hämtning av kommunalt avfall |  |  | Extra parser row
+- 2.5.1 | kommunalt avfall xx kr |  |  | Extra parser row
+- 2.5.1 | farligt avfall (ej uppmärkt) xx kr |  |  | Extra parser row
+- 2.5.1 | farligt avfall (uppmärkt) xx kr |  |  | Extra parser row
+- 2.5.1 | avisering av ankomst xx kr |  |  | Extra parser row
+- 2.5.1 | fastighetsägaren kan beställa hämtning av avfall under kommunalt ansvar mot en framkörningsavgift. |  |  | Extra parser row
+- 2.5.1 | beställnings sker hos kundtjänst. hämtning utförs inom 14 dagar. |  |  | Extra parser row
+- 2.5.1 | avfallet skall vara märkt och uppställt på sådant sätt att det klart framgår vad det är för typ av avfall. avfallet skall vid hämtningstillfället vara placerat intill tomtgräns vid gata eller vid farbar väg med vändmöjligheter för lastbil. |  |  | Extra parser row
+- 2.5.1 | normalt uppkommer i ett hushåll. fastighetsägare får göra beställning. max 10 kolli per tillfälle. |  | tillfälle | Extra parser row
+- 2.5.1 | trädgårdsavfall är avfall från normal trädgårdsskötsel inom tomt. buntat ris/grenar, max 1 m långt, max 15 kg alternativt löst trädgårdsavfall i genomskinlig säck, max 15 kg, max 240 liter. |  | kilogram | Extra parser row
+- 2.5.1 | invasiva arter ska förpackas separat i genomskinlig säck, max 15 kg, max 240 liter. max 10 kolli per tillfälle. |  | kilogram | Extra parser row
+- 2.5.1 | farligt avfall ska vara tydligt uppmärkt, väl förpackat utan risk för läckage och sorterat enligt kommunens avfallsföreskrifter. max 25 kg/tillfälle. |  | kilogram | Extra parser row
+- 2.5.1 | latrinbehållare ska vara godkänd och ha försluten innersäck/påse. vid hämtningstillfället ska behållaren vara väl tillsluten, rengjord på utsidan och placerad i skugga. max vikt 15 kg. |  | kilogram | Extra parser row
+- 3.1 | arbetet utförs till största del under tömningssäsongen som sträcker sig från 1 maj till och med 30 september. övrig tid budas tömningar enligt taxa, akut tömning. anmälan om förändringar av tömningsintervall meddelas senast 1 april. |  | tömning | Extra parser row
+- 3.1 | permanentbostad |  |  | Extra parser row
+- 3.1 | från permanentbostäder med ansluten wc, ska obligatorisk tömning ske minst en (1) gång per år. |  | år | Extra parser row
+- 3.1 | fritidsbostad |  |  | Extra parser row
+- 3.1 | från fritidsbostäder med ansluten wc, ska tömning ske minst vartannat (2) år. |  | år | Extra parser row
+- 3.1 | ansökan om utökad tömningsintervall görs hos samhällsbyggnadsnämnden, senast 1 februari aktuellt år. |  | år | Extra parser row
+- 3.1 | upp till 3 m3 xx kr |  | m³ | Extra parser row
+- 3.1 | mellan 3 m3 och 6 m3 xx kr |  | m³ | Extra parser row
+- 3.1 | mellan 6 m3 och 9 m3 xx kr |  | m³ | Extra parser row
+- 3.1 | tillägg per m3 över 9 m3 xx kr |  | m³ | Extra parser row
+- 3.1 | bad-, disk- och tvättbrunn upp till 3 m3 xx kr |  | m³ | Extra parser row
+- 3.1 | tillägg per m3 över 3 m3 xx kr |  | m³ | Extra parser row
+- 3.2 | dragning av extra slang vid 5-25 m xx kr |  |  | Extra parser row
+- 3.2 | dragning av extra slang vid 25-35 m xx kr |  |  | Extra parser row
+- 3.2 | dragning av extra slang vid 36-45 m xx kr |  |  | Extra parser row
+- 3.2 | dragning av extra slang vid 46-55 m xx kr |  |  | Extra parser row
+- 3.2 | hantering av brunnslock som väger 15-25 kg xx kr |  | kilogram | Extra parser row
+- 3.2 | krav på information om tömningstid xx kr |  |  | Extra parser row
+- 3.2 | krav på närvaro vid specificerad tömningstid xx kr |  |  | Extra parser row
+- 3.2 | hantering av kod för kodlås vid slamtömning xx kr |  |  | Extra parser row
+- 3.2 | hetvattentvätt med spolbil, timersättning xx kr |  |  | Extra parser row
+- 3.2 | avgift om tömning ej kan utföras pga. hinder, bristande |  | tömning | Extra parser row
+- 3.2 | transportväg, betonglock, lock tyngre än 25 kg eller vägran xx kr |  | kilogram | Extra parser row
+- 3.2 | tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3 xx kr |  | m³ | Extra parser row
+- 3.3 | budningskostnad av brunn och tank |  |  | Extra parser row
+- 3.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) xx kr |  |  | Extra parser row
+- 3.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) xx kr |  |  | Extra parser row
+- 3.3 | budning utanför ordinarie tömningsperiod (1 nov – 30 april) xx kr |  |  | Extra parser row
+- 3.3 | budning utanför ordinarie tömningsperiod (1 nov – 30 april) xx kr |  |  | Extra parser row
+- 3.3 | tömning av toalettvagnar eller liknande xx kr/styck |  | styck | Extra parser row
+- 3.3 | bristfällig väg eller annat xx kr/tillfälle |  | tillfälle | Extra parser row
+- 3.3 | slamtömning meddelas efter 1 april innevarande år. xx kr/tillfälle |  | tillfälle | Extra parser row
+- 3.4 | latrinbehållare 37 liter inkl. mottagning och behandling xx kr |  | liter | Extra parser row
+- 4.1 | filtermassor upp till 500 kg xx kr |  | kilogram | Extra parser row
+- 4.1 | filtermassor upp till 500 kg xx kr |  | kilogram | Extra parser row
+- 4.1 | filtermassor 500-1000 kg xx kr |  | kilogram | Extra parser row
+- 4.1 | filtermassor 500-1000 kg xx kr |  | kilogram | Extra parser row
+- 4.2 | krav på information om hämtningstid xx kr |  |  | Extra parser row
+- 4.2 | krav på närvaro vid specificerad hämtningstid xx kr |  |  | Extra parser row
+- 4.2 | hantering av kod för kodlås xx kr |  |  | Extra parser row
+- 4.2 | bristande väg eller vägran xx kr |  |  | Extra parser row
+- 5.1 | upp till 3 m3 xx kr |  | m³ | Extra parser row
+- 5.1 | upp till 3 m3 xx kr |  | m³ | Extra parser row
+- 5.1 | mellan 3 m3 och 6 m3 xx kr |  | m³ | Extra parser row
+- 5.1 | mellan 3 m3 och 6 m3 xx kr |  | m³ | Extra parser row
+- 5.1 | över 6 m3 xx kr |  | m³ | Extra parser row
+- 5.1 | över 6 m3 xx kr |  | m³ | Extra parser row
+- 5.2 | dragning av extra slang vid 5-25 m xx kr |  |  | Extra parser row
+- 5.2 | dragning av extra slang vid 25-35 m xx kr |  |  | Extra parser row
+- 5.2 | dragning av extra slang vid 36-45 m xx kr |  |  | Extra parser row
+- 5.2 | dragning av extra slang vid 46-55 m xx kr |  |  | Extra parser row
+- 5.2 | hantering av brunnslock som väger 15-25 kg xx kr |  | kilogram | Extra parser row
+- 5.2 | krav på information om tömningstid xx kr |  |  | Extra parser row
+- 5.2 | krav på närvaro vid specificerad tömningstid xx kr |  |  | Extra parser row
+- 5.2 | hantering av kod för kodlås vid tömning xx kr |  | tömning | Extra parser row
+- 5.2 | hetvattentvätt med spolbil, timersättning xx kr |  |  | Extra parser row
+- 5.2 | silikontätning per lock xx kr |  |  | Extra parser row
+- 5.2 | bristande transportväg, betonglock, lock tyngre än 25 kg eller vägran xx kr |  | kilogram | Extra parser row
+- 5.2 | tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3 xx kr |  | m³ | Extra parser row
+- 5.3 | budningskostnad av tank |  |  | Extra parser row
+- 5.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) xx kr |  |  | Extra parser row
+- 5.3 | budning inom ordinarie tömningsperiod (1 maj- 31 oktober) xx kr |  |  | Extra parser row
+- 5.3 | budning utanför ordinarie tömningsperiod xx kr |  |  | Extra parser row
+- 5.3 | budning utanför ordinarie tömningsperiod xx kr |  |  | Extra parser row
+- 5.3 | bristfällig väg eller annat xx kr/tillfälle |  | tillfälle | Extra parser row
+- 5.3 | tömning meddelas efter 1 april innevarande år. xx kr/tillfälle |  | tillfälle | Extra parser row
+- 6.1.1 | vid besök på återvinningscentralen läses registreringsskylten och automatisk debitering utgår för verksamhetsregistrerade lätta lastbilar, personbilar och släpvagnar. |  | besök | Extra parser row
+- 6.1.1 | minimidebitering? se flera fraktioner nedan. |  |  | Extra parser row
+- 6.1.1 | verksamheter xx kr |  |  | Extra parser row
+- 6.1.1 | övriga abonnemangstyper xx kr |  |  | Extra parser row
+- 6.1.1 | vågkort xx kr |  |  | Extra parser row
+- 6.1.1 | borttappat vågkort xx kr |  |  | Extra parser row
+- 6.1.1 | ej registrerat besök vid återvinningscentral |  | besök | Extra parser row
+- 6.1.1 | ej redovisad ankomst till åvc (för företagare och privatpersoner |  |  | Extra parser row
+- 6.1.1 | som lämnar verksamhetsavfall utan att anmälan sin ankomst) xx kr/besök |  | besök | Extra parser row
+- 6.1.1 | ej redovisad eller fel redovisad fraktion av avfall xxxx kr/fraktion |  | fraktion | Extra parser row
+- 6.1.2 | avfall till energiåtervinning (240 l sopsäck) |  | styck | Extra parser row
+- 6.1.2 | avfall till energiåtervinning |  | kilogram | Extra parser row
+- 6.1.2 | skrymmande avfall till energiåtervinning större än 20*20*80 |  | kilogram | Extra parser row
+- 6.1.2 | träavfall – obehandlat, utan tapet, plastmatta, tjärpapp |  | kilogram | Extra parser row
+- 6.1.2 | träavfall – behandlat, utan tapet, plastmatta, tjärpapp |  | kilogram | Extra parser row
+- 6.1.2 | tryckimpregnerat virke, pall |  | kilogram | Extra parser row
+- 6.1.2 | betong, lättbetong |  | kilogram | Extra parser row
+- 6.1.2 | gips, gipsskivor |  | kilogram | Extra parser row
+- 6.1.2 | tegel |  | kilogram | Extra parser row
+- 6.1.2 | fönster- och planglas utan karm |  | kilogram | Extra parser row
+- 6.1.2 | fönster med karm |  |  | Extra parser row
+- 6.1.2 | plast |  | kilogram | Extra parser row
+- 6.1.2 | isolering utan innehåll av asbets |  | m³ | Extra parser row
+- 6.1.2 | klinker, keramik, porslin |  | kilogram | Extra parser row
+- 6.1.2 | handfat |  | styck | Extra parser row
+- 6.1.2 | wc stol |  | styck | Extra parser row
+- 6.1.2 | metall |  | kilogram | Extra parser row
+- 6.1.2 | textilier |  | kilogram | Extra parser row
+- 6.1.2 | fiskeredskap |  | kilogram | Extra parser row
+- 6.1.2 | ätbart fett/frityrolja |  | liter | Extra parser row
+- 6.1.2 | kvistar och grenar |  | m³ | Extra parser row
+- 6.1.2 | sten |  |  | Extra parser row
+- 6.1.2 | stubbar rötter för krossning |  |  | Extra parser row
+- 6.1.2 | flera fraktioner för egen sortering på ramp (max 2 m3) |  | m³ | Extra parser row
+- 6.1.2 | osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) |  | besök | Extra parser row
+- 6.1.2 | då man som verksamhet och företag, sedan den 1 november 2020, ska rapportera sitt farliga avfall till naturvårdsverket så ska även intyget även lämnas in till personalen på åvc. om man kommer in med farligt avfall* så ska säkerhetsdatablad för varje fraktion följa med. |  | fraktion | Extra parser row
+- 6.1.2 | tonerkassetter, utan elektronik/chip |  | kilogram | Extra parser row
+- 6.1.2 | oljeemulsion, emballerat |  | kilogram | Extra parser row
+- 6.1.2 | förorenad olja innehållande pcb |  | kilogram | Extra parser row
+- 6.1.2 | oljeavskiljarslam |  | kilogram | Extra parser row
+- 6.1.2 | diesel |  | kilogram | Extra parser row
+- 6.1.2 | bensinrester |  | kilogram | Extra parser row
+- 6.1.2 | hydralslang, med/utan koppling |  | kilogram | Extra parser row
+- 6.1.2 | förpackningar, tömde ej rengjorda |  | kilogram | Extra parser row
+- 6.1.2 | oljeavfall, fast osorterat emba |  | kilogram | Extra parser row
+- 6.1.2 | absorbermedel, filtermaterial |  | kilogram | Extra parser row
+- 6.1.2 | oljefilter |  | kilogram | Extra parser row
+- 6.1.2 | bromsvätska |  | kilogram | Extra parser row
+- 6.1.2 | transformator, kondensator med pcb |  | kilogram | Extra parser row
+- 6.1.2 | fogskum |  | kilogram | Extra parser row
+- 6.1.2 | halon |  | kilogram | Extra parser row
+- 6.1.2 | koldioxid |  | kilogram | Extra parser row
+- 6.1.2 | brandsläckare |  | kilogram | Extra parser row
+- 6.1.2 | helium |  | kilogram | Extra parser row
+- 6.1.2 | tändare |  | kilogram | Extra parser row
+- 6.1.2 | syrgas |  | kilogram | Extra parser row
+- 6.1.2 | oxiderande fast ämne/vätska |  | kilogram | Extra parser row
+- 6.1.2 | klorex |  | kilogram | Extra parser row
+- 6.1.2 | aerosoler isocyanat, bekämpning |  | kilogram | Extra parser row
+- 6.1.2 | gasol inkl tub |  | kilogram | Extra parser row
+- 6.1.2 | gasol, blå programmet |  | kilogram | Extra parser row
+- 6.1.2 | giftig organisk vätska |  | kilogram | Extra parser row
+- 6.1.2 | småkemikalier, ej hg-haltiga |  | kilogram | Extra parser row
+- 6.1.2 | giftig oorganisk vätska |  | kilogram | Extra parser row
+- 6.1.2 | oxidationsmedel, flytande |  | kilogram | Extra parser row
+- 6.1.2 | asbest, emballerat |  | kilogram | Extra parser row
+- 6.1.2 | smittförande avfall |  | kilogram | Extra parser row
+- 6.1.2 | lösningsmedel |  | kilogram | Extra parser row
+- 6.1.2 | väteperoxid |  | kilogram | Extra parser row
+- 6.1.2 | flourvätesyra |  | kilogram | Extra parser row
+- 6.1.2 | svavelsyra |  | kilogram | Extra parser row
+- 6.1.2 | salpetersyra |  | kilogram | Extra parser row
+- 6.1.2 | surt oorganisk fast ämne |  | kilogram | Extra parser row
+- 6.1.2 | surt organisk fast ämne |  | kilogram | Extra parser row
+- 6.1.2 | surt oorganisk vätska |  | kilogram | Extra parser row
+- 6.1.2 | surt organisk vätska |  | kilogram | Extra parser row
+- 6.1.2 | ammoniaklösning |  | kilogram | Extra parser row
+- 6.1.2 | alkaliskt avfall fast |  | kilogram | Extra parser row
+- 6.1.2 | basiskt organiskt fast/flytande |  | kilogram | Extra parser row
+- 6.1.2 | fotokemikalier |  | kilogram | Extra parser row
+- 6.1.2 | bekämpningsmedel aerosoler |  | kilogram | Extra parser row
+- 6.1.2 | bekämpningsmedel fast |  | kilogram | Extra parser row
+- 6.1.2 | bekämpningsmedel flytande |  | kilogram | Extra parser row
+- 6.1.2 | kvicksilverhaltigt avfall |  | kilogram | Extra parser row
+- 6.1.2 | kvicksilver i föremål |  | kilogram | Extra parser row
+- 6.1.2 | oljehaltigt avfall (ej pcb) |  | liter | Extra parser row
+- 6.1.2 | olja förorenad (ej pcb) |  | liter | Extra parser row
+- 6.1.2 | färg-, lack-, limburkar lösning |  | kilogram | Extra parser row
+- 6.1.2 | färg-, lack-, limburkar lösning aerosoler |  | kilogram | Extra parser row
+- 6.1.2 | isocyanater |  | kilogram | Extra parser row
+- 6.1.2 | härdare metyl- etylketonperoxid |  | kilogram | Extra parser row
+- 6.1.2 | härdare dibenzoylperoxid |  | kilogram | Extra parser row
+- 6.1.2 | färg-,lack-, limburkar vattenbaserade |  | kilogram | Extra parser row
+- 6.1.2 | tensida alkaliska flytande avfall |  | kilogram | Extra parser row
+- 6.1.2 | rengöring/vaskmedel fast |  | kilogram | Extra parser row
+- 6.1.2 | alkaliska flytande avfall |  | kilogram | Extra parser row
+- 6.1.2 | cytotoxiska läkemedel, cytostat |  | kilogram | Extra parser row
+- 6.1.2 | rökdetektor med andra isotoper |  | kilogram | Extra parser row
+- 6.1.2 | rökdetektor med am 241 |  | kilogram | Extra parser row
+- 6.1.2 | när el-avfall ska lämnas måste det först anmälas i hämtplatsportalen på elkretsens hemsida. en kopia på avlämningsintyg lämnas till åvc personalen innan el-avfallet lämnas i miljöboden. uppmärksamma att visst el-avfall även är klassat som farlig avfall* och kräver då även registrering hos naturvårdsverket. |  |  | Extra parser row
+- 6.1.2 | batterier stav, pencell |  | kilogram | Extra parser row
+- 6.1.2 | batterier lithium |  | kilogram | Extra parser row
+- 6.1.2 | bil-, mcbatteri med bly |  | styck | Extra parser row
+- 6.1.2 | glödlampor |  | kilogram | Extra parser row
+- 6.1.2 | lysrör |  | kilogram | Extra parser row
+- 6.1.2 | elavfall, små elektronik |  | kilogram | Extra parser row
+- 6.1.2 | el-avfall fast installation |  | kilogram | Extra parser row
+- 6.1.2 | el-avfall kabel |  | kilogram | Extra parser row
+- 6.1.2 | toner, färgpatron med elektronik |  | kilogram | Extra parser row
+- 6.1.2 | tv, radio, skärm, skrivare utan färgpatron |  | kilogram | Extra parser row
+- 6.1.2 | kyl-, frysskåp, -box |  | styck | Extra parser row
+- 6.1.2 | kyl-, frysskåp, -box från verksamhet |  | kilogram | Extra parser row
+- 6.1.2 | spis, tvätt-, diskmaskin |  | styck | Extra parser row
+- 6.1.2 | spis, tvätt-, diskmaskin från verksamhet |  | kilogram | Extra parser row
+- 6.1.3 | container storlek avgift per container per dygn | avgift per container per dygn | container | Extra parser row
+- 6.1.3 | container x m3 xx kr |  | m³ | Extra parser row
+- 6.1.3 | container x m3 xx kr |  | m³ | Extra parser row
+- 6.1.3 | container x m3 xx kr |  | m³ | Extra parser row
+- 6.1.3 | omklassning av felsorterad container xx kr |  | container | Extra parser row
+- 6.1.4 | okänt farligt avfall (säkerhetsdatablad saknas) xxx kr/fraktion |  | fraktion | Extra parser row
+- 6.1.4 | ombud för rapportering av farligt avfall i avfallsregistret xxx kr/tillfälle |  | tillfälle | Extra parser row
+- 6.1.4 | administrativ rapporteringsavgift till avfallsregistret xxx kr/tillfälle |  | tillfälle | Extra parser row
+- 6.1.4 | ombud för registrering av el-kretsen avlämnarintyg |  |  | Extra parser row
+- 6.1.4 | i hämtplatsportalen xxx kr/tillfälle |  | tillfälle | Extra parser row
