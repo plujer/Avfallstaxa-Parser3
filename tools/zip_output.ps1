@@ -8,6 +8,7 @@ $files = @(
     "output\parser3_explain_report.txt",
     "output\parser3_architecture_report.txt",
     "output\parser3_acceptance_report.txt",
+    "output\parser3_acceptance_debug_report.txt",
     "output\pytest_report.txt",
     "output\parser_console.txt",
     "output\master_console.txt",

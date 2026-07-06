@@ -1,0 +1,27 @@
+Parser Acceptance Debug Report
+
+Purpose: identify exactly which manually verified facit rows are missing.
+
+SECTION 6.1.2
+Expected names: 63
+Exported names: 91
+Missing names: 0
+Extra names: 14
+
+EXTRA EXPORTED
+- Batterier stav, pencell
+- Batterier lithium
+- Bil-, mcbatteri med bly
+- Glödlampor
+- Lysrör
+- Elavfall, små elektronik
+- El-avfall fast installation
+- El-avfall kabel
+- Toner, färgpatron med elektronik
+- Tv, radio, skärm, skrivare utan färgpatron
+- Kyl-, frysskåp, -box
+- Kyl-, frysskåp, -box från verksamhet
+- Spis, tvätt-, diskmaskin
+- Spis, tvätt-, diskmaskin från verksamhet
+
+--------------------------------------------------------------------------------
