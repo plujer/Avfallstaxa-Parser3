@@ -2,3 +2,5 @@ Arbets-Excel profile klar
 Workbook: data\ArbetsExcel_Reference.xlsx
 Sheets: 32
 Report: output\excel\arbets_excel_profile_report.txt
+Arbets-Excel snapshot klar
+Snapshot: output\excel\arbets_excel_snapshot.txt

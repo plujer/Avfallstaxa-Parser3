@@ -1,0 +1,16 @@
+﻿Excel Builder Report Package
+Created: 2026-07-06_17-54-42
+
+Included files:
+[OK] output\excel\ArbetsExcel_byggd_fran_parser.xlsx
+[OK] output\excel\excel_matching_results.csv
+[OK] output\excel\excel_matching_report.txt
+[OK] output\excel\excel_matching_console.txt
+[OK] output\excel\arbets_excel_profile_report.txt
+[OK] output\excel\arbets_excel_snapshot.txt
+[OK] output\excel\excel_builder_report.txt
+[OK] output\excel\excel_builder_console.txt
+[OK] output\excel\excel_inspect_console.txt
+[OK] output\diagnostics\pytest_report.txt
+[OK] output\reports\parser3_result.json
+[OK] output\acceptance\parser3_acceptance_report.txt
