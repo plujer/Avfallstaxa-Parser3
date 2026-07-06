@@ -1,10 +1,5 @@
-Traceback (most recent call last):
-  File "C:\PyProjects\Taxa 3.0\excel_builder_rulebook.py", line 5, in <module>
-    from excel_builder.rules import RulebookReader, EdpRuleValidator
-  File "C:\PyProjects\Taxa 3.0\excel_builder\rules\__init__.py", line 1, in <module>
-    from .rulebook_reader import RulebookReader
-  File "C:\PyProjects\Taxa 3.0\excel_builder\rules\rulebook_reader.py", line 11, in <module>
-    from excel_builder.models import RuleEntry, Rulebook
-  File "C:\PyProjects\Taxa 3.0\excel_builder\models\__init__.py", line 11, in <module>
-    from .coverage_models import CoverageItem, CoverageReport
-ModuleNotFoundError: No module named 'excel_builder.models.coverage_models'
+EDP rulebook läst
+Entries: 225
+Workbook warnings: 0
+Validation warnings: 0
+Report: output\excel\edp_rulebook_report.txt

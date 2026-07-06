@@ -1,10 +1,9 @@
-Traceback (most recent call last):
-  File "C:\PyProjects\Taxa 3.0\excel_builder_match.py", line 5, in <module>
-    from excel_builder.io import ParserMatchReader, WorkbookTaxepunkterReader
-  File "C:\PyProjects\Taxa 3.0\excel_builder\io\__init__.py", line 1, in <module>
-    from .parser_result_reader import ParserResultReader
-  File "C:\PyProjects\Taxa 3.0\excel_builder\io\parser_result_reader.py", line 8, in <module>
-    from excel_builder.models import BuilderInputRow, BuilderResult
-  File "C:\PyProjects\Taxa 3.0\excel_builder\models\__init__.py", line 11, in <module>
-    from .coverage_models import CoverageItem, CoverageReport
-ModuleNotFoundError: No module named 'excel_builder.models.coverage_models'
+Excel Builder Matching preview klar
+Parser rows: 241
+Workbook rows: 271
+EXACT: 0
+PROBABLE: 78
+REVIEW: 0
+NEW: 163
+TXT: output\excel\excel_matching_report.txt
+CSV: output\excel\excel_matching_results.csv

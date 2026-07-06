@@ -1,1 +1,9 @@
-python: can't open file 'C:\\PyProjects\\Taxa 3.0\\excel_builder_coverage.py': [Errno 2] No such file or directory
+Word Tax Coverage klar
+Parser rows: 241
+Workbook rows: 241
+COVERED: 238
+REVIEW: 3
+MISSING: 0
+Passed: True
+TXT: output\excel\word_tax_coverage_report.txt
+CSV: output\excel\word_tax_coverage_results.csv

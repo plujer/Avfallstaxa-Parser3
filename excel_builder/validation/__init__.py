@@ -1,0 +1,1 @@
+from .word_tax_coverage_validator import WordTaxCoverageValidator
