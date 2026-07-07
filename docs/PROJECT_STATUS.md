@@ -23,3 +23,13 @@ Permanenta regler:
 ## Current block update: Block50
 
 Word → Excel Mapping 2.0 inför StableTaxIdentity och ContentFingerprint. Infrastruktur från Block49 behålls och `run_project.bat` är fortsatt standardkörning.
+
+### Block51 – Persistent Tax Identity Engine
+
+Status: Implemented for verification.
+
+New outputs:
+- `output/excel/persistent_tax_identity_report.txt`
+- `output/excel/persistent_tax_identity.csv`
+
+PersistentTaxID is an internal traceability ID only and does not replace EDP tax codes.

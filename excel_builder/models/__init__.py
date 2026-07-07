@@ -66,3 +66,4 @@ from .workbook_generation_models import WorkbookDecisionRow, WorkbookGenerationR
 from .project_metadata_models import ProjectMetadata, ProjectMetadataReport, ReleaseChecklistItem
 
 from .word_excel_mapping_models import WordExcelMappingItem, WordExcelMappingReport
+from .persistent_tax_identity_models import PersistentTaxIdentity, PersistentTaxIdentityReport

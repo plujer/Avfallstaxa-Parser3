@@ -30,3 +30,9 @@ Fokus: Spårbar mappning från Word/parser till Taxepunkter.
 ## Block50 – Word Excel Mapping 2.0
 
 Införde permanent intern identitet för Word-taxepunkter. Syftet är att samma taxepunkt ska kunna kännas igen även om den flyttas mellan paragrafer i Word-mastern.
+
+## Block51 – Persistent Tax Identity Engine
+
+Persistent Tax Identity Engine creates stable, content-based IDs for Word tax points.
+The identity is independent of paragraph number and can therefore detect moved tax points between Word master versions.
+Taxa_från_edp remains the immutable source of truth for EDP data.

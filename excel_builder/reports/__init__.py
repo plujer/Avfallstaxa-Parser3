@@ -19,3 +19,4 @@ from .tax_code_reporter import TaxCodeReporter
 from .document_structure_reporter import DocumentStructureReporter
 
 from .word_excel_mapping_reporter import WordExcelMappingReporter
+from .persistent_tax_identity_reporter import PersistentTaxIdentityReporter

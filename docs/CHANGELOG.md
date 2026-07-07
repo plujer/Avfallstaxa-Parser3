@@ -29,3 +29,10 @@
 - Lade till sectionsoberoende `StableTaxIdentity` för Word-taxor.
 - Lade till `ContentFingerprint` i Word→Excel-mappningen.
 - Uppdaterade rapport och CSV för spårbarhet vid flyttade Word-paragrafer.
+
+## Block51 – Persistent Tax Identity Engine
+
+- Added persistent content-based identity for Word tax rows.
+- Added `persistent_tax_identity.csv` and report output.
+- Integrated identity step into `run_project.bat` / `build_excel_report.bat`.
+- Added tests for identity stability across section moves.

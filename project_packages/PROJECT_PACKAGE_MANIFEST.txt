@@ -1,6 +1,6 @@
 Project_For_ChatGPT manifest
-Created: 2026-07-07 23:34:30
-File count: 651
+Created: 2026-07-08 00:04:35
+File count: 659
 
 PROJECT_INFO_FOR_CHATGPT.txt
 .gitignore
@@ -107,6 +107,7 @@ docs/ExcelBuilder_Block45_DeveloperExperience.md
 docs/ExcelBuilder_Block47_WordExcelMapping.md
 docs/ExcelBuilder_Block48_ProjectCleanup.md
 docs/ExcelBuilder_Block50_WordExcelMapping2.md
+docs/ExcelBuilder_Block51_PersistentTaxIdentity.md
 docs/FacitMasterReader.md
 docs/FacitYaml612.md
 docs/GIT_WORKFLOW.md
@@ -201,6 +202,7 @@ excel_builder/models/excel_builder_models.py
 excel_builder/models/knowledge_index_models.py
 excel_builder/models/knowledge_models.py
 excel_builder/models/matching_models.py
+excel_builder/models/persistent_tax_identity_models.py
 excel_builder/models/project_metadata_models.py
 excel_builder/models/project_models.py
 excel_builder/models/row_builder_models.py
@@ -219,6 +221,8 @@ excel_builder/models/word_excel_mapping_models.py
 excel_builder/models/workbook_generation_models.py
 excel_builder/models/workbook_profile_models.py
 excel_builder/models/workbook_schema_models.py
+excel_builder/persistent_identity/__init__.py
+excel_builder/persistent_identity/persistent_tax_identity_engine.py
 excel_builder/project/__init__.py
 excel_builder/project/project_config_reader.py
 excel_builder/project/project_runner.py
@@ -238,6 +242,7 @@ excel_builder/reports/edp_run_reporter.py
 excel_builder/reports/knowledge_index_reporter.py
 excel_builder/reports/knowledge_reporter.py
 excel_builder/reports/matching_reporter.py
+excel_builder/reports/persistent_tax_identity_reporter.py
 excel_builder/reports/row_builder_reporter.py
 excel_builder/reports/rule_repository_reporter.py
 excel_builder/reports/rulebook_reporter.py
@@ -311,6 +316,7 @@ excel_builder_inspect.py
 excel_builder_isolated_run.py
 excel_builder_knowledge_index.py
 excel_builder_match.py
+excel_builder_persistent_tax_identity.py
 excel_builder_project_metadata.py
 excel_builder_project_run.py
 excel_builder_row_plan.py
@@ -554,6 +560,8 @@ tests/test_name_normalizer_block26.py
 tests/test_name_normalizer_block27.py
 tests/test_output_structure_files.py
 tests/test_parser_context_resolver.py
+tests/test_persistent_tax_identity_cli_package.py
+tests/test_persistent_tax_identity_engine.py
 tests/test_pipeline_status_controller.py
 tests/test_project_config_reader.py
 tests/test_project_metadata.py

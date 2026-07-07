@@ -1,5 +1,5 @@
 ﻿Excel Builder Full Report Package
-Created: 2026-07-07_23-34-23
+Created: 2026-07-08_00-04-29
 
 Included files:
 [OK] docs\spec\ExcelBuilder_v1_0_Specification.md
@@ -85,6 +85,9 @@ Included files:
 [OK] output\excel\word_excel_mapping_report.txt
 [OK] output\excel\word_excel_mapping.csv
 [OK] output\excel\word_excel_mapping_console.txt
+[OK] output\excel\persistent_tax_identity_report.txt
+[OK] output\excel\persistent_tax_identity.csv
+[OK] output\excel\persistent_tax_identity_console.txt
 [OK] output\excel\excel_matching_results.csv
 [OK] output\excel\excel_matching_report.txt
 [OK] output\excel\excel_matching_console.txt

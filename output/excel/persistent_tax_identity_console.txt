@@ -1,0 +1,8 @@
+Persistent Tax Identity klar
+Rows: 241
+Identities: 241
+Duplicate content groups: 20
+Warnings: 0
+Passed: True
+TXT: output\excel\persistent_tax_identity_report.txt
+CSV: output\excel\persistent_tax_identity.csv

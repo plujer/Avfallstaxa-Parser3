@@ -1,16 +1,12 @@
-# Block50 – Word Excel Mapping 2.0
+# Block51 – Persistent Tax Identity Engine
 
 ## Syfte
 
-Inför permanent intern identitet för Word-taxepunkter:
-
-- `WordTaxID` – sectionsbundet ID för exakt spårning i aktuell Word-master.
-- `StableTaxIdentity` – sectionsoberoende ID som kan känna igen samma taxepunkt även om den flyttas mellan paragrafer.
-- `ContentFingerprint` – hash för maskinell jämförelse mellan versioner.
+Inför ett permanent internt ID för varje Word-taxepunkt. ID:t är baserat på taxepunktens innehåll och ska vara stabilt även om taxepunkten flyttas till en annan paragraf.
 
 ## Installera
 
-Packa upp ZIP-filen i projektets rotmapp och låt filer skrivas över.
+Packa upp ZIP-filen i projektets rotmapp och skriv över befintliga filer när Windows frågar.
 
 ## Kör
 
@@ -18,14 +14,20 @@ Packa upp ZIP-filen i projektets rotmapp och låt filer skrivas över.
 run_project.bat
 ```
 
-## Skicka tillbaka
-
-Skicka endast senaste ZIP från:
+Skicka sedan tillbaka endast senaste ZIP-filen från:
 
 ```text
 rapportzip\ExcelBuilder_Run_*.zip
 ```
 
+## Nya rapporter
+
+```text
+output\excel\persistent_tax_identity_report.txt
+output\excel\persistent_tax_identity.csv
+output\excel\persistent_tax_identity_console.txt
+```
+
 ## Commit
 
-Kör inte `git_commit_block.bat` förrän ChatGPT har granskat rapportzipen och uttryckligen säger att du ska köra commit-scriptet.
+Kör inte `git_commit_block.bat` förrän ChatGPT har granskat rapportzipen och uttryckligen skriver att du ska köra commit-scriptet.

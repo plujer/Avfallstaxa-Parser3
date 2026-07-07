@@ -3,7 +3,7 @@ setlocal EnableExtensions
 
 echo ==========================================
 echo Excel Builder - run_project.bat
-echo Block50 Word Excel Mapping 2.0
+echo Block51 Persistent Tax Identity Engine
 echo ==========================================
 echo.
 echo Denna fil kor HELA kedjan inklusive pytest i slutet.
@@ -16,7 +16,7 @@ set RESULT=%ERRORLEVEL%
 echo.
 if "%RESULT%"=="0" (
     echo ==========================================
-    echo BLOCK50 VERIFIERING KLAR
+    echo BLOCK51 VERIFIERING KLAR
     echo ==========================================
     echo Skicka senaste ZIP-filen från rapportzip\
 echo Skicka endast senaste ZIP-filen fran rapportzip\
@@ -24,7 +24,7 @@ echo Skicka endast senaste ZIP-filen fran rapportzip\
     echo ==========================================
 ) else (
     echo ==========================================
-    echo BLOCK50 MISSLYCKADES
+    echo BLOCK51 MISSLYCKADES
     echo ==========================================
     echo Tester/pipeline har fel.
     echo Skicka senaste ZIP-filen från rapportzip\ om den skapades.
