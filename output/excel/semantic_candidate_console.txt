@@ -1,0 +1,7 @@
+Semantic Candidate Ranking klar
+Word profiles: 241
+Candidate profiles: 1383
+Total candidates returned: 2410
+Word profiles with candidates: 241
+TXT: output\excel\semantic_candidate_report.txt
+CSV: output\excel\semantic_candidates.csv

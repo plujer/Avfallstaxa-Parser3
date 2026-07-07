@@ -13,3 +13,4 @@ from .rule_repository_reporter import RuleRepositoryReporter
 from .workbook_schema_reporter import WorkbookSchemaReporter
 from .standard_catalog_schema_reporter import StandardCatalogSchemaReporter
 from .semantic_profile_reporter import SemanticProfileReporter
+from .semantic_candidate_reporter import SemanticCandidateReporter

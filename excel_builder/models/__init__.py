@@ -34,3 +34,8 @@ from .tax_semantic_profile_models import (
     TaxSemanticProfileKey,
     TaxSemanticProfileReport,
 )
+from .semantic_candidate_models import (
+    SemanticScorePart,
+    SemanticCandidate,
+    SemanticCandidateReport,
+)
