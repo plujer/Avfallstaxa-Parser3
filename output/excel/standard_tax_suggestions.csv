@@ -1,242 +1,242 @@
 ﻿Status;Score;Metod;Parser paragraf;Parser taxapunkt;Parser variant;Parser enhet;Föreslagen strTaxekod;Föreslagen strTaxebenamning;Föreslagen strFaktor;Föreslagen strTaxedelAvser;Föreslagen strFormel;Källa;Kommentar
-NO_SUGGESTION;0.119;Knowledge weighted standard match;2.1;En- och tvåbostadshus;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.080;Knowledge weighted standard match;2.1;Fritidshus;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.100;Knowledge weighted standard match;2.1;Verksamhet;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.095;Knowledge weighted standard match;2.1;Lägenhet i flerbostadshus;;lägenhet;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.126;Knowledge weighted standard match;2.1;Lägenhet för specialändamål;;lägenhet;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.168;Knowledge weighted standard match;2.1;Anläggning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.147;Knowledge weighted standard match;2.1;Säsongsbaserad uppställningsplats;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.117;Knowledge weighted standard match;2.1;Campingstuga/-lägenhet;;lägenhet;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.092;Knowledge weighted standard match;2.2.1;Kärl 240 l (mat-/restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.103;Knowledge weighted standard match;2.2.1;Extrakärl 190 l (restavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.092;Knowledge weighted standard match;2.2.2;Kärl 240 l (mat-/restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.103;Knowledge weighted standard match;2.2.2;Extrakärl 190 l (restavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.135;Knowledge weighted standard match;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.117;Knowledge weighted standard match;2.2.3;Extra digital licens (årskostnad);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.118;Knowledge weighted standard match;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.118;Knowledge weighted standard match;2.2.3;Byte av telefonnummer kopplat till licens;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.152;Knowledge weighted standard match;2.2.3;Kostnad för öppning av behållare;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.092;Knowledge weighted standard match;2.2.4;Kärl 240 l (mat-/restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.098;Knowledge weighted standard match;2.2.4;Kärl 370 l (restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.098;Knowledge weighted standard match;2.2.4;Kärl 660 l (restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.095;Knowledge weighted standard match;2.2.4;Kärl 140 l (matavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.440;Knowledge weighted standard match;2.2.4;Kärl 190 l (förpackningar);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.440;Knowledge weighted standard match;2.2.4;Kärl 370 l (förpackningar);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.440;Knowledge weighted standard match;2.2.4;Kärl 660 l (förpackningar);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.104;Knowledge weighted standard match;2.2.4;Kärl 190 l (tidningar och returpapper);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.104;Knowledge weighted standard match;2.2.4;Kärl 370 l (tidningar och returpapper);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.267;Knowledge weighted standard match;2.2.4;(mat-/restavfall, förpackningar);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.092;Knowledge weighted standard match;2.2.5;Kärl 240 l (mat-/restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.098;Knowledge weighted standard match;2.2.5;Kärl 370 l (restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.098;Knowledge weighted standard match;2.2.5;Kärl 660 l (restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.095;Knowledge weighted standard match;2.2.5;Kärl 140 l (matavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.122;Knowledge weighted standard match;2.2.5;Bottentömmande behållare (mat-/restavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.126;Knowledge weighted standard match;2.2.5;Lastväxlarflak (restavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.092;Knowledge weighted standard match;2.2.6;Kärl 240 l (mat-/restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.098;Knowledge weighted standard match;2.2.6;Kärl 370 l (restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.098;Knowledge weighted standard match;2.2.6;Kärl 660 l (restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.095;Knowledge weighted standard match;2.2.6;Kärl 140 l (matavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.122;Knowledge weighted standard match;2.2.6;Bottentömmande behållare (mat-/restavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.126;Knowledge weighted standard match;2.2.6;Lastväxlarflak (restavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.090;Knowledge weighted standard match;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.134;Knowledge weighted standard match;2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.142;Knowledge weighted standard match;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.124;Knowledge weighted standard match;2.3;Viktavgift matavfall;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.117;Knowledge weighted standard match;2.3;Viktavgift restavfall;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.092;Knowledge weighted standard match;2.3;Lyftavgift kärl;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.090;Knowledge weighted standard match;2.4.1;Fakturavgift;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.112;Knowledge weighted standard match;2.4.2;Delat kärl 240 l matavfall 40 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.104;Knowledge weighted standard match;2.4.2;Delat kärl 240 l restavfall 40 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.117;Knowledge weighted standard match;2.4.2;Extra kärl 140 l matavfall 60 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.089;Knowledge weighted standard match;2.4.2;Extra kärl 140-190 l restavfall 60 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.109;Knowledge weighted standard match;2.4.2;Kärl 370 l restavfall 60 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.108;Knowledge weighted standard match;2.4.2;Kärl 660 l restavfall 100 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.111;Knowledge weighted standard match;2.4.3;Överfullt kärl;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.120;Knowledge weighted standard match;2.4.3;Överfull bottentömmande behållare;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.115;Knowledge weighted standard match;2.4.4;Byte av trasigt kärl vid oaktsamhet;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.079;Knowledge weighted standard match;2.4.5;Byte/återtag av kärl en (1) ggr/år 140–240 liter;;liter;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.079;Knowledge weighted standard match;2.4.5;Byte/återtag av kärl en (1) ggr/år 370–660 liter;;liter;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.099;Knowledge weighted standard match;2.4.5;Ytterligare byte av kärl under kalenderåret;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.074;Knowledge weighted standard match;2.4.6;Kärl;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.115;Knowledge weighted standard match;2.4.6;Bottentömmande behållare;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.057;Knowledge weighted standard match;2.4.7;Kärl 140-660 L 1,5-10;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.060;Knowledge weighted standard match;2.4.7;Kärl 140-660 L 10-20;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.060;Knowledge weighted standard match;2.4.7;Kärl 140-660 L 20-30;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.140;Knowledge weighted standard match;2.4.7;Avfallsport/dörr;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.114;Knowledge weighted standard match;2.4.7;Låst dörr, med kod;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.098;Knowledge weighted standard match;2.4.8;Kärl 140 l matavfall;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.102;Knowledge weighted standard match;2.4.8;Kärl 190 l restavfall;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.102;Knowledge weighted standard match;2.4.8;Kärl 370 l restavfall;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.102;Knowledge weighted standard match;2.4.8;Kärl 660 l restavfall;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.115;Knowledge weighted standard match;2.4.8;Bottentömmande behållare;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.131;Knowledge weighted standard match;2.4.9;Sidlastande fordon;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.117;Knowledge weighted standard match;2.4.9;Bottentömmande fordon;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.152;Knowledge weighted standard match;2.4.9;Tömningsavgift per behållare;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.114;Knowledge weighted standard match;2.4.10;Betalsäck;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.080;Knowledge weighted standard match;2.4.10;Akutsäck;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.117;Knowledge weighted standard match;2.4.11;Matavfallspåsar 9 L;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.115;Knowledge weighted standard match;2.4.11;Matavfallspåsar 22 L;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.113;Knowledge weighted standard match;2.4.11;Gravitationslås till kärl;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.103;Knowledge weighted standard match;2.4.11;Extra nyckel till gravitationslås;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.089;Knowledge weighted standard match;2.5.1;Kommunalt avfall;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.113;Knowledge weighted standard match;2.5.1;Farligt avfall (ej uppmärkt);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.119;Knowledge weighted standard match;2.5.1;Farligt avfall (uppmärkt);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.154;Knowledge weighted standard match;2.5.1;Avisering av ankomst;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.095;Knowledge weighted standard match;3.1;Upp till 3 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.089;Knowledge weighted standard match;3.1;Mellan 3 m3 och 6 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.089;Knowledge weighted standard match;3.1;Mellan 6 m3 och 9 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.113;Knowledge weighted standard match;3.1;Tillägg per m3 över 9 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.100;Knowledge weighted standard match;3.1;Bad-, disk- och tvättbrunn upp till 3 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.113;Knowledge weighted standard match;3.1;Tillägg per m3 över 3 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.126;Knowledge weighted standard match;3.2;Dragning av extra slang vid 5-25 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.125;Knowledge weighted standard match;3.2;Dragning av extra slang vid 25-35 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.125;Knowledge weighted standard match;3.2;Dragning av extra slang vid 36-45 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.125;Knowledge weighted standard match;3.2;Dragning av extra slang vid 46-55 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.133;Knowledge weighted standard match;3.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.131;Knowledge weighted standard match;3.2;Krav på information om tömningstid;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.140;Knowledge weighted standard match;3.2;Krav på närvaro vid specificerad tömningstid;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.147;Knowledge weighted standard match;3.2;Hantering av kod för kodlås vid slamtömning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.113;Knowledge weighted standard match;3.2;Hetvattentvätt med spolbil, timersättning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.167;Knowledge weighted standard match;3.2;Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.134;Knowledge weighted standard match;3.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.147;Knowledge weighted standard match;3.3;Budning utanför ordinarie tömningsperiod (1 nov – 30 april);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.179;Knowledge weighted standard match;2.1;En- och tvåbostadshus;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.434;Knowledge weighted standard match;2.1;Fritidshus;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.425;Knowledge weighted standard match;2.1;Verksamhet;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.320;Knowledge weighted standard match;2.1;Lägenhet i flerbostadshus;;lägenhet;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.169;Knowledge weighted standard match;2.1;Lägenhet för specialändamål;;lägenhet;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.203;Knowledge weighted standard match;2.1;Anläggning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.207;Knowledge weighted standard match;2.1;Säsongsbaserad uppställningsplats;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.174;Knowledge weighted standard match;2.1;Campingstuga/-lägenhet;;lägenhet;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.570;Knowledge weighted standard match;2.2.1;Kärl 240 l (mat-/restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.537;Knowledge weighted standard match;2.2.1;Extrakärl 190 l (restavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.570;Knowledge weighted standard match;2.2.2;Kärl 240 l (mat-/restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.537;Knowledge weighted standard match;2.2.2;Extrakärl 190 l (restavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.406;Knowledge weighted standard match;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.240;Knowledge weighted standard match;2.2.3;Extra digital licens (årskostnad);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.195;Knowledge weighted standard match;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.179;Knowledge weighted standard match;2.2.3;Byte av telefonnummer kopplat till licens;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.282;Knowledge weighted standard match;2.2.3;Kostnad för öppning av behållare;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.570;Knowledge weighted standard match;2.2.4;Kärl 240 l (mat-/restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+REVIEW;0.658;Knowledge weighted standard match;2.2.4;Kärl 370 l (restavfall);;kärl;KÄ370RE156;Kärl 370 L, restavfall. 3ggr/ vecka;ÅRKV;;ANTB;Standard Avfall row 55;Möjlig kunskapsbaserad standardträff. namn=0.74*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+REVIEW;0.658;Knowledge weighted standard match;2.2.4;Kärl 660 l (restavfall);;kärl;KÄ660RE156;Kärl 660 L, restavfall. 3ggr/ vecka;ÅRKV;;ANTB;Standard Avfall row 65;Möjlig kunskapsbaserad standardträff. namn=0.74*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+REVIEW;0.655;Knowledge weighted standard match;2.2.4;Kärl 140 l (matavfall);;kärl;KÄ140MA156;Kärl 140 L, matavfall. 3ggr/ vecka;ÅRKV;;ANTB;Standard Avfall row 77;Möjlig kunskapsbaserad standardträff. namn=0.73*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+REVIEW;0.658;Knowledge weighted standard match;2.2.4;Kärl 190 l (förpackningar);;kärl;KÄ190PLBUD;Kärl 190 L, plastförpackningar. Budning;KVAN;;ANTL;Standard Avfall row 353;Möjlig kunskapsbaserad standardträff. namn=0.74*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+REVIEW;0.658;Knowledge weighted standard match;2.2.4;Kärl 370 l (förpackningar);;kärl;KÄ370PLBUD;Kärl 370 L, plastförpackningar. Budning;KVAN;;ANTL;Standard Avfall row 383;Möjlig kunskapsbaserad standardträff. namn=0.74*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+REVIEW;0.658;Knowledge weighted standard match;2.2.4;Kärl 660 l (förpackningar);;kärl;KÄ660PLBUD;Kärl 660 L, plastförpackningar. Budning;KVAN;;ANTL;Standard Avfall row 413;Möjlig kunskapsbaserad standardträff. namn=0.74*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+NO_SUGGESTION;0.413;Knowledge weighted standard match;2.2.4;Kärl 190 l (tidningar och returpapper);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.413;Knowledge weighted standard match;2.2.4;Kärl 370 l (tidningar och returpapper);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.434;Knowledge weighted standard match;2.2.4;(mat-/restavfall, förpackningar);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.570;Knowledge weighted standard match;2.2.5;Kärl 240 l (mat-/restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+REVIEW;0.658;Knowledge weighted standard match;2.2.5;Kärl 370 l (restavfall);;kärl;KÄ370RE156;Kärl 370 L, restavfall. 3ggr/ vecka;ÅRKV;;ANTB;Standard Avfall row 55;Möjlig kunskapsbaserad standardträff. namn=0.74*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+REVIEW;0.658;Knowledge weighted standard match;2.2.5;Kärl 660 l (restavfall);;kärl;KÄ660RE156;Kärl 660 L, restavfall. 3ggr/ vecka;ÅRKV;;ANTB;Standard Avfall row 65;Möjlig kunskapsbaserad standardträff. namn=0.74*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+REVIEW;0.655;Knowledge weighted standard match;2.2.5;Kärl 140 l (matavfall);;kärl;KÄ140MA156;Kärl 140 L, matavfall. 3ggr/ vecka;ÅRKV;;ANTB;Standard Avfall row 77;Möjlig kunskapsbaserad standardträff. namn=0.73*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+NO_SUGGESTION;0.499;Knowledge weighted standard match;2.2.5;Bottentömmande behållare (mat-/restavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.459;Knowledge weighted standard match;2.2.5;Lastväxlarflak (restavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.570;Knowledge weighted standard match;2.2.6;Kärl 240 l (mat-/restavfall);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+REVIEW;0.658;Knowledge weighted standard match;2.2.6;Kärl 370 l (restavfall);;kärl;KÄ370RE156;Kärl 370 L, restavfall. 3ggr/ vecka;ÅRKV;;ANTB;Standard Avfall row 55;Möjlig kunskapsbaserad standardträff. namn=0.74*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+REVIEW;0.658;Knowledge weighted standard match;2.2.6;Kärl 660 l (restavfall);;kärl;KÄ660RE156;Kärl 660 L, restavfall. 3ggr/ vecka;ÅRKV;;ANTB;Standard Avfall row 65;Möjlig kunskapsbaserad standardträff. namn=0.74*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+REVIEW;0.655;Knowledge weighted standard match;2.2.6;Kärl 140 l (matavfall);;kärl;KÄ140MA156;Kärl 140 L, matavfall. 3ggr/ vecka;ÅRKV;;ANTB;Standard Avfall row 77;Möjlig kunskapsbaserad standardträff. namn=0.73*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+NO_SUGGESTION;0.499;Knowledge weighted standard match;2.2.6;Bottentömmande behållare (mat-/restavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.459;Knowledge weighted standard match;2.2.6;Lastväxlarflak (restavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.289;Knowledge weighted standard match;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.177;Knowledge weighted standard match;2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.187;Knowledge weighted standard match;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.445;Knowledge weighted standard match;2.3;Viktavgift matavfall;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.453;Knowledge weighted standard match;2.3;Viktavgift restavfall;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.312;Knowledge weighted standard match;2.3;Lyftavgift kärl;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.292;Knowledge weighted standard match;2.4.1;Fakturavgift;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.551;Knowledge weighted standard match;2.4.2;Delat kärl 240 l matavfall 40 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.554;Knowledge weighted standard match;2.4.2;Delat kärl 240 l restavfall 40 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.544;Knowledge weighted standard match;2.4.2;Extra kärl 140 l matavfall 60 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.523;Knowledge weighted standard match;2.4.2;Extra kärl 140-190 l restavfall 60 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+REVIEW;0.604;Knowledge weighted standard match;2.4.2;Kärl 370 l restavfall 60 kg;;kilogram;KÄ370RE52;Kärl 370 L, restavfall. Varje vecka;ÅRKV;;ANTB;Standard Avfall row 57;Möjlig kunskapsbaserad standardträff. namn=0.77*0.35 | nyckelord=0.67*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+REVIEW;0.607;Knowledge weighted standard match;2.4.2;Kärl 660 l restavfall 100 kg;;kilogram;KÄ660RE026;Kärl 660 L, restavfall. Var 14:e dag;ÅRKV;;ANTB;Standard Avfall row 68;Möjlig kunskapsbaserad standardträff. namn=0.78*0.35 | nyckelord=0.67*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+NO_SUGGESTION;0.325;Knowledge weighted standard match;2.4.3;Överfullt kärl;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.253;Knowledge weighted standard match;2.4.3;Överfull bottentömmande behållare;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.253;Knowledge weighted standard match;2.4.4;Byte av trasigt kärl vid oaktsamhet;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.315;Knowledge weighted standard match;2.4.5;Byte/återtag av kärl en (1) ggr/år 140–240 liter;;liter;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.315;Knowledge weighted standard match;2.4.5;Byte/återtag av kärl en (1) ggr/år 370–660 liter;;liter;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.212;Knowledge weighted standard match;2.4.5;Ytterligare byte av kärl under kalenderåret;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.367;Knowledge weighted standard match;2.4.6;Kärl;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.274;Knowledge weighted standard match;2.4.6;Bottentömmande behållare;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.380;Knowledge weighted standard match;2.4.7;Kärl 140-660 L 1,5-10;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.374;Knowledge weighted standard match;2.4.7;Kärl 140-660 L 10-20;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.374;Knowledge weighted standard match;2.4.7;Kärl 140-660 L 20-30;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.201;Knowledge weighted standard match;2.4.7;Avfallsport/dörr;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.175;Knowledge weighted standard match;2.4.7;Låst dörr, med kod;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+REVIEW;0.664;Knowledge weighted standard match;2.4.8;Kärl 140 l matavfall;;kärl;KÄ140MA156;Kärl 140 L, matavfall. 3ggr/ vecka;ÅRKV;;ANTB;Standard Avfall row 77;Möjlig kunskapsbaserad standardträff. namn=0.75*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+REVIEW;0.667;Knowledge weighted standard match;2.4.8;Kärl 190 l restavfall;;kärl;KÄ190RE156;Kärl 190 L, restavfall. 3ggr/ vecka;ÅRKV;;ANTB;Standard Avfall row 35;Möjlig kunskapsbaserad standardträff. namn=0.76*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+REVIEW;0.667;Knowledge weighted standard match;2.4.8;Kärl 370 l restavfall;;kärl;KÄ370RE156;Kärl 370 L, restavfall. 3ggr/ vecka;ÅRKV;;ANTB;Standard Avfall row 55;Möjlig kunskapsbaserad standardträff. namn=0.76*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+REVIEW;0.667;Knowledge weighted standard match;2.4.8;Kärl 660 l restavfall;;kärl;KÄ660RE156;Kärl 660 L, restavfall. 3ggr/ vecka;ÅRKV;;ANTB;Standard Avfall row 65;Möjlig kunskapsbaserad standardträff. namn=0.76*0.35 | nyckelord=1.00*0.20 | avfallstyp=1.00*0.15 | faktor=0.00*0.15 | kategori=0.50*0.10 | enhet=0.00*0.05
+NO_SUGGESTION;0.274;Knowledge weighted standard match;2.4.8;Bottentömmande behållare;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.187;Knowledge weighted standard match;2.4.9;Sidlastande fordon;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.195;Knowledge weighted standard match;2.4.9;Bottentömmande fordon;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.315;Knowledge weighted standard match;2.4.9;Tömningsavgift per behållare;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.177;Knowledge weighted standard match;2.4.10;Betalsäck;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.167;Knowledge weighted standard match;2.4.10;Akutsäck;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.219;Knowledge weighted standard match;2.4.11;Matavfallspåsar 9 L;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.215;Knowledge weighted standard match;2.4.11;Matavfallspåsar 22 L;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.306;Knowledge weighted standard match;2.4.11;Gravitationslås till kärl;;kärl;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.235;Knowledge weighted standard match;2.4.11;Extra nyckel till gravitationslås;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.313;Knowledge weighted standard match;2.5.1;Kommunalt avfall;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.265;Knowledge weighted standard match;2.5.1;Farligt avfall (ej uppmärkt);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.273;Knowledge weighted standard match;2.5.1;Farligt avfall (uppmärkt);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.212;Knowledge weighted standard match;2.5.1;Avisering av ankomst;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.182;Knowledge weighted standard match;3.1;Upp till 3 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.193;Knowledge weighted standard match;3.1;Mellan 3 m3 och 6 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.184;Knowledge weighted standard match;3.1;Mellan 6 m3 och 9 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.402;Knowledge weighted standard match;3.1;Tillägg per m3 över 9 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.161;Knowledge weighted standard match;3.1;Bad-, disk- och tvättbrunn upp till 3 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.402;Knowledge weighted standard match;3.1;Tillägg per m3 över 3 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.186;Knowledge weighted standard match;3.2;Dragning av extra slang vid 5-25 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.184;Knowledge weighted standard match;3.2;Dragning av extra slang vid 25-35 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.184;Knowledge weighted standard match;3.2;Dragning av extra slang vid 36-45 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.184;Knowledge weighted standard match;3.2;Dragning av extra slang vid 46-55 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.342;Knowledge weighted standard match;3.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.180;Knowledge weighted standard match;3.2;Krav på information om tömningstid;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.157;Knowledge weighted standard match;3.2;Krav på närvaro vid specificerad tömningstid;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.310;Knowledge weighted standard match;3.2;Hantering av kod för kodlås vid slamtömning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.158;Knowledge weighted standard match;3.2;Hetvattentvätt med spolbil, timersättning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.265;Knowledge weighted standard match;3.2;Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.188;Knowledge weighted standard match;3.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.188;Knowledge weighted standard match;3.3;Budning utanför ordinarie tömningsperiod (1 nov – 30 april);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
 NO_SUGGESTION;0.392;Knowledge weighted standard match;3.3;Tömning av toalettvagnar eller liknande /styck;;styck;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.134;Knowledge weighted standard match;3.4;Latrinbehållare 37 liter inkl. mottagning och behandling;;liter;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.107;Knowledge weighted standard match;4.1;Filtermassor upp till 500 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.091;Knowledge weighted standard match;4.1;Filtermassor 500-1000 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.132;Knowledge weighted standard match;4.2;Krav på information om hämtningstid;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.122;Knowledge weighted standard match;4.2;Krav på närvaro vid specificerad hämtningstid;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.142;Knowledge weighted standard match;4.2;Hantering av kod för kodlås;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.095;Knowledge weighted standard match;5.1;Upp till 3 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.089;Knowledge weighted standard match;5.1;Mellan 3 m3 och 6 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.078;Knowledge weighted standard match;5.1;Över 6 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.126;Knowledge weighted standard match;5.2;Dragning av extra slang vid 5-25 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.125;Knowledge weighted standard match;5.2;Dragning av extra slang vid 25-35 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.125;Knowledge weighted standard match;5.2;Dragning av extra slang vid 36-45 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.125;Knowledge weighted standard match;5.2;Dragning av extra slang vid 46-55 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.133;Knowledge weighted standard match;5.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.131;Knowledge weighted standard match;5.2;Krav på information om tömningstid;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.140;Knowledge weighted standard match;5.2;Krav på närvaro vid specificerad tömningstid;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.179;Knowledge weighted standard match;5.2;Hantering av kod för kodlås vid tömning;;tömning;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.113;Knowledge weighted standard match;5.2;Hetvattentvätt med spolbil, timersättning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.153;Knowledge weighted standard match;5.2;Silikontätning per lock;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.182;Knowledge weighted standard match;5.2;Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.134;Knowledge weighted standard match;5.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.153;Knowledge weighted standard match;5.3;Budning utanför ordinarie tömningsperiod;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.117;Knowledge weighted standard match;6.1.1;Verksamheter;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.121;Knowledge weighted standard match;6.1.1;Övriga abonnemangstyper;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.095;Knowledge weighted standard match;6.1.1;Vågkort;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.102;Knowledge weighted standard match;6.1.1;Borttappat vågkort;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.084;Knowledge weighted standard match;6.1.1;Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst);;besök;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.094;Knowledge weighted standard match;6.1.1;Ej redovisad eller fel redovisad fraktion av avfall;;fraktion;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.322;Knowledge weighted standard match;6.1.2;Avfall till energiåtervinning (240 L sopsäck);;styck;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.164;Knowledge weighted standard match;6.1.2;Avfall till energiåtervinning;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.112;Knowledge weighted standard match;6.1.2;Skrymmande avfall till energiåtervinning större än 20×20×80;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.145;Knowledge weighted standard match;6.1.2;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.147;Knowledge weighted standard match;6.1.2;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.102;Knowledge weighted standard match;6.1.2;Tryckimpregnerat virke, pall;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.124;Knowledge weighted standard match;6.1.2;Betong, lättbetong;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.072;Knowledge weighted standard match;6.1.2;Gips, gipsskivor;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.091;Knowledge weighted standard match;6.1.2;Tegel;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.131;Knowledge weighted standard match;6.1.2;Fönster- och planglas utan karm;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.119;Knowledge weighted standard match;6.1.2;Fönster med karm;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.350;Knowledge weighted standard match;6.1.2;Plast;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.127;Knowledge weighted standard match;6.1.2;Isolering utan innehåll av asbest;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.114;Knowledge weighted standard match;6.1.2;Klinker, keramik, porslin;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.305;Knowledge weighted standard match;6.1.2;Handfat;;styck;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.284;Knowledge weighted standard match;6.1.2;WC-stol;;styck;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.364;Knowledge weighted standard match;6.1.2;Metall;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.087;Knowledge weighted standard match;6.1.2;Textilier;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.095;Knowledge weighted standard match;6.1.2;Fiskeredskap;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.087;Knowledge weighted standard match;6.1.2;Ätbart fett/frityrolja;;liter;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.129;Knowledge weighted standard match;6.1.2;Kvistar och grenar;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.061;Knowledge weighted standard match;6.1.2;Jord;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.127;Knowledge weighted standard match;6.1.2;Sten;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.144;Knowledge weighted standard match;6.1.2;Stubbar/rötter för krossning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.105;Knowledge weighted standard match;6.1.2;Flera fraktioner för egen sortering på ramp (max 2 m³);;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.095;Knowledge weighted standard match;6.1.2;Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.106;Knowledge weighted standard match;6.1.2;Tonerkassetter, utan elektronik/chip;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.100;Knowledge weighted standard match;6.1.2;Oljeemulsion, emballerat;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.140;Knowledge weighted standard match;6.1.2;Förorenad olja innehållande PCB;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.117;Knowledge weighted standard match;6.1.2;Oljeavskiljarslam;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.093;Knowledge weighted standard match;6.1.2;Diesel;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.140;Knowledge weighted standard match;6.1.2;Bensinrester;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.138;Knowledge weighted standard match;6.1.2;Hydralslang, med/utan koppling;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.396;Knowledge weighted standard match;6.1.2;Förpackningar, tömde ej rengjorda;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.125;Knowledge weighted standard match;6.1.2;Oljeavfall, fast osorterat emba;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.109;Knowledge weighted standard match;6.1.2;Absorbermedel, filtermaterial;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.100;Knowledge weighted standard match;6.1.2;Oljefilter;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.076;Knowledge weighted standard match;6.1.2;Bromsvätska;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.127;Knowledge weighted standard match;6.1.2;Transformator, kondensator med PCB;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.056;Knowledge weighted standard match;6.1.2;Fogskum;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.105;Knowledge weighted standard match;6.1.2;Halon;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.075;Knowledge weighted standard match;6.1.2;Koldioxid;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.137;Knowledge weighted standard match;6.1.2;Brandsläckare;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.100;Knowledge weighted standard match;6.1.2;Helium;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.100;Knowledge weighted standard match;6.1.2;Tändare;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.112;Knowledge weighted standard match;6.1.2;Syrgas;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.120;Knowledge weighted standard match;6.1.2;Oxiderande fast ämne/vätska;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.084;Knowledge weighted standard match;6.1.2;Klorex;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.115;Knowledge weighted standard match;6.1.2;Aerosoler isocyanat, bekämpning;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.111;Knowledge weighted standard match;6.1.2;Gasol inkl tub;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.102;Knowledge weighted standard match;6.1.2;Gasol, blå programmet;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.129;Knowledge weighted standard match;6.1.2;Giftig organisk vätska;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.122;Knowledge weighted standard match;6.1.2;Småkemikalier, ej Hg-haltiga;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.127;Knowledge weighted standard match;6.1.2;Giftig oorganisk vätska;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.122;Knowledge weighted standard match;6.1.2;Oxidationsmedel, flytande;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.121;Knowledge weighted standard match;6.1.2;Asbest, emballerat;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.143;Knowledge weighted standard match;6.1.2;Smittförande avfall;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.127;Knowledge weighted standard match;6.1.2;Lösningsmedel;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.121;Knowledge weighted standard match;6.1.2;Väteperoxid;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.109;Knowledge weighted standard match;6.1.2;Flourvätesyra;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.121;Knowledge weighted standard match;6.1.2;Svavelsyra;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.134;Knowledge weighted standard match;6.1.2;Salpetersyra;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.123;Knowledge weighted standard match;6.1.2;Surt oorganisk fast ämne;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.125;Knowledge weighted standard match;6.1.2;Surt organisk fast ämne;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.120;Knowledge weighted standard match;6.1.2;Surt oorganisk vätska;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.122;Knowledge weighted standard match;6.1.2;Surt organisk vätska;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.140;Knowledge weighted standard match;6.1.2;Ammoniaklösning;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.122;Knowledge weighted standard match;6.1.2;Alkaliskt avfall fast;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.126;Knowledge weighted standard match;6.1.2;Basiskt organiskt fast/flytande;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.093;Knowledge weighted standard match;6.1.2;Fotokemikalier;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.133;Knowledge weighted standard match;6.1.2;Bekämpningsmedel aerosoler;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.135;Knowledge weighted standard match;6.1.2;Bekämpningsmedel fast;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.125;Knowledge weighted standard match;6.1.2;Bekämpningsmedel flytande;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.119;Knowledge weighted standard match;6.1.2;Kvicksilverhaltigt avfall;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.136;Knowledge weighted standard match;6.1.2;Kvicksilver i föremål;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.124;Knowledge weighted standard match;6.1.2;Oljehaltigt avfall (ej PCB);;liter;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.117;Knowledge weighted standard match;6.1.2;Olja förorenad (ej PCB);;liter;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.121;Knowledge weighted standard match;6.1.2;Färg-, lack-, limburkar lösning;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.142;Knowledge weighted standard match;6.1.2;Färg-, lack-, limburkar lösning aerosoler;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.121;Knowledge weighted standard match;6.1.2;Isocyanater;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.120;Knowledge weighted standard match;6.1.2;Härdare metyl- etylketonperoxid;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.117;Knowledge weighted standard match;6.1.2;Härdare dibenzoylperoxid;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.126;Knowledge weighted standard match;6.1.2;Färg-,lack-, limburkar vattenbaserade;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.109;Knowledge weighted standard match;6.1.2;Tensida alkaliska flytande avfall;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.127;Knowledge weighted standard match;6.1.2;Rengöring/vaskmedel fast;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.109;Knowledge weighted standard match;6.1.2;Alkaliska flytande avfall;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.115;Knowledge weighted standard match;6.1.2;Cytotoxiska läkemedel, cytostat;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.089;Knowledge weighted standard match;6.1.2;Rökdetektor med andra isotoper;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.077;Knowledge weighted standard match;6.1.2;Rökdetektor med Am 241;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.111;Knowledge weighted standard match;6.1.2;Batterier stav, pencell;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.102;Knowledge weighted standard match;6.1.2;Batterier lithium;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.289;Knowledge weighted standard match;6.1.2;Bil-, mcbatteri med bly;;styck;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.087;Knowledge weighted standard match;6.1.2;Glödlampor;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.078;Knowledge weighted standard match;6.1.2;Lysrör;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.098;Knowledge weighted standard match;6.1.2;Elavfall, små elektronik;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.145;Knowledge weighted standard match;6.1.2;El-avfall fast installation;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.103;Knowledge weighted standard match;6.1.2;El-avfall kabel;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.120;Knowledge weighted standard match;6.1.2;Toner, färgpatron med elektronik;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.138;Knowledge weighted standard match;6.1.2;Tv, radio, skärm, skrivare utan färgpatron;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.280;Knowledge weighted standard match;6.1.2;Kyl-, frysskåp, -box;;styck;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.084;Knowledge weighted standard match;6.1.2;Kyl-, frysskåp, -box från verksamhet;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.317;Knowledge weighted standard match;6.1.2;Spis, tvätt-, diskmaskin;;styck;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.107;Knowledge weighted standard match;6.1.2;Spis, tvätt-, diskmaskin från verksamhet;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.098;Knowledge weighted standard match;6.1.3;Container X m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.098;Knowledge weighted standard match;6.1.3;Container X m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.098;Knowledge weighted standard match;6.1.3;Container X m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.159;Knowledge weighted standard match;6.1.3;Omklassning av felsorterad container;;container;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.112;Knowledge weighted standard match;6.1.4;Okänt farligt avfall (säkerhetsdatablad saknas);;fraktion;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.117;Knowledge weighted standard match;6.1.4;Ombud för rapportering av farligt avfall i Avfallsregistret;;tillfälle;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.123;Knowledge weighted standard match;6.1.4;Administrativ rapporteringsavgift till Avfallsregistret;;tillfälle;;;;;;;Ingen tillräckligt stark kunskapsträff.
-NO_SUGGESTION;0.111;Knowledge weighted standard match;6.1.4;Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen;;tillfälle;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.168;Knowledge weighted standard match;3.4;Latrinbehållare 37 liter inkl. mottagning och behandling;;liter;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.240;Knowledge weighted standard match;4.1;Filtermassor upp till 500 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.242;Knowledge weighted standard match;4.1;Filtermassor 500-1000 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.163;Knowledge weighted standard match;4.2;Krav på information om hämtningstid;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.143;Knowledge weighted standard match;4.2;Krav på närvaro vid specificerad hämtningstid;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.152;Knowledge weighted standard match;4.2;Hantering av kod för kodlås;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.282;Knowledge weighted standard match;5.1;Upp till 3 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.293;Knowledge weighted standard match;5.1;Mellan 3 m3 och 6 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.537;Knowledge weighted standard match;5.1;Över 6 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.271;Knowledge weighted standard match;5.2;Dragning av extra slang vid 5-25 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.269;Knowledge weighted standard match;5.2;Dragning av extra slang vid 25-35 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.269;Knowledge weighted standard match;5.2;Dragning av extra slang vid 36-45 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.269;Knowledge weighted standard match;5.2;Dragning av extra slang vid 46-55 m;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.342;Knowledge weighted standard match;5.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.242;Knowledge weighted standard match;5.2;Krav på information om tömningstid;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.224;Knowledge weighted standard match;5.2;Krav på närvaro vid specificerad tömningstid;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.320;Knowledge weighted standard match;5.2;Hantering av kod för kodlås vid tömning;;tömning;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.238;Knowledge weighted standard match;5.2;Hetvattentvätt med spolbil, timersättning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.364;Knowledge weighted standard match;5.2;Silikontätning per lock;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.373;Knowledge weighted standard match;5.2;Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.288;Knowledge weighted standard match;5.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.340;Knowledge weighted standard match;5.3;Budning utanför ordinarie tömningsperiod;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.500;Knowledge weighted standard match;6.1.1;Verksamheter;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.234;Knowledge weighted standard match;6.1.1;Övriga abonnemangstyper;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.233;Knowledge weighted standard match;6.1.1;Vågkort;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.234;Knowledge weighted standard match;6.1.1;Borttappat vågkort;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.221;Knowledge weighted standard match;6.1.1;Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst);;besök;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.284;Knowledge weighted standard match;6.1.1;Ej redovisad eller fel redovisad fraktion av avfall;;fraktion;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.477;Knowledge weighted standard match;6.1.2;Avfall till energiåtervinning (240 L sopsäck);;styck;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.455;Knowledge weighted standard match;6.1.2;Avfall till energiåtervinning;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.423;Knowledge weighted standard match;6.1.2;Skrymmande avfall till energiåtervinning större än 20×20×80;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.417;Knowledge weighted standard match;6.1.2;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.418;Knowledge weighted standard match;6.1.2;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.390;Knowledge weighted standard match;6.1.2;Tryckimpregnerat virke, pall;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.393;Knowledge weighted standard match;6.1.2;Betong, lättbetong;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.397;Knowledge weighted standard match;6.1.2;Gips, gipsskivor;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.345;Knowledge weighted standard match;6.1.2;Tegel;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.358;Knowledge weighted standard match;6.1.2;Fönster- och planglas utan karm;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.229;Knowledge weighted standard match;6.1.2;Fönster med karm;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.456;Knowledge weighted standard match;6.1.2;Plast;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.267;Knowledge weighted standard match;6.1.2;Isolering utan innehåll av asbest;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.404;Knowledge weighted standard match;6.1.2;Klinker, keramik, porslin;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.433;Knowledge weighted standard match;6.1.2;Handfat;;styck;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.400;Knowledge weighted standard match;6.1.2;WC-stol;;styck;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.441;Knowledge weighted standard match;6.1.2;Metall;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.355;Knowledge weighted standard match;6.1.2;Textilier;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.378;Knowledge weighted standard match;6.1.2;Fiskeredskap;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.250;Knowledge weighted standard match;6.1.2;Ätbart fett/frityrolja;;liter;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.255;Knowledge weighted standard match;6.1.2;Kvistar och grenar;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.178;Knowledge weighted standard match;6.1.2;Jord;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.222;Knowledge weighted standard match;6.1.2;Sten;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.229;Knowledge weighted standard match;6.1.2;Stubbar/rötter för krossning;;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.291;Knowledge weighted standard match;6.1.2;Flera fraktioner för egen sortering på ramp (max 2 m³);;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.290;Knowledge weighted standard match;6.1.2;Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall);;;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.354;Knowledge weighted standard match;6.1.2;Tonerkassetter, utan elektronik/chip;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.406;Knowledge weighted standard match;6.1.2;Oljeemulsion, emballerat;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.367;Knowledge weighted standard match;6.1.2;Förorenad olja innehållande PCB;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.383;Knowledge weighted standard match;6.1.2;Oljeavskiljarslam;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.358;Knowledge weighted standard match;6.1.2;Diesel;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.417;Knowledge weighted standard match;6.1.2;Bensinrester;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.378;Knowledge weighted standard match;6.1.2;Hydralslang, med/utan koppling;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.466;Knowledge weighted standard match;6.1.2;Förpackningar, tömde ej rengjorda;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.434;Knowledge weighted standard match;6.1.2;Oljeavfall, fast osorterat emba;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.379;Knowledge weighted standard match;6.1.2;Absorbermedel, filtermaterial;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.354;Knowledge weighted standard match;6.1.2;Oljefilter;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.340;Knowledge weighted standard match;6.1.2;Bromsvätska;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.383;Knowledge weighted standard match;6.1.2;Transformator, kondensator med PCB;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.329;Knowledge weighted standard match;6.1.2;Fogskum;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.360;Knowledge weighted standard match;6.1.2;Halon;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.327;Knowledge weighted standard match;6.1.2;Koldioxid;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.415;Knowledge weighted standard match;6.1.2;Brandsläckare;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.344;Knowledge weighted standard match;6.1.2;Helium;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.371;Knowledge weighted standard match;6.1.2;Tändare;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.329;Knowledge weighted standard match;6.1.2;Syrgas;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.412;Knowledge weighted standard match;6.1.2;Oxiderande fast ämne/vätska;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.344;Knowledge weighted standard match;6.1.2;Klorex;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.377;Knowledge weighted standard match;6.1.2;Aerosoler isocyanat, bekämpning;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.375;Knowledge weighted standard match;6.1.2;Gasol inkl tub;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.400;Knowledge weighted standard match;6.1.2;Gasol, blå programmet;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.388;Knowledge weighted standard match;6.1.2;Giftig organisk vätska;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.390;Knowledge weighted standard match;6.1.2;Småkemikalier, ej Hg-haltiga;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.386;Knowledge weighted standard match;6.1.2;Giftig oorganisk vätska;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.373;Knowledge weighted standard match;6.1.2;Oxidationsmedel, flytande;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.405;Knowledge weighted standard match;6.1.2;Asbest, emballerat;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.481;Knowledge weighted standard match;6.1.2;Smittförande avfall;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.389;Knowledge weighted standard match;6.1.2;Lösningsmedel;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.366;Knowledge weighted standard match;6.1.2;Väteperoxid;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.338;Knowledge weighted standard match;6.1.2;Flourvätesyra;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.354;Knowledge weighted standard match;6.1.2;Svavelsyra;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.365;Knowledge weighted standard match;6.1.2;Salpetersyra;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.374;Knowledge weighted standard match;6.1.2;Surt oorganisk fast ämne;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.375;Knowledge weighted standard match;6.1.2;Surt organisk fast ämne;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.378;Knowledge weighted standard match;6.1.2;Surt oorganisk vätska;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.379;Knowledge weighted standard match;6.1.2;Surt organisk vätska;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.374;Knowledge weighted standard match;6.1.2;Ammoniaklösning;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.494;Knowledge weighted standard match;6.1.2;Alkaliskt avfall fast;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.348;Knowledge weighted standard match;6.1.2;Basiskt organiskt fast/flytande;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.375;Knowledge weighted standard match;6.1.2;Fotokemikalier;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.413;Knowledge weighted standard match;6.1.2;Bekämpningsmedel aerosoler;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.411;Knowledge weighted standard match;6.1.2;Bekämpningsmedel fast;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.394;Knowledge weighted standard match;6.1.2;Bekämpningsmedel flytande;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.513;Knowledge weighted standard match;6.1.2;Kvicksilverhaltigt avfall;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.389;Knowledge weighted standard match;6.1.2;Kvicksilver i föremål;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.329;Knowledge weighted standard match;6.1.2;Oljehaltigt avfall (ej PCB);;liter;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.232;Knowledge weighted standard match;6.1.2;Olja förorenad (ej PCB);;liter;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.338;Knowledge weighted standard match;6.1.2;Färg-, lack-, limburkar lösning;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.376;Knowledge weighted standard match;6.1.2;Färg-, lack-, limburkar lösning aerosoler;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.353;Knowledge weighted standard match;6.1.2;Isocyanater;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.407;Knowledge weighted standard match;6.1.2;Härdare metyl- etylketonperoxid;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.406;Knowledge weighted standard match;6.1.2;Härdare dibenzoylperoxid;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.396;Knowledge weighted standard match;6.1.2;Färg-,lack-, limburkar vattenbaserade;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.443;Knowledge weighted standard match;6.1.2;Tensida alkaliska flytande avfall;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.395;Knowledge weighted standard match;6.1.2;Rengöring/vaskmedel fast;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.454;Knowledge weighted standard match;6.1.2;Alkaliska flytande avfall;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.367;Knowledge weighted standard match;6.1.2;Cytotoxiska läkemedel, cytostat;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.417;Knowledge weighted standard match;6.1.2;Rökdetektor med andra isotoper;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.344;Knowledge weighted standard match;6.1.2;Rökdetektor med Am 241;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.397;Knowledge weighted standard match;6.1.2;Batterier stav, pencell;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.407;Knowledge weighted standard match;6.1.2;Batterier lithium;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.462;Knowledge weighted standard match;6.1.2;Bil-, mcbatteri med bly;;styck;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.367;Knowledge weighted standard match;6.1.2;Glödlampor;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.344;Knowledge weighted standard match;6.1.2;Lysrör;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.459;Knowledge weighted standard match;6.1.2;Elavfall, små elektronik;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.442;Knowledge weighted standard match;6.1.2;El-avfall fast installation;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.435;Knowledge weighted standard match;6.1.2;El-avfall kabel;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.347;Knowledge weighted standard match;6.1.2;Toner, färgpatron med elektronik;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.375;Knowledge weighted standard match;6.1.2;Tv, radio, skärm, skrivare utan färgpatron;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.454;Knowledge weighted standard match;6.1.2;Kyl-, frysskåp, -box;;styck;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.383;Knowledge weighted standard match;6.1.2;Kyl-, frysskåp, -box från verksamhet;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.446;Knowledge weighted standard match;6.1.2;Spis, tvätt-, diskmaskin;;styck;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.360;Knowledge weighted standard match;6.1.2;Spis, tvätt-, diskmaskin från verksamhet;;kilogram;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.376;Knowledge weighted standard match;6.1.3;Container X m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.376;Knowledge weighted standard match;6.1.3;Container X m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.376;Knowledge weighted standard match;6.1.3;Container X m3;;m³;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.360;Knowledge weighted standard match;6.1.3;Omklassning av felsorterad container;;container;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.275;Knowledge weighted standard match;6.1.4;Okänt farligt avfall (säkerhetsdatablad saknas);;fraktion;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.279;Knowledge weighted standard match;6.1.4;Ombud för rapportering av farligt avfall i Avfallsregistret;;tillfälle;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.251;Knowledge weighted standard match;6.1.4;Administrativ rapporteringsavgift till Avfallsregistret;;tillfälle;;;;;;;Ingen tillräckligt stark kunskapsträff.
+NO_SUGGESTION;0.224;Knowledge weighted standard match;6.1.4;Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen;;tillfälle;;;;;;;Ingen tillräckligt stark kunskapsträff.

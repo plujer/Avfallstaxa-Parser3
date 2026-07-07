@@ -3,6 +3,6 @@ Parser rows: 241
 Workbook rows: 271
 EDP_MATCH: 7
 STANDARD_PROPOSAL: 0
-REVIEW_REQUIRED: 71
-NEW_TAXA: 163
+REVIEW_REQUIRED: 86
+NEW_TAXA: 148
 Workbook: output\excel\ArbetsExcel_byggd_fran_parser.xlsx

@@ -10,3 +10,5 @@ from .decision_reporter import DecisionReporter
 from .knowledge_reporter import KnowledgeReporter
 from .knowledge_index_reporter import KnowledgeIndexReporter
 from .rule_repository_reporter import RuleRepositoryReporter
+from .workbook_schema_reporter import WorkbookSchemaReporter
+from .standard_catalog_schema_reporter import StandardCatalogSchemaReporter

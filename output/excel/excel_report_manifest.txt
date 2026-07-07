@@ -1,9 +1,13 @@
 ﻿Excel Builder Report Package
-Created: 2026-07-07_06-54-28
+Created: 2026-07-07_07-19-19
 
 Included files:
 [OK] output\diagnostics\test_cleanup_report.txt
 [OK] output\diagnostics\test_syntax_report.txt
+[OK] output\excel\standard_catalog_schema_report.txt
+[OK] output\excel\standard_catalog_schema.csv
+[OK] output\excel\standard_catalog_schema_console.txt
+[OK] output\excel\EDP_Standardtaxor_normalized.xlsx
 [OK] output\excel\workbook_schema_report.txt
 [OK] output\excel\workbook_schema_sheets.csv
 [OK] output\excel\workbook_schema_header_candidates.csv
@@ -29,6 +33,22 @@ Included files:
 [OK] output\projects\Sorsele\manifest\project_run_manifest.json
 [OK] data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx
 [OK] output\excel\sorsele_project_run_console.txt
+[OK] output\excel\taxepunkter_row_plan_report.txt
+[OK] output\excel\taxepunkter_row_plan.csv
+[OK] output\excel\taxepunkter_row_plan_console.txt
+[OK] output\excel\word_tax_coverage_report.txt
+[OK] output\excel\word_tax_coverage_results.csv
+[OK] output\excel\word_tax_coverage_console.txt
+[OK] output\excel\excel_matching_results.csv
+[OK] output\excel\excel_matching_report.txt
+[OK] output\excel\excel_matching_console.txt
+[OK] output\excel\arbets_excel_profile_report.txt
+[OK] output\excel\arbets_excel_snapshot.txt
+[OK] output\excel\edp_rulebook_report.txt
+[OK] output\excel\edp_rulebook_console.txt
+[OK] output\excel\excel_builder_report.txt
+[OK] output\excel\excel_builder_console.txt
+[OK] output\excel\excel_inspect_console.txt
 [OK] output\diagnostics\pytest_report.txt
 [OK] output\reports\parser3_result.json
 [OK] output\acceptance\parser3_acceptance_report.txt

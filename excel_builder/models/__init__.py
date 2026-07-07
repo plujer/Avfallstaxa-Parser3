@@ -23,3 +23,9 @@ from .template_models import TemplateInfo
 from .knowledge_models import TaxKnowledgeFeature, TaxKnowledgeReport
 from .knowledge_index_models import KnowledgeIndexKey, KnowledgeIndexEntry, KnowledgeIndex
 from .rule_repository_models import MasterRule, RuleRepository
+from .workbook_schema_models import WorkbookSchema, SheetSchema, HeaderCandidate
+from .standard_catalog_schema_models import (
+    StandardCatalogSection,
+    StandardCatalogSheetSchema,
+    StandardCatalogSchema,
+)

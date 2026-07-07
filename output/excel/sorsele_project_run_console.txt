@@ -13,14 +13,14 @@ Workbook updated: output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx
 Standardtaxeförslag skrivna till arbetsbok
 Workbook: output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx
 Parser rows: 241
-Standard rows: 27
+Standard rows: 510
 PROPOSAL: 0
-REVIEW: 0
-NO_SUGGESTION: 241
+REVIEW: 18
+NO_SUGGESTION: 223
 EDP standardavvikelser skrivna till arbetsbok
 Kommun: Sorsele
 EDP rows: 276
-Standard rows: 27
-REVIEW: 276
-OK: 0
+Standard rows: 510
+REVIEW: 275
+OK: 1
 Workbook: output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx

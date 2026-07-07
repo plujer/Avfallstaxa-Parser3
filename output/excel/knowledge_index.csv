@@ -33,6 +33,8 @@ Hushåll;Restavfall;Vikt;VIKG;660;1;0;2.4.2 Kärl 660 l restavfall 100 kg;
 Slam;;;;;11;0;5.2 Dragning av extra slang vid 5-25 m | 5.2 Dragning av extra slang vid 25-35 m | 5.2 Dragning av extra slang vid 36-45 m | 5.2 Dragning av extra slang vid 46-55 m | 5.2 Krav på information om tömningstid;
 Slam;;Vikt;VIKG;;1;0;5.2 Hantering av brunnslock som väger 15-25 kg;
 Slam;;Volym;VOLM;;4;0;5.1 Upp till 3 m3 | 5.1 Mellan 3 m3 och 6 m3 | 5.1 Över 6 m3 | 5.2 Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;
+Slam;Slam;;KVAN;;0;68;;BRN03SLO Brunn 0-3 m³, Slam. Ordinarie tur | BRN36SLO Brunn 3,1-6 m³, slam. Ordinarie tur | BRNÖ6SLO Brunn över 6 m³, slam. Ordinarie tur | AVS03SLO Avskiljare 0-3 m³, slam. Ordinarie tur | AVS36SLO Avskiljare 3,1-6 m³, slam. Ordinarie tur
+Slam;Slam;;ÅRKV;;0;40;;FASTSL Fast grundavgift, slam | FASTFE Fast grundavgift, fett | BRN03SLORD Brunn 0-3 m³, Slam. Ordinarie tur | BRN36SLORD Brunn 3,1-6 m³, slam. Ordinarie tur | BRNÖ6SLORD Brunn över 6 m³, slam. Ordinarie tur
 Tilläggstjänst;;;;;3;0;4.2 Krav på information om hämtningstid | 4.2 Krav på närvaro vid specificerad hämtningstid | 4.2 Hantering av kod för kodlås;
 Tilläggstjänst;;Vikt;VIKG;;2;0;4.1 Filtermassor upp till 500 kg | 4.1 Filtermassor 500-1000 kg;
 Verksamhetsavfall;;;;;7;0;6.1.1 Verksamheter | 6.1.1 Övriga abonnemangstyper | 6.1.1 Vågkort | 6.1.1 Borttappat vågkort | 6.1.1 Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst);
@@ -41,9 +43,32 @@ Verksamhetsavfall;;Volym;VOLM;;3;0;6.1.3 Container X m3 | 6.1.3 Container X m3 |
 Verksamhetsavfall;Farligt avfall;;;;1;0;6.1.4 Okänt farligt avfall (säkerhetsdatablad saknas);
 Verksamhetsavfall;Farligt avfall;Tillfälle;TILLFÄLLE;;1;0;6.1.4 Ombud för rapportering av farligt avfall i Avfallsregistret;
 ÅVC/verksamhetsavfall;;;;;4;0;6.1.2 Fönster med karm | 6.1.2 Jord | 6.1.2 Sten | 6.1.2 Stubbar/rötter för krossning;
+ÅVC/verksamhetsavfall;;;KVAN;;0;34;;GROVBUD Hämtning grovavfall, budning | LÖSTKBMBUD Hämtning löst avfall, per kbm. Budning | BUDNING Budningsavgift | KÄLABUD Kärl, latrin. Budning | KÄLAEXTORD Kärl, latrin. Extrakärl, ordinarie hämtning
+ÅVC/verksamhetsavfall;;;ÅRKV ELLER KVAN;;0;1;;KÄRLTVÄTT Kärltvätt, pris per kärl
+ÅVC/verksamhetsavfall;;;ÅRKV;;0;52;;FASTSMÅ Fast grundavgift, småhus | FASTFLB Fast grundavgift,  flerbostadshus per bostadsenhet | FASTFRI Fast grundavgift, fritidshus | FASTVHT Fast grundavgift, verksamheter | MB1300OS104 Markbehållare 1,3 m³, osorterat avfall. 2ggr/ vecka
+ÅVC/verksamhetsavfall;;Behållarvolym;KVAN;;0;1;;FKOMPPÅSE9 Försäljning kompostpåsar, 9 L
+ÅVC/verksamhetsavfall;;Behållarvolym;KVAN;125;0;1;;FPASÄCK125 Försäljning pappersäck, 125 L
+ÅVC/verksamhetsavfall;;Behållarvolym;KVAN;160;0;1;;FPASÄCK160 Försäljning pappersäck, 160 L
+ÅVC/verksamhetsavfall;;Behållarvolym;KVAN;190;0;5;;KÄ190WEBUD Kärl 190 L, wellpapp. Budning | KÄ190TIBUD Kärl 190 L, tidningar. Budning | KÄ190PABUD Kärl 190 L, pappersförpackningar. Budning | KÄ190MEBUD Kärl 190 L, metallförpackningar. Budning | KÄ190PLBUD Kärl 190 L, plastförpackningar. Budning
+ÅVC/verksamhetsavfall;;Behållarvolym;KVAN;22;0;2;;FKOMPKASSE22 Försäljning kompostkassar, 22 L | FKOMPSTÄLL22 Försäljning ställning för 22 L kompostkasse
+ÅVC/verksamhetsavfall;;Behållarvolym;KVAN;240;0;2;;FPASÄCK240 Försäljning pappersäck, 240 L | FPLSÄCK240 Försäljning plastsäck, 240 L
+ÅVC/verksamhetsavfall;;Behållarvolym;KVAN;350;0;2;;FPASÄCK350 Försäljning pappersäck, 350 L | FPLSÄCK350 Försäljning plastsäck, 350 L
+ÅVC/verksamhetsavfall;;Behållarvolym;KVAN;370;0;5;;KÄ370WEBUD Kärl 370 L, wellpapp. Budning | KÄ370TIBUD Kärl 370 L, tidningar. Budning | KÄ370PABUD Kärl 370 L, pappersförpackningar. Budning | KÄ370MEBUD Kärl 370 L, metallförpackningar. Budning | KÄ370PLBUD Kärl 370 L, plastförpackningar. Budning
+ÅVC/verksamhetsavfall;;Behållarvolym;KVAN;45;0;3;;FKOMPPSÄCK45 Försäljning kompostsäckar, 45 L | FKOMPSTÄLL45 Försäljning ställning för 45 L kompostsäck, enkelställ på hjul | FKOMPSTÄLL45D Försäljning ställning för 45 L kompostsäck, dubbelställ på hjul
+ÅVC/verksamhetsavfall;;Behållarvolym;KVAN;660;0;6;;KÄOSBUD Kärl 140-660 L, osort. avfall. Budning | KÄ660WEBUD Kärl 660 L, wellpapp. Budning | KÄ660TIBUD Kärl 660 L, tidningar. Budning | KÄ660PABUD Kärl 660 L, pappersförpackningar. Budning | KÄ660MEBUD Kärl 660 L, metallförpackningar. Budning
 ÅVC/verksamhetsavfall;;Behållarvolym;VOLYM/BEHÅLLARE;;1;0;6.1.2 Ätbart fett/frityrolja;
+ÅVC/verksamhetsavfall;;Behållarvolym;ÅRKV;140;0;10;;KÄ140OS156 Kärl 140 L, osort. avfall. 3ggr/ vecka | KÄ140OS104 Kärl 140 L, osort. avfall. 2ggr/ vecka | KÄ140OS52 Kärl 140 L, osort. avfall. Varje vecka | KÄ140OS26 Kärl 140 L, osort. avfall. Var 14:e dag | KÄ140OS13 Kärl 140 L, osort. avfall. Var 4:e vecka
+ÅVC/verksamhetsavfall;;Behållarvolym;ÅRKV;160;0;9;;SÄ160OS156 Säck 160 L, osort. avfall. 3ggr/ vecka | SÄ160OS104 Säck 160 L, osort. avfall. 2ggr/ vecka | SÄ160OS52 Säck 160 L, osort. avfall. Varje vecka | SÄ160OS26 Säck 160 L, osort. avfall. Var 14:e dag | SÄ160OS13 Säck 160 L, osort. avfall. Var 4:e vecka
+ÅVC/verksamhetsavfall;;Behållarvolym;ÅRKV;190;0;32;;KÄ190OS156 Kärl 190 L, osort. avfall. 3ggr/ vecka | KÄ190OS104 Kärl 190 L, osort. avfall. 2ggr/ vecka | KÄ190OS52 Kärl 190 L, osort. avfall. Varje vecka | KÄ190OS26 Kärl 190 L, osort. avfall. Var 14:e dag | KÄ190OS13 Kärl 190 L, osort. avfall. Var 4:e vecka
+ÅVC/verksamhetsavfall;;Behållarvolym;ÅRKV;240;0;10;;KÄ240OS156 Kärl 240 L, osort. avfall. 3ggr/ vecka | KÄ240OS104 Kärl 240 L, osort. avfall. 2ggr/ vecka | KÄ240OS52 Kärl 240 L, osort. avfall. Varje vecka | KÄ240OS26 Kärl 240 L, osort. avfall. Var 14:e dag | KÄ240OS13 Kärl 240 L, osort. avfall. Var 4:e vecka
+ÅVC/verksamhetsavfall;;Behållarvolym;ÅRKV;37;0;4;;KÄ37LA26 Kärl 37 L, latrin. Var 14:e dag | KÄ37LA12 Kärl 37 L, latrin. Var 4:e vecka | KÄ37LA11S Kärl 37 L, latrin. Var 14:e dag, säsong | KÄ37LA6S Kärl 37 L, latrin. Var 4:e vecka, säsong
+ÅVC/verksamhetsavfall;;Behållarvolym;ÅRKV;370;0;38;;KÄ370OS156 Kärl 370 L, osort. avfall. 3ggr/ vecka | KÄ370OS104 Kärl 370 L, osort. avfall. 2ggr/ vecka | KÄ370OS52 Kärl 370 L, osort. avfall. Varje vecka | KÄ370OS26 Kärl 370 L, osort. avfall. Var 14:e dag | KÄ370OS13 Kärl 370 L, osort. avfall. Var 4:e vecka
+ÅVC/verksamhetsavfall;;Behållarvolym;ÅRKV;400;0;3;;KK400OS104 Kärl komp. 400 L, osort. avfall. 2ggr/ vecka | KK400OS52 Kärl komp. 400 L, osort. avfall. Varje vecka | KK400OS26 Kärl komp. 400 L, osort. avfall. Var 14:e dag
+ÅVC/verksamhetsavfall;;Behållarvolym;ÅRKV;660;0;30;;KÄ660OS156 Kärl 660 L, osort. avfall. 3ggr/ vecka | KÄ660OS104 Kärl 660 L, osort. avfall. 2ggr/ vecka | KÄ660OS52 Kärl 660 L, osort. avfall. Varje vecka | KÄ660OS26 Kärl 660 L, osort. avfall. Var 14:e dag | KÄ660OS13 Kärl 660 L, osort. avfall. Var 4:e vecka
+ÅVC/verksamhetsavfall;;Styck;KVAN;;0;1;;FSÄMB Försäljning säck, markbehållare. Pris per st
 ÅVC/verksamhetsavfall;;Styck;ST;;4;0;6.1.2 Handfat | 6.1.2 WC-stol | 6.1.2 Bil-, mcbatteri med bly | 6.1.2 Spis, tvätt-, diskmaskin;
 ÅVC/verksamhetsavfall;;Styck;ST;240;1;0;6.1.2 Avfall till energiåtervinning (240 L sopsäck);
+ÅVC/verksamhetsavfall;;Vikt;KVAN;;0;2;;B100 Behandling brännbart avfall, pris per kilo | BBRÄNNBART Behandling brännbart avfall, pris per kilo
 ÅVC/verksamhetsavfall;;Vikt;VIKG;;67;0;6.1.2 Avfall till energiåtervinning | 6.1.2 Skrymmande avfall till energiåtervinning större än 20×20×80 | 6.1.2 Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp | 6.1.2 Träavfall – behandlat, utan tapet, plastmatta, tjärpapp | 6.1.2 Fönster- och planglas utan karm;
 ÅVC/verksamhetsavfall;;Volym;VOLM;;2;0;6.1.2 Kvistar och grenar | 6.1.2 Flera fraktioner för egen sortering på ramp (max 2 m³);
 ÅVC/verksamhetsavfall;Asbest;Vikt;VIKG;;1;0;6.1.2 Asbest, emballerat;
@@ -56,10 +81,25 @@ Verksamhetsavfall;Farligt avfall;Tillfälle;TILLFÄLLE;;1;0;6.1.4 Ombud för rap
 ÅVC/verksamhetsavfall;Gips;Vikt;VIKG;;1;0;6.1.2 Gips, gipsskivor;
 ÅVC/verksamhetsavfall;Kyl/frys;Styck;ST;;1;0;6.1.2 Kyl-, frysskåp, -box;
 ÅVC/verksamhetsavfall;Kyl/frys;Vikt;VIKG;;1;0;6.1.2 Kyl-, frysskåp, -box från verksamhet;
+ÅVC/verksamhetsavfall;Matavfall;;KVAN;;0;3;;MB800MABUD Markbehållare 0,8 m³, matavfall. Budning | MB1300MABUD Markbehållare 1,3 m³, matavfall. Budning | MB1600MABUD Markbehållare 1,6m³, matavfall. Budning
+ÅVC/verksamhetsavfall;Matavfall;;ÅRKV;;0;13;;MB800MA104 Markbehållare 0,8 m³, matavfall. 2ggr/ vecka | MB800MA52 Markbehållare 0,8 m³, matavfall. Varje vecka | MB800MA26 Markbehållare 0,8 m³, matavfall. Var 14:e dag | MB800MA13 Markbehållare 0,8 m³, matavfall. Var 4:e vecka | MB1300MA104 Markbehållare 1,3 m³, matavfall. 2ggr/ vecka
+ÅVC/verksamhetsavfall;Matavfall;Behållarvolym;KVAN;370;0;1;;KÄMABUD Kärl 140-370 L, matavfall. Budning
+ÅVC/verksamhetsavfall;Matavfall;Behållarvolym;ÅRKV;140;0;9;;KÄ140MA156 Kärl 140 L, matavfall. 3ggr/ vecka | KÄ140MA104 Kärl 140 L, matavfall. 2ggr/ vecka | KÄ140MA52 Kärl 140 L, matavfall. Varje vecka | KÄ140MA26 Kärl 140 L, matavfall. Var 14:e dag | KÄ140MA13 Kärl 140 L, matavfall. Var 4:e vecka
+ÅVC/verksamhetsavfall;Matavfall;Behållarvolym;ÅRKV;190;0;9;;KÄ190MA156 Kärl 190 L, matavfall. 3ggr/ vecka | KÄ190MA104 Kärl 190 L, matavfall. 2ggr/ vecka | KÄ190MA52 Kärl 190 L, matavfall. Varje vecka | KÄ190MA26 Kärl 190 L, matavfall. Var 14:e dag | KÄ190MA13 Kärl 190 L, matavfall. Var 4:e vecka
+ÅVC/verksamhetsavfall;Matavfall;Behållarvolym;ÅRKV;240;0;9;;KÄ240MA156 Kärl 240 L, matavfall. 3ggr/ vecka | KÄ240MA104 Kärl 240 L, matavfall. 2ggr/ vecka | KÄ240MA52 Kärl 240 L, matavfall. Varje vecka | KÄ240MA26 Kärl 240 L, matavfall. Var 14:e dag | KÄ240MA13 Kärl 240 L, matavfall. Var 4:e vecka
+ÅVC/verksamhetsavfall;Matavfall;Behållarvolym;ÅRKV;370;0;9;;KÄ370MA156 Kärl 370 L, matavfall. 3ggr/ vecka | KÄ370MA104 Kärl 370 L, matavfall. 2ggr/ vecka | KÄ370MA52 Kärl 370 L, matavfall. Varje vecka | KÄ370MA26 Kärl 370 L, matavfall. Var 14:e dag | KÄ370MA13 Kärl 370 L, matavfall. Var 4:e vecka
 ÅVC/verksamhetsavfall;Metall;Vikt;VIKG;;1;0;6.1.2 Metall;
 ÅVC/verksamhetsavfall;Oljeavfall;Behållarvolym;VOLYM/BEHÅLLARE;;2;0;6.1.2 Oljehaltigt avfall (ej PCB) | 6.1.2 Olja förorenad (ej PCB);
 ÅVC/verksamhetsavfall;Oljeavfall;Vikt;VIKG;;5;0;6.1.2 Oljeemulsion, emballerat | 6.1.2 Förorenad olja innehållande PCB | 6.1.2 Oljeavskiljarslam | 6.1.2 Oljeavfall, fast osorterat emba | 6.1.2 Oljefilter;
 ÅVC/verksamhetsavfall;Plast;Vikt;VIKG;;1;0;6.1.2 Plast;
+ÅVC/verksamhetsavfall;Restavfall;;KVAN;;0;3;;MB1300REBUD Markbehållare 1,3 m³, restavfall. Budning | MB2200REBUD Markbehållare 2,2 m³, restavfall. Budning | MB5000REBUD Markbehållare 5 m³, restavfall. Budning
+ÅVC/verksamhetsavfall;Restavfall;;ÅRKV;;0;13;;MB1300RE104 Markbehållare 1,3 m³, restavfall. 2ggr/ vecka | MB1300RE52 Markbehållare 1,3 m³, restavfall. Varje vecka | MB1300RE26 Markbehållare 1,3 m³, restavfall. Var 14:e dag | MB1300RE13 Markbehållare 1,3 m³, restavfall. Var 4:e vecka | MB2200RE104 Markbehållare 2,2 m³, restavfall. 2ggr/ vecka
+ÅVC/verksamhetsavfall;Restavfall;Behållarvolym;KVAN;660;0;1;;KÄREBUD Kärl 140-660 L, restavfall. Budning
+ÅVC/verksamhetsavfall;Restavfall;Behållarvolym;ÅRKV;140;0;12;;KÄ140RE26V Kärl 140 L, restavfall. Var 14:e dag. Verksamheter | KÄ140RE26F Kärl 140 L, restavfall. Var 14:e dag. Flerbostadshus | KÄ140RE26H Kärl 140 L, restavfall. Var 14:e dag. Hemkomposterare | KÄ140RE156 Kärl 140 L, restavfall. 3ggr/ vecka | KÄ140RE104 Kärl 140 L, restavfall. 2ggr/ vecka
+ÅVC/verksamhetsavfall;Restavfall;Behållarvolym;ÅRKV;190;0;9;;KÄ190RE156 Kärl 190 L, restavfall. 3ggr/ vecka | KÄ190RE104 Kärl 190 L, restavfall. 2ggr/ vecka | KÄ190RE52 Kärl 190 L, restavfall. Varje vecka | KÄ190RE26 Kärl 190 L, restavfall. Var 14:e dag | KÄ190RE13 Kärl 190 L, restavfall. Var 4:e vecka
+ÅVC/verksamhetsavfall;Restavfall;Behållarvolym;ÅRKV;240;0;9;;KÄ240RE156 Kärl 240 L, restavfall. 3ggr/ vecka | KÄ240RE104 Kärl 240 L, restavfall. 2ggr/ vecka | KÄ240RE52 Kärl 240 L, restavfall. Varje vecka | KÄ240RE26 Kärl 240 L, restavfall. Var 14:e dag | KÄ240RE13 Kärl 240 L, restavfall. Var 4:e vecka
+ÅVC/verksamhetsavfall;Restavfall;Behållarvolym;ÅRKV;370;0;9;;KÄ370RE156 Kärl 370 L, restavfall. 3ggr/ vecka | KÄ370RE104 Kärl 370 L, restavfall. 2ggr/ vecka | KÄ370RE52 Kärl 370 L, restavfall. Varje vecka | KÄ370RE26 Kärl 370 L, restavfall. Var 14:e dag | KÄ370RE13 Kärl 370 L, restavfall. Var 4:e vecka
+ÅVC/verksamhetsavfall;Restavfall;Behållarvolym;ÅRKV;660;0;12;;KÄ660RE13D2 Kärl 660 L, restavfall. Var 4:e vecka. 2 hh | KÄ660RE44SD4 Kärl 660 L, restavfall. 2ggr/vecka säsong. 4 hh | KÄ660RE52FV Kärl 660 L, restavfall. Varje vecka. Flerb.hus/Verksamheter | KÄ660RE156 Kärl 660 L, restavfall. 3ggr/ vecka | KÄ660RE104 Kärl 660 L, restavfall. 2ggr/ vecka
 ÅVC/verksamhetsavfall;Tegel;Vikt;VIKG;;1;0;6.1.2 Tegel;
 ÅVC/verksamhetsavfall;Tryckimpregnerat trä;Vikt;VIKG;;1;0;6.1.2 Tryckimpregnerat virke, pall;
 ÅVS;;;KVAN;;0;20;;ÅTÖMGF ÅVS tömning glasförpackningar, färgade | ÅBEHGF ÅVS behandling glasförpackningar, färgade | ÅTÖMGO ÅVS tömning glasförpackningar, ofärgade | ÅBEHGO ÅVS behandling glasförpackningar, ofärgade | ÅTÖMME ÅVS tömning metallförpackningar

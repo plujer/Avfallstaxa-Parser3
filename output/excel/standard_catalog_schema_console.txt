@@ -1,0 +1,9 @@
+Standard Catalog Scan klar
+Source: data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx
+Sheets: 3
+Sections: 3
+Estimated standard rows: 619
+Read standard rows: 510
+TXT: output\excel\standard_catalog_schema_report.txt
+CSV: output\excel\standard_catalog_schema.csv
+Normalized: output\excel\EDP_Standardtaxor_normalized.xlsx

@@ -1,0 +1,35 @@
+Standard Catalog Schema Report
+
+Status: Reverse engineering av standardtaxefilen.
+Originalfilen ändras inte.
+Source: data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx
+Sheets: 3
+Sections: 3
+Estimated standard rows: 619
+Warnings: 0
+
+Sheets:
+
+## Standard Avfall
+- Size: 474 rows x 11 columns
+- Sections: 1
+- Tables: 
+- Formulas: 0
+- Merged ranges: 0
+  - header row 1, rows 2-470, count 469, key columns: TaxaKod, Benämning, Faktor, Formel
+
+## Standard Slam
+- Size: 129 rows x 9 columns
+- Sections: 1
+- Tables: 
+- Formulas: 0
+- Merged ranges: 0
+  - header row 1, rows 2-121, count 120, key columns: TaxaKod, Benämning, Faktor, Formel
+
+## Standard ÅVS
+- Size: 31 rows x 40 columns
+- Sections: 1
+- Tables: 
+- Formulas: 0
+- Merged ranges: 0
+  - header row 1, rows 2-31, count 30, key columns: Taxekod, Taxebenamning, Faktor, Formel, TaxedelLayoutkod
