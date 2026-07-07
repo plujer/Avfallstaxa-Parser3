@@ -1,0 +1,8 @@
+Workbook Schema Scan klar
+Workbook: data\ArbetsExcel_Reference.xlsx
+Sheets: 32
+Defined names: 274
+Warnings: 0
+TXT: output\excel\workbook_schema_report.txt
+Sheets CSV: output\excel\workbook_schema_sheets.csv
+Headers CSV: output\excel\workbook_schema_header_candidates.csv

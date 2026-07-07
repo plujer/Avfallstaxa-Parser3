@@ -12,6 +12,10 @@ $manifest = "output\excel\excel_report_manifest.txt"
 $files = @(
     "output\diagnostics\test_cleanup_report.txt",
     "output\diagnostics\test_syntax_report.txt",
+    "output\excel\workbook_schema_report.txt",
+    "output\excel\workbook_schema_sheets.csv",
+    "output\excel\workbook_schema_header_candidates.csv",
+    "output\excel\workbook_schema_console.txt",
     "output\excel\ArbetsExcel_byggd_fran_parser.xlsx",
     "output\excel\master_rule_repository_report.txt",
     "output\excel\master_rule_repository.csv",
@@ -33,22 +37,6 @@ $files = @(
     "output\projects\Sorsele\manifest\project_run_manifest.json",
     "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx",
     "output\excel\sorsele_project_run_console.txt",
-    "output\excel\taxepunkter_row_plan_report.txt",
-    "output\excel\taxepunkter_row_plan.csv",
-    "output\excel\taxepunkter_row_plan_console.txt",
-    "output\excel\word_tax_coverage_report.txt",
-    "output\excel\word_tax_coverage_results.csv",
-    "output\excel\word_tax_coverage_console.txt",
-    "output\excel\excel_matching_results.csv",
-    "output\excel\excel_matching_report.txt",
-    "output\excel\excel_matching_console.txt",
-    "output\excel\arbets_excel_profile_report.txt",
-    "output\excel\arbets_excel_snapshot.txt",
-    "output\excel\edp_rulebook_report.txt",
-    "output\excel\edp_rulebook_console.txt",
-    "output\excel\excel_builder_report.txt",
-    "output\excel\excel_builder_console.txt",
-    "output\excel\excel_inspect_console.txt",
     "output\diagnostics\pytest_report.txt",
     "output\reports\parser3_result.json",
     "output\acceptance\parser3_acceptance_report.txt"
@@ -79,10 +67,8 @@ if ($existing.Count -eq 0) {
 }
 
 Compress-Archive -Path $existing -DestinationPath $zip -Force
-
 $archiveZip = "output\archive\ExcelBuilder_Run_$date.zip"
 Copy-Item $zip $archiveZip -Force
-
 Write-Host "ZIP skapad: $zip"
 Write-Host "Arkivkopia: $archiveZip"
 Write-Host "Manifest: $manifest"

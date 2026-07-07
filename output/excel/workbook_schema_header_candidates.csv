@@ -1,0 +1,487 @@
+﻿Sheet;Candidate row;Score;Non-empty count;Values
+Dashboard;3;0.125;2;Total intäkt (kr) | =SUM(Taxepunkter_Rådata!K:K)
+Dashboard;4;0.125;2;Antal taxerader (rådata) | =COUNTA(Taxepunkter_Rådata!A:A)-1
+Dashboard;5;0.125;2;"Saknade priser (tomma) | =COUNTIF(Taxepunkter_Rådata!J:J,"""")-1"
+Dashboard;6;0.125;2;"Andel ifyllda priser | =IF(B4=0,"""",1-(B5/B4))"
+Dashboard;7;0.125;2;"Rader med Antal > 0 men saknar pris | =COUNTIFS(Taxepunkter_Rådata!I:I,"">0"",Taxepunkter_Rådata!J:J,"""")"
+Dashboard;9;0.125;2;"Datakontroll | =IF(Kontroller!C5=""OK"",""OK"",""VARNING"")"
+Taxepunkter;5;0.925;14;Paragraf | Paragrafnamn | Taxapunkt | Variant | Enhet | Taxakod | Föreslagen Taxa | Taxabeskrivning | Faktor | Aktuellt pris (exkl m) | Föreslaget pris | Antal | Pris kr (inkl.) | Intäkt (kr) exkl
+Taxepunkter;10;0.3367;11;"§2.1 | Grundavgift | Lägenhet i flerbostadshus | st/år | GRUNDFLB | =IF($F10<>"""",$F10,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F10<>"""",IFERROR(_xlfn.XLOOKUP($F10,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F10<>"""",IFERROR(_xlfn.XLOOKUP($F10,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F10<>"""",IFERROR(_xlfn.XLOOKUP($F10,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;11;0.3233;10;"§2.1 | Grundavgift | Lägenhet för specialändamål | st/år | =IF($F11<>"""",$F11,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F11<>"""",IFERROR(_xlfn.XLOOKUP($F11,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F11<>"""",IFERROR(_xlfn.XLOOKUP($F11,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F11<>"""",IFERROR(_xlfn.XLOOKUP($F11,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;14;0.3233;10;"§2.1 | Grundavgift | Campingstuga/-lägenhet | st/år | =IF($F14<>"""",$F14,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F14<>"""",IFERROR(_xlfn.XLOOKUP($F14,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F14<>"""",IFERROR(_xlfn.XLOOKUP($F14,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F14<>"""",IFERROR(_xlfn.XLOOKUP($F14,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;18;0.2417;12;"§2.2.1 | Hämtningsavgift per år för en- och tvåbostadshus | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26 | =IF($F18<>"""",$F18,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F18<>"""",IFERROR(_xlfn.XLOOKUP($F18,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F18<>"""",IFERROR(_xlfn.XLOOKUP($F18,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F18<>"""",IFERROR(_xlfn.XLOOKUP($F18,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;20;0.2417;12;"§2.2.1 | Hämtningsavgift per år för en- och tvåbostadshus | Extrakärl 190 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ190XRM26 | =IF($F20<>"""",$F20,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F20<>"""",IFERROR(_xlfn.XLOOKUP($F20,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F20<>"""",IFERROR(_xlfn.XLOOKUP($F20,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F20<>"""",IFERROR(_xlfn.XLOOKUP($F20,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;25;0.2417;12;"§2.2.2 | Hämtningsavgift per år för fritidshus | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26FRI | =IF($F25<>"""",$F25,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F25<>"""",IFERROR(_xlfn.XLOOKUP($F25,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F25<>"""",IFERROR(_xlfn.XLOOKUP($F25,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F25<>"""",IFERROR(_xlfn.XLOOKUP($F25,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;7;0.2284;11;"§2.1 | Grundavgift | En- och tvåbostadshus | st/år | GRUNDSMÅ | =IF($F7<>"""",$F7,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F7<>"""",IFERROR(_xlfn.XLOOKUP($F7,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F7<>"""",IFERROR(_xlfn.XLOOKUP($F7,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F7<>"""",IFERROR(_xlfn.XLOOKUP($F7,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;8;0.2284;11;"§2.1 | Grundavgift | Fritidshus | st/år | GRUNDFRI | =IF($F8<>"""",$F8,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F8<>"""",IFERROR(_xlfn.XLOOKUP($F8,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F8<>"""",IFERROR(_xlfn.XLOOKUP($F8,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F8<>"""",IFERROR(_xlfn.XLOOKUP($F8,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;9;0.2284;11;"§2.1 | Grundavgift | Verksamhet | st/år | GRUNDVHT | =IF($F9<>"""",$F9,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F9<>"""",IFERROR(_xlfn.XLOOKUP($F9,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F9<>"""",IFERROR(_xlfn.XLOOKUP($F9,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F9<>"""",IFERROR(_xlfn.XLOOKUP($F9,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;19;0.2284;11;"§2.2.1 | Hämtningsavgift per år för en- och tvåbostadshus | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | st/år | =IF($F19<>"""",$F19,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F19<>"""",IFERROR(_xlfn.XLOOKUP($F19,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F19<>"""",IFERROR(_xlfn.XLOOKUP($F19,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F19<>"""",IFERROR(_xlfn.XLOOKUP($F19,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;21;0.2284;11;"§2.2.1 | Hämtningsavgift per år för en- och tvåbostadshus | Extrakärl 190 l (restavfall) | Hämtning månadsvis | st/år | =IF($F21<>"""",$F21,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F21<>"""",IFERROR(_xlfn.XLOOKUP($F21,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F21<>"""",IFERROR(_xlfn.XLOOKUP($F21,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F21<>"""",IFERROR(_xlfn.XLOOKUP($F21,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;26;0.2284;11;"§2.2.2 | Hämtningsavgift per år för fritidshus | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | st/år | =IF($F26<>"""",$F26,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F26<>"""",IFERROR(_xlfn.XLOOKUP($F26,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F26<>"""",IFERROR(_xlfn.XLOOKUP($F26,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F26<>"""",IFERROR(_xlfn.XLOOKUP($F26,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;27;0.2284;11;"§2.2.2 | Hämtningsavgift per år för fritidshus | Extrakärl 190 l (restavfall) | Hämtning var 14:e dag | st/år | =IF($F27<>"""",$F27,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F27<>"""",IFERROR(_xlfn.XLOOKUP($F27,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F27<>"""",IFERROR(_xlfn.XLOOKUP($F27,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F27<>"""",IFERROR(_xlfn.XLOOKUP($F27,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;29;0.2284;11;"§2.2.2 | Hämtningsavgift per år för fritidshus | Kärl 370 l (papper-/plastförpackningar) | Kostnadsfritt | st/år | =IF($F29<>"""",$F29,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F29<>"""",IFERROR(_xlfn.XLOOKUP($F29,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F29<>"""",IFERROR(_xlfn.XLOOKUP($F29,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F29<>"""",IFERROR(_xlfn.XLOOKUP($F29,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;12;0.215;10;"§2.1 | Grundavgift | Anläggning | st/år | =IF($F12<>"""",$F12,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F12<>"""",IFERROR(_xlfn.XLOOKUP($F12,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F12<>"""",IFERROR(_xlfn.XLOOKUP($F12,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F12<>"""",IFERROR(_xlfn.XLOOKUP($F12,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;13;0.215;10;"§2.1 | Grundavgift | Säsongsbaserad uppställningsplats | st/år | =IF($F13<>"""",$F13,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F13<>"""",IFERROR(_xlfn.XLOOKUP($F13,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F13<>"""",IFERROR(_xlfn.XLOOKUP($F13,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F13<>"""",IFERROR(_xlfn.XLOOKUP($F13,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;15;0.215;10;"§2.1 | Grundavgift | Administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar | st/år | =IF($F15<>"""",$F15,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F15<>"""",IFERROR(_xlfn.XLOOKUP($F15,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F15<>"""",IFERROR(_xlfn.XLOOKUP($F15,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F15<>"""",IFERROR(_xlfn.XLOOKUP($F15,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;17;0.1875;7;"§2.2.1 Hämtningsavgift per år för en- och tvåbostadshus | =IF($F17<>"""",$F17,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F17<>"""",IFERROR(_xlfn.XLOOKUP($F17,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F17<>"""",IFERROR(_xlfn.XLOOKUP($F17,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F17<>"""",IFERROR(_xlfn.XLOOKUP($F17,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;24;0.1875;7;"§2.2.2 Hämtningsavgift per år för fritidshus | =IF($F24<>"""",$F24,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F24<>"""",IFERROR(_xlfn.XLOOKUP($F24,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F24<>"""",IFERROR(_xlfn.XLOOKUP($F24,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F24<>"""",IFERROR(_xlfn.XLOOKUP($F24,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;16;0.1732;7;"§2.1 | =IF($F16<>"""",$F16,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F16<>"""",IFERROR(_xlfn.XLOOKUP($F16,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F16<>"""",IFERROR(_xlfn.XLOOKUP($F16,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F16<>"""",IFERROR(_xlfn.XLOOKUP($F16,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;23;0.1732;7;"§2.2.1 | =IF($F23<>"""",$F23,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F23<>"""",IFERROR(_xlfn.XLOOKUP($F23,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F23<>"""",IFERROR(_xlfn.XLOOKUP($F23,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F23<>"""",IFERROR(_xlfn.XLOOKUP($F23,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;30;0.1732;7;"§2.2.2 | =IF($F30<>"""",$F30,IFERROR(_xlfn.XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | =IF($F30<>"""",IFERROR(_xlfn.XLOOKUP($F30,Taxa_från_edp!$B:$B,Taxa_från_edp!C:C),""""),"""") | =IF($F30<>"""",IFERROR(_xlfn.XLOOKUP($F30,Taxa_från_edp!$B:$B,Taxa_från_edp!G:G),""""),"""") | =IF($F30<>"""",IFERROR(_xlfn.XLOOKUP($F30,Taxa_från_edp!$B:$B,Taxa_från_edp!K:K),""""),"""")"
+Taxepunkter;22;0.1042;3;§2.2.1
+Taxepunkter;28;0.1042;3;§2.2.2
+Taxepunkter_Rådata;1;0.9;12;Paragraf | Paragrafnamn | Taxapunkt | Variant | Enhet | Taxakod | Taxabeskrivning | Faktor | Aktuellt pris (exkl m) | Antal | Pris (kr) | Intäkt (kr)
+Taxepunkter_Rådata;2;0.25;12;=Taxepunkter!A7 | =Taxepunkter!B7 | =Taxepunkter!C7 | =Taxepunkter!D7 | =Taxepunkter!E7 | =Taxepunkter!F7 | =Taxepunkter!G7 | =Taxepunkter!H7 | =Taxepunkter!I7 | =Taxepunkter!J7 | =Taxepunkter!K7 | =Taxepunkter!L7
+Taxepunkter_Rådata;3;0.25;12;=Taxepunkter!A8 | =Taxepunkter!B8 | =Taxepunkter!C8 | =Taxepunkter!D8 | =Taxepunkter!E8 | =Taxepunkter!F8 | =Taxepunkter!G8 | =Taxepunkter!H8 | =Taxepunkter!I8 | =Taxepunkter!J8 | =Taxepunkter!K8 | =Taxepunkter!L8
+Taxepunkter_Rådata;4;0.25;12;=Taxepunkter!A9 | =Taxepunkter!B9 | =Taxepunkter!C9 | =Taxepunkter!D9 | =Taxepunkter!E9 | =Taxepunkter!F9 | =Taxepunkter!G9 | =Taxepunkter!H9 | =Taxepunkter!I9 | =Taxepunkter!J9 | =Taxepunkter!K9 | =Taxepunkter!L9
+Taxepunkter_Rådata;5;0.25;12;=Taxepunkter!A10 | =Taxepunkter!B10 | =Taxepunkter!C10 | =Taxepunkter!D10 | =Taxepunkter!E10 | =Taxepunkter!F10 | =Taxepunkter!G10 | =Taxepunkter!H10 | =Taxepunkter!I10 | =Taxepunkter!J10 | =Taxepunkter!K10 | =Taxepunkter!L10
+Taxepunkter_Rådata;6;0.25;12;=Taxepunkter!A11 | =Taxepunkter!B11 | =Taxepunkter!C11 | =Taxepunkter!D11 | =Taxepunkter!E11 | =Taxepunkter!F11 | =Taxepunkter!G11 | =Taxepunkter!H11 | =Taxepunkter!I11 | =Taxepunkter!J11 | =Taxepunkter!K11 | =Taxepunkter!L11
+Taxepunkter_Rådata;7;0.25;12;=Taxepunkter!A12 | =Taxepunkter!B12 | =Taxepunkter!C12 | =Taxepunkter!D12 | =Taxepunkter!E12 | =Taxepunkter!F12 | =Taxepunkter!G12 | =Taxepunkter!H12 | =Taxepunkter!I12 | =Taxepunkter!J12 | =Taxepunkter!K12 | =Taxepunkter!L12
+Taxepunkter_Rådata;8;0.25;12;=Taxepunkter!A13 | =Taxepunkter!B13 | =Taxepunkter!C13 | =Taxepunkter!D13 | =Taxepunkter!E13 | =Taxepunkter!F13 | =Taxepunkter!G13 | =Taxepunkter!H13 | =Taxepunkter!I13 | =Taxepunkter!J13 | =Taxepunkter!K13 | =Taxepunkter!L13
+Taxepunkter_Rådata;9;0.25;12;=Taxepunkter!A14 | =Taxepunkter!B14 | =Taxepunkter!C14 | =Taxepunkter!D14 | =Taxepunkter!E14 | =Taxepunkter!F14 | =Taxepunkter!G14 | =Taxepunkter!H14 | =Taxepunkter!I14 | =Taxepunkter!J14 | =Taxepunkter!K14 | =Taxepunkter!L14
+Taxepunkter_Rådata;10;0.25;12;=Taxepunkter!A15 | =Taxepunkter!B15 | =Taxepunkter!C15 | =Taxepunkter!D15 | =Taxepunkter!E15 | =Taxepunkter!F15 | =Taxepunkter!G15 | =Taxepunkter!H15 | =Taxepunkter!I15 | =Taxepunkter!J15 | =Taxepunkter!K15 | =Taxepunkter!L15
+Taxepunkter_Rådata;11;0.25;12;=Taxepunkter!A17 | =Taxepunkter!B17 | =Taxepunkter!C17 | =Taxepunkter!D17 | =Taxepunkter!E17 | =Taxepunkter!F17 | =Taxepunkter!G17 | =Taxepunkter!H17 | =Taxepunkter!I17 | =Taxepunkter!J17 | =Taxepunkter!K17 | =Taxepunkter!L17
+Taxepunkter_Rådata;12;0.25;12;=Taxepunkter!A18 | =Taxepunkter!B18 | =Taxepunkter!C18 | =Taxepunkter!D18 | =Taxepunkter!E18 | =Taxepunkter!F18 | =Taxepunkter!G18 | =Taxepunkter!H18 | =Taxepunkter!I18 | =Taxepunkter!J18 | =Taxepunkter!K18 | =Taxepunkter!L18
+Taxepunkter_Rådata;13;0.25;12;=Taxepunkter!A20 | =Taxepunkter!B20 | =Taxepunkter!C20 | =Taxepunkter!D20 | =Taxepunkter!E20 | =Taxepunkter!F20 | =Taxepunkter!G20 | =Taxepunkter!H20 | =Taxepunkter!I20 | =Taxepunkter!J20 | =Taxepunkter!K20 | =Taxepunkter!L20
+Taxepunkter_Rådata;14;0.25;12;=Taxepunkter!A21 | =Taxepunkter!B21 | =Taxepunkter!C21 | =Taxepunkter!D21 | =Taxepunkter!E21 | =Taxepunkter!F21 | =Taxepunkter!G21 | =Taxepunkter!H21 | =Taxepunkter!I21 | =Taxepunkter!J21 | =Taxepunkter!K21 | =Taxepunkter!L21
+Taxepunkter_Rådata;15;0.25;12;=Taxepunkter!A23 | =Taxepunkter!B23 | =Taxepunkter!C23 | =Taxepunkter!D23 | =Taxepunkter!E23 | =Taxepunkter!F23 | =Taxepunkter!G23 | =Taxepunkter!H23 | =Taxepunkter!I23 | =Taxepunkter!J23 | =Taxepunkter!K23 | =Taxepunkter!L23
+Taxepunkter_Rådata;16;0.25;12;=Taxepunkter!A24 | =Taxepunkter!B24 | =Taxepunkter!C24 | =Taxepunkter!D24 | =Taxepunkter!E24 | =Taxepunkter!F24 | =Taxepunkter!G24 | =Taxepunkter!H24 | =Taxepunkter!I24 | =Taxepunkter!J24 | =Taxepunkter!K24 | =Taxepunkter!L24
+Taxepunkter_Rådata;17;0.25;12;=Taxepunkter!A25 | =Taxepunkter!B25 | =Taxepunkter!C25 | =Taxepunkter!D25 | =Taxepunkter!E25 | =Taxepunkter!F25 | =Taxepunkter!G25 | =Taxepunkter!H25 | =Taxepunkter!I25 | =Taxepunkter!J25 | =Taxepunkter!K25 | =Taxepunkter!L25
+Taxepunkter_Rådata;18;0.25;12;=Taxepunkter!A26 | =Taxepunkter!B26 | =Taxepunkter!C26 | =Taxepunkter!D26 | =Taxepunkter!E26 | =Taxepunkter!F26 | =Taxepunkter!G26 | =Taxepunkter!H26 | =Taxepunkter!I26 | =Taxepunkter!J26 | =Taxepunkter!K26 | =Taxepunkter!L26
+Taxepunkter_Rådata;19;0.25;12;=Taxepunkter!A27 | =Taxepunkter!B27 | =Taxepunkter!C27 | =Taxepunkter!D27 | =Taxepunkter!E27 | =Taxepunkter!F27 | =Taxepunkter!G27 | =Taxepunkter!H27 | =Taxepunkter!I27 | =Taxepunkter!J27 | =Taxepunkter!K27 | =Taxepunkter!L27
+Taxepunkter_Rådata;20;0.25;12;=Taxepunkter!A29 | =Taxepunkter!B29 | =Taxepunkter!C29 | =Taxepunkter!D29 | =Taxepunkter!E29 | =Taxepunkter!F29 | =Taxepunkter!G29 | =Taxepunkter!H29 | =Taxepunkter!I29 | =Taxepunkter!J29 | =Taxepunkter!K29 | =Taxepunkter!L29
+Taxepunkter_Rådata;21;0.25;12;=Taxepunkter!A30 | =Taxepunkter!B30 | =Taxepunkter!C30 | =Taxepunkter!D30 | =Taxepunkter!E30 | =Taxepunkter!F30 | =Taxepunkter!G30 | =Taxepunkter!H30 | =Taxepunkter!I30 | =Taxepunkter!J30 | =Taxepunkter!K30 | =Taxepunkter!L30
+Taxepunkter_Rådata;22;0.25;12;=Taxepunkter!A31 | =Taxepunkter!B31 | =Taxepunkter!C31 | =Taxepunkter!D31 | =Taxepunkter!E31 | =Taxepunkter!F31 | =Taxepunkter!G31 | =Taxepunkter!H31 | =Taxepunkter!I31 | =Taxepunkter!J31 | =Taxepunkter!K31 | =Taxepunkter!L31
+Taxepunkter_Rådata;23;0.25;12;=Taxepunkter!A32 | =Taxepunkter!B32 | =Taxepunkter!C32 | =Taxepunkter!D32 | =Taxepunkter!E32 | =Taxepunkter!F32 | =Taxepunkter!G32 | =Taxepunkter!H32 | =Taxepunkter!I32 | =Taxepunkter!J32 | =Taxepunkter!K32 | =Taxepunkter!L32
+Taxepunkter_Rådata;24;0.25;12;=Taxepunkter!A33 | =Taxepunkter!B33 | =Taxepunkter!C33 | =Taxepunkter!D33 | =Taxepunkter!E33 | =Taxepunkter!F33 | =Taxepunkter!G33 | =Taxepunkter!H33 | =Taxepunkter!I33 | =Taxepunkter!J33 | =Taxepunkter!K33 | =Taxepunkter!L33
+Taxepunkter_Rådata;25;0.25;12;=Taxepunkter!A34 | =Taxepunkter!B34 | =Taxepunkter!C34 | =Taxepunkter!D34 | =Taxepunkter!E34 | =Taxepunkter!F34 | =Taxepunkter!G34 | =Taxepunkter!H34 | =Taxepunkter!I34 | =Taxepunkter!J34 | =Taxepunkter!K34 | =Taxepunkter!L34
+Taxepunkter_Rådata;26;0.25;12;=Taxepunkter!A35 | =Taxepunkter!B35 | =Taxepunkter!C35 | =Taxepunkter!D35 | =Taxepunkter!E35 | =Taxepunkter!F35 | =Taxepunkter!G35 | =Taxepunkter!H35 | =Taxepunkter!I35 | =Taxepunkter!J35 | =Taxepunkter!K35 | =Taxepunkter!L35
+Taxepunkter_Rådata;27;0.25;12;=Taxepunkter!A36 | =Taxepunkter!B36 | =Taxepunkter!C36 | =Taxepunkter!D36 | =Taxepunkter!E36 | =Taxepunkter!F36 | =Taxepunkter!G36 | =Taxepunkter!H36 | =Taxepunkter!I36 | =Taxepunkter!J36 | =Taxepunkter!K36 | =Taxepunkter!L36
+Taxepunkter_Rådata;28;0.25;12;=Taxepunkter!A37 | =Taxepunkter!B37 | =Taxepunkter!C37 | =Taxepunkter!D37 | =Taxepunkter!E37 | =Taxepunkter!F37 | =Taxepunkter!G37 | =Taxepunkter!H37 | =Taxepunkter!I37 | =Taxepunkter!J37 | =Taxepunkter!K37 | =Taxepunkter!L37
+Taxepunkter_Rådata;29;0.25;12;=Taxepunkter!A38 | =Taxepunkter!B38 | =Taxepunkter!C38 | =Taxepunkter!D38 | =Taxepunkter!E38 | =Taxepunkter!F38 | =Taxepunkter!G38 | =Taxepunkter!H38 | =Taxepunkter!I38 | =Taxepunkter!J38 | =Taxepunkter!K38 | =Taxepunkter!L38
+Taxepunkter_Rådata;30;0.25;12;=Taxepunkter!A39 | =Taxepunkter!B39 | =Taxepunkter!C39 | =Taxepunkter!D39 | =Taxepunkter!E39 | =Taxepunkter!F39 | =Taxepunkter!G39 | =Taxepunkter!H39 | =Taxepunkter!I39 | =Taxepunkter!J39 | =Taxepunkter!K39 | =Taxepunkter!L39
+Pivot Variant;3;0.3542;3;Paragraf | Variant | Total intäkt (kr)
+Pivot Variant;4;0.2125;3;"§2.2.4 | Hämtning Avgift per lägenhet | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.4"",Taxepunkter_Rådata!D:D,""Hämtning Avgift per lägenhet"")"
+Pivot Variant;5;0.1042;3;"§2.2.4 | Hämtning Avgift per tömning | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.4"",Taxepunkter_Rådata!D:D,""Hämtning Avgift per tömning"")"
+Pivot Variant;6;0.1042;3;"§2.2.4 | Hämtning månadsvis | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.4"",Taxepunkter_Rådata!D:D,""Hämtning månadsvis"")"
+Pivot Variant;7;0.1042;3;"§2.2.4 | Hämtning var 14:e dag | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.4"",Taxepunkter_Rådata!D:D,""Hämtning var 14:e dag"")"
+Pivot Variant;8;0.1042;3;"§2.2.4 | Hämtning varje vecka | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.4"",Taxepunkter_Rådata!D:D,""Hämtning varje vecka"")"
+Pivot Variant;9;0.1042;3;"§2.2.5 | Hämtning Avgift per tömning | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.5"",Taxepunkter_Rådata!D:D,""Hämtning Avgift per tömning"")"
+Pivot Variant;10;0.1042;3;"§2.2.5 | Hämtning månadsvis | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.5"",Taxepunkter_Rådata!D:D,""Hämtning månadsvis"")"
+Pivot Variant;11;0.1042;3;"§2.2.5 | Hämtning var 14:e dag | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.5"",Taxepunkter_Rådata!D:D,""Hämtning var 14:e dag"")"
+Pivot Variant;12;0.1042;3;"§2.2.5 | Hämtning varje vecka | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.5"",Taxepunkter_Rådata!D:D,""Hämtning varje vecka"")"
+Pivot Variant;13;0.1042;3;"§2.6.2 | Över 100 kg | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.2"",Taxepunkter_Rådata!D:D,""Över 100 kg"")"
+Pivot Variant;14;0.1042;3;"§2.6.2 | Över 40 kg | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.2"",Taxepunkter_Rådata!D:D,""Över 40 kg"")"
+Pivot Variant;15;0.1042;3;"§2.6.2 | Över 60 kg | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.2"",Taxepunkter_Rådata!D:D,""Över 60 kg"")"
+Pivot Variant;16;0.1042;3;"§2.6.5 | 140–240 liter | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.5"",Taxepunkter_Rådata!D:D,""140–240 liter"")"
+Pivot Variant;17;0.1042;3;"§2.6.5 | 370–660 liter | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.5"",Taxepunkter_Rådata!D:D,""370–660 liter"")"
+Pivot Variant;21;0.1042;3;"§3.3 | Inom 24 timmar | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§3.3"",Taxepunkter_Rådata!D:D,""Inom 24 timmar"")"
+Pivot Variant;22;0.1042;3;"§3.3 | Inom 7 arbetsdagar | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§3.3"",Taxepunkter_Rådata!D:D,""Inom 7 arbetsdagar"")"
+Pivot Variant;23;0.1042;3;"§4.1 | Inom 7 arbetsdagar | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§4.1"",Taxepunkter_Rådata!D:D,""Inom 7 arbetsdagar"")"
+Pivot Variant;24;0.1042;3;"§4.3 | Inom 24 timmar | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§4.3"",Taxepunkter_Rådata!D:D,""Inom 24 timmar"")"
+Pivot Variant;25;0.1042;3;"§4.3 | Inom 7 arbetsdagar | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§4.3"",Taxepunkter_Rådata!D:D,""Inom 7 arbetsdagar"")"
+Pivot Variant;26;0.1042;3;"§5.3 | Inom 24 timmar | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§5.3"",Taxepunkter_Rådata!D:D,""Inom 24 timmar"")"
+Pivot Variant;27;0.1042;3;"§5.3 | Inom 7 arbetsdagar | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§5.3"",Taxepunkter_Rådata!D:D,""Inom 7 arbetsdagar"")"
+Pivot Variant;18;0.0708;3;"§2.6.7 | 1,5-10 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.7"",Taxepunkter_Rådata!D:D,""1,5-10"")"
+Pivot Variant;19;0.0708;3;"§2.6.7 | 10-20 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.7"",Taxepunkter_Rådata!D:D,""10-20"")"
+Pivot Variant;20;0.0708;3;"§2.6.7 | 20-30 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.7"",Taxepunkter_Rådata!D:D,""20-30"")"
+Pivot Variant;28;0.0708;3;"§6 | 1009 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§6"",Taxepunkter_Rådata!D:D,""1009"")"
+Pivot Variant;29;0.0708;3;"§6 | 1013 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§6"",Taxepunkter_Rådata!D:D,""1013"")"
+Pivot Variant;30;0.0708;3;"§6 | 1043 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§6"",Taxepunkter_Rådata!D:D,""1043"")"
+Pivot Paragraf;3;0.2333;2;Paragraf | Total intäkt (kr)
+Pivot Paragraf;4;0.075;2;"§2.1 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.1"")"
+Pivot Paragraf;5;0.075;2;"§2.2.1 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.1"")"
+Pivot Paragraf;6;0.075;2;"§2.2.2 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.2"")"
+Pivot Paragraf;7;0.075;2;"§2.2.3 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.3"")"
+Pivot Paragraf;8;0.075;2;"§2.2.4 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.4"")"
+Pivot Paragraf;9;0.075;2;"§2.2.5 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.2.5"")"
+Pivot Paragraf;10;0.075;2;"§2.3 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.3"")"
+Pivot Paragraf;11;0.075;2;"§2.4 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.4"")"
+Pivot Paragraf;12;0.075;2;"§2.5 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.5"")"
+Pivot Paragraf;13;0.075;2;"§2.6.1 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.1"")"
+Pivot Paragraf;14;0.075;2;"§2.6.2 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.2"")"
+Pivot Paragraf;15;0.075;2;"§2.6.3 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.3"")"
+Pivot Paragraf;16;0.075;2;"§2.6.4 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.4"")"
+Pivot Paragraf;17;0.075;2;"§2.6.5 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.5"")"
+Pivot Paragraf;18;0.075;2;"§2.6.6 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.6"")"
+Pivot Paragraf;19;0.075;2;"§2.6.7 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.7"")"
+Pivot Paragraf;20;0.075;2;"§2.6.8 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.8"")"
+Pivot Paragraf;21;0.075;2;"§2.6.9 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.6.9"")"
+Pivot Paragraf;22;0.075;2;"§2.7.1 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.7.1"")"
+Pivot Paragraf;23;0.075;2;"§2.7.2 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.7.2"")"
+Pivot Paragraf;24;0.075;2;"§2.7.3 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.7.3"")"
+Pivot Paragraf;25;0.075;2;"§2.7.4 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2.7.4"")"
+Pivot Paragraf;26;0.075;2;"§3.1 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§3.1"")"
+Pivot Paragraf;27;0.075;2;"§3.2 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§3.2"")"
+Pivot Paragraf;28;0.075;2;"§3.3 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§3.3"")"
+Pivot Paragraf;29;0.075;2;"§4.1 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§4.1"")"
+Pivot Paragraf;30;0.075;2;"§4.2 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§4.2"")"
+Pivot Kapitel;3;0.125;2;Kapitel | Total intäkt (kr)
+Pivot Kapitel;4;0.075;2;"2 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§2*"")"
+Pivot Kapitel;5;0.075;2;"3 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§3*"")"
+Pivot Kapitel;6;0.075;2;"4 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§4*"")"
+Pivot Kapitel;7;0.075;2;"5 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§5*"")"
+Pivot Kapitel;8;0.075;2;"6 | =SUMIFS(Taxepunkter_Rådata!K:K,Taxepunkter_Rådata!A:A,""§6*"")"
+Kontroller;3;0.1375;3;Kontroll | Resultat | Status
+Kontroller;4;0.1375;3;"Antal rader (rådata) | =COUNTA(Taxepunkter_Rådata!A:A)-1 | =IF(B4>0,""OK"",""VARNING"")"
+Kontroller;5;0.1375;3;"Saknade priser (tomma) | =COUNTIF(Taxepunkter_Rådata!J:J,"""")-1 | =IF(B5=0,""OK"",""VARNING"")"
+Kontroller;6;0.1375;3;"Andel rader med ifyllt pris | =IF(B4=0,"""",1-(B5/B4)) | =IF(B6=1,""OK"",""VARNING"")"
+Kontroller;7;0.1375;3;"Rader med Antal > 0 men saknar pris | =COUNTIFS(Taxepunkter_Rådata!I:I,"">0"",Taxepunkter_Rådata!J:J,"""") | =IF(B7=0,""OK"",""VARNING"")"
+Kontroller;8;0.1375;3;"Rader med Pris ifyllt men Antal saknas | =COUNTIFS(Taxepunkter_Rådata!J:J,""<>"",Taxepunkter_Rådata!I:I,"""") | =IF(B8=0,""OK"",""VARNING"")"
+Taxa_från_edp;1;0.8542;17;intRecnum | strTaxekod | strTaxebenamning | strProdukt | strDelProdukt | bytDelradnr | strFaktor | strTaxedelAvser | strEntreprenorkod | strRenhDistrKod | curNuvarandePris | datNuvarandePrisDatum | bolPrisPerTomning | strAvvikandeFormel | bolPriserInklMoms | bytMomskod | strFormel
+Taxa_från_edp;2;0.225;14;1689 | 140MAT | 140L kärl, viktavgift matavfall | RENH | HUSH | 1 | KVAN | 140L kärl - viktavgift matavfall | 2 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;3;0.225;14;1690 | 140MAT | 140L kärl, viktavgift matavfall | RENH | HUSH | 2 | KVAN | Överviktsavgift för vikt över 60 kg, matavfall | 3.68 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;4;0.225;14;1693 | 370REST | 140-370L kärl, viktavgift restavfall | RENH | HUSH | 1 | KVAN | 140-370L kärl - viktavgift restavfall | 4 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;5;0.225;14;1694 | 370REST | 140-370L kärl, viktavgift restavfall | RENH | HUSH | 2 | KVAN | Överviktsavgift för vikt över 60 kg, restavfall | 7.36 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;6;0.225;14;1695 | 660REST | 660L kärl, viktavgift restavfall | RENH | HUSH | 1 | KVAN | 660L kärl - viktavgift restavfall | 4 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;7;0.225;14;1696 | 660REST | 660L kärl, viktavgift restavfall | RENH | HUSH | 2 | KVAN | Överviktsavgift för vikt över 100 kg, restavfall | 7.36 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;12;0.225;14;1613 | BRN03SLBUD | Brunn 0-3 m³, slam. Budning | RENH | SLAM | 1 | ÅRKV | Brunn 0-3 m³, slam. Budning | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;8;0.2179;14;1626 | BDT03SLBUD | BDT 0-3 m³, slam. Budning | RENH | SLAM | 1 | ÅRKV | BDT 0-3 m³, slam. Budning | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;9;0.2179;14;1610 | BDT03SLORD | BDT 0-3 m³, slam. Ordinarie tur | RENH | SLAM | 1 | ÅRKV | BDT 0-3 m³, slam. Ordinarie tur | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;10;0.2179;14;1625 | BDTÖ3SLBUD | BDT över 3 m³, slam. Budning | RENH | SLAM | 1 | ÅRKV | BDT över 3 m³, slam. Budning | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;11;0.2179;14;1611 | BDTÖ3SLORD | BDT över 3 m³, slam. Ordinarie tur | RENH | SLAM | 1 | ÅRKV | BDT över 3 m³, slam. Ordinarie tur | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;13;0.2179;14;1598 | BRN03SLORD | Brunn 0-3 m³, slam. Ordinarie tur | RENH | SLAM | 1 | ÅRKV | Brunn 0-3 m³, slam. Ordinarie tur | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;14;0.2179;14;1937 | BRN03SLORDDEL | Brunn 0-3 m³, slam. Ordinarie tur | RENH | SLAM | 1 | ÅRKV | Brunn 0-3 m³, slam. Ordinarie tur | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;15;0.2179;14;1614 | BRN36SLBUD | Brunn 3,1-6 m³, slam. Budning | RENH | SLAM | 1 | ÅRKV | Brunn 3,1-6 m³, slam. Budning | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;16;0.2179;14;1599 | BRN36SLORD | Brunn 3,1-6 m³, slam. Ordinarie tur | RENH | SLAM | 1 | ÅRKV | Brunn 3,1-6 m³, slam. Ordinarie tur | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;17;0.2179;14;1941 | BRN36SLORDDEL | Brunn 3-6 m³, slam. Ordinarie tur | RENH | SLAM | 1 | ÅRKV | Brunn 0-3 m³, slam. Ordinarie tur | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;18;0.2179;14;1615 | BRN69SLBUD | Brunn 6,1-9 m³, slam. Budning | RENH | SLAM | 1 | ÅRKV | Brunn 6,1-9 m³, slam. Budning | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;19;0.2179;14;1600 | BRN69SLORD | Brunn 6,1-9 m³, slam. Ordinarie tur | RENH | SLAM | 1 | ÅRKV | Brunn 6,1-9 m³, slam. Ordinarie tur | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;20;0.2179;14;1616 | BRNÖ9SLBUD | Brunn över 9 m³, slam. Budning | RENH | SLAM | 1 | ÅRKV | Brunn över 9 m³, slam. Budning | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;21;0.2179;14;1601 | BRNÖ9SLORD | Brunn över 9 m³, slam. Ordinarie tur | RENH | SLAM | 1 | ÅRKV | Brunn över 9 m³, slam. Ordinarie tur | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;22;0.2179;14;1780 | CONTAINERMA | Tjänsttaxa container för matavfall | RENH | HUSH | 1 | ÅRKV | Tjänsttaxa container för matavfall | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;23;0.2179;14;1779 | CONTAINERRE | Tjänsttaxa container för restavfall | RENH | HUSH | 1 | ÅRKV | Tjänsttaxa container för restavfall | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;24;0.2179;14;1969 | Dummy SMS | Dummy SMS | RENH | SLAM | 1 | ÅRKV | Brunn 0-3 m³, slam. Ordinarie tur | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;25;0.2179;14;1774 | EVENEMANG | Tjänsttaxa för tillfälliga evenemangskärl | RENH | HUSH | 1 | ÅRKV | Tjänsttaxa för tillfälliga evenemangskärl | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;26;0.2179;14;1744 | FARLIGTAVFALL | Tjänsttaxa för farligt avfall | RENH | HUSH | 1 | ÅRKV | Tjänsttaxa för farligt avfall | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;27;0.2179;14;1627 | FOSFORBUD | Fosforfälla. Budning | RENH | SLAM | 1 | ÅRKV | Fosforfälla. Budning | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;28;0.2179;14;1612 | FOSFORORD | Fosforfälla. Ordinarie tur | RENH | SLAM | 1 | ÅRKV | Fosforfälla. Ordinarie tur | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;29;0.2179;14;1743 | GROVAVFALL | Tjänsttaxa för grovavfall | RENH | HUSH | 1 | ÅRKV | Tjänsttaxa för grovavfall | 0 | 2023-01-01 00:00:00 | 0
+Taxa_från_edp;30;0.2179;14;1791 | KOMMUNALT | Tjänsttaxa kommunalt avfall | RENH | HUSH | 1 | ÅRKV | Tjänsttaxa kommunalt avfall | 0 | 2023-01-01 00:00:00 | 0
+Taxa_till_edp;1;0.8542;17;intRecnum | strTaxekod | strTaxebenamning | strProdukt | strDelProdukt | bytDelradnr | strFaktor | strTaxedelAvser | strEntreprenorkod | strRenhDistrKod | curNuvarandePris | datNuvarandePrisDatum | bolPrisPerTomning | strAvvikandeFormel | bolPriserInklMoms | bytMomskod | strFormel
+Sammanställning;3;0.3542;3;Paragraf | Paragrafnamn | Total intäkt (kr)
+Sammanställning;4;0.1042;3;"§2.1 | Grundavgift | =SUMIF(Taxepunkter!A:A,""§2.1"",Taxepunkter!I:I)"
+Sammanställning;5;0.1042;3;"§2.2.1 | Hämtningsavgift per år för en- och tvåbostadshus | =SUMIF(Taxepunkter!A:A,""§2.2.1"",Taxepunkter!I:I)"
+Sammanställning;6;0.1042;3;"§2.2.2 | Hämtningsavgift per år för fritidshus | =SUMIF(Taxepunkter!A:A,""§2.2.2"",Taxepunkter!I:I)"
+Sammanställning;7;0.1042;3;"§2.2.3 | Hämtningsavgift per år gemensam uppsamlingsplats för hämtningsområde X | =SUMIF(Taxepunkter!A:A,""§2.2.3"",Taxepunkter!I:I)"
+Sammanställning;8;0.1042;3;"§2.2.4 | Hämtningsavgift per år för flerbostadshus | =SUMIF(Taxepunkter!A:A,""§2.2.4"",Taxepunkter!I:I)"
+Sammanställning;9;0.1042;3;"§2.2.5 | Hämtningsavgift per år för verksamheter | =SUMIF(Taxepunkter!A:A,""§2.2.5"",Taxepunkter!I:I)"
+Sammanställning;10;0.1042;3;"§2.3 | Rörlig avgift (gäller ej gemensam uppsamlingsplats) | =SUMIF(Taxepunkter!A:A,""§2.3"",Taxepunkter!I:I)"
+Sammanställning;11;0.1042;3;"§2.4 | Betalsäck och akutsäck | =SUMIF(Taxepunkter!A:A,""§2.4"",Taxepunkter!I:I)"
+Sammanställning;12;0.1042;3;"§2.5 | Matavfallspåsar | =SUMIF(Taxepunkter!A:A,""§2.5"",Taxepunkter!I:I)"
+Sammanställning;13;0.1042;3;"§2.6.1 | Fakturaavgift | =SUMIF(Taxepunkter!A:A,""§2.6.1"",Taxepunkter!I:I)"
+Sammanställning;14;0.1042;3;"§2.6.2 | Överviktsavgift kärl | =SUMIF(Taxepunkter!A:A,""§2.6.2"",Taxepunkter!I:I)"
+Sammanställning;15;0.1042;3;"§2.6.3 | Överfullt kärl/bottentömmande behållare | =SUMIF(Taxepunkter!A:A,""§2.6.3"",Taxepunkter!I:I)"
+Sammanställning;16;0.1042;3;"§2.6.4 | Byte av trasigt kärl | =SUMIF(Taxepunkter!A:A,""§2.6.4"",Taxepunkter!I:I)"
+Sammanställning;17;0.1042;3;"§2.6.5 | Byte av abonnemang | =SUMIF(Taxepunkter!A:A,""§2.6.5"",Taxepunkter!I:I)"
+Sammanställning;18;0.1042;3;"§2.6.6 | Felsorteringsavgift | =SUMIF(Taxepunkter!A:A,""§2.6.6"",Taxepunkter!I:I)"
+Sammanställning;19;0.1042;3;"§2.6.7 | Dragväg och avfallsutrymmen | =SUMIF(Taxepunkter!A:A,""§2.6.7"",Taxepunkter!I:I)"
+Sammanställning;20;0.1042;3;"§2.6.8 | Evenemang och andra tillfälliga händelser | =SUMIF(Taxepunkter!A:A,""§2.6.8"",Taxepunkter!I:I)"
+Sammanställning;21;0.1042;3;"§2.6.9 | Budning av mat- och restavfall | =SUMIF(Taxepunkter!A:A,""§2.6.9"",Taxepunkter!I:I)"
+Sammanställning;22;0.1042;3;"§2.7.1 | Hanteringsavgifter för avfall inlämnat på återvinningscentral | =SUMIF(Taxepunkter!A:A,""§2.7.1"",Taxepunkter!I:I)"
+Sammanställning;23;0.1042;3;"§2.7.2 | Inpassering på ÅVC | =SUMIF(Taxepunkter!A:A,""§2.7.2"",Taxepunkter!I:I)"
+Sammanställning;24;0.1042;3;"§2.7.3 | Hyra av container | =SUMIF(Taxepunkter!A:A,""§2.7.3"",Taxepunkter!I:I)"
+Sammanställning;25;0.1042;3;"§2.7.4 | Budning för fastighetsnära hämtning av kommunalt avfall | =SUMIF(Taxepunkter!A:A,""§2.7.4"",Taxepunkter!I:I)"
+Sammanställning;26;0.1042;3;"§3.1 | Ordinarie tömning slam | =SUMIF(Taxepunkter!A:A,""§3.1"",Taxepunkter!I:I)"
+Sammanställning;27;0.1042;3;"§3.2 | Tilläggstjänster slam | =SUMIF(Taxepunkter!A:A,""§3.2"",Taxepunkter!I:I)"
+Sammanställning;28;0.1042;3;"§3.3 | Övriga avgifter och tillägg slam | =SUMIF(Taxepunkter!A:A,""§3.3"",Taxepunkter!I:I)"
+Sammanställning;29;0.1042;3;"§4.1 | Budad hämtning fosforfilter | =SUMIF(Taxepunkter!A:A,""§4.1"",Taxepunkter!I:I)"
+Sammanställning;30;0.1042;3;"§4.2 | Tilläggstjänster fosforfilter | =SUMIF(Taxepunkter!A:A,""§4.2"",Taxepunkter!I:I)"
+Kostnadstäckning;3;0.125;2;Total intäkt (kr) | =SUM(Taxepunkter!I:I)
+Kostnadstäckning;5;0.125;2;"Kostnadstäckningsgrad | =IF(C4=0,"""",C3/C4)"
+Kostnadstäckning;4;0.075;2;Självkostnad (kr) – ange här | 0
+QA Word-Excel struktur;16;0.2333;2;Obs | Taxakod/pris har bara bevarats där befintlig rad kunde matchas. Nya rader saknar taxakod/pris tills ni fyller i dessa.
+QA Word-Excel struktur;8;0.1833;2;§2.2.6 | Saknad paragraf byggd med samtliga 15 prispunkter.
+QA Word-Excel struktur;9;0.1833;2;§2.2.7 | Saknad paragraf byggd med 3 prispunkter.
+QA Word-Excel struktur;1;0.125;2;Kontroll | Status
+QA Word-Excel struktur;2;0.125;2;Källfil Word | Förslag till taxestruktur mall ASN 2026-03-13 v2(2).docx
+QA Word-Excel struktur;3;0.125;2;Källfil Excel | Avfallstaxa_redigerbar_korrigerad_tom_2_2_6(1).xlsx
+QA Word-Excel struktur;4;0.125;2;Åtgärd | Taxepunkter har byggts om så att varje prisfält i Word motsvarar en egen rad i Excel.
+QA Word-Excel struktur;7;0.125;2;Tillagda/korrigerade huvudområden | Kommentar
+QA Word-Excel struktur;5;0.075;2;Antal rader i Taxepunkter efter korrigering | 367
+QA Word-Excel struktur;10;0.075;2;§2.2.1–§2.2.2 | Rader delade upp per hämtningsintervall enligt Word.
+QA Word-Excel struktur;11;0.075;2;§2.4.1–§2.4.11 | Tidigare §2.6.* och separata 2.4/2.5 har byggts om enligt Word-numrering.
+QA Word-Excel struktur;12;0.075;2;§2.5.1 | Budning för fastighetsnära hämtning flyttad från tidigare §2.7.4 till Word-strukturen.
+QA Word-Excel struktur;13;0.075;2;§3–§5 | Saknade rader för tillägg per m3, extra tank/brunn, latrin, fosforfilter och fettavskiljare har lagts till enligt Word.
+QA Word-Excel struktur;14;0.075;2;"§6.1.1–§6.1.4 | ÅVC-struktur byggd enligt Word-numrering; befintliga §6- och tidigare §2.7-rader har bevarats under §6."
+Taxa_Saknas;1;1.0;25;Källparagraf | Källpunkt | Rad i Taxepunkter | Wordtext | Status | Matchmetod | FöreslagenTaxekod | intRecnum | Taxepunkt | strTaxekod | strTaxebenamning | strProdukt | strDelProdukt | bytDelradnr | strFaktor | strTaxedelAvser | strEntreprenorkod | strRenhDistrKod | curNuvarandePris | datNuvarandePrisDatum | bolPrisPerTomning | strAvvikandeFormel | bolPriserInklMoms | bytMomskod | strFormel
+Taxa_Saknas;2;0.4183;20;§2.1 | 5 | 11 | Lägenhet för specialändamål | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | GRUNDSPEC | 11 | Grundavgift / Lägenhet för specialändamål | GRUNDSPEC | Lägenhet för specialändamål | RENH | HUSH | 1 | ÅRKV | Lägenhet för specialändamål
+Taxa_Saknas;5;0.4183;20;§2.1 | 8 | 14 | Campingstuga/-lägenhet | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | GRUNDCAMP | 14 | Grundavgift / Campingstuga/-lägenhet | GRUNDCAMP | Campingstuga/-lägenhet | RENH | HUSH | 1 | ÅRKV | Campingstuga/-lägenhet
+Taxa_Saknas;3;0.31;20;§2.1 | 6 | 12 | Anläggning | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | GRUNDANL | 12 | Grundavgift / Anläggning | GRUNDANL | Anläggning | RENH | HUSH | 1 | ÅRKV | Anläggning
+Taxa_Saknas;4;0.31;20;§2.1 | 7 | 13 | Säsongsbaserad uppställningsplats | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | GRUNDSÄS | 13 | Grundavgift / Säsongsbaserad uppställningsplats | GRUNDSÄS | Säsongsbaserad uppställningsplats | RENH | HUSH | 1 | ÅRKV | Säsongsbaserad uppställningsplats
+Taxa_Saknas;6;0.31;20;§2.1 | 9 | 15 | Administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | ADMINDISP | 15 | Grundavgift / Administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar | ADMINDISP | Administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar | RENH | HUSH | 1 | ÅRKV | Administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar
+Taxa_Saknas;7;0.31;20;§2.2.1 | 11 | 19 | Kärl 240 l (mat-/restavfall) Hämtning månadsvis | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ240RM12 | 19 | Hämtningsavgift per år för en- och tvåbostadshus / Kärl 240 l (mat-/restavfall) | KÄ240RM12 | Kärl 240 l (mat-/restavfall). Hämtning månadsvis | RENH | HUSH | 1 | ÅRKV | Kärl 240 l (mat-/restavfall) Hämtning månadsvis
+Taxa_Saknas;8;0.31;20;§2.2.1 | 13 | 21 | Extrakärl 190 l (restavfall) Hämtning månadsvis | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ190XRM12 | 21 | Hämtningsavgift per år för en- och tvåbostadshus / Extrakärl 190 l (restavfall) | KÄ190XRM12 | Extrakärl 190 l (restavfall). Hämtning månadsvis | RENH | HUSH | 1 | ÅRKV | Extrakärl 190 l (restavfall) Hämtning månadsvis
+Taxa_Saknas;9;0.31;20;§2.2.2 | 15 | 26 | Kärl 240 l (mat-/restavfall) Hämtning månadsvis | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ240RM12FRI | 26 | Hämtningsavgift per år för fritidshus / Kärl 240 l (mat-/restavfall) | KÄ240RM12FRI | Kärl 240 l (mat-/restavfall). Hämtning månadsvis | RENH | HUSH | 1 | ÅRKV | Kärl 240 l (mat-/restavfall) Hämtning månadsvis
+Taxa_Saknas;10;0.31;20;§2.2.2 | 16 | 27 | Extrakärl 190 l (restavfall) Hämtning var 14:e dag | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ190XRM26FRI | 27 | Hämtningsavgift per år för fritidshus / Extrakärl 190 l (restavfall) | KÄ190XRM26FRI | Extrakärl 190 l (restavfall). Hämtning var 14:e dag | RENH | HUSH | 1 | ÅRKV | Extrakärl 190 l (restavfall) Hämtning var 14:e dag
+Taxa_Saknas;11;0.31;20;§2.2.2 | 17 | 28 | Extrakärl 190 l (restavfall) Hämtning månadsvis | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ190XRM12FRI | 28 | Hämtningsavgift per år för fritidshus / Extrakärl 190 l (restavfall) | KÄ190XRM12FRI | Extrakärl 190 l (restavfall). Hämtning månadsvis | RENH | HUSH | 1 | ÅRKV | Extrakärl 190 l (restavfall) Hämtning månadsvis
+Taxa_Saknas;12;0.31;20;§2.2.3 | 18 | 32 | Gemensam uppsamlingsplats för mat-/restavfall | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | GEMUPPMR | 32 | Gemensam uppsamlingsplats inom hämtningsområde X / Gemensam uppsamlingsplats för mat-/restavfall | GEMUPPMR | Gemensam uppsamlingsplats för mat-/restavfall | RENH | HUSH | 1 | ÅRKV | Gemensam uppsamlingsplats för mat-/restavfall
+Taxa_Saknas;13;0.31;20;§2.2.3 | 19 | 34 | Extra digital licens (årskostnad) | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | GEMUPPEXTRA | 34 | Gemensam uppsamlingsplats inom hämtningsområde X / Extra digital licens (årskostnad) | GEMUPPEXTRA | Extra digital licens (årskostnad) | RENH | HUSH | 1 | ÅRKV | Extra digital licens (årskostnad)
+Taxa_Saknas;14;0.31;20;§2.2.3 | 20 | 35 | Fysisk nyckel, kallad fob (engångskostnad) | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | GEMUPPFOB | 35 | Gemensam uppsamlingsplats inom hämtningsområde X / Fysisk nyckel, kallad fob (engångskostnad) | GEMUPPFOB | Fysisk nyckel, kallad fob (engångskostnad) | RENH | HUSH | 1 | ÅRKV | Fysisk nyckel, kallad fob (engångskostnad)
+Taxa_Saknas;15;0.31;20;§2.2.3 | 21 | 36 | Byte av telefonnummer kopplat till licens | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | GEMUPPBYTE | 36 | Gemensam uppsamlingsplats inom hämtningsområde X / Byte av telefonnummer kopplat till licens | GEMUPPBYTE | Byte av telefonnummer kopplat till licens | RENH | HUSH | 1 | ÅRKV | Byte av telefonnummer kopplat till licens
+Taxa_Saknas;16;0.31;20;§2.2.3 | 22 | 37 | Kostnad för öppning av behållare | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | GEMUPPÖPP | 37 | Gemensam uppsamlingsplats inom hämtningsområde X / Kostnad för öppning av behållare | GEMUPPÖPP | Kostnad för öppning av behållare | RENH | HUSH | 1 | ÅRKV | Kostnad för öppning av behållare
+Taxa_Saknas;17;0.31;20;§2.2.4 | 25 | 42 | Kärl 240 l (mat-/restavfall) Hämtning månadsvis | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ240RM12FV | 42 | Hämtningsavgift per år för flerbostadshus / Kärl 240 l (mat-/restavfall) | KÄ240RM12FV | Kärl 240 l (mat-/restavfall). Hämtning månadsvis | RENH | HUSH | 1 | ÅRKV | Kärl 240 l (mat-/restavfall) Hämtning månadsvis
+Taxa_Saknas;18;0.31;20;§2.2.4 | 28 | 45 | Kärl 370 l (restavfall) Hämtning månadsvis | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ370RE12FV | 45 | Hämtningsavgift per år för flerbostadshus / Kärl 370 l (restavfall) | KÄ370RE12FV | Kärl 370 l (restavfall). Hämtning månadsvis | RENH | HUSH | 1 | ÅRKV | Kärl 370 l (restavfall) Hämtning månadsvis
+Taxa_Saknas;19;0.31;20;§2.2.4 | 31 | 48 | Kärl 660 l (restavfall) Hämtning månadsvis | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ660RE12FV | 48 | Hämtningsavgift per år för flerbostadshus / Kärl 660 l (restavfall) | KÄ660RE12FV | Kärl 660 l (restavfall). Hämtning månadsvis | RENH | HUSH | 1 | ÅRKV | Kärl 660 l (restavfall) Hämtning månadsvis
+Taxa_Saknas;20;0.31;20;§2.2.4 | 34 | 51 | Kärl 140 l (matavfall) Hämtning månadsvis | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ140MA12FV | 51 | Hämtningsavgift per år för flerbostadshus / Kärl 140 l (matavfall) | KÄ140MA12FV | Kärl 140 l (matavfall). Hämtning månadsvis | RENH | HUSH | 1 | ÅRKV | Kärl 140 l (matavfall) Hämtning månadsvis
+Taxa_Saknas;21;0.31;20;§2.2.4 | 35 | 52 | Kärl 190 l (förpackningar) Hämtning varje vecka | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ190FP52FV | 52 | Hämtningsavgift per år för flerbostadshus / Kärl 190 l (förpackningar) | KÄ190FP52FV | Kärl 190 l (förpackningar). Hämtning varje vecka | RENH | HUSH | 1 | ÅRKV | Kärl 190 l (förpackningar) Hämtning varje vecka
+Taxa_Saknas;22;0.31;20;§2.2.4 | 36 | 53 | Kärl 190 l (förpackningar) Hämtning var 14:e dag | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ190FP26FV | 53 | Hämtningsavgift per år för flerbostadshus / Kärl 190 l (förpackningar) | KÄ190FP26FV | Kärl 190 l (förpackningar). Hämtning var 14:e dag | RENH | HUSH | 1 | ÅRKV | Kärl 190 l (förpackningar) Hämtning var 14:e dag
+Taxa_Saknas;23;0.31;20;§2.2.4 | 37 | 54 | Kärl 190 l (förpackningar) Hämtning månadsvis | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ190FP12FV | 54 | Hämtningsavgift per år för flerbostadshus / Kärl 190 l (förpackningar) | KÄ190FP12FV | Kärl 190 l (förpackningar). Hämtning månadsvis | RENH | HUSH | 1 | ÅRKV | Kärl 190 l (förpackningar) Hämtning månadsvis
+Taxa_Saknas;24;0.31;20;§2.2.4 | 38 | 55 | Kärl 370 l (förpackningar) Hämtning varje vecka | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ370FP52FV | 55 | Hämtningsavgift per år för flerbostadshus / Kärl 370 l (förpackningar) | KÄ370FP52FV | Kärl 370 l (förpackningar). Hämtning varje vecka | RENH | HUSH | 1 | ÅRKV | Kärl 370 l (förpackningar) Hämtning varje vecka
+Taxa_Saknas;25;0.31;20;§2.2.4 | 39 | 56 | Kärl 370 l (förpackningar) Hämtning var 14:e dag | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ370FP26FV | 56 | Hämtningsavgift per år för flerbostadshus / Kärl 370 l (förpackningar) | KÄ370FP26FV | Kärl 370 l (förpackningar). Hämtning var 14:e dag | RENH | HUSH | 1 | ÅRKV | Kärl 370 l (förpackningar) Hämtning var 14:e dag
+Taxa_Saknas;26;0.31;20;§2.2.4 | 40 | 57 | Kärl 370 l (förpackningar) Hämtning månadsvis | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ370FP12FV | 57 | Hämtningsavgift per år för flerbostadshus / Kärl 370 l (förpackningar) | KÄ370FP12FV | Kärl 370 l (förpackningar). Hämtning månadsvis | RENH | HUSH | 1 | ÅRKV | Kärl 370 l (förpackningar) Hämtning månadsvis
+Taxa_Saknas;27;0.31;20;§2.2.4 | 41 | 58 | Kärl 660 l (förpackningar) Hämtning varje vecka | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ660FP52FV | 58 | Hämtningsavgift per år för flerbostadshus / Kärl 660 l (förpackningar) | KÄ660FP52FV | Kärl 660 l (förpackningar). Hämtning varje vecka | RENH | HUSH | 1 | ÅRKV | Kärl 660 l (förpackningar) Hämtning varje vecka
+Taxa_Saknas;28;0.31;20;§2.2.4 | 42 | 59 | Kärl 660 l (förpackningar) Hämtning var 14:e dag | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ660FP26FV | 59 | Hämtningsavgift per år för flerbostadshus / Kärl 660 l (förpackningar) | KÄ660FP26FV | Kärl 660 l (förpackningar). Hämtning var 14:e dag | RENH | HUSH | 1 | ÅRKV | Kärl 660 l (förpackningar) Hämtning var 14:e dag
+Taxa_Saknas;29;0.31;20;§2.2.4 | 43 | 60 | Kärl 660 l (förpackningar) Hämtning månadsvis | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ660FP12FV | 60 | Hämtningsavgift per år för flerbostadshus / Kärl 660 l (förpackningar) | KÄ660FP12FV | Kärl 660 l (förpackningar). Hämtning månadsvis | RENH | HUSH | 1 | ÅRKV | Kärl 660 l (förpackningar) Hämtning månadsvis
+Taxa_Saknas;30;0.31;20;§2.2.4 | 44 | 61 | Kärl 190 l (tidningar och returpapper) Hämtning varje vecka | Saknas i EDP – föreslagen ny taxa | Kodförslag baserat på prefix/suffix och text i Taxepunkter | KÄ190TI52FV | 61 | Hämtningsavgift per år för flerbostadshus / Kärl 190 l (tidningar och returpapper) | KÄ190TI52FV | Kärl 190 l (tidningar och returpapper). Hämtning varje vecka | RENH | HUSH | 1 | ÅRKV | Kärl 190 l (tidningar och returpapper) Hämtning varje vecka
+Kontrollrapport;1;0.525;8;Typ | Paragraf | Rad i Taxepunkter | Källpunkt | Taxapunkt | Variant | Föreslagen taxekod | Status/Kommentar
+Kontrollrapport;12;0.253;7;Taxa_Saknas | §2.1 | 11 | 5 | Lägenhet för specialändamål | GRUNDSPEC | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;15;0.253;7;Taxa_Saknas | §2.1 | 14 | 8 | Campingstuga/-lägenhet | GRUNDCAMP | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;17;0.1625;8;Taxa_Saknas | §2.2.1 | 19 | 11 | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | KÄ240RM12 | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;18;0.1625;8;Taxa_Saknas | §2.2.1 | 21 | 13 | Extrakärl 190 l (restavfall) | Hämtning månadsvis | KÄ190XRM12 | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;19;0.1625;8;Taxa_Saknas | §2.2.2 | 25 | 15 | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | KÄ240RM12FRI | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;20;0.1625;8;Taxa_Saknas | §2.2.2 | 26 | 16 | Extrakärl 190 l (restavfall) | Hämtning var 14:e dag | KÄ190XRM26FRI | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;21;0.1625;8;Taxa_Saknas | §2.2.2 | 27 | 17 | Extrakärl 190 l (restavfall) | Hämtning månadsvis | KÄ190XRM12FRI | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;27;0.1625;8;Taxa_Saknas | §2.2.4 | 39 | 25 | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | KÄ240RM12FV | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;28;0.1625;8;Taxa_Saknas | §2.2.4 | 42 | 28 | Kärl 370 l (restavfall) | Hämtning månadsvis | KÄ370RE12FV | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;29;0.1625;8;Taxa_Saknas | §2.2.4 | 45 | 31 | Kärl 660 l (restavfall) | Hämtning månadsvis | KÄ660RE12FV | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;30;0.1625;8;Taxa_Saknas | §2.2.4 | 48 | 34 | Kärl 140 l (matavfall) | Hämtning månadsvis | KÄ140MA12FV | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;2;0.1446;7;Struktur korrigerad | §2.2.1 | 19 | 11 | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | Tidigare tom rad fylld enligt Word.
+Kontrollrapport;3;0.1446;7;Struktur korrigerad | §2.2.4 | 58 | 44 | Kärl 190 l (tidningar och returpapper) | Hämtning varje vecka | Tidigare saknad/tom rad fylld enligt Word.
+Kontrollrapport;4;0.1446;7;Struktur korrigerad | §2.2.5 | 72 | 56 | Kärl 370 l (restavfall) | Hämtning varje vecka | Tidigare tom rad fylld enligt Word.
+Kontrollrapport;5;0.1446;7;Struktur korrigerad | §2.2.5 | 76 | 60 | Kärl 660 l (restavfall) | Hämtning var 14:e dag | Tidigare tom rad fylld enligt Word.
+Kontrollrapport;6;0.1446;7;Struktur korrigerad | §2.2.5 | 79 | 63 | Kärl 140 l (matavfall) | Hämtning var 14:e dag | Tidigare tom rad fylld enligt Word.
+Kontrollrapport;7;0.1446;7;Struktur korrigerad | §2.2.5 | 82 | 66 | Lastväxlarflak (restavfall) | Avgift per tömning | Flyttad/fylld så ordning följer Word.
+Kontrollrapport;8;0.1446;7;Struktur korrigerad | §2.2.5 | 83 | 67 | Bottentömmande behållare (mat-/restavfall) | Tillägg för två tömningar per vecka | Tidigare saknad rad fylld enligt Word.
+Kontrollrapport;9;0.1446;7;Struktur korrigerad | §2.2.6 | 91 | 73 | Kärl 370 l (restavfall) | Hämtning månadsvis | Tidigare tom rad fylld enligt Word.
+Kontrollrapport;10;0.1446;7;Struktur korrigerad | §2.2.6 | 94 | 76 | Kärl 660 l (restavfall) | Hämtning månadsvis | Tidigare tom rad fylld enligt Word.
+Kontrollrapport;11;0.1446;7;Struktur korrigerad | §2.2.6 | 97 | 79 | Kärl 140 l (matavfall) | Hämtning månadsvis | Tidigare tom rad fylld enligt Word.
+Kontrollrapport;13;0.1446;7;Taxa_Saknas | §2.1 | 12 | 6 | Anläggning | GRUNDANL | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;14;0.1446;7;Taxa_Saknas | §2.1 | 13 | 7 | Säsongsbaserad uppställningsplats | GRUNDSÄS | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;16;0.1446;7;Taxa_Saknas | §2.1 | 15 | 9 | Administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar | ADMINDISP | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;22;0.1446;7;Taxa_Saknas | §2.2.3 | 30 | 18 | Gemensam uppsamlingsplats för mat-/restavfall | GEMUPPMR | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;23;0.1446;7;Taxa_Saknas | §2.2.3 | 31 | 19 | Extra digital licens (årskostnad) | GEMUPPEXTRA | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;24;0.1446;7;Taxa_Saknas | §2.2.3 | 32 | 20 | Fysisk nyckel, kallad fob (engångskostnad) | GEMUPPFOB | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;25;0.1446;7;Taxa_Saknas | §2.2.3 | 33 | 21 | Byte av telefonnummer kopplat till licens | GEMUPPBYTE | Saknas i EDP – föreslagen ny taxa
+Kontrollrapport;26;0.1446;7;Taxa_Saknas | §2.2.3 | 34 | 22 | Kostnad för öppning av behållare | GEMUPPÖPP | Saknas i EDP – föreslagen ny taxa
+Taxekod_Tolkning;8;0.5125;7;RE | Avfallsslag | Restavfall | KÄ370RE26FV | Taxa_från_edp rad 242 / strTaxekod KÄ370RE26FV | strTaxebenamning + strTaxedelAvser | Bekräftad
+Taxekod_Tolkning;9;0.5125;7;MA | Avfallsslag | Matavfall | KÄ140MA52FV | Taxa_från_edp rad 221 / strTaxekod KÄ140MA52FV | strTaxebenamning + strTaxedelAvser | Bekräftad
+Taxekod_Tolkning;27;0.5125;7;TÖM | Koddel | Tömning | MB3200TÖM | Taxa_från_edp rad 211 / strTaxekod MB3200TÖM | strTaxebenamning + strTaxedelAvser | Bekräftad
+Taxekod_Tolkning;22;0.4167;8;FV | Suffix | Flerbostadshus eller verksamhet | KÄ660RE52FV | Taxa_från_edp rad 259 / strTaxekod KÄ660RE52FV | strTaxebenamning: FLB/VHT + användarbekräftelse | Bekräftad | Samma FV-taxekod kan användas både för flerbostadshus och verksamhet om övriga villkor stämmer.
+Taxekod_Tolkning;2;0.4042;7;KÄ | Prefix | Kärl | KÄ240RM26 | Taxa_från_edp rad 234 / strTaxekod KÄ240RM26 | strTaxekod + strTaxebenamning | Bekräftad
+Taxekod_Tolkning;6;0.4042;7;RM | Avfallsslag | Rest-/matavfall | KÄ240RM26 | Taxa_från_edp rad 234 / strTaxekod KÄ240RM26 | strTaxebenamning: rest/matavfall | Bekräftad
+Taxekod_Tolkning;7;0.4042;7;RK | Avfallsslag | Restavfall/kompost | KÄ240RK26 | Taxa_från_edp rad 232 / strTaxekod KÄ240RK26 | strTaxebenamning: restavfall/kompost | Bekräftad
+Taxekod_Tolkning;12;0.4042;7;XRM | Avfallsslag/kärltyp | Extrakärl rest-/matavfall | KÄ190XRM26 | Taxa_från_edp rad 226 / strTaxekod KÄ190XRM26 | strTaxebenamning: extrakärl, rest/matavfall | Bekräftad
+Taxekod_Tolkning;21;0.4042;7;FRI | Suffix | Fritidshus | KÄ240RM26FRI | Taxa_från_edp rad 236 / strTaxekod KÄ240RM26FRI | strTaxebenamning | Bekräftad
+Taxekod_Tolkning;25;0.4042;7;SL | Prefix/kategori | Slam | SLBUDFOS | Taxa_från_edp rad 133 / strTaxekod SLBUDFOS | strDelProdukt + strTaxebenamning | Bekräftad
+Taxekod_Tolkning;13;0.3899;7;140 | Volym | 140 liter | KÄ140MA26FV | Taxa_från_edp rad 216 / strTaxekod KÄ140MA26FV | strTaxebenamning | Bekräftad
+Taxekod_Tolkning;14;0.3899;7;190 | Volym | 190 liter / 120–190 liter för extrakärl | KÄ190XRM26 | Taxa_från_edp rad 226 / strTaxekod KÄ190XRM26 | strTaxebenamning | Bekräftad
+Taxekod_Tolkning;15;0.3899;7;240 | Volym | 240 liter | KÄ240RM26 | Taxa_från_edp rad 234 / strTaxekod KÄ240RM26 | strTaxebenamning | Bekräftad
+Taxekod_Tolkning;16;0.3899;7;370 | Volym | 370 liter | KÄ370RE26FV | Taxa_från_edp rad 242 / strTaxekod KÄ370RE26FV | strTaxebenamning | Bekräftad
+Taxekod_Tolkning;17;0.3899;7;660 | Volym | 660 liter | KÄ660RE26FV | Taxa_från_edp rad 254 / strTaxekod KÄ660RE26FV | strTaxebenamning | Bekräftad
+Taxekod_Tolkning;18;0.3899;7;26 | Frekvens | Var 14:e dag / 26 tömningar per år | KÄ240RM26 | Taxa_från_edp rad 234 / strTaxekod KÄ240RM26 | strTaxebenamning | Bekräftad
+Taxekod_Tolkning;19;0.3899;7;52 | Frekvens | Varje vecka / 52 tömningar per år | KÄ240RM52FV | Taxa_från_edp rad 31 / strTaxekod KÄ240RM52FV | strTaxebenamning | Bekräftad
+Taxekod_Tolkning;3;0.3083;8;MB | Prefix | Markbehållare eller underjordsbehållare | MB3200RE26 | Taxa_från_edp rad 211 / 271 | strTaxebenamning + användarbekräftelse | Bekräftad | Kan omfatta både mark- och underjordsbehållare.
+Taxekod_Tolkning;23;0.3083;8;FLB | Förkortning i benämning | Flerbostadshus | FLB/VHT | Taxa_från_edp, flera rader | strTaxebenamning | Bekräftad | Förekommer i strTaxebenamning, inte nödvändigtvis som egen koddel.
+Taxekod_Tolkning;24;0.3083;8;VHT | Förkortning i benämning | Verksamhet | FLB/VHT | Taxa_från_edp, flera rader | strTaxebenamning | Bekräftad | Förekommer i strTaxebenamning, inte nödvändigtvis som egen koddel.
+Taxekod_Tolkning;28;0.2958;7;KVAN | strFaktor | Kvantitet | KVAN | Taxa_från_edp rad 2 | kvantitetskoder + strFaktor | Bekräftad
+Taxekod_Tolkning;29;0.2958;7;ÅRKV | strFaktor | Årskvantitet | ÅRKV | Taxa_från_edp rad 216 | kvantitetskoder + strFaktor | Bekräftad
+Taxekod_Tolkning;30;0.2958;7;ÅRPR | strFaktor | Årspris | ÅRPR | Taxa_från_edp VA-rader | kvantitetskoder + strFaktor | Bekräftad
+Taxekod_Tolkning;1;0.2;8;Koddel | Typ | Betydelse | Exempel | Första förekomst | Källa | Status | Kommentar
+Taxekod_Tolkning;4;0.2;8;BTMR | Kodstruktur | Bottentömmande behållare, mat-/restavfall | BTMRFV | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används för nya föreslagna taxor när EDP-träff saknas.
+Taxekod_Tolkning;5;0.2;8;LVRE | Kodstruktur | Lastväxlarflak, restavfall | LVREFV | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används för nya föreslagna taxor när EDP-träff saknas.
+Taxekod_Tolkning;10;0.2;8;TI | Avfallsslag | Tidningar/returpapper | KÄ190TI26FV | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används där EDP-träff saknas för tidningar/returpapper.
+Taxekod_Tolkning;11;0.2;8;FP | Avfallsslag | Förpackningar | KÄ370FP26FV | Taxa_Saknas / föreslagen struktur | Användarbekräftelse | Bekräftad | Används där EDP-träff saknas för förpackningar.
+Taxekod_Tolkning;20;0.1875;8;12 | Frekvens | Månadsvis / 12 tömningar per år | KÄ240RM12FV | Taxa_Saknas / föreslagen struktur | Härledd från kodmönster och Word | Härledd | Finns inte som säker EDP-träff i genomgången hittills.
+Taxekod_Tolkning;26;0.1875;7;ÅVC | Kategori | Återvinningscentral | ASBEST | Taxa_från_edp rad 66 / strDelProdukt ÅVC | strDelProdukt | Bekräftad
+Källa_Prislista_DH;7;0.1375;3;Post | Exkl. moms | Inkl. moms
+Källa_Prislista_DH;24;0.1375;3;ABP | Debiteras separat enligt faktisk kostnad | Debiteras separat enligt faktisk kostnad
+Källa_Prislista_DH;4;0.125;2;Beräkningsgrund | Full självkostnad med intern ersättning till taxekollektivet
+Källa_Prislista_DH;27;0.125;2;Regel | DH-priser är unika för detaljhandel och får inte användas i beräkningsmodeller för andra taxor.
+Källa_Prislista_DH;28;0.125;2;Källa | Prislista DH.xlsx
+Källa_Prislista_DH;5;0.1042;3;Moms | 0.25 | Ändra moms här
+Källa_Prislista_DH;8;0.0708;3;Intern kalkyltimme sopbil inkl. chaufför och OH | 1500 | 1875
+Källa_Prislista_DH;9;0.0708;3;Kärltömning 140–240 liter, ordinarie tur/intervall | 125 | 156.25
+Källa_Prislista_DH;10;0.0708;3;Kärltömning 370 liter, ordinarie tur/intervall | 145 | 181.25
+Källa_Prislista_DH;11;0.0708;3;Kärltömning 660 liter, ordinarie tur/intervall | 165 | 206.25
+Källa_Prislista_DH;12;0.0708;3;Extra/avvikande tömning utanför planerad rutt | 1500 | 1875
+Källa_Prislista_DH;13;0.0708;3;Kärlhyra 140 liter | 25 | 31.25
+Källa_Prislista_DH;14;0.0708;3;Kärlhyra 190 liter | 30 | 37.5
+Källa_Prislista_DH;15;0.0708;3;Kärlhyra 240 liter | 35 | 43.75
+Källa_Prislista_DH;16;0.0708;3;Kärlhyra 370 liter | 50 | 62.5
+Källa_Prislista_DH;17;0.0708;3;Kärlhyra 660 liter | 85 | 106.25
+Källa_Prislista_DH;18;0.0708;3;Utkörning/utställning av kärl 140–240 | 300 | 375
+Källa_Prislista_DH;19;0.0708;3;Utkörning/utställning av kärl 370–660 | 450 | 562.5
+Källa_Prislista_DH;20;0.0708;3;Byte av kärlstorlek på kundens begäran | 450 | 562.5
+Källa_Prislista_DH;21;0.0708;3;Hemtagning/avslut av kärl | 300 | 375
+Källa_Prislista_DH;22;0.0708;3;Matavfall | 3600 | 4500
+Källa_Prislista_DH;23;0.0708;3;Restavfall | 4200 | 5250
+Källa_Kvantitetskoder;10;0.3542;3;DR10 | Dragväg 1,5–10 meter | Taxa_från_edp strFormel/strTaxedelAvser
+Källa_Kvantitetskoder;11;0.3542;3;DR20 | Dragväg 10,1–20 meter | Taxa_från_edp strFormel/strTaxedelAvser
+Källa_Kvantitetskoder;12;0.3542;3;LÄGH | Lägenheter | Taxa_från_edp strFormel
+Källa_Kvantitetskoder;2;0.2458;3;KVAN | Kvantitet | Användarens fil/uppgift + Taxa_från_edp strFaktor
+Källa_Kvantitetskoder;3;0.2458;3;ÅRKV | Årskvantitet | Användarens fil/uppgift + Taxa_från_edp strFaktor
+Källa_Kvantitetskoder;4;0.2458;3;ÅRPR | Årspris | Kvantitetskoder + Taxa_från_edp strFaktor
+Källa_Kvantitetskoder;5;0.2458;3;FÖRB | Förbrukning | Användarens uppgift + Taxa_från_edp strFaktor
+Källa_Kvantitetskoder;6;0.2458;3;UPFÖ | Uppskattad förbrukning | Kvantitetskoder + Taxa_från_edp strFaktor
+Källa_Kvantitetskoder;7;0.2458;3;ANTB | Antal behållare | Taxa_från_edp strFormel
+Källa_Kvantitetskoder;8;0.2458;3;ANTL | Övriga antal / antal tillfällen | Taxa_från_edp strFormel
+Källa_Kvantitetskoder;9;0.2458;3;VIKG | Vikt i kilo | Taxa_från_edp strFormel
+Källa_Kvantitetskoder;13;0.2458;3;FAST | Fast avgift | Taxa_från_edp strFormel
+Källa_Kvantitetskoder;14;0.2458;3;KBMÖ | Kubikmeter övrigt | Taxa_från_edp strFormel
+Källa_Kvantitetskoder;15;0.2458;3;KBMS | Kubikmeter slam | Taxa_från_edp strFormel
+Källa_Kvantitetskoder;1;0.1375;3;Kod | Tolkning | Källa/kommentar
+01_Projektöversikt;2;0.125;2;Syfte | Bygga och kvalitetssäkra Taxepunkter från Word, EDP och kompletterande prislistor.
+01_Projektöversikt;3;0.125;2;Fas 1 | Word → Excel: pågår. Word styr struktur, Taxepunkter byggs successivt, Taxa_Saknas byggs successivt.
+01_Projektöversikt;4;0.125;2;Fas 2 | Excel → Word: ej påbörjad. Ska hanteras separat senare. Regler för Fas 1 får inte blandas med Fas 2.
+01_Projektöversikt;5;0.125;2;Status | Taxepunkter är under uppbyggnad. Arbetet är genomfört till och med §2.2.6 med kända justeringar.
+01_Projektöversikt;6;0.125;2;Viktig princip | Arbetsboken ska kunna återanvändas med ny Taxa_från_edp från annat verksamhetssystem genom att läsa regler, källdokument, lexikon och beslutslogg.
+02_Projektregler;14;0.6792;3;R013 | Matchningsordning | Sök först strTaxekod, sedan strTaxebenamning, strTaxedelAvser och strFaktor/strFormel.
+02_Projektregler;25;0.6792;3;R024 | Vanliga taxerader i Taxepunkter | Rader där A:E innehåller uppdelad information, t.ex. Paragraf, Paragrafnamn, Taxapunkt, Variant och Enhet, ska inte vara sammanslagna och A:E ska ha vit bakgrund.
+02_Projektregler;13;0.4625;3;R012 | Taxepunkt i Taxa_Saknas | Taxepunkt = Paragrafnamn / Taxapunkt.
+02_Projektregler;5;0.3542;3;R004 | Taxakod | Kolumn Taxakod innehåller endast bekräftad exakt strTaxekod från Taxa_från_edp.
+02_Projektregler;6;0.3542;3;R005 | Ingen påhittad Taxakod | Om match finns i Taxa_från_edp används exakt strTaxekod. Hitta inte på egen kod om EDP-kod finns.
+02_Projektregler;7;0.3542;3;R006 | Föreslagen Taxa | Visar Taxakod om den är bekräftad, annars föreslagen taxa från Taxa_Saknas.
+02_Projektregler;22;0.2458;3;R021 | Kostnadsfria rader i Taxepunkter | Rader som i Word anges som kostnadsfria ska finnas i Taxepunkter med Variant = Kostnadsfritt. Aktuellt pris får ändå inte fyllas manuellt.
+02_Projektregler;24;0.2458;3;R023 | Underrubriker i Taxepunkter | Rader där kolumn A innehåller paragraf + rubriktext och B:E är tomma ska behandlas som underrubriker. De ska vara sammanslagna över A:E och enfärgade.
+02_Projektregler;1;0.1375;3;ID | Regel | Beskrivning
+02_Projektregler;2;0.1375;3;R001 | Fasindelning | Projektet består av två separata faser: Fas 1 Word → Excel och Fas 2 Excel → Word. De får inte blandas.
+02_Projektregler;3;0.1375;3;R002 | Word styr struktur i Fas 1 | Alla taxepunkter, rader och kostnadsfria tjänster som finns i Word ska finnas i Taxepunkter.
+02_Projektregler;4;0.1375;3;R003 | Taxepunkter byggs successivt | Taxepunkter är en arbetsflik under uppbyggnad och får inte ersättas med importdata.
+02_Projektregler;8;0.1375;3;R007 | Aktuellt pris | Aktuellt pris (exkl moms) hämtas alltid från Taxa_från_edp och får aldrig redigeras manuellt.
+02_Projektregler;9;0.1375;3;R008 | Föreslaget pris | Får fyllas manuellt/beräknas som arbetspris när Aktuellt pris saknas. Detta är inte EDP-pris.
+02_Projektregler;10;0.1375;3;R009 | DH-priser | Prislista DH används endast för detaljhandel och får aldrig användas för beräkningsmodeller för andra taxor.
+02_Projektregler;11;0.1375;3;R010 | Taxa_Saknas | Innehåller saknade eller föreslagna taxor med samma EDP-kolumner som Taxa_från_edp samt arbetskolumner.
+02_Projektregler;12;0.1375;3;R011 | intRecnum i Taxa_Saknas | intRecnum = radnummer i Taxepunkter för felsökning, inte EDP:s original-ID.
+02_Projektregler;15;0.1375;3;R014 | FV | FV betyder flerbostadshus eller verksamhet och kan återanvändas om övriga villkor stämmer.
+02_Projektregler;16;0.1375;3;R015 | DH | DH betyder detaljhandel med beviljad hantering av kommunalt avfall. §2.2.6 använder DH, inte FV.
+02_Projektregler;17;0.1375;3;R016 | MB | MB används för markbehållare eller underjordsbehållare och ska användas som prefix för bottentömmande behållare.
+02_Projektregler;18;0.1375;3;R017 | LV | LV används för lastväxlarflak.
+02_Projektregler;19;0.1375;3;R018 | GEMUPP | GEMUPP används för gemensam uppsamlingsplats.
+02_Projektregler;20;0.1375;3;R019 | FOB | FOB används för fysisk nyckel/fob.
+02_Projektregler;21;0.1375;3;R020 | Kostnadsfria rader | Kostnadsfri rad ska finnas i Taxepunkter, men pris ska fortfarande hämtas från Taxa_från_edp om bekräftad taxekod finns.
+02_Projektregler;23;0.1375;3;R022 | Kostnadsfria rader i Taxa_Saknas | Om kostnadsfri tjänst saknar bekräftad EDP-taxa ska den läggas i Taxa_Saknas med föreslagen taxekod och utan manuellt Aktuellt pris.
+03_Arbetsflöde;8;0.5375;3;7 | Matcha mot Taxa_från_edp | Använd matchningsordningen strTaxekod → strTaxebenamning → strTaxedelAvser → strFaktor.
+03_Arbetsflöde;5;0.3208;3;4 | Läs Taxekod_Tolkning | Använd lexikonet för prefix, suffix, koddelar, strFaktor och strFormel.
+03_Arbetsflöde;10;0.3208;3;9 | Uppdatera Föreslagen Taxa | Kolumnen hämtar bekräftad Taxakod eller förslag från Taxa_Saknas.
+03_Arbetsflöde;1;0.1375;3;Steg | Arbetsmoment | Beskrivning
+03_Arbetsflöde;2;0.1042;3;1 | Läs Projektöversikt | Identifiera om arbetet gäller Fas 1 Word→Excel eller Fas 2 Excel→Word.
+03_Arbetsflöde;3;0.1042;3;2 | Läs Projektregler | Följ reglerna innan några ändringar görs.
+03_Arbetsflöde;4;0.1042;3;3 | Läs Källdokument | Kontrollera vilka importflikar och externa filer som krävs.
+03_Arbetsflöde;6;0.1042;3;5 | Importera/ersätt Taxa_från_edp | Om ny EDP-export används ska endast importfliken bytas, inte arbetsflikarna.
+03_Arbetsflöde;7;0.1042;3;6 | Kontrollera Word mot Taxepunkter | Lägg till saknade rader från Word, inklusive kostnadsfria rader.
+03_Arbetsflöde;9;0.1042;3;8 | Uppdatera Taxa_Saknas | Alla saknade/osäkra taxor ska dokumenteras med intRecnum = Taxepunkter-rad.
+03_Arbetsflöde;11;0.1042;3;10 | Fyll Föreslaget pris vid behov | Aktuellt pris får aldrig ändras. Föreslaget pris används bara som arbetspris.
+03_Arbetsflöde;12;0.1042;3;11 | Dokumentera beslut | Uppdatera Beslutslogg och Kontrollrapport.
+03_Arbetsflöde;13;0.1042;3;12 | Vänta med Excel→Word | Prisöverföring till Word hanteras i senare separat fas.
+04_Källdokument;5;0.3792;5;Källa_Kvantitetskoder | Ja | Referens för strFaktor/strFormel | Ja | Används för tolkning, inte för pris.
+04_Källdokument;1;0.1625;5;Källa/flik | Obligatorisk | Funktion | Får ersättas vid ny körning | Kommentar
+04_Källdokument;2;0.1625;5;Word taxedokument (.docx) | Ja | Juridisk/strukturell källa för Taxepunkter | Ja | Ska importeras/läsas vid ny taxemall. Nuvarande Word ligger ej som komplett filflik i Excel.
+04_Källdokument;3;0.1625;5;Taxa_från_edp | Ja | Bekräftade taxekoder, benämningar, faktorer, formler och priser | Ja | Enda källa för Aktuellt pris. Får bytas mot ny export.
+04_Källdokument;4;0.1625;5;Källa_Prislista_DH | Ja om DH finns | Unik prislista för detaljhandel | Ja | Får endast användas för DH och aldrig för andra beräkningsmodeller.
+04_Källdokument;6;0.1625;5;Taxepunkter | Ja | Arbetsflik som byggs från Word + EDP | Nej | Under uppbyggnad och ska inte ersättas.
+04_Källdokument;7;0.1625;5;Taxa_Saknas | Ja | Saknade/föreslagna taxor | Nej | Under uppbyggnad och ska inte ersättas.
+04_Källdokument;8;0.1625;5;Taxekod_Tolkning | Ja | Lexikon över koddelar | Nej | Byggs successivt.
+04_Källdokument;9;0.1625;5;Projektregler/Arbetsflöde/Beslutslogg | Ja | Självdokumentation | Nej | Behövs för framtida promptning.
+Projektstatus;1;0.1375;3;Delprojekt | Status | Progress/Kommentar
+Projektstatus;2;0.1375;3;"Taxepunkter | Under uppbyggnad | Kontrollerad till och med §2.2.6; fortsättning återstår."
+Projektstatus;3;0.1375;3;Taxa_Saknas | Under uppbyggnad | Fylls löpande med saknade taxor och förslag.
+Projektstatus;4;0.1375;3;Taxekod_Tolkning | Under uppbyggnad | Lexikon påbörjat och uppdateras löpande.
+Projektstatus;5;0.1375;3;Word → Excel | Pågår | Fas 1.
+Projektstatus;6;0.1375;3;Excel → Word | Ej påbörjad | Fas 2 hanteras separat senare.
+Projektstatus;7;0.1375;3;DH-prislogik | Fastställd | DH-priser är fristående och får inte användas för andra modeller.
+Projektstatus;8;0.1375;3;Kostnadsfria rader | Åtgärdat | Tre kostnadsfria rader från Word har lagts till i Taxepunkter och Taxa_Saknas.
+Dokumentation_Taxepunkter;9;0.5;6;H | Taxabeskrivning | Automatisk | Taxa_från_edp[strTaxebenamning] | Slår upp Taxakod i Taxa_från_edp kolumn strTaxekod och returnerar strTaxebenamning. | Nej
+Dokumentation_Taxepunkter;3;0.3917;6;B | Paragrafnamn | Manuell | Word | Anges utifrån rubrik i Word. | Ja
+Dokumentation_Taxepunkter;7;0.3917;6;F | Taxakod | Manuell med dropdown | Taxa_från_edp | Endast bekräftad exakt strTaxekod från Taxa_från_edp. | Ja
+Dokumentation_Taxepunkter;8;0.3917;6;"G | Föreslagen Taxa | Automatisk | Taxakod + Taxa_Saknas | =IF($F7<>"""",$F7,IFERROR(XLOOKUP(ROW(),Taxa_Saknas!$H:$H,Taxa_Saknas!$G:$G),"""")) | Nej"
+Dokumentation_Taxepunkter;10;0.3917;6;I | Faktor | Automatisk | Taxa_från_edp[strFaktor] | Slår upp Taxakod och returnerar strFaktor. | Nej
+Dokumentation_Taxepunkter;18;0.3417;2;F påverkar G/H/I/J | Taxakod styr föreslagen taxa, taxabeskrivning, faktor och aktuellt pris.
+Dokumentation_Taxepunkter;19;0.3417;2;G hämtar från Taxa_Saknas | Om Taxakod saknas används intRecnum/radnummer för att hämta föreslagen taxa.
+Dokumentation_Taxepunkter;2;0.2833;6;A | Paragraf | Manuell | Word | Anges utifrån paragraf i Word. | Ja
+Dokumentation_Taxepunkter;4;0.2833;6;C | Taxapunkt | Manuell | Word | Anges utifrån raden/tjänsten i Word. | Ja
+Dokumentation_Taxepunkter;5;0.2833;6;D | Variant | Manuell | Word | Anger t.ex. Hämtning varje vecka, Avgift per tömning, var 14:e dag. | Ja
+Dokumentation_Taxepunkter;6;0.2833;6;E | Enhet | Manuell | Word/bedömning | Anger debiteringsenhet, t.ex. st/år, st/tömning, kg. | Ja
+Dokumentation_Taxepunkter;11;0.2833;6;J | Aktuellt pris (exkl m) | Automatisk | Taxa_från_edp[curNuvarandePris] | Slår upp Taxakod och returnerar aktuellt pris exkl. moms. Får aldrig redigeras manuellt. | Nej
+Dokumentation_Taxepunkter;1;0.175;6;Kolumn | Rubrik | Typ | Källa/beroende | Formel/regel för en normalrad | Får ändras manuellt
+Dokumentation_Taxepunkter;12;0.175;6;K | Föreslaget pris | Manuell/beräknad arbetskolumn | Projektdata/DH-prislista/bedömning | Används bara när Aktuellt pris saknas. DH-priser får endast användas för DH. | Ja
+Dokumentation_Taxepunkter;13;0.175;6;L | Antal | Manuell | Taxevolym/bedömning | Anges vid behov för intäktsberäkning. | Ja
+Dokumentation_Taxepunkter;14;0.175;6;"M | Pris kr (inkl.) | Automatisk | J eller K + moms | =IFERROR(IF(J7<>"""",J7*1.25,IF(K7<>"""",K7*1.25,"""")),"""") | Nej"
+Dokumentation_Taxepunkter;15;0.175;6;"N | Intäkt (kr) exkl | Automatisk | J/K och L | =IFERROR(IF(J7<>"""",L7*J7,IF(K7<>"""",L7*K7,"""")),"""") | Nej"
+Dokumentation_Taxepunkter;22;0.175;6;Radtyp | Kännetecken | Format | Regel | Exempel | Får ändras manuellt
+Dokumentation_Taxepunkter;23;0.175;6;Underrubrik | Endast kolumn A har text, B:E är tomma | A:E sammanslaget, enfärgad ljusblå rad | Används för avsnittsrubriker | §2.1 Grundavgift | Nej
+Dokumentation_Taxepunkter;24;0.175;6;Taxerad | A:E innehåller uppdelade fält | A:E ej sammanslaget, vit bakgrund | Används för faktiska taxepunkter | §2.1 | Grundavgift | En- och tvåbostadshus | st/år | Ja
+Dokumentation_Taxepunkter;17;0.125;2;Beroende | Beskrivning
+Dokumentation_Taxepunkter;20;0.125;2;J är låst principmässigt | Aktuellt pris är alltid EDP-pris och får inte ändras manuellt.
+Dokumentation_Taxepunkter;21;0.125;2;K är arbetspris | Föreslaget pris används endast som arbetsunderlag när J saknas.
+Beslutslogg;1;0.1375;3;Datum | Beslut | Konsekvens
+Beslutslogg;2;0.1042;3;2026-07-02 | FV betyder flerbostadshus eller verksamhet | FV-taxor kan återanvändas mellan §2.2.4 och §2.2.5 om övriga villkor matchar.
+Beslutslogg;3;0.1042;3;2026-07-02 | DH införs som suffix för detaljhandel | §2.2.6 ska använda DH och inte FV.
+Beslutslogg;4;0.1042;3;2026-07-02 | MB används för bottentömmande behållare | BTMR ska inte användas som framtida standardförslag.
+Beslutslogg;5;0.1042;3;2026-07-02 | Aktuellt pris hämtas bara från Taxa_från_edp | Priskolumnen får inte redigeras manuellt.
+Beslutslogg;6;0.1042;3;2026-07-02 | Föreslaget pris får användas som arbetspris | Ny kolumn efter Aktuellt pris.
+Beslutslogg;7;0.1042;3;2026-07-02 | DH-prislista är fristående | DH-priser får inte användas som jämförelse för andra taxor.
+Beslutslogg;8;0.1042;3;2026-07-02 | Taxepunkter är under uppbyggnad | Fliken är arbetsflik och får inte ersättas.
+Beslutslogg;9;0.1042;3;2026-07-02 | Fas 2 Excel→Word hanteras separat | Nuvarande regler gäller Word→Excel.
+Färgstandard;15;0.2583;4;Underrubrik i Taxepunkter | #BDD7EE | Rader där A har paragraf+text och B:E är tomma | A:E sammanslaget, hela raden färgad och samma rutnät.
+Färgstandard;1;0.15;4;Färgtyp | Hex | Användning | Exempel
+Färgstandard;2;0.15;4;Rubrik | #1F4E78 | Tabellrubriker och huvudrubriker | Rad 1/5 i arbets- och dokumentationsflikar
+Färgstandard;3;0.15;4;Manuell inmatning | #FFF2CC | Fält som får fyllas manuellt | Taxepunkter A–F, L samt Taxa_Saknas arbetskolumner
+Färgstandard;4;0.15;4;Automatisk uppslagning | #DDEBF7 | Formler och uppslag mot Taxa_från_edp | Taxepunkter H–J
+Färgstandard;5;0.15;4;Förslag | #FCE4D6 | Föreslagna taxekoder och arbetspris | Taxepunkter G och K, Taxa_Saknas FöreslagenTaxekod
+Färgstandard;6;0.15;4;Beräkning | #E2F0D9 | Beräknade värden | Taxepunkter M–N
+Färgstandard;7;0.15;4;Kontroll krävs | #F4CCCC | Fel, saknad match eller manuellt beslut | Kontrollrapport och statusrader
+Färgstandard;8;0.15;4;Dokumentation | #E7E6E6 | Regel- och dokumentationsflikar | Projektregler, Arbetsflöde, Dokumentation_*
+Färgstandard;9;0.15;4;Import/referens | #D9EAD3 | Importerade eller externa källflikar | Taxa_från_edp, Källa_Prislista_DH
+Färgstandard;11;0.15;4;Border-standard | Värde | Användning | Kommentar
+Färgstandard;12;0.15;4;Rutnätslinjer | #D9D9D9 | Alla celler i använda tabellområden | Tunn ljusgrå kant runt varje cell, både inne i och runt tabellen.
+Färgstandard;13;0.15;4;Ytterkant | #7F7F7F | Runt hela tabellområden | Tunn mörkare grå kant runt tabellens ytterkant.
+Färgstandard;14;0.15;4;Rubrikrad | #7F7F7F | Rubrikrader | Rubrikrad får mörkblå fyllning och konsekvent rutnät.
+Dokumentation_Taxa_Saknas;10;0.5;6;I | Taxepunkt | Arbetskolumn | Taxepunkter | Paragrafnamn / Taxapunkt. | Ja
+Dokumentation_Taxa_Saknas;7;0.3917;6;F | Matchmetod | Arbetskolumn | Projektet | Hur förslaget togs fram: strTaxebenamning, strTaxedelAvser, kodregel, etc. | Ja
+Dokumentation_Taxa_Saknas;2;0.2833;6;A | Källparagraf | Arbetskolumn | Word/Taxepunkter | Paragraf där raden hör hemma. | Ja
+Dokumentation_Taxa_Saknas;1;0.175;6;Kolumn | Rubrik | Typ | Källa/beroende | Regel/användning | Får ändras manuellt
+Dokumentation_Taxa_Saknas;3;0.175;6;B | Källpunkt | Arbetskolumn | Granskningslista | Punktnummer i löpande Word-Excel-kontroll om tillgängligt. | Ja
+Dokumentation_Taxa_Saknas;4;0.175;6;C | Rad i Taxepunkter | Arbetskolumn | Taxepunkter | Radnummer i Taxepunkter för felsökning. | Ja
+Dokumentation_Taxa_Saknas;5;0.175;6;D | Wordtext | Arbetskolumn | Word | Kort beskrivning av texten/raden i Word. | Ja
+Dokumentation_Taxa_Saknas;6;0.175;6;E | Status | Arbetskolumn | Projektet | Saknas i EDP, osäker, åtgärdad, etc. | Ja
+Dokumentation_Taxa_Saknas;8;0.175;6;G | FöreslagenTaxekod | Förslag | Taxekod_Tolkning/projektregler | Taxekod som föreslås om ingen bekräftad EDP-kod finns. | Ja
+Dokumentation_Taxa_Saknas;9;0.175;6;H | intRecnum | Arbetsnyckel | Taxepunkter | Ska vara radnumret i Taxepunkter, inte EDP:s intRecnum. | Ja
+Dokumentation_Taxa_Saknas;11;0.175;6;J:Y | EDP-kolumner | Importstruktur | Taxa_från_edp | Samma struktur som Taxa_från_edp för att kunna skapa/importera nya taxor. | Ja, men följ EDP-format
+Dokumentation_Taxa_Saknas;13;0.175;6;Automationsmall | Rad 72:200 | Typ | Källa/beroende | Regel/användning | Får ändras manuellt
+Dokumentation_Taxa_Saknas;14;0.175;6;Input 1 | Rad i Taxepunkter | Manuell | Taxepunkter | Fyll kolumn C med radnummer från Taxepunkter. | Ja
+Dokumentation_Taxa_Saknas;15;0.175;6;Input 2 | FöreslagenTaxekod | Manuell | Kodregler | Fyll kolumn G med föreslagen taxekod. | Ja
+Dokumentation_Taxa_Saknas;16;0.175;6;Automatiskt | Övriga fält | Formler | Taxepunkter + standardvärden | Kolumner A, D:F, H:Y fylls automatiskt utifrån C och G. | Nej/vid behov
+Dokumentation_Taxa_från_edp;3;0.3667;4;B | strTaxekod | Primär nyckel för bekräftade taxor | Taxakod i Taxepunkter måste vara exakt värdet härifrån.
+Dokumentation_Taxa_från_edp;11;0.3667;4;Q | strFormel | Beräkningsformel/faktor | Används för att förstå enhet och beräkning, t.ex. ANTB, VIKG, DR10.
+Dokumentation_Taxa_från_edp;4;0.2583;4;C | strTaxebenamning | Matchning och dokumentation | Kontrolleras alltid innan nya taxor föreslås.
+Dokumentation_Taxa_från_edp;8;0.2583;4;G | strFaktor | Faktor/beräkningsgrund | Tolkning hämtas från Källa_Kvantitetskoder och Taxekod_Tolkning.
+Dokumentation_Taxa_från_edp;9;0.2583;4;H | strTaxedelAvser | Viktig matchningskolumn | Används före frågor ställs. Ofta tydligast för vad delraden avser.
+Dokumentation_Taxa_från_edp;1;0.15;4;Kolumn | Rubrik | Användning i projektet | Regel
+Dokumentation_Taxa_från_edp;2;0.15;4;A | intRecnum | EDP:s interna rad-ID | Läses som källdata men används inte som nyckel i Taxa_Saknas.
+Dokumentation_Taxa_från_edp;5;0.15;4;D | strProdukt | EDP-produkt | Behålls vid förslag i Taxa_Saknas där möjligt.
+Dokumentation_Taxa_från_edp;6;0.15;4;E | strDelProdukt | EDP-delprodukt | Används för kategori, t.ex. HUSH, ÅVC, SLAM.
+Dokumentation_Taxa_från_edp;7;0.15;4;F | bytDelradnr | Delrad i EDP-taxa | Nya föreslagna taxor får ofta 1 om endast en grundrad skapas.
+Dokumentation_Taxa_från_edp;10;0.15;4;K | curNuvarandePris | Aktuellt pris exkl. moms | Enda källa till Aktuellt pris i Taxepunkter. Får inte ändras manuellt.
+Revision_Etapp1;4;0.3667;4;Taxepunkter kolumnstruktur | Kontrollerad | A:N används med Taxakod, Föreslagen Taxa, Aktuellt pris och Föreslaget pris. | OK
+Revision_Etapp1;10;0.2583;4;Datavalidering | Ej fullrevision | Dropdown i Taxakod bör kontrolleras mer detaljerat i nästa revision. | Nästa revision
+Revision_Etapp1;1;0.15;4;Kontrollpunkt | Resultat | Åtgärd/kommentar | Status
+Revision_Etapp1;2;0.15;4;Flikstruktur | Inventerad | Flikarna är klassade i dokumentationsflikar, importflikar, arbetsflikar och rapportflikar. | OK
+Revision_Etapp1;3;0.15;4;Formler | Översiktligt kontrollerad | Ingen #REF! hittad. #NAME? kan visas i artifact_tool pga XLOOKUP/evalueringsstöd men formler finns kvar. | OK
+Revision_Etapp1;5;0.15;4;Taxa_Saknas struktur | Kontrollerad | Arbetskolumner + EDP-kolumner är dokumenterade. | OK
+Revision_Etapp1;6;0.15;4;Kostnadsfria rader | Åtgärdad | Tre saknade kostnadsfria rader är tillagda i Taxepunkter och Taxa_Saknas. | OK
+Revision_Etapp1;7;0.15;4;Aktuellt pris | Regel dokumenterad | Aktuellt pris hämtas endast från Taxa_från_edp. | OK
+Revision_Etapp1;8;0.15;4;DH-priser | Regel dokumenterad | Källa_Prislista_DH får bara användas för detaljhandel. | OK
+Revision_Etapp1;9;0.15;4;Färgstandard | Skapad | Färgstandard-flik finns och färger är tillämpade på centrala flikar. | OK
+Revision_Etapp1;11;0.15;4;Villkorsstyrd formatering | Ej fullrevision | Inventeras i nästa tekniska revision vid behov. | Nästa revision
+Revision_Etapp1;13;0.15;4;Underrubriker i Taxepunkter | Åtgärdad | Rader med endast text i kolumn A har formaterats som sammanslagna underrubriker A:E. | OK
+Revision_Etapp1;14;0.15;4;Taxerader A:E | Åtgärdad | Vanliga taxerader har vit bakgrund i A:E. | OK
+Revision_Formler_DV;2;0.3667;4;Taxepunkter G | Föreslagen Taxa | OK | Visar Taxakod om F finns, annars XLOOKUP mot Taxa_Saknas intRecnum/H och FöreslagenTaxekod/G.
+Revision_Formler_DV;3;0.3667;4;Taxepunkter H | Taxabeskrivning | OK | Hämtas från Taxa_från_edp strTaxebenamning via Taxakod.
+Revision_Formler_DV;4;0.3667;4;Taxepunkter I | Faktor | OK | Hämtas från Taxa_från_edp strFaktor via Taxakod.
+Revision_Formler_DV;5;0.2583;4;Taxepunkter J | Aktuellt pris | OK | Hämtas från Taxa_från_edp curNuvarandePris via Taxakod. Ska inte redigeras manuellt.
+Revision_Formler_DV;1;0.15;4;Område | Kontroll | Resultat | Kommentar
+Revision_Formler_DV;6;0.15;4;Taxepunkter M | Pris inkl. moms | OK | Beräknar J*1,25 eller K*1,25 om J saknas.
+Revision_Formler_DV;7;0.15;4;Taxepunkter N | Intäkt exkl. moms | OK | Beräknar L*J eller L*K om J saknas.
+Revision_Formler_DV;8;0.15;4;Taxepunkter F | Datavalidering | OK | Dropdown mot Taxa_från_edp!$B$2:$B$371 tillagd på F7:F370.
+Revision_Formler_DV;9;0.15;4;Taxa_Saknas 72:200 | Automationsmall | OK | Fyll Rad i Taxepunkter i C och FöreslagenTaxekod i G. Övriga fält fylls med formler.
