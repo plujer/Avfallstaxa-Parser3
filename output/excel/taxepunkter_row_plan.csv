@@ -3,44 +3,44 @@ REUSE;section+tax_point;2.1;En- och tvåbostadshus;;;7;En- och tvåbostadshus;;s
 REUSE;section+tax_point;2.1;Fritidshus;;;8;Fritidshus;;st/år;GRUNDFRI;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
 REUSE;section+tax_point;2.1;Verksamhet;;;9;Verksamhet;;st/år;GRUNDVHT;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
 REUSE;section+tax_point;2.1;Lägenhet i flerbostadshus;;lägenhet;10;Lägenhet i flerbostadshus;;st/år;GRUNDFLB;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-REUSE;section+tax_point;2.1;Lägenhet för specialändamål;;lägenhet;11;Lägenhet för specialändamål;;st/år;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-REUSE;section+tax_point;2.1;Anläggning;;;12;Anläggning;;st/år;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-REUSE;section+tax_point;2.1;Säsongsbaserad uppställningsplats;;;13;Säsongsbaserad uppställningsplats;;st/år;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-REUSE;section+tax_point;2.1;Campingstuga/-lägenhet;;lägenhet;14;Campingstuga/-lägenhet;;st/år;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
+REUSE;section+tax_point;2.1;Lägenhet för specialändamål;;lägenhet;11;Lägenhet för specialändamål;;st/år;GRUNDSPEC;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
+REUSE;section+tax_point;2.1;Anläggning;;;12;Anläggning;;st/år;GRUNDANL;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
+REUSE;section+tax_point;2.1;Säsongsbaserad uppställningsplats;;;13;Säsongsbaserad uppställningsplats;;st/år;GRUNDSÄS;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
+REUSE;section+tax_point;2.1;Campingstuga/-lägenhet;;lägenhet;14;Campingstuga/-lägenhet;;st/år;GRUNDCAMP;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
 REVIEW;multiple section+tax_point rows;2.2.1;Kärl 240 l (mat-/restavfall);;kärl;18;Kärl 240 l (mat-/restavfall);Hämtning var 14:e dag;st/år;KÄ240RM26;2 befintliga rader delar paragraf+taxapunkt
 REVIEW;multiple section+tax_point rows;2.2.1;Extrakärl 190 l (restavfall);;;20;Extrakärl 190 l (restavfall);Hämtning var 14:e dag;st/år;KÄ190XRM26;2 befintliga rader delar paragraf+taxapunkt
 REVIEW;multiple section+tax_point rows;2.2.2;Kärl 240 l (mat-/restavfall);;kärl;25;Kärl 240 l (mat-/restavfall);Hämtning var 14:e dag;st/år;KÄ240RM26FRI;2 befintliga rader delar paragraf+taxapunkt
-REUSE;section+tax_point;2.2.2;Extrakärl 190 l (restavfall);;;27;Extrakärl 190 l (restavfall);Hämtning var 14:e dag;st/år;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-REUSE;section+tax_point;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;32;Gemensam uppsamlingsplats för mat-/restavfall;;st/år;GEMUPPFRI;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-REUSE;section+tax_point;2.2.3;Extra digital licens (årskostnad);;;34;Extra digital licens (årskostnad);;st/år;GEMUPPEXTRAFRI;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-REUSE;section+tax_point;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;35;Fysisk nyckel, kallad fob (engångskostnad);;st/tillfälle;FOBFRI;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-REUSE;section+tax_point;2.2.3;Byte av telefonnummer kopplat till licens;;;36;Byte av telefonnummer kopplat till licens;;st/tillfälle;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-REUSE;section+tax_point;2.2.3;Kostnad för öppning av behållare;;;37;Kostnad för öppning av behållare;;st/tillfälle;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
+REVIEW;multiple section+tax_point rows;2.2.2;Extrakärl 190 l (restavfall);;;27;Extrakärl 190 l (restavfall);Hämtning var 14:e dag;st/år;KÄ190XRM26FRI;2 befintliga rader delar paragraf+taxapunkt
+REVIEW;multiple section+tax_point rows;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;32;Gemensam uppsamlingsplats för mat-/restavfall;;st/år;GEMUPPFRI;2 befintliga rader delar paragraf+taxapunkt
+REVIEW;multiple section+tax_point rows;2.2.3;Extra digital licens (årskostnad);;;34;Extra digital licens (årskostnad);;st/år;GEMUPPEXTRAFRI;2 befintliga rader delar paragraf+taxapunkt
+REVIEW;multiple section+tax_point rows;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;35;Fysisk nyckel, kallad fob (engångskostnad);;st/tillfälle;FOBFRI;2 befintliga rader delar paragraf+taxapunkt
+REUSE;section+tax_point;2.2.3;Byte av telefonnummer kopplat till licens;;;36;Byte av telefonnummer kopplat till licens;;st/tillfälle;GEMUPPBYTE;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
+REUSE;section+tax_point;2.2.3;Kostnad för öppning av behållare;;;37;Kostnad för öppning av behållare;;st/tillfälle;GEMUPPÖPP;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
 REVIEW;multiple section+tax_point rows;2.2.4;Kärl 240 l (mat-/restavfall);;kärl;40;Kärl 240 l (mat-/restavfall);Hämtning varje vecka;st/år;KÄ240RM52FV;3 befintliga rader delar paragraf+taxapunkt
 REVIEW;multiple section+tax_point rows;2.2.4;Kärl 370 l (restavfall);;kärl;43;Kärl 370 l (restavfall);Hämtning varje vecka;st/år;KÄ370RE52FV;3 befintliga rader delar paragraf+taxapunkt
 REVIEW;multiple section+tax_point rows;2.2.4;Kärl 660 l (restavfall);;kärl;46;Kärl 660 l (restavfall);Hämtning varje vecka;st/år;KÄ660RE52FV;3 befintliga rader delar paragraf+taxapunkt
 REVIEW;multiple section+tax_point rows;2.2.4;Kärl 140 l (matavfall);;kärl;49;Kärl 140 l (matavfall);Hämtning varje vecka;st/år;KÄ140MA52FV;3 befintliga rader delar paragraf+taxapunkt
-REVIEW;multiple section+tax_point rows;2.2.4;Kärl 190 l (förpackningar);;kärl;52;Kärl 190 l (förpackningar);Hämtning varje vecka;st/år;;3 befintliga rader delar paragraf+taxapunkt
-REVIEW;multiple section+tax_point rows;2.2.4;Kärl 370 l (förpackningar);;kärl;55;Kärl 370 l (förpackningar);Hämtning varje vecka;st/år;;3 befintliga rader delar paragraf+taxapunkt
-REVIEW;multiple section+tax_point rows;2.2.4;Kärl 660 l (förpackningar);;kärl;58;Kärl 660 l (förpackningar);Hämtning varje vecka;st/år;;3 befintliga rader delar paragraf+taxapunkt
-REVIEW;multiple section+tax_point rows;2.2.4;Kärl 190 l (tidningar och returpapper);;kärl;61;Kärl 190 l (tidningar och returpapper);Hämtning varje vecka;st/år;;3 befintliga rader delar paragraf+taxapunkt
-REVIEW;multiple section+tax_point rows;2.2.4;Kärl 370 l (tidningar och returpapper);;kärl;64;Kärl 370 l (tidningar och returpapper);Hämtning varje vecka;st/år;;3 befintliga rader delar paragraf+taxapunkt
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 190 l (förpackningar);;kärl;52;Kärl 190 l (förpackningar);Hämtning varje vecka;st/år;KÄ190FP52FV;3 befintliga rader delar paragraf+taxapunkt
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 370 l (förpackningar);;kärl;55;Kärl 370 l (förpackningar);Hämtning varje vecka;st/år;KÄ370FP52FV;3 befintliga rader delar paragraf+taxapunkt
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 660 l (förpackningar);;kärl;58;Kärl 660 l (förpackningar);Hämtning varje vecka;st/år;KÄ660FP52FV;3 befintliga rader delar paragraf+taxapunkt
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 190 l (tidningar och returpapper);;kärl;61;Kärl 190 l (tidningar och returpapper);Hämtning varje vecka;st/år;KÄ190TI52FV;3 befintliga rader delar paragraf+taxapunkt
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 370 l (tidningar och returpapper);;kärl;64;Kärl 370 l (tidningar och returpapper);Hämtning varje vecka;st/år;KÄ370TI52FV;3 befintliga rader delar paragraf+taxapunkt
 CREATE;word tax missing from Taxepunkter;2.2.4;(mat-/restavfall, förpackningar);;;;;;;;Skapa egen rad i Taxepunkter oavsett EDP-status
 REVIEW;multiple section+tax_point rows;2.2.5;Kärl 240 l (mat-/restavfall);;kärl;72;Kärl 240 l (mat-/restavfall);Hämtning varje vecka;st/år;KÄ240RM52FV;3 befintliga rader delar paragraf+taxapunkt
 REVIEW;multiple section+tax_point rows;2.2.5;Kärl 370 l (restavfall);;kärl;75;Kärl 370 l (restavfall);Hämtning varje vecka;st/år;KÄ370RE52FV;3 befintliga rader delar paragraf+taxapunkt
 REVIEW;multiple section+tax_point rows;2.2.5;Kärl 660 l (restavfall);;kärl;78;Kärl 660 l (restavfall);Hämtning varje vecka;st/år;KÄ660RE52FV;3 befintliga rader delar paragraf+taxapunkt
 REVIEW;multiple section+tax_point rows;2.2.5;Kärl 140 l (matavfall);;kärl;81;Kärl 140 l (matavfall);Hämtning varje vecka;st/år;KÄ140MA52FV;3 befintliga rader delar paragraf+taxapunkt
-REUSE;section+tax_point;2.2.5;Bottentömmande behållare (mat-/restavfall);;;86;Bottentömmande behållare (mat-/restavfall);Tillägg för två tömningar per vecka;st/tömning;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-REUSE;section+tax_point;2.2.5;Lastväxlarflak (restavfall);;;85;Lastväxlarflak (restavfall);Avgift per tömning;st/tömning;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-REVIEW;multiple section+tax_point rows;2.2.6;Kärl 240 l (mat-/restavfall);;kärl;89;Kärl 240 l (mat-/restavfall);Hämtning varje vecka;st/år;;3 befintliga rader delar paragraf+taxapunkt
-REVIEW;multiple section+tax_point rows;2.2.6;Kärl 370 l (restavfall);;kärl;92;Kärl 370 l (restavfall);Hämtning varje vecka;st/år;;3 befintliga rader delar paragraf+taxapunkt
-REVIEW;multiple section+tax_point rows;2.2.6;Kärl 660 l (restavfall);;kärl;95;Kärl 660 l (restavfall);Hämtning varje vecka;st/år;;3 befintliga rader delar paragraf+taxapunkt
-REVIEW;multiple section+tax_point rows;2.2.6;Kärl 140 l (matavfall);;kärl;98;Kärl 140 l (matavfall);Hämtning varje vecka;st/år;;3 befintliga rader delar paragraf+taxapunkt
-REUSE;section+tax_point;2.2.6;Bottentömmande behållare (mat-/restavfall);;;103;Bottentömmande behållare (mat-/restavfall);Tillägg för två tömningar per vecka;st/tömning;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-REUSE;section+tax_point;2.2.6;Lastväxlarflak (restavfall);;;102;Lastväxlarflak (restavfall);Avgift per tömning;st/tömning;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-REUSE;section+tax_point;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;106;Kärl 140 l (kontors-/returpapper);;st/år;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
-CREATE;word tax missing from Taxepunkter;2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;;;;;;Skapa egen rad i Taxepunkter oavsett EDP-status
-REUSE;section+tax_point;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;108;Egen överlämning av förbrukat matfett enligt anvisning;;st/år;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
+REVIEW;multiple section+tax_point rows;2.2.5;Bottentömmande behållare (mat-/restavfall);;;86;Bottentömmande behållare (mat-/restavfall);Tillägg för två tömningar per vecka;st/tömning;MBRM2VFV;2 befintliga rader delar paragraf+taxapunkt
+REUSE;section+tax_point;2.2.5;Lastväxlarflak (restavfall);;;85;Lastväxlarflak (restavfall);Avgift per tömning;st/tömning;LVREFV;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
+REVIEW;multiple section+tax_point rows;2.2.6;Kärl 240 l (mat-/restavfall);;kärl;89;Kärl 240 l (mat-/restavfall);Hämtning varje vecka;st/år;KÄ240RM52DH;3 befintliga rader delar paragraf+taxapunkt
+REVIEW;multiple section+tax_point rows;2.2.6;Kärl 370 l (restavfall);;kärl;92;Kärl 370 l (restavfall);Hämtning varje vecka;st/år;KÄ370RE52DH;3 befintliga rader delar paragraf+taxapunkt
+REVIEW;multiple section+tax_point rows;2.2.6;Kärl 660 l (restavfall);;kärl;95;Kärl 660 l (restavfall);Hämtning varje vecka;st/år;KÄ660RE52DH;3 befintliga rader delar paragraf+taxapunkt
+REVIEW;multiple section+tax_point rows;2.2.6;Kärl 140 l (matavfall);;kärl;98;Kärl 140 l (matavfall);Hämtning varje vecka;st/år;KÄ140MA52DH;3 befintliga rader delar paragraf+taxapunkt
+REVIEW;multiple section+tax_point rows;2.2.6;Bottentömmande behållare (mat-/restavfall);;;103;Bottentömmande behållare (mat-/restavfall);Tillägg för två tömningar per vecka;st/tömning;MBRM2VDH;2 befintliga rader delar paragraf+taxapunkt
+REUSE;section+tax_point;2.2.6;Lastväxlarflak (restavfall);;;102;Lastväxlarflak (restavfall);Avgift per tömning;st/tömning;LVREDH;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
+REUSE;section+tax_point;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;106;Kärl 140 l (kontors-/returpapper);;st/år;KÄ140TI;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
+REUSE;section+tax_point;2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;379;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;st/år;EGENKONTRET;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
+REUSE;section+tax_point;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;108;Egen överlämning av förbrukat matfett enligt anvisning;;st/år;EGENMATFETT;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
 REUSE;section+tax_point;2.3;Viktavgift matavfall;;;111;Viktavgift matavfall;;kr/kg;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
 REUSE;section+tax_point;2.3;Viktavgift restavfall;;;112;Viktavgift restavfall;;kr/kg;;"Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word"
 CREATE;word tax missing from Taxepunkter;2.3;Lyftavgift kärl;;kärl;;;;;;Skapa egen rad i Taxepunkter oavsett EDP-status

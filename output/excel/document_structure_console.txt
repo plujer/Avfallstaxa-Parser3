@@ -1,0 +1,9 @@
+Document Structure Engine klar
+Rows: 241
+TAX_NODE: 229
+SUBSECTION: 8
+SECTION: 4
+TABLE_HEADER: 0
+NOTE: 0
+TXT: output\excel\document_structure_report.txt
+CSV: output\excel\document_structure_rows.csv

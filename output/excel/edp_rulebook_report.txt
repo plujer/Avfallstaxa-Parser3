@@ -3,7 +3,7 @@ Excel Builder EDP Rulebook Report
 Status: Read-only rule extraction from Arbets-Excel.
 Arbets-Excel is not master.
 
-Rule entries: 225
+Rule entries: 226
 Workbook warnings: 0
 Validation warnings: 0
 
@@ -13,7 +13,7 @@ Rule entries by sheet:
 - 03_Arbetsflöde: 13
 - 04_Källdokument: 9
 - 06_Prompt_ChatGPT: 15
-- Beslutslogg: 9
+- Beslutslogg: 10
 - Dokumentation_Taxa_Saknas: 15
 - Dokumentation_Taxa_från_edp: 11
 - Dokumentation_Taxepunkter: 23
@@ -132,6 +132,7 @@ Key extracted rules:
 - Taxekod_Tolkning row 62: KONTRET | Avfallsslag/funktionsdel | Kontors-/returpapper | EGENKONTRET | Taxa_Saknas §2.2.7 | Word | Föreslagen
 - Beslutslogg row 5: 2026-07-02 | Aktuellt pris hämtas bara från Taxa_från_edp | Priskolumnen får inte redigeras manuellt.
 - Beslutslogg row 6: 2026-07-02 | Föreslaget pris får användas som arbetspris | Ny kolumn efter Aktuellt pris.
+- Beslutslogg row 301: 2026-07-07 | v0.9.4 Taxepunkter facit | Fyllde 52 befintliga Taxepunkter-rader med saknad Taxakod från Taxa_Saknas och lade till 9 saknade rader längst ned i Taxepunkter. Taxa_från_edp ändrades inte.
 - Färgstandard row 3: Manuell inmatning | #FFF2CC | Fält som får fyllas manuellt | Taxepunkter A–F, L samt Taxa_Saknas arbetskolumner
 - Färgstandard row 4: Automatisk uppslagning | #DDEBF7 | Formler och uppslag mot Taxa_från_edp | Taxepunkter H–J
 - Färgstandard row 5: Förslag | #FCE4D6 | Föreslagna taxekoder och arbetspris | Taxepunkter G och K, Taxa_Saknas FöreslagenTaxekod
@@ -338,6 +339,7 @@ All entries:
 - Beslutslogg row 7: 2026-07-02 | DH-prislista är fristående | DH-priser får inte användas som jämförelse för andra taxor.
 - Beslutslogg row 8: 2026-07-02 | Taxepunkter är under uppbyggnad | Fliken är arbetsflik och får inte ersättas.
 - Beslutslogg row 9: 2026-07-02 | Fas 2 Excel→Word hanteras separat | Nuvarande regler gäller Word→Excel.
+- Beslutslogg row 301: 2026-07-07 | v0.9.4 Taxepunkter facit | Fyllde 52 befintliga Taxepunkter-rader med saknad Taxakod från Taxa_Saknas och lade till 9 saknade rader längst ned i Taxepunkter. Taxa_från_edp ändrades inte.
 - Färgstandard row 1: Färgtyp | Hex | Användning | Exempel
 - Färgstandard row 2: Rubrik | #1F4E78 | Tabellrubriker och huvudrubriker | Rad 1/5 i arbets- och dokumentationsflikar
 - Färgstandard row 3: Manuell inmatning | #FFF2CC | Fält som får fyllas manuellt | Taxepunkter A–F, L samt Taxa_Saknas arbetskolumner

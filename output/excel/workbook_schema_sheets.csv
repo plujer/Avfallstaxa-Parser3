@@ -1,6 +1,6 @@
 ﻿Sheet;State;Rows;Columns;Detected header row;Detected headers;Tables;Formula count;Data validations;Merged ranges count;Hidden columns;Hidden rows count;Freeze panes;Auto filter
 Dashboard;visible;9;2;3;Total intäkt (kr) | =SUM(Taxepunkter_Rådata!K:K);;6;0;0;;0;;
-Taxepunkter;visible;370;14;5;Paragraf | Paragrafnamn | Taxapunkt | Variant | Enhet | Taxakod | Föreslagen Taxa | Taxabeskrivning | Faktor | Aktuellt pris (exkl m) | Föreslaget pris | Antal | Pris kr (inkl.) | Intäkt (kr) exkl;;2132;2;96;;0;;
+Taxepunkter;visible;379;14;5;Paragraf | Paragrafnamn | Taxapunkt | Variant | Enhet | Taxakod | Föreslagen Taxa | Taxabeskrivning | Faktor | Aktuellt pris (exkl m) | Föreslaget pris | Antal | Pris kr (inkl.) | Intäkt (kr) exkl;;2186;2;96;;0;;
 Taxepunkter_Rådata;visible;292;12;1;Paragraf | Paragrafnamn | Taxapunkt | Variant | Enhet | Taxakod | Taxabeskrivning | Faktor | Aktuellt pris (exkl m) | Antal | Pris (kr) | Intäkt (kr);;3492;0;0;;0;;
 Pivot Variant;visible;74;3;3;Paragraf | Variant | Total intäkt (kr);;71;0;0;;0;;
 Pivot Paragraf;visible;35;2;3;Paragraf | Total intäkt (kr);;32;0;0;;0;;
@@ -25,9 +25,10 @@ Källa_Kvantitetskoder;visible;15;26;10;DR10 | Dragväg 1,5–10 meter | Taxa_fr
 07_Word_export_senare;visible;300;26;;;;0;0;0;;0;;
 Projektstatus;visible;300;26;1;Delprojekt | Status | Progress/Kommentar;;0;0;0;;0;;
 Dokumentation_Taxepunkter;visible;300;26;9;H | Taxabeskrivning | Automatisk | Taxa_från_edp[strTaxebenamning] | Slår upp Taxakod i Taxa_från_edp kolumn strTaxekod och returnerar strTaxebenamning. | Nej;;3;0;0;;0;;
-Beslutslogg;visible;300;26;1;Datum | Beslut | Konsekvens;;0;0;0;;0;;
+Beslutslogg;visible;301;26;1;Datum | Beslut | Konsekvens;;0;0;0;;0;;
 Färgstandard;visible;300;26;15;Underrubrik i Taxepunkter | #BDD7EE | Rader där A har paragraf+text och B:E är tomma | A:E sammanslaget, hela raden färgad och samma rutnät.;;0;0;0;;0;;
 Dokumentation_Taxa_Saknas;visible;300;26;10;I | Taxepunkt | Arbetskolumn | Taxepunkter | Paragrafnamn / Taxapunkt. | Ja;;0;0;0;;0;;
 Dokumentation_Taxa_från_edp;visible;300;26;3;B | strTaxekod | Primär nyckel för bekräftade taxor | Taxakod i Taxepunkter måste vara exakt värdet härifrån.;;0;0;0;;0;;
 Revision_Etapp1;visible;300;26;4;Taxepunkter kolumnstruktur | Kontrollerad | A:N används med Taxakod, Föreslagen Taxa, Aktuellt pris och Föreslaget pris. | OK;;0;0;0;;0;;
 Revision_Formler_DV;visible;20;4;2;Taxepunkter G | Föreslagen Taxa | OK | Visar Taxakod om F finns, annars XLOOKUP mot Taxa_Saknas intRecnum/H och FöreslagenTaxekod/G.;;0;0;0;;0;;
+00_MasterInfo;visible;14;2;1;Fält | Värde;;0;0;0;;0;;

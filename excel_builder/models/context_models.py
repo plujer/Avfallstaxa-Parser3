@@ -21,6 +21,8 @@ class ParserTaxContext:
     container_context: str = ""
     service_context: str = ""
     inherited_text: str = ""
+    hierarchy_path: str = ""
+    parent_structure_index: int | None = None
     confidence: float = 0.0
     notes: list[str] = field(default_factory=list)
 

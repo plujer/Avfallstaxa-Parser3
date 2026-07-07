@@ -5,9 +5,9 @@ Alla taxor som hittas i Word/parsern ska finnas som egen rad i Taxepunkter.
 EDP-data kompletterar endast raden efteråt.
 
 Parser rows: 241
-REUSE: 78
-CREATE: 136
-REVIEW: 27
+REUSE: 73
+CREATE: 135
+REVIEW: 33
 Coverage plan valid: True
 
 Details:
@@ -15,44 +15,44 @@ Details:
 - REUSE | section+tax_point | 2.1 | Fritidshus | excel_row=8 tax_code=GRUNDFRI | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
 - REUSE | section+tax_point | 2.1 | Verksamhet | excel_row=9 tax_code=GRUNDVHT | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
 - REUSE | section+tax_point | 2.1 | Lägenhet i flerbostadshus | excel_row=10 tax_code=GRUNDFLB | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- REUSE | section+tax_point | 2.1 | Lägenhet för specialändamål | excel_row=11 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- REUSE | section+tax_point | 2.1 | Anläggning | excel_row=12 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- REUSE | section+tax_point | 2.1 | Säsongsbaserad uppställningsplats | excel_row=13 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- REUSE | section+tax_point | 2.1 | Campingstuga/-lägenhet | excel_row=14 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
+- REUSE | section+tax_point | 2.1 | Lägenhet för specialändamål | excel_row=11 tax_code=GRUNDSPEC | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
+- REUSE | section+tax_point | 2.1 | Anläggning | excel_row=12 tax_code=GRUNDANL | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
+- REUSE | section+tax_point | 2.1 | Säsongsbaserad uppställningsplats | excel_row=13 tax_code=GRUNDSÄS | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
+- REUSE | section+tax_point | 2.1 | Campingstuga/-lägenhet | excel_row=14 tax_code=GRUNDCAMP | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
 - REVIEW | multiple section+tax_point rows | 2.2.1 | Kärl 240 l (mat-/restavfall) | excel_row=18 tax_code=KÄ240RM26 | 2 befintliga rader delar paragraf+taxapunkt
 - REVIEW | multiple section+tax_point rows | 2.2.1 | Extrakärl 190 l (restavfall) | excel_row=20 tax_code=KÄ190XRM26 | 2 befintliga rader delar paragraf+taxapunkt
 - REVIEW | multiple section+tax_point rows | 2.2.2 | Kärl 240 l (mat-/restavfall) | excel_row=25 tax_code=KÄ240RM26FRI | 2 befintliga rader delar paragraf+taxapunkt
-- REUSE | section+tax_point | 2.2.2 | Extrakärl 190 l (restavfall) | excel_row=27 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- REUSE | section+tax_point | 2.2.3 | Gemensam uppsamlingsplats för mat-/restavfall | excel_row=32 tax_code=GEMUPPFRI | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- REUSE | section+tax_point | 2.2.3 | Extra digital licens (årskostnad) | excel_row=34 tax_code=GEMUPPEXTRAFRI | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- REUSE | section+tax_point | 2.2.3 | Fysisk nyckel, kallad fob (engångskostnad) | excel_row=35 tax_code=FOBFRI | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- REUSE | section+tax_point | 2.2.3 | Byte av telefonnummer kopplat till licens | excel_row=36 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- REUSE | section+tax_point | 2.2.3 | Kostnad för öppning av behållare | excel_row=37 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
+- REVIEW | multiple section+tax_point rows | 2.2.2 | Extrakärl 190 l (restavfall) | excel_row=27 tax_code=KÄ190XRM26FRI | 2 befintliga rader delar paragraf+taxapunkt
+- REVIEW | multiple section+tax_point rows | 2.2.3 | Gemensam uppsamlingsplats för mat-/restavfall | excel_row=32 tax_code=GEMUPPFRI | 2 befintliga rader delar paragraf+taxapunkt
+- REVIEW | multiple section+tax_point rows | 2.2.3 | Extra digital licens (årskostnad) | excel_row=34 tax_code=GEMUPPEXTRAFRI | 2 befintliga rader delar paragraf+taxapunkt
+- REVIEW | multiple section+tax_point rows | 2.2.3 | Fysisk nyckel, kallad fob (engångskostnad) | excel_row=35 tax_code=FOBFRI | 2 befintliga rader delar paragraf+taxapunkt
+- REUSE | section+tax_point | 2.2.3 | Byte av telefonnummer kopplat till licens | excel_row=36 tax_code=GEMUPPBYTE | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
+- REUSE | section+tax_point | 2.2.3 | Kostnad för öppning av behållare | excel_row=37 tax_code=GEMUPPÖPP | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
 - REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 240 l (mat-/restavfall) | excel_row=40 tax_code=KÄ240RM52FV | 3 befintliga rader delar paragraf+taxapunkt
 - REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 370 l (restavfall) | excel_row=43 tax_code=KÄ370RE52FV | 3 befintliga rader delar paragraf+taxapunkt
 - REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 660 l (restavfall) | excel_row=46 tax_code=KÄ660RE52FV | 3 befintliga rader delar paragraf+taxapunkt
 - REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 140 l (matavfall) | excel_row=49 tax_code=KÄ140MA52FV | 3 befintliga rader delar paragraf+taxapunkt
-- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 190 l (förpackningar) | excel_row=52 tax_code= | 3 befintliga rader delar paragraf+taxapunkt
-- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 370 l (förpackningar) | excel_row=55 tax_code= | 3 befintliga rader delar paragraf+taxapunkt
-- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 660 l (förpackningar) | excel_row=58 tax_code= | 3 befintliga rader delar paragraf+taxapunkt
-- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 190 l (tidningar och returpapper) | excel_row=61 tax_code= | 3 befintliga rader delar paragraf+taxapunkt
-- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 370 l (tidningar och returpapper) | excel_row=64 tax_code= | 3 befintliga rader delar paragraf+taxapunkt
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 190 l (förpackningar) | excel_row=52 tax_code=KÄ190FP52FV | 3 befintliga rader delar paragraf+taxapunkt
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 370 l (förpackningar) | excel_row=55 tax_code=KÄ370FP52FV | 3 befintliga rader delar paragraf+taxapunkt
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 660 l (förpackningar) | excel_row=58 tax_code=KÄ660FP52FV | 3 befintliga rader delar paragraf+taxapunkt
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 190 l (tidningar och returpapper) | excel_row=61 tax_code=KÄ190TI52FV | 3 befintliga rader delar paragraf+taxapunkt
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 370 l (tidningar och returpapper) | excel_row=64 tax_code=KÄ370TI52FV | 3 befintliga rader delar paragraf+taxapunkt
 - CREATE | word tax missing from Taxepunkter | 2.2.4 | (mat-/restavfall, förpackningar) | excel_row= tax_code= | Skapa egen rad i Taxepunkter oavsett EDP-status
 - REVIEW | multiple section+tax_point rows | 2.2.5 | Kärl 240 l (mat-/restavfall) | excel_row=72 tax_code=KÄ240RM52FV | 3 befintliga rader delar paragraf+taxapunkt
 - REVIEW | multiple section+tax_point rows | 2.2.5 | Kärl 370 l (restavfall) | excel_row=75 tax_code=KÄ370RE52FV | 3 befintliga rader delar paragraf+taxapunkt
 - REVIEW | multiple section+tax_point rows | 2.2.5 | Kärl 660 l (restavfall) | excel_row=78 tax_code=KÄ660RE52FV | 3 befintliga rader delar paragraf+taxapunkt
 - REVIEW | multiple section+tax_point rows | 2.2.5 | Kärl 140 l (matavfall) | excel_row=81 tax_code=KÄ140MA52FV | 3 befintliga rader delar paragraf+taxapunkt
-- REUSE | section+tax_point | 2.2.5 | Bottentömmande behållare (mat-/restavfall) | excel_row=86 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- REUSE | section+tax_point | 2.2.5 | Lastväxlarflak (restavfall) | excel_row=85 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 240 l (mat-/restavfall) | excel_row=89 tax_code= | 3 befintliga rader delar paragraf+taxapunkt
-- REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 370 l (restavfall) | excel_row=92 tax_code= | 3 befintliga rader delar paragraf+taxapunkt
-- REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 660 l (restavfall) | excel_row=95 tax_code= | 3 befintliga rader delar paragraf+taxapunkt
-- REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 140 l (matavfall) | excel_row=98 tax_code= | 3 befintliga rader delar paragraf+taxapunkt
-- REUSE | section+tax_point | 2.2.6 | Bottentömmande behållare (mat-/restavfall) | excel_row=103 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- REUSE | section+tax_point | 2.2.6 | Lastväxlarflak (restavfall) | excel_row=102 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- REUSE | section+tax_point | 2.2.7 | Kärl 140 l (kontors-/returpapper) | excel_row=106 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
-- CREATE | word tax missing from Taxepunkter | 2.2.7 | Egen överlämning av förbrukat kontors-/returpapper enligt anvisning | excel_row= tax_code= | Skapa egen rad i Taxepunkter oavsett EDP-status
-- REUSE | section+tax_point | 2.2.7 | Egen överlämning av förbrukat matfett enligt anvisning | excel_row=108 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
+- REVIEW | multiple section+tax_point rows | 2.2.5 | Bottentömmande behållare (mat-/restavfall) | excel_row=86 tax_code=MBRM2VFV | 2 befintliga rader delar paragraf+taxapunkt
+- REUSE | section+tax_point | 2.2.5 | Lastväxlarflak (restavfall) | excel_row=85 tax_code=LVREFV | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
+- REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 240 l (mat-/restavfall) | excel_row=89 tax_code=KÄ240RM52DH | 3 befintliga rader delar paragraf+taxapunkt
+- REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 370 l (restavfall) | excel_row=92 tax_code=KÄ370RE52DH | 3 befintliga rader delar paragraf+taxapunkt
+- REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 660 l (restavfall) | excel_row=95 tax_code=KÄ660RE52DH | 3 befintliga rader delar paragraf+taxapunkt
+- REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 140 l (matavfall) | excel_row=98 tax_code=KÄ140MA52DH | 3 befintliga rader delar paragraf+taxapunkt
+- REVIEW | multiple section+tax_point rows | 2.2.6 | Bottentömmande behållare (mat-/restavfall) | excel_row=103 tax_code=MBRM2VDH | 2 befintliga rader delar paragraf+taxapunkt
+- REUSE | section+tax_point | 2.2.6 | Lastväxlarflak (restavfall) | excel_row=102 tax_code=LVREDH | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
+- REUSE | section+tax_point | 2.2.7 | Kärl 140 l (kontors-/returpapper) | excel_row=106 tax_code=KÄ140TI | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
+- REUSE | section+tax_point | 2.2.7 | Egen överlämning av förbrukat kontors-/returpapper enligt anvisning | excel_row=379 tax_code=EGENKONTRET | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
+- REUSE | section+tax_point | 2.2.7 | Egen överlämning av förbrukat matfett enligt anvisning | excel_row=108 tax_code=EGENMATFETT | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
 - REUSE | section+tax_point | 2.3 | Viktavgift matavfall | excel_row=111 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
 - REUSE | section+tax_point | 2.3 | Viktavgift restavfall | excel_row=112 tax_code= | Word-taxan finns som egen rad; variant/enhet kan kompletteras från Word
 - CREATE | word tax missing from Taxepunkter | 2.3 | Lyftavgift kärl | excel_row= tax_code= | Skapa egen rad i Taxepunkter oavsett EDP-status

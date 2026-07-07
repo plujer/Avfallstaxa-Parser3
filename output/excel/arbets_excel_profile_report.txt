@@ -1,7 +1,7 @@
 Arbets-Excel Profile Report
 
-Workbook: data\ArbetsExcel_Reference.xlsx
-Sheets: 32
+Workbook: data\master_templates\ArbetsExcel_Template_v0.9.4_draft.xlsx
+Sheets: 33
 Warnings: 0
 
 IMPORTANT:
@@ -30,7 +30,7 @@ Columns:
 ====================================================================================================
 Sheet: Taxepunkter
 State: visible
-Rows: 370
+Rows: 379
 Columns: 14
 Frozen panes: 
 Likely header row: 5
@@ -66,20 +66,20 @@ Data validations:
 - type=list sqref=F7:F370 formula1=Taxa_från_edp!$B$2:$B$371
 
 Columns:
-- A (1) header='Paragraf' visible width=14.0 non_empty=366 formulas=0
-- B (2) header='Paragrafnamn' visible width=40.0 non_empty=274 formulas=0
-- C (3) header='Taxapunkt' visible width=42.0 non_empty=272 formulas=0
-- D (4) header='Variant' visible width=30.0 non_empty=153 formulas=0
-- E (5) header='Enhet' visible width=14.0 non_empty=272 formulas=0
-- F (6) header='Taxakod' visible width=18.0 non_empty=28 formulas=0
-- G (7) header='Föreslagen Taxa' visible width=20.0 non_empty=85 formulas=351
-- H (8) header='Taxabeskrivning' visible width=34.0 non_empty=1 formulas=351
-- I (9) header='Faktor' visible width=18.0 non_empty=1 formulas=351
-- J (10) header='Aktuellt pris (exkl m)' visible width=18.0 non_empty=1 formulas=351
+- A (1) header='Paragraf' visible width=14.0 non_empty=375 formulas=0
+- B (2) header='Paragrafnamn' visible width=40.0 non_empty=283 formulas=0
+- C (3) header='Taxapunkt' visible width=42.0 non_empty=281 formulas=0
+- D (4) header='Variant' visible width=30.0 non_empty=158 formulas=0
+- E (5) header='Enhet' visible width=14.0 non_empty=281 formulas=0
+- F (6) header='Taxakod' visible width=18.0 non_empty=89 formulas=0
+- G (7) header='Föreslagen Taxa' visible width=20.0 non_empty=94 formulas=360
+- H (8) header='Taxabeskrivning' visible width=34.0 non_empty=1 formulas=360
+- I (9) header='Faktor' visible width=18.0 non_empty=1 formulas=360
+- J (10) header='Aktuellt pris (exkl m)' visible width=18.0 non_empty=1 formulas=360
 - K (11) header='Föreslaget pris' visible width=18.0 non_empty=1 formulas=0
 - L (12) header='Antal' visible width=12.0 non_empty=1 formulas=0
-- M (13) header='Pris kr (inkl.)' visible width=16.0 non_empty=1 formulas=364
-- N (14) header='Intäkt (kr) exkl' visible width=18.0 non_empty=1 formulas=364
+- M (13) header='Pris kr (inkl.)' visible width=16.0 non_empty=1 formulas=373
+- N (14) header='Intäkt (kr) exkl' visible width=18.0 non_empty=1 formulas=373
 
 ====================================================================================================
 Sheet: Taxepunkter_Rådata
@@ -104,7 +104,7 @@ Columns:
 - D (4) header='Variant' visible width=None non_empty=292 formulas=291
 - E (5) header='Enhet' visible width=None non_empty=292 formulas=291
 - F (6) header='Taxakod' visible width=None non_empty=292 formulas=291
-- G (7) header='Taxabeskrivning' visible width=None non_empty=76 formulas=291
+- G (7) header='Taxabeskrivning' visible width=None non_empty=85 formulas=291
 - H (8) header='Faktor' visible width=None non_empty=1 formulas=291
 - I (9) header='Aktuellt pris (exkl m)' visible width=None non_empty=1 formulas=291
 - J (10) header='Antal' visible width=None non_empty=1 formulas=291
@@ -892,7 +892,7 @@ Columns:
 ====================================================================================================
 Sheet: Beslutslogg
 State: visible
-Rows: 300
+Rows: 301
 Columns: 26
 Frozen panes: 
 Likely header row: 5
@@ -906,9 +906,9 @@ Data validations:
 - none
 
 Columns:
-- A (1) header='2026-07-02' visible width=18.0 non_empty=9 formulas=0
-- B (2) header='Aktuellt pris hämtas bara från Taxa_från_edp' visible width=50.0 non_empty=9 formulas=0
-- C (3) header='Priskolumnen får inte redigeras manuellt.' visible width=90.0 non_empty=9 formulas=0
+- A (1) header='2026-07-02' visible width=18.0 non_empty=10 formulas=0
+- B (2) header='Aktuellt pris hämtas bara från Taxa_från_edp' visible width=50.0 non_empty=10 formulas=0
+- C (3) header='Priskolumnen får inte redigeras manuellt.' visible width=90.0 non_empty=10 formulas=0
 - D (4) header='' visible width=None non_empty=0 formulas=0
 - E (5) header='' visible width=None non_empty=0 formulas=0
 - F (6) header='' visible width=None non_empty=0 formulas=0
@@ -1130,3 +1130,23 @@ Columns:
 - B (2) header='Föreslagen Taxa' visible width=30.0 non_empty=9 formulas=0
 - C (3) header='OK' visible width=16.0 non_empty=9 formulas=0
 - D (4) header='Visar Taxakod om F finns, annars XLOOKUP mot Taxa_Saknas intRecnum/H och FöreslagenTaxekod/G.' visible width=90.0 non_empty=9 formulas=0
+
+====================================================================================================
+Sheet: 00_MasterInfo
+State: visible
+Rows: 14
+Columns: 2
+Frozen panes: 
+Likely header row: 11
+Detected fields: {'tax_point': 'B', 'edp_code': 'B'}
+Merged ranges: 0
+
+Tables:
+- none
+
+Data validations:
+- none
+
+Columns:
+- A (1) header='Viktig regel' visible width=28.0 non_empty=14 formulas=0
+- B (2) header='Taxa_från_edp är facit och får aldrig ändras automatiskt.' visible width=90.0 non_empty=14 formulas=0

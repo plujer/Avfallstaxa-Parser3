@@ -29,7 +29,7 @@ class SemanticCandidateRanker:
 
     AUTO_MATCH_THRESHOLD = 0.98
     STANDARD_PROPOSAL_THRESHOLD = 0.88
-    REVIEW_THRESHOLD = 0.72
+    REVIEW_THRESHOLD = 0.70
 
     def rank(
         self,

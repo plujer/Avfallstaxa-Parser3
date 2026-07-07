@@ -1,0 +1,26 @@
+Document Structure Engine Report
+
+Status: Klassificerar parserrader innan semantik och beslut.
+Taxa_från_edp ändras inte. Originalparserrader bevaras.
+Rows: 241
+SECTION: 4
+SUBSECTION: 8
+TABLE_HEADER: 0
+TABLE_ROW: 0
+TAX_NODE: 229
+NOTE: 0
+Warnings: 0
+
+Non-tax structure examples:
+- 1: SUBSECTION | 2.1 | En- och tvåbostadshus | Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+- 2: SUBSECTION | 2.1 | Fritidshus | Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+- 3: SUBSECTION | 2.1 | Verksamhet | Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+- 4: SUBSECTION | 2.1 | Lägenhet i flerbostadshus | Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+- 5: SUBSECTION | 2.1 | Lägenhet för specialändamål | Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+- 6: SUBSECTION | 2.1 | Anläggning | Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+- 7: SUBSECTION | 2.1 | Säsongsbaserad uppställningsplats | Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+- 8: SUBSECTION | 2.1 | Campingstuga/-lägenhet | Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+- 141: SECTION | 6.1.2 | Fönster med karm | Kort rubrikrad utan enhet/pris/taxetermer.
+- 152: SECTION | 6.1.2 | Jord | Kort rubrikrad utan enhet/pris/taxetermer.
+- 153: SECTION | 6.1.2 | Sten | Kort rubrikrad utan enhet/pris/taxetermer.
+- 154: SECTION | 6.1.2 | Stubbar/rötter för krossning | Kort rubrikrad utan enhet/pris/taxetermer.

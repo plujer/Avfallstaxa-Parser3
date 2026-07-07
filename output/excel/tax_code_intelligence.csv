@@ -3,6 +3,7 @@
 370REST;;;370;RE;Restavfall;;ST;;370RE;0.50;Kunde inte identifiera prefix.
 660REST;;;660;RE;Restavfall;;ST;;660RE;0.50;Kunde inte identifiera prefix.
 ABSORBERING;;;;;;;ABSORBERING;;;0.10;Kunde inte identifiera prefix.
+ADMINDISP;;;;;;;ADMINDISP;;;0.10;Kunde inte identifiera prefix.
 AEROSOLER;;;;;;;AEROSOLER;;;0.10;Kunde inte identifiera prefix.
 AEROSOLERFÄRG;;;;;;;AEROSOLERFÄRG;;;0.10;Kunde inte identifiera prefix.
 AEROSOLERHÄRD;;;;;;;AEROSOLERHÄRD;;;0.10;Kunde inte identifiera prefix.
@@ -99,6 +100,8 @@ CONTAINERRE;CON;Container;;;;;TAINERRE;;CON;0.50;
 CYTOTOXISKA;;;;;;;CYTOTOXISKA;;;0.10;Kunde inte identifiera prefix.
 DEPONIREST;;;;;;;DEPONIREST;;;0.10;Kunde inte identifiera prefix.
 Dummy SMS;;;;;;;DUMMYSMS;;;0.10;Kunde inte identifiera prefix.
+EGENKONTRET;;;;;;;EGENKONTRET;;;0.10;Kunde inte identifiera prefix.
+EGENMATFETT;;;;;;;EGENMATFETT;;;0.10;Kunde inte identifiera prefix.
 EJKLASSFA;;;;;;;EJKLASSFA;;;0.10;Kunde inte identifiera prefix.
 EJSPECFA;;;;;;;EJSPECFA;;;0.10;Kunde inte identifiera prefix.
 ELEKTRONIK;;;;;;;ELEKTRONIK;;;0.10;Kunde inte identifiera prefix.
@@ -159,17 +162,28 @@ FÄRGVATTEN;;;;;;;FÄRGVATTEN;;;0.10;Kunde inte identifiera prefix.
 FÖRGÄV;;;;;;;FÖRGÄV;;;0.10;Kunde inte identifiera prefix.
 GASOL;;;;;;;GASOL;;;0.10;Kunde inte identifiera prefix.
 GEMKÄFRI;;;;;;;GEMKÄFRI;;;0.10;Kunde inte identifiera prefix.
+GEMUPPBYTE;;;;;;;GEMUPPBYTE;;;0.10;Kunde inte identifiera prefix.
+GEMUPPEXTRA;;;;;;;GEMUPPEXTRA;;;0.10;Kunde inte identifiera prefix.
 GEMUPPEXTRAFRI;;;;;;;GEMUPPEXTRAFRI;;;0.10;Kunde inte identifiera prefix.
+GEMUPPFOB;;;;;;;GEMUPPFOB;;;0.10;Kunde inte identifiera prefix.
+GEMUPPFPFRI;;;;;;;GEMUPPFPFRI;;;0.10;Kunde inte identifiera prefix.
 GEMUPPFRI;;;;;;;GEMUPPFRI;;;0.10;Kunde inte identifiera prefix.
 GEMUPPFRINYCKEL;;;;;;;GEMUPPFRINYCKEL;;;0.10;Kunde inte identifiera prefix.
 GEMUPPFÖRPFLB;;;;;;;GEMUPPFÖRPFLB;;;0.10;Kunde inte identifiera prefix.
+GEMUPPMR;;;;;;;GEMUPPMR;;;0.10;Kunde inte identifiera prefix.
+GEMUPPMRFPFLB;;;;;;;GEMUPPMRFPFLB;;;0.10;Kunde inte identifiera prefix.
 GEMUPPORDFRI;;;;;;;GEMUPPORDFRI;;;0.10;Kunde inte identifiera prefix.
+GEMUPPÖPP;;;;;;;GEMUPPÖPP;;;0.10;Kunde inte identifiera prefix.
 GRBUD;;;;;;;GRBUD;;;0.10;Kunde inte identifiera prefix.
 GROVAVFALL;;;;;;;GROVAVFALL;;;0.10;Kunde inte identifiera prefix.
 GROVBUD;;;;;;;GROVBUD;;;0.10;Kunde inte identifiera prefix.
+GRUNDANL;;;;;;;GRUNDANL;;;0.10;Kunde inte identifiera prefix.
+GRUNDCAMP;;;;;;;GRUNDCAMP;;;0.10;Kunde inte identifiera prefix.
 GRUNDFLB;;;;;;;GRUNDFLB;;;0.10;Kunde inte identifiera prefix.
 GRUNDFRI;;;;;;;GRUNDFRI;;;0.10;Kunde inte identifiera prefix.
 GRUNDSMÅ;;;;;;;GRUNDSMÅ;;;0.10;Kunde inte identifiera prefix.
+GRUNDSPEC;;;;;;;GRUNDSPEC;;;0.10;Kunde inte identifiera prefix.
+GRUNDSÄS;;;;;;;GRUNDSÄS;;;0.10;Kunde inte identifiera prefix.
 GRUNDVHT;;;;;;;GRUNDVHT;;;0.10;Kunde inte identifiera prefix.
 HALONGAS;;;;;;;HALONGAS;;;0.10;Kunde inte identifiera prefix.
 HBL;;;;;;;HBL;;;0.10;Kunde inte identifiera prefix.
@@ -207,13 +221,17 @@ KYLDISKAR;;;;;;;KYLDISKAR;;;0.10;Kunde inte identifiera prefix.
 KYLMÖBLER;;;;;;;KYLMÖBLER;;;0.10;Kunde inte identifiera prefix.
 KÄ140MA104;KÄ;Kärl;140;MA;Matavfall;104;;;KÄ140MA;0.95;
 KÄ140MA11S;KÄ;Kärl;140;MA;Matavfall;11;S;;KÄ140MA;1.00;
+KÄ140MA12DH;KÄ;Kärl;140;MA;Matavfall;12;DH;;KÄ140MA;1.00;
+KÄ140MA12FV;KÄ;Kärl;140;MA;Matavfall;12;FV;;KÄ140MA;1.00;
 KÄ140MA13;KÄ;Kärl;140;MA;Matavfall;13;;;KÄ140MA;0.95;
 KÄ140MA156;KÄ;Kärl;140;MA;Matavfall;156;;;KÄ140MA;0.95;
 KÄ140MA22S;KÄ;Kärl;140;MA;Matavfall;22;S;;KÄ140MA;1.00;
 KÄ140MA26;KÄ;Kärl;140;MA;Matavfall;26;;;KÄ140MA;0.95;
+KÄ140MA26DH;KÄ;Kärl;140;MA;Matavfall;26;DH;;KÄ140MA;1.00;
 KÄ140MA26FV;KÄ;Kärl;140;MA;Matavfall;26;FV;;KÄ140MA;1.00;
 KÄ140MA44S;KÄ;Kärl;140;MA;Matavfall;44;S;;KÄ140MA;1.00;
 KÄ140MA52;KÄ;Kärl;140;MA;Matavfall;52;;;KÄ140MA;0.95;
+KÄ140MA52DH;KÄ;Kärl;140;MA;Matavfall;52;DH;;KÄ140MA;1.00;
 KÄ140MA52FV;KÄ;Kärl;140;MA;Matavfall;52;FV;;KÄ140MA;1.00;
 KÄ140MA6S;KÄ;Kärl;140;MA;Matavfall;6;S;;KÄ140MA;1.00;
 KÄ140OS104;KÄ;Kärl;140;;;;;OS104;KÄ140;0.60;Okänd suffix: OS104
@@ -237,6 +255,10 @@ KÄ140RE26V;KÄ;Kärl;140;RE;Restavfall;26;V;;KÄ140RE;1.00;
 KÄ140RE44S;KÄ;Kärl;140;RE;Restavfall;44;S;;KÄ140RE;1.00;
 KÄ140RE52;KÄ;Kärl;140;RE;Restavfall;52;;;KÄ140RE;0.95;
 KÄ140RE6S;KÄ;Kärl;140;RE;Restavfall;6;S;;KÄ140RE;1.00;
+KÄ140TI;KÄ;Kärl;140;TI;Tidningar;;;;KÄ140TI;0.85;
+KÄ190FP12FV;KÄ;Kärl;190;;;;;FP12FV;KÄ190;0.60;Okänd suffix: FP12FV
+KÄ190FP26FV;KÄ;Kärl;190;;;;;FP26FV;KÄ190;0.60;Okänd suffix: FP26FV
+KÄ190FP52FV;KÄ;Kärl;190;;;;;FP52FV;KÄ190;0.60;Okänd suffix: FP52FV
 KÄ190MA104;KÄ;Kärl;190;MA;Matavfall;104;;;KÄ190MA;0.95;
 KÄ190MA11S;KÄ;Kärl;190;MA;Matavfall;11;S;;KÄ190MA;1.00;
 KÄ190MA13;KÄ;Kärl;190;MA;Matavfall;13;;;KÄ190MA;0.95;
@@ -280,9 +302,12 @@ KÄ190RE44S;KÄ;Kärl;190;RE;Restavfall;44;S;;KÄ190RE;1.00;
 KÄ190RE52;KÄ;Kärl;190;RE;Restavfall;52;;;KÄ190RE;0.95;
 KÄ190RE6S;KÄ;Kärl;190;RE;Restavfall;6;S;;KÄ190RE;1.00;
 KÄ190TI104;KÄ;Kärl;190;TI;Tidningar;104;;;KÄ190TI;0.95;
+KÄ190TI12FV;KÄ;Kärl;190;TI;Tidningar;12;FV;;KÄ190TI;1.00;
 KÄ190TI13;KÄ;Kärl;190;TI;Tidningar;13;;;KÄ190TI;0.95;
 KÄ190TI26;KÄ;Kärl;190;TI;Tidningar;26;;;KÄ190TI;0.95;
+KÄ190TI26FV;KÄ;Kärl;190;TI;Tidningar;26;FV;;KÄ190TI;1.00;
 KÄ190TI52;KÄ;Kärl;190;TI;Tidningar;52;;;KÄ190TI;0.95;
+KÄ190TI52FV;KÄ;Kärl;190;TI;Tidningar;52;FV;;KÄ190TI;1.00;
 KÄ190TIBUD;KÄ;Kärl;190;TI;Tidningar;;BUD;;KÄ190TI;0.90;
 KÄ190WE104;KÄ;Kärl;190;;;;;WE104;KÄ190;0.60;Okänd suffix: WE104
 KÄ190WE13;KÄ;Kärl;190;;;;;WE13;KÄ190;0.60;Okänd suffix: WE13
@@ -291,7 +316,10 @@ KÄ190WE26F;KÄ;Kärl;190;;;;;WE26F;KÄ190;0.60;Okänd suffix: WE26F
 KÄ190WE26V;KÄ;Kärl;190;;;;;WE26V;KÄ190;0.60;Okänd suffix: WE26V
 KÄ190WE52;KÄ;Kärl;190;;;;;WE52;KÄ190;0.60;Okänd suffix: WE52
 KÄ190WEBUD;KÄ;Kärl;190;;;;WEBUD;;KÄ190;0.70;
+KÄ190XRM12;KÄ;Kärl;190;;;;;XRM12;KÄ190;0.60;Okänd suffix: XRM12
+KÄ190XRM12FRI;KÄ;Kärl;190;;;;;XRM12FRI;KÄ190;0.60;Okänd suffix: XRM12FRI
 KÄ190XRM26;KÄ;Kärl;190;;;;;XRM26;KÄ190;0.60;Okänd suffix: XRM26
+KÄ190XRM26FRI;KÄ;Kärl;190;;;;;XRM26FRI;KÄ190;0.60;Okänd suffix: XRM26FRI
 KÄ190XRM26FV;KÄ;Kärl;190;;;;;XRM26FV;KÄ190;0.60;Okänd suffix: XRM26FV
 KÄ240MA104;KÄ;Kärl;240;MA;Matavfall;104;;;KÄ240MA;0.95;
 KÄ240MA11S;KÄ;Kärl;240;MA;Matavfall;11;S;;KÄ240MA;1.00;
@@ -322,9 +350,15 @@ KÄ240RE52;KÄ;Kärl;240;RE;Restavfall;52;;;KÄ240RE;0.95;
 KÄ240RE6S;KÄ;Kärl;240;RE;Restavfall;6;S;;KÄ240RE;1.00;
 KÄ240RK26;KÄ;Kärl;240;;;;;RK26;KÄ240;0.60;Okänd suffix: RK26
 KÄ240RK26FRI;KÄ;Kärl;240;;;;;RK26FRI;KÄ240;0.60;Okänd suffix: RK26FRI
+KÄ240RM12;KÄ;Kärl;240;RM;Rest-/matavfall;12;;;KÄ240RM;0.95;
+KÄ240RM12DH;KÄ;Kärl;240;RM;Rest-/matavfall;12;DH;;KÄ240RM;1.00;
+KÄ240RM12FRI;KÄ;Kärl;240;RM;Rest-/matavfall;12;FRI;;KÄ240RM;1.00;
+KÄ240RM12FV;KÄ;Kärl;240;RM;Rest-/matavfall;12;FV;;KÄ240RM;1.00;
 KÄ240RM26;KÄ;Kärl;240;RM;Rest-/matavfall;26;;;KÄ240RM;0.95;
+KÄ240RM26DH;KÄ;Kärl;240;RM;Rest-/matavfall;26;DH;;KÄ240RM;1.00;
 KÄ240RM26FRI;KÄ;Kärl;240;RM;Rest-/matavfall;26;FRI;;KÄ240RM;1.00;
 KÄ240RM26FV;KÄ;Kärl;240;RM;Rest-/matavfall;26;FV;;KÄ240RM;1.00;
+KÄ240RM52DH;KÄ;Kärl;240;RM;Rest-/matavfall;52;DH;;KÄ240RM;1.00;
 KÄ240RM52FV;KÄ;Kärl;240;RM;Rest-/matavfall;52;FV;;KÄ240RM;1.00;
 KÄ370FF111S;KÄ;Kärl;370;;;;;FF111S;KÄ370;0.60;Okänd suffix: FF111S
 KÄ370FF113;KÄ;Kärl;370;;;;;FF113;KÄ370;0.60;Okänd suffix: FF113
@@ -333,6 +367,11 @@ KÄ370FF16S;KÄ;Kärl;370;;;;;FF16S;KÄ370;0.60;Okänd suffix: FF16S
 KÄ370FF213;KÄ;Kärl;370;;;;;FF213;KÄ370;0.60;Okänd suffix: FF213
 KÄ370FF226;KÄ;Kärl;370;;;;;FF226;KÄ370;0.60;Okänd suffix: FF226
 KÄ370FF26S;KÄ;Kärl;370;;;;;FF26S;KÄ370;0.60;Okänd suffix: FF26S
+KÄ370FP;KÄ;Kärl;370;;;;FP;;KÄ370;0.70;
+KÄ370FP12FV;KÄ;Kärl;370;;;;;FP12FV;KÄ370;0.60;Okänd suffix: FP12FV
+KÄ370FP26FV;KÄ;Kärl;370;;;;;FP26FV;KÄ370;0.60;Okänd suffix: FP26FV
+KÄ370FP52FV;KÄ;Kärl;370;;;;;FP52FV;KÄ370;0.60;Okänd suffix: FP52FV
+KÄ370FPFRI;KÄ;Kärl;370;;;;FPFRI;;KÄ370;0.70;
 KÄ370MA104;KÄ;Kärl;370;MA;Matavfall;104;;;KÄ370MA;0.95;
 KÄ370MA11S;KÄ;Kärl;370;MA;Matavfall;11;S;;KÄ370MA;1.00;
 KÄ370MA13;KÄ;Kärl;370;MA;Matavfall;13;;;KÄ370MA;0.95;
@@ -368,19 +407,26 @@ KÄ370PL52;KÄ;Kärl;370;PL;Plastförpackningar;52;;;KÄ370PL;0.95;
 KÄ370PLBUD;KÄ;Kärl;370;PL;Plastförpackningar;;BUD;;KÄ370PL;0.90;
 KÄ370RE104;KÄ;Kärl;370;RE;Restavfall;104;;;KÄ370RE;0.95;
 KÄ370RE11S;KÄ;Kärl;370;RE;Restavfall;11;S;;KÄ370RE;1.00;
+KÄ370RE12DH;KÄ;Kärl;370;RE;Restavfall;12;DH;;KÄ370RE;1.00;
+KÄ370RE12FV;KÄ;Kärl;370;RE;Restavfall;12;FV;;KÄ370RE;1.00;
 KÄ370RE13;KÄ;Kärl;370;RE;Restavfall;13;;;KÄ370RE;0.95;
 KÄ370RE156;KÄ;Kärl;370;RE;Restavfall;156;;;KÄ370RE;0.95;
 KÄ370RE22S;KÄ;Kärl;370;RE;Restavfall;22;S;;KÄ370RE;1.00;
 KÄ370RE26;KÄ;Kärl;370;RE;Restavfall;26;;;KÄ370RE;0.95;
+KÄ370RE26DH;KÄ;Kärl;370;RE;Restavfall;26;DH;;KÄ370RE;1.00;
 KÄ370RE26FV;KÄ;Kärl;370;RE;Restavfall;26;FV;;KÄ370RE;1.00;
 KÄ370RE44S;KÄ;Kärl;370;RE;Restavfall;44;S;;KÄ370RE;1.00;
 KÄ370RE52;KÄ;Kärl;370;RE;Restavfall;52;;;KÄ370RE;0.95;
+KÄ370RE52DH;KÄ;Kärl;370;RE;Restavfall;52;DH;;KÄ370RE;1.00;
 KÄ370RE52FV;KÄ;Kärl;370;RE;Restavfall;52;FV;;KÄ370RE;1.00;
 KÄ370RE6S;KÄ;Kärl;370;RE;Restavfall;6;S;;KÄ370RE;1.00;
 KÄ370TI104;KÄ;Kärl;370;TI;Tidningar;104;;;KÄ370TI;0.95;
+KÄ370TI12FV;KÄ;Kärl;370;TI;Tidningar;12;FV;;KÄ370TI;1.00;
 KÄ370TI13;KÄ;Kärl;370;TI;Tidningar;13;;;KÄ370TI;0.95;
 KÄ370TI26;KÄ;Kärl;370;TI;Tidningar;26;;;KÄ370TI;0.95;
+KÄ370TI26FV;KÄ;Kärl;370;TI;Tidningar;26;FV;;KÄ370TI;1.00;
 KÄ370TI52;KÄ;Kärl;370;TI;Tidningar;52;;;KÄ370TI;0.95;
+KÄ370TI52FV;KÄ;Kärl;370;TI;Tidningar;52;FV;;KÄ370TI;1.00;
 KÄ370TIBUD;KÄ;Kärl;370;TI;Tidningar;;BUD;;KÄ370TI;0.90;
 KÄ370WE104;KÄ;Kärl;370;;;;;WE104;KÄ370;0.60;Okänd suffix: WE104
 KÄ370WE13;KÄ;Kärl;370;;;;;WE13;KÄ370;0.60;Okänd suffix: WE13
@@ -392,6 +438,9 @@ KÄ37LA12;KÄ;Kärl;37;;;;;LA12;KÄ37;0.60;Okänd suffix: LA12
 KÄ37LA26;KÄ;Kärl;37;;;;;LA26;KÄ37;0.60;Okänd suffix: LA26
 KÄ37LA6S;KÄ;Kärl;37;;;;;LA6S;KÄ37;0.60;Okänd suffix: LA6S
 KÄ50HL;KÄ;Kärl;50;;;;HL;;KÄ50;0.70;
+KÄ660FP12FV;KÄ;Kärl;660;;;;;FP12FV;KÄ660;0.60;Okänd suffix: FP12FV
+KÄ660FP26FV;KÄ;Kärl;660;;;;;FP26FV;KÄ660;0.60;Okänd suffix: FP26FV
+KÄ660FP52FV;KÄ;Kärl;660;;;;;FP52FV;KÄ660;0.60;Okänd suffix: FP52FV
 KÄ660ME104;KÄ;Kärl;660;ME;Metallförpackningar;104;;;KÄ660ME;0.95;
 KÄ660ME13;KÄ;Kärl;660;ME;Metallförpackningar;13;;;KÄ660ME;0.95;
 KÄ660ME26;KÄ;Kärl;660;ME;Metallförpackningar;26;;;KÄ660ME;0.95;
@@ -419,14 +468,18 @@ KÄ660PLBUD;KÄ;Kärl;660;PL;Plastförpackningar;;BUD;;KÄ660PL;0.90;
 KÄ660RE026;KÄ;Kärl;660;RE;Restavfall;026;;;KÄ660RE;0.95;
 KÄ660RE104;KÄ;Kärl;660;RE;Restavfall;104;;;KÄ660RE;0.95;
 KÄ660RE11S;KÄ;Kärl;660;RE;Restavfall;11;S;;KÄ660RE;1.00;
+KÄ660RE12DH;KÄ;Kärl;660;RE;Restavfall;12;DH;;KÄ660RE;1.00;
+KÄ660RE12FV;KÄ;Kärl;660;RE;Restavfall;12;FV;;KÄ660RE;1.00;
 KÄ660RE13;KÄ;Kärl;660;RE;Restavfall;13;;;KÄ660RE;0.95;
 KÄ660RE13D2;KÄ;Kärl;660;RE;Restavfall;13;;D2;KÄ660RE;0.90;Okänd suffix: D2
 KÄ660RE156;KÄ;Kärl;660;RE;Restavfall;156;;;KÄ660RE;0.95;
 KÄ660RE22S;KÄ;Kärl;660;RE;Restavfall;22;S;;KÄ660RE;1.00;
+KÄ660RE26DH;KÄ;Kärl;660;RE;Restavfall;26;DH;;KÄ660RE;1.00;
 KÄ660RE26FV;KÄ;Kärl;660;RE;Restavfall;26;FV;;KÄ660RE;1.00;
 KÄ660RE44S;KÄ;Kärl;660;RE;Restavfall;44;S;;KÄ660RE;1.00;
 KÄ660RE44SD4;KÄ;Kärl;660;RE;Restavfall;44;;SD4;KÄ660RE;0.90;Okänd suffix: SD4
 KÄ660RE52;KÄ;Kärl;660;RE;Restavfall;52;;;KÄ660RE;0.95;
+KÄ660RE52DH;KÄ;Kärl;660;RE;Restavfall;52;DH;;KÄ660RE;1.00;
 KÄ660RE52FV;KÄ;Kärl;660;RE;Restavfall;52;FV;;KÄ660RE;1.00;
 KÄ660RE6S;KÄ;Kärl;660;RE;Restavfall;6;S;;KÄ660RE;1.00;
 KÄ660TI104;KÄ;Kärl;660;TI;Tidningar;104;;;KÄ660TI;0.95;
@@ -459,6 +512,8 @@ LATRINBEHÅLL;;;;;;;LATRINBEHÅLL;;;0.10;Kunde inte identifiera prefix.
 LATRINBUD;;;;;;;LATRINBUD;;;0.10;Kunde inte identifiera prefix.
 LATRINKÖP;;;;;;;LATRINKÖP;;;0.10;Kunde inte identifiera prefix.
 LD06BR13;;;;;;;;LD06BR13;;0.00;Okänd suffix: LD06BR13 | Kunde inte identifiera prefix.
+LVREDH;;;;;;;LVREDH;;;0.10;Kunde inte identifiera prefix.
+LVREFV;;;;;;;LVREFV;;;0.10;Kunde inte identifiera prefix.
 LÖSNINGSMEDEL;;;;;;;LÖSNINGSMEDEL;;;0.10;Kunde inte identifiera prefix.
 LÖSTKBMBUD;;;;;;;LÖSTKBMBUD;;;0.10;Kunde inte identifiera prefix.
 MANUELLSORT;;;;MA;Matavfall;;NUELLSORT;;MA;0.30;Kunde inte identifiera prefix.
@@ -524,6 +579,12 @@ MB800MA13;;;;;;;;MB800MA13;;0.00;Okänd suffix: MB800MA13 | Kunde inte identifie
 MB800MA26;;;;;;;;MB800MA26;;0.00;Okänd suffix: MB800MA26 | Kunde inte identifiera prefix.
 MB800MA52;;;;;;;;MB800MA52;;0.00;Okänd suffix: MB800MA52 | Kunde inte identifiera prefix.
 MB800MABUD;;;;;;;;MB800MABUD;;0.00;Okänd suffix: MB800MABUD | Kunde inte identifiera prefix.
+MBRM2VDH;;;;;;;;MBRM2VDH;;0.00;Okänd suffix: MBRM2VDH | Kunde inte identifiera prefix.
+MBRM2VFV;;;;;;;;MBRM2VFV;;0.00;Okänd suffix: MBRM2VFV | Kunde inte identifiera prefix.
+MBRMDH;;;;;;;MBRMDH;;;0.10;Kunde inte identifiera prefix.
+MBRMFP2VFV;;;;;;;;MBRMFP2VFV;;0.00;Okänd suffix: MBRMFP2VFV | Kunde inte identifiera prefix.
+MBRMFPFV;;;;;;;MBRMFPFV;;;0.10;Kunde inte identifiera prefix.
+MBRMFV;;;;;;;MBRMFV;;;0.10;Kunde inte identifiera prefix.
 METALLFÖRPFA;;;;ME;Metallförpackningar;;TALLFÖRPFA;;ME;0.30;Kunde inte identifiera prefix.
 METALLSKROTREN;;;;ME;Metallförpackningar;;TALLSKROTREN;;ME;0.30;Kunde inte identifiera prefix.
 MOBGEMFRI;;;;;;;MOBGEMFRI;;;0.10;Kunde inte identifiera prefix.

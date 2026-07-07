@@ -3,19 +3,19 @@ PROBABLE;section+tax_point;0.900;2.1;En- och tvåbostadshus;;;7;En- och tvåbost
 PROBABLE;section+tax_point;0.900;2.1;Fritidshus;;;8;Fritidshus;;st/år;GRUNDFRI;Variant/enhet skiljer eller saknas
 PROBABLE;section+tax_point;0.900;2.1;Verksamhet;;;9;Verksamhet;;st/år;GRUNDVHT;Variant/enhet skiljer eller saknas
 PROBABLE;section+tax_point;0.900;2.1;Lägenhet i flerbostadshus;;lägenhet;10;Lägenhet i flerbostadshus;;st/år;GRUNDFLB;Variant/enhet skiljer eller saknas
-PROBABLE;section+tax_point;0.900;2.1;Lägenhet för specialändamål;;lägenhet;11;Lägenhet för specialändamål;;st/år;;Variant/enhet skiljer eller saknas
-PROBABLE;section+tax_point;0.900;2.1;Anläggning;;;12;Anläggning;;st/år;;Variant/enhet skiljer eller saknas
-PROBABLE;section+tax_point;0.900;2.1;Säsongsbaserad uppställningsplats;;;13;Säsongsbaserad uppställningsplats;;st/år;;Variant/enhet skiljer eller saknas
-PROBABLE;section+tax_point;0.900;2.1;Campingstuga/-lägenhet;;lägenhet;14;Campingstuga/-lägenhet;;st/år;;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.1;Lägenhet för specialändamål;;lägenhet;11;Lägenhet för specialändamål;;st/år;GRUNDSPEC;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.1;Anläggning;;;12;Anläggning;;st/år;GRUNDANL;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.1;Säsongsbaserad uppställningsplats;;;13;Säsongsbaserad uppställningsplats;;st/år;GRUNDSÄS;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.1;Campingstuga/-lägenhet;;lägenhet;14;Campingstuga/-lägenhet;;st/år;GRUNDCAMP;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.2.1;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.1;Extrakärl 190 l (restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.2;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
-PROBABLE;section+tax_point;0.900;2.2.2;Extrakärl 190 l (restavfall);;;27;Extrakärl 190 l (restavfall);Hämtning var 14:e dag;st/år;;Variant/enhet skiljer eller saknas
-PROBABLE;section+tax_point;0.900;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;32;Gemensam uppsamlingsplats för mat-/restavfall;;st/år;GEMUPPFRI;Variant/enhet skiljer eller saknas
-PROBABLE;section+tax_point;0.900;2.2.3;Extra digital licens (årskostnad);;;34;Extra digital licens (årskostnad);;st/år;GEMUPPEXTRAFRI;Variant/enhet skiljer eller saknas
-PROBABLE;section+tax_point;0.900;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;35;Fysisk nyckel, kallad fob (engångskostnad);;st/tillfälle;FOBFRI;Variant/enhet skiljer eller saknas
-PROBABLE;section+tax_point;0.900;2.2.3;Byte av telefonnummer kopplat till licens;;;36;Byte av telefonnummer kopplat till licens;;st/tillfälle;;Variant/enhet skiljer eller saknas
-PROBABLE;section+tax_point;0.900;2.2.3;Kostnad för öppning av behållare;;;37;Kostnad för öppning av behållare;;st/tillfälle;;Variant/enhet skiljer eller saknas
+NEW;no match;0.000;2.2.2;Extrakärl 190 l (restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.3;Extra digital licens (årskostnad);;;;;;;;Ny rad behövs i Arbets-Excel
+NEW;no match;0.000;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.2.3;Byte av telefonnummer kopplat till licens;;;36;Byte av telefonnummer kopplat till licens;;st/tillfälle;GEMUPPBYTE;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.2.3;Kostnad för öppning av behållare;;;37;Kostnad för öppning av behållare;;st/tillfälle;GEMUPPÖPP;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.2.4;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.4;Kärl 370 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.4;Kärl 660 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
@@ -30,17 +30,17 @@ NEW;no match;0.000;2.2.5;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behöv
 NEW;no match;0.000;2.2.5;Kärl 370 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.5;Kärl 660 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.5;Kärl 140 l (matavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
-PROBABLE;section+tax_point;0.900;2.2.5;Bottentömmande behållare (mat-/restavfall);;;86;Bottentömmande behållare (mat-/restavfall);Tillägg för två tömningar per vecka;st/tömning;;Variant/enhet skiljer eller saknas
-PROBABLE;section+tax_point;0.900;2.2.5;Lastväxlarflak (restavfall);;;85;Lastväxlarflak (restavfall);Avgift per tömning;st/tömning;;Variant/enhet skiljer eller saknas
+NEW;no match;0.000;2.2.5;Bottentömmande behållare (mat-/restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.2.5;Lastväxlarflak (restavfall);;;85;Lastväxlarflak (restavfall);Avgift per tömning;st/tömning;LVREFV;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.2.6;Kärl 240 l (mat-/restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.6;Kärl 370 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.6;Kärl 660 l (restavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
 NEW;no match;0.000;2.2.6;Kärl 140 l (matavfall);;kärl;;;;;;Ny rad behövs i Arbets-Excel
-PROBABLE;section+tax_point;0.900;2.2.6;Bottentömmande behållare (mat-/restavfall);;;103;Bottentömmande behållare (mat-/restavfall);Tillägg för två tömningar per vecka;st/tömning;;Variant/enhet skiljer eller saknas
-PROBABLE;section+tax_point;0.900;2.2.6;Lastväxlarflak (restavfall);;;102;Lastväxlarflak (restavfall);Avgift per tömning;st/tömning;;Variant/enhet skiljer eller saknas
-PROBABLE;section+tax_point;0.900;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;106;Kärl 140 l (kontors-/returpapper);;st/år;;Variant/enhet skiljer eller saknas
-NEW;no match;0.000;2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;;;;;;Ny rad behövs i Arbets-Excel
-PROBABLE;section+tax_point;0.900;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;108;Egen överlämning av förbrukat matfett enligt anvisning;;st/år;;Variant/enhet skiljer eller saknas
+NEW;no match;0.000;2.2.6;Bottentömmande behållare (mat-/restavfall);;;;;;;;Ny rad behövs i Arbets-Excel
+PROBABLE;section+tax_point;0.900;2.2.6;Lastväxlarflak (restavfall);;;102;Lastväxlarflak (restavfall);Avgift per tömning;st/tömning;LVREDH;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;106;Kärl 140 l (kontors-/returpapper);;st/år;KÄ140TI;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;379;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;st/år;EGENKONTRET;Variant/enhet skiljer eller saknas
+PROBABLE;section+tax_point;0.900;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;108;Egen överlämning av förbrukat matfett enligt anvisning;;st/år;EGENMATFETT;Variant/enhet skiljer eller saknas
 PROBABLE;section+tax_point;0.900;2.3;Viktavgift matavfall;;;111;Viktavgift matavfall;;kr/kg;;Variant/enhet skiljer eller saknas
 PROBABLE;section+tax_point;0.900;2.3;Viktavgift restavfall;;;112;Viktavgift restavfall;;kr/kg;;Variant/enhet skiljer eller saknas
 NEW;no match;0.000;2.3;Lyftavgift kärl;;kärl;;;;;;Ny rad behövs i Arbets-Excel

@@ -1,9 +1,9 @@
 Taxepunkter row plan klar
 Parser rows: 241
-Workbook rows: 271
-REUSE: 78
-CREATE: 136
-REVIEW: 27
+Workbook rows: 280
+REUSE: 73
+CREATE: 135
+REVIEW: 33
 Coverage plan valid: True
 TXT: output\excel\taxepunkter_row_plan_report.txt
 CSV: output\excel\taxepunkter_row_plan.csv

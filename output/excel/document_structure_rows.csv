@@ -1,0 +1,242 @@
+﻿Index;Row type;Section;Tax point;Variant;Unit;Price;Parent index;Level;Confidence;Reason
+1;SUBSECTION;2.1;En- och tvåbostadshus;;;1 650,00 kr;;2;0.96;Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+2;SUBSECTION;2.1;Fritidshus;;;XX kr;;2;0.96;Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+3;SUBSECTION;2.1;Verksamhet;;;XX kr;;2;0.96;Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+4;SUBSECTION;2.1;Lägenhet i flerbostadshus;;lägenhet;XX kr;;2;0.96;Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+5;SUBSECTION;2.1;Lägenhet för specialändamål;;lägenhet;XX kr;;2;0.96;Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+6;SUBSECTION;2.1;Anläggning;;;XX kr;;2;0.96;Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+7;SUBSECTION;2.1;Säsongsbaserad uppställningsplats;;;XX kr;;2;0.96;Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+8;SUBSECTION;2.1;Campingstuga/-lägenhet;;lägenhet;XX kr;;2;0.96;Känd dokumentrubrik/fastighetstyp, inte taxepunkt.
+9;TAX_NODE;2.2.1;Kärl 240 l (mat-/restavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+10;TAX_NODE;2.2.1;Extrakärl 190 l (restavfall);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+11;TAX_NODE;2.2.2;Kärl 240 l (mat-/restavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+12;TAX_NODE;2.2.2;Extrakärl 190 l (restavfall);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+13;TAX_NODE;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+14;TAX_NODE;2.2.3;Extra digital licens (årskostnad);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+15;TAX_NODE;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+16;TAX_NODE;2.2.3;Byte av telefonnummer kopplat till licens;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+17;TAX_NODE;2.2.3;Kostnad för öppning av behållare;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+18;TAX_NODE;2.2.4;Kärl 240 l (mat-/restavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+19;TAX_NODE;2.2.4;Kärl 370 l (restavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+20;TAX_NODE;2.2.4;Kärl 660 l (restavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+21;TAX_NODE;2.2.4;Kärl 140 l (matavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+22;TAX_NODE;2.2.4;Kärl 190 l (förpackningar);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+23;TAX_NODE;2.2.4;Kärl 370 l (förpackningar);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+24;TAX_NODE;2.2.4;Kärl 660 l (förpackningar);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+25;TAX_NODE;2.2.4;Kärl 190 l (tidningar och returpapper);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+26;TAX_NODE;2.2.4;Kärl 370 l (tidningar och returpapper);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+27;TAX_NODE;2.2.4;(mat-/restavfall, förpackningar);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+28;TAX_NODE;2.2.5;Kärl 240 l (mat-/restavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+29;TAX_NODE;2.2.5;Kärl 370 l (restavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+30;TAX_NODE;2.2.5;Kärl 660 l (restavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+31;TAX_NODE;2.2.5;Kärl 140 l (matavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+32;TAX_NODE;2.2.5;Bottentömmande behållare (mat-/restavfall);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+33;TAX_NODE;2.2.5;Lastväxlarflak (restavfall);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+34;TAX_NODE;2.2.6;Kärl 240 l (mat-/restavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+35;TAX_NODE;2.2.6;Kärl 370 l (restavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+36;TAX_NODE;2.2.6;Kärl 660 l (restavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+37;TAX_NODE;2.2.6;Kärl 140 l (matavfall);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+38;TAX_NODE;2.2.6;Bottentömmande behållare (mat-/restavfall);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+39;TAX_NODE;2.2.6;Lastväxlarflak (restavfall);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+40;TAX_NODE;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+41;TAX_NODE;2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+42;TAX_NODE;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+43;TAX_NODE;2.3;Viktavgift matavfall;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+44;TAX_NODE;2.3;Viktavgift restavfall;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+45;TAX_NODE;2.3;Lyftavgift kärl;;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+46;TAX_NODE;2.4.1;Fakturavgift;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+47;TAX_NODE;2.4.2;Delat kärl 240 l matavfall 40 kg;;kilogram;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+48;TAX_NODE;2.4.2;Delat kärl 240 l restavfall 40 kg;;kilogram;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+49;TAX_NODE;2.4.2;Extra kärl 140 l matavfall 60 kg;;kilogram;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+50;TAX_NODE;2.4.2;Extra kärl 140-190 l restavfall 60 kg;;kilogram;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+51;TAX_NODE;2.4.2;Kärl 370 l restavfall 60 kg;;kilogram;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+52;TAX_NODE;2.4.2;Kärl 660 l restavfall 100 kg;;kilogram;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+53;TAX_NODE;2.4.3;Överfullt kärl;;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+54;TAX_NODE;2.4.3;Överfull bottentömmande behållare;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+55;TAX_NODE;2.4.4;Byte av trasigt kärl vid oaktsamhet;;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+56;TAX_NODE;2.4.5;Byte/återtag av kärl en (1) ggr/år 140–240 liter;;liter;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+57;TAX_NODE;2.4.5;Byte/återtag av kärl en (1) ggr/år 370–660 liter;;liter;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+58;TAX_NODE;2.4.5;Ytterligare byte av kärl under kalenderåret;;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+59;TAX_NODE;2.4.6;Kärl;;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+60;TAX_NODE;2.4.6;Bottentömmande behållare;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+61;TAX_NODE;2.4.7;Kärl 140-660 L 1,5-10;;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+62;TAX_NODE;2.4.7;Kärl 140-660 L 10-20;;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+63;TAX_NODE;2.4.7;Kärl 140-660 L 20-30;;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+64;TAX_NODE;2.4.7;Avfallsport/dörr;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+65;TAX_NODE;2.4.7;Låst dörr, med kod;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+66;TAX_NODE;2.4.8;Kärl 140 l matavfall;;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+67;TAX_NODE;2.4.8;Kärl 190 l restavfall;;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+68;TAX_NODE;2.4.8;Kärl 370 l restavfall;;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+69;TAX_NODE;2.4.8;Kärl 660 l restavfall;;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+70;TAX_NODE;2.4.8;Bottentömmande behållare;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+71;TAX_NODE;2.4.9;Sidlastande fordon;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+72;TAX_NODE;2.4.9;Bottentömmande fordon;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+73;TAX_NODE;2.4.9;Tömningsavgift per behållare;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+74;TAX_NODE;2.4.10;Betalsäck;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+75;TAX_NODE;2.4.10;Akutsäck;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+76;TAX_NODE;2.4.11;Matavfallspåsar 9 L;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+77;TAX_NODE;2.4.11;Matavfallspåsar 22 L;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+78;TAX_NODE;2.4.11;Gravitationslås till kärl;;kärl;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+79;TAX_NODE;2.4.11;Extra nyckel till gravitationslås;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+80;TAX_NODE;2.5.1;Kommunalt avfall;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+81;TAX_NODE;2.5.1;Farligt avfall (ej uppmärkt);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+82;TAX_NODE;2.5.1;Farligt avfall (uppmärkt);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+83;TAX_NODE;2.5.1;Avisering av ankomst;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+84;TAX_NODE;3.1;Upp till 3 m3;;m³;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+85;TAX_NODE;3.1;Mellan 3 m3 och 6 m3;;m³;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+86;TAX_NODE;3.1;Mellan 6 m3 och 9 m3;;m³;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+87;TAX_NODE;3.1;Tillägg per m3 över 9 m3;;m³;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+88;TAX_NODE;3.1;Bad-, disk- och tvättbrunn upp till 3 m3;;m³;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+89;TAX_NODE;3.1;Tillägg per m3 över 3 m3;;m³;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+90;TAX_NODE;3.2;Dragning av extra slang vid 5-25 m;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+91;TAX_NODE;3.2;Dragning av extra slang vid 25-35 m;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+92;TAX_NODE;3.2;Dragning av extra slang vid 36-45 m;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+93;TAX_NODE;3.2;Dragning av extra slang vid 46-55 m;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+94;TAX_NODE;3.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+95;TAX_NODE;3.2;Krav på information om tömningstid;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+96;TAX_NODE;3.2;Krav på närvaro vid specificerad tömningstid;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+97;TAX_NODE;3.2;Hantering av kod för kodlås vid slamtömning;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+98;TAX_NODE;3.2;Hetvattentvätt med spolbil, timersättning;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+99;TAX_NODE;3.2;Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3;;m³;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+100;TAX_NODE;3.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+101;TAX_NODE;3.3;Budning utanför ordinarie tömningsperiod (1 nov – 30 april);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+102;TAX_NODE;3.3;Tömning av toalettvagnar eller liknande /styck;;styck;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+103;TAX_NODE;3.4;Latrinbehållare 37 liter inkl. mottagning och behandling;;liter;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+104;TAX_NODE;4.1;Filtermassor upp till 500 kg;;kilogram;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+105;TAX_NODE;4.1;Filtermassor 500-1000 kg;;kilogram;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+106;TAX_NODE;4.2;Krav på information om hämtningstid;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+107;TAX_NODE;4.2;Krav på närvaro vid specificerad hämtningstid;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+108;TAX_NODE;4.2;Hantering av kod för kodlås;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+109;TAX_NODE;5.1;Upp till 3 m3;;m³;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+110;TAX_NODE;5.1;Mellan 3 m3 och 6 m3;;m³;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+111;TAX_NODE;5.1;Över 6 m3;;m³;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+112;TAX_NODE;5.2;Dragning av extra slang vid 5-25 m;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+113;TAX_NODE;5.2;Dragning av extra slang vid 25-35 m;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+114;TAX_NODE;5.2;Dragning av extra slang vid 36-45 m;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+115;TAX_NODE;5.2;Dragning av extra slang vid 46-55 m;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+116;TAX_NODE;5.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+117;TAX_NODE;5.2;Krav på information om tömningstid;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+118;TAX_NODE;5.2;Krav på närvaro vid specificerad tömningstid;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+119;TAX_NODE;5.2;Hantering av kod för kodlås vid tömning;;tömning;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+120;TAX_NODE;5.2;Hetvattentvätt med spolbil, timersättning;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+121;TAX_NODE;5.2;Silikontätning per lock;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+122;TAX_NODE;5.2;Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;;m³;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+123;TAX_NODE;5.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+124;TAX_NODE;5.3;Budning utanför ordinarie tömningsperiod;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+125;TAX_NODE;6.1.1;Verksamheter;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+126;TAX_NODE;6.1.1;Övriga abonnemangstyper;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+127;TAX_NODE;6.1.1;Vågkort;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+128;TAX_NODE;6.1.1;Borttappat vågkort;;;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+129;TAX_NODE;6.1.1;Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst);;besök;XX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+130;TAX_NODE;6.1.1;Ej redovisad eller fel redovisad fraktion av avfall;;fraktion;XXXX kr;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+131;TAX_NODE;6.1.2;Avfall till energiåtervinning (240 L sopsäck);;styck;;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+132;TAX_NODE;6.1.2;Avfall till energiåtervinning;;kilogram;;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+133;TAX_NODE;6.1.2;Skrymmande avfall till energiåtervinning större än 20×20×80;;kilogram;;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+134;TAX_NODE;6.1.2;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;;kilogram;;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+135;TAX_NODE;6.1.2;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;;kilogram;;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+136;TAX_NODE;6.1.2;Tryckimpregnerat virke, pall;;kilogram;;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+137;TAX_NODE;6.1.2;Betong, lättbetong;;kilogram;;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+138;TAX_NODE;6.1.2;Gips, gipsskivor;;kilogram;;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+139;TAX_NODE;6.1.2;Tegel;;kilogram;;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+140;TAX_NODE;6.1.2;Fönster- och planglas utan karm;;kilogram;;8;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+141;SECTION;6.1.2;Fönster med karm;;;;;1;0.82;Kort rubrikrad utan enhet/pris/taxetermer.
+142;TAX_NODE;6.1.2;Plast;;kilogram;;141;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+143;TAX_NODE;6.1.2;Isolering utan innehåll av asbest;;m³;;141;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+144;TAX_NODE;6.1.2;Klinker, keramik, porslin;;kilogram;;141;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+145;TAX_NODE;6.1.2;Handfat;;styck;;141;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+146;TAX_NODE;6.1.2;WC-stol;;styck;;141;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+147;TAX_NODE;6.1.2;Metall;;kilogram;;141;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+148;TAX_NODE;6.1.2;Textilier;;kilogram;;141;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+149;TAX_NODE;6.1.2;Fiskeredskap;;kilogram;;141;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+150;TAX_NODE;6.1.2;Ätbart fett/frityrolja;;liter;;141;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+151;TAX_NODE;6.1.2;Kvistar och grenar;;m³;;141;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+152;SECTION;6.1.2;Jord;;;;;1;0.82;Kort rubrikrad utan enhet/pris/taxetermer.
+153;SECTION;6.1.2;Sten;;;;;1;0.82;Kort rubrikrad utan enhet/pris/taxetermer.
+154;SECTION;6.1.2;Stubbar/rötter för krossning;;;;;1;0.82;Kort rubrikrad utan enhet/pris/taxetermer.
+155;TAX_NODE;6.1.2;Flera fraktioner för egen sortering på ramp (max 2 m³);;m³;;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+156;TAX_NODE;6.1.2;Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall);;;;154;4;0.55;Okänd längre rad behålls som möjlig taxepunkt.
+157;TAX_NODE;6.1.2;Tonerkassetter, utan elektronik/chip;;kilogram;31,88;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+158;TAX_NODE;6.1.2;Oljeemulsion, emballerat;;kilogram;20,81;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+159;TAX_NODE;6.1.2;Förorenad olja innehållande PCB;;kilogram;38,25;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+160;TAX_NODE;6.1.2;Oljeavskiljarslam;;kilogram;6,56;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+161;TAX_NODE;6.1.2;Diesel;;kilogram;21,94;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+162;TAX_NODE;6.1.2;Bensinrester;;kilogram;21,94;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+163;TAX_NODE;6.1.2;Hydralslang, med/utan koppling;;kilogram;33,94;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+164;TAX_NODE;6.1.2;Förpackningar, tömde ej rengjorda;;kilogram;25,50;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+165;TAX_NODE;6.1.2;Oljeavfall, fast osorterat emba;;kilogram;23,44;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+166;TAX_NODE;6.1.2;Absorbermedel, filtermaterial;;kilogram;15,38;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+167;TAX_NODE;6.1.2;Oljefilter;;kilogram;15,38;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+168;TAX_NODE;6.1.2;Bromsvätska;;kilogram;11,44;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+169;TAX_NODE;6.1.2;Transformator, kondensator med PCB;;kilogram;84,94;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+170;TAX_NODE;6.1.2;Fogskum;;kilogram;90,00;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+171;TAX_NODE;6.1.2;Halon;;kilogram;127,50;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+172;TAX_NODE;6.1.2;Koldioxid;;kilogram;112,13;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+173;TAX_NODE;6.1.2;Brandsläckare;;kilogram;91,69;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+174;TAX_NODE;6.1.2;Helium;;kilogram;117,19;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+175;TAX_NODE;6.1.2;Tändare;;kilogram;127,50;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+176;TAX_NODE;6.1.2;Syrgas;;kilogram;117,19;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+177;TAX_NODE;6.1.2;Oxiderande fast ämne/vätska;;kilogram;103,31;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+178;TAX_NODE;6.1.2;Klorex;;kilogram;103,31;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+179;TAX_NODE;6.1.2;Aerosoler isocyanat, bekämpning;;kilogram;101,06;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+180;TAX_NODE;6.1.2;Gasol inkl tub;;kilogram;102,00;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+181;TAX_NODE;6.1.2;Gasol, blå programmet;;kilogram;169,88;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+182;TAX_NODE;6.1.2;Giftig organisk vätska;;kilogram;103,31;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+183;TAX_NODE;6.1.2;Småkemikalier, ej Hg-haltiga;;kilogram;103,31;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+184;TAX_NODE;6.1.2;Giftig oorganisk vätska;;kilogram;103,31;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+185;TAX_NODE;6.1.2;Oxidationsmedel, flytande;;kilogram;103,31;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+186;TAX_NODE;6.1.2;Asbest, emballerat;;kilogram;22,88;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+187;TAX_NODE;6.1.2;Smittförande avfall;;kilogram;40,31;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+188;TAX_NODE;6.1.2;Lösningsmedel;;kilogram;20,63;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+189;TAX_NODE;6.1.2;Väteperoxid;;kilogram;103,31;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+190;TAX_NODE;6.1.2;Flourvätesyra;;kilogram;81,38;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+191;TAX_NODE;6.1.2;Svavelsyra;;kilogram;81,38;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+192;TAX_NODE;6.1.2;Salpetersyra;;kilogram;81,38;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+193;TAX_NODE;6.1.2;Surt oorganisk fast ämne;;kilogram;103,31;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+194;TAX_NODE;6.1.2;Surt organisk fast ämne;;kilogram;127,50;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+195;TAX_NODE;6.1.2;Surt oorganisk vätska;;kilogram;127,50;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+196;TAX_NODE;6.1.2;Surt organisk vätska;;kilogram;127,50;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+197;TAX_NODE;6.1.2;Ammoniaklösning;;kilogram;63,38;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+198;TAX_NODE;6.1.2;Alkaliskt avfall fast;;kilogram;27,75;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+199;TAX_NODE;6.1.2;Basiskt organiskt fast/flytande;;kilogram;46,50;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+200;TAX_NODE;6.1.2;Fotokemikalier;;kilogram;38,25;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+201;TAX_NODE;6.1.2;Bekämpningsmedel aerosoler;;kilogram;73,69;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+202;TAX_NODE;6.1.2;Bekämpningsmedel fast;;kilogram;85,88;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+203;TAX_NODE;6.1.2;Bekämpningsmedel flytande;;kilogram;61,69;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+204;TAX_NODE;6.1.2;Kvicksilverhaltigt avfall;;kilogram;1 034,81;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+205;TAX_NODE;6.1.2;Kvicksilver i föremål;;kilogram;1 034,81;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+206;TAX_NODE;6.1.2;Oljehaltigt avfall (ej PCB);;liter;15,94;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+207;TAX_NODE;6.1.2;Olja förorenad (ej PCB);;liter;23,44;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+208;TAX_NODE;6.1.2;Färg-, lack-, limburkar lösning;;kilogram;19,88;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+209;TAX_NODE;6.1.2;Färg-, lack-, limburkar lösning aerosoler;;kilogram;43,31;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+210;TAX_NODE;6.1.2;Isocyanater;;kilogram;103,88;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+211;TAX_NODE;6.1.2;Härdare metyl- etylketonperoxid;;kilogram;109,88;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+212;TAX_NODE;6.1.2;Härdare dibenzoylperoxid;;kilogram;114,38;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+213;TAX_NODE;6.1.2;Färg-,lack-, limburkar vattenbaserade;;kilogram;15,38;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+214;TAX_NODE;6.1.2;Tensida alkaliska flytande avfall;;kilogram;25,50;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+215;TAX_NODE;6.1.2;Rengöring/vaskmedel fast;;kilogram;27,19;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+216;TAX_NODE;6.1.2;Alkaliska flytande avfall;;kilogram;27,75;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+217;TAX_NODE;6.1.2;Cytotoxiska läkemedel, cytostat;;kilogram;64,88;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+218;TAX_NODE;6.1.2;Rökdetektor med andra isotoper;;kilogram;1 911,75;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+219;TAX_NODE;6.1.2;Rökdetektor med Am 241;;kilogram;1 911,75;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+220;TAX_NODE;6.1.2;Batterier stav, pencell;;kilogram;0,00;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+221;TAX_NODE;6.1.2;Batterier lithium;;kilogram;0,00;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+222;TAX_NODE;6.1.2;Bil-, mcbatteri med bly;;styck;0,00;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+223;TAX_NODE;6.1.2;Glödlampor;;kilogram;0,00;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+224;TAX_NODE;6.1.2;Lysrör;;kilogram;0,00;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+225;TAX_NODE;6.1.2;Elavfall, små elektronik;;kilogram;0,00;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+226;TAX_NODE;6.1.2;El-avfall fast installation;;kilogram;37,60;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+227;TAX_NODE;6.1.2;El-avfall kabel;;kilogram;0,00;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+228;TAX_NODE;6.1.2;Toner, färgpatron med elektronik;;kilogram;37,60;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+229;TAX_NODE;6.1.2;Tv, radio, skärm, skrivare utan färgpatron;;kilogram;0,00;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+230;TAX_NODE;6.1.2;Kyl-, frysskåp, -box;;styck;0,00;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+231;TAX_NODE;6.1.2;Kyl-, frysskåp, -box från verksamhet;;kilogram;37,60;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+232;TAX_NODE;6.1.2;Spis, tvätt-, diskmaskin;;styck;0,00;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+233;TAX_NODE;6.1.2;Spis, tvätt-, diskmaskin från verksamhet;;kilogram;37,60;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+234;TAX_NODE;6.1.3;Container X m3;;m³;XX kr;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+235;TAX_NODE;6.1.3;Container X m3;;m³;XX kr;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+236;TAX_NODE;6.1.3;Container X m3;;m³;XX kr;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+237;TAX_NODE;6.1.3;Omklassning av felsorterad container;;container;XX kr;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+238;TAX_NODE;6.1.4;Okänt farligt avfall (säkerhetsdatablad saknas);;fraktion;XXX kr;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+239;TAX_NODE;6.1.4;Ombud för rapportering av farligt avfall i Avfallsregistret;;tillfälle;XXX kr;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+240;TAX_NODE;6.1.4;Administrativ rapporteringsavgift till Avfallsregistret;;tillfälle;XXX kr;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.
+241;TAX_NODE;6.1.4;Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen;;tillfälle;XXX kr;154;4;0.86;Rad innehåller taxeterm, enhet, volym eller pris.

@@ -1,11 +1,11 @@
 Tax Knowledge extraction klar
-Parser rows: 241
-Features: 241
+Parser rows: 229
+Features: 229
 TXT: output\excel\tax_knowledge_report.txt
 CSV: output\excel\tax_knowledge_features.csv
 Tax Knowledge extraction klar
-Parser rows: 241
-Features: 241
+Parser rows: 229
+Features: 229
 TXT: output\excel\tax_knowledge_report.txt
 CSV: output\excel\tax_knowledge_features.csv
 Workbook updated: output\excel\ArbetsExcel_byggd_fran_parser.xlsx

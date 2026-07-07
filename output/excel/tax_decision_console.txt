@@ -1,8 +1,8 @@
 Tax Decision Engine klar
-Parser rows: 241
-Workbook rows: 271
+Parser rows: 229
+Workbook rows: 280
 EDP_MATCH: 7
 STANDARD_PROPOSAL: 0
-REVIEW_REQUIRED: 86
-NEW_TAXA: 148
+REVIEW_REQUIRED: 72
+NEW_TAXA: 150
 Workbook: output\excel\ArbetsExcel_byggd_fran_parser.xlsx

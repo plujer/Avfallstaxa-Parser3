@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 
+from excel_builder.document import DocumentStructureEngine
 from excel_builder.io import ParserMatchReader
 from excel_builder.knowledge import TaxKnowledgeExtractor
 from excel_builder.reports import SemanticCandidateReporter
@@ -22,7 +23,7 @@ def main() -> None:
 
     engine = TaxSemanticProfileEngine()
 
-    parser_rows = ParserMatchReader().read(args.parser_result)
+    parser_rows = DocumentStructureEngine().filter_tax_nodes(ParserMatchReader().read(args.parser_result))
     knowledge_report = TaxKnowledgeExtractor().extract(parser_rows)
     word_profiles = engine.from_knowledge_report(knowledge_report).profiles
 

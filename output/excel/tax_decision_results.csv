@@ -1,21 +1,13 @@
 ﻿Status;Source;Rule;Confidence;Paragraf;Taxapunkt;Variant;Enhet;Excel rad;EDP taxakod;Standard taxakod;Kommentar
-EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.1;En- och tvåbostadshus;;;7;GRUNDSMÅ;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
-EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.1;Fritidshus;;;8;GRUNDFRI;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
-EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.1;Verksamhet;;;9;GRUNDVHT;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
-EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.1;Lägenhet i flerbostadshus;;lägenhet;10;GRUNDFLB;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.1;Lägenhet för specialändamål;;lägenhet;11;;;Taxa finns som rad. EDP-koppling saknas.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.1;Anläggning;;;12;;;Taxa finns som rad. EDP-koppling saknas.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.1;Säsongsbaserad uppställningsplats;;;13;;;Taxa finns som rad. EDP-koppling saknas.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.1;Campingstuga/-lägenhet;;lägenhet;14;;;Taxa finns som rad. EDP-koppling saknas.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.2.1;Kärl 240 l (mat-/restavfall);;kärl;;;;Skapa/hantera som ny taxa eller manuell granskning.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.2.1;Extrakärl 190 l (restavfall);;;;;;Skapa/hantera som ny taxa eller manuell granskning.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.2.2;Kärl 240 l (mat-/restavfall);;kärl;;;;Skapa/hantera som ny taxa eller manuell granskning.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.2.2;Extrakärl 190 l (restavfall);;;27;;;Taxa finns som rad. EDP-koppling saknas.
-EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;32;GEMUPPFRI;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
-EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.2.3;Extra digital licens (årskostnad);;;34;GEMUPPEXTRAFRI;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
-EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;35;FOBFRI;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.2.3;Byte av telefonnummer kopplat till licens;;;36;;;Taxa finns som rad. EDP-koppling saknas.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.2.3;Kostnad för öppning av behållare;;;37;;;Taxa finns som rad. EDP-koppling saknas.
+NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.2.2;Extrakärl 190 l (restavfall);;;;;;Skapa/hantera som ny taxa eller manuell granskning.
+NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;;;;Skapa/hantera som ny taxa eller manuell granskning.
+NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.2.3;Extra digital licens (årskostnad);;;;;;Skapa/hantera som ny taxa eller manuell granskning.
+NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;;;;Skapa/hantera som ny taxa eller manuell granskning.
+EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.2.3;Byte av telefonnummer kopplat till licens;;;36;GEMUPPBYTE;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
+EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.2.3;Kostnad för öppning av behållare;;;37;GEMUPPÖPP;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.2.4;Kärl 240 l (mat-/restavfall);;kärl;;;;Skapa/hantera som ny taxa eller manuell granskning.
 REVIEW_REQUIRED;Standardtaxor;Standardtaxa används endast som förslag;0.658;2.2.4;Kärl 370 l (restavfall);;kärl;;;KÄ370RE156;Standardtaxa får inte skriva över befintlig kommun-EDP.
 REVIEW_REQUIRED;Standardtaxor;Standardtaxa används endast som förslag;0.658;2.2.4;Kärl 660 l (restavfall);;kärl;;;KÄ660RE156;Standardtaxa får inte skriva över befintlig kommun-EDP.
@@ -30,17 +22,17 @@ NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.2.5;Kärl 
 REVIEW_REQUIRED;Standardtaxor;Standardtaxa används endast som förslag;0.658;2.2.5;Kärl 370 l (restavfall);;kärl;;;KÄ370RE156;Standardtaxa får inte skriva över befintlig kommun-EDP.
 REVIEW_REQUIRED;Standardtaxor;Standardtaxa används endast som förslag;0.658;2.2.5;Kärl 660 l (restavfall);;kärl;;;KÄ660RE156;Standardtaxa får inte skriva över befintlig kommun-EDP.
 REVIEW_REQUIRED;Standardtaxor;Standardtaxa används endast som förslag;0.655;2.2.5;Kärl 140 l (matavfall);;kärl;;;KÄ140MA156;Standardtaxa får inte skriva över befintlig kommun-EDP.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.2.5;Bottentömmande behållare (mat-/restavfall);;;86;;;Taxa finns som rad. EDP-koppling saknas.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.2.5;Lastväxlarflak (restavfall);;;85;;;Taxa finns som rad. EDP-koppling saknas.
+NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.2.5;Bottentömmande behållare (mat-/restavfall);;;;;;Skapa/hantera som ny taxa eller manuell granskning.
+EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.2.5;Lastväxlarflak (restavfall);;;85;LVREFV;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.2.6;Kärl 240 l (mat-/restavfall);;kärl;;;;Skapa/hantera som ny taxa eller manuell granskning.
 REVIEW_REQUIRED;Standardtaxor;Standardtaxa används endast som förslag;0.658;2.2.6;Kärl 370 l (restavfall);;kärl;;;KÄ370RE156;Standardtaxa får inte skriva över befintlig kommun-EDP.
 REVIEW_REQUIRED;Standardtaxor;Standardtaxa används endast som förslag;0.658;2.2.6;Kärl 660 l (restavfall);;kärl;;;KÄ660RE156;Standardtaxa får inte skriva över befintlig kommun-EDP.
 REVIEW_REQUIRED;Standardtaxor;Standardtaxa används endast som förslag;0.655;2.2.6;Kärl 140 l (matavfall);;kärl;;;KÄ140MA156;Standardtaxa får inte skriva över befintlig kommun-EDP.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.2.6;Bottentömmande behållare (mat-/restavfall);;;103;;;Taxa finns som rad. EDP-koppling saknas.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.2.6;Lastväxlarflak (restavfall);;;102;;;Taxa finns som rad. EDP-koppling saknas.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;106;;;Taxa finns som rad. EDP-koppling saknas.
-NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;;;;Skapa/hantera som ny taxa eller manuell granskning.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;108;;;Taxa finns som rad. EDP-koppling saknas.
+NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.2.6;Bottentömmande behållare (mat-/restavfall);;;;;;Skapa/hantera som ny taxa eller manuell granskning.
+EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.2.6;Lastväxlarflak (restavfall);;;102;LVREDH;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
+EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;106;KÄ140TI;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
+EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;379;EGENKONTRET;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
+EDP_MATCH;Taxepunkter/Taxa_från_edp;Befintlig Taxakod i Taxepunkter behålls via paragraf+taxapunkt;0.900;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;108;EGENMATFETT;;Variant/enhet skiljer eller saknas men kommun-EDP behålls.
 REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.3;Viktavgift matavfall;;;111;;;Taxa finns som rad. EDP-koppling saknas.
 REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;2.3;Viktavgift restavfall;;;112;;;Taxa finns som rad. EDP-koppling saknas.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;2.3;Lyftavgift kärl;;kärl;;;;Skapa/hantera som ny taxa eller manuell granskning.
@@ -139,7 +131,6 @@ NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Betong
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Gips, gipsskivor;;kilogram;;;;Skapa/hantera som ny taxa eller manuell granskning.
 REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;6.1.2;Tegel;;kilogram;267;;;Taxa finns som rad. EDP-koppling saknas.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Fönster- och planglas utan karm;;kilogram;;;;Skapa/hantera som ny taxa eller manuell granskning.
-REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;6.1.2;Fönster med karm;;;269;;;Taxa finns som rad. EDP-koppling saknas.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Plast;;kilogram;;;;Skapa/hantera som ny taxa eller manuell granskning.
 REVIEW_REQUIRED;Taxepunkter;Rad finns men saknar Taxakod;0.750;6.1.2;Isolering utan innehåll av asbest;;m³;270;;;Taxa finns som rad. EDP-koppling saknas.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Klinker, keramik, porslin;;kilogram;;;;Skapa/hantera som ny taxa eller manuell granskning.
@@ -150,9 +141,6 @@ NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Textil
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Fiskeredskap;;kilogram;;;;Skapa/hantera som ny taxa eller manuell granskning.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Ätbart fett/frityrolja;;liter;;;;Skapa/hantera som ny taxa eller manuell granskning.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Kvistar och grenar;;m³;;;;Skapa/hantera som ny taxa eller manuell granskning.
-NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Jord;;;;;;Skapa/hantera som ny taxa eller manuell granskning.
-NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Sten;;;;;;Skapa/hantera som ny taxa eller manuell granskning.
-NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Stubbar/rötter för krossning;;;;;;Skapa/hantera som ny taxa eller manuell granskning.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Flera fraktioner för egen sortering på ramp (max 2 m³);;m³;;;;Skapa/hantera som ny taxa eller manuell granskning.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall);;;;;;Skapa/hantera som ny taxa eller manuell granskning.
 NEW_TAXA;Word;Word-taxa saknar EDP-match och standardförslag;0.000;6.1.2;Tonerkassetter, utan elektronik/chip;;kilogram;;;;Skapa/hantera som ny taxa eller manuell granskning.

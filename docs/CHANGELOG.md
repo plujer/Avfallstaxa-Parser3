@@ -1,5 +1,25 @@
 # CHANGELOG – Excel Builder
 
+
+## Block35 – Hierarchical Context Resolver
+
+- Ersatte rullande kontext med hierarkisk kontext baserad på Document Structure Engine.
+- Context Resolver klassificerar nu parserrader internt och returnerar endast TAX_NODE/TABLE_ROW.
+- Nollställer underkontext vid ny SECTION/SUBSECTION för att förhindra kontextläckning mellan syskonrubriker.
+- Lägger till `Hierarchy path` och `Parent structure index` i `context_resolved_rows.csv`.
+- Uppdaterade regressionstester för ny förväntad Block35-semantik.
+- Införde standardiserade BAT-filer för blockkörning, tester, rapportzip och Git-steg.
+
+## Block34 – Document Structure Engine
+
+- Införde Document Structure Engine.
+- Klassificerar parserrader som SECTION, SUBSECTION, TABLE_HEADER, TABLE_ROW, TAX_NODE eller NOTE.
+- Filtrerar så att endast TAX_NODE går vidare till kontext, Tax Knowledge, semantik och beslut.
+- Förhindrar att kända rubriker/fastighetstyper blir NEW_TAXA.
+- La till document_structure_report.txt och document_structure_rows.csv i rapportpaketet.
+- Uppdaterade rapportbygget till versionsstyrd master `data/master_templates/ArbetsExcel_Template_v0.9.4_draft.xlsx`.
+- La till regressionstester för dokumentstruktur.
+
 ## Block33 – Build System Stabilization
 
 - Återställde full `build_excel_report.bat`.

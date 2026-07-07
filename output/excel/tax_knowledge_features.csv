@@ -1,12 +1,4 @@
 ﻿Paragraf;Taxapunkt;Variant;Enhet;Section group;Kategori;Avfallstyp;Enhetstyp;Behållarvolym liter;Faktorhint;Confidence;Keywords;Notes
-2.1;En- och tvåbostadshus;;;2.1;Hushåll;;;;;0.50;en-och, tvåbostadshus;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.1;Fritidshus;;;2.1;Hushåll;;;;;0.50;fritidshus;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.1;Verksamhet;;;2.1;Hushåll;;;;;0.50;verksamhet;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.1;Lägenhet i flerbostadshus;;lägenhet;2.1;Hushåll;;;;;0.50;flerbostadshus, lägenhet;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.1;Lägenhet för specialändamål;;lägenhet;2.1;Hushåll;;;;;0.50;lägenhet, specialändamål;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.1;Anläggning;;;2.1;Hushåll;;;;;0.50;anläggning;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.1;Säsongsbaserad uppställningsplats;;;2.1;Hushåll;;;;;0.50;säsongsbaserad, uppställningsplats;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-2.1;Campingstuga/-lägenhet;;lägenhet;2.1;Hushåll;;;;;0.50;-lägenhet, campingstuga, lägenhet;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 2.2.1;Kärl 240 l (mat-/restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;240;VOLYM/BEHÅLLARE;1.00;240, kärl, mat-, restavfall;
 2.2.1;Extrakärl 190 l (restavfall);;;2.2;Hushåll;Restavfall;Behållarvolym;190;VOLYM/BEHÅLLARE;1.00;190, extrakärl, restavfall;
 2.2.2;Kärl 240 l (mat-/restavfall);;kärl;2.2;Hushåll;Restavfall;Behållarvolym;240;VOLYM/BEHÅLLARE;1.00;240, kärl, mat-, restavfall;
@@ -139,7 +131,6 @@
 6.1.2;Gips, gipsskivor;;kilogram;6.1;ÅVC/verksamhetsavfall;Gips;Vikt;;VIKG;1.00;gips, gipsskivor, kilogram;
 6.1.2;Tegel;;kilogram;6.1;ÅVC/verksamhetsavfall;Tegel;Vikt;;VIKG;1.00;kilogram, tegel;
 6.1.2;Fönster- och planglas utan karm;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;fönster-och, karm, kilogram, planglas;Avfallstyp kunde inte härledas.
-6.1.2;Fönster med karm;;;6.1;ÅVC/verksamhetsavfall;;;;;0.50;fönster, karm;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 6.1.2;Plast;;kilogram;6.1;ÅVC/verksamhetsavfall;Plast;Vikt;;VIKG;1.00;kilogram, plast;
 6.1.2;Isolering utan innehåll av asbest;;m³;6.1;ÅVC/verksamhetsavfall;Asbest;Volym;;VOLM;1.00;asbest, innehåll, isolering;
 6.1.2;Klinker, keramik, porslin;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;keramik, kilogram, klinker, porslin;Avfallstyp kunde inte härledas.
@@ -150,9 +141,6 @@
 6.1.2;Fiskeredskap;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;fiskeredskap, kilogram;Avfallstyp kunde inte härledas.
 6.1.2;Ätbart fett/frityrolja;;liter;6.1;ÅVC/verksamhetsavfall;;Behållarvolym;;VOLYM/BEHÅLLARE;0.75;fett, frityrolja, liter, ätbart;Avfallstyp kunde inte härledas.
 6.1.2;Kvistar och grenar;;m³;6.1;ÅVC/verksamhetsavfall;;Volym;;VOLM;0.75;grenar, kvistar;Avfallstyp kunde inte härledas.
-6.1.2;Jord;;;6.1;ÅVC/verksamhetsavfall;;;;;0.50;jord;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-6.1.2;Sten;;;6.1;ÅVC/verksamhetsavfall;;;;;0.50;sten;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
-6.1.2;Stubbar/rötter för krossning;;;6.1;ÅVC/verksamhetsavfall;;;;;0.50;krossning, rötter, stubbar;Faktor kunde inte härledas från enhet/text. | Avfallstyp kunde inte härledas.
 6.1.2;Flera fraktioner för egen sortering på ramp (max 2 m³);;m³;6.1;ÅVC/verksamhetsavfall;;Volym;;VOLM;0.75;egen, flera, fraktioner, max2, ramp, sortering;Avfallstyp kunde inte härledas.
 6.1.2;Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall);;;6.1;ÅVC/verksamhetsavfall;Elavfall;;;;0.75;avfall, elavfall, farligt, innehåll, osorterat, sortering;Faktor kunde inte härledas från enhet/text.
 6.1.2;Tonerkassetter, utan elektronik/chip;;kilogram;6.1;ÅVC/verksamhetsavfall;;Vikt;;VIKG;0.75;chip, elektronik, kilogram, tonerkassetter;Avfallstyp kunde inte härledas.

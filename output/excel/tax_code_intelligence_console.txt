@@ -1,5 +1,5 @@
 Tax Code Intelligence klar
-Tax codes: 742
-With family key: 329
+Tax codes: 803
+With family key: 368
 TXT: output\excel\tax_code_intelligence_report.txt
 CSV: output\excel\tax_code_intelligence.csv

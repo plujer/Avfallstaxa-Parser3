@@ -1,6 +1,6 @@
 Workbook Schema Scan klar
-Workbook: data\ArbetsExcel_Reference.xlsx
-Sheets: 32
+Workbook: data\master_templates\ArbetsExcel_Template_v0.9.4_draft.xlsx
+Sheets: 33
 Defined names: 274
 Warnings: 0
 TXT: output\excel\workbook_schema_report.txt

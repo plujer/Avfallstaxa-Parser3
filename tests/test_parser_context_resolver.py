@@ -10,9 +10,9 @@ def test_context_resolver_enriches_short_row_with_previous_context():
 
     report = ParserContextResolver().resolve(rows)
 
-    assert report.total == 2
-    assert "En-" in report.rows[1].enriched_row.tax_point or "tvåbostadshus" in report.rows[1].enriched_row.tax_point
-    assert report.rows[1].context.property_type_context == "En- och tvåbostadshus"
+    assert report.total == 1
+    assert "En-" in report.rows[0].enriched_row.tax_point or "tvåbostadshus" in report.rows[0].enriched_row.tax_point
+    assert report.rows[0].context.property_type_context == "En- och tvåbostadshus"
 
 
 def test_context_resolver_keeps_section_context():

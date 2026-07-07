@@ -1,245 +1,233 @@
 ﻿Source;Source ID;Tax code;Standard tax code;Category;Waste type;Service type;Container type;Container volume liter;Interval;Property type;Unit type;Factor hint;Confidence;Source text
-WORD;WORD:1;;;Hushåll;;;;;;;;;0.50;2.1 en-och tvåbostadshus en-och tvåbostadshus
-WORD;WORD:2;;;Hushåll;;;;;;Fritidshus;;;0.50;2.1 fritidshus fritidshus
-WORD;WORD:3;;;Hushåll;;;;;;Verksamhet;;;0.50;2.1 verksamhet verksamhet
-WORD;WORD:4;;;Hushåll;;;;;;Flerbostadshus;;;0.50;2.1 lägenhet i flerbostadshus lägenhet flerbostadshus lägenhet
-WORD;WORD:5;;;Hushåll;;;;;;Flerbostadshus;;;0.50;2.1 lägenhet för specialändamål lägenhet lägenhet specialändamål
-WORD;WORD:6;;;Hushåll;;;;;;;;;0.50;2.1 anläggning anläggning
-WORD;WORD:7;;;Hushåll;;;;;;;;;0.50;2.1 säsongsbaserad uppställningsplats säsongsbaserad uppställningsplats
-WORD;WORD:8;;;Hushåll;;;;;;Flerbostadshus;;;0.50;2.1 campingstuga/-lägenhet lägenhet-lägenhet campingstuga lägenhet
-WORD;WORD:9;;;Hushåll;Restavfall;;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.1 kärl 240 l (mat-/restavfall) kärl 240 kärl mat-restavfall
-WORD;WORD:10;;;Hushåll;Restavfall;Extra;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.1 extrakärl 190 l (restavfall) 190 extrakärl restavfall
-WORD;WORD:11;;;Hushåll;Restavfall;;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.2 kärl 240 l (mat-/restavfall) kärl 240 kärl mat-restavfall
-WORD;WORD:12;;;Hushåll;Restavfall;Extra;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.2 extrakärl 190 l (restavfall) 190 extrakärl restavfall
-WORD;WORD:13;;;Hushåll;Restavfall;;;;;;;;0.75;2.2.3 gemensam uppsamlingsplats för mat-/restavfall gemensam mat-restavfall uppsamlingsplats
-WORD;WORD:14;;;Hushåll;;Extra;;;;;;;0.50;2.2.3 extra digital licens (årskostnad) digital extra licens årskostnad
-WORD;WORD:15;;;Hushåll;;;;;;;;;0.50;2.2.3 fysisk nyckel, kallad fob (engångskostnad) engångskostnad fob fysisk kallad nyckel
-WORD;WORD:16;;;Hushåll;;Byte;;;;;;;0.50;2.2.3 byte av telefonnummer kopplat till licens byte kopplat licens telefonnummer
-WORD;WORD:17;;;Hushåll;;Abonnemang;;;;;;;0.50;2.2.3 kostnad för öppning av behållare behållare kostnad öppning
-WORD;WORD:18;;;Hushåll;Restavfall;;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 240 l (mat-/restavfall) kärl 240 kärl mat-restavfall
-WORD;WORD:19;;;Hushåll;Restavfall;;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 370 l (restavfall) kärl 370 kärl restavfall
-WORD;WORD:20;;;Hushåll;Restavfall;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 660 l (restavfall) kärl 660 kärl restavfall
-WORD;WORD:21;;;Hushåll;Matavfall;;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 140 l (matavfall) kärl 140 kärl matavfall
-WORD;WORD:22;;;Hushåll;Förpackningar;Abonnemang;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 190 l (förpackningar) kärl 190 förpackningar kärl
-WORD;WORD:23;;;Hushåll;Förpackningar;Abonnemang;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 370 l (förpackningar) kärl 370 förpackningar kärl
-WORD;WORD:24;;;Hushåll;Förpackningar;Abonnemang;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 660 l (förpackningar) kärl 660 förpackningar kärl
-WORD;WORD:25;;;Hushåll;;Abonnemang;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.2.4 kärl 190 l (tidningar och returpapper) kärl 190 kärl returpapper tidningar
-WORD;WORD:26;;;Hushåll;;Abonnemang;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.2.4 kärl 370 l (tidningar och returpapper) kärl 370 kärl returpapper tidningar
-WORD;WORD:27;;;Hushåll;Restavfall;Abonnemang;;;;;;;0.75;2.2.4 (mat-/restavfall, förpackningar) förpackningar mat-restavfall
-WORD;WORD:28;;;Hushåll;Restavfall;;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.5 kärl 240 l (mat-/restavfall) kärl 240 kärl mat-restavfall
-WORD;WORD:29;;;Hushåll;Restavfall;;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.5 kärl 370 l (restavfall) kärl 370 kärl restavfall
-WORD;WORD:30;;;Hushåll;Restavfall;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.5 kärl 660 l (restavfall) kärl 660 kärl restavfall
-WORD;WORD:31;;;Hushåll;Matavfall;;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.5 kärl 140 l (matavfall) kärl 140 kärl matavfall
-WORD;WORD:32;;;Hushåll;Restavfall;Abonnemang;;;;;;;0.75;2.2.5 bottentömmande behållare (mat-/restavfall) behållare bottentömmande mat-restavfall
-WORD;WORD:33;;;Hushåll;Restavfall;Abonnemang;;;;;;;0.75;2.2.5 lastväxlarflak (restavfall) lastväxlarflak restavfall
-WORD;WORD:34;;;Hushåll;Restavfall;;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.6 kärl 240 l (mat-/restavfall) kärl 240 kärl mat-restavfall
-WORD;WORD:35;;;Hushåll;Restavfall;;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.6 kärl 370 l (restavfall) kärl 370 kärl restavfall
-WORD;WORD:36;;;Hushåll;Restavfall;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.6 kärl 660 l (restavfall) kärl 660 kärl restavfall
-WORD;WORD:37;;;Hushåll;Matavfall;;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.6 kärl 140 l (matavfall) kärl 140 kärl matavfall
-WORD;WORD:38;;;Hushåll;Restavfall;Abonnemang;;;;;;;0.75;2.2.6 bottentömmande behållare (mat-/restavfall) behållare bottentömmande mat-restavfall
-WORD;WORD:39;;;Hushåll;Restavfall;Abonnemang;;;;;;;0.75;2.2.6 lastväxlarflak (restavfall) lastväxlarflak restavfall
-WORD;WORD:40;;;Hushåll;;;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.2.7 kärl 140 l (kontors-/returpapper) kärl 140 kontors-kärl returpapper
-WORD;WORD:41;;;Hushåll;;;;;;;;;0.50;2.2.7 egen överlämning av förbrukat kontors-/returpapper enligt anvisning anvisning egen enligt förbrukat kontors-returpapper överlämning
-WORD;WORD:42;;;Hushåll;;;;;;;;;0.50;2.2.7 egen överlämning av förbrukat matfett enligt anvisning anvisning egen enligt förbrukat matfett överlämning
-WORD;WORD:43;;;Hushåll;Matavfall;;;;;;;;0.75;2.3 viktavgift matavfall matavfall viktavgift
-WORD;WORD:44;;;Hushåll;Restavfall;;;;;;;;0.75;2.3 viktavgift restavfall restavfall viktavgift
-WORD;WORD:45;;;Hushåll;;;Kärl;;;;;;0.50;2.3 lyftavgift kärl kärl kärl lyftavgift
-WORD;WORD:46;;;Hushåll;;;;;;;;;0.50;2.4.1 fakturavgift fakturavgift
-WORD;WORD:47;;;Hushåll;Matavfall;;Kärl;240;;;Vikt;VIKG;1.00;2.4.2 delat kärl 240 l matavfall 40 kg kilogram 240 delat kilogram kärl matavfall
-WORD;WORD:48;;;Hushåll;Restavfall;;Kärl;240;;;Vikt;VIKG;1.00;2.4.2 delat kärl 240 l restavfall 40 kg kilogram 240 delat kilogram kärl restavfall
-WORD;WORD:49;;;Hushåll;Matavfall;Extra;Kärl;140;;;Vikt;VIKG;1.00;2.4.2 extra kärl 140 l matavfall 60 kg kilogram 140 extra kilogram kärl matavfall
-WORD;WORD:50;;;Hushåll;Restavfall;Extra;Kärl;190;;;Vikt;VIKG;1.00;2.4.2 extra kärl 140-190 l restavfall 60 kg kilogram 140-190 extra kilogram kärl restavfall
-WORD;WORD:51;;;Hushåll;Restavfall;;Kärl;370;;;Vikt;VIKG;1.00;2.4.2 kärl 370 l restavfall 60 kg kilogram 370 kilogram kärl restavfall
-WORD;WORD:52;;;Hushåll;Restavfall;;Kärl;660;;;Vikt;VIKG;1.00;2.4.2 kärl 660 l restavfall 100 kg kilogram 100 660 kilogram kärl restavfall
-WORD;WORD:53;;;Hushåll;;;Kärl;;;;;;0.50;2.4.3 överfullt kärl kärl kärl överfullt
-WORD;WORD:54;;;Hushåll;;Abonnemang;;;;;;;0.50;2.4.3 överfull bottentömmande behållare behållare bottentömmande överfull
-WORD;WORD:55;;;Hushåll;;Byte;Kärl;;;;;;0.50;2.4.4 byte av trasigt kärl vid oaktsamhet kärl byte kärl oaktsamhet trasigt vid
-WORD;WORD:56;;;Hushåll;;Byte;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.5 byte/återtag av kärl en (1) ggr/år 140-240 liter liter 140-240 byte ggr kärl liter återtag
-WORD;WORD:57;;;Hushåll;;Byte;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.5 byte/återtag av kärl en (1) ggr/år 370-660 liter liter 370-660 byte ggr kärl liter återtag
-WORD;WORD:58;;;Hushåll;;Byte;Kärl;;;;;;0.50;2.4.5 ytterligare byte av kärl under kalenderåret kärl byte kalenderåret kärl under ytterligare
-WORD;WORD:59;;;Hushåll;;;Kärl;;;;;;0.50;2.4.6 kärl kärl kärl
-WORD;WORD:60;;;Hushåll;;Abonnemang;;;;;;;0.50;2.4.6 bottentömmande behållare behållare bottentömmande
-WORD;WORD:61;;;Hushåll;;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.7 kärl 140-660 l 1, 5-10 kärl 140-660 5-10 kärl
-WORD;WORD:62;;;Hushåll;;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.7 kärl 140-660 l 10-20 kärl 10-20 140-660 kärl
-WORD;WORD:63;;;Hushåll;;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.7 kärl 140-660 l 20-30 kärl 140-660 20-30 kärl
-WORD;WORD:64;;;Hushåll;;;;;;;;;0.50;2.4.7 avfallsport/dörr avfallsport dörr
-WORD;WORD:65;;;Hushåll;;;;;;;;;0.50;2.4.7 låst dörr, med kod dörr kod låst
-WORD;WORD:66;;;Hushåll;Matavfall;;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.4.8 kärl 140 l matavfall kärl 140 kärl matavfall
-WORD;WORD:67;;;Hushåll;Restavfall;;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.4.8 kärl 190 l restavfall kärl 190 kärl restavfall
-WORD;WORD:68;;;Hushåll;Restavfall;;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.4.8 kärl 370 l restavfall kärl 370 kärl restavfall
-WORD;WORD:69;;;Hushåll;Restavfall;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.4.8 kärl 660 l restavfall kärl 660 kärl restavfall
-WORD;WORD:70;;;Hushåll;;Abonnemang;;;;;;;0.50;2.4.8 bottentömmande behållare behållare bottentömmande
-WORD;WORD:71;;;Hushåll;;;;;;;;;0.50;2.4.9 sidlastande fordon fordon sidlastande
-WORD;WORD:72;;;Hushåll;;;;;;;;;0.50;2.4.9 bottentömmande fordon bottentömmande fordon
-WORD;WORD:73;;;Hushåll;;Hämtning/tömning;;;;;;;0.50;2.4.9 tömningsavgift per behållare behållare tömningsavgift
-WORD;WORD:74;;;Hushåll;;;Säck;;;;;;0.50;2.4.10 betalsäck betalsäck
-WORD;WORD:75;;;Hushåll;;;Säck;;;;;;0.50;2.4.10 akutsäck akutsäck
-WORD;WORD:76;;;Hushåll;;Abonnemang;;;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.11 matavfallspåsar 9 l matavfallspåsar
-WORD;WORD:77;;;Hushåll;;Abonnemang;;22;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.11 matavfallspåsar 22 l matavfallspåsar
-WORD;WORD:78;;;Hushåll;;;Kärl;;;;;;0.50;2.4.11 gravitationslås till kärl kärl gravitationslås kärl
-WORD;WORD:79;;;Hushåll;;Extra;;;;;;;0.50;2.4.11 extra nyckel till gravitationslås extra gravitationslås nyckel
-WORD;WORD:80;;;Hushåll;;;;;;;;;0.50;2.5.1 kommunalt avfall avfall kommunalt
-WORD;WORD:81;;;Hushåll;Farligt avfall;Abonnemang;;;;;;;0.75;2.5.1 farligt avfall (ej uppmärkt) avfall farligt uppmärkt
-WORD;WORD:82;;;Hushåll;Farligt avfall;Abonnemang;;;;;;;0.75;2.5.1 farligt avfall (uppmärkt) avfall farligt uppmärkt
-WORD;WORD:83;;;Hushåll;;;;;;;;;0.50;2.5.1 avisering av ankomst ankomst avisering
-WORD;WORD:84;;;Flerbostad/verksamhet;;;;3m3;;;Volym;VOLM;0.75;3.1 upp till 3 m3 m³ upp
-WORD;WORD:85;;;Flerbostad/verksamhet;;;;3m3;;;Volym;VOLM;0.75;3.1 mellan 3 m3 och 6 m3 m³ mellan
-WORD;WORD:86;;;Flerbostad/verksamhet;;;;6m3;;;Volym;VOLM;0.75;3.1 mellan 6 m3 och 9 m3 m³ mellan
-WORD;WORD:87;;;Flerbostad/verksamhet;;;;9m3;;;Volym;VOLM;0.75;3.1 tillägg per m3 över 9 m3 m³ tillägg över
-WORD;WORD:88;;;Flerbostad/verksamhet;;;Brunn;3m3;;;Volym;VOLM;0.75;3.1 bad-, disk-och tvättbrunn upp till 3 m3 m³ bad-disk-och tvättbrunn upp
-WORD;WORD:89;;;Flerbostad/verksamhet;;;;3m3;;;Volym;VOLM;0.75;3.1 tillägg per m3 över 3 m3 m³ tillägg över
-WORD;WORD:90;;;Flerbostad/verksamhet;;Extra;;;;;;;0.50;3.2 dragning av extra slang vid 5-25 m 5-25 dragning extra slang vid
-WORD;WORD:91;;;Flerbostad/verksamhet;;Extra;;;;;;;0.50;3.2 dragning av extra slang vid 25-35 m 25-35 dragning extra slang vid
-WORD;WORD:92;;;Flerbostad/verksamhet;;Extra;;;;;;;0.50;3.2 dragning av extra slang vid 36-45 m 36-45 dragning extra slang vid
-WORD;WORD:93;;;Flerbostad/verksamhet;;Extra;;;;;;;0.50;3.2 dragning av extra slang vid 46-55 m 46-55 dragning extra slang vid
-WORD;WORD:94;;;Flerbostad/verksamhet;;;Brunn;;;;Vikt;VIKG;0.75;3.2 hantering av brunnslock som väger 15-25 kg kilogram 15-25 brunnslock hantering kilogram som väger
-WORD;WORD:95;;;Flerbostad/verksamhet;;Hämtning/tömning;;;;;;;0.50;3.2 krav på information om tömningstid information krav tömningstid
-WORD;WORD:96;;;Flerbostad/verksamhet;;Hämtning/tömning;;;;;;;0.50;3.2 krav på närvaro vid specificerad tömningstid krav närvaro specificerad tömningstid vid
-WORD;WORD:97;;;Flerbostad/verksamhet;Slam;Hämtning/tömning;;;;;;;0.75;3.2 hantering av kod för kodlås vid slamtömning hantering kod kodlås slamtömning vid
-WORD;WORD:98;;;Flerbostad/verksamhet;;;;;;;;;0.50;3.2 hetvattentvätt med spolbil, timersättning hetvattentvätt spolbil timersättning
-WORD;WORD:99;;;Flerbostad/verksamhet;;Extra;Brunn;5m3;;;Volym;VOLM;0.75;3.2 tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3 m³ brunn budad extra ordinarie samband tank tömning upp
-WORD;WORD:100;;;Flerbostad/verksamhet;;Hämtning/tömning;;;;;;;0.50;3.3 budning inom ordinarie tömningsperiod (1 maj-31 oktober) budning inom maj-31 oktober ordinarie tömningsperiod
-WORD;WORD:101;;;Flerbostad/verksamhet;;Hämtning/tömning;;;;;;;0.50;3.3 budning utanför ordinarie tömningsperiod (1 nov-30 april) april budning nov-30 ordinarie tömningsperiod utanför
-WORD;WORD:102;;;Flerbostad/verksamhet;;Hämtning/tömning;;;;;Styck;ST;0.75;3.3 tömning av toalettvagnar eller liknande/styck styck eller liknande styck toalettvagnar tömning
-WORD;WORD:103;;;Flerbostad/verksamhet;;Abonnemang;Latrin;37;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;3.4 latrinbehållare 37 liter inkl. mottagning och behandling liter behandling inkl latrinbehållare liter mottagning
-WORD;WORD:104;;;Tilläggstjänst;;;;;;;Vikt;VIKG;0.75;4.1 filtermassor upp till 500 kg kilogram 500 filtermassor kilogram upp
-WORD;WORD:105;;;Tilläggstjänst;;;;;;;Vikt;VIKG;0.75;4.1 filtermassor 500-1000 kg kilogram 500-1000 filtermassor kilogram
-WORD;WORD:106;;;Tilläggstjänst;;Hämtning/tömning;;;;;;;0.50;4.2 krav på information om hämtningstid hämtningstid information krav
-WORD;WORD:107;;;Tilläggstjänst;;Hämtning/tömning;;;;;;;0.50;4.2 krav på närvaro vid specificerad hämtningstid hämtningstid krav närvaro specificerad vid
-WORD;WORD:108;;;Tilläggstjänst;;;;;;;;;0.50;4.2 hantering av kod för kodlås hantering kod kodlås
-WORD;WORD:109;;;Slam;;;;3m3;;;Volym;VOLM;0.75;5.1 upp till 3 m3 m³ upp
-WORD;WORD:110;;;Slam;;;;3m3;;;Volym;VOLM;0.75;5.1 mellan 3 m3 och 6 m3 m³ mellan
-WORD;WORD:111;;;Slam;;;;6m3;;;Volym;VOLM;0.75;5.1 över 6 m3 m³ över
-WORD;WORD:112;;;Slam;;Extra;;;;;;;0.50;5.2 dragning av extra slang vid 5-25 m 5-25 dragning extra slang vid
-WORD;WORD:113;;;Slam;;Extra;;;;;;;0.50;5.2 dragning av extra slang vid 25-35 m 25-35 dragning extra slang vid
-WORD;WORD:114;;;Slam;;Extra;;;;;;;0.50;5.2 dragning av extra slang vid 36-45 m 36-45 dragning extra slang vid
-WORD;WORD:115;;;Slam;;Extra;;;;;;;0.50;5.2 dragning av extra slang vid 46-55 m 46-55 dragning extra slang vid
-WORD;WORD:116;;;Slam;;;Brunn;;;;Vikt;VIKG;0.75;5.2 hantering av brunnslock som väger 15-25 kg kilogram 15-25 brunnslock hantering kilogram som väger
-WORD;WORD:117;;;Slam;;Hämtning/tömning;;;;;;;0.50;5.2 krav på information om tömningstid information krav tömningstid
-WORD;WORD:118;;;Slam;;Hämtning/tömning;;;;;;;0.50;5.2 krav på närvaro vid specificerad tömningstid krav närvaro specificerad tömningstid vid
-WORD;WORD:119;;;Slam;;Hämtning/tömning;;;;;;;0.50;5.2 hantering av kod för kodlås vid tömning tömning hantering kod kodlås tömning vid
-WORD;WORD:120;;;Slam;;;;;;;;;0.50;5.2 hetvattentvätt med spolbil, timersättning hetvattentvätt spolbil timersättning
-WORD;WORD:121;;;Slam;;;;;;;;;0.50;5.2 silikontätning per lock lock silikontätning
-WORD;WORD:122;;;Slam;;Extra;;5m3;;;Volym;VOLM;0.75;5.2 tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3 m³ budad extra ordinarie samband tank tömning upp
-WORD;WORD:123;;;Slam;;Hämtning/tömning;;;;;;;0.50;5.3 budning inom ordinarie tömningsperiod (1 maj-31 oktober) budning inom maj-31 oktober ordinarie tömningsperiod
-WORD;WORD:124;;;Slam;;Hämtning/tömning;;;;;;;0.50;5.3 budning utanför ordinarie tömningsperiod budning ordinarie tömningsperiod utanför
-WORD;WORD:125;;;Verksamhetsavfall;;;;;;Verksamhet;;;0.50;6.1.1 verksamheter verksamheter
-WORD;WORD:126;;;Verksamhetsavfall;;Abonnemang;;;;;;;0.50;6.1.1 övriga abonnemangstyper abonnemangstyper övriga
-WORD;WORD:127;;;Verksamhetsavfall;;;;;;;;;0.50;6.1.1 vågkort vågkort
-WORD;WORD:128;;;Verksamhetsavfall;;;;;;;;;0.50;6.1.1 borttappat vågkort borttappat vågkort
-WORD;WORD:129;;;Verksamhetsavfall;;Abonnemang;;;;Verksamhet;;;0.50;6.1.1 ej redovisad ankomst till åvc (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst) besök ankomst anmäla att besök företagare lämnar privatpersoner redovisad sin som verksamhetsavfall åvc
-WORD;WORD:130;;;Verksamhetsavfall;;;;;;;;;0.50;6.1.1 ej redovisad eller fel redovisad fraktion av avfall fraktion avfall eller fel fraktion redovisad
-WORD;WORD:131;;;ÅVC/verksamhetsavfall;;;Säck;240;;;Styck;ST;0.75;6.1.2 avfall till energiåtervinning (240 l sopsäck) styck 240 avfall energiåtervinning sopsäck styck
-WORD;WORD:132;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 avfall till energiåtervinning kilogram avfall energiåtervinning kilogram
-WORD;WORD:133;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 skrymmande avfall till energiåtervinning större än 20x20x80 kilogram 20x20x80 avfall energiåtervinning kilogram skrymmande större
-WORD;WORD:134;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 träavfall-obehandlat, utan tapet, plastmatta, tjärpapp kilogram kilogram plastmatta tapet tjärpapp träavfall-obehandlat
-WORD;WORD:135;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 träavfall-behandlat, utan tapet, plastmatta, tjärpapp kilogram kilogram plastmatta tapet tjärpapp träavfall-behandlat
-WORD;WORD:136;;;ÅVC/verksamhetsavfall;Tryckimpregnerat trä;;;;;;Vikt;VIKG;1.00;6.1.2 tryckimpregnerat virke, pall kilogram kilogram pall tryckimpregnerat virke
-WORD;WORD:137;;;ÅVC/verksamhetsavfall;Betong;;;;;;Vikt;VIKG;1.00;6.1.2 betong, lättbetong kilogram betong kilogram lättbetong
-WORD;WORD:138;;;ÅVC/verksamhetsavfall;Gips;;;;;;Vikt;VIKG;1.00;6.1.2 gips, gipsskivor kilogram gips gipsskivor kilogram
-WORD;WORD:139;;;ÅVC/verksamhetsavfall;Tegel;;;;;;Vikt;VIKG;1.00;6.1.2 tegel kilogram kilogram tegel
-WORD;WORD:140;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 fönster-och planglas utan karm kilogram fönster-och karm kilogram planglas
-WORD;WORD:141;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;;;0.50;6.1.2 fönster med karm fönster karm
-WORD;WORD:142;;;ÅVC/verksamhetsavfall;Plast;;;;;;Vikt;VIKG;1.00;6.1.2 plast kilogram kilogram plast
-WORD;WORD:143;;;ÅVC/verksamhetsavfall;Asbest;;;;;;Volym;VOLM;1.00;6.1.2 isolering utan innehåll av asbest m³ asbest innehåll isolering
-WORD;WORD:144;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 klinker, keramik, porslin kilogram keramik kilogram klinker porslin
-WORD;WORD:145;;;ÅVC/verksamhetsavfall;;;;;;;Styck;ST;0.75;6.1.2 handfat styck handfat styck
-WORD;WORD:146;;;ÅVC/verksamhetsavfall;;;;;;;Styck;ST;0.75;6.1.2 wc-stol styck styck wc-stol
-WORD;WORD:147;;;ÅVC/verksamhetsavfall;Metall;;;;;;Vikt;VIKG;1.00;6.1.2 metall kilogram kilogram metall
-WORD;WORD:148;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 textilier kilogram kilogram textilier
-WORD;WORD:149;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 fiskeredskap kilogram fiskeredskap kilogram
-WORD;WORD:150;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;6.1.2 ätbart fett/frityrolja liter fett frityrolja liter ätbart
-WORD;WORD:151;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Volym;VOLM;0.75;6.1.2 kvistar och grenar m³ grenar kvistar
-WORD;WORD:152;;;ÅVC/verksamhetsavfall;;;;;;;;;0.50;6.1.2 jord jord
-WORD;WORD:153;;;ÅVC/verksamhetsavfall;;;;;;;;;0.50;6.1.2 sten sten
-WORD;WORD:154;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;;;0.50;6.1.2 stubbar/rötter för krossning krossning rötter stubbar
-WORD;WORD:155;;;ÅVC/verksamhetsavfall;;;;;;;Volym;VOLM;0.75;6.1.2 flera fraktioner för egen sortering på ramp (max2 m³) m³ egen flera fraktioner max2 ramp sortering
-WORD;WORD:156;;;ÅVC/verksamhetsavfall;Elavfall;Abonnemang;;;;;;;0.75;6.1.2 osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) avfall elavfall farligt innehåll osorterat sortering
-WORD;WORD:157;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 tonerkassetter, utan elektronik/chip kilogram chip elektronik kilogram tonerkassetter
-WORD;WORD:158;;;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;Vikt;VIKG;1.00;6.1.2 oljeemulsion, emballerat kilogram emballerat kilogram oljeemulsion
-WORD;WORD:159;;;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;Vikt;VIKG;1.00;6.1.2 förorenad olja innehållande pcb kilogram förorenad innehållande kilogram olja pcb
-WORD;WORD:160;;;ÅVC/verksamhetsavfall;Oljeavfall;Abonnemang;;;;;Vikt;VIKG;1.00;6.1.2 oljeavskiljarslam kilogram kilogram oljeavskiljarslam
-WORD;WORD:161;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 diesel kilogram diesel kilogram
-WORD;WORD:162;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 bensinrester kilogram bensinrester kilogram
-WORD;WORD:163;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 hydralslang, med/utan koppling kilogram hydralslang kilogram koppling
-WORD;WORD:164;;;ÅVC/verksamhetsavfall;Förpackningar;Abonnemang;;;;;Vikt;VIKG;1.00;6.1.2 förpackningar, tömde ej rengjorda kilogram förpackningar kilogram rengjorda tömde
-WORD;WORD:165;;;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;Vikt;VIKG;1.00;6.1.2 oljeavfall, fast osorterat emba kilogram emba fast kilogram oljeavfall osorterat
-WORD;WORD:166;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 absorbermedel, filtermaterial kilogram absorbermedel filtermaterial kilogram
-WORD;WORD:167;;;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;Vikt;VIKG;1.00;6.1.2 oljefilter kilogram kilogram oljefilter
-WORD;WORD:168;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 bromsvätska kilogram bromsvätska kilogram
-WORD;WORD:169;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 transformator, kondensator med pcb kilogram kilogram kondensator pcb transformator
-WORD;WORD:170;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 fogskum kilogram fogskum kilogram
-WORD;WORD:171;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 halon kilogram halon kilogram
-WORD;WORD:172;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 koldioxid kilogram kilogram koldioxid
-WORD;WORD:173;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 brandsläckare kilogram brandsläckare kilogram
-WORD;WORD:174;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 helium kilogram helium kilogram
-WORD;WORD:175;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 tändare kilogram kilogram tändare
-WORD;WORD:176;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 syrgas kilogram kilogram syrgas
-WORD;WORD:177;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 oxiderande fast ämne/vätska kilogram fast kilogram oxiderande vätska ämne
-WORD;WORD:178;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 klorexkilogram klorexkilogram
-WORD;WORD:179;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 aerosoler isocyanat, bekämpning kilogram aerosoler bekämpning isocyanat kilogram
-WORD;WORD:180;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 gasol inkl tub kilogram gasol inkl kilogram tub
-WORD;WORD:181;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 gasol, blå programmet kilogram blå gasol kilogram programmet
-WORD;WORD:182;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 giftig organisk vätska kilogram giftig kilogram organisk vätska
-WORD;WORD:183;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 småkemikalier, ej hg-haltiga kilogram hg-haltiga kilogram småkemikalier
-WORD;WORD:184;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 giftig oorganisk vätska kilogram giftig kilogram oorganisk vätska
-WORD;WORD:185;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 oxidationsmedel, flytande kilogram flytande kilogram oxidationsmedel
-WORD;WORD:186;;;ÅVC/verksamhetsavfall;Asbest;;;;;;Vikt;VIKG;1.00;6.1.2 asbest, emballerat kilogram asbest emballerat kilogram
-WORD;WORD:187;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 smittförande avfall kilogram avfall kilogram smittförande
-WORD;WORD:188;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 lösningsmedel kilogram kilogram lösningsmedel
-WORD;WORD:189;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 väteperoxid kilogram kilogram väteperoxid
-WORD;WORD:190;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 flourvätesyra kilogram flourvätesyra kilogram
-WORD;WORD:191;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 svavelsyra kilogram kilogram svavelsyra
-WORD;WORD:192;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 salpetersyra kilogram kilogram salpetersyra
-WORD;WORD:193;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 surt oorganisk fast ämne kilogram fast kilogram oorganisk surt ämne
-WORD;WORD:194;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 surt organisk fast ämne kilogram fast kilogram organisk surt ämne
-WORD;WORD:195;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 surt oorganisk vätska kilogram kilogram oorganisk surt vätska
-WORD;WORD:196;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 surt organisk vätska kilogram kilogram organisk surt vätska
-WORD;WORD:197;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 ammoniaklösning kilogram ammoniaklösning kilogram
-WORD;WORD:198;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 alkaliskt avfall fast kilogram alkaliskt avfall fast kilogram
-WORD;WORD:199;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 basiskt organiskt fast/flytande kilogram basiskt fast flytande kilogram organiskt
-WORD;WORD:200;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 fotokemikalier kilogram fotokemikalier kilogram
-WORD;WORD:201;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 bekämpningsmedel aerosoler kilogram aerosoler bekämpningsmedel kilogram
-WORD;WORD:202;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 bekämpningsmedel fast kilogram bekämpningsmedel fast kilogram
-WORD;WORD:203;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 bekämpningsmedel flytande kilogram bekämpningsmedel flytande kilogram
-WORD;WORD:204;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 kvicksilverhaltigt avfall kilogram avfall kilogram kvicksilverhaltigt
-WORD;WORD:205;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 kvicksilver i föremål kilogram föremål kilogram kvicksilver
-WORD;WORD:206;;;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;6.1.2 oljehaltigt avfall (ej pcb) liter avfall liter oljehaltigt pcb
-WORD;WORD:207;;;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;6.1.2 olja förorenad (ej pcb) liter förorenad liter olja pcb
-WORD;WORD:208;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 färg-, lack-, limburkar lösning kilogram färg-kilogram lack-limburkar lösning
-WORD;WORD:209;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 färg-, lack-, limburkar lösning aerosoler kilogram aerosoler färg-kilogram lack-limburkar lösning
-WORD;WORD:210;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 isocyanater kilogram isocyanater kilogram
-WORD;WORD:211;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 härdare metyl-etylketonperoxid kilogram härdare kilogram metyl-etylketonperoxid
-WORD;WORD:212;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 härdare dibenzoylperoxid kilogram dibenzoylperoxid härdare kilogram
-WORD;WORD:213;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 färg-, lack-, limburkar vattenbaserade kilogram färg-kilogram lack-limburkar vattenbaserade
-WORD;WORD:214;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 tensida alkaliska flytande avfall kilogram alkaliska avfall flytande kilogram tensida
-WORD;WORD:215;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 rengöring/vaskmedel fast kilogram fast kilogram rengöring vaskmedel
-WORD;WORD:216;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 alkaliska flytande avfall kilogram alkaliska avfall flytande kilogram
-WORD;WORD:217;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 cytotoxiska läkemedel, cytostat kilogram cytostat cytotoxiska kilogram läkemedel
-WORD;WORD:218;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 rökdetektor med andra isotoper kilogram andra isotoper kilogram rökdetektor
-WORD;WORD:219;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 rökdetektor med am 241 kilogram 241 kilogram rökdetektor
-WORD;WORD:220;;;ÅVC/verksamhetsavfall;Batterier;;;;;;Vikt;VIKG;1.00;6.1.2 batterier stav, pencell kilogram batterier kilogram pencell stav
-WORD;WORD:221;;;ÅVC/verksamhetsavfall;Batterier;;;;;;Vikt;VIKG;1.00;6.1.2 batterier lithium kilogram batterier kilogram lithium
-WORD;WORD:222;;;ÅVC/verksamhetsavfall;;;;;;;Styck;ST;0.75;6.1.2 bil-, mcbatteri med bly styck bil-bly mcbatteri styck
-WORD;WORD:223;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 glödlampor kilogram glödlampor kilogram
-WORD;WORD:224;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 lysrör kilogram kilogram lysrör
-WORD;WORD:225;;;ÅVC/verksamhetsavfall;Elavfall;;;;;;Vikt;VIKG;1.00;6.1.2 elavfall, små elektronik kilogram elavfall elektronik kilogram små
-WORD;WORD:226;;;ÅVC/verksamhetsavfall;Elavfall;;;;;;Vikt;VIKG;1.00;6.1.2 el-avfall fast installation kilogram el-avfall fast installation kilogram
-WORD;WORD:227;;;ÅVC/verksamhetsavfall;Elavfall;;;;;;Vikt;VIKG;1.00;6.1.2 el-avfall kabel kilogram el-avfall kabel kilogram
-WORD;WORD:228;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 toner, färgpatron med elektronik kilogram elektronik färgpatron kilogram toner
-WORD;WORD:229;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 tv, radio, skärm, skrivare utan färgpatron kilogram färgpatron kilogram radio skrivare skärm
-WORD;WORD:230;;;ÅVC/verksamhetsavfall;Kyl/frys;;;;;;Styck;ST;1.00;6.1.2 kyl-, frysskåp,-boxstyck-boxstyck frysskåp kyl-
-WORD;WORD:231;;;ÅVC/verksamhetsavfall;Kyl/frys;;;;;Verksamhet;Vikt;VIKG;1.00;6.1.2 kyl-, frysskåp,-boxfrån verksamhet kilogram-boxfrån frysskåp kilogram kyl-verksamhet
-WORD;WORD:232;;;ÅVC/verksamhetsavfall;;;;;;;Styck;ST;0.75;6.1.2 spis, tvätt-, diskmaskin styck diskmaskin spis styck tvätt-
-WORD;WORD:233;;;ÅVC/verksamhetsavfall;;;;;;Verksamhet;Vikt;VIKG;0.75;6.1.2 spis, tvätt-, diskmaskin från verksamhet kilogram diskmaskin kilogram spis tvätt-verksamhet
-WORD;WORD:234;;;Verksamhetsavfall;;;Container;;;;Volym;VOLM;0.75;6.1.3 containerxm3 m³ containerxm3
-WORD;WORD:235;;;Verksamhetsavfall;;;Container;;;;Volym;VOLM;0.75;6.1.3 containerxm3 m³ containerxm3
-WORD;WORD:236;;;Verksamhetsavfall;;;Container;;;;Volym;VOLM;0.75;6.1.3 containerxm3 m³ containerxm3
-WORD;WORD:237;;;Verksamhetsavfall;;;Container;;;;;;0.50;6.1.3 omklassning av felsorterad container container container felsorterad omklassning
-WORD;WORD:238;;;Verksamhetsavfall;Farligt avfall;Abonnemang;;;;;;;0.75;6.1.4 okänt farligt avfall (säkerhetsdatablad saknas) fraktion avfall farligt fraktion okänt saknas säkerhetsdatablad
-WORD;WORD:239;;;Verksamhetsavfall;Farligt avfall;Abonnemang;;;;;Tillfälle;TILLFÄLLE;1.00;6.1.4 ombud för rapportering av farligt avfall i avfallsregistret tillfälle avfall avfallsregistret farligt ombud rapportering tillfälle
-WORD;WORD:240;;;Verksamhetsavfall;;;;;;;Tillfälle;TILLFÄLLE;0.75;6.1.4 administrativ rapporteringsavgift till avfallsregistret tillfälle administrativ avfallsregistret rapporteringsavgift tillfälle
-WORD;WORD:241;;;Verksamhetsavfall;;Abonnemang;;;;;Tillfälle;TILLFÄLLE;0.75;6.1.4 ombud för registrering av el-kretsen avlämnarintyg i hämtplatsportalen tillfälle avlämnarintyg el-kretsen hämtplatsportalen ombud registrering tillfälle
+WORD;WORD:1;;;Hushåll;Restavfall;;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.1 kärl 240 l (mat-/restavfall) kärl 240 kärl mat-restavfall
+WORD;WORD:2;;;Hushåll;Restavfall;Extra;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.1 extrakärl 190 l (restavfall) 190 extrakärl restavfall
+WORD;WORD:3;;;Hushåll;Restavfall;;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.2 kärl 240 l (mat-/restavfall) kärl 240 kärl mat-restavfall
+WORD;WORD:4;;;Hushåll;Restavfall;Extra;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.2 extrakärl 190 l (restavfall) 190 extrakärl restavfall
+WORD;WORD:5;;;Hushåll;Restavfall;;;;;;;;0.75;2.2.3 gemensam uppsamlingsplats för mat-/restavfall gemensam mat-restavfall uppsamlingsplats
+WORD;WORD:6;;;Hushåll;;Extra;;;;;;;0.50;2.2.3 extra digital licens (årskostnad) digital extra licens årskostnad
+WORD;WORD:7;;;Hushåll;;;;;;;;;0.50;2.2.3 fysisk nyckel, kallad fob (engångskostnad) engångskostnad fob fysisk kallad nyckel
+WORD;WORD:8;;;Hushåll;;Byte;;;;;;;0.50;2.2.3 byte av telefonnummer kopplat till licens byte kopplat licens telefonnummer
+WORD;WORD:9;;;Hushåll;;Abonnemang;;;;;;;0.50;2.2.3 kostnad för öppning av behållare behållare kostnad öppning
+WORD;WORD:10;;;Hushåll;Restavfall;;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 240 l (mat-/restavfall) kärl 240 kärl mat-restavfall
+WORD;WORD:11;;;Hushåll;Restavfall;;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 370 l (restavfall) kärl 370 kärl restavfall
+WORD;WORD:12;;;Hushåll;Restavfall;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 660 l (restavfall) kärl 660 kärl restavfall
+WORD;WORD:13;;;Hushåll;Matavfall;;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 140 l (matavfall) kärl 140 kärl matavfall
+WORD;WORD:14;;;Hushåll;Förpackningar;Abonnemang;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 190 l (förpackningar) kärl 190 förpackningar kärl
+WORD;WORD:15;;;Hushåll;Förpackningar;Abonnemang;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 370 l (förpackningar) kärl 370 förpackningar kärl
+WORD;WORD:16;;;Hushåll;Förpackningar;Abonnemang;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.4 kärl 660 l (förpackningar) kärl 660 förpackningar kärl
+WORD;WORD:17;;;Hushåll;;Abonnemang;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.2.4 kärl 190 l (tidningar och returpapper) kärl 190 kärl returpapper tidningar
+WORD;WORD:18;;;Hushåll;;Abonnemang;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.2.4 kärl 370 l (tidningar och returpapper) kärl 370 kärl returpapper tidningar
+WORD;WORD:19;;;Hushåll;Restavfall;Abonnemang;;;;;;;0.75;2.2.4 (mat-/restavfall, förpackningar) förpackningar mat-restavfall
+WORD;WORD:20;;;Hushåll;Restavfall;;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.5 kärl 240 l (mat-/restavfall) kärl 240 kärl mat-restavfall
+WORD;WORD:21;;;Hushåll;Restavfall;;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.5 kärl 370 l (restavfall) kärl 370 kärl restavfall
+WORD;WORD:22;;;Hushåll;Restavfall;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.5 kärl 660 l (restavfall) kärl 660 kärl restavfall
+WORD;WORD:23;;;Hushåll;Matavfall;;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.5 kärl 140 l (matavfall) kärl 140 kärl matavfall
+WORD;WORD:24;;;Hushåll;Restavfall;Abonnemang;;;;;;;0.75;2.2.5 bottentömmande behållare (mat-/restavfall) behållare bottentömmande mat-restavfall
+WORD;WORD:25;;;Hushåll;Restavfall;Abonnemang;;;;;;;0.75;2.2.5 lastväxlarflak (restavfall) lastväxlarflak restavfall
+WORD;WORD:26;;;Hushåll;Restavfall;;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.6 kärl 240 l (mat-/restavfall) kärl 240 kärl mat-restavfall
+WORD;WORD:27;;;Hushåll;Restavfall;;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.6 kärl 370 l (restavfall) kärl 370 kärl restavfall
+WORD;WORD:28;;;Hushåll;Restavfall;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.6 kärl 660 l (restavfall) kärl 660 kärl restavfall
+WORD;WORD:29;;;Hushåll;Matavfall;;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.2.6 kärl 140 l (matavfall) kärl 140 kärl matavfall
+WORD;WORD:30;;;Hushåll;Restavfall;Abonnemang;;;;;;;0.75;2.2.6 bottentömmande behållare (mat-/restavfall) behållare bottentömmande mat-restavfall
+WORD;WORD:31;;;Hushåll;Restavfall;Abonnemang;;;;;;;0.75;2.2.6 lastväxlarflak (restavfall) lastväxlarflak restavfall
+WORD;WORD:32;;;Hushåll;;;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.2.7 kärl 140 l (kontors-/returpapper) kärl 140 kontors-kärl returpapper
+WORD;WORD:33;;;Hushåll;;;;;;;;;0.50;2.2.7 egen överlämning av förbrukat kontors-/returpapper enligt anvisning anvisning egen enligt förbrukat kontors-returpapper överlämning
+WORD;WORD:34;;;Hushåll;;;;;;;;;0.50;2.2.7 egen överlämning av förbrukat matfett enligt anvisning anvisning egen enligt förbrukat matfett överlämning
+WORD;WORD:35;;;Hushåll;Matavfall;;;;;;;;0.75;2.3 viktavgift matavfall matavfall viktavgift
+WORD;WORD:36;;;Hushåll;Restavfall;;;;;;;;0.75;2.3 viktavgift restavfall restavfall viktavgift
+WORD;WORD:37;;;Hushåll;;;Kärl;;;;;;0.50;2.3 lyftavgift kärl kärl kärl lyftavgift
+WORD;WORD:38;;;Hushåll;;;;;;;;;0.50;2.4.1 fakturavgift fakturavgift
+WORD;WORD:39;;;Hushåll;Matavfall;;Kärl;240;;;Vikt;VIKG;1.00;2.4.2 delat kärl 240 l matavfall 40 kg kilogram 240 delat kilogram kärl matavfall
+WORD;WORD:40;;;Hushåll;Restavfall;;Kärl;240;;;Vikt;VIKG;1.00;2.4.2 delat kärl 240 l restavfall 40 kg kilogram 240 delat kilogram kärl restavfall
+WORD;WORD:41;;;Hushåll;Matavfall;Extra;Kärl;140;;;Vikt;VIKG;1.00;2.4.2 extra kärl 140 l matavfall 60 kg kilogram 140 extra kilogram kärl matavfall
+WORD;WORD:42;;;Hushåll;Restavfall;Extra;Kärl;190;;;Vikt;VIKG;1.00;2.4.2 extra kärl 140-190 l restavfall 60 kg kilogram 140-190 extra kilogram kärl restavfall
+WORD;WORD:43;;;Hushåll;Restavfall;;Kärl;370;;;Vikt;VIKG;1.00;2.4.2 kärl 370 l restavfall 60 kg kilogram 370 kilogram kärl restavfall
+WORD;WORD:44;;;Hushåll;Restavfall;;Kärl;660;;;Vikt;VIKG;1.00;2.4.2 kärl 660 l restavfall 100 kg kilogram 100 660 kilogram kärl restavfall
+WORD;WORD:45;;;Hushåll;;;Kärl;;;;;;0.50;2.4.3 överfullt kärl kärl kärl överfullt
+WORD;WORD:46;;;Hushåll;;Abonnemang;;;;;;;0.50;2.4.3 överfull bottentömmande behållare behållare bottentömmande överfull
+WORD;WORD:47;;;Hushåll;;Byte;Kärl;;;;;;0.50;2.4.4 byte av trasigt kärl vid oaktsamhet kärl byte kärl oaktsamhet trasigt vid
+WORD;WORD:48;;;Hushåll;;Byte;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.5 byte/återtag av kärl en (1) ggr/år 140-240 liter liter 140-240 byte ggr kärl liter återtag
+WORD;WORD:49;;;Hushåll;;Byte;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.5 byte/återtag av kärl en (1) ggr/år 370-660 liter liter 370-660 byte ggr kärl liter återtag
+WORD;WORD:50;;;Hushåll;;Byte;Kärl;;;;;;0.50;2.4.5 ytterligare byte av kärl under kalenderåret kärl byte kalenderåret kärl under ytterligare
+WORD;WORD:51;;;Hushåll;;;Kärl;;;;;;0.50;2.4.6 kärl kärl kärl
+WORD;WORD:52;;;Hushåll;;Abonnemang;;;;;;;0.50;2.4.6 bottentömmande behållare behållare bottentömmande
+WORD;WORD:53;;;Hushåll;;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.7 kärl 140-660 l 1, 5-10 kärl 140-660 5-10 kärl
+WORD;WORD:54;;;Hushåll;;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.7 kärl 140-660 l 10-20 kärl 10-20 140-660 kärl
+WORD;WORD:55;;;Hushåll;;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.7 kärl 140-660 l 20-30 kärl 140-660 20-30 kärl
+WORD;WORD:56;;;Hushåll;;;;;;;;;0.50;2.4.7 avfallsport/dörr avfallsport dörr
+WORD;WORD:57;;;Hushåll;;;;;;;;;0.50;2.4.7 låst dörr, med kod dörr kod låst
+WORD;WORD:58;;;Hushåll;Matavfall;;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.4.8 kärl 140 l matavfall kärl 140 kärl matavfall
+WORD;WORD:59;;;Hushåll;Restavfall;;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.4.8 kärl 190 l restavfall kärl 190 kärl restavfall
+WORD;WORD:60;;;Hushåll;Restavfall;;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.4.8 kärl 370 l restavfall kärl 370 kärl restavfall
+WORD;WORD:61;;;Hushåll;Restavfall;;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;2.4.8 kärl 660 l restavfall kärl 660 kärl restavfall
+WORD;WORD:62;;;Hushåll;;Abonnemang;;;;;;;0.50;2.4.8 bottentömmande behållare behållare bottentömmande
+WORD;WORD:63;;;Hushåll;;;;;;;;;0.50;2.4.9 sidlastande fordon fordon sidlastande
+WORD;WORD:64;;;Hushåll;;;;;;;;;0.50;2.4.9 bottentömmande fordon bottentömmande fordon
+WORD;WORD:65;;;Hushåll;;Hämtning/tömning;;;;;;;0.50;2.4.9 tömningsavgift per behållare behållare tömningsavgift
+WORD;WORD:66;;;Hushåll;;;Säck;;;;;;0.50;2.4.10 betalsäck betalsäck
+WORD;WORD:67;;;Hushåll;;;Säck;;;;;;0.50;2.4.10 akutsäck akutsäck
+WORD;WORD:68;;;Hushåll;;Abonnemang;;;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.11 matavfallspåsar 9 l matavfallspåsar
+WORD;WORD:69;;;Hushåll;;Abonnemang;;22;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;2.4.11 matavfallspåsar 22 l matavfallspåsar
+WORD;WORD:70;;;Hushåll;;;Kärl;;;;;;0.50;2.4.11 gravitationslås till kärl kärl gravitationslås kärl
+WORD;WORD:71;;;Hushåll;;Extra;;;;;;;0.50;2.4.11 extra nyckel till gravitationslås extra gravitationslås nyckel
+WORD;WORD:72;;;Hushåll;;;;;;;;;0.50;2.5.1 kommunalt avfall avfall kommunalt
+WORD;WORD:73;;;Hushåll;Farligt avfall;Abonnemang;;;;;;;0.75;2.5.1 farligt avfall (ej uppmärkt) avfall farligt uppmärkt
+WORD;WORD:74;;;Hushåll;Farligt avfall;Abonnemang;;;;;;;0.75;2.5.1 farligt avfall (uppmärkt) avfall farligt uppmärkt
+WORD;WORD:75;;;Hushåll;;;;;;;;;0.50;2.5.1 avisering av ankomst ankomst avisering
+WORD;WORD:76;;;Flerbostad/verksamhet;;;;3m3;;;Volym;VOLM;0.75;3.1 upp till 3 m3 m³ upp
+WORD;WORD:77;;;Flerbostad/verksamhet;;;;3m3;;;Volym;VOLM;0.75;3.1 mellan 3 m3 och 6 m3 m³ mellan
+WORD;WORD:78;;;Flerbostad/verksamhet;;;;6m3;;;Volym;VOLM;0.75;3.1 mellan 6 m3 och 9 m3 m³ mellan
+WORD;WORD:79;;;Flerbostad/verksamhet;;;;9m3;;;Volym;VOLM;0.75;3.1 tillägg per m3 över 9 m3 m³ tillägg över
+WORD;WORD:80;;;Flerbostad/verksamhet;;;Brunn;3m3;;;Volym;VOLM;0.75;3.1 bad-, disk-och tvättbrunn upp till 3 m3 m³ bad-disk-och tvättbrunn upp
+WORD;WORD:81;;;Flerbostad/verksamhet;;;;3m3;;;Volym;VOLM;0.75;3.1 tillägg per m3 över 3 m3 m³ tillägg över
+WORD;WORD:82;;;Flerbostad/verksamhet;;Extra;;;;;;;0.50;3.2 dragning av extra slang vid 5-25 m 5-25 dragning extra slang vid
+WORD;WORD:83;;;Flerbostad/verksamhet;;Extra;;;;;;;0.50;3.2 dragning av extra slang vid 25-35 m 25-35 dragning extra slang vid
+WORD;WORD:84;;;Flerbostad/verksamhet;;Extra;;;;;;;0.50;3.2 dragning av extra slang vid 36-45 m 36-45 dragning extra slang vid
+WORD;WORD:85;;;Flerbostad/verksamhet;;Extra;;;;;;;0.50;3.2 dragning av extra slang vid 46-55 m 46-55 dragning extra slang vid
+WORD;WORD:86;;;Flerbostad/verksamhet;;;Brunn;;;;Vikt;VIKG;0.75;3.2 hantering av brunnslock som väger 15-25 kg kilogram 15-25 brunnslock hantering kilogram som väger
+WORD;WORD:87;;;Flerbostad/verksamhet;;Hämtning/tömning;;;;;;;0.50;3.2 krav på information om tömningstid information krav tömningstid
+WORD;WORD:88;;;Flerbostad/verksamhet;;Hämtning/tömning;;;;;;;0.50;3.2 krav på närvaro vid specificerad tömningstid krav närvaro specificerad tömningstid vid
+WORD;WORD:89;;;Flerbostad/verksamhet;Slam;Hämtning/tömning;;;;;;;0.75;3.2 hantering av kod för kodlås vid slamtömning hantering kod kodlås slamtömning vid
+WORD;WORD:90;;;Flerbostad/verksamhet;;;;;;;;;0.50;3.2 hetvattentvätt med spolbil, timersättning hetvattentvätt spolbil timersättning
+WORD;WORD:91;;;Flerbostad/verksamhet;;Extra;Brunn;5m3;;;Volym;VOLM;0.75;3.2 tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3 m³ brunn budad extra ordinarie samband tank tömning upp
+WORD;WORD:92;;;Flerbostad/verksamhet;;Hämtning/tömning;;;;;;;0.50;3.3 budning inom ordinarie tömningsperiod (1 maj-31 oktober) budning inom maj-31 oktober ordinarie tömningsperiod
+WORD;WORD:93;;;Flerbostad/verksamhet;;Hämtning/tömning;;;;;;;0.50;3.3 budning utanför ordinarie tömningsperiod (1 nov-30 april) april budning nov-30 ordinarie tömningsperiod utanför
+WORD;WORD:94;;;Flerbostad/verksamhet;;Hämtning/tömning;;;;;Styck;ST;0.75;3.3 tömning av toalettvagnar eller liknande/styck styck eller liknande styck toalettvagnar tömning
+WORD;WORD:95;;;Flerbostad/verksamhet;;Abonnemang;Latrin;37;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;3.4 latrinbehållare 37 liter inkl. mottagning och behandling liter behandling inkl latrinbehållare liter mottagning
+WORD;WORD:96;;;Tilläggstjänst;;;;;;;Vikt;VIKG;0.75;4.1 filtermassor upp till 500 kg kilogram 500 filtermassor kilogram upp
+WORD;WORD:97;;;Tilläggstjänst;;;;;;;Vikt;VIKG;0.75;4.1 filtermassor 500-1000 kg kilogram 500-1000 filtermassor kilogram
+WORD;WORD:98;;;Tilläggstjänst;;Hämtning/tömning;;;;;;;0.50;4.2 krav på information om hämtningstid hämtningstid information krav
+WORD;WORD:99;;;Tilläggstjänst;;Hämtning/tömning;;;;;;;0.50;4.2 krav på närvaro vid specificerad hämtningstid hämtningstid krav närvaro specificerad vid
+WORD;WORD:100;;;Tilläggstjänst;;;;;;;;;0.50;4.2 hantering av kod för kodlås hantering kod kodlås
+WORD;WORD:101;;;Slam;;;;3m3;;;Volym;VOLM;0.75;5.1 upp till 3 m3 m³ upp
+WORD;WORD:102;;;Slam;;;;3m3;;;Volym;VOLM;0.75;5.1 mellan 3 m3 och 6 m3 m³ mellan
+WORD;WORD:103;;;Slam;;;;6m3;;;Volym;VOLM;0.75;5.1 över 6 m3 m³ över
+WORD;WORD:104;;;Slam;;Extra;;;;;;;0.50;5.2 dragning av extra slang vid 5-25 m 5-25 dragning extra slang vid
+WORD;WORD:105;;;Slam;;Extra;;;;;;;0.50;5.2 dragning av extra slang vid 25-35 m 25-35 dragning extra slang vid
+WORD;WORD:106;;;Slam;;Extra;;;;;;;0.50;5.2 dragning av extra slang vid 36-45 m 36-45 dragning extra slang vid
+WORD;WORD:107;;;Slam;;Extra;;;;;;;0.50;5.2 dragning av extra slang vid 46-55 m 46-55 dragning extra slang vid
+WORD;WORD:108;;;Slam;;;Brunn;;;;Vikt;VIKG;0.75;5.2 hantering av brunnslock som väger 15-25 kg kilogram 15-25 brunnslock hantering kilogram som väger
+WORD;WORD:109;;;Slam;;Hämtning/tömning;;;;;;;0.50;5.2 krav på information om tömningstid information krav tömningstid
+WORD;WORD:110;;;Slam;;Hämtning/tömning;;;;;;;0.50;5.2 krav på närvaro vid specificerad tömningstid krav närvaro specificerad tömningstid vid
+WORD;WORD:111;;;Slam;;Hämtning/tömning;;;;;;;0.50;5.2 hantering av kod för kodlås vid tömning tömning hantering kod kodlås tömning vid
+WORD;WORD:112;;;Slam;;;;;;;;;0.50;5.2 hetvattentvätt med spolbil, timersättning hetvattentvätt spolbil timersättning
+WORD;WORD:113;;;Slam;;;;;;;;;0.50;5.2 silikontätning per lock lock silikontätning
+WORD;WORD:114;;;Slam;;Extra;;5m3;;;Volym;VOLM;0.75;5.2 tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3 m³ budad extra ordinarie samband tank tömning upp
+WORD;WORD:115;;;Slam;;Hämtning/tömning;;;;;;;0.50;5.3 budning inom ordinarie tömningsperiod (1 maj-31 oktober) budning inom maj-31 oktober ordinarie tömningsperiod
+WORD;WORD:116;;;Slam;;Hämtning/tömning;;;;;;;0.50;5.3 budning utanför ordinarie tömningsperiod budning ordinarie tömningsperiod utanför
+WORD;WORD:117;;;Verksamhetsavfall;;;;;;Verksamhet;;;0.50;6.1.1 verksamheter verksamheter
+WORD;WORD:118;;;Verksamhetsavfall;;Abonnemang;;;;;;;0.50;6.1.1 övriga abonnemangstyper abonnemangstyper övriga
+WORD;WORD:119;;;Verksamhetsavfall;;;;;;;;;0.50;6.1.1 vågkort vågkort
+WORD;WORD:120;;;Verksamhetsavfall;;;;;;;;;0.50;6.1.1 borttappat vågkort borttappat vågkort
+WORD;WORD:121;;;Verksamhetsavfall;;Abonnemang;;;;Verksamhet;;;0.50;6.1.1 ej redovisad ankomst till åvc (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst) besök ankomst anmäla att besök företagare lämnar privatpersoner redovisad sin som verksamhetsavfall åvc
+WORD;WORD:122;;;Verksamhetsavfall;;;;;;;;;0.50;6.1.1 ej redovisad eller fel redovisad fraktion av avfall fraktion avfall eller fel fraktion redovisad
+WORD;WORD:123;;;ÅVC/verksamhetsavfall;;;Säck;240;;;Styck;ST;0.75;6.1.2 avfall till energiåtervinning (240 l sopsäck) styck 240 avfall energiåtervinning sopsäck styck
+WORD;WORD:124;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 avfall till energiåtervinning kilogram avfall energiåtervinning kilogram
+WORD;WORD:125;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 skrymmande avfall till energiåtervinning större än 20x20x80 kilogram 20x20x80 avfall energiåtervinning kilogram skrymmande större
+WORD;WORD:126;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 träavfall-obehandlat, utan tapet, plastmatta, tjärpapp kilogram kilogram plastmatta tapet tjärpapp träavfall-obehandlat
+WORD;WORD:127;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 träavfall-behandlat, utan tapet, plastmatta, tjärpapp kilogram kilogram plastmatta tapet tjärpapp träavfall-behandlat
+WORD;WORD:128;;;ÅVC/verksamhetsavfall;Tryckimpregnerat trä;;;;;;Vikt;VIKG;1.00;6.1.2 tryckimpregnerat virke, pall kilogram kilogram pall tryckimpregnerat virke
+WORD;WORD:129;;;ÅVC/verksamhetsavfall;Betong;;;;;;Vikt;VIKG;1.00;6.1.2 betong, lättbetong kilogram betong kilogram lättbetong
+WORD;WORD:130;;;ÅVC/verksamhetsavfall;Gips;;;;;;Vikt;VIKG;1.00;6.1.2 gips, gipsskivor kilogram gips gipsskivor kilogram
+WORD;WORD:131;;;ÅVC/verksamhetsavfall;Tegel;;;;;;Vikt;VIKG;1.00;6.1.2 tegel kilogram kilogram tegel
+WORD;WORD:132;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 fönster-och planglas utan karm kilogram fönster-och karm kilogram planglas
+WORD;WORD:133;;;ÅVC/verksamhetsavfall;Plast;;;;;;Vikt;VIKG;1.00;6.1.2 plast kilogram kilogram plast
+WORD;WORD:134;;;ÅVC/verksamhetsavfall;Asbest;;;;;;Volym;VOLM;1.00;6.1.2 isolering utan innehåll av asbest m³ asbest innehåll isolering
+WORD;WORD:135;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 klinker, keramik, porslin kilogram keramik kilogram klinker porslin
+WORD;WORD:136;;;ÅVC/verksamhetsavfall;;;;;;;Styck;ST;0.75;6.1.2 handfat styck handfat styck
+WORD;WORD:137;;;ÅVC/verksamhetsavfall;;;;;;;Styck;ST;0.75;6.1.2 wc-stol styck styck wc-stol
+WORD;WORD:138;;;ÅVC/verksamhetsavfall;Metall;;;;;;Vikt;VIKG;1.00;6.1.2 metall kilogram kilogram metall
+WORD;WORD:139;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 textilier kilogram kilogram textilier
+WORD;WORD:140;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 fiskeredskap kilogram fiskeredskap kilogram
+WORD;WORD:141;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;6.1.2 ätbart fett/frityrolja liter fett frityrolja liter ätbart
+WORD;WORD:142;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Volym;VOLM;0.75;6.1.2 kvistar och grenar m³ grenar kvistar
+WORD;WORD:143;;;ÅVC/verksamhetsavfall;;;;;;;Volym;VOLM;0.75;6.1.2 flera fraktioner för egen sortering på ramp (max2 m³) m³ egen flera fraktioner max2 ramp sortering
+WORD;WORD:144;;;ÅVC/verksamhetsavfall;Elavfall;Abonnemang;;;;;;;0.75;6.1.2 osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) avfall elavfall farligt innehåll osorterat sortering
+WORD;WORD:145;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 tonerkassetter, utan elektronik/chip kilogram chip elektronik kilogram tonerkassetter
+WORD;WORD:146;;;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;Vikt;VIKG;1.00;6.1.2 oljeemulsion, emballerat kilogram emballerat kilogram oljeemulsion
+WORD;WORD:147;;;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;Vikt;VIKG;1.00;6.1.2 förorenad olja innehållande pcb kilogram förorenad innehållande kilogram olja pcb
+WORD;WORD:148;;;ÅVC/verksamhetsavfall;Oljeavfall;Abonnemang;;;;;Vikt;VIKG;1.00;6.1.2 oljeavskiljarslam kilogram kilogram oljeavskiljarslam
+WORD;WORD:149;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 diesel kilogram diesel kilogram
+WORD;WORD:150;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 bensinrester kilogram bensinrester kilogram
+WORD;WORD:151;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 hydralslang, med/utan koppling kilogram hydralslang kilogram koppling
+WORD;WORD:152;;;ÅVC/verksamhetsavfall;Förpackningar;Abonnemang;;;;;Vikt;VIKG;1.00;6.1.2 förpackningar, tömde ej rengjorda kilogram förpackningar kilogram rengjorda tömde
+WORD;WORD:153;;;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;Vikt;VIKG;1.00;6.1.2 oljeavfall, fast osorterat emba kilogram emba fast kilogram oljeavfall osorterat
+WORD;WORD:154;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 absorbermedel, filtermaterial kilogram absorbermedel filtermaterial kilogram
+WORD;WORD:155;;;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;Vikt;VIKG;1.00;6.1.2 oljefilter kilogram kilogram oljefilter
+WORD;WORD:156;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 bromsvätska kilogram bromsvätska kilogram
+WORD;WORD:157;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 transformator, kondensator med pcb kilogram kilogram kondensator pcb transformator
+WORD;WORD:158;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 fogskum kilogram fogskum kilogram
+WORD;WORD:159;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 halon kilogram halon kilogram
+WORD;WORD:160;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 koldioxid kilogram kilogram koldioxid
+WORD;WORD:161;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 brandsläckare kilogram brandsläckare kilogram
+WORD;WORD:162;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 helium kilogram helium kilogram
+WORD;WORD:163;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 tändare kilogram kilogram tändare
+WORD;WORD:164;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 syrgas kilogram kilogram syrgas
+WORD;WORD:165;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 oxiderande fast ämne/vätska kilogram fast kilogram oxiderande vätska ämne
+WORD;WORD:166;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 klorexkilogram klorexkilogram
+WORD;WORD:167;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 aerosoler isocyanat, bekämpning kilogram aerosoler bekämpning isocyanat kilogram
+WORD;WORD:168;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 gasol inkl tub kilogram gasol inkl kilogram tub
+WORD;WORD:169;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 gasol, blå programmet kilogram blå gasol kilogram programmet
+WORD;WORD:170;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 giftig organisk vätska kilogram giftig kilogram organisk vätska
+WORD;WORD:171;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 småkemikalier, ej hg-haltiga kilogram hg-haltiga kilogram småkemikalier
+WORD;WORD:172;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 giftig oorganisk vätska kilogram giftig kilogram oorganisk vätska
+WORD;WORD:173;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 oxidationsmedel, flytande kilogram flytande kilogram oxidationsmedel
+WORD;WORD:174;;;ÅVC/verksamhetsavfall;Asbest;;;;;;Vikt;VIKG;1.00;6.1.2 asbest, emballerat kilogram asbest emballerat kilogram
+WORD;WORD:175;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 smittförande avfall kilogram avfall kilogram smittförande
+WORD;WORD:176;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 lösningsmedel kilogram kilogram lösningsmedel
+WORD;WORD:177;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 väteperoxid kilogram kilogram väteperoxid
+WORD;WORD:178;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 flourvätesyra kilogram flourvätesyra kilogram
+WORD;WORD:179;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 svavelsyra kilogram kilogram svavelsyra
+WORD;WORD:180;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 salpetersyra kilogram kilogram salpetersyra
+WORD;WORD:181;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 surt oorganisk fast ämne kilogram fast kilogram oorganisk surt ämne
+WORD;WORD:182;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 surt organisk fast ämne kilogram fast kilogram organisk surt ämne
+WORD;WORD:183;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 surt oorganisk vätska kilogram kilogram oorganisk surt vätska
+WORD;WORD:184;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 surt organisk vätska kilogram kilogram organisk surt vätska
+WORD;WORD:185;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 ammoniaklösning kilogram ammoniaklösning kilogram
+WORD;WORD:186;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 alkaliskt avfall fast kilogram alkaliskt avfall fast kilogram
+WORD;WORD:187;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 basiskt organiskt fast/flytande kilogram basiskt fast flytande kilogram organiskt
+WORD;WORD:188;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 fotokemikalier kilogram fotokemikalier kilogram
+WORD;WORD:189;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 bekämpningsmedel aerosoler kilogram aerosoler bekämpningsmedel kilogram
+WORD;WORD:190;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 bekämpningsmedel fast kilogram bekämpningsmedel fast kilogram
+WORD;WORD:191;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 bekämpningsmedel flytande kilogram bekämpningsmedel flytande kilogram
+WORD;WORD:192;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 kvicksilverhaltigt avfall kilogram avfall kilogram kvicksilverhaltigt
+WORD;WORD:193;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 kvicksilver i föremål kilogram föremål kilogram kvicksilver
+WORD;WORD:194;;;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;6.1.2 oljehaltigt avfall (ej pcb) liter avfall liter oljehaltigt pcb
+WORD;WORD:195;;;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;6.1.2 olja förorenad (ej pcb) liter förorenad liter olja pcb
+WORD;WORD:196;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 färg-, lack-, limburkar lösning kilogram färg-kilogram lack-limburkar lösning
+WORD;WORD:197;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 färg-, lack-, limburkar lösning aerosoler kilogram aerosoler färg-kilogram lack-limburkar lösning
+WORD;WORD:198;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 isocyanater kilogram isocyanater kilogram
+WORD;WORD:199;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 härdare metyl-etylketonperoxid kilogram härdare kilogram metyl-etylketonperoxid
+WORD;WORD:200;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 härdare dibenzoylperoxid kilogram dibenzoylperoxid härdare kilogram
+WORD;WORD:201;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 färg-, lack-, limburkar vattenbaserade kilogram färg-kilogram lack-limburkar vattenbaserade
+WORD;WORD:202;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 tensida alkaliska flytande avfall kilogram alkaliska avfall flytande kilogram tensida
+WORD;WORD:203;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 rengöring/vaskmedel fast kilogram fast kilogram rengöring vaskmedel
+WORD;WORD:204;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 alkaliska flytande avfall kilogram alkaliska avfall flytande kilogram
+WORD;WORD:205;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 cytotoxiska läkemedel, cytostat kilogram cytostat cytotoxiska kilogram läkemedel
+WORD;WORD:206;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 rökdetektor med andra isotoper kilogram andra isotoper kilogram rökdetektor
+WORD;WORD:207;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 rökdetektor med am 241 kilogram 241 kilogram rökdetektor
+WORD;WORD:208;;;ÅVC/verksamhetsavfall;Batterier;;;;;;Vikt;VIKG;1.00;6.1.2 batterier stav, pencell kilogram batterier kilogram pencell stav
+WORD;WORD:209;;;ÅVC/verksamhetsavfall;Batterier;;;;;;Vikt;VIKG;1.00;6.1.2 batterier lithium kilogram batterier kilogram lithium
+WORD;WORD:210;;;ÅVC/verksamhetsavfall;;;;;;;Styck;ST;0.75;6.1.2 bil-, mcbatteri med bly styck bil-bly mcbatteri styck
+WORD;WORD:211;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 glödlampor kilogram glödlampor kilogram
+WORD;WORD:212;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 lysrör kilogram kilogram lysrör
+WORD;WORD:213;;;ÅVC/verksamhetsavfall;Elavfall;;;;;;Vikt;VIKG;1.00;6.1.2 elavfall, små elektronik kilogram elavfall elektronik kilogram små
+WORD;WORD:214;;;ÅVC/verksamhetsavfall;Elavfall;;;;;;Vikt;VIKG;1.00;6.1.2 el-avfall fast installation kilogram el-avfall fast installation kilogram
+WORD;WORD:215;;;ÅVC/verksamhetsavfall;Elavfall;;;;;;Vikt;VIKG;1.00;6.1.2 el-avfall kabel kilogram el-avfall kabel kilogram
+WORD;WORD:216;;;ÅVC/verksamhetsavfall;;;;;;;Vikt;VIKG;0.75;6.1.2 toner, färgpatron med elektronik kilogram elektronik färgpatron kilogram toner
+WORD;WORD:217;;;ÅVC/verksamhetsavfall;;Abonnemang;;;;;Vikt;VIKG;0.75;6.1.2 tv, radio, skärm, skrivare utan färgpatron kilogram färgpatron kilogram radio skrivare skärm
+WORD;WORD:218;;;ÅVC/verksamhetsavfall;Kyl/frys;;;;;;Styck;ST;1.00;6.1.2 kyl-, frysskåp,-boxstyck-boxstyck frysskåp kyl-
+WORD;WORD:219;;;ÅVC/verksamhetsavfall;Kyl/frys;;;;;Verksamhet;Vikt;VIKG;1.00;6.1.2 kyl-, frysskåp,-boxfrån verksamhet kilogram-boxfrån frysskåp kilogram kyl-verksamhet
+WORD;WORD:220;;;ÅVC/verksamhetsavfall;;;;;;;Styck;ST;0.75;6.1.2 spis, tvätt-, diskmaskin styck diskmaskin spis styck tvätt-
+WORD;WORD:221;;;ÅVC/verksamhetsavfall;;;;;;Verksamhet;Vikt;VIKG;0.75;6.1.2 spis, tvätt-, diskmaskin från verksamhet kilogram diskmaskin kilogram spis tvätt-verksamhet
+WORD;WORD:222;;;Verksamhetsavfall;;;Container;;;;Volym;VOLM;0.75;6.1.3 containerxm3 m³ containerxm3
+WORD;WORD:223;;;Verksamhetsavfall;;;Container;;;;Volym;VOLM;0.75;6.1.3 containerxm3 m³ containerxm3
+WORD;WORD:224;;;Verksamhetsavfall;;;Container;;;;Volym;VOLM;0.75;6.1.3 containerxm3 m³ containerxm3
+WORD;WORD:225;;;Verksamhetsavfall;;;Container;;;;;;0.50;6.1.3 omklassning av felsorterad container container container felsorterad omklassning
+WORD;WORD:226;;;Verksamhetsavfall;Farligt avfall;Abonnemang;;;;;;;0.75;6.1.4 okänt farligt avfall (säkerhetsdatablad saknas) fraktion avfall farligt fraktion okänt saknas säkerhetsdatablad
+WORD;WORD:227;;;Verksamhetsavfall;Farligt avfall;Abonnemang;;;;;Tillfälle;TILLFÄLLE;1.00;6.1.4 ombud för rapportering av farligt avfall i avfallsregistret tillfälle avfall avfallsregistret farligt ombud rapportering tillfälle
+WORD;WORD:228;;;Verksamhetsavfall;;;;;;;Tillfälle;TILLFÄLLE;0.75;6.1.4 administrativ rapporteringsavgift till avfallsregistret tillfälle administrativ avfallsregistret rapporteringsavgift tillfälle
+WORD;WORD:229;;;Verksamhetsavfall;;Abonnemang;;;;;Tillfälle;TILLFÄLLE;0.75;6.1.4 ombud för registrering av el-kretsen avlämnarintyg i hämtplatsportalen tillfälle avlämnarintyg el-kretsen hämtplatsportalen ombud registrering tillfälle
 STANDARD;Standard Avfall:3;FASTSMÅ;FASTSMÅ;ÅVC/verksamhetsavfall;;Abonnemang;;;;Villa/småhus;;ÅRKV;0.80;standard avfall fastsmå fast grundavgift, småhus årkv fast
 STANDARD;Standard Avfall:4;FASTFLB;FASTFLB;ÅVC/verksamhetsavfall;;Abonnemang;;;;Flerbostadshus;;ÅRKV;0.80;standard avfall fastflb fast grundavgift, flerbostadshus per bostadsenhet årkv fast
 STANDARD;Standard Avfall:5;FASTFRI;FASTFRI;ÅVC/verksamhetsavfall;;Abonnemang;;;;Fritidshus;;ÅRKV;0.80;standard avfall fastfri fast grundavgift, fritidshus årkv fast
@@ -755,65 +743,65 @@ RULE:TAXEPUNKT;Taxepunkter:7;GRUNDSMÅ;;Hushåll;;Abonnemang;;;;;;;1.00;§2.1 en
 RULE:TAXEPUNKT;Taxepunkter:8;GRUNDFRI;;Hushåll;;Abonnemang;;;;Fritidshus;;;1.00;§2.1 fritidshus §2.1 | §2.1 | fritidshus | | st/år | grundfri | grundfri | | | | | grundfri
 RULE:TAXEPUNKT;Taxepunkter:9;GRUNDVHT;;Hushåll;;Abonnemang;;;;Verksamhet;;;1.00;§2.1 verksamhet §2.1 | §2.1 | verksamhet | | st/år | grundvht | grundvht | | | | | grundvht
 RULE:TAXEPUNKT;Taxepunkter:10;GRUNDFLB;;Hushåll;;Abonnemang;;;;Flerbostadshus;;;1.00;§2.1 lägenhet i flerbostadshus §2.1 | §2.1 | lägenhet i flerbostadshus | | st/år | grundflb | grundflb | | | | | grundflb
-RULE:TAXEPUNKT;Taxepunkter:11;;;Hushåll;;Abonnemang;;;;Flerbostadshus;;;0.75;§2.1 lägenhet för specialändamål §2.1 | §2.1 | lägenhet för specialändamål | | st/år | | grundspec | | | | |
-RULE:TAXEPUNKT;Taxepunkter:12;;;Hushåll;;Abonnemang;;;;;;;0.75;§2.1 anläggning §2.1 | §2.1 | anläggning | | st/år | | grundanl | | | | |
-RULE:TAXEPUNKT;Taxepunkter:13;;;Hushåll;;Abonnemang;;;;;;;0.75;§2.1 säsongsbaserad uppställningsplats §2.1 | §2.1 | säsongsbaserad uppställningsplats | | st/år | | grundsäs | | | | |
-RULE:TAXEPUNKT;Taxepunkter:14;;;Hushåll;;Abonnemang;;;;Flerbostadshus;;;0.75;§2.1 campingstuga/-lägenhet §2.1 | §2.1 | campingstuga/-lägenhet | | st/år | | grundcamp | | | | |
-RULE:TAXEPUNKT;Taxepunkter:15;;;Hushåll;;Hämtning/tömning;;;;;;;0.75;§2.1 administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar §2.1 | §2.1 | administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar | | st/år | | admindisp | | | | |
+RULE:TAXEPUNKT;Taxepunkter:11;GRUNDSPEC;;Hushåll;;Abonnemang;;;;Flerbostadshus;;;1.00;§2.1 lägenhet för specialändamål §2.1 | §2.1 | lägenhet för specialändamål | | st/år | grundspec | grundspec | | | | | grundspec
+RULE:TAXEPUNKT;Taxepunkter:12;GRUNDANL;;Hushåll;;Abonnemang;;;;;;;1.00;§2.1 anläggning §2.1 | §2.1 | anläggning | | st/år | grundanl | grundanl | | | | | grundanl
+RULE:TAXEPUNKT;Taxepunkter:13;GRUNDSÄS;;Hushåll;;Abonnemang;;;;;;;1.00;§2.1 säsongsbaserad uppställningsplats §2.1 | §2.1 | säsongsbaserad uppställningsplats | | st/år | grundsäs | grundsäs | | | | | grundsäs
+RULE:TAXEPUNKT;Taxepunkter:14;GRUNDCAMP;;Hushåll;;Abonnemang;;;;Flerbostadshus;;;1.00;§2.1 campingstuga/-lägenhet §2.1 | §2.1 | campingstuga/-lägenhet | | st/år | grundcamp | grundcamp | | | | | grundcamp
+RULE:TAXEPUNKT;Taxepunkter:15;ADMINDISP;;Hushåll;;Hämtning/tömning;;;;;;;1.00;§2.1 administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar §2.1 | §2.1 | administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar | | st/år | admindisp | admindisp | | | | | admindisp
 RULE:TAXEPUNKT;Taxepunkter:16;;;Hushåll;;;;;;;;;0.75;§2.1 §2.1 | §2.1 | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:17;;;Hushåll;;Hämtning/tömning;;;;;;;0.75;§2.2.1 hämtningsavgift per år för en-och tvåbostadshus §2.2.1 hämtningsavgift per år för en-och tvåbostadshus | §2.2.1 hämtningsavgift per år för en-och tvåbostadshus | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:18;KÄ240RM26;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.1 kärl 240 l (mat-/restavfall) §2.2.1 | §2.2.1 | kärl 240 l (mat-/restavfall) | hämtning var 14:e dag | st/år | kä240rm26 | kä240rm26 | | | | | kä240rm26
-RULE:TAXEPUNKT;Taxepunkter:19;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.1 kärl 240 l (mat-/restavfall) §2.2.1 | §2.2.1 | kärl 240 l (mat-/restavfall) | hämtning månadsvis | st/år | | kä240rm12 | | | | |
+RULE:TAXEPUNKT;Taxepunkter:19;KÄ240RM12;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.1 kärl 240 l (mat-/restavfall) §2.2.1 | §2.2.1 | kärl 240 l (mat-/restavfall) | hämtning månadsvis | st/år | kä240rm12 | kä240rm12 | | | | | kä240rm12
 RULE:TAXEPUNKT;Taxepunkter:20;KÄ190XRM26;;Hushåll;Restavfall;Extra;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.1 extrakärl 190 l (restavfall) §2.2.1 | §2.2.1 | extrakärl 190 l (restavfall) | hämtning var 14:e dag | st/år | kä190xrm26 | kä190xrm26 | | | | | kä190xrm26
-RULE:TAXEPUNKT;Taxepunkter:21;;;Hushåll;Restavfall;Extra;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.1 extrakärl 190 l (restavfall) §2.2.1 | §2.2.1 | extrakärl 190 l (restavfall) | hämtning månadsvis | st/år | | kä190xrm12 | | | | |
+RULE:TAXEPUNKT;Taxepunkter:21;KÄ190XRM12;;Hushåll;Restavfall;Extra;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.1 extrakärl 190 l (restavfall) §2.2.1 | §2.2.1 | extrakärl 190 l (restavfall) | hämtning månadsvis | st/år | kä190xrm12 | kä190xrm12 | | | | | kä190xrm12
 RULE:TAXEPUNKT;Taxepunkter:22;;;Hushåll;;;;;;;;;0.75;§2.2.1 §2.2.1 | §2.2.1 | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:23;;;Hushåll;;;;;;;;;0.75;§2.2.1 §2.2.1 | §2.2.1 | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:24;;;Hushåll;;Hämtning/tömning;;;;Fritidshus;;;0.75;§2.2.2 hämtningsavgift per år för fritidshus §2.2.2 hämtningsavgift per år för fritidshus | §2.2.2 hämtningsavgift per år för fritidshus | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:25;KÄ240RM26FRI;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.2 kärl 240 l (mat-/restavfall) §2.2.2 | §2.2.2 | kärl 240 l (mat-/restavfall) | hämtning var 14:e dag | st/år | kä240rm26fri | kä240rm26fri | | | | | kä240rm26fri
-RULE:TAXEPUNKT;Taxepunkter:26;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.2 kärl 240 l (mat-/restavfall) §2.2.2 | §2.2.2 | kärl 240 l (mat-/restavfall) | hämtning månadsvis | st/år | | kä240rm12fri | | | | |
-RULE:TAXEPUNKT;Taxepunkter:27;;;Hushåll;Restavfall;Extra;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.2 extrakärl 190 l (restavfall) §2.2.2 | §2.2.2 | extrakärl 190 l (restavfall) | hämtning var 14:e dag | st/år | | kä190xrm26fri | | | | |
+RULE:TAXEPUNKT;Taxepunkter:26;KÄ240RM12FRI;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.2 kärl 240 l (mat-/restavfall) §2.2.2 | §2.2.2 | kärl 240 l (mat-/restavfall) | hämtning månadsvis | st/år | kä240rm12fri | kä240rm12fri | | | | | kä240rm12fri
+RULE:TAXEPUNKT;Taxepunkter:27;KÄ190XRM26FRI;;Hushåll;Restavfall;Extra;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.2 extrakärl 190 l (restavfall) §2.2.2 | §2.2.2 | extrakärl 190 l (restavfall) | hämtning var 14:e dag | st/år | kä190xrm26fri | kä190xrm26fri | | | | | kä190xrm26fri
 RULE:TAXEPUNKT;Taxepunkter:28;;;Hushåll;;;;;;;;;0.75;§2.2.2 §2.2.2 | §2.2.2 | | | | | | | | | |
-RULE:TAXEPUNKT;Taxepunkter:29;;;Hushåll;;Abonnemang;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.2 kärl 370 l (papper-/plastförpackningar) §2.2.2 | §2.2.2 | kärl 370 l (papper-/plastförpackningar) | kostnadsfritt | st/år | | kä370fpfri | | | | |
+RULE:TAXEPUNKT;Taxepunkter:29;KÄ370FP;;Hushåll;;Abonnemang;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.2 kärl 370 l (papper-/plastförpackningar) §2.2.2 | §2.2.2 | kärl 370 l (papper-/plastförpackningar) | kostnadsfritt | st/år | kä370fp | kä370fp | | | | | kä370fp
 RULE:TAXEPUNKT;Taxepunkter:30;;;Hushåll;;;;;;;;;0.75;§2.2.2 §2.2.2 | §2.2.2 | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:31;;;Hushåll;;Hämtning/tömning;;;;;;;0.75;§2.2.3 gemensam uppsamlingsplats inom hämtningsområdex§2.2.3 gemensam uppsamlingsplats inom hämtningsområdex| §2.2.3 gemensam uppsamlingsplats inom hämtningsområdex| | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:32;GEMUPPFRI;;Hushåll;Restavfall;Abonnemang;;;;;;;1.00;§2.2.3 gemensam uppsamlingsplats för mat-/restavfall §2.2.3 | §2.2.3 | gemensam uppsamlingsplats för mat-/restavfall | | st/år | gemuppfri | gemuppfri | | | | | gemuppfri
 RULE:TAXEPUNKT;Taxepunkter:33;GEMUPPFRI;;Hushåll;Förpackningar;Abonnemang;;;;;;;1.00;§2.2.3 gemensam uppsamlingsplats för förpackningar §2.2.3 | §2.2.3 | gemensam uppsamlingsplats för förpackningar | kostnadsfritt | st/år | gemuppfri | gemuppfri | | | | | gemuppfri
 RULE:TAXEPUNKT;Taxepunkter:34;GEMUPPEXTRAFRI;;Hushåll;;Extra;;;;;;;1.00;§2.2.3 extra digital licens (årskostnad) §2.2.3 | §2.2.3 | extra digital licens (årskostnad) | | st/år | gemuppextrafri | gemuppextrafri | | | | | gemuppextrafri
 RULE:TAXEPUNKT;Taxepunkter:35;FOBFRI;;Hushåll;;;;;;;Tillfälle;TILLFÄLLE;1.00;§2.2.3 fysisk nyckel, kallad fob (engångskostnad) §2.2.3 | §2.2.3 | fysisk nyckel, kallad fob (engångskostnad) | | st/tillfälle | fobfri | fobfri | | | | | fobfri
-RULE:TAXEPUNKT;Taxepunkter:36;;;Hushåll;;Byte;;;;;Tillfälle;TILLFÄLLE;0.75;§2.2.3 byte av telefonnummer kopplat till licens §2.2.3 | §2.2.3 | byte av telefonnummer kopplat till licens | | st/tillfälle | | gemuppbyte | | | | |
-RULE:TAXEPUNKT;Taxepunkter:37;;;Hushåll;;Abonnemang;;;;;Tillfälle;TILLFÄLLE;0.75;§2.2.3 kostnad för öppning av behållare §2.2.3 | §2.2.3 | kostnad för öppning av behållare | | st/tillfälle | | gemuppöpp | | | | |
+RULE:TAXEPUNKT;Taxepunkter:36;GEMUPPBYTE;;Hushåll;;Byte;;;;;Tillfälle;TILLFÄLLE;1.00;§2.2.3 byte av telefonnummer kopplat till licens §2.2.3 | §2.2.3 | byte av telefonnummer kopplat till licens | | st/tillfälle | gemuppbyte | gemuppbyte | | | | | gemuppbyte
+RULE:TAXEPUNKT;Taxepunkter:37;GEMUPPÖPP;;Hushåll;;Abonnemang;;;;;Tillfälle;TILLFÄLLE;1.00;§2.2.3 kostnad för öppning av behållare §2.2.3 | §2.2.3 | kostnad för öppning av behållare | | st/tillfälle | gemuppöpp | gemuppöpp | | | | | gemuppöpp
 RULE:TAXEPUNKT;Taxepunkter:38;;;Hushåll;;;;;;;;;0.75;§2.2.3 §2.2.3 | §2.2.3 | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:39;;;Hushåll;;Hämtning/tömning;;;;Flerbostadshus;;;0.75;§2.2.4 hämtningsavgift per år för flerbostadshus §2.2.4 hämtningsavgift per år för flerbostadshus | §2.2.4 hämtningsavgift per år för flerbostadshus | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:40;KÄ240RM52FV;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 240 l (mat-/restavfall) §2.2.4 | §2.2.4 | kärl 240 l (mat-/restavfall) | hämtning varje vecka | st/år | kä240rm52fv | kä240rm52fv | | | | | kä240rm52fv
 RULE:TAXEPUNKT;Taxepunkter:41;KÄ240RM26FV;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 240 l (mat-/restavfall) §2.2.4 | §2.2.4 | kärl 240 l (mat-/restavfall) | hämtning var 14:e dag | st/år | kä240rm26fv | kä240rm26fv | | | | | kä240rm26fv
-RULE:TAXEPUNKT;Taxepunkter:42;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 240 l (mat-/restavfall) §2.2.4 | §2.2.4 | kärl 240 l (mat-/restavfall) | hämtning månadsvis | st/år | | kä240rm12fv | | | | |
+RULE:TAXEPUNKT;Taxepunkter:42;KÄ240RM12FV;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 240 l (mat-/restavfall) §2.2.4 | §2.2.4 | kärl 240 l (mat-/restavfall) | hämtning månadsvis | st/år | kä240rm12fv | kä240rm12fv | | | | | kä240rm12fv
 RULE:TAXEPUNKT;Taxepunkter:43;KÄ370RE52FV;;Hushåll;Restavfall;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 370 l (restavfall) §2.2.4 | §2.2.4 | kärl 370 l (restavfall) | hämtning varje vecka | st/år | kä370re52fv | kä370re52fv | | | | | kä370re52fv
 RULE:TAXEPUNKT;Taxepunkter:44;KÄ370RE26FV;;Hushåll;Restavfall;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 370 l (restavfall) §2.2.4 | §2.2.4 | kärl 370 l (restavfall) | hämtning var 14:e dag | st/år | kä370re26fv | kä370re26fv | | | | | kä370re26fv
-RULE:TAXEPUNKT;Taxepunkter:45;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 370 l (restavfall) §2.2.4 | §2.2.4 | kärl 370 l (restavfall) | hämtning månadsvis | st/år | | kä370re12fv | | | | |
+RULE:TAXEPUNKT;Taxepunkter:45;KÄ370RE12FV;;Hushåll;Restavfall;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 370 l (restavfall) §2.2.4 | §2.2.4 | kärl 370 l (restavfall) | hämtning månadsvis | st/år | kä370re12fv | kä370re12fv | | | | | kä370re12fv
 RULE:TAXEPUNKT;Taxepunkter:46;KÄ660RE52FV;;Hushåll;Restavfall;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 660 l (restavfall) §2.2.4 | §2.2.4 | kärl 660 l (restavfall) | hämtning varje vecka | st/år | kä660re52fv | kä660re52fv | | | | | kä660re52fv
 RULE:TAXEPUNKT;Taxepunkter:47;KÄ660RE26FV;;Hushåll;Restavfall;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 660 l (restavfall) §2.2.4 | §2.2.4 | kärl 660 l (restavfall) | hämtning var 14:e dag | st/år | kä660re26fv | kä660re26fv | | | | | kä660re26fv
-RULE:TAXEPUNKT;Taxepunkter:48;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 660 l (restavfall) §2.2.4 | §2.2.4 | kärl 660 l (restavfall) | hämtning månadsvis | st/år | | kä660re12fv | | | | |
+RULE:TAXEPUNKT;Taxepunkter:48;KÄ660RE12FV;;Hushåll;Restavfall;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 660 l (restavfall) §2.2.4 | §2.2.4 | kärl 660 l (restavfall) | hämtning månadsvis | st/år | kä660re12fv | kä660re12fv | | | | | kä660re12fv
 RULE:TAXEPUNKT;Taxepunkter:49;KÄ140MA52FV;;Hushåll;Matavfall;Hämtning/tömning;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 140 l (matavfall) §2.2.4 | §2.2.4 | kärl 140 l (matavfall) | hämtning varje vecka | st/år | kä140ma52fv | kä140ma52fv | | | | | kä140ma52fv
 RULE:TAXEPUNKT;Taxepunkter:50;KÄ140MA26FV;;Hushåll;Matavfall;Hämtning/tömning;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 140 l (matavfall) §2.2.4 | §2.2.4 | kärl 140 l (matavfall) | hämtning var 14:e dag | st/år | kä140ma26fv | kä140ma26fv | | | | | kä140ma26fv
-RULE:TAXEPUNKT;Taxepunkter:51;;;Hushåll;Matavfall;Hämtning/tömning;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 140 l (matavfall) §2.2.4 | §2.2.4 | kärl 140 l (matavfall) | hämtning månadsvis | st/år | | kä140ma12fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:52;;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 190 l (förpackningar) §2.2.4 | §2.2.4 | kärl 190 l (förpackningar) | hämtning varje vecka | st/år | | kä190fp52fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:53;;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 190 l (förpackningar) §2.2.4 | §2.2.4 | kärl 190 l (förpackningar) | hämtning var 14:e dag | st/år | | kä190fp26fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:54;;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 190 l (förpackningar) §2.2.4 | §2.2.4 | kärl 190 l (förpackningar) | hämtning månadsvis | st/år | | kä190fp12fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:55;;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 370 l (förpackningar) §2.2.4 | §2.2.4 | kärl 370 l (förpackningar) | hämtning varje vecka | st/år | | kä370fp52fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:56;;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 370 l (förpackningar) §2.2.4 | §2.2.4 | kärl 370 l (förpackningar) | hämtning var 14:e dag | st/år | | kä370fp26fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:57;;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 370 l (förpackningar) §2.2.4 | §2.2.4 | kärl 370 l (förpackningar) | hämtning månadsvis | st/år | | kä370fp12fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:58;;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 660 l (förpackningar) §2.2.4 | §2.2.4 | kärl 660 l (förpackningar) | hämtning varje vecka | st/år | | kä660fp52fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:59;;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 660 l (förpackningar) §2.2.4 | §2.2.4 | kärl 660 l (förpackningar) | hämtning var 14:e dag | st/år | | kä660fp26fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:60;;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 660 l (förpackningar) §2.2.4 | §2.2.4 | kärl 660 l (förpackningar) | hämtning månadsvis | st/år | | kä660fp12fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:61;;;Hushåll;;Hämtning/tömning;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 190 l (tidningar och returpapper) §2.2.4 | §2.2.4 | kärl 190 l (tidningar och returpapper) | hämtning varje vecka | st/år | | kä190ti52fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:62;;;Hushåll;;Hämtning/tömning;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 190 l (tidningar och returpapper) §2.2.4 | §2.2.4 | kärl 190 l (tidningar och returpapper) | hämtning var 14:e dag | st/år | | kä190ti26fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:63;;;Hushåll;;Hämtning/tömning;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 190 l (tidningar och returpapper) §2.2.4 | §2.2.4 | kärl 190 l (tidningar och returpapper) | hämtning månadsvis | st/år | | kä190ti12fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:64;;;Hushåll;;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 370 l (tidningar och returpapper) §2.2.4 | §2.2.4 | kärl 370 l (tidningar och returpapper) | hämtning varje vecka | st/år | | kä370ti52fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:65;;;Hushåll;;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 370 l (tidningar och returpapper) §2.2.4 | §2.2.4 | kärl 370 l (tidningar och returpapper) | hämtning var 14:e dag | st/år | | kä370ti26fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:66;;;Hushåll;;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.4 kärl 370 l (tidningar och returpapper) §2.2.4 | §2.2.4 | kärl 370 l (tidningar och returpapper) | hämtning månadsvis | st/år | | kä370ti12fv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:67;;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;0.75;§2.2.4 bottentömmande behållare (mat-/restavfall, förpackningar) §2.2.4 | §2.2.4 | bottentömmande behållare (mat-/restavfall, förpackningar) | avgift per tömning | st/tömning | | mbrmfpfv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:68;;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;0.75;§2.2.4 bottentömmande behållare (mat-/restavfall, förpackningar) §2.2.4 | §2.2.4 | bottentömmande behållare (mat-/restavfall, förpackningar) | tillägg för två tömningar per vecka | st/tömning | | mbrmfp2vfv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:69;;;Hushåll;Restavfall;Abonnemang;;;;Flerbostadshus;;;0.75;§2.2.4 gemensam uppsamlingsplats för mat-/restavfall, förpackningar §2.2.4 | §2.2.4 | gemensam uppsamlingsplats för mat-/restavfall, förpackningar | avgift per lägenhet | lägenhet/år | | gemuppmrfpflb | | | | |
+RULE:TAXEPUNKT;Taxepunkter:51;KÄ140MA12FV;;Hushåll;Matavfall;Hämtning/tömning;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 140 l (matavfall) §2.2.4 | §2.2.4 | kärl 140 l (matavfall) | hämtning månadsvis | st/år | kä140ma12fv | kä140ma12fv | | | | | kä140ma12fv
+RULE:TAXEPUNKT;Taxepunkter:52;KÄ190FP52FV;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 190 l (förpackningar) §2.2.4 | §2.2.4 | kärl 190 l (förpackningar) | hämtning varje vecka | st/år | kä190fp52fv | kä190fp52fv | | | | | kä190fp52fv
+RULE:TAXEPUNKT;Taxepunkter:53;KÄ190FP26FV;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 190 l (förpackningar) §2.2.4 | §2.2.4 | kärl 190 l (förpackningar) | hämtning var 14:e dag | st/år | kä190fp26fv | kä190fp26fv | | | | | kä190fp26fv
+RULE:TAXEPUNKT;Taxepunkter:54;KÄ190FP12FV;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 190 l (förpackningar) §2.2.4 | §2.2.4 | kärl 190 l (förpackningar) | hämtning månadsvis | st/år | kä190fp12fv | kä190fp12fv | | | | | kä190fp12fv
+RULE:TAXEPUNKT;Taxepunkter:55;KÄ370FP52FV;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 370 l (förpackningar) §2.2.4 | §2.2.4 | kärl 370 l (förpackningar) | hämtning varje vecka | st/år | kä370fp52fv | kä370fp52fv | | | | | kä370fp52fv
+RULE:TAXEPUNKT;Taxepunkter:56;KÄ370FP26FV;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 370 l (förpackningar) §2.2.4 | §2.2.4 | kärl 370 l (förpackningar) | hämtning var 14:e dag | st/år | kä370fp26fv | kä370fp26fv | | | | | kä370fp26fv
+RULE:TAXEPUNKT;Taxepunkter:57;KÄ370FP12FV;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 370 l (förpackningar) §2.2.4 | §2.2.4 | kärl 370 l (förpackningar) | hämtning månadsvis | st/år | kä370fp12fv | kä370fp12fv | | | | | kä370fp12fv
+RULE:TAXEPUNKT;Taxepunkter:58;KÄ660FP52FV;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 660 l (förpackningar) §2.2.4 | §2.2.4 | kärl 660 l (förpackningar) | hämtning varje vecka | st/år | kä660fp52fv | kä660fp52fv | | | | | kä660fp52fv
+RULE:TAXEPUNKT;Taxepunkter:59;KÄ660FP26FV;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 660 l (förpackningar) §2.2.4 | §2.2.4 | kärl 660 l (förpackningar) | hämtning var 14:e dag | st/år | kä660fp26fv | kä660fp26fv | | | | | kä660fp26fv
+RULE:TAXEPUNKT;Taxepunkter:60;KÄ660FP12FV;;Hushåll;Förpackningar;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 660 l (förpackningar) §2.2.4 | §2.2.4 | kärl 660 l (förpackningar) | hämtning månadsvis | st/år | kä660fp12fv | kä660fp12fv | | | | | kä660fp12fv
+RULE:TAXEPUNKT;Taxepunkter:61;KÄ190TI52FV;;Hushåll;;Hämtning/tömning;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 190 l (tidningar och returpapper) §2.2.4 | §2.2.4 | kärl 190 l (tidningar och returpapper) | hämtning varje vecka | st/år | kä190ti52fv | kä190ti52fv | | | | | kä190ti52fv
+RULE:TAXEPUNKT;Taxepunkter:62;KÄ190TI26FV;;Hushåll;;Hämtning/tömning;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 190 l (tidningar och returpapper) §2.2.4 | §2.2.4 | kärl 190 l (tidningar och returpapper) | hämtning var 14:e dag | st/år | kä190ti26fv | kä190ti26fv | | | | | kä190ti26fv
+RULE:TAXEPUNKT;Taxepunkter:63;KÄ190TI12FV;;Hushåll;;Hämtning/tömning;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 190 l (tidningar och returpapper) §2.2.4 | §2.2.4 | kärl 190 l (tidningar och returpapper) | hämtning månadsvis | st/år | kä190ti12fv | kä190ti12fv | | | | | kä190ti12fv
+RULE:TAXEPUNKT;Taxepunkter:64;KÄ370TI52FV;;Hushåll;;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 370 l (tidningar och returpapper) §2.2.4 | §2.2.4 | kärl 370 l (tidningar och returpapper) | hämtning varje vecka | st/år | kä370ti52fv | kä370ti52fv | | | | | kä370ti52fv
+RULE:TAXEPUNKT;Taxepunkter:65;KÄ370TI26FV;;Hushåll;;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 370 l (tidningar och returpapper) §2.2.4 | §2.2.4 | kärl 370 l (tidningar och returpapper) | hämtning var 14:e dag | st/år | kä370ti26fv | kä370ti26fv | | | | | kä370ti26fv
+RULE:TAXEPUNKT;Taxepunkter:66;KÄ370TI12FV;;Hushåll;;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.4 kärl 370 l (tidningar och returpapper) §2.2.4 | §2.2.4 | kärl 370 l (tidningar och returpapper) | hämtning månadsvis | st/år | kä370ti12fv | kä370ti12fv | | | | | kä370ti12fv
+RULE:TAXEPUNKT;Taxepunkter:67;MBRMFPFV;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;1.00;§2.2.4 bottentömmande behållare (mat-/restavfall, förpackningar) §2.2.4 | §2.2.4 | bottentömmande behållare (mat-/restavfall, förpackningar) | avgift per tömning | st/tömning | mbrmfpfv | mbrmfpfv | | | | | mbrmfpfv
+RULE:TAXEPUNKT;Taxepunkter:68;MBRMFP2VFV;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;1.00;§2.2.4 bottentömmande behållare (mat-/restavfall, förpackningar) §2.2.4 | §2.2.4 | bottentömmande behållare (mat-/restavfall, förpackningar) | tillägg för två tömningar per vecka | st/tömning | mbrmfp2vfv | mbrmfp2vfv | | | | | mbrmfp2vfv
+RULE:TAXEPUNKT;Taxepunkter:69;GEMUPPMRFPFLB;;Hushåll;Restavfall;Abonnemang;;;;Flerbostadshus;;;1.00;§2.2.4 gemensam uppsamlingsplats för mat-/restavfall, förpackningar §2.2.4 | §2.2.4 | gemensam uppsamlingsplats för mat-/restavfall, förpackningar | avgift per lägenhet | lägenhet/år | gemuppmrfpflb | gemuppmrfpflb | | | | | gemuppmrfpflb
 RULE:TAXEPUNKT;Taxepunkter:70;;;Hushåll;;;;;;;;;0.75;§2.2.4 §2.2.4 | §2.2.4 | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:71;;;Hushåll;;Hämtning/tömning;;;;Verksamhet;;;0.75;§2.2.5 hämtningsavgift per år för verksamheter §2.2.5 hämtningsavgift per år för verksamheter | §2.2.5 hämtningsavgift per år för verksamheter | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:72;KÄ240RM52FV;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.5 kärl 240 l (mat-/restavfall) §2.2.5 | §2.2.5 | kärl 240 l (mat-/restavfall) | hämtning varje vecka | st/år | kä240rm52fv | kä240rm52fv | | | | | kä240rm52fv
@@ -829,30 +817,30 @@ RULE:TAXEPUNKT;Taxepunkter:81;KÄ140MA52FV;;Hushåll;Matavfall;Hämtning/tömnin
 RULE:TAXEPUNKT;Taxepunkter:82;KÄ140MA26FV;;Hushåll;Matavfall;Hämtning/tömning;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.5 kärl 140 l (matavfall) §2.2.5 | §2.2.5 | kärl 140 l (matavfall) | hämtning var 14:e dag | st/år | kä140ma26fv | kä140ma26fv | | | | | kä140ma26fv
 RULE:TAXEPUNKT;Taxepunkter:83;;;Hushåll;Matavfall;Hämtning/tömning;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.5 kärl 140 l (matavfall) §2.2.5 | §2.2.5 | kärl 140 l (matavfall) | hämtning månadsvis | st/år | | kä140ma12fv | | | | |
 RULE:TAXEPUNKT;Taxepunkter:84;;;Hushåll;;;;;;;;;0.75;§2.2.5 §2.2.5 | §2.2.5 | | | | | | | | | |
-RULE:TAXEPUNKT;Taxepunkter:85;;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;0.75;§2.2.5 lastväxlarflak (restavfall) §2.2.5 | §2.2.5 | lastväxlarflak (restavfall) | avgift per tömning | st/tömning | | lvrefv | | | | |
-RULE:TAXEPUNKT;Taxepunkter:86;;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;0.75;§2.2.5 bottentömmande behållare (mat-/restavfall) §2.2.5 | §2.2.5 | bottentömmande behållare (mat-/restavfall) | tillägg för två tömningar per vecka | st/tömning | | mbrm2vfv | | | | |
+RULE:TAXEPUNKT;Taxepunkter:85;LVREFV;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;1.00;§2.2.5 lastväxlarflak (restavfall) §2.2.5 | §2.2.5 | lastväxlarflak (restavfall) | avgift per tömning | st/tömning | lvrefv | lvrefv | | | | | lvrefv
+RULE:TAXEPUNKT;Taxepunkter:86;MBRM2VFV;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;1.00;§2.2.5 bottentömmande behållare (mat-/restavfall) §2.2.5 | §2.2.5 | bottentömmande behållare (mat-/restavfall) | tillägg för två tömningar per vecka | st/tömning | mbrm2vfv | mbrm2vfv | | | | | mbrm2vfv
 RULE:TAXEPUNKT;Taxepunkter:87;;;Hushåll;;;;;;;;;0.75;§2.2.5 §2.2.5 | §2.2.5 | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:88;;;Hushåll;;Hämtning/tömning;;;;Verksamhet;;;0.75;§2.2.6 hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall §2.2.6 hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | §2.2.6 hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | | | | | | | | | |
-RULE:TAXEPUNKT;Taxepunkter:89;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.6 kärl 240 l (mat-/restavfall) §2.2.6 | §2.2.6 | kärl 240 l (mat-/restavfall) | hämtning varje vecka | st/år | | kä240rm52dh | | | | |
-RULE:TAXEPUNKT;Taxepunkter:90;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.6 kärl 240 l (mat-/restavfall) §2.2.6 | §2.2.6 | kärl 240 l (mat-/restavfall) | hämtning var 14:e dag | st/år | | kä240rm26dh | | | | |
-RULE:TAXEPUNKT;Taxepunkter:91;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.6 kärl 240 l (mat-/restavfall) §2.2.6 | §2.2.6 | kärl 240 l (mat-/restavfall) | hämtning månadsvis | st/år | | kä240rm12dh | | | | |
-RULE:TAXEPUNKT;Taxepunkter:92;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.6 kärl 370 l (restavfall) §2.2.6 | §2.2.6 | kärl 370 l (restavfall) | hämtning varje vecka | st/år | | kä370re52dh | | | | |
-RULE:TAXEPUNKT;Taxepunkter:93;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.6 kärl 370 l (restavfall) §2.2.6 | §2.2.6 | kärl 370 l (restavfall) | hämtning var 14:e dag | st/år | | kä370re26dh | | | | |
-RULE:TAXEPUNKT;Taxepunkter:94;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.6 kärl 370 l (restavfall) §2.2.6 | §2.2.6 | kärl 370 l (restavfall) | hämtning månadsvis | st/år | | kä370re12dh | | | | |
-RULE:TAXEPUNKT;Taxepunkter:95;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.6 kärl 660 l (restavfall) §2.2.6 | §2.2.6 | kärl 660 l (restavfall) | hämtning varje vecka | st/år | | kä660re52dh | | | | |
-RULE:TAXEPUNKT;Taxepunkter:96;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.6 kärl 660 l (restavfall) §2.2.6 | §2.2.6 | kärl 660 l (restavfall) | hämtning var 14:e dag | st/år | | kä660re26dh | | | | |
-RULE:TAXEPUNKT;Taxepunkter:97;;;Hushåll;Restavfall;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.6 kärl 660 l (restavfall) §2.2.6 | §2.2.6 | kärl 660 l (restavfall) | hämtning månadsvis | st/år | | kä660re12dh | | | | |
-RULE:TAXEPUNKT;Taxepunkter:98;;;Hushåll;Matavfall;Hämtning/tömning;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.6 kärl 140 l (matavfall) §2.2.6 | §2.2.6 | kärl 140 l (matavfall) | hämtning varje vecka | st/år | | kä140ma52dh | | | | |
-RULE:TAXEPUNKT;Taxepunkter:99;;;Hushåll;Matavfall;Hämtning/tömning;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.6 kärl 140 l (matavfall) §2.2.6 | §2.2.6 | kärl 140 l (matavfall) | hämtning var 14:e dag | st/år | | kä140ma26dh | | | | |
-RULE:TAXEPUNKT;Taxepunkter:100;;;Hushåll;Matavfall;Hämtning/tömning;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.6 kärl 140 l (matavfall) §2.2.6 | §2.2.6 | kärl 140 l (matavfall) | hämtning månadsvis | st/år | | kä140ma12dh | | | | |
+RULE:TAXEPUNKT;Taxepunkter:89;KÄ240RM52DH;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.6 kärl 240 l (mat-/restavfall) §2.2.6 | §2.2.6 | kärl 240 l (mat-/restavfall) | hämtning varje vecka | st/år | kä240rm52dh | kä240rm52dh | | | | | kä240rm52dh
+RULE:TAXEPUNKT;Taxepunkter:90;KÄ240RM26DH;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.6 kärl 240 l (mat-/restavfall) §2.2.6 | §2.2.6 | kärl 240 l (mat-/restavfall) | hämtning var 14:e dag | st/år | kä240rm26dh | kä240rm26dh | | | | | kä240rm26dh
+RULE:TAXEPUNKT;Taxepunkter:91;KÄ240RM12DH;;Hushåll;Restavfall;Hämtning/tömning;Kärl;240;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.6 kärl 240 l (mat-/restavfall) §2.2.6 | §2.2.6 | kärl 240 l (mat-/restavfall) | hämtning månadsvis | st/år | kä240rm12dh | kä240rm12dh | | | | | kä240rm12dh
+RULE:TAXEPUNKT;Taxepunkter:92;KÄ370RE52DH;;Hushåll;Restavfall;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.6 kärl 370 l (restavfall) §2.2.6 | §2.2.6 | kärl 370 l (restavfall) | hämtning varje vecka | st/år | kä370re52dh | kä370re52dh | | | | | kä370re52dh
+RULE:TAXEPUNKT;Taxepunkter:93;KÄ370RE26DH;;Hushåll;Restavfall;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.6 kärl 370 l (restavfall) §2.2.6 | §2.2.6 | kärl 370 l (restavfall) | hämtning var 14:e dag | st/år | kä370re26dh | kä370re26dh | | | | | kä370re26dh
+RULE:TAXEPUNKT;Taxepunkter:94;KÄ370RE12DH;;Hushåll;Restavfall;Hämtning/tömning;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.6 kärl 370 l (restavfall) §2.2.6 | §2.2.6 | kärl 370 l (restavfall) | hämtning månadsvis | st/år | kä370re12dh | kä370re12dh | | | | | kä370re12dh
+RULE:TAXEPUNKT;Taxepunkter:95;KÄ660RE52DH;;Hushåll;Restavfall;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.6 kärl 660 l (restavfall) §2.2.6 | §2.2.6 | kärl 660 l (restavfall) | hämtning varje vecka | st/år | kä660re52dh | kä660re52dh | | | | | kä660re52dh
+RULE:TAXEPUNKT;Taxepunkter:96;KÄ660RE26DH;;Hushåll;Restavfall;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.6 kärl 660 l (restavfall) §2.2.6 | §2.2.6 | kärl 660 l (restavfall) | hämtning var 14:e dag | st/år | kä660re26dh | kä660re26dh | | | | | kä660re26dh
+RULE:TAXEPUNKT;Taxepunkter:97;KÄ660RE12DH;;Hushåll;Restavfall;Hämtning/tömning;Kärl;660;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.6 kärl 660 l (restavfall) §2.2.6 | §2.2.6 | kärl 660 l (restavfall) | hämtning månadsvis | st/år | kä660re12dh | kä660re12dh | | | | | kä660re12dh
+RULE:TAXEPUNKT;Taxepunkter:98;KÄ140MA52DH;;Hushåll;Matavfall;Hämtning/tömning;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.6 kärl 140 l (matavfall) §2.2.6 | §2.2.6 | kärl 140 l (matavfall) | hämtning varje vecka | st/år | kä140ma52dh | kä140ma52dh | | | | | kä140ma52dh
+RULE:TAXEPUNKT;Taxepunkter:99;KÄ140MA26DH;;Hushåll;Matavfall;Hämtning/tömning;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.6 kärl 140 l (matavfall) §2.2.6 | §2.2.6 | kärl 140 l (matavfall) | hämtning var 14:e dag | st/år | kä140ma26dh | kä140ma26dh | | | | | kä140ma26dh
+RULE:TAXEPUNKT;Taxepunkter:100;KÄ140MA12DH;;Hushåll;Matavfall;Hämtning/tömning;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.6 kärl 140 l (matavfall) §2.2.6 | §2.2.6 | kärl 140 l (matavfall) | hämtning månadsvis | st/år | kä140ma12dh | kä140ma12dh | | | | | kä140ma12dh
 RULE:TAXEPUNKT;Taxepunkter:101;;;Hushåll;;;;;;;;;0.75;§2.2.6 §2.2.6 | §2.2.6 | | | | | | | | | |
-RULE:TAXEPUNKT;Taxepunkter:102;;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;0.75;§2.2.6 lastväxlarflak (restavfall) §2.2.6 | §2.2.6 | lastväxlarflak (restavfall) | avgift per tömning | st/tömning | | lvredh | | | | |
-RULE:TAXEPUNKT;Taxepunkter:103;;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;0.75;§2.2.6 bottentömmande behållare (mat-/restavfall) §2.2.6 | §2.2.6 | bottentömmande behållare (mat-/restavfall) | tillägg för två tömningar per vecka | st/tömning | | mbrm2vdh | | | | |
+RULE:TAXEPUNKT;Taxepunkter:102;LVREDH;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;1.00;§2.2.6 lastväxlarflak (restavfall) §2.2.6 | §2.2.6 | lastväxlarflak (restavfall) | avgift per tömning | st/tömning | lvredh | lvredh | | | | | lvredh
+RULE:TAXEPUNKT;Taxepunkter:103;MBRM2VDH;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;1.00;§2.2.6 bottentömmande behållare (mat-/restavfall) §2.2.6 | §2.2.6 | bottentömmande behållare (mat-/restavfall) | tillägg för två tömningar per vecka | st/tömning | mbrm2vdh | mbrm2vdh | | | | | mbrm2vdh
 RULE:TAXEPUNKT;Taxepunkter:104;;;Hushåll;;;;;;;;;0.75;§2.2.6 §2.2.6 | §2.2.6 | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:105;;;Hushåll;;;;;;Verksamhet;;;0.75;§2.2.7 verksamheter med beviljad hantering av förbrukat matfett, kontorspapper eller returpapper §2.2.7 verksamheter med beviljad hantering av förbrukat matfett, kontorspapper eller returpapper | §2.2.7 verksamheter med beviljad hantering av förbrukat matfett, kontorspapper eller returpapper | | | | | | | | | |
-RULE:TAXEPUNKT;Taxepunkter:106;;;Hushåll;;Abonnemang;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;0.75;§2.2.7 kärl 140 l (kontors-/returpapper) §2.2.7 | §2.2.7 | kärl 140 l (kontors-/returpapper) | | st/år | | kä140ti | | | | |
+RULE:TAXEPUNKT;Taxepunkter:106;KÄ140TI;;Hushåll;;Abonnemang;Kärl;140;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.7 kärl 140 l (kontors-/returpapper) §2.2.7 | §2.2.7 | kärl 140 l (kontors-/returpapper) | | st/år | kä140ti | kä140ti | | | | | kä140ti
 RULE:TAXEPUNKT;Taxepunkter:107;;;Hushåll;;;;;;;;;0.75;§2.2.7 §2.2.7 | §2.2.7 | | | | | egenkontret | | | | |
-RULE:TAXEPUNKT;Taxepunkter:108;;;Hushåll;;Abonnemang;;;;;;;0.75;§2.2.7 egen överlämning av förbrukat matfett enligt anvisning §2.2.7 | §2.2.7 | egen överlämning av förbrukat matfett enligt anvisning | | st/år | | egenmatfett | | | | |
+RULE:TAXEPUNKT;Taxepunkter:108;EGENMATFETT;;Hushåll;;Abonnemang;;;;;;;1.00;§2.2.7 egen överlämning av förbrukat matfett enligt anvisning §2.2.7 | §2.2.7 | egen överlämning av förbrukat matfett enligt anvisning | | st/år | egenmatfett | egenmatfett | | | | | egenmatfett
 RULE:TAXEPUNKT;Taxepunkter:109;;;Hushåll;;;;;;;;;0.75;§2.2.7 §2.2.7 | §2.2.7 | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:110;;;Hushåll;;;;;;;;;0.75;§2.3 rörlig avgift (gäller ej gemensam uppsamlingsplats) §2.3 rörlig avgift (gäller ej gemensam uppsamlingsplats) | §2.3 rörlig avgift (gäller ej gemensam uppsamlingsplats) | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:111;;;Hushåll;Matavfall;;;;;;;;0.75;§2.3 viktavgift matavfall §2.3 | §2.3 | viktavgift matavfall | | kr/kg | | | | | | |
@@ -1115,6 +1103,15 @@ RULE:TAXEPUNKT;Taxepunkter:367;;;Verksamhetsavfall;;;;;;;;;0.75;§6.1.3 §6.1.3 
 RULE:TAXEPUNKT;Taxepunkter:368;;;Verksamhetsavfall;;;;;;;;;0.75;§6.1.4 tillägg och avgifter §6.1.4 tillägg och avgifter | §6.1.4 tillägg och avgifter | | | | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:369;;;Verksamhetsavfall;;;;;;;Tillfälle;TILLFÄLLE;0.75;§6.1.4 administrativ rapporteringsavgift §6.1.4 | §6.1.4 | administrativ rapporteringsavgift | | st/tillfälle | | | | | | |
 RULE:TAXEPUNKT;Taxepunkter:370;;;Verksamhetsavfall;;;;;;;;;0.75;§6.1.4 §6.1.4 | §6.1.4 | | | | | | | | | |
+RULE:TAXEPUNKT;Taxepunkter:371;KÄ190XRM12FRI;;Hushåll;Restavfall;Extra;Kärl;190;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.2 extrakärl 190 l (restavfall) §2.2.2 | §2.2.2 | extrakärl 190 l (restavfall) | hämtning månadsvis | st/år | kä190xrm12fri | kä190xrm12fri | | | | | kä190xrm12fri
+RULE:TAXEPUNKT;Taxepunkter:372;GEMUPPMR;;Hushåll;Restavfall;Abonnemang;;;;;;;1.00;§2.2.3 gemensam uppsamlingsplats för mat-/restavfall §2.2.3 | §2.2.3 | gemensam uppsamlingsplats för mat-/restavfall | | st/år | gemuppmr | gemuppmr | | | | | gemuppmr
+RULE:TAXEPUNKT;Taxepunkter:373;GEMUPPEXTRA;;Hushåll;;Extra;;;;;;;1.00;§2.2.3 extra digital licens (årskostnad) §2.2.3 | §2.2.3 | extra digital licens (årskostnad) | | st/år | gemuppextra | gemuppextra | | | | | gemuppextra
+RULE:TAXEPUNKT;Taxepunkter:374;GEMUPPFOB;;Hushåll;;Abonnemang;;;;;;;1.00;§2.2.3 fysisk nyckel, kallad fob (engångskostnad) §2.2.3 | §2.2.3 | fysisk nyckel, kallad fob (engångskostnad) | | st/år | gemuppfob | gemuppfob | | | | | gemuppfob
+RULE:TAXEPUNKT;Taxepunkter:375;MBRMFV;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;1.00;§2.2.5 bottentömmande behållare (mat-/restavfall) §2.2.5 | §2.2.5 | bottentömmande behållare (mat-/restavfall) | avgift per tömning | st/år | mbrmfv | mbrmfv | | | | | mbrmfv
+RULE:TAXEPUNKT;Taxepunkter:376;MBRMDH;;Hushåll;Restavfall;Hämtning/tömning;;;;;;;1.00;§2.2.6 bottentömmande behållare (mat-/restavfall) §2.2.6 | §2.2.6 | bottentömmande behållare (mat-/restavfall) | avgift per tömning | st/år | mbrmdh | mbrmdh | | | | | mbrmdh
+RULE:TAXEPUNKT;Taxepunkter:377;KÄ370FPFRI;;Hushåll;;Abonnemang;Kärl;370;;;Behållarvolym;VOLYM/BEHÅLLARE;1.00;§2.2.2 kärl 370 l (papper-/plastförpackningar) §2.2.2 | §2.2.2 | kärl 370 l (papper-/plastförpackningar) | kostnadsfritt | st/år | kä370fpfri | kä370fpfri | | | | | kä370fpfri
+RULE:TAXEPUNKT;Taxepunkter:378;GEMUPPFPFRI;;Hushåll;Förpackningar;Abonnemang;;;;;;;1.00;§2.2.3 gemensam uppsamlingsplats för förpackningar §2.2.3 | §2.2.3 | gemensam uppsamlingsplats för förpackningar | kostnadsfritt | st/år | gemuppfpfri | gemuppfpfri | | | | | gemuppfpfri
+RULE:TAXEPUNKT;Taxepunkter:379;EGENKONTRET;;Hushåll;;Abonnemang;;;;;;;1.00;§2.2.7 egen överlämning av förbrukat kontors-/returpapper enligt anvisning §2.2.7 | §2.2.7 | egen överlämning av förbrukat kontors-/returpapper enligt anvisning | | st/år | egenkontret | egenkontret | | | | | egenkontret
 RULE:EDP;Taxa_från_edp:2;140MAT;;Okänd;Matavfall;;Kärl;140;;;Behållarvolym;KVAN;1.00;140l kärl, viktavgift matavfall 140mat | 140l kärl, viktavgift matavfall | kvan | 140l kärl-viktavgift matavfall | vikg, max60 140mat vikg, max60 140l kärl-viktavgift matavfall
 RULE:EDP;Taxa_från_edp:3;140MAT;;Okänd;Matavfall;;Kärl;140;;;Behållarvolym;KVAN;1.00;140l kärl, viktavgift matavfall 140mat | 140l kärl, viktavgift matavfall | kvan | överviktsavgift för vikt över 60 kg, matavfall | vikg-60, min0 140mat vikg-60, min0 överviktsavgift för vikt över 60 kg, matavfall
 RULE:EDP;Taxa_från_edp:4;370REST;;Okänd;Restavfall;;Kärl;370;;;Behållarvolym;KVAN;1.00;140-370l kärl, viktavgift restavfall 370rest | 140-370l kärl, viktavgift restavfall | kvan | 140-370l kärl-viktavgift restavfall | vikg, max60 370rest vikg, max60 140-370l kärl-viktavgift restavfall

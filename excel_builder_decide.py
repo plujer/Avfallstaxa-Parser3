@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 
+from excel_builder.document import DocumentStructureEngine
 from excel_builder.decision import DecisionWorkbookWriter, TaxDecisionEngine
 from excel_builder.io import ParserMatchReader, WorkbookTaxepunkterReader
 from excel_builder.standard import StandardTaxReader, StandardTaxSuggestionEngine
@@ -19,7 +20,7 @@ def main() -> None:
     parser.add_argument("--csv", default="output/excel/tax_decision_results.csv")
     args = parser.parse_args()
 
-    parser_rows = ParserMatchReader().read(args.parser_result)
+    parser_rows = DocumentStructureEngine().filter_tax_nodes(ParserMatchReader().read(args.parser_result))
     workbook_rows = WorkbookTaxepunkterReader().read(args.reference_workbook)
     catalog = StandardTaxReader().read(args.standard_tax)
     suggestions = StandardTaxSuggestionEngine().suggest(parser_rows, catalog)

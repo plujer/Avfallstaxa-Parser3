@@ -1,89 +1,89 @@
 Context Resolution Report
 
-Status: Berikar parserrader med kontext från sektion/rubriker/närliggande rader.
+Status: Berikar parserrader med hierarkisk kontext från Document Structure Engine.
 Detta ändrar inte originalparsern och inte Taxa_från_edp.
-Rows: 241
-Enriched rows: 241
+Rows: 229
+Enriched rows: 229
 Warnings: 0
 
 Examples:
-- 1: En- och tvåbostadshus -> En- och tvåbostadshus [Hushåll] | context=Hushåll En- och tvåbostadshus
-- 2: Fritidshus -> Fritidshus [Hushåll] | context=Hushåll Fritidshus
-- 3: Verksamhet -> Verksamhet [Hushåll] | context=Hushåll Verksamhet
-- 4: Lägenhet i flerbostadshus -> Lägenhet i flerbostadshus [Hushåll] | context=Hushåll Flerbostadshus
-- 5: Lägenhet för specialändamål -> Lägenhet för specialändamål [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus
-- 6: Anläggning -> Anläggning [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus
-- 7: Säsongsbaserad uppställningsplats -> Säsongsbaserad uppställningsplats [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus
-- 8: Campingstuga/-lägenhet -> Campingstuga/-lägenhet [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus
-- 9: Kärl 240 l (mat-/restavfall) -> Kärl 240 l (mat-/restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl
-- 10: Extrakärl 190 l (restavfall) -> Extrakärl 190 l (restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Extra Kärl
-- 11: Kärl 240 l (mat-/restavfall) -> Kärl 240 l (mat-/restavfall) [Hushåll Flerbostadshus Extra] | context=Hushåll Flerbostadshus Restavfall Extra Kärl
-- 12: Extrakärl 190 l (restavfall) -> Extrakärl 190 l (restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Extra Kärl
-- 13: Gemensam uppsamlingsplats för mat-/restavfall -> Gemensam uppsamlingsplats för mat-/restavfall [Hushåll Flerbostadshus Extra Kärl] | context=Hushåll Flerbostadshus Restavfall Extra Kärl
-- 14: Extra digital licens (årskostnad) -> Extra digital licens (årskostnad) [Hushåll Flerbostadshus Träavfall Kärl] | context=Hushåll Flerbostadshus Träavfall Extra Kärl
-- 15: Fysisk nyckel, kallad fob (engångskostnad) -> Fysisk nyckel, kallad fob (engångskostnad) [Hushåll Flerbostadshus Träavfall Extra Kärl] | context=Hushåll Flerbostadshus Träavfall Extra Kärl
-- 16: Byte av telefonnummer kopplat till licens -> Byte av telefonnummer kopplat till licens [Hushåll Flerbostadshus Träavfall Kärl] | context=Hushåll Flerbostadshus Träavfall Byte Kärl
-- 17: Kostnad för öppning av behållare -> Kostnad för öppning av behållare [Hushåll Flerbostadshus Träavfall Byte Kärl] | context=Hushåll Flerbostadshus Träavfall Byte Kärl
-- 18: Kärl 240 l (mat-/restavfall) -> Kärl 240 l (mat-/restavfall) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 19: Kärl 370 l (restavfall) -> Kärl 370 l (restavfall) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 20: Kärl 660 l (restavfall) -> Kärl 660 l (restavfall) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 21: Kärl 140 l (matavfall) -> Kärl 140 l (matavfall) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Matavfall Byte Kärl
-- 22: Kärl 190 l (förpackningar) -> Kärl 190 l (förpackningar) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Förpackningar Byte Kärl
-- 23: Kärl 370 l (förpackningar) -> Kärl 370 l (förpackningar) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Förpackningar Byte Kärl
-- 24: Kärl 660 l (förpackningar) -> Kärl 660 l (förpackningar) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Förpackningar Byte Kärl
-- 25: Kärl 190 l (tidningar och returpapper) -> Kärl 190 l (tidningar och returpapper) [Hushåll Flerbostadshus Förpackningar Byte] | context=Hushåll Flerbostadshus Förpackningar Byte Kärl
-- 26: Kärl 370 l (tidningar och returpapper) -> Kärl 370 l (tidningar och returpapper) [Hushåll Flerbostadshus Förpackningar Byte] | context=Hushåll Flerbostadshus Förpackningar Byte Kärl
-- 27: (mat-/restavfall, förpackningar) -> (mat-/restavfall, förpackningar) [Hushåll Flerbostadshus Byte Kärl] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 28: Kärl 240 l (mat-/restavfall) -> Kärl 240 l (mat-/restavfall) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 29: Kärl 370 l (restavfall) -> Kärl 370 l (restavfall) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 30: Kärl 660 l (restavfall) -> Kärl 660 l (restavfall) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 31: Kärl 140 l (matavfall) -> Kärl 140 l (matavfall) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Matavfall Byte Kärl
-- 32: Bottentömmande behållare (mat-/restavfall) -> Bottentömmande behållare (mat-/restavfall) [Hushåll Flerbostadshus Byte Kärl] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 33: Lastväxlarflak (restavfall) -> Lastväxlarflak (restavfall) [Hushåll Flerbostadshus Byte Kärl] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 34: Kärl 240 l (mat-/restavfall) -> Kärl 240 l (mat-/restavfall) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 35: Kärl 370 l (restavfall) -> Kärl 370 l (restavfall) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 36: Kärl 660 l (restavfall) -> Kärl 660 l (restavfall) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 37: Kärl 140 l (matavfall) -> Kärl 140 l (matavfall) [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Matavfall Byte Kärl
-- 38: Bottentömmande behållare (mat-/restavfall) -> Bottentömmande behållare (mat-/restavfall) [Hushåll Flerbostadshus Byte Kärl] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 39: Lastväxlarflak (restavfall) -> Lastväxlarflak (restavfall) [Hushåll Flerbostadshus Byte Kärl] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 40: Kärl 140 l (kontors-/returpapper) -> Kärl 140 l (kontors-/returpapper) [Hushåll Flerbostadshus Restavfall Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 41: Egen överlämning av förbrukat kontors-/returpapper enligt anvisning -> Egen överlämning av förbrukat kontors-/returpapper enligt anvisning [Hushåll Flerbostadshus Restavfall Byte Kärl] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 42: Egen överlämning av förbrukat matfett enligt anvisning -> Egen överlämning av förbrukat matfett enligt anvisning [Hushåll Flerbostadshus Restavfall Byte Kärl] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 43: Viktavgift matavfall -> Viktavgift matavfall [Hushåll Flerbostadshus Byte Kärl] | context=Hushåll Flerbostadshus Matavfall Byte Kärl
-- 44: Viktavgift restavfall -> Viktavgift restavfall [Hushåll Flerbostadshus Byte Kärl] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 45: Lyftavgift kärl -> Lyftavgift kärl [Hushåll Flerbostadshus Restavfall Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 46: Fakturavgift -> Fakturavgift [Hushåll Flerbostadshus Restavfall Byte Kärl] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 47: Delat kärl 240 l matavfall 40 kg -> Delat kärl 240 l matavfall 40 kg [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Matavfall Byte Kärl
-- 48: Delat kärl 240 l restavfall 40 kg -> Delat kärl 240 l restavfall 40 kg [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 49: Extra kärl 140 l matavfall 60 kg -> Extra kärl 140 l matavfall 60 kg [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Matavfall Extra Kärl
-- 50: Extra kärl 140-190 l restavfall 60 kg -> Extra kärl 140-190 l restavfall 60 kg [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Extra Kärl
-- 51: Kärl 370 l restavfall 60 kg -> Kärl 370 l restavfall 60 kg [Hushåll Flerbostadshus Extra] | context=Hushåll Flerbostadshus Restavfall Extra Kärl
-- 52: Kärl 660 l restavfall 100 kg -> Kärl 660 l restavfall 100 kg [Hushåll Flerbostadshus Extra] | context=Hushåll Flerbostadshus Restavfall Extra Kärl
-- 53: Överfullt kärl -> Överfullt kärl [Hushåll Flerbostadshus Restavfall Extra] | context=Hushåll Flerbostadshus Restavfall Extra Kärl
-- 54: Överfull bottentömmande behållare -> Överfull bottentömmande behållare [Hushåll Flerbostadshus Restavfall Extra Kärl] | context=Hushåll Flerbostadshus Restavfall Extra Kärl
-- 55: Byte av trasigt kärl vid oaktsamhet -> Byte av trasigt kärl vid oaktsamhet [Hushåll Flerbostadshus Träavfall] | context=Hushåll Flerbostadshus Träavfall Byte Kärl
-- 56: Byte/återtag av kärl en (1) ggr/år 140–240 liter -> Byte/återtag av kärl en (1) ggr/år 140–240 liter [Hushåll Flerbostadshus Träavfall] | context=Hushåll Flerbostadshus Träavfall Byte Kärl
-- 57: Byte/återtag av kärl en (1) ggr/år 370–660 liter -> Byte/återtag av kärl en (1) ggr/år 370–660 liter [Hushåll Flerbostadshus Träavfall] | context=Hushåll Flerbostadshus Träavfall Byte Kärl
-- 58: Ytterligare byte av kärl under kalenderåret -> Ytterligare byte av kärl under kalenderåret [Hushåll Flerbostadshus Träavfall] | context=Hushåll Flerbostadshus Träavfall Byte Kärl
-- 59: Kärl -> Kärl [Hushåll Flerbostadshus Träavfall Byte] | context=Hushåll Flerbostadshus Träavfall Byte Kärl
-- 60: Bottentömmande behållare -> Bottentömmande behållare [Hushåll Flerbostadshus Träavfall Byte Kärl] | context=Hushåll Flerbostadshus Träavfall Byte Kärl
-- 61: Kärl 140-660 L 1,5-10 -> Kärl 140-660 L 1,5-10 [Hushåll Flerbostadshus Träavfall Byte] | context=Hushåll Flerbostadshus Träavfall Byte Kärl
-- 62: Kärl 140-660 L 10-20 -> Kärl 140-660 L 10-20 [Hushåll Flerbostadshus Träavfall Byte] | context=Hushåll Flerbostadshus Träavfall Byte Kärl
-- 63: Kärl 140-660 L 20-30 -> Kärl 140-660 L 20-30 [Hushåll Flerbostadshus Träavfall Byte] | context=Hushåll Flerbostadshus Träavfall Byte Kärl
-- 64: Avfallsport/dörr -> Avfallsport/dörr [Hushåll Flerbostadshus Träavfall Byte Kärl] | context=Hushåll Flerbostadshus Träavfall Byte Kärl
-- 65: Låst dörr, med kod -> Låst dörr, med kod [Hushåll Flerbostadshus Träavfall Byte Kärl] | context=Hushåll Flerbostadshus Träavfall Byte Kärl
-- 66: Kärl 140 l matavfall -> Kärl 140 l matavfall [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Matavfall Byte Kärl
-- 67: Kärl 190 l restavfall -> Kärl 190 l restavfall [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 68: Kärl 370 l restavfall -> Kärl 370 l restavfall [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 69: Kärl 660 l restavfall -> Kärl 660 l restavfall [Hushåll Flerbostadshus Byte] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 70: Bottentömmande behållare -> Bottentömmande behållare [Hushåll Flerbostadshus Restavfall Byte Kärl] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 71: Sidlastande fordon -> Sidlastande fordon [Hushåll Flerbostadshus Restavfall Byte Kärl] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 72: Bottentömmande fordon -> Bottentömmande fordon [Hushåll Flerbostadshus Restavfall Byte Kärl] | context=Hushåll Flerbostadshus Restavfall Byte Kärl
-- 73: Tömningsavgift per behållare -> Tömningsavgift per behållare [Hushåll Flerbostadshus Restavfall Hämtning/tömning Kärl] | context=Hushåll Flerbostadshus Restavfall Hämtning/tömning Kärl
-- 74: Betalsäck -> Betalsäck [Hushåll Flerbostadshus Restavfall Hämtning/tömning] | context=Hushåll Flerbostadshus Restavfall Hämtning/tömning Säck
-- 75: Akutsäck -> Akutsäck [Hushåll Flerbostadshus Restavfall Hämtning/tömning] | context=Hushåll Flerbostadshus Restavfall Hämtning/tömning Säck
-- 76: Matavfallspåsar 9 L -> Matavfallspåsar 9 L [Hushåll Flerbostadshus Hämtning/tömning Säck] | context=Hushåll Flerbostadshus Matavfall Hämtning/tömning Säck
-- 77: Matavfallspåsar 22 L -> Matavfallspåsar 22 L [Hushåll Flerbostadshus Hämtning/tömning Säck] | context=Hushåll Flerbostadshus Matavfall Hämtning/tömning Säck
-- 78: Gravitationslås till kärl -> Gravitationslås till kärl [Hushåll Flerbostadshus Matavfall Hämtning/tömning] | context=Hushåll Flerbostadshus Matavfall Hämtning/tömning Kärl
-- 79: Extra nyckel till gravitationslås -> Extra nyckel till gravitationslås [Hushåll Flerbostadshus Träavfall Kärl] | context=Hushåll Flerbostadshus Träavfall Extra Kärl
-- 80: Kommunalt avfall -> Kommunalt avfall [Hushåll Flerbostadshus Träavfall Extra Kärl] | context=Hushåll Flerbostadshus Träavfall Extra Kärl
+- 9: Kärl 240 l (mat-/restavfall) -> Kärl 240 l (mat-/restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 10: Extrakärl 190 l (restavfall) -> Extrakärl 190 l (restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Extra Kärl | hierarchy=Campingstuga/-lägenhet
+- 11: Kärl 240 l (mat-/restavfall) -> Kärl 240 l (mat-/restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 12: Extrakärl 190 l (restavfall) -> Extrakärl 190 l (restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Extra Kärl | hierarchy=Campingstuga/-lägenhet
+- 13: Gemensam uppsamlingsplats för mat-/restavfall -> Gemensam uppsamlingsplats för mat-/restavfall [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall | hierarchy=Campingstuga/-lägenhet
+- 14: Extra digital licens (årskostnad) -> Extra digital licens (årskostnad) [Hushåll Flerbostadshus Träavfall] | context=Hushåll Flerbostadshus Träavfall Extra | hierarchy=Campingstuga/-lägenhet
+- 15: Fysisk nyckel, kallad fob (engångskostnad) -> Fysisk nyckel, kallad fob (engångskostnad) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 16: Byte av telefonnummer kopplat till licens -> Byte av telefonnummer kopplat till licens [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Byte | hierarchy=Campingstuga/-lägenhet
+- 17: Kostnad för öppning av behållare -> Kostnad för öppning av behållare [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 18: Kärl 240 l (mat-/restavfall) -> Kärl 240 l (mat-/restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 19: Kärl 370 l (restavfall) -> Kärl 370 l (restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 20: Kärl 660 l (restavfall) -> Kärl 660 l (restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 21: Kärl 140 l (matavfall) -> Kärl 140 l (matavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Matavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 22: Kärl 190 l (förpackningar) -> Kärl 190 l (förpackningar) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Förpackningar Kärl | hierarchy=Campingstuga/-lägenhet
+- 23: Kärl 370 l (förpackningar) -> Kärl 370 l (förpackningar) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Förpackningar Kärl | hierarchy=Campingstuga/-lägenhet
+- 24: Kärl 660 l (förpackningar) -> Kärl 660 l (förpackningar) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Förpackningar Kärl | hierarchy=Campingstuga/-lägenhet
+- 25: Kärl 190 l (tidningar och returpapper) -> Kärl 190 l (tidningar och returpapper) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Kärl | hierarchy=Campingstuga/-lägenhet
+- 26: Kärl 370 l (tidningar och returpapper) -> Kärl 370 l (tidningar och returpapper) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Kärl | hierarchy=Campingstuga/-lägenhet
+- 27: (mat-/restavfall, förpackningar) -> (mat-/restavfall, förpackningar) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall | hierarchy=Campingstuga/-lägenhet
+- 28: Kärl 240 l (mat-/restavfall) -> Kärl 240 l (mat-/restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 29: Kärl 370 l (restavfall) -> Kärl 370 l (restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 30: Kärl 660 l (restavfall) -> Kärl 660 l (restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 31: Kärl 140 l (matavfall) -> Kärl 140 l (matavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Matavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 32: Bottentömmande behållare (mat-/restavfall) -> Bottentömmande behållare (mat-/restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall | hierarchy=Campingstuga/-lägenhet
+- 33: Lastväxlarflak (restavfall) -> Lastväxlarflak (restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall | hierarchy=Campingstuga/-lägenhet
+- 34: Kärl 240 l (mat-/restavfall) -> Kärl 240 l (mat-/restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 35: Kärl 370 l (restavfall) -> Kärl 370 l (restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 36: Kärl 660 l (restavfall) -> Kärl 660 l (restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 37: Kärl 140 l (matavfall) -> Kärl 140 l (matavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Matavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 38: Bottentömmande behållare (mat-/restavfall) -> Bottentömmande behållare (mat-/restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall | hierarchy=Campingstuga/-lägenhet
+- 39: Lastväxlarflak (restavfall) -> Lastväxlarflak (restavfall) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall | hierarchy=Campingstuga/-lägenhet
+- 40: Kärl 140 l (kontors-/returpapper) -> Kärl 140 l (kontors-/returpapper) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Kärl | hierarchy=Campingstuga/-lägenhet
+- 41: Egen överlämning av förbrukat kontors-/returpapper enligt anvisning -> Egen överlämning av förbrukat kontors-/returpapper enligt anvisning [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 42: Egen överlämning av förbrukat matfett enligt anvisning -> Egen överlämning av förbrukat matfett enligt anvisning [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 43: Viktavgift matavfall -> Viktavgift matavfall [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Matavfall | hierarchy=Campingstuga/-lägenhet
+- 44: Viktavgift restavfall -> Viktavgift restavfall [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall | hierarchy=Campingstuga/-lägenhet
+- 45: Lyftavgift kärl -> Lyftavgift kärl [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Kärl | hierarchy=Campingstuga/-lägenhet
+- 46: Fakturavgift -> Fakturavgift [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 47: Delat kärl 240 l matavfall 40 kg -> Delat kärl 240 l matavfall 40 kg [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Matavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 48: Delat kärl 240 l restavfall 40 kg -> Delat kärl 240 l restavfall 40 kg [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 49: Extra kärl 140 l matavfall 60 kg -> Extra kärl 140 l matavfall 60 kg [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Matavfall Extra Kärl | hierarchy=Campingstuga/-lägenhet
+- 50: Extra kärl 140-190 l restavfall 60 kg -> Extra kärl 140-190 l restavfall 60 kg [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Extra Kärl | hierarchy=Campingstuga/-lägenhet
+- 51: Kärl 370 l restavfall 60 kg -> Kärl 370 l restavfall 60 kg [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 52: Kärl 660 l restavfall 100 kg -> Kärl 660 l restavfall 100 kg [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 53: Överfullt kärl -> Överfullt kärl [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Kärl | hierarchy=Campingstuga/-lägenhet
+- 54: Överfull bottentömmande behållare -> Överfull bottentömmande behållare [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 55: Byte av trasigt kärl vid oaktsamhet -> Byte av trasigt kärl vid oaktsamhet [Hushåll Flerbostadshus Träavfall] | context=Hushåll Flerbostadshus Träavfall Byte Kärl | hierarchy=Campingstuga/-lägenhet
+- 56: Byte/återtag av kärl en (1) ggr/år 140–240 liter -> Byte/återtag av kärl en (1) ggr/år 140–240 liter [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Byte Kärl | hierarchy=Campingstuga/-lägenhet
+- 57: Byte/återtag av kärl en (1) ggr/år 370–660 liter -> Byte/återtag av kärl en (1) ggr/år 370–660 liter [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Byte Kärl | hierarchy=Campingstuga/-lägenhet
+- 58: Ytterligare byte av kärl under kalenderåret -> Ytterligare byte av kärl under kalenderåret [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Byte Kärl | hierarchy=Campingstuga/-lägenhet
+- 59: Kärl -> Kärl [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Kärl | hierarchy=Campingstuga/-lägenhet
+- 60: Bottentömmande behållare -> Bottentömmande behållare [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 61: Kärl 140-660 L 1,5-10 -> Kärl 140-660 L 1,5-10 [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Kärl | hierarchy=Campingstuga/-lägenhet
+- 62: Kärl 140-660 L 10-20 -> Kärl 140-660 L 10-20 [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Kärl | hierarchy=Campingstuga/-lägenhet
+- 63: Kärl 140-660 L 20-30 -> Kärl 140-660 L 20-30 [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Kärl | hierarchy=Campingstuga/-lägenhet
+- 64: Avfallsport/dörr -> Avfallsport/dörr [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 65: Låst dörr, med kod -> Låst dörr, med kod [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 66: Kärl 140 l matavfall -> Kärl 140 l matavfall [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Matavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 67: Kärl 190 l restavfall -> Kärl 190 l restavfall [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 68: Kärl 370 l restavfall -> Kärl 370 l restavfall [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 69: Kärl 660 l restavfall -> Kärl 660 l restavfall [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Restavfall Kärl | hierarchy=Campingstuga/-lägenhet
+- 70: Bottentömmande behållare -> Bottentömmande behållare [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 71: Sidlastande fordon -> Sidlastande fordon [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 72: Bottentömmande fordon -> Bottentömmande fordon [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 73: Tömningsavgift per behållare -> Tömningsavgift per behållare [Hushåll Flerbostadshus Hämtning/tömning] | context=Hushåll Flerbostadshus Hämtning/tömning | hierarchy=Campingstuga/-lägenhet
+- 74: Betalsäck -> Betalsäck [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Säck | hierarchy=Campingstuga/-lägenhet
+- 75: Akutsäck -> Akutsäck [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Säck | hierarchy=Campingstuga/-lägenhet
+- 76: Matavfallspåsar 9 L -> Matavfallspåsar 9 L [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Matavfall | hierarchy=Campingstuga/-lägenhet
+- 77: Matavfallspåsar 22 L -> Matavfallspåsar 22 L [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Matavfall | hierarchy=Campingstuga/-lägenhet
+- 78: Gravitationslås till kärl -> Gravitationslås till kärl [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Kärl | hierarchy=Campingstuga/-lägenhet
+- 79: Extra nyckel till gravitationslås -> Extra nyckel till gravitationslås [Hushåll Flerbostadshus Träavfall] | context=Hushåll Flerbostadshus Träavfall Extra | hierarchy=Campingstuga/-lägenhet
+- 80: Kommunalt avfall -> Kommunalt avfall [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 81: Farligt avfall (ej uppmärkt) -> Farligt avfall (ej uppmärkt) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Farligt avfall | hierarchy=Campingstuga/-lägenhet
+- 82: Farligt avfall (uppmärkt) -> Farligt avfall (uppmärkt) [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Farligt avfall | hierarchy=Campingstuga/-lägenhet
+- 83: Avisering av ankomst -> Avisering av ankomst [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 84: Upp till 3 m3 -> Upp till 3 m3 [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 85: Mellan 3 m3 och 6 m3 -> Mellan 3 m3 och 6 m3 [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 86: Mellan 6 m3 och 9 m3 -> Mellan 6 m3 och 9 m3 [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 87: Tillägg per m3 över 9 m3 -> Tillägg per m3 över 9 m3 [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus | hierarchy=Campingstuga/-lägenhet
+- 88: Bad-, disk- och tvättbrunn upp till 3 m3 -> Bad-, disk- och tvättbrunn upp till 3 m3 [Hushåll Flerbostadshus] | context=Hushåll Flerbostadshus Brunn | hierarchy=Campingstuga/-lägenhet

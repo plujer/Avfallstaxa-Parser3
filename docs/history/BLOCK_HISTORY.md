@@ -1,5 +1,14 @@
 # BLOCK_HISTORY – Excel Builder
 
+
+## Block35 – Hierarchical Context Resolver
+
+Införde hierarkisk kontext baserad på Document Structure Engine. Kontext ärvs nu från rätt SECTION/SUBSECTION och nollställs vid nya syskonrubriker, vilket minskar risken att exempelvis En- och tvåbostadshus påverkar Fritidshus eller att Slam-kontext följer med in i Verksamhetsavfall.
+
+## Block34 – Document Structure Engine
+
+Införde ett dokumentstrukturlager som skiljer rubriker och struktur från verkliga taxepunkter. Endast TAX_NODE skickas vidare till semantik och beslutsmotor. Detta stoppar kända rubriker som En- och tvåbostadshus, Fritidshus, Verksamhet och Lägenhet i flerbostadshus från att bli NEW_TAXA.
+
 ## Block33 – Build System Stabilization
 
 Återställde full rapportpipeline och la till v1.0-kontroll som första steg.

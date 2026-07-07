@@ -19,6 +19,8 @@ class ContextResolutionReporter:
         "Waste context",
         "Service context",
         "Container context",
+        "Hierarchy path",
+        "Parent structure index",
         "Confidence",
         "Notes",
     ]
@@ -30,7 +32,7 @@ class ContextResolutionReporter:
         lines = [
             "Context Resolution Report",
             "",
-            "Status: Berikar parserrader med kontext från sektion/rubriker/närliggande rader.",
+            "Status: Berikar parserrader med hierarkisk kontext från Document Structure Engine.",
             "Detta ändrar inte originalparsern och inte Taxa_från_edp.",
             f"Rows: {report.total}",
             f"Enriched rows: {report.enriched_count}",
@@ -43,7 +45,7 @@ class ContextResolutionReporter:
             if row.enriched_row != row.original_row:
                 lines.append(
                     f"- {row.context.row_index}: {row.original_row.tax_point} -> {row.enriched_row.tax_point} "
-                    f"| context={row.context.inherited_text}"
+                    f"| context={row.context.inherited_text} | hierarchy={row.context.hierarchy_path}"
                 )
 
         out.write_text("\n".join(lines), encoding="utf-8")
@@ -68,6 +70,8 @@ class ContextResolutionReporter:
                     ctx.waste_type_context,
                     ctx.service_context,
                     ctx.container_context,
+                    ctx.hierarchy_path,
+                    ctx.parent_structure_index or "",
                     f"{ctx.confidence:.2f}",
                     " | ".join(ctx.notes),
                 ])

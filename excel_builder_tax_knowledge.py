@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 
+from excel_builder.document import DocumentStructureEngine
 from excel_builder.io import ParserMatchReader
 from excel_builder.knowledge import TaxKnowledgeExtractor, KnowledgeWorkbookWriter
 from excel_builder.reports import KnowledgeReporter
@@ -15,7 +16,7 @@ def main() -> None:
     parser.add_argument("--workbook", default="")
     args = parser.parse_args()
 
-    parser_rows = ParserMatchReader().read(args.parser_result)
+    parser_rows = DocumentStructureEngine().filter_tax_nodes(ParserMatchReader().read(args.parser_result))
     report = TaxKnowledgeExtractor().extract(parser_rows)
 
     txt = KnowledgeReporter().write_txt(report, args.txt)

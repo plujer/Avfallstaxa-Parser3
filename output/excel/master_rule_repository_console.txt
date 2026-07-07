@@ -1,8 +1,8 @@
 Master Rule Repository klar
-Workbook: data\ArbetsExcel_Reference.xlsx
-Rules: 873
+Workbook: data\master_templates\ArbetsExcel_Template_v0.9.4_draft.xlsx
+Rules: 882
 EDP rules: 370
-Taxepunkt rules: 365
+Taxepunkt rules: 374
 Documentation rules: 138
 TXT: output\excel\master_rule_repository_report.txt
 CSV: output\excel\master_rule_repository.csv

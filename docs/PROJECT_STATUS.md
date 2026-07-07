@@ -3,8 +3,8 @@
 ## Senaste stabila version
 
 ```text
-v0.9.3-build-stable
-Block33 – Build System Stabilization
+v0.9.4-block35-candidate
+Block35 – Hierarchical Context Resolver
 ```
 
 ## Senaste verifierade rapport
@@ -66,20 +66,27 @@ Lägenhet i flerbostadshus
 
 Dessa är dokumentstruktur/rubriker, inte faktiska taxepunkter.
 
+## Senaste genomförda block
+
+```text
+Block35 – Hierarchical Context Resolver
+```
+
+Resultat:
+
+```text
+1. Context Resolver använder Document Structure Engine internt.
+2. Strukturrubriker skickas inte ut som kontextlösta taxarader.
+3. Fastighetstyp, avfallstyp, tjänstetyp och behållartyp ärvs från aktiv hierarki.
+4. Underkontext nollställs vid nya syskonrubriker så kontext inte läcker mellan avsnitt.
+5. context_resolved_rows.csv innehåller Hierarchy path och Parent structure index.
+6. Standardiserade BAT-filer införs för körning, tester, rapporter och Git-steg.
+```
+
 ## Nästa prioritet
 
 ```text
-Block34 – Document Structure Engine
-```
-
-Mål:
-
-```text
-1. Klassificera parserrader som SECTION, SUBSECTION, TABLE_HEADER, TABLE_ROW, TAX_NODE, NOTE.
-2. Bygga ett dokumentträd.
-3. Endast skicka TAX_NODE vidare till semantik och beslut.
-4. Förhindra att rubriker blir NEW_TAXA.
-5. Minska kontextläckage.
+Block36 – Tax Family Intelligence
 ```
 
 ## Aktuell mognadsbedömning
@@ -91,7 +98,7 @@ Mål:
 | Projektisolering | 100 % |
 | Standardtaxekatalog | 99 % |
 | Rule Repository | 95 % |
-| Semantisk modell | 93 % |
+| Semantisk modell | 94 % |
 | Tax Code Intelligence | 85 % |
 | Beslutsmotor | 88 % |
-| Dokumentstrukturförståelse | 50 % |
+| Dokumentstrukturförståelse | 82 % |

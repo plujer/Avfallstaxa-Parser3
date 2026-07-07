@@ -1,18 +1,18 @@
 Tax Knowledge Report
 
 Status: Strukturerad kunskap från Word/parsern. Ingen EDP ändras.
-Total: 241
+Total: 229
 
 Kategorier:
 - Flerbostad/verksamhet: 20
-- Hushåll: 83
+- Hushåll: 75
 - Slam: 16
 - Tilläggstjänst: 5
 - Verksamhetsavfall: 14
-- ÅVC/verksamhetsavfall: 103
+- ÅVC/verksamhetsavfall: 99
 
 Faktorhint:
-- (tom): 81
+- (tom): 69
 - ST: 7
 - TILLFÄLLE: 3
 - VIKG: 96
@@ -20,14 +20,6 @@ Faktorhint:
 - VOLYM/BEHÅLLARE: 37
 
 Details:
-- 2.1 | En- och tvåbostadshus | category=Hushåll waste= unit= factor= confidence=0.50
-- 2.1 | Fritidshus | category=Hushåll waste= unit= factor= confidence=0.50
-- 2.1 | Verksamhet | category=Hushåll waste= unit= factor= confidence=0.50
-- 2.1 | Lägenhet i flerbostadshus | category=Hushåll waste= unit= factor= confidence=0.50
-- 2.1 | Lägenhet för specialändamål | category=Hushåll waste= unit= factor= confidence=0.50
-- 2.1 | Anläggning | category=Hushåll waste= unit= factor= confidence=0.50
-- 2.1 | Säsongsbaserad uppställningsplats | category=Hushåll waste= unit= factor= confidence=0.50
-- 2.1 | Campingstuga/-lägenhet | category=Hushåll waste= unit= factor= confidence=0.50
 - 2.2.1 | Kärl 240 l (mat-/restavfall) | category=Hushåll waste=Restavfall unit=Behållarvolym factor=VOLYM/BEHÅLLARE confidence=1.00
 - 2.2.1 | Extrakärl 190 l (restavfall) | category=Hushåll waste=Restavfall unit=Behållarvolym factor=VOLYM/BEHÅLLARE confidence=1.00
 - 2.2.2 | Kärl 240 l (mat-/restavfall) | category=Hushåll waste=Restavfall unit=Behållarvolym factor=VOLYM/BEHÅLLARE confidence=1.00
@@ -160,7 +152,6 @@ Details:
 - 6.1.2 | Gips, gipsskivor | category=ÅVC/verksamhetsavfall waste=Gips unit=Vikt factor=VIKG confidence=1.00
 - 6.1.2 | Tegel | category=ÅVC/verksamhetsavfall waste=Tegel unit=Vikt factor=VIKG confidence=1.00
 - 6.1.2 | Fönster- och planglas utan karm | category=ÅVC/verksamhetsavfall waste= unit=Vikt factor=VIKG confidence=0.75
-- 6.1.2 | Fönster med karm | category=ÅVC/verksamhetsavfall waste= unit= factor= confidence=0.50
 - 6.1.2 | Plast | category=ÅVC/verksamhetsavfall waste=Plast unit=Vikt factor=VIKG confidence=1.00
 - 6.1.2 | Isolering utan innehåll av asbest | category=ÅVC/verksamhetsavfall waste=Asbest unit=Volym factor=VOLM confidence=1.00
 - 6.1.2 | Klinker, keramik, porslin | category=ÅVC/verksamhetsavfall waste= unit=Vikt factor=VIKG confidence=0.75
@@ -171,9 +162,6 @@ Details:
 - 6.1.2 | Fiskeredskap | category=ÅVC/verksamhetsavfall waste= unit=Vikt factor=VIKG confidence=0.75
 - 6.1.2 | Ätbart fett/frityrolja | category=ÅVC/verksamhetsavfall waste= unit=Behållarvolym factor=VOLYM/BEHÅLLARE confidence=0.75
 - 6.1.2 | Kvistar och grenar | category=ÅVC/verksamhetsavfall waste= unit=Volym factor=VOLM confidence=0.75
-- 6.1.2 | Jord | category=ÅVC/verksamhetsavfall waste= unit= factor= confidence=0.50
-- 6.1.2 | Sten | category=ÅVC/verksamhetsavfall waste= unit= factor= confidence=0.50
-- 6.1.2 | Stubbar/rötter för krossning | category=ÅVC/verksamhetsavfall waste= unit= factor= confidence=0.50
 - 6.1.2 | Flera fraktioner för egen sortering på ramp (max 2 m³) | category=ÅVC/verksamhetsavfall waste= unit=Volym factor=VOLM confidence=0.75
 - 6.1.2 | Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) | category=ÅVC/verksamhetsavfall waste=Elavfall unit= factor= confidence=0.75
 - 6.1.2 | Tonerkassetter, utan elektronik/chip | category=ÅVC/verksamhetsavfall waste= unit=Vikt factor=VIKG confidence=0.75

@@ -1,9 +1,9 @@
 Excel Builder Matching preview klar
 Parser rows: 241
-Workbook rows: 271
+Workbook rows: 280
 EXACT: 0
-PROBABLE: 78
+PROBABLE: 73
 REVIEW: 0
-NEW: 163
+NEW: 168
 TXT: output\excel\excel_matching_report.txt
 CSV: output\excel\excel_matching_results.csv
