@@ -40,3 +40,4 @@ from .semantic_candidate_models import (
     SemanticCandidateReport,
 )
 from .context_models import ParserTaxContext, ContextResolvedTaxRow, ContextResolutionReport
+from .tax_code_models import ParsedTaxCode, TaxCodeParseReport

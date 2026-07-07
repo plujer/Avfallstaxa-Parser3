@@ -1,0 +1,743 @@
+﻿Tax code;Prefix;Container type;Volume liter;Waste code;Waste type;Interval;Variant;Suffix;Family key;Confidence;Notes
+140MAT;;;140;MA;Matavfall;;T;;140MA;0.50;Kunde inte identifiera prefix.
+370REST;;;370;RE;Restavfall;;ST;;370RE;0.50;Kunde inte identifiera prefix.
+660REST;;;660;RE;Restavfall;;ST;;660RE;0.50;Kunde inte identifiera prefix.
+ABSORBERING;;;;;;;ABSORBERING;;;0.10;Kunde inte identifiera prefix.
+AEROSOLER;;;;;;;AEROSOLER;;;0.10;Kunde inte identifiera prefix.
+AEROSOLERFÄRG;;;;;;;AEROSOLERFÄRG;;;0.10;Kunde inte identifiera prefix.
+AEROSOLERHÄRD;;;;;;;AEROSOLERHÄRD;;;0.10;Kunde inte identifiera prefix.
+AMMONIAK;;;;;;;AMMONIAK;;;0.10;Kunde inte identifiera prefix.
+ASBEST;;;;ASB;Asbest;;EST;;ASB;0.30;Kunde inte identifiera prefix.
+ASBESTEMB;;;;ASB;Asbest;;ESTEMB;;ASB;0.30;Kunde inte identifiera prefix.
+AVGNIVÅ1V;;;;;;;;AVGNIVÅ1V;;0.00;Okänd suffix: AVGNIVÅ1V | Kunde inte identifiera prefix.
+AVGNIVÅ2V;;;;;;;;AVGNIVÅ2V;;0.00;Okänd suffix: AVGNIVÅ2V | Kunde inte identifiera prefix.
+AVS03FE;;;;;;;;AVS03FE;;0.00;Okänd suffix: AVS03FE | Kunde inte identifiera prefix.
+AVS03FEB;;;;;;;;AVS03FEB;;0.00;Okänd suffix: AVS03FEB | Kunde inte identifiera prefix.
+AVS03FEBUD;;;;;;;;AVS03FEBUD;;0.00;Okänd suffix: AVS03FEBUD | Kunde inte identifiera prefix.
+AVS03FEO;;;;;;;;AVS03FEO;;0.00;Okänd suffix: AVS03FEO | Kunde inte identifiera prefix.
+AVS03FEORD;;;;;;;;AVS03FEORD;;0.00;Okänd suffix: AVS03FEORD | Kunde inte identifiera prefix.
+AVS03SL;;;;;;;;AVS03SL;;0.00;Okänd suffix: AVS03SL | Kunde inte identifiera prefix.
+AVS03SLB;;;;;;;;AVS03SLB;;0.00;Okänd suffix: AVS03SLB | Kunde inte identifiera prefix.
+AVS03SLBUD;;;;;;;;AVS03SLBUD;;0.00;Okänd suffix: AVS03SLBUD | Kunde inte identifiera prefix.
+AVS03SLO;;;;;;;;AVS03SLO;;0.00;Okänd suffix: AVS03SLO | Kunde inte identifiera prefix.
+AVS03SLORD;;;;;;;;AVS03SLORD;;0.00;Okänd suffix: AVS03SLORD | Kunde inte identifiera prefix.
+AVS36FE;;;;;;;;AVS36FE;;0.00;Okänd suffix: AVS36FE | Kunde inte identifiera prefix.
+AVS36FEB;;;;;;;;AVS36FEB;;0.00;Okänd suffix: AVS36FEB | Kunde inte identifiera prefix.
+AVS36FEBUD;;;;;;;;AVS36FEBUD;;0.00;Okänd suffix: AVS36FEBUD | Kunde inte identifiera prefix.
+AVS36FEO;;;;;;;;AVS36FEO;;0.00;Okänd suffix: AVS36FEO | Kunde inte identifiera prefix.
+AVS36FEORD;;;;;;;;AVS36FEORD;;0.00;Okänd suffix: AVS36FEORD | Kunde inte identifiera prefix.
+AVS36SL;;;;;;;;AVS36SL;;0.00;Okänd suffix: AVS36SL | Kunde inte identifiera prefix.
+AVS36SLB;;;;;;;;AVS36SLB;;0.00;Okänd suffix: AVS36SLB | Kunde inte identifiera prefix.
+AVS36SLBUD;;;;;;;;AVS36SLBUD;;0.00;Okänd suffix: AVS36SLBUD | Kunde inte identifiera prefix.
+AVS36SLO;;;;;;;;AVS36SLO;;0.00;Okänd suffix: AVS36SLO | Kunde inte identifiera prefix.
+AVS36SLORD;;;;;;;;AVS36SLORD;;0.00;Okänd suffix: AVS36SLORD | Kunde inte identifiera prefix.
+AVSLUTA_TJÄNST;;;;;;;;AVSLUTA_TJÄNST;;0.00;Okänd suffix: AVSLUTA_TJÄNST | Kunde inte identifiera prefix.
+AVSTÄNG;;;;;;;AVSTÄNG;;;0.10;Kunde inte identifiera prefix.
+AVSÖ6FE;;;;;;;;AVSÖ6FE;;0.00;Okänd suffix: AVSÖ6FE | Kunde inte identifiera prefix.
+AVSÖ6FEB;;;;;;;;AVSÖ6FEB;;0.00;Okänd suffix: AVSÖ6FEB | Kunde inte identifiera prefix.
+AVSÖ6FEBUD;;;;;;;;AVSÖ6FEBUD;;0.00;Okänd suffix: AVSÖ6FEBUD | Kunde inte identifiera prefix.
+AVSÖ6FEO;;;;;;;;AVSÖ6FEO;;0.00;Okänd suffix: AVSÖ6FEO | Kunde inte identifiera prefix.
+AVSÖ6FEORD;;;;;;;;AVSÖ6FEORD;;0.00;Okänd suffix: AVSÖ6FEORD | Kunde inte identifiera prefix.
+AVSÖ6SL;;;;;;;;AVSÖ6SL;;0.00;Okänd suffix: AVSÖ6SL | Kunde inte identifiera prefix.
+AVSÖ6SLB;;;;;;;;AVSÖ6SLB;;0.00;Okänd suffix: AVSÖ6SLB | Kunde inte identifiera prefix.
+AVSÖ6SLBUD;;;;;;;;AVSÖ6SLBUD;;0.00;Okänd suffix: AVSÖ6SLBUD | Kunde inte identifiera prefix.
+AVSÖ6SLO;;;;;;;;AVSÖ6SLO;;0.00;Okänd suffix: AVSÖ6SLO | Kunde inte identifiera prefix.
+AVSÖ6SLORD;;;;;;;;AVSÖ6SLORD;;0.00;Okänd suffix: AVSÖ6SLORD | Kunde inte identifiera prefix.
+B100;;;;;;;;B100;;0.00;Okänd suffix: B100 | Kunde inte identifiera prefix.
+BBRÄNNBART;;;;;;;BBRÄNNBART;;;0.10;Kunde inte identifiera prefix.
+BDT03SL;;;;;;;;BDT03SL;;0.00;Okänd suffix: BDT03SL | Kunde inte identifiera prefix.
+BDT03SLB;;;;;;;;BDT03SLB;;0.00;Okänd suffix: BDT03SLB | Kunde inte identifiera prefix.
+BDT03SLBUD;;;;;;;;BDT03SLBUD;;0.00;Okänd suffix: BDT03SLBUD | Kunde inte identifiera prefix.
+BDT03SLO;;;;;;;;BDT03SLO;;0.00;Okänd suffix: BDT03SLO | Kunde inte identifiera prefix.
+BDT03SLORD;;;;;;;;BDT03SLORD;;0.00;Okänd suffix: BDT03SLORD | Kunde inte identifiera prefix.
+BDT36SL;;;;;;;;BDT36SL;;0.00;Okänd suffix: BDT36SL | Kunde inte identifiera prefix.
+BDT36SLB;;;;;;;;BDT36SLB;;0.00;Okänd suffix: BDT36SLB | Kunde inte identifiera prefix.
+BDT36SLBUD;;;;;;;;BDT36SLBUD;;0.00;Okänd suffix: BDT36SLBUD | Kunde inte identifiera prefix.
+BDT36SLO;;;;;;;;BDT36SLO;;0.00;Okänd suffix: BDT36SLO | Kunde inte identifiera prefix.
+BDT36SLORD;;;;;;;;BDT36SLORD;;0.00;Okänd suffix: BDT36SLORD | Kunde inte identifiera prefix.
+BDTÖ3SLBUD;;;;;;;;BDTÖ3SLBUD;;0.00;Okänd suffix: BDTÖ3SLBUD | Kunde inte identifiera prefix.
+BDTÖ3SLORD;;;;;;;;BDTÖ3SLORD;;0.00;Okänd suffix: BDTÖ3SLORD | Kunde inte identifiera prefix.
+BEKÄMPNING;;;;;;;BEKÄMPNING;;;0.10;Kunde inte identifiera prefix.
+BENSINRESTER;;;;;;;BENSINRESTER;;;0.10;Kunde inte identifiera prefix.
+BETALSÄCK;;;;;;;BETALSÄCK;;;0.10;Kunde inte identifiera prefix.
+BRANDSLÄCKARE;;;;;;;BRANDSLÄCKARE;;;0.10;Kunde inte identifiera prefix.
+BRBUD;;;;;;;BRBUD;;;0.10;Kunde inte identifiera prefix.
+BRN03SL;;;;;;;;BRN03SL;;0.00;Okänd suffix: BRN03SL | Kunde inte identifiera prefix.
+BRN03SLB;;;;;;;;BRN03SLB;;0.00;Okänd suffix: BRN03SLB | Kunde inte identifiera prefix.
+BRN03SLBUD;;;;;;;;BRN03SLBUD;;0.00;Okänd suffix: BRN03SLBUD | Kunde inte identifiera prefix.
+BRN03SLO;;;;;;;;BRN03SLO;;0.00;Okänd suffix: BRN03SLO | Kunde inte identifiera prefix.
+BRN03SLORD;;;;;;;;BRN03SLORD;;0.00;Okänd suffix: BRN03SLORD | Kunde inte identifiera prefix.
+BRN03SLORDDEL;;;;;;;;BRN03SLORDDEL;;0.00;Okänd suffix: BRN03SLORDDEL | Kunde inte identifiera prefix.
+BRN36SL;;;;;;;;BRN36SL;;0.00;Okänd suffix: BRN36SL | Kunde inte identifiera prefix.
+BRN36SLB;;;;;;;;BRN36SLB;;0.00;Okänd suffix: BRN36SLB | Kunde inte identifiera prefix.
+BRN36SLBUD;;;;;;;;BRN36SLBUD;;0.00;Okänd suffix: BRN36SLBUD | Kunde inte identifiera prefix.
+BRN36SLO;;;;;;;;BRN36SLO;;0.00;Okänd suffix: BRN36SLO | Kunde inte identifiera prefix.
+BRN36SLORD;;;;;;;;BRN36SLORD;;0.00;Okänd suffix: BRN36SLORD | Kunde inte identifiera prefix.
+BRN36SLORDDEL;;;;;;;;BRN36SLORDDEL;;0.00;Okänd suffix: BRN36SLORDDEL | Kunde inte identifiera prefix.
+BRN69LORDDEL;;;;;;;;BRN69LORDDEL;;0.00;Okänd suffix: BRN69LORDDEL | Kunde inte identifiera prefix.
+BRN69SL;;;;;;;;BRN69SL;;0.00;Okänd suffix: BRN69SL | Kunde inte identifiera prefix.
+BRN69SLBUD;;;;;;;;BRN69SLBUD;;0.00;Okänd suffix: BRN69SLBUD | Kunde inte identifiera prefix.
+BRN69SLORD;;;;;;;;BRN69SLORD;;0.00;Okänd suffix: BRN69SLORD | Kunde inte identifiera prefix.
+BRNÖ6SL;;;;;;;;BRNÖ6SL;;0.00;Okänd suffix: BRNÖ6SL | Kunde inte identifiera prefix.
+BRNÖ6SLB;;;;;;;;BRNÖ6SLB;;0.00;Okänd suffix: BRNÖ6SLB | Kunde inte identifiera prefix.
+BRNÖ6SLBUD;;;;;;;;BRNÖ6SLBUD;;0.00;Okänd suffix: BRNÖ6SLBUD | Kunde inte identifiera prefix.
+BRNÖ6SLO;;;;;;;;BRNÖ6SLO;;0.00;Okänd suffix: BRNÖ6SLO | Kunde inte identifiera prefix.
+BRNÖ6SLORD;;;;;;;;BRNÖ6SLORD;;0.00;Okänd suffix: BRNÖ6SLORD | Kunde inte identifiera prefix.
+BRNÖ9SLBUD;;;;;;;;BRNÖ9SLBUD;;0.00;Okänd suffix: BRNÖ9SLBUD | Kunde inte identifiera prefix.
+BRNÖ9SLORD;;;;;;;;BRNÖ9SLORD;;0.00;Okänd suffix: BRNÖ9SLORD | Kunde inte identifiera prefix.
+BROMSVÄTSKA;;;;;;;BROMSVÄTSKA;;;0.10;Kunde inte identifiera prefix.
+BRÄNNBARTSORT;;;;;;;BRÄNNBARTSORT;;;0.10;Kunde inte identifiera prefix.
+BRÄNNBARTÖVER;;;;;;;BRÄNNBARTÖVER;;;0.10;Kunde inte identifiera prefix.
+BUDNING;;;;;;;BUDNING;;;0.10;Kunde inte identifiera prefix.
+BV;;;;;;;BV;;;0.10;Kunde inte identifiera prefix.
+BVU;;;;;;;BVU;;;0.10;Kunde inte identifiera prefix.
+BYGGRIVPLAST;;;;;;;BYGGRIVPLAST;;;0.10;Kunde inte identifiera prefix.
+BYGGRIVTRÄ;;;;;;;BYGGRIVTRÄ;;;0.10;Kunde inte identifiera prefix.
+CO08BR52;;;;;;;;CO08BR52;;0.00;Okänd suffix: CO08BR52 | Kunde inte identifiera prefix.
+CONTAINERMA;CON;Container;;;;;TAINERMA;;CON;0.50;
+CONTAINERRE;CON;Container;;;;;TAINERRE;;CON;0.50;
+CYTOTOXISKA;;;;;;;CYTOTOXISKA;;;0.10;Kunde inte identifiera prefix.
+DEPONIREST;;;;;;;DEPONIREST;;;0.10;Kunde inte identifiera prefix.
+Dummy SMS;;;;;;;DUMMYSMS;;;0.10;Kunde inte identifiera prefix.
+EJKLASSFA;;;;;;;EJKLASSFA;;;0.10;Kunde inte identifiera prefix.
+EJSPECFA;;;;;;;EJSPECFA;;;0.10;Kunde inte identifiera prefix.
+ELEKTRONIK;;;;;;;ELEKTRONIK;;;0.10;Kunde inte identifiera prefix.
+EVEFRAMKÖR;;;;;;;EVEFRAMKÖR;;;0.10;Kunde inte identifiera prefix.
+EVEKÄ140MA;;;;;;;;EVEKÄ140MA;;0.00;Okänd suffix: EVEKÄ140MA | Kunde inte identifiera prefix.
+EVEKÄ190RE;;;;;;;;EVEKÄ190RE;;0.00;Okänd suffix: EVEKÄ190RE | Kunde inte identifiera prefix.
+EVEKÄ370RE;;;;;;;;EVEKÄ370RE;;0.00;Okänd suffix: EVEKÄ370RE | Kunde inte identifiera prefix.
+EVEKÄ660RE;;;;;;;;EVEKÄ660RE;;0.00;Okänd suffix: EVEKÄ660RE | Kunde inte identifiera prefix.
+EVENEMANG;;;;;;;EVENEMANG;;;0.10;Kunde inte identifiera prefix.
+EXTMÄTVS;;;;;;;EX;TMÄTVS;;0.05;Okänd suffix: TMÄTVS | Kunde inte identifiera prefix.
+FARLIGTAVFALL;FA;Farligt avfall;;;;;RLIGTAVFALL;;FA;0.50;
+FARLIGTBUD;FA;Farligt avfall;;;;;RLIGTBUD;;FA;0.50;
+FASTFE;FA;Farligt avfall;;;;;STFE;;FA;0.50;
+FASTFLB;FA;Farligt avfall;;;;;STFLB;;FA;0.50;
+FASTFRI;FA;Farligt avfall;;;;;STFRI;;FA;0.50;
+FASTOLJEAVFALL;FA;Farligt avfall;;;;;STOLJEAVFALL;;FA;0.50;
+FASTSL;FA;Farligt avfall;;;;;STSL;;FA;0.50;
+FASTSMÅ;FA;Farligt avfall;;;;;STSMÅ;;FA;0.50;
+FASTSODA;FA;Farligt avfall;;;;;STSODA;;FA;0.50;
+FASTVHT;FA;Farligt avfall;;;;;STVHT;;FA;0.50;
+FBATTLÅDA;;;;;;;FBATTLÅDA;;;0.10;Kunde inte identifiera prefix.
+FDEKALL;;;;;;;FDEKALL;;;0.10;Kunde inte identifiera prefix.
+FDEKALS;;;;;;;FDEKALS;;;0.10;Kunde inte identifiera prefix.
+FEAKUT;;;;;;;FEAKUT;;;0.10;Kunde inte identifiera prefix.
+FEBEHAVG;;;;;;;FEBEHAVG;;;0.10;Kunde inte identifiera prefix.
+FEBUD;;;;;;;FEBUD;;;0.10;Kunde inte identifiera prefix.
+FELSORT;;;;;;;FELSORT;;;0.10;Kunde inte identifiera prefix.
+FELSORTAVG;;;;;;;FELSORTAVG;;;0.10;Kunde inte identifiera prefix.
+FEÖVERKBM;;;;;;;FEÖVERKBM;;;0.10;Kunde inte identifiera prefix.
+FKOMPKASSE22;;;;;;;;FKOMPKASSE22;;0.00;Okänd suffix: FKOMPKASSE22 | Kunde inte identifiera prefix.
+FKOMPPSÄCK45;;;;;;;;FKOMPPSÄCK45;;0.00;Okänd suffix: FKOMPPSÄCK45 | Kunde inte identifiera prefix.
+FKOMPPÅSE9;;;;;;;;FKOMPPÅSE9;;0.00;Okänd suffix: FKOMPPÅSE9 | Kunde inte identifiera prefix.
+FKOMPSTÄLL22;;;;;;;;FKOMPSTÄLL22;;0.00;Okänd suffix: FKOMPSTÄLL22 | Kunde inte identifiera prefix.
+FKOMPSTÄLL45;;;;;;;;FKOMPSTÄLL45;;0.00;Okänd suffix: FKOMPSTÄLL45 | Kunde inte identifiera prefix.
+FKOMPSTÄLL45D;;;;;;;;FKOMPSTÄLL45D;;0.00;Okänd suffix: FKOMPSTÄLL45D | Kunde inte identifiera prefix.
+FL04BR26;;;;;;;;FL04BR26;;0.00;Okänd suffix: FL04BR26 | Kunde inte identifiera prefix.
+FLAKÄRL;;;;;;;FLAKÄRL;;;0.10;Kunde inte identifiera prefix.
+FOBFRI;;;;;;;FOBFRI;;;0.10;Kunde inte identifiera prefix.
+FOSFORBUD;;;;;;;FOSFORBUD;;;0.10;Kunde inte identifiera prefix.
+FOSFORORD;;;;;;;FOSFORORD;;;0.10;Kunde inte identifiera prefix.
+FOSTÖM1000;;;;;;;;FOSTÖM1000;;0.00;Okänd suffix: FOSTÖM1000 | Kunde inte identifiera prefix.
+FOSTÖM500;;;;;;;;FOSTÖM500;;0.00;Okänd suffix: FOSTÖM500 | Kunde inte identifiera prefix.
+FOTOKEM;;;;;;;FOTOKEM;;;0.10;Kunde inte identifiera prefix.
+FPASÄCK125;;;;;;;;FPASÄCK125;;0.00;Okänd suffix: FPASÄCK125 | Kunde inte identifiera prefix.
+FPASÄCK160;;;;;;;;FPASÄCK160;;0.00;Okänd suffix: FPASÄCK160 | Kunde inte identifiera prefix.
+FPASÄCK240;;;;;;;;FPASÄCK240;;0.00;Okänd suffix: FPASÄCK240 | Kunde inte identifiera prefix.
+FPASÄCK350;;;;;;;;FPASÄCK350;;0.00;Okänd suffix: FPASÄCK350 | Kunde inte identifiera prefix.
+FPLSÄCK240;;;;;;;;FPLSÄCK240;;0.00;Okänd suffix: FPLSÄCK240 | Kunde inte identifiera prefix.
+FPLSÄCK350;;;;;;;;FPLSÄCK350;;0.00;Okänd suffix: FPLSÄCK350 | Kunde inte identifiera prefix.
+FRAMKÖRKOM;;;;;;;FRAMKÖRKOM;;;0.10;Kunde inte identifiera prefix.
+FSKYLT;;;;;;;FSKYLT;;;0.10;Kunde inte identifiera prefix.
+FSÄMB;;;;;;;FSÄMB;;;0.10;Kunde inte identifiera prefix.
+FSÄMB52;;;;;;;;FSÄMB52;;0.00;Okänd suffix: FSÄMB52 | Kunde inte identifiera prefix.
+Fob;;;;;;;FOB;;;0.10;Kunde inte identifiera prefix.
+FÄRGEJKONS;;;;;;;FÄRGEJKONS;;;0.10;Kunde inte identifiera prefix.
+FÄRGLÖSNING;;;;;;;FÄRGLÖSNING;;;0.10;Kunde inte identifiera prefix.
+FÄRGVATTEN;;;;;;;FÄRGVATTEN;;;0.10;Kunde inte identifiera prefix.
+FÖRGÄV;;;;;;;FÖRGÄV;;;0.10;Kunde inte identifiera prefix.
+GASOL;;;;;;;GASOL;;;0.10;Kunde inte identifiera prefix.
+GEMKÄFRI;;;;;;;GEMKÄFRI;;;0.10;Kunde inte identifiera prefix.
+GEMUPPEXTRAFRI;;;;;;;GEMUPPEXTRAFRI;;;0.10;Kunde inte identifiera prefix.
+GEMUPPFRI;;;;;;;GEMUPPFRI;;;0.10;Kunde inte identifiera prefix.
+GEMUPPFRINYCKEL;;;;;;;GEMUPPFRINYCKEL;;;0.10;Kunde inte identifiera prefix.
+GEMUPPFÖRPFLB;;;;;;;GEMUPPFÖRPFLB;;;0.10;Kunde inte identifiera prefix.
+GEMUPPORDFRI;;;;;;;GEMUPPORDFRI;;;0.10;Kunde inte identifiera prefix.
+GRBUD;;;;;;;GRBUD;;;0.10;Kunde inte identifiera prefix.
+GROVAVFALL;;;;;;;GROVAVFALL;;;0.10;Kunde inte identifiera prefix.
+GROVBUD;;;;;;;GROVBUD;;;0.10;Kunde inte identifiera prefix.
+GRUNDFLB;;;;;;;GRUNDFLB;;;0.10;Kunde inte identifiera prefix.
+GRUNDFRI;;;;;;;GRUNDFRI;;;0.10;Kunde inte identifiera prefix.
+GRUNDSMÅ;;;;;;;GRUNDSMÅ;;;0.10;Kunde inte identifiera prefix.
+GRUNDVHT;;;;;;;GRUNDVHT;;;0.10;Kunde inte identifiera prefix.
+HALONGAS;;;;;;;HALONGAS;;;0.10;Kunde inte identifiera prefix.
+HBL;;;;;;;HBL;;;0.10;Kunde inte identifiera prefix.
+HBP;;;;;;;HBP;;;0.10;Kunde inte identifiera prefix.
+HCO08;;;;;;;;HCO08;;0.00;Okänd suffix: HCO08 | Kunde inte identifiera prefix.
+HEMKOMP;;;;;;;HEMKOMP;;;0.10;Kunde inte identifiera prefix.
+HFL;;;;;;;HFL;;;0.10;Kunde inte identifiera prefix.
+HKP;;;;;;;HKP;;;0.10;Kunde inte identifiera prefix.
+HKÄ140;;;;;;;;HKÄ140;;0.00;Okänd suffix: HKÄ140 | Kunde inte identifiera prefix.
+HKÄ190;;;;;;;;HKÄ190;;0.00;Okänd suffix: HKÄ190 | Kunde inte identifiera prefix.
+HKÄ240;;;;;;;;HKÄ240;;0.00;Okänd suffix: HKÄ240 | Kunde inte identifiera prefix.
+HKÄ370;;;;;;;;HKÄ370;;0.00;Okänd suffix: HKÄ370 | Kunde inte identifiera prefix.
+HKÄ660;;;;;;;;HKÄ660;;0.00;Okänd suffix: HKÄ660 | Kunde inte identifiera prefix.
+HLD;;;;;;;HLD;;;0.10;Kunde inte identifiera prefix.
+HLDK;;;;;;;HLDK;;;0.10;Kunde inte identifiera prefix.
+HRF20;;;;;;;;HRF20;;0.00;Okänd suffix: HRF20 | Kunde inte identifiera prefix.
+HRF20K;;;;;;;;HRF20K;;0.00;Okänd suffix: HRF20K | Kunde inte identifiera prefix.
+HRF40;;;;;;;;HRF40;;0.00;Okänd suffix: HRF40 | Kunde inte identifiera prefix.
+HRF40K;;;;;;;;HRF40K;;0.00;Okänd suffix: HRF40K | Kunde inte identifiera prefix.
+HSK2;;;;;;;;HSK2;;0.00;Okänd suffix: HSK2 | Kunde inte identifiera prefix.
+HSK3;;;;;;;;HSK3;;0.00;Okänd suffix: HSK3 | Kunde inte identifiera prefix.
+HYDRAULSLANG;;;;;;;HYDRAULSLANG;;;0.10;Kunde inte identifiera prefix.
+HÄRDARE;;;;;;;HÄRDARE;;;0.10;Kunde inte identifiera prefix.
+IMPREGTRÄ;;;;;;;IMPREGTRÄ;;;0.10;Kunde inte identifiera prefix.
+INVÄXTHUSH;;;;;;;INVÄXTHUSH;;;0.10;Kunde inte identifiera prefix.
+INVÄXTVERKS;;;;;;;INVÄXTVERKS;;;0.10;Kunde inte identifiera prefix.
+KK400OS104;;;;;;;;KK400OS104;;0.00;Okänd suffix: KK400OS104 | Kunde inte identifiera prefix.
+KK400OS26;;;;;;;;KK400OS26;;0.00;Okänd suffix: KK400OS26 | Kunde inte identifiera prefix.
+KK400OS52;;;;;;;;KK400OS52;;0.00;Okänd suffix: KK400OS52 | Kunde inte identifiera prefix.
+KOLSYREPATRON;;;;;;;KOLSYREPATRON;;;0.10;Kunde inte identifiera prefix.
+KOMMUNALT;;;;;;;KOMMUNALT;;;0.10;Kunde inte identifiera prefix.
+KONTRAVG;;;;;;;KONTRAVG;;;0.10;Kunde inte identifiera prefix.
+KVICKSILVER;;;;;;;KVICKSILVER;;;0.10;Kunde inte identifiera prefix.
+KYLDISKAR;;;;;;;KYLDISKAR;;;0.10;Kunde inte identifiera prefix.
+KYLMÖBLER;;;;;;;KYLMÖBLER;;;0.10;Kunde inte identifiera prefix.
+KÄ140MA104;KÄ;Kärl;140;MA;Matavfall;104;;;KÄ140MA;0.95;
+KÄ140MA11S;KÄ;Kärl;140;MA;Matavfall;11;S;;KÄ140MA;1.00;
+KÄ140MA13;KÄ;Kärl;140;MA;Matavfall;13;;;KÄ140MA;0.95;
+KÄ140MA156;KÄ;Kärl;140;MA;Matavfall;156;;;KÄ140MA;0.95;
+KÄ140MA22S;KÄ;Kärl;140;MA;Matavfall;22;S;;KÄ140MA;1.00;
+KÄ140MA26;KÄ;Kärl;140;MA;Matavfall;26;;;KÄ140MA;0.95;
+KÄ140MA26FV;KÄ;Kärl;140;MA;Matavfall;26;FV;;KÄ140MA;1.00;
+KÄ140MA44S;KÄ;Kärl;140;MA;Matavfall;44;S;;KÄ140MA;1.00;
+KÄ140MA52;KÄ;Kärl;140;MA;Matavfall;52;;;KÄ140MA;0.95;
+KÄ140MA52FV;KÄ;Kärl;140;MA;Matavfall;52;FV;;KÄ140MA;1.00;
+KÄ140MA6S;KÄ;Kärl;140;MA;Matavfall;6;S;;KÄ140MA;1.00;
+KÄ140OS104;KÄ;Kärl;140;;;;;OS104;KÄ140;0.60;Okänd suffix: OS104
+KÄ140OS11S;KÄ;Kärl;140;;;;;OS11S;KÄ140;0.60;Okänd suffix: OS11S
+KÄ140OS13;KÄ;Kärl;140;;;;;OS13;KÄ140;0.60;Okänd suffix: OS13
+KÄ140OS156;KÄ;Kärl;140;;;;;OS156;KÄ140;0.60;Okänd suffix: OS156
+KÄ140OS22S;KÄ;Kärl;140;;;;;OS22S;KÄ140;0.60;Okänd suffix: OS22S
+KÄ140OS26;KÄ;Kärl;140;;;;;OS26;KÄ140;0.60;Okänd suffix: OS26
+KÄ140OS44S;KÄ;Kärl;140;;;;;OS44S;KÄ140;0.60;Okänd suffix: OS44S
+KÄ140OS52;KÄ;Kärl;140;;;;;OS52;KÄ140;0.60;Okänd suffix: OS52
+KÄ140OS6S;KÄ;Kärl;140;;;;;OS6S;KÄ140;0.60;Okänd suffix: OS6S
+KÄ140RE104;KÄ;Kärl;140;RE;Restavfall;104;;;KÄ140RE;0.95;
+KÄ140RE11S;KÄ;Kärl;140;RE;Restavfall;11;S;;KÄ140RE;1.00;
+KÄ140RE13;KÄ;Kärl;140;RE;Restavfall;13;;;KÄ140RE;0.95;
+KÄ140RE156;KÄ;Kärl;140;RE;Restavfall;156;;;KÄ140RE;0.95;
+KÄ140RE22S;KÄ;Kärl;140;RE;Restavfall;22;S;;KÄ140RE;1.00;
+KÄ140RE26;KÄ;Kärl;140;RE;Restavfall;26;;;KÄ140RE;0.95;
+KÄ140RE26F;KÄ;Kärl;140;RE;Restavfall;26;F;;KÄ140RE;1.00;
+KÄ140RE26H;KÄ;Kärl;140;RE;Restavfall;26;H;;KÄ140RE;1.00;
+KÄ140RE26V;KÄ;Kärl;140;RE;Restavfall;26;V;;KÄ140RE;1.00;
+KÄ140RE44S;KÄ;Kärl;140;RE;Restavfall;44;S;;KÄ140RE;1.00;
+KÄ140RE52;KÄ;Kärl;140;RE;Restavfall;52;;;KÄ140RE;0.95;
+KÄ140RE6S;KÄ;Kärl;140;RE;Restavfall;6;S;;KÄ140RE;1.00;
+KÄ190MA104;KÄ;Kärl;190;MA;Matavfall;104;;;KÄ190MA;0.95;
+KÄ190MA11S;KÄ;Kärl;190;MA;Matavfall;11;S;;KÄ190MA;1.00;
+KÄ190MA13;KÄ;Kärl;190;MA;Matavfall;13;;;KÄ190MA;0.95;
+KÄ190MA156;KÄ;Kärl;190;MA;Matavfall;156;;;KÄ190MA;0.95;
+KÄ190MA22S;KÄ;Kärl;190;MA;Matavfall;22;S;;KÄ190MA;1.00;
+KÄ190MA26;KÄ;Kärl;190;MA;Matavfall;26;;;KÄ190MA;0.95;
+KÄ190MA44S;KÄ;Kärl;190;MA;Matavfall;44;S;;KÄ190MA;1.00;
+KÄ190MA52;KÄ;Kärl;190;MA;Matavfall;52;;;KÄ190MA;0.95;
+KÄ190MA6S;KÄ;Kärl;190;MA;Matavfall;6;S;;KÄ190MA;1.00;
+KÄ190ME104;KÄ;Kärl;190;ME;Metallförpackningar;104;;;KÄ190ME;0.95;
+KÄ190ME13;KÄ;Kärl;190;ME;Metallförpackningar;13;;;KÄ190ME;0.95;
+KÄ190ME26;KÄ;Kärl;190;ME;Metallförpackningar;26;;;KÄ190ME;0.95;
+KÄ190ME52;KÄ;Kärl;190;ME;Metallförpackningar;52;;;KÄ190ME;0.95;
+KÄ190MEBUD;KÄ;Kärl;190;ME;Metallförpackningar;;BUD;;KÄ190ME;0.90;
+KÄ190OS104;KÄ;Kärl;190;;;;;OS104;KÄ190;0.60;Okänd suffix: OS104
+KÄ190OS11S;KÄ;Kärl;190;;;;;OS11S;KÄ190;0.60;Okänd suffix: OS11S
+KÄ190OS13;KÄ;Kärl;190;;;;;OS13;KÄ190;0.60;Okänd suffix: OS13
+KÄ190OS156;KÄ;Kärl;190;;;;;OS156;KÄ190;0.60;Okänd suffix: OS156
+KÄ190OS22S;KÄ;Kärl;190;;;;;OS22S;KÄ190;0.60;Okänd suffix: OS22S
+KÄ190OS26;KÄ;Kärl;190;;;;;OS26;KÄ190;0.60;Okänd suffix: OS26
+KÄ190OS44S;KÄ;Kärl;190;;;;;OS44S;KÄ190;0.60;Okänd suffix: OS44S
+KÄ190OS52;KÄ;Kärl;190;;;;;OS52;KÄ190;0.60;Okänd suffix: OS52
+KÄ190OS6S;KÄ;Kärl;190;;;;;OS6S;KÄ190;0.60;Okänd suffix: OS6S
+KÄ190PA104;KÄ;Kärl;190;PA;Pappersförpackningar;104;;;KÄ190PA;0.95;
+KÄ190PA13;KÄ;Kärl;190;PA;Pappersförpackningar;13;;;KÄ190PA;0.95;
+KÄ190PA26;KÄ;Kärl;190;PA;Pappersförpackningar;26;;;KÄ190PA;0.95;
+KÄ190PA52;KÄ;Kärl;190;PA;Pappersförpackningar;52;;;KÄ190PA;0.95;
+KÄ190PABUD;KÄ;Kärl;190;PA;Pappersförpackningar;;BUD;;KÄ190PA;0.90;
+KÄ190PL104;KÄ;Kärl;190;PL;Plastförpackningar;104;;;KÄ190PL;0.95;
+KÄ190PL13;KÄ;Kärl;190;PL;Plastförpackningar;13;;;KÄ190PL;0.95;
+KÄ190PL26;KÄ;Kärl;190;PL;Plastförpackningar;26;;;KÄ190PL;0.95;
+KÄ190PL52;KÄ;Kärl;190;PL;Plastförpackningar;52;;;KÄ190PL;0.95;
+KÄ190PLBUD;KÄ;Kärl;190;PL;Plastförpackningar;;BUD;;KÄ190PL;0.90;
+KÄ190RE104;KÄ;Kärl;190;RE;Restavfall;104;;;KÄ190RE;0.95;
+KÄ190RE11S;KÄ;Kärl;190;RE;Restavfall;11;S;;KÄ190RE;1.00;
+KÄ190RE13;KÄ;Kärl;190;RE;Restavfall;13;;;KÄ190RE;0.95;
+KÄ190RE156;KÄ;Kärl;190;RE;Restavfall;156;;;KÄ190RE;0.95;
+KÄ190RE22S;KÄ;Kärl;190;RE;Restavfall;22;S;;KÄ190RE;1.00;
+KÄ190RE26;KÄ;Kärl;190;RE;Restavfall;26;;;KÄ190RE;0.95;
+KÄ190RE44S;KÄ;Kärl;190;RE;Restavfall;44;S;;KÄ190RE;1.00;
+KÄ190RE52;KÄ;Kärl;190;RE;Restavfall;52;;;KÄ190RE;0.95;
+KÄ190RE6S;KÄ;Kärl;190;RE;Restavfall;6;S;;KÄ190RE;1.00;
+KÄ190TI104;KÄ;Kärl;190;TI;Tidningar;104;;;KÄ190TI;0.95;
+KÄ190TI13;KÄ;Kärl;190;TI;Tidningar;13;;;KÄ190TI;0.95;
+KÄ190TI26;KÄ;Kärl;190;TI;Tidningar;26;;;KÄ190TI;0.95;
+KÄ190TI52;KÄ;Kärl;190;TI;Tidningar;52;;;KÄ190TI;0.95;
+KÄ190TIBUD;KÄ;Kärl;190;TI;Tidningar;;BUD;;KÄ190TI;0.90;
+KÄ190WE104;KÄ;Kärl;190;;;;;WE104;KÄ190;0.60;Okänd suffix: WE104
+KÄ190WE13;KÄ;Kärl;190;;;;;WE13;KÄ190;0.60;Okänd suffix: WE13
+KÄ190WE26;KÄ;Kärl;190;;;;;WE26;KÄ190;0.60;Okänd suffix: WE26
+KÄ190WE26F;KÄ;Kärl;190;;;;;WE26F;KÄ190;0.60;Okänd suffix: WE26F
+KÄ190WE26V;KÄ;Kärl;190;;;;;WE26V;KÄ190;0.60;Okänd suffix: WE26V
+KÄ190WE52;KÄ;Kärl;190;;;;;WE52;KÄ190;0.60;Okänd suffix: WE52
+KÄ190WEBUD;KÄ;Kärl;190;;;;WEBUD;;KÄ190;0.70;
+KÄ190XRM26;KÄ;Kärl;190;;;;;XRM26;KÄ190;0.60;Okänd suffix: XRM26
+KÄ190XRM26FV;KÄ;Kärl;190;;;;;XRM26FV;KÄ190;0.60;Okänd suffix: XRM26FV
+KÄ240MA104;KÄ;Kärl;240;MA;Matavfall;104;;;KÄ240MA;0.95;
+KÄ240MA11S;KÄ;Kärl;240;MA;Matavfall;11;S;;KÄ240MA;1.00;
+KÄ240MA13;KÄ;Kärl;240;MA;Matavfall;13;;;KÄ240MA;0.95;
+KÄ240MA156;KÄ;Kärl;240;MA;Matavfall;156;;;KÄ240MA;0.95;
+KÄ240MA22S;KÄ;Kärl;240;MA;Matavfall;22;S;;KÄ240MA;1.00;
+KÄ240MA26;KÄ;Kärl;240;MA;Matavfall;26;;;KÄ240MA;0.95;
+KÄ240MA44S;KÄ;Kärl;240;MA;Matavfall;44;S;;KÄ240MA;1.00;
+KÄ240MA52;KÄ;Kärl;240;MA;Matavfall;52;;;KÄ240MA;0.95;
+KÄ240MA6S;KÄ;Kärl;240;MA;Matavfall;6;S;;KÄ240MA;1.00;
+KÄ240OS104;KÄ;Kärl;240;;;;;OS104;KÄ240;0.60;Okänd suffix: OS104
+KÄ240OS11S;KÄ;Kärl;240;;;;;OS11S;KÄ240;0.60;Okänd suffix: OS11S
+KÄ240OS13;KÄ;Kärl;240;;;;;OS13;KÄ240;0.60;Okänd suffix: OS13
+KÄ240OS156;KÄ;Kärl;240;;;;;OS156;KÄ240;0.60;Okänd suffix: OS156
+KÄ240OS22S;KÄ;Kärl;240;;;;;OS22S;KÄ240;0.60;Okänd suffix: OS22S
+KÄ240OS26;KÄ;Kärl;240;;;;;OS26;KÄ240;0.60;Okänd suffix: OS26
+KÄ240OS44S;KÄ;Kärl;240;;;;;OS44S;KÄ240;0.60;Okänd suffix: OS44S
+KÄ240OS52;KÄ;Kärl;240;;;;;OS52;KÄ240;0.60;Okänd suffix: OS52
+KÄ240OS6S;KÄ;Kärl;240;;;;;OS6S;KÄ240;0.60;Okänd suffix: OS6S
+KÄ240RE104;KÄ;Kärl;240;RE;Restavfall;104;;;KÄ240RE;0.95;
+KÄ240RE11S;KÄ;Kärl;240;RE;Restavfall;11;S;;KÄ240RE;1.00;
+KÄ240RE13;KÄ;Kärl;240;RE;Restavfall;13;;;KÄ240RE;0.95;
+KÄ240RE156;KÄ;Kärl;240;RE;Restavfall;156;;;KÄ240RE;0.95;
+KÄ240RE22S;KÄ;Kärl;240;RE;Restavfall;22;S;;KÄ240RE;1.00;
+KÄ240RE26;KÄ;Kärl;240;RE;Restavfall;26;;;KÄ240RE;0.95;
+KÄ240RE44S;KÄ;Kärl;240;RE;Restavfall;44;S;;KÄ240RE;1.00;
+KÄ240RE52;KÄ;Kärl;240;RE;Restavfall;52;;;KÄ240RE;0.95;
+KÄ240RE6S;KÄ;Kärl;240;RE;Restavfall;6;S;;KÄ240RE;1.00;
+KÄ240RK26;KÄ;Kärl;240;;;;;RK26;KÄ240;0.60;Okänd suffix: RK26
+KÄ240RK26FRI;KÄ;Kärl;240;;;;;RK26FRI;KÄ240;0.60;Okänd suffix: RK26FRI
+KÄ240RM26;KÄ;Kärl;240;RM;Rest-/matavfall;26;;;KÄ240RM;0.95;
+KÄ240RM26FRI;KÄ;Kärl;240;RM;Rest-/matavfall;26;FRI;;KÄ240RM;1.00;
+KÄ240RM26FV;KÄ;Kärl;240;RM;Rest-/matavfall;26;FV;;KÄ240RM;1.00;
+KÄ240RM52FV;KÄ;Kärl;240;RM;Rest-/matavfall;52;FV;;KÄ240RM;1.00;
+KÄ370FF111S;KÄ;Kärl;370;;;;;FF111S;KÄ370;0.60;Okänd suffix: FF111S
+KÄ370FF113;KÄ;Kärl;370;;;;;FF113;KÄ370;0.60;Okänd suffix: FF113
+KÄ370FF126;KÄ;Kärl;370;;;;;FF126;KÄ370;0.60;Okänd suffix: FF126
+KÄ370FF16S;KÄ;Kärl;370;;;;;FF16S;KÄ370;0.60;Okänd suffix: FF16S
+KÄ370FF213;KÄ;Kärl;370;;;;;FF213;KÄ370;0.60;Okänd suffix: FF213
+KÄ370FF226;KÄ;Kärl;370;;;;;FF226;KÄ370;0.60;Okänd suffix: FF226
+KÄ370FF26S;KÄ;Kärl;370;;;;;FF26S;KÄ370;0.60;Okänd suffix: FF26S
+KÄ370MA104;KÄ;Kärl;370;MA;Matavfall;104;;;KÄ370MA;0.95;
+KÄ370MA11S;KÄ;Kärl;370;MA;Matavfall;11;S;;KÄ370MA;1.00;
+KÄ370MA13;KÄ;Kärl;370;MA;Matavfall;13;;;KÄ370MA;0.95;
+KÄ370MA156;KÄ;Kärl;370;MA;Matavfall;156;;;KÄ370MA;0.95;
+KÄ370MA22S;KÄ;Kärl;370;MA;Matavfall;22;S;;KÄ370MA;1.00;
+KÄ370MA26;KÄ;Kärl;370;MA;Matavfall;26;;;KÄ370MA;0.95;
+KÄ370MA44S;KÄ;Kärl;370;MA;Matavfall;44;S;;KÄ370MA;1.00;
+KÄ370MA52;KÄ;Kärl;370;MA;Matavfall;52;;;KÄ370MA;0.95;
+KÄ370MA6S;KÄ;Kärl;370;MA;Matavfall;6;S;;KÄ370MA;1.00;
+KÄ370ME104;KÄ;Kärl;370;ME;Metallförpackningar;104;;;KÄ370ME;0.95;
+KÄ370ME13;KÄ;Kärl;370;ME;Metallförpackningar;13;;;KÄ370ME;0.95;
+KÄ370ME26;KÄ;Kärl;370;ME;Metallförpackningar;26;;;KÄ370ME;0.95;
+KÄ370ME52;KÄ;Kärl;370;ME;Metallförpackningar;52;;;KÄ370ME;0.95;
+KÄ370MEBUD;KÄ;Kärl;370;ME;Metallförpackningar;;BUD;;KÄ370ME;0.90;
+KÄ370OS104;KÄ;Kärl;370;;;;;OS104;KÄ370;0.60;Okänd suffix: OS104
+KÄ370OS11S;KÄ;Kärl;370;;;;;OS11S;KÄ370;0.60;Okänd suffix: OS11S
+KÄ370OS13;KÄ;Kärl;370;;;;;OS13;KÄ370;0.60;Okänd suffix: OS13
+KÄ370OS156;KÄ;Kärl;370;;;;;OS156;KÄ370;0.60;Okänd suffix: OS156
+KÄ370OS22S;KÄ;Kärl;370;;;;;OS22S;KÄ370;0.60;Okänd suffix: OS22S
+KÄ370OS26;KÄ;Kärl;370;;;;;OS26;KÄ370;0.60;Okänd suffix: OS26
+KÄ370OS44S;KÄ;Kärl;370;;;;;OS44S;KÄ370;0.60;Okänd suffix: OS44S
+KÄ370OS52;KÄ;Kärl;370;;;;;OS52;KÄ370;0.60;Okänd suffix: OS52
+KÄ370OS6S;KÄ;Kärl;370;;;;;OS6S;KÄ370;0.60;Okänd suffix: OS6S
+KÄ370PA104;KÄ;Kärl;370;PA;Pappersförpackningar;104;;;KÄ370PA;0.95;
+KÄ370PA13;KÄ;Kärl;370;PA;Pappersförpackningar;13;;;KÄ370PA;0.95;
+KÄ370PA26;KÄ;Kärl;370;PA;Pappersförpackningar;26;;;KÄ370PA;0.95;
+KÄ370PA52;KÄ;Kärl;370;PA;Pappersförpackningar;52;;;KÄ370PA;0.95;
+KÄ370PABUD;KÄ;Kärl;370;PA;Pappersförpackningar;;BUD;;KÄ370PA;0.90;
+KÄ370PL104;KÄ;Kärl;370;PL;Plastförpackningar;104;;;KÄ370PL;0.95;
+KÄ370PL13;KÄ;Kärl;370;PL;Plastförpackningar;13;;;KÄ370PL;0.95;
+KÄ370PL26;KÄ;Kärl;370;PL;Plastförpackningar;26;;;KÄ370PL;0.95;
+KÄ370PL52;KÄ;Kärl;370;PL;Plastförpackningar;52;;;KÄ370PL;0.95;
+KÄ370PLBUD;KÄ;Kärl;370;PL;Plastförpackningar;;BUD;;KÄ370PL;0.90;
+KÄ370RE104;KÄ;Kärl;370;RE;Restavfall;104;;;KÄ370RE;0.95;
+KÄ370RE11S;KÄ;Kärl;370;RE;Restavfall;11;S;;KÄ370RE;1.00;
+KÄ370RE13;KÄ;Kärl;370;RE;Restavfall;13;;;KÄ370RE;0.95;
+KÄ370RE156;KÄ;Kärl;370;RE;Restavfall;156;;;KÄ370RE;0.95;
+KÄ370RE22S;KÄ;Kärl;370;RE;Restavfall;22;S;;KÄ370RE;1.00;
+KÄ370RE26;KÄ;Kärl;370;RE;Restavfall;26;;;KÄ370RE;0.95;
+KÄ370RE26FV;KÄ;Kärl;370;RE;Restavfall;26;FV;;KÄ370RE;1.00;
+KÄ370RE44S;KÄ;Kärl;370;RE;Restavfall;44;S;;KÄ370RE;1.00;
+KÄ370RE52;KÄ;Kärl;370;RE;Restavfall;52;;;KÄ370RE;0.95;
+KÄ370RE52FV;KÄ;Kärl;370;RE;Restavfall;52;FV;;KÄ370RE;1.00;
+KÄ370RE6S;KÄ;Kärl;370;RE;Restavfall;6;S;;KÄ370RE;1.00;
+KÄ370TI104;KÄ;Kärl;370;TI;Tidningar;104;;;KÄ370TI;0.95;
+KÄ370TI13;KÄ;Kärl;370;TI;Tidningar;13;;;KÄ370TI;0.95;
+KÄ370TI26;KÄ;Kärl;370;TI;Tidningar;26;;;KÄ370TI;0.95;
+KÄ370TI52;KÄ;Kärl;370;TI;Tidningar;52;;;KÄ370TI;0.95;
+KÄ370TIBUD;KÄ;Kärl;370;TI;Tidningar;;BUD;;KÄ370TI;0.90;
+KÄ370WE104;KÄ;Kärl;370;;;;;WE104;KÄ370;0.60;Okänd suffix: WE104
+KÄ370WE13;KÄ;Kärl;370;;;;;WE13;KÄ370;0.60;Okänd suffix: WE13
+KÄ370WE26;KÄ;Kärl;370;;;;;WE26;KÄ370;0.60;Okänd suffix: WE26
+KÄ370WE52;KÄ;Kärl;370;;;;;WE52;KÄ370;0.60;Okänd suffix: WE52
+KÄ370WEBUD;KÄ;Kärl;370;;;;WEBUD;;KÄ370;0.70;
+KÄ37LA11S;KÄ;Kärl;37;;;;;LA11S;KÄ37;0.60;Okänd suffix: LA11S
+KÄ37LA12;KÄ;Kärl;37;;;;;LA12;KÄ37;0.60;Okänd suffix: LA12
+KÄ37LA26;KÄ;Kärl;37;;;;;LA26;KÄ37;0.60;Okänd suffix: LA26
+KÄ37LA6S;KÄ;Kärl;37;;;;;LA6S;KÄ37;0.60;Okänd suffix: LA6S
+KÄ50HL;KÄ;Kärl;50;;;;HL;;KÄ50;0.70;
+KÄ660ME104;KÄ;Kärl;660;ME;Metallförpackningar;104;;;KÄ660ME;0.95;
+KÄ660ME13;KÄ;Kärl;660;ME;Metallförpackningar;13;;;KÄ660ME;0.95;
+KÄ660ME26;KÄ;Kärl;660;ME;Metallförpackningar;26;;;KÄ660ME;0.95;
+KÄ660ME52;KÄ;Kärl;660;ME;Metallförpackningar;52;;;KÄ660ME;0.95;
+KÄ660MEBUD;KÄ;Kärl;660;ME;Metallförpackningar;;BUD;;KÄ660ME;0.90;
+KÄ660OS104;KÄ;Kärl;660;;;;;OS104;KÄ660;0.60;Okänd suffix: OS104
+KÄ660OS11S;KÄ;Kärl;660;;;;;OS11S;KÄ660;0.60;Okänd suffix: OS11S
+KÄ660OS13;KÄ;Kärl;660;;;;;OS13;KÄ660;0.60;Okänd suffix: OS13
+KÄ660OS156;KÄ;Kärl;660;;;;;OS156;KÄ660;0.60;Okänd suffix: OS156
+KÄ660OS22S;KÄ;Kärl;660;;;;;OS22S;KÄ660;0.60;Okänd suffix: OS22S
+KÄ660OS26;KÄ;Kärl;660;;;;;OS26;KÄ660;0.60;Okänd suffix: OS26
+KÄ660OS44S;KÄ;Kärl;660;;;;;OS44S;KÄ660;0.60;Okänd suffix: OS44S
+KÄ660OS52;KÄ;Kärl;660;;;;;OS52;KÄ660;0.60;Okänd suffix: OS52
+KÄ660OS6S;KÄ;Kärl;660;;;;;OS6S;KÄ660;0.60;Okänd suffix: OS6S
+KÄ660PA104;KÄ;Kärl;660;PA;Pappersförpackningar;104;;;KÄ660PA;0.95;
+KÄ660PA13;KÄ;Kärl;660;PA;Pappersförpackningar;13;;;KÄ660PA;0.95;
+KÄ660PA26;KÄ;Kärl;660;PA;Pappersförpackningar;26;;;KÄ660PA;0.95;
+KÄ660PA52;KÄ;Kärl;660;PA;Pappersförpackningar;52;;;KÄ660PA;0.95;
+KÄ660PABUD;KÄ;Kärl;660;PA;Pappersförpackningar;;BUD;;KÄ660PA;0.90;
+KÄ660PL104;KÄ;Kärl;660;PL;Plastförpackningar;104;;;KÄ660PL;0.95;
+KÄ660PL13;KÄ;Kärl;660;PL;Plastförpackningar;13;;;KÄ660PL;0.95;
+KÄ660PL26;KÄ;Kärl;660;PL;Plastförpackningar;26;;;KÄ660PL;0.95;
+KÄ660PL52;KÄ;Kärl;660;PL;Plastförpackningar;52;;;KÄ660PL;0.95;
+KÄ660PLBUD;KÄ;Kärl;660;PL;Plastförpackningar;;BUD;;KÄ660PL;0.90;
+KÄ660RE026;KÄ;Kärl;660;RE;Restavfall;026;;;KÄ660RE;0.95;
+KÄ660RE104;KÄ;Kärl;660;RE;Restavfall;104;;;KÄ660RE;0.95;
+KÄ660RE11S;KÄ;Kärl;660;RE;Restavfall;11;S;;KÄ660RE;1.00;
+KÄ660RE13;KÄ;Kärl;660;RE;Restavfall;13;;;KÄ660RE;0.95;
+KÄ660RE13D2;KÄ;Kärl;660;RE;Restavfall;13;;D2;KÄ660RE;0.90;Okänd suffix: D2
+KÄ660RE156;KÄ;Kärl;660;RE;Restavfall;156;;;KÄ660RE;0.95;
+KÄ660RE22S;KÄ;Kärl;660;RE;Restavfall;22;S;;KÄ660RE;1.00;
+KÄ660RE26FV;KÄ;Kärl;660;RE;Restavfall;26;FV;;KÄ660RE;1.00;
+KÄ660RE44S;KÄ;Kärl;660;RE;Restavfall;44;S;;KÄ660RE;1.00;
+KÄ660RE44SD4;KÄ;Kärl;660;RE;Restavfall;44;;SD4;KÄ660RE;0.90;Okänd suffix: SD4
+KÄ660RE52;KÄ;Kärl;660;RE;Restavfall;52;;;KÄ660RE;0.95;
+KÄ660RE52FV;KÄ;Kärl;660;RE;Restavfall;52;FV;;KÄ660RE;1.00;
+KÄ660RE6S;KÄ;Kärl;660;RE;Restavfall;6;S;;KÄ660RE;1.00;
+KÄ660TI104;KÄ;Kärl;660;TI;Tidningar;104;;;KÄ660TI;0.95;
+KÄ660TI13;KÄ;Kärl;660;TI;Tidningar;13;;;KÄ660TI;0.95;
+KÄ660TI26;KÄ;Kärl;660;TI;Tidningar;26;;;KÄ660TI;0.95;
+KÄ660TI52;KÄ;Kärl;660;TI;Tidningar;52;;;KÄ660TI;0.95;
+KÄ660TIBUD;KÄ;Kärl;660;TI;Tidningar;;BUD;;KÄ660TI;0.90;
+KÄ660WE104;KÄ;Kärl;660;;;;;WE104;KÄ660;0.60;Okänd suffix: WE104
+KÄ660WE13;KÄ;Kärl;660;;;;;WE13;KÄ660;0.60;Okänd suffix: WE13
+KÄ660WE26;KÄ;Kärl;660;;;;;WE26;KÄ660;0.60;Okänd suffix: WE26
+KÄ660WE52;KÄ;Kärl;660;;;;;WE52;KÄ660;0.60;Okänd suffix: WE52
+KÄ660WEBUD;KÄ;Kärl;660;;;;WEBUD;;KÄ660;0.70;
+KÄEXTORD;KÄ;Kärl;;;;;EX;TORD;KÄ;0.45;Okänd suffix: TORD | Kärlkod saknar identifierad volym.
+KÄLABUD;KÄ;Kärl;;;;;LABUD;;KÄ;0.50;Kärlkod saknar identifierad volym.
+KÄLAEXTORD;KÄ;Kärl;;;;;LAEXTORD;;KÄ;0.50;Kärlkod saknar identifierad volym.
+KÄMABUD;KÄ;Kärl;;MA;Matavfall;;BUD;;KÄMA;0.70;Kärlkod saknar identifierad volym.
+KÄOSBUD;KÄ;Kärl;;;;;OSBUD;;KÄ;0.50;Kärlkod saknar identifierad volym.
+KÄREBUD;KÄ;Kärl;;RE;Restavfall;;BUD;;KÄRE;0.70;Kärlkod saknar identifierad volym.
+KÄRLBYTE240;KÄ;Kärl;;;;;;RLBYTE240;KÄ;0.40;Okänd suffix: RLBYTE240 | Kärlkod saknar identifierad volym.
+KÄRLBYTE660;KÄ;Kärl;;;;;;RLBYTE660;KÄ;0.40;Okänd suffix: RLBYTE660 | Kärlkod saknar identifierad volym.
+KÄRLBYTEFLER;KÄ;Kärl;;;;;RLBYTEFLER;;KÄ;0.50;Kärlkod saknar identifierad volym.
+KÄRLTVÄTT;KÄ;Kärl;;;;;RLTVÄTT;;KÄ;0.50;Kärlkod saknar identifierad volym.
+KÖKSL;;;;;;;KÖKSL;;;0.10;Kunde inte identifiera prefix.
+KÖKSLB;;;;;;;KÖKSLB;;;0.10;Kunde inte identifiera prefix.
+KÖKSLBUD;;;;;;;KÖKSLBUD;;;0.10;Kunde inte identifiera prefix.
+KÖKSLO;;;;;;;KÖKSLO;;;0.10;Kunde inte identifiera prefix.
+KÖKSLORD;;;;;;;KÖKSLORD;;;0.10;Kunde inte identifiera prefix.
+LATKOMP;;;;;;;LATKOMP;;;0.10;Kunde inte identifiera prefix.
+LATRINBEHÅLL;;;;;;;LATRINBEHÅLL;;;0.10;Kunde inte identifiera prefix.
+LATRINBUD;;;;;;;LATRINBUD;;;0.10;Kunde inte identifiera prefix.
+LATRINKÖP;;;;;;;LATRINKÖP;;;0.10;Kunde inte identifiera prefix.
+LD06BR13;;;;;;;;LD06BR13;;0.00;Okänd suffix: LD06BR13 | Kunde inte identifiera prefix.
+LÖSNINGSMEDEL;;;;;;;LÖSNINGSMEDEL;;;0.10;Kunde inte identifiera prefix.
+LÖSTKBMBUD;;;;;;;LÖSTKBMBUD;;;0.10;Kunde inte identifiera prefix.
+MANUELLSORT;;;;MA;Matavfall;;NUELLSORT;;MA;0.30;Kunde inte identifiera prefix.
+MAT;;;;MA;Matavfall;;T;;MA;0.30;Kunde inte identifiera prefix.
+MB1300MA104;;;;;;;;MB1300MA104;;0.00;Okänd suffix: MB1300MA104 | Kunde inte identifiera prefix.
+MB1300MA13;;;;;;;;MB1300MA13;;0.00;Okänd suffix: MB1300MA13 | Kunde inte identifiera prefix.
+MB1300MA26;;;;;;;;MB1300MA26;;0.00;Okänd suffix: MB1300MA26 | Kunde inte identifiera prefix.
+MB1300MA52;;;;;;;;MB1300MA52;;0.00;Okänd suffix: MB1300MA52 | Kunde inte identifiera prefix.
+MB1300MABUD;;;;;;;;MB1300MABUD;;0.00;Okänd suffix: MB1300MABUD | Kunde inte identifiera prefix.
+MB1300OS104;;;;;;;;MB1300OS104;;0.00;Okänd suffix: MB1300OS104 | Kunde inte identifiera prefix.
+MB1300OS13;;;;;;;;MB1300OS13;;0.00;Okänd suffix: MB1300OS13 | Kunde inte identifiera prefix.
+MB1300OS26;;;;;;;;MB1300OS26;;0.00;Okänd suffix: MB1300OS26 | Kunde inte identifiera prefix.
+MB1300OS52;;;;;;;;MB1300OS52;;0.00;Okänd suffix: MB1300OS52 | Kunde inte identifiera prefix.
+MB1300OSBUD;;;;;;;;MB1300OSBUD;;0.00;Okänd suffix: MB1300OSBUD | Kunde inte identifiera prefix.
+MB1300RE104;;;;;;;;MB1300RE104;;0.00;Okänd suffix: MB1300RE104 | Kunde inte identifiera prefix.
+MB1300RE13;;;;;;;;MB1300RE13;;0.00;Okänd suffix: MB1300RE13 | Kunde inte identifiera prefix.
+MB1300RE26;;;;;;;;MB1300RE26;;0.00;Okänd suffix: MB1300RE26 | Kunde inte identifiera prefix.
+MB1300RE52;;;;;;;;MB1300RE52;;0.00;Okänd suffix: MB1300RE52 | Kunde inte identifiera prefix.
+MB1300REBUD;;;;;;;;MB1300REBUD;;0.00;Okänd suffix: MB1300REBUD | Kunde inte identifiera prefix.
+MB1600MA104;;;;;;;;MB1600MA104;;0.00;Okänd suffix: MB1600MA104 | Kunde inte identifiera prefix.
+MB1600MA13;;;;;;;;MB1600MA13;;0.00;Okänd suffix: MB1600MA13 | Kunde inte identifiera prefix.
+MB1600MA26;;;;;;;;MB1600MA26;;0.00;Okänd suffix: MB1600MA26 | Kunde inte identifiera prefix.
+MB1600MA52;;;;;;;;MB1600MA52;;0.00;Okänd suffix: MB1600MA52 | Kunde inte identifiera prefix.
+MB1600MABUD;;;;;;;;MB1600MABUD;;0.00;Okänd suffix: MB1600MABUD | Kunde inte identifiera prefix.
+MB1600OS104;;;;;;;;MB1600OS104;;0.00;Okänd suffix: MB1600OS104 | Kunde inte identifiera prefix.
+MB1600OS13;;;;;;;;MB1600OS13;;0.00;Okänd suffix: MB1600OS13 | Kunde inte identifiera prefix.
+MB1600OS26;;;;;;;;MB1600OS26;;0.00;Okänd suffix: MB1600OS26 | Kunde inte identifiera prefix.
+MB1600OS52;;;;;;;;MB1600OS52;;0.00;Okänd suffix: MB1600OS52 | Kunde inte identifiera prefix.
+MB1600OSBUD;;;;;;;;MB1600OSBUD;;0.00;Okänd suffix: MB1600OSBUD | Kunde inte identifiera prefix.
+MB1600TÖM;;;;;;;;MB1600TÖM;;0.00;Okänd suffix: MB1600TÖM | Kunde inte identifiera prefix.
+MB2200OS104;;;;;;;;MB2200OS104;;0.00;Okänd suffix: MB2200OS104 | Kunde inte identifiera prefix.
+MB2200OS13;;;;;;;;MB2200OS13;;0.00;Okänd suffix: MB2200OS13 | Kunde inte identifiera prefix.
+MB2200OS26;;;;;;;;MB2200OS26;;0.00;Okänd suffix: MB2200OS26 | Kunde inte identifiera prefix.
+MB2200OS52;;;;;;;;MB2200OS52;;0.00;Okänd suffix: MB2200OS52 | Kunde inte identifiera prefix.
+MB2200OSBUD;;;;;;;;MB2200OSBUD;;0.00;Okänd suffix: MB2200OSBUD | Kunde inte identifiera prefix.
+MB2200RE104;;;;;;;;MB2200RE104;;0.00;Okänd suffix: MB2200RE104 | Kunde inte identifiera prefix.
+MB2200RE13;;;;;;;;MB2200RE13;;0.00;Okänd suffix: MB2200RE13 | Kunde inte identifiera prefix.
+MB2200RE26;;;;;;;;MB2200RE26;;0.00;Okänd suffix: MB2200RE26 | Kunde inte identifiera prefix.
+MB2200RE52;;;;;;;;MB2200RE52;;0.00;Okänd suffix: MB2200RE52 | Kunde inte identifiera prefix.
+MB2200REBUD;;;;;;;;MB2200REBUD;;0.00;Okänd suffix: MB2200REBUD | Kunde inte identifiera prefix.
+MB3200OS104;;;;;;;;MB3200OS104;;0.00;Okänd suffix: MB3200OS104 | Kunde inte identifiera prefix.
+MB3200OS13;;;;;;;;MB3200OS13;;0.00;Okänd suffix: MB3200OS13 | Kunde inte identifiera prefix.
+MB3200OS26;;;;;;;;MB3200OS26;;0.00;Okänd suffix: MB3200OS26 | Kunde inte identifiera prefix.
+MB3200OS52;;;;;;;;MB3200OS52;;0.00;Okänd suffix: MB3200OS52 | Kunde inte identifiera prefix.
+MB3200OSBUD;;;;;;;;MB3200OSBUD;;0.00;Okänd suffix: MB3200OSBUD | Kunde inte identifiera prefix.
+MB3200RE26;;;;;;;;MB3200RE26;;0.00;Okänd suffix: MB3200RE26 | Kunde inte identifiera prefix.
+MB3200TÖM;;;;;;;;MB3200TÖM;;0.00;Okänd suffix: MB3200TÖM | Kunde inte identifiera prefix.
+MB3600RE26;;;;;;;;MB3600RE26;;0.00;Okänd suffix: MB3600RE26 | Kunde inte identifiera prefix.
+MB3600TÖM;;;;;;;;MB3600TÖM;;0.00;Okänd suffix: MB3600TÖM | Kunde inte identifiera prefix.
+MB5000OS104;;;;;;;;MB5000OS104;;0.00;Okänd suffix: MB5000OS104 | Kunde inte identifiera prefix.
+MB5000OS13;;;;;;;;MB5000OS13;;0.00;Okänd suffix: MB5000OS13 | Kunde inte identifiera prefix.
+MB5000OS26;;;;;;;;MB5000OS26;;0.00;Okänd suffix: MB5000OS26 | Kunde inte identifiera prefix.
+MB5000OS52;;;;;;;;MB5000OS52;;0.00;Okänd suffix: MB5000OS52 | Kunde inte identifiera prefix.
+MB5000OSBUD;;;;;;;;MB5000OSBUD;;0.00;Okänd suffix: MB5000OSBUD | Kunde inte identifiera prefix.
+MB5000RE104;;;;;;;;MB5000RE104;;0.00;Okänd suffix: MB5000RE104 | Kunde inte identifiera prefix.
+MB5000RE13;;;;;;;;MB5000RE13;;0.00;Okänd suffix: MB5000RE13 | Kunde inte identifiera prefix.
+MB5000RE26;;;;;;;;MB5000RE26;;0.00;Okänd suffix: MB5000RE26 | Kunde inte identifiera prefix.
+MB5000RE52;;;;;;;;MB5000RE52;;0.00;Okänd suffix: MB5000RE52 | Kunde inte identifiera prefix.
+MB5000REBUD;;;;;;;;MB5000REBUD;;0.00;Okänd suffix: MB5000REBUD | Kunde inte identifiera prefix.
+MB5000TÖM;;;;;;;;MB5000TÖM;;0.00;Okänd suffix: MB5000TÖM | Kunde inte identifiera prefix.
+MB800MA104;;;;;;;;MB800MA104;;0.00;Okänd suffix: MB800MA104 | Kunde inte identifiera prefix.
+MB800MA13;;;;;;;;MB800MA13;;0.00;Okänd suffix: MB800MA13 | Kunde inte identifiera prefix.
+MB800MA26;;;;;;;;MB800MA26;;0.00;Okänd suffix: MB800MA26 | Kunde inte identifiera prefix.
+MB800MA52;;;;;;;;MB800MA52;;0.00;Okänd suffix: MB800MA52 | Kunde inte identifiera prefix.
+MB800MABUD;;;;;;;;MB800MABUD;;0.00;Okänd suffix: MB800MABUD | Kunde inte identifiera prefix.
+METALLFÖRPFA;;;;ME;Metallförpackningar;;TALLFÖRPFA;;ME;0.30;Kunde inte identifiera prefix.
+METALLSKROTREN;;;;ME;Metallförpackningar;;TALLSKROTREN;;ME;0.30;Kunde inte identifiera prefix.
+MOBGEMFRI;;;;;;;MOBGEMFRI;;;0.10;Kunde inte identifiera prefix.
+MRV03SL;;;;;;;;MRV03SL;;0.00;Okänd suffix: MRV03SL | Kunde inte identifiera prefix.
+MRV03SLB;;;;;;;;MRV03SLB;;0.00;Okänd suffix: MRV03SLB | Kunde inte identifiera prefix.
+MRV03SLBUD;;;;;;;;MRV03SLBUD;;0.00;Okänd suffix: MRV03SLBUD | Kunde inte identifiera prefix.
+MRV03SLO;;;;;;;;MRV03SLO;;0.00;Okänd suffix: MRV03SLO | Kunde inte identifiera prefix.
+MRV03SLORD;;;;;;;;MRV03SLORD;;0.00;Okänd suffix: MRV03SLORD | Kunde inte identifiera prefix.
+MRV36SL;;;;;;;;MRV36SL;;0.00;Okänd suffix: MRV36SL | Kunde inte identifiera prefix.
+MRV36SLB;;;;;;;;MRV36SLB;;0.00;Okänd suffix: MRV36SLB | Kunde inte identifiera prefix.
+MRV36SLBUD;;;;;;;;MRV36SLBUD;;0.00;Okänd suffix: MRV36SLBUD | Kunde inte identifiera prefix.
+MRV36SLO;;;;;;;;MRV36SLO;;0.00;Okänd suffix: MRV36SLO | Kunde inte identifiera prefix.
+MRV36SLORD;;;;;;;;MRV36SLORD;;0.00;Okänd suffix: MRV36SLORD | Kunde inte identifiera prefix.
+MRV69SLBUD;;;;;;;;MRV69SLBUD;;0.00;Okänd suffix: MRV69SLBUD | Kunde inte identifiera prefix.
+MRV69SLORD;;;;;;;;MRV69SLORD;;0.00;Okänd suffix: MRV69SLORD | Kunde inte identifiera prefix.
+MRVÖ6SL;;;;;;;;MRVÖ6SL;;0.00;Okänd suffix: MRVÖ6SL | Kunde inte identifiera prefix.
+MRVÖ6SLB;;;;;;;;MRVÖ6SLB;;0.00;Okänd suffix: MRVÖ6SLB | Kunde inte identifiera prefix.
+MRVÖ6SLBUD;;;;;;;;MRVÖ6SLBUD;;0.00;Okänd suffix: MRVÖ6SLBUD | Kunde inte identifiera prefix.
+MRVÖ6SLO;;;;;;;;MRVÖ6SLO;;0.00;Okänd suffix: MRVÖ6SLO | Kunde inte identifiera prefix.
+MRVÖ6SLORD;;;;;;;;MRVÖ6SLORD;;0.00;Okänd suffix: MRVÖ6SLORD | Kunde inte identifiera prefix.
+MRVÖ9SLBUD;;;;;;;;MRVÖ9SLBUD;;0.00;Okänd suffix: MRVÖ9SLBUD | Kunde inte identifiera prefix.
+MRVÖ9SLORD;;;;;;;;MRVÖ9SLORD;;0.00;Okänd suffix: MRVÖ9SLORD | Kunde inte identifiera prefix.
+Miljövagn;;;;;;;MILJÖVAGN;;;0.10;Kunde inte identifiera prefix.
+NEDTAG;;;;;;;NEDTAG;;;0.10;Kunde inte identifiera prefix.
+NY MAT/REST;;;;;;;;NYMAT/REST;;0.00;Okänd suffix: NYMAT/REST | Kunde inte identifiera prefix.
+NYFF1;;;;;;;;NYFF1;;0.00;Okänd suffix: NYFF1 | Kunde inte identifiera prefix.
+NYFF2;;;;;;;;NYFF2;;0.00;Okänd suffix: NYFF2 | Kunde inte identifiera prefix.
+NYMAT;;;;;;;NYMAT;;;0.10;Kunde inte identifiera prefix.
+NYMATx;;;;;;;NYMATX;;;0.10;Kunde inte identifiera prefix.
+NYOSO;;;;;;;NYOSO;;;0.10;Kunde inte identifiera prefix.
+NYOSORT;;;;;;;NYOSORT;;;0.10;Kunde inte identifiera prefix.
+NYOSORTx;;;;;;;NYOSORTX;;;0.10;Kunde inte identifiera prefix.
+NYRES;;;;;;;NYRES;;;0.10;Kunde inte identifiera prefix.
+NYREST;;;;;;;NYREST;;;0.10;Kunde inte identifiera prefix.
+NYRESTx;;;;;;;NYRESTX;;;0.10;Kunde inte identifiera prefix.
+NYRFID;;;;;;;NYRFID;;;0.10;Kunde inte identifiera prefix.
+NYTJÄNST;;;;;;;NYTJÄNST;;;0.10;Kunde inte identifiera prefix.
+OLJEFILTER;;;;;;;OLJEFILTER;;;0.10;Kunde inte identifiera prefix.
+ORANTALHEM;;;;;;;ORANTALHEM;;;0.10;Kunde inte identifiera prefix.
+ORANTALUTS;;;;;;;ORANTALUTS;;;0.10;Kunde inte identifiera prefix.
+ORFREKVENSBYTE;;;;;;;ORFREKVENSBYTE;;;0.10;Kunde inte identifiera prefix.
+ORKÄRLBYTE;;;;;;;ORKÄRLBYTE;;;0.10;Kunde inte identifiera prefix.
+ORNYTJÄNST;;;;;;;ORNYTJÄNST;;;0.10;Kunde inte identifiera prefix.
+ORTRASIGTKÄ;;;;;;;ORTRASIGTKÄ;;;0.10;Kunde inte identifiera prefix.
+PÅSLÄPP;;;;;;;PÅSLÄPP;;;0.10;Kunde inte identifiera prefix.
+RBRSL;;;;;;;RBRSL;;;0.10;Kunde inte identifiera prefix.
+RBRSLB;;;;;;;RBRSLB;;;0.10;Kunde inte identifiera prefix.
+RBRSLBUD;;;;;;;RBRSLBUD;;;0.10;Kunde inte identifiera prefix.
+RBRSLO;;;;;;;RBRSLO;;;0.10;Kunde inte identifiera prefix.
+RBRSLORD;;;;;;;RBRSLORD;;;0.10;Kunde inte identifiera prefix.
+REGLRESTBELOPP;;;;RE;Restavfall;;GLRESTBELOPP;;RE;0.30;Kunde inte identifiera prefix.
+REGLTILLGODO;;;;RE;Restavfall;;GLTILLGODO;;RE;0.30;Kunde inte identifiera prefix.
+RENGÖRINGBIL;;;;RE;Restavfall;;NGÖRINGBIL;;RE;0.30;Kunde inte identifiera prefix.
+RENH0;;;;RE;Restavfall;;;NH0;RE;0.20;Okänd suffix: NH0 | Kunde inte identifiera prefix.
+REST;;;;RE;Restavfall;;ST;;RE;0.30;Kunde inte identifiera prefix.
+RF30BR52;;;;;;;;RF30BR52;;0.00;Okänd suffix: RF30BR52 | Kunde inte identifiera prefix.
+RHKORR;;;;;;;RHKORR;;;0.10;Kunde inte identifiera prefix.
+ReAvfallSum;;;;RE;Restavfall;;AVFALLSUM;;RE;0.30;Kunde inte identifiera prefix.
+SANNAN;SA;Säck;;;;;NNAN;;SA;0.50;
+SBOSTAD;;;;;;;SBOSTAD;;;0.10;Kunde inte identifiera prefix.
+SLAKUT;SLA;Slam;;;;;KUT;;SLA;0.50;
+SLAKUT48TIM;SLA;Slam;;;;;;KUT48TIM;SLA;0.40;Okänd suffix: KUT48TIM
+SLAMKOMP;SLA;Slam;;;;;MKOMP;;SLA;0.50;
+SLBEHAVG;SL;Slam;;;;;BEHAVG;;SL;0.50;
+SLBOM;SL;Slam;;;;;BOM;;SL;0.50;
+SLBUD;SL;Slam;;;;;BUD;;SL;0.50;
+SLBUD7DGR;SL;Slam;;;;;;BUD7DGR;SL;0.40;Okänd suffix: BUD7DGR
+SLBUDFOS;SL;Slam;;;;;BUDFOS;;SL;0.50;
+SLFRAMKÖR;SL;Slam;;;;;FRAMKÖR;;SL;0.50;
+SLKBM3;SL;Slam;;;;;;KBM3;SL;0.40;Okänd suffix: KBM3
+SLKBM9;SL;Slam;;;;;;KBM9;SL;0.40;Okänd suffix: KBM9
+SLMEDDELANDE;SL;Slam;;ME;Metallförpackningar;;DDELANDE;;SLME;0.70;
+SLSAMTIDA;SL;Slam;;;;;SAMTIDA;;SL;0.50;
+SLSLANG;SL;Slam;;;;;SLANG;;SL;0.50;
+SLSPECTID;SL;Slam;;;;;SPECTID;;SL;0.50;
+SLSTATISTIK;SL;Slam;;;;;STATISTIK;;SL;0.50;
+SLT03SL;SL;Slam;;;;;;T03SL;SL;0.40;Okänd suffix: T03SL
+SLT03SLB;SL;Slam;;;;;;T03SLB;SL;0.40;Okänd suffix: T03SLB
+SLT03SLBUD;SL;Slam;;;;;;T03SLBUD;SL;0.40;Okänd suffix: T03SLBUD
+SLT03SLO;SL;Slam;;;;;;T03SLO;SL;0.40;Okänd suffix: T03SLO
+SLT03SLORD;SL;Slam;;;;;;T03SLORD;SL;0.40;Okänd suffix: T03SLORD
+SLT36SL;SL;Slam;;;;;;T36SL;SL;0.40;Okänd suffix: T36SL
+SLT36SLB;SL;Slam;;;;;;T36SLB;SL;0.40;Okänd suffix: T36SLB
+SLT36SLBUD;SL;Slam;;;;;;T36SLBUD;SL;0.40;Okänd suffix: T36SLBUD
+SLT36SLO;SL;Slam;;;;;;T36SLO;SL;0.40;Okänd suffix: T36SLO
+SLT36SLORD;SL;Slam;;;;;;T36SLORD;SL;0.40;Okänd suffix: T36SLORD
+SLT69SL;SL;Slam;;;;;;T69SL;SL;0.40;Okänd suffix: T69SL
+SLT69SLBUD;SL;Slam;;;;;;T69SLBUD;SL;0.40;Okänd suffix: T69SLBUD
+SLT69SLORD;SL;Slam;;;;;;T69SLORD;SL;0.40;Okänd suffix: T69SLORD
+SLTOAVAGN;SL;Slam;;;;;TOAVAGN;;SL;0.50;
+SLTUNGTL;SL;Slam;;;;;TUNGTL;;SL;0.50;
+SLTUNGTLOCK;SL;Slam;;;;;TUNGTLOCK;;SL;0.50;
+SLTÖ6SL;SL;Slam;;;;;;TÖ6SL;SL;0.40;Okänd suffix: TÖ6SL
+SLTÖ6SLB;SL;Slam;;;;;;TÖ6SLB;SL;0.40;Okänd suffix: TÖ6SLB
+SLTÖ6SLBUD;SL;Slam;;;;;;TÖ6SLBUD;SL;0.40;Okänd suffix: TÖ6SLBUD
+SLTÖ6SLO;SL;Slam;;;;;;TÖ6SLO;SL;0.40;Okänd suffix: TÖ6SLO
+SLTÖ6SLORD;SL;Slam;;;;;;TÖ6SLORD;SL;0.40;Okänd suffix: TÖ6SLORD
+SLTÖ9SLBUD;SL;Slam;;;;;;TÖ9SLBUD;SL;0.40;Okänd suffix: TÖ9SLBUD
+SLTÖ9SLORD;SL;Slam;;;;;;TÖ9SLORD;SL;0.40;Okänd suffix: TÖ9SLORD
+SLÖVERKBM;SL;Slam;;;;;ÖVERKBM;;SL;0.50;
+SMS Avvik;;;;;;;SMSAVVIK;;;0.10;Kunde inte identifiera prefix.
+SMÅKEM;;;;;;;SMÅKEM;;;0.10;Kunde inte identifiera prefix.
+SMÖRJFETT;;;;;;;SMÖRJFETT;;;0.10;Kunde inte identifiera prefix.
+SORTERING;;;;;;;SORTERING;;;0.10;Kunde inte identifiera prefix.
+SPACKEL;;;;;;;SPACKEL;;;0.10;Kunde inte identifiera prefix.
+SPILLOLJA;;;;;;;SPILLOLJA;;;0.10;Kunde inte identifiera prefix.
+SUANNAN;;;;;;;SUANNAN;;;0.10;Kunde inte identifiera prefix.
+SUBOSTAD;;;;;;;SUBOSTAD;;;0.10;Kunde inte identifiera prefix.
+SYROR;;;;;;;SYROR;;;0.10;Kunde inte identifiera prefix.
+SÄ140MABUD;SÄ;Säck;140;MA;Matavfall;;BUD;;SÄ140MA;0.90;
+SÄ160OS104;SÄ;Säck;160;;;;;OS104;SÄ160;0.60;Okänd suffix: OS104
+SÄ160OS11S;SÄ;Säck;160;;;;;OS11S;SÄ160;0.60;Okänd suffix: OS11S
+SÄ160OS13;SÄ;Säck;160;;;;;OS13;SÄ160;0.60;Okänd suffix: OS13
+SÄ160OS156;SÄ;Säck;160;;;;;OS156;SÄ160;0.60;Okänd suffix: OS156
+SÄ160OS22S;SÄ;Säck;160;;;;;OS22S;SÄ160;0.60;Okänd suffix: OS22S
+SÄ160OS26;SÄ;Säck;160;;;;;OS26;SÄ160;0.60;Okänd suffix: OS26
+SÄ160OS44S;SÄ;Säck;160;;;;;OS44S;SÄ160;0.60;Okänd suffix: OS44S
+SÄ160OS52;SÄ;Säck;160;;;;;OS52;SÄ160;0.60;Okänd suffix: OS52
+SÄ160OS6S;SÄ;Säck;160;;;;;OS6S;SÄ160;0.60;Okänd suffix: OS6S
+SÄ160REBUD;SÄ;Säck;160;RE;Restavfall;;BUD;;SÄ160RE;0.90;
+SÄTRBUD;SÄ;Säck;;TR;Träavfall;;BUD;;SÄTR;0.70;
+TBL;;;;;;;TBL;;;0.10;Kunde inte identifiera prefix.
+TBOM;;;;;;;TBOM;;;0.10;Kunde inte identifiera prefix.
+TCOTIM;;;;;;;TCOTIM;;;0.10;Kunde inte identifiera prefix.
+TEST240FFG13;;;;;;;;TEST240FFG13;;0.00;Okänd suffix: TEST240FFG13 | Kunde inte identifiera prefix.
+TEST240METE13;;;;;;;;TEST240METE13;;0.00;Okänd suffix: TEST240METE13 | Kunde inte identifiera prefix.
+TEST370VV;;;;;;;;TEST370VV;;0.00;Okänd suffix: TEST370VV | Kunde inte identifiera prefix.
+TFB;;;;;;;TFB;;;0.10;Kunde inte identifiera prefix.
+TFL;;;;;;;TFL;;;0.10;Kunde inte identifiera prefix.
+TINTAGCO;;;;TI;Tidningar;;NTAGCO;;TI;0.30;Kunde inte identifiera prefix.
+TINTAGKÄ;;;;TI;Tidningar;;NTAGKÄ;;TI;0.30;Kunde inte identifiera prefix.
+TLD;;;;;;;TLD;;;0.10;Kunde inte identifiera prefix.
+TLEVERANS;;;;;;;TLEVERANS;;;0.10;Kunde inte identifiera prefix.
+TLV;;;;;;;TLV;;;0.10;Kunde inte identifiera prefix.
+TRBUD;;;;TR;Träavfall;;BUD;;TR;0.30;Kunde inte identifiera prefix.
+TRÄDGÅRD;;;;TR;Träavfall;;ÄDGÅRD;;TR;0.30;Kunde inte identifiera prefix.
+TRÄDGÅRDKOMP;;;;TR;Träavfall;;ÄDGÅRDKOMP;;TR;0.30;Kunde inte identifiera prefix.
+TSBTIM;;;;;;;TSBTIM;;;0.10;Kunde inte identifiera prefix.
+TUTSTÄLLCO;;;;;;;TUTSTÄLLCO;;;0.10;Kunde inte identifiera prefix.
+TUTSTÄLLKÄ;;;;;;;TUTSTÄLLKÄ;;;0.10;Kunde inte identifiera prefix.
+TÄNDARE;;;;;;;TÄNDARE;;;0.10;Kunde inte identifiera prefix.
+TÖMCOMA;;;;;;;TÖMCOMA;;;0.10;Kunde inte identifiera prefix.
+TÖMCORE;;;;;;;TÖMCORE;;;0.10;Kunde inte identifiera prefix.
+TÖMUJMA;;;;;;;TÖMUJMA;;;0.10;Kunde inte identifiera prefix.
+TÖMUJRE;;;;;;;TÖMUJRE;;;0.10;Kunde inte identifiera prefix.
+Töm Missat kärl;;;;;;;TÖMMISSATKÄRL;;;0.10;Kunde inte identifiera prefix.
+UNDERJORDMA;;;;;;;UNDERJORDMA;;;0.10;Kunde inte identifiera prefix.
+UNDERJORDRE;;;;;;;UNDERJORDRE;;;0.10;Kunde inte identifiera prefix.
+UNDERSÖK;;;;;;;UNDERSÖK;;;0.10;Kunde inte identifiera prefix.
+UPPEHÅLL;;;;;;;UPPEHÅLL;;;0.10;Kunde inte identifiera prefix.
+UPPSÄTT;;;;;;;UPPSÄTT;;;0.10;Kunde inte identifiera prefix.
+VANNAN;;;;;;;VANNAN;;;0.10;Kunde inte identifiera prefix.
+VATTENBLAND;;;;;;;VATTENBLAND;;;0.10;Kunde inte identifiera prefix.
+VBOSTAD;;;;;;;VBOSTAD;;;0.10;Kunde inte identifiera prefix.
+VFÖRB;;;;;;;VFÖRB;;;0.10;Kunde inte identifiera prefix.
+VIKTMAT;;;;;;;VIKTMAT;;;0.10;Kunde inte identifiera prefix.
+VIKTMATMB;;;;;;;VIKTMATMB;;;0.10;Kunde inte identifiera prefix.
+VIKTMATUJ;;;;;;;VIKTMATUJ;;;0.10;Kunde inte identifiera prefix.
+VIKTOSPEC;;;;;;;VIKTOSPEC;;;0.10;Kunde inte identifiera prefix.
+VIKTREST;;;;;;;VIKTREST;;;0.10;Kunde inte identifiera prefix.
+VIKTRESTMB;;;;;;;VIKTRESTMB;;;0.10;Kunde inte identifiera prefix.
+VS0;;;;;;;;VS0;;0.00;Okänd suffix: VS0 | Kunde inte identifiera prefix.
+VSANNAN;;;;;;;VSANNAN;;;0.10;Kunde inte identifiera prefix.
+VSAVSTÄNGT;;;;;;;VSAVSTÄNGT;;;0.10;Kunde inte identifiera prefix.
+VSBOSTAD;;;;;;;VSBOSTAD;;;0.10;Kunde inte identifiera prefix.
+VSFÖRB;;;;;;;VSFÖRB;;;0.10;Kunde inte identifiera prefix.
+VSKORR;;;;;;;VSKORR;;;0.10;Kunde inte identifiera prefix.
+VSOMMAR;;;;;;;VSOMMAR;;;0.10;Kunde inte identifiera prefix.
+VSUANNAN;;;;;;;VSUANNAN;;;0.10;Kunde inte identifiera prefix.
+VSUBOSTAD;;;;;;;VSUBOSTAD;;;0.10;Kunde inte identifiera prefix.
+VSUFRI;;;;;;;VSUFRI;;;0.10;Kunde inte identifiera prefix.
+VUANNAN;;;;;;;VUANNAN;;;0.10;Kunde inte identifiera prefix.
+VUBOSTAD;;;;;;;VUBOSTAD;;;0.10;Kunde inte identifiera prefix.
+VUFRI;;;;;;;VUFRI;;;0.10;Kunde inte identifiera prefix.
+ÄNDRAVG;;;;;;;ÄNDRAVG;;;0.10;Kunde inte identifiera prefix.
+ÅBEHGF;;;;;;;ÅBEHGF;;;0.10;Kunde inte identifiera prefix.
+ÅBEHGO;;;;;;;ÅBEHGO;;;0.10;Kunde inte identifiera prefix.
+ÅBEHMA;;;;;;;ÅBEHMA;;;0.10;Kunde inte identifiera prefix.
+ÅBEHME;;;;;;;ÅBEHME;;;0.10;Kunde inte identifiera prefix.
+ÅBEHPA;;;;;;;ÅBEHPA;;;0.10;Kunde inte identifiera prefix.
+ÅBEHPL;;;;;;;ÅBEHPL;;;0.10;Kunde inte identifiera prefix.
+ÅBEHREST;;;;;;;ÅBEHREST;;;0.10;Kunde inte identifiera prefix.
+ÅBEHTI;;;;;;;ÅBEHTI;;;0.10;Kunde inte identifiera prefix.
+ÅBUDGF;;;;;;;ÅBUDGF;;;0.10;Kunde inte identifiera prefix.
+ÅBUDGO;;;;;;;ÅBUDGO;;;0.10;Kunde inte identifiera prefix.
+ÅBUDME;;;;;;;ÅBUDME;;;0.10;Kunde inte identifiera prefix.
+ÅBUDPA;;;;;;;ÅBUDPA;;;0.10;Kunde inte identifiera prefix.
+ÅBUDPL;;;;;;;ÅBUDPL;;;0.10;Kunde inte identifiera prefix.
+ÅBUDRE;;;;;;;ÅBUDRE;;;0.10;Kunde inte identifiera prefix.
+ÅBUDVI;;;;;;;ÅBUDVI;;;0.10;Kunde inte identifiera prefix.
+ÅFYLL;;;;;;;ÅFYLL;;;0.10;Kunde inte identifiera prefix.
+ÅRENH;;;;;;;ÅRENH;;;0.10;Kunde inte identifiera prefix.
+ÅSVME;;;;;;;ÅSVME;;;0.10;Kunde inte identifiera prefix.
+ÅTÖMGF;;;;;;;ÅTÖMGF;;;0.10;Kunde inte identifiera prefix.
+ÅTÖMGO;;;;;;;ÅTÖMGO;;;0.10;Kunde inte identifiera prefix.
+ÅTÖMMA;;;;;;;ÅTÖMMA;;;0.10;Kunde inte identifiera prefix.
+ÅTÖMME;;;;;;;ÅTÖMME;;;0.10;Kunde inte identifiera prefix.
+ÅTÖMPA;;;;;;;ÅTÖMPA;;;0.10;Kunde inte identifiera prefix.
+ÅTÖMPL;;;;;;;ÅTÖMPL;;;0.10;Kunde inte identifiera prefix.
+ÅTÖMREST;;;;;;;ÅTÖMREST;;;0.10;Kunde inte identifiera prefix.
+ÅTÖMTI;;;;;;;ÅTÖMTI;;;0.10;Kunde inte identifiera prefix.
+ÅVC660I;;;;;;;;ÅVC660I;;0.00;Okänd suffix: ÅVC660I | Kunde inte identifiera prefix.
+ÅVC660T;;;;;;;;ÅVC660T;;0.00;Okänd suffix: ÅVC660T | Kunde inte identifiera prefix.
+ÅVCVERKSAM;;;;;;;ÅVCVERKSAM;;;0.10;Kunde inte identifiera prefix.
+ÅVCVERKSAMFA;;;;;;;ÅVCVERKSAMFA;;;0.10;Kunde inte identifiera prefix.
+ÅVINH;;;;;;;ÅVINH;;;0.10;Kunde inte identifiera prefix.
+ÅVSFYLL;;;;;;;ÅVSFYLL;;;0.10;Kunde inte identifiera prefix.
+ÅVSGF;;;;;;;ÅVSGF;;;0.10;Kunde inte identifiera prefix.
+ÅVSGO;;;;;;;ÅVSGO;;;0.10;Kunde inte identifiera prefix.
+ÅVSMAT;;;;;;;ÅVSMAT;;;0.10;Kunde inte identifiera prefix.
+ÅVSME;;;;;;;ÅVSME;;;0.10;Kunde inte identifiera prefix.
+ÅVSPA;;;;;;;ÅVSPA;;;0.10;Kunde inte identifiera prefix.
+ÅVSPL;;;;;;;ÅVSPL;;;0.10;Kunde inte identifiera prefix.
+ÅVSRE;;;;;;;ÅVSRE;;;0.10;Kunde inte identifiera prefix.
+ÅVSREST;;;;;;;ÅVSREST;;;0.10;Kunde inte identifiera prefix.
+ÅVSTI;;;;;;;ÅVSTI;;;0.10;Kunde inte identifiera prefix.
+ÅVSVI;;;;;;;ÅVSVI;;;0.10;Kunde inte identifiera prefix.

@@ -15,3 +15,4 @@ from .standard_catalog_schema_reporter import StandardCatalogSchemaReporter
 from .semantic_profile_reporter import SemanticProfileReporter
 from .semantic_candidate_reporter import SemanticCandidateReporter
 from .context_resolution_reporter import ContextResolutionReporter
+from .tax_code_reporter import TaxCodeReporter

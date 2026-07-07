@@ -1,0 +1,47 @@
+Tax Code Intelligence Report
+
+Status: Taxekoder delas upp i semantiska delar. Inga EDP-data ändras.
+Tax codes: 742
+With family key: 329
+
+Prefixes:
+- (okänd): 433
+- CON: 2
+- FA: 10
+- KÄ: 244
+- SA: 1
+- SL: 37
+- SLA: 3
+- SÄ: 12
+
+Top families:
+- SL: 36
+- KÄ370: 21
+- KÄ190: 18
+- KÄ660: 14
+- KÄ660RE: 13
+- KÄ140RE: 12
+- KÄ140MA: 11
+- KÄ240: 11
+- KÄ370RE: 11
+- FA: 10
+- KÄ140: 9
+- KÄ190MA: 9
+- KÄ190RE: 9
+- KÄ240MA: 9
+- KÄ240RE: 9
+- KÄ370MA: 9
+- SÄ160: 9
+- KÄ: 8
+- RE: 6
+- KÄ190ME: 5
+- KÄ190PA: 5
+- KÄ190PL: 5
+- KÄ190TI: 5
+- KÄ370ME: 5
+- KÄ370PA: 5
+- KÄ370PL: 5
+- KÄ370TI: 5
+- KÄ660ME: 5
+- KÄ660PA: 5
+- KÄ660PL: 5
