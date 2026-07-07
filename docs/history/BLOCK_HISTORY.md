@@ -95,3 +95,21 @@ Syfte: skapa ett konservativt attributlager ovanpå taxefamiljer och varianter.
 - Build-pipeline kör attributsteget innan befintlig taxekunskap och semantisk kandidatrankning.
 
 Verifiering: hela testsviten ska köras via `run_project.bat` och rapportzip ska skickas tillbaka.
+
+## Block39 – Composite Matching Engine
+
+Composite Matching Engine samlar tidigare intelligenslager till en förklarande matchpoäng:
+
+- EDP exact match
+- Tax Family Intelligence
+- Variant Intelligence
+- Semantic Attribute Intelligence
+- Hierarchical Context
+- Document Structure
+
+Nya rapportfiler:
+
+- `composite_matching_report.txt`
+- `composite_matches.csv`
+
+BAT-filerna är uppdaterade för Block39.

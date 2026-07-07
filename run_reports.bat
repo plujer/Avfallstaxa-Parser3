@@ -1,13 +1,12 @@
 @echo off
 setlocal
-set BLOCK_ID=38
-set BLOCK_NAME=Semantic Attribute Intelligence
+set BLOCK_ID=39
+set BLOCK_NAME=Composite Matching Engine
 set VERSION=v0.9.4
 
 echo ==========================================
-echo Excel Builder - rapportzip for Block%BLOCK_ID%
+echo Skapar rapportzip - Block%BLOCK_ID%
 echo %BLOCK_NAME%
-echo Version: %VERSION%
 echo ==========================================
 
 powershell -NoProfile -ExecutionPolicy Bypass -File tools\zip_excel_report.ps1
@@ -18,9 +17,6 @@ if errorlevel 1 (
 )
 
 echo.
-echo ==========================================
-echo RAPPORTZIP KLAR
-echo Skicka senaste ZIP-filen fran rapportzip\ till ChatGPT.
-echo ==========================================
+echo Rapportzip skapad. Skicka senaste ZIP-filen fran rapportzip\ till ChatGPT.
 pause
 endlocal

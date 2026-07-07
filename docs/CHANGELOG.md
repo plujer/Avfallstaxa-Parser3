@@ -114,3 +114,11 @@ Tidigare block byggde parser, Excel Builder, rapportkedja, standardtaxestöd, pr
 - Lade till rapporterna `semantic_attribute_report.txt` och `semantic_attributes.csv`.
 - Lade till tester för attributextraktion, attributmatchning och CLI/package-integrering.
 - Taxa_från_edp ändras inte och kommununik data delas inte.
+
+## Block39 – Composite Matching Engine
+
+- Lade till Composite Matching Engine som väger ihop EDP-träff, taxefamilj, variant, semantiska attribut, hierarkisk kontext och dokumentstruktur.
+- Lade till CLI `excel_builder_composite_matching.py`.
+- Lade till rapporterna `composite_matching_report.txt` och `composite_matches.csv` i rapportzip.
+- Lade till tester för composite scoring och CLI/package-integrering.
+- Uppdaterade BAT-filer till Block39.

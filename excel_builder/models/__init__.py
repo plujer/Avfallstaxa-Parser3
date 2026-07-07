@@ -52,3 +52,10 @@ from .semantic_attribute_models import (
     SemanticAttributeComparison,
     SemanticAttributeReport,
 )
+
+from .composite_matching_models import (
+    CompositeScorePart,
+    CompositeMatchInput,
+    CompositeMatchResult,
+    CompositeMatchingReport,
+)

@@ -120,3 +120,16 @@ Status: Implementerad för verifiering. Tolkar variantdimensioner inom taxefamil
 ## Block38 status
 
 Block38 inför Semantic Attribute Intelligence. Steget är beslutsstöd och får inte skriva över Taxa_från_edp eller blanda kommununik data mellan Sorsele, Malå och Norsjö.
+
+## Block39 status
+
+Block39 inför Composite Matching Engine som samlat beslutsstöd ovanpå Document Structure, Hierarchical Context, Tax Family, Variant och Semantic Attribute Intelligence.
+
+Status: Implementerad för verifiering.
+
+Verifiering:
+- kör `run_project.bat`,
+- kör `run_tests.bat` endast om huvudkörningen säger att tester behövs,
+- skicka senaste rapportzip från `rapportzip\`.
+
+Regel: Composite Matching får inte ändra `Taxa_från_edp` och får inte blanda kommununik data mellan Sorsele, Malå och Norsjö.

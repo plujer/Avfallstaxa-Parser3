@@ -1,0 +1,36 @@
+Composite Matching Engine Report
+
+Status: Vägt beslutsstöd från struktur, kontext, taxefamilj, variant, attribut, EDP och standardtaxa.
+Taxa_från_edp ändras inte. Kommununik data delas inte mellan kommunprojekt.
+Results: 59
+MATCH: 26
+REVIEW: 33
+NO_MATCH: 0
+Warnings: 0
+
+Top composite results:
+- MATCH 0.7820 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
+- MATCH 0.7820 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
+- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
+- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
+- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
+- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
+- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
+- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
+- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
+- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
+- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
+- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
+- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
+- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
+- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
+- MATCH 0.7320 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
+- MATCH 0.7320 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
+- MATCH 0.7320 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
+- MATCH 0.7320 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
+- MATCH 0.7320 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
+- MATCH 0.6600 | SLT03SLBUD -> SLT03SLBUD | MATCH: samlad poäng bygger främst på edp_exact=1.00; tax_family=1.00; variant=0.55.
+- MATCH 0.6600 | SLT03SLORD -> SLT03SLORD | MATCH: samlad poäng bygger främst på edp_exact=1.00; tax_family=1.00; variant=0.55.
+- MATCH 0.6600 | SLT36SLBUD -> SLT36SLBUD | MATCH: samlad poäng bygger främst på edp_exact=1.00; tax_family=1.00; variant=0.55.
+- MATCH 0.6600 | SLT36SLORD -> SLT36SLORD | MATCH: samlad poäng bygger främst på edp_exact=1.00; tax_family=1.00; variant=0.55.
+- MATCH 0.6600 | SLT03SL -> SLT03SL | MATCH: samlad poäng bygger främst på edp_exact=1.00; tax_family=1.00; variant=0.55.

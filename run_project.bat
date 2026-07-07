@@ -1,7 +1,7 @@
 @echo off
 setlocal
-set BLOCK_ID=38
-set BLOCK_NAME=Semantic Attribute Intelligence
+set BLOCK_ID=39
+set BLOCK_NAME=Composite Matching Engine
 set VERSION=v0.9.4
 
 echo ==========================================
@@ -30,6 +30,7 @@ echo.
 echo ==========================================
 echo BLOCK%BLOCK_ID% KORNING KLAR
 echo Skicka endast senaste ZIP-filen fran rapportzip\ till ChatGPT.
+echo run_tests.bat behovs INTE om inga fel visades.
 echo ==========================================
 pause
 endlocal

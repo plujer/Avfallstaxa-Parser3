@@ -1,42 +1,38 @@
 @echo off
 setlocal
-set BLOCK_ID=38
-set BLOCK_NAME=Semantic Attribute Intelligence
+set BLOCK_ID=39
+set BLOCK_NAME=Composite Matching Engine
 set VERSION=v0.9.4
 set COMMIT_MESSAGE=Block%BLOCK_ID%: %BLOCK_NAME% (%VERSION%)
 
 echo ==========================================
 echo Git commit - Block%BLOCK_ID%
-echo %COMMIT_MESSAGE%
+echo %BLOCK_NAME%
 echo ==========================================
-echo.
 
 git status
-if errorlevel 1 (
-    echo Git verkar inte vara tillgangligt eller katalogen ar inte ett repo.
-    pause
-    exit /b 1
-)
 
 echo.
-echo Skapar commit med alla aktuella andringar.
+echo Lagger till andringar...
 git add .
+
+echo.
+echo Skapar commit:
+echo %COMMIT_MESSAGE%
 git commit -m "%COMMIT_MESSAGE%"
 if errorlevel 1 (
     echo.
-    echo Commit skapades inte. Det kan bero pa att det inte finns nagra andringar.
+    echo Commit misslyckades eller inget fanns att committa.
     pause
     exit /b 1
 )
 
 echo.
-echo Forsoker pusha aktuell branch om remote finns.
+echo Pushar aktuell branch om remote finns...
 git push
 
 echo.
-echo ==========================================
-echo GIT COMMIT KLAR - Block%BLOCK_ID%
-echo ==========================================
+echo BLOCK%BLOCK_ID% COMMIT KLAR.
 git log -1 --oneline
 pause
 endlocal
