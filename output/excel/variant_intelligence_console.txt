@@ -1,4 +1,6 @@
+C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
 Variant Intelligence klar.
-Profiles: 968
-Families: 52
-Warnings: 519
+Profiles: 816
+Families: 45
+Warnings: 457

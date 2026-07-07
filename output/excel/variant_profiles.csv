@@ -1,11 +1,24 @@
 ﻿tax_code;family_code;variant_key;volume_liter;waste_code;interval;variant;usage_type;source;source_text
+H120;;120;120;;;;;RULE:Taxa_från_edp:75;120 L KÄRL 14-DAG. HÄMTN. Okänd Behållarvolym ÅRKV H120 | 120 L KÄRL 14-DAG. HÄMTN. | ÅRKV | 14-dagars hämtning 120 l kärl | ANTB
+H120;;120;120;;;;;RULE:Taxa_från_edp:76;120 L KÄRL 14-DAG. HÄMTN. Okänd Behållarvolym ÅRPR H120 | 120 L KÄRL 14-DAG. HÄMTN. | ÅRPR | Grundavgift | 
+HU120;;120;120;;;;;RULE:Taxa_från_edp:93;120 L KÄRL UTAN GRUNDAVGIFT Okänd Behållarvolym ÅRKV HU120 | 120 L KÄRL UTAN GRUNDAVGIFT | ÅRKV | Sophämtning 120 l kärl | ANTB
+HF120;;120|FRITID;120;;;;FRITID;RULE:Taxa_från_edp:86;120 L KÄRL FRITIDSHUS Okänd Behållarvolym ÅRKV HF120 | 120 L KÄRL FRITIDSHUS | ÅRKV | 14-dagars hämtning 120 l kärl | ANTB
+HF120;;120|FRITID;120;;;;FRITID;RULE:Taxa_från_edp:87;120 L KÄRL FRITIDSHUS Okänd Behållarvolym ÅRPR HF120 | 120 L KÄRL FRITIDSHUS | ÅRPR | Grundavgift | 
+HUF120;;120|FRITID;120;;;;FRITID;RULE:Taxa_från_edp:97;120 L KÄRL FRITIDSHUS UTAN GRUNDAVG. Okänd Behållarvolym ÅRKV HUF120 | 120 L KÄRL FRITIDSHUS UTAN GRUNDAVG. | ÅRKV | Sophämtning 120 lit kärl | ANTB
 FPASÄCK125;;125|PA;125;PA;;;;STANDARD:Standard Avfall:289;Försäljning pappersäck, 125 L KVAN ANTL
 HKÄ140;;140;140;;;;;STANDARD:Standard Avfall:451;Hyra kärl, 140 liter ÅRKV ANTB
-EVEKÄ140MA;;140|MA;140;MA;;;;RULE:Taxa_från_edp:83;Evenemangskärl 140 L, matavfall Okänd Matavfall Behållarvolym KVAN EVEKÄ140MA | Evenemangskärl 140 L, matavfall | KVAN | Evenemangskärl 140 L, matavfall | ANTL
-Töm Missat kärl;;140|MA|TÖMMISSATKÄRL;140;MA;;TÖMMISSATKÄRL;;RULE:Taxa_från_edp:148;Töm Missat kärl Okänd KVAN Töm Missat kärl | Töm Missat kärl | KVAN | Evenemangskärl 140 L, matavfall | ANTL
+EVEKÄ140MA;;140|MA;140;MA;;;;RULE:Taxa_från_edp:44;Evenemangskärl 140 L, matavfall Okänd Matavfall Behållarvolym KVAN EVEKÄ140MA | Evenemangskärl 140 L, matavfall | KVAN | Evenemangskärl 140 L, matavfall | ANTL
 FPASÄCK160;;160|PA;160;PA;;;;STANDARD:Standard Avfall:290;Försäljning pappersäck, 160 L KVAN ANTL
+DE190;;190;190;;;;;RULE:Taxa_från_edp:42;190 L KÄRL DELAT Okänd Behållarvolym ÅRKV DE190 | 190 L KÄRL DELAT | ÅRKV | Sophämtning delat 190 l kärl | ANTB
+H190;;190;190;;;;;RULE:Taxa_från_edp:77;190 L KÄRL 14-DAG. HÄMTN. Okänd Behållarvolym ÅRKV H190 | 190 L KÄRL 14-DAG. HÄMTN. | ÅRKV | 14-dagars hämtning 190 l kärl | ANTB
+H190;;190;190;;;;;RULE:Taxa_från_edp:78;190 L KÄRL 14-DAG. HÄMTN. Okänd Behållarvolym ÅRPR H190 | 190 L KÄRL 14-DAG. HÄMTN. | ÅRPR | Grundavgift | 
+H190TT;;190;190;;;;;RULE:Taxa_från_edp:79;190 L KÄRL tillf tjänst Okänd Behållarvolym KVAN H190TT | 190 L KÄRL tillf tjänst | KVAN | 190 L KÄRL tillf tjänst | ANTL
+HF190T;;190;190;;;;;RULE:Taxa_från_edp:90;190 L KÄRL tillf tjänst Okänd Behållarvolym KVAN HF190T | 190 L KÄRL tillf tjänst | KVAN | 190 L KÄRL tillf tjänst | ANTL
 HKÄ190;;190;190;;;;;STANDARD:Standard Avfall:452;Hyra kärl, 190 liter ÅRKV ANTB
-EVEKÄ190RE;;190|RE;190;RE;;;;RULE:Taxa_från_edp:84;Evenemangskärl 190 L, restavfall Okänd Restavfall Behållarvolym KVAN EVEKÄ190RE | Evenemangskärl 190 L, restavfall | KVAN | Evenemangskärl 190 L, restavfall | ANTL
+HU190;;190;190;;;;;RULE:Taxa_från_edp:94;190 L KÄRL UTAN GRUNDAVGIFT Okänd Behållarvolym ÅRKV HU190 | 190 L KÄRL UTAN GRUNDAVGIFT | ÅRKV | Sophämtning 190 l kärl | ANTB
+HF190;;190|FRITID;190;;;;FRITID;RULE:Taxa_från_edp:88;190 L KÄRL FRITIDSHUS Okänd Behållarvolym ÅRKV HF190 | 190 L KÄRL FRITIDSHUS | ÅRKV | 14-dagars hämtning 190 l kärl | ANTB
+HF190;;190|FRITID;190;;;;FRITID;RULE:Taxa_från_edp:89;190 L KÄRL FRITIDSHUS Okänd Behållarvolym ÅRPR HF190 | 190 L KÄRL FRITIDSHUS | ÅRPR | Grundavgift | 
+EVEKÄ190RE;;190|RE;190;RE;;;;RULE:Taxa_från_edp:45;Evenemangskärl 190 L, restavfall Okänd Restavfall Behållarvolym KVAN EVEKÄ190RE | Evenemangskärl 190 L, restavfall | KVAN | Evenemangskärl 190 L, restavfall | ANTL
 MB1300OS104;;2;;;2;;;STANDARD:Standard Avfall:241;Markbehållare 1,3 m³, osorterat avfall. 2ggr/ vecka ÅRKV ANTB
 MB1600OS104;;2;;;2;;;STANDARD:Standard Avfall:253;Markbehållare 1,6 m³, osorterat avfall. 2ggr/ vecka ÅRKV ANTB
 MB2200OS104;;2;;;2;;;STANDARD:Standard Avfall:259;Markbehållare 2,2 m³, osorterat avfall. 2ggr/ vecka ÅRKV ANTB
@@ -14,38 +27,52 @@ MB5000OS104;;2;;;2;;;STANDARD:Standard Avfall:271;Markbehållare 5 m³, osortera
 FKOMPKASSE22;;22;22;;;;;STANDARD:Standard Avfall:279;Försäljning kompostkassar, 22 L KVAN ANTL
 FKOMPSTÄLL22;;22;22;;;;;STANDARD:Standard Avfall:281;Försäljning ställning för 22 L kompostkasse KVAN ANTL
 HKÄ240;;240;240;;;;;STANDARD:Standard Avfall:453;Hyra kärl, 240 liter ÅRKV ANTB
-TEST240FFG13;;240|GF|LÅS;240;GF;;LÅS;;RULE:Taxa_från_edp:338;240 kärl/4:e vecka 2-delat kärl färgat o ofärgat glas TEST Okänd ÅRKV TEST240FFG13 | 240 kärl/4:e vecka 2-delat kärl färgat o ofärgat glas TEST | ÅRKV | 240 l kärl/4 vecka test glas färgat ofärgat | antb
-TEST240FFG13;;240|GF|LÅS;240;GF;;LÅS;;RULE:Taxa_från_edp:339;240 kärl/4:e vecka 2-delat kärl färgat o ofärgat glas TEST Okänd KVAN TEST240FFG13 | 240 kärl/4:e vecka 2-delat kärl färgat o ofärgat glas TEST | KVAN | 240 l kärl - viktavgift färgat och ofärgat test | vikg
-VIKTMAT;;240|MA|VIKTMAT;240;MA;;VIKTMAT;;RULE:Taxa_från_edp:296;240L tvåfackskärl, viktavgift matavfall Okänd Matavfall Behållarvolym KVAN VIKTMAT | 240L tvåfackskärl, viktavgift matavfall | KVAN | Viktavgift matavfall | VIKG,MAX60
-VIKTMAT;;240|MA|VIKTMAT;240;MA;;VIKTMAT;;RULE:Taxa_från_edp:297;240L tvåfackskärl, viktavgift matavfall Okänd Matavfall Behållarvolym KVAN VIKTMAT | 240L tvåfackskärl, viktavgift matavfall | KVAN | Överviktsavgift för vikt över 60 kg, matavfall | VIKG-60,MIN0
-TEST240METE13;;240|ME;240;ME;;;;RULE:Taxa_från_edp:341;240 kärl/4 vecka 2-delat metallförp textil TEST Okänd KVAN TEST240METE13 | 240 kärl/4 vecka 2-delat metallförp textil TEST | KVAN | 240 l kärl viktavg metallförp textil TEST | VIKG
+TEST240OFFG13;;240|GF|LÅS;240;GF;;LÅS;;RULE:Taxa_från_edp:218;240 2-DELAT KÄRL/4:E VECKA FÄRGAT O OFÄRGAT GLAS TEST Okänd ÅRKV TEST240OFFG13 | 240 2-DELAT KÄRL/4:E VECKA FÄRGAT O OFÄRGAT GLAS TEST | ÅRKV | 240 l kärl/4 vecka test glas färgat ofärgata | ANTB
+TEST240OFFG13;;240|GF|LÅS;240;GF;;LÅS;;RULE:Taxa_från_edp:219;240 2-DELAT KÄRL/4:E VECKA FÄRGAT O OFÄRGAT GLAS TEST Okänd KVAN TEST240OFFG13 | 240 2-DELAT KÄRL/4:E VECKA FÄRGAT O OFÄRGAT GLAS TEST | KVAN | 240 l viktavgift färgat ofärgat test | VIKG
+VIKTMAT;;240|MA|VIKTMAT;240;MA;;VIKTMAT;;RULE:Taxa_från_edp:266;Tvåfackskärl 240 liter viktavgift Okänd Behållarvolym KVAN VIKTMAT | Tvåfackskärl 240 liter viktavgift | KVAN | Viktavgift matavfall | VIKG,MAX60
+VIKTMAT;;240|MA|VIKTMAT;240;MA;;VIKTMAT;;RULE:Taxa_från_edp:267;Tvåfackskärl 240 liter viktavgift Okänd Behållarvolym KVAN VIKTMAT | Tvåfackskärl 240 liter viktavgift | KVAN | Vikt över 60 kg, matavfall | VIKG-60,MIN0
+TEST240METE13;;240|ME;240;ME;;;;RULE:Taxa_från_edp:216;240L 2- delat kärl/4:e vecka metall, textil TEST Okänd Metall Behållarvolym ÅRKV TEST240METE13 | 240L 2- delat kärl/4:e vecka metall, textil TEST | ÅRKV | 240 L kärl/4:e vecka metall textil TEST | ANTB
+TEST240METE13;;240|ME;240;ME;;;;RULE:Taxa_från_edp:217;240L 2- delat kärl/4:e vecka metall, textil TEST Okänd Metall Behållarvolym KVAN TEST240METE13 | 240L 2- delat kärl/4:e vecka metall, textil TEST | KVAN | 240 L kärl viktavgift metall textil TEST | VIKG
 FPASÄCK240;;240|PA;240;PA;;;;STANDARD:Standard Avfall:291;Försäljning pappersäck, 240 L KVAN ANTL
 FPLSÄCK240;;240|PL|LÅS;240;PL;;LÅS;;STANDARD:Standard Avfall:293;Försäljning plastsäck, 240 L KVAN ANTL
-VIKTREST;;240|RE|VIKTREST;240;RE;;VIKTREST;;RULE:Taxa_från_edp:302;240L tvåfackskärl, viktavgift restavfall Okänd Restavfall Behållarvolym KVAN VIKTREST | 240L tvåfackskärl, viktavgift restavfall | KVAN | Viktavgift restavfall | VIKG,MAX60
-VIKTREST;;240|RE|VIKTREST;240;RE;;VIKTREST;;RULE:Taxa_från_edp:303;240L tvåfackskärl, viktavgift restavfall Okänd Restavfall Behållarvolym KVAN VIKTREST | 240L tvåfackskärl, viktavgift restavfall | KVAN | Överviktsavgift för vikt över 60 kg, restavfall | VIKG-60,MIN0
-VIKTOSPEC;;240|VIKTOSPEC;240;;;VIKTOSPEC;;RULE:Taxa_från_edp:300;240L tvåfackskärl, viktavgift osorterat avfall Okänd Behållarvolym KVAN VIKTOSPEC | 240L tvåfackskärl, viktavgift osorterat avfall | KVAN | Viktavgift avfall reducerad taxa vid 1 lyft | VIKG,MAX60
-VIKTOSPEC;;240|VIKTOSPEC;240;;;VIKTOSPEC;;RULE:Taxa_från_edp:301;240L tvåfackskärl, viktavgift osorterat avfall Okänd Behållarvolym KVAN VIKTOSPEC | 240L tvåfackskärl, viktavgift osorterat avfall | KVAN | Överviktsavgift för vikt över 80 kg, Ospecifiserat avfall | VIKG-60,MIN0
 FPASÄCK350;;350|PA;350;PA;;;;STANDARD:Standard Avfall:292;Försäljning pappersäck, 350 L KVAN ANTL
 FPLSÄCK350;;350|PL|LÅS;350;PL;;LÅS;;STANDARD:Standard Avfall:294;Försäljning plastsäck, 350 L KVAN ANTL
+H370;;370;370;;;;;RULE:Taxa_från_edp:80;370 L KÄRL 14-DAG. HÄMTN. Okänd Behållarvolym ÅRKV H370 | 370 L KÄRL 14-DAG. HÄMTN. | ÅRKV | 14-dagars hämtning 370 l kärl | ANTB
+H370;;370;370;;;;;RULE:Taxa_från_edp:81;370 L KÄRL 14-DAG. HÄMTN. Okänd Behållarvolym ÅRPR H370 | 370 L KÄRL 14-DAG. HÄMTN. | ÅRPR | Grundavgift | 
 HKÄ370;;370;370;;;;;STANDARD:Standard Avfall:454;Hyra kärl, 370 liter ÅRKV ANTB
-EVEKÄ370RE;;370|RE;370;RE;;;;RULE:Taxa_från_edp:85;Evenemangskärl 370 L, restavfall Okänd Restavfall Behållarvolym KVAN EVEKÄ370RE | Evenemangskärl 370 L, restavfall | KVAN | Evenemangskärl 370 L, restavfall | ANTB
+HU370;;370;370;;;;;RULE:Taxa_från_edp:95;370 L KÄRL UTAN GRUNDAVGIFT Okänd Behållarvolym ÅRKV HU370 | 370 L KÄRL UTAN GRUNDAVGIFT | ÅRKV | Sophämtning 370 l kärl | ANTB
+HF370;;370|FRITID;370;;;;FRITID;RULE:Taxa_från_edp:91;370 L KÄRL FRITIDSHUS Okänd Behållarvolym ÅRKV HF370 | 370 L KÄRL FRITIDSHUS | ÅRKV | 14-dagars hämtning 370 l kärl | ANTB
+HF370;;370|FRITID;370;;;;FRITID;RULE:Taxa_från_edp:92;370 L KÄRL FRITIDSHUS Okänd Behållarvolym ÅRPR HF370 | 370 L KÄRL FRITIDSHUS | ÅRPR | Grundavgift | 
+HUF370;;370|FRITID;370;;;;FRITID;RULE:Taxa_från_edp:98;370 L KÄRL FRITIDSHUS UTAN GRUNDAVG. Okänd Behållarvolym ÅRKV HUF370 | 370 L KÄRL FRITIDSHUS UTAN GRUNDAVG. | ÅRKV | Sophämtning 370 l kärl | ANTB
+TEST 370VV;;370|PL|LÅS;370;PL;;LÅS;;RULE:Taxa_från_edp:214;370 L KÄRL/14 DGR 2-DELAT PAPPER OCH PLAST Okänd Plast Behållarvolym ÅRKV TEST 370VV | 370 L KÄRL/14 DGR 2-DELAT PAPPER OCH PLAST | ÅRKV | Kärl 370 L kärl test papper plast | ANTB
+TEST 370VV;;370|PL|LÅS;370;PL;;LÅS;;RULE:Taxa_från_edp:215;370 L KÄRL/14 DGR 2-DELAT PAPPER OCH PLAST Okänd Plast Behållarvolym KVAN TEST 370VV | 370 L KÄRL/14 DGR 2-DELAT PAPPER OCH PLAST | KVAN | Kärl 370 L kärl test viktavgift papper plast | VIKG
+LATRINBEHÅLL;;37|LATRINBEHÅLL|VERKSAMHET;37;;;LATRINBEHÅLL;VERKSAMHET;RULE:Taxepunkter:197;Latrinbehållare 37 liter inkl. mottagning och behandling Flerbostad/verksamhet Styck KVAN 37 §3.4.1 | §3.4.1 | Latrinbehållare 37 liter inkl. mottagning och behandling |  | st | LATRINBEHÅLL | LATRINBEHÅLL | KVAN |  |  |  | 
 KK400OS26;;400;400;;;;;STANDARD:Standard Avfall:172;Kärl komp. 400 L, osort. avfall. Var 14:e dag ÅRKV ANTB
 KK400OS52;;400;400;;;;;STANDARD:Standard Avfall:171;Kärl komp. 400 L, osort. avfall. Varje vecka ÅRKV ANTB
 KK400OS104;;400|2;400;;2;;;STANDARD:Standard Avfall:170;Kärl komp. 400 L, osort. avfall. 2ggr/ vecka ÅRKV ANTB
 FKOMPPSÄCK45;;45;45;;;;;STANDARD:Standard Avfall:280;Försäljning kompostsäckar, 45 L KVAN ANTL
 FKOMPSTÄLL45;;45;45;;;;;STANDARD:Standard Avfall:282;Försäljning ställning för 45 L kompostsäck, enkelställ på hjul KVAN ANTL
 FKOMPSTÄLL45D;;45;45;;;;;STANDARD:Standard Avfall:283;Försäljning ställning för 45 L kompostsäck, dubbelställ på hjul KVAN ANTL
+H660;;660;660;;;;;RULE:Taxa_från_edp:82;660 L KÄRL 14-DAG. HÄMTN. Okänd Behållarvolym ÅRKV H660 | 660 L KÄRL 14-DAG. HÄMTN. | ÅRKV | 14-dagars hämtning 660 l kärl | ANTB
 HKÄ660;;660;660;;;;;STANDARD:Standard Avfall:455;Hyra kärl, 660 liter ÅRKV ANTB
-ÅVC660I;;660;660;;;;;RULE:Taxa_från_edp:208;Kärl 660L, Invasiva Arter Okänd Behållarvolym ÅRKV ÅVC660I | Kärl 660L, Invasiva Arter | ÅRKV | Kärl 660 Invasiva arter | ANTB
-ÅVC660T;;660;660;;;;;RULE:Taxa_från_edp:209;Kärl 660L, Textil Okänd Behållarvolym ÅRKV ÅVC660T | Kärl 660L, Textil | ÅRKV | Kärl 660 Textil | ANTB
-EVEKÄ660RE;;660|RE;660;RE;;;;RULE:Taxa_från_edp:86;Evenemangskärl 660 L, restavfall Okänd Restavfall Behållarvolym KVAN EVEKÄ660RE | Evenemangskärl 660 L, restavfall | KVAN | Evenemangskärl 660 L, restavfall | ANTB
-ABSORBERING;;ABSORBERING;;;;ABSORBERING;;RULE:Taxa_från_edp:60;Absorberingsmedel, filtermaterial Okänd KVAN ABSORBERING | Absorberingsmedel, filtermaterial | KVAN | Absorberingsmedel, filtermaterial | VIKG
-ADMINDISP;;ADMINDISP;;;;ADMINDISP;;RULE:Taxepunkter:15;Administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar Hushåll §2.1 | §2.1 | Administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar |  | st/år | ADMINDISP | ADMINDISP |  |  |  |  | 
-AEROSOLER;;AEROSOLER;;;;AEROSOLER;;RULE:Taxa_från_edp:61;Aerosoler, ej bekämpningsmedel Okänd KVAN AEROSOLER | Aerosoler, ej bekämpningsmedel | KVAN | Aerosoler, ej bekämpningsmedel | VIKG
-AEROSOLERFÄRG;;AEROSOLERFÄRG;;;;AEROSOLERFÄRG;;RULE:Taxa_från_edp:62;Aerosoler, färg Okänd KVAN AEROSOLERFÄRG | Aerosoler, färg | KVAN | Aerosoler, färg | VIKG
-AEROSOLERHÄRD;;AEROSOLERHÄRD;;;;AEROSOLERHÄRD;;RULE:Taxa_från_edp:63;Aerosoler, härdare med isocyanater, bekämpningsmedel Okänd KVAN AEROSOLERHÄRD | Aerosoler, härdare med isocyanater, bekämpningsmedel | KVAN | Aerosoler, härdare med isocyanater, bekämpningsmedel | VIKG
-AMMONIAK;;AMMONIAK;;;;AMMONIAK;;RULE:Taxa_från_edp:64;Ammoniak Okänd KVAN AMMONIAK | Ammoniak | KVAN | Ammoniak | VIKG
-AVSTÄNG;;AVSTÄNG;;;;AVSTÄNG;;RULE:Taxa_från_edp:195;Avstängning/strypning av vattentillförsel Okänd KVAN AVSTÄNG | Avstängning/strypning av vattentillförsel | KVAN | Avstängning/strypning av vattentillförsel | ANTL
+HU660;;660;660;;;;;RULE:Taxa_från_edp:96;660 L KÄRL UTAN GRUNDAVGIFT Okänd Behållarvolym ÅRKV HU660 | 660 L KÄRL UTAN GRUNDAVGIFT | ÅRKV | Sophämtning 660 l kärl | ANTB
+EVEKÄ660RE;;660|RE;660;RE;;;;RULE:Taxa_från_edp:46;Evenemangskärl 660 L, restavfall Okänd Restavfall Behållarvolym KVAN EVEKÄ660RE | Evenemangskärl 660 L, restavfall | KVAN | Evenemangskärl 660 L, restavfall | ANTL
+A;;A;;;;A;;RULE:Taxa_från_edp:2;AVLOPP BOSTADSHUS Okänd ÅRPR A | AVLOPP BOSTADSHUS | ÅRPR | Avlopp bostadshus | 
+AFC;;AFC|FRITID;;;;AFC;FRITID;RULE:Taxa_från_edp:4;AVLOPP FRITIDSHUS CAMPING Okänd ÅRKV AFC | AVLOPP FRITIDSHUS CAMPING | ÅRKV | Avlopp fritidshus | KETT
+AF;;AF|FRITID;;;;AF;FRITID;RULE:Taxa_från_edp:3;AVLOPP FRITIDSHUS Okänd ÅRPR AF | AVLOPP FRITIDSHUS | ÅRPR | Avlopp fritidshus | 
+AKUT;;AKUT;;;;AKUT;;RULE:Taxa_från_edp:5;EXTRAAVGIFT AKUT SLAMTÖMNING Slam Slam KVAN AKUT | EXTRAAVGIFT AKUT SLAMTÖMNING | KVAN | Extraavg akut slamtömning | ANTL
+AKUTSÄCK;;AKUTSÄCK;;;;AKUTSÄCK;;RULE:Taxepunkter:151;Akutsäck Hushåll KVAN §2.4.10 | §2.4.10 | Akutsäck |  | st/säck | AKUTSÄCK | AKUTSÄCK | KVAN |  |  |  | 
+AKUTSÄCK;;AKUTSÄCK;;;;AKUTSÄCK;;RULE:Taxa_från_edp:6;Avgift för akutsäck Okänd KVAN AKUTSÄCK | Avgift för akutsäck | KVAN | Avgift för akutsäck | ANTL
+AKUT;;AKUT|VERKSAMHET;;;;AKUT;VERKSAMHET;RULE:Taxepunkter:188;Budning utanför ordinarie tömningsperiod (1 nov – 30 april) Flerbostad/verksamhet Tillfälle KVAN §3.3.1 | §3.3.1 | Budning utanför ordinarie tömningsperiod (1 nov – 30 april) | Inom 24 timmar | kr/tillfälle | AKUT | AKUT | KVAN |  |  |  | 
+AMOAVISER;;AMOAVISER;;;;AMOAVISER;;RULE:Taxa_från_edp:7;Amorteringsplanavisering Okänd KVAN AMOAVISER | Amorteringsplanavisering | KVAN | Amorteringsplanavisering | 
+AMOPLAN;;AMOPLAN;;;;AMOPLAN;;RULE:Taxa_från_edp:8;Amorteringsplan Okänd KVAN AMOPLAN | Amorteringsplan | KVAN | Amorteringsplan | ANTL
+AMORÄNTA;;AMORÄNTA;;;;AMORÄNTA;;RULE:Taxa_från_edp:9;Amorteringsplanränta Okänd KVAN AMORÄNTA | Amorteringsplanränta | KVAN | Amorteringsplanränta | 
+AMOUPP;;AMOUPP;;;;AMOUPP;;RULE:Taxa_från_edp:10;Amorteringsplansuppläggning Okänd KVAN AMOUPP | Amorteringsplansuppläggning | KVAN | Amorteringsplansuppläggning | 
+ANLSLBASTÖM;;ANLSLBASTÖM;;;;ANLSLBASTÖM;;RULE:Taxa_från_edp:13;Tömning slam från Reningsverksbassäng Slam Slam KVAN ANLSLBASTÖM | Tömning slam från Reningsverksbassäng | KVAN | Tömning slam från Reningsverksbassäng | ANTL
+AOBF;;AOBF;;;;AOBF;;RULE:Taxa_från_edp:15;A, OBEBYGGD FAST. INOM DETALJPLAN Okänd ÅRPR AOBF | A, OBEBYGGD FAST. INOM DETALJPLAN | ÅRPR | Avlopp obebygg inom detaljp | 
+ANL03SL;;BASE;;;;;;RULE:Taxa_från_edp:11;Tömning slamanläggning Okänd KVAN ANL03SL | Tömning slamanläggning | KVAN | Tömning av slamanläggning | ANTL
+ANL36SL;;BASE;;;;;;RULE:Taxa_från_edp:12;Tömning slamanläggning 3,1-6 m³ Okänd KVAN ANL36SL | Tömning slamanläggning 3,1-6 m³ | KVAN | Tömning av slamanlägg. 3,1-6 | ANTL
+ANLÖ6SL;;BASE;;;;;;RULE:Taxa_från_edp:14;Tömning slamanläggning över 6 m³ Okänd KVAN ANLÖ6SL | Tömning slamanläggning över 6 m³ | KVAN | Tömning av slamanlägg över 6 m³ | ANTL
 AVS03FE;;BASE;;;;;;STANDARD:Standard Slam:114;Avskiljare 0-3 m³, fett KVAN ANTL
 AVS03FEB;;BASE;;;;;;STANDARD:Standard Slam:110;Avskiljare 0-3 m³, fett. Budning KVAN ANTL
 AVS03FEBUD;;BASE;;;;;;STANDARD:Standard Slam:102;Avskiljare 0-3 m³, fett. Budning ÅRKV 0
@@ -66,7 +93,7 @@ AVS36SLB;;BASE;;;;;;STANDARD:Standard Slam:60;Avskiljare 3,1-6 m³, slam. Budnin
 AVS36SLBUD;;BASE;;;;;;STANDARD:Standard Slam:27;Avskiljare 3,1-6 m³, slam. Budning ÅRKV 0
 AVS36SLO;;BASE;;;;;;STANDARD:Standard Slam:44;Avskiljare 3,1-6 m³, slam. Ordinarie tur KVAN ANTL
 AVS36SLORD;;BASE;;;;;;STANDARD:Standard Slam:11;Avskiljare 3,1-6 m³, slam. Ordinarie tur ÅRKV 0
-AVSLUTA_TJÄNST;;BASE;;;;;;RULE:Taxa_från_edp:333;Dummy för avslut av tjänst via order Okänd KVAN AVSLUTA_TJÄNST | Dummy för avslut av tjänst via order | KVAN | Avslut av tjänst | 0
+AVSLUTA_TJÄNST;;BASE;;;;;;RULE:Taxa_från_edp:16;Dummy för avslut av tjänst via order Okänd KVAN AVSLUTA_TJÄNST | Dummy för avslut av tjänst via order | KVAN | Avslut av tjänst | 0
 AVSÖ6FE;;BASE;;;;;;STANDARD:Standard Slam:116;Avskiljare över 6 m³, fett KVAN ANTL
 AVSÖ6FEB;;BASE;;;;;;STANDARD:Standard Slam:112;Avskiljare över 6 m³, fett. Budning KVAN ANTL
 AVSÖ6FEBUD;;BASE;;;;;;STANDARD:Standard Slam:104;Avskiljare över 6 m³, fett. Budning ÅRKV 2
@@ -79,56 +106,53 @@ AVSÖ6SLO;;BASE;;;;;;STANDARD:Standard Slam:45;Avskiljare över 6 m³, slam. Ord
 AVSÖ6SLORD;;BASE;;;;;;STANDARD:Standard Slam:12;Avskiljare över 6 m³, slam. Ordinarie tur ÅRKV 0
 B100;;BASE;;;;;;STANDARD:Standard Avfall:447;Behandling brännbart avfall, pris per kilo KVAN VIKG
 BDT03SL;;BASE;;;;;;STANDARD:Standard Slam:85;BDT, 0-3 m³ slam KVAN ANTL
-BDT03SL;;BASE;;;;;;RULE:Taxa_från_edp:67;Tömning BDT-vatten 0-3 m³, slam Slam Slam KVAN BDT03SL | Tömning BDT-vatten 0-3 m³, slam | KVAN | Tömning BDT-vatten, 0-3 m³ | ANTL
 BDT03SLB;;BASE;;;;;;STANDARD:Standard Slam:68;BDT, 0-3 m³ slam. Budning KVAN ANTL
 BDT03SLBUD;;BASE;;;;;;STANDARD:Standard Slam:35;BDT, 0-3 m³ slam. Budning ÅRKV 5
-BDT03SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:8;BDT 0-3 m³, slam. Budning Slam Slam ÅRKV BDT03SLBUD | BDT 0-3 m³, slam. Budning | ÅRKV | BDT 0-3 m³, slam. Budning | 0
+BDT03SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:18;BDT 0-3 m³, slam. Budning Slam Slam ÅRKV BDT03SLBUD | BDT 0-3 m³, slam. Budning | ÅRKV | BDT 0-3 m³, slam. Budning | ANTB
 BDT03SLO;;BASE;;;;;;STANDARD:Standard Slam:52;BDT, 0-3 m³ slam. Ordinarie tur KVAN ANTL
 BDT03SLORD;;BASE;;;;;;STANDARD:Standard Slam:19;BDT, 0-3 m³ slam. Ordinarie tur ÅRKV 0
-BDT03SLORD;;BASE;;;;;;RULE:Taxa_från_edp:9;BDT 0-3 m³, slam. Ordinarie tur Slam Slam ÅRKV BDT03SLORD | BDT 0-3 m³, slam. Ordinarie tur | ÅRKV | BDT 0-3 m³, slam. Ordinarie tur | 0
+BDT03SLORD;;BASE;;;;;;RULE:Taxa_från_edp:19;BDT 0-3 m³, slam. Ordinarie tur Slam Slam ÅRKV BDT03SLORD | BDT 0-3 m³, slam. Ordinarie tur | ÅRKV | BDT 0-3 m³, slam. Ord. tur | ANTB
 BDT36SL;;BASE;;;;;;STANDARD:Standard Slam:86;BDT, 3,1-6 m³ slam KVAN ANTL
 BDT36SLB;;BASE;;;;;;STANDARD:Standard Slam:69;BDT, 3,1-6 m³ slam. Budning KVAN ANTL
 BDT36SLBUD;;BASE;;;;;;STANDARD:Standard Slam:36;BDT, 3,1-6 m³ slam. Budning ÅRKV 6
+BDT36SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:20;BDT 3,1-6 m³, slam. Budning Slam Slam ÅRKV BDT36SLBUD | BDT 3,1-6 m³, slam. Budning | ÅRKV | BDT 3,1-6 m³, slam. Budning | ANTB
 BDT36SLO;;BASE;;;;;;STANDARD:Standard Slam:53;BDT, 3,1-6 m³ slam. Ordinarie tur KVAN ANTL
 BDT36SLORD;;BASE;;;;;;STANDARD:Standard Slam:20;BDT, 3,1-6 m³ slam. Ordinarie tur ÅRKV 0
-BDTÖ3SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:10;BDT över 3 m³, slam. Budning Slam Slam ÅRKV BDTÖ3SLBUD | BDT över 3 m³, slam. Budning | ÅRKV | BDT över 3 m³, slam. Budning | 0
-BDTÖ3SLORD;;BASE;;;;;;RULE:Taxa_från_edp:11;BDT över 3 m³, slam. Ordinarie tur Slam Slam ÅRKV BDTÖ3SLORD | BDT över 3 m³, slam. Ordinarie tur | ÅRKV | BDT över 3 m³, slam. Ordinarie tur | 0
+BDT36SLORD;;BASE;;;;;;RULE:Taxa_från_edp:21;BDT 3,1-6 m³, slam. Ord. tur Slam Slam ÅRKV BDT36SLORD | BDT 3,1-6 m³, slam. Ord. tur | ÅRKV | BDT 3,1-6 m³, slam. Ord. tur | ANTB
+BDTÖ6SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:22;BDT över 6 m³, slam. Budning Slam Slam ÅRKV BDTÖ6SLBUD | BDT över 6 m³, slam. Budning | ÅRKV | BDT över 6 m³, slam. Budning | ANTB
+BDTÖ6SLORD;;BASE;;;;;;RULE:Taxa_från_edp:23;BDT över 6 m³, slam. Ord. tur Slam Slam ÅRKV BDTÖ6SLORD | BDT över 6 m³, slam. Ord. tur | ÅRKV | BDT över 6 m³, slam. Ord. tur | ANTB
+BINI500;;BASE;;;;;;RULE:Taxa_från_edp:30;Bini 610/500 Okänd KVAN BINI500 | Bini 610/500 | KVAN | Bini 610/500 | TIMT
 BRN03SL;;BASE;;;;;;STANDARD:Standard Slam:73;Brunn 0-3 m³, slam KVAN ANTL
-BRN03SL;;BASE;;;;;;RULE:Taxa_från_edp:155;Tömning brunn 0-3 m³, slam Slam Slam KVAN BRN03SL | Tömning brunn 0-3 m³, slam | KVAN | Tömning slam, brunn 0-3 m³ | ANTL
 BRN03SLB;;BASE;;;;;;STANDARD:Standard Slam:56;Brunn 0-3 m³, slam. Budning KVAN ANTL
 BRN03SLBUD;;BASE;;;;;;STANDARD:Standard Slam:23;Brunn 0-3 m³, slam. Budning ÅRKV 0
-BRN03SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:12;Brunn 0-3 m³, slam. Budning Slam Slam ÅRKV BRN03SLBUD | Brunn 0-3 m³, slam. Budning | ÅRKV | Brunn 0-3 m³, slam. Budning | 0
+BRN03SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:31;Brunn 0-3 m³, slam. Budning Slam Slam ÅRKV BRN03SLBUD | Brunn 0-3 m³, slam. Budning | ÅRKV | Brunn 0-3 m³, slam. Budning | ANTB
 BRN03SLO;;BASE;;;;;;STANDARD:Standard Slam:40;Brunn 0-3 m³, Slam. Ordinarie tur KVAN ANTL
 BRN03SLORD;;BASE;;;;;;STANDARD:Standard Slam:7;Brunn 0-3 m³, Slam. Ordinarie tur ÅRKV 0
-BRN03SLORD;;BASE;;;;;;RULE:Taxa_från_edp:13;Brunn 0-3 m³, slam. Ordinarie tur Slam Slam ÅRKV BRN03SLORD | Brunn 0-3 m³, slam. Ordinarie tur | ÅRKV | Brunn 0-3 m³, slam. Ordinarie tur | 0
-BRN03SLORDDEL;;BASE;;;;;;RULE:Taxa_från_edp:14;Brunn 0-3 m³, slam. Ordinarie tur Slam Slam ÅRKV BRN03SLORDDEL | Brunn 0-3 m³, slam. Ordinarie tur | ÅRKV | Brunn 0-3 m³, slam. Ordinarie tur | 0
+BRN03SLORD;;BASE;;;;;;RULE:Taxa_från_edp:32;Brunn 0-3 m³, slam. Ord. tur Slam Slam ÅRKV BRN03SLORD | Brunn 0-3 m³, slam. Ord. tur | ÅRKV | Brunn 0-3 m³, slam. Ord. tur | ANTB
 BRN36SL;;BASE;;;;;;STANDARD:Standard Slam:74;Brunn 3,1-6 m³, slam KVAN ANTL
-BRN36SL;;BASE;;;;;;RULE:Taxa_från_edp:156;Brunn 3,1-6 m³, slam Slam Slam KVAN BRN36SL | Brunn 3,1-6 m³, slam | KVAN | Tömning slam, brunn 3,1-6 m³ | ANTL
 BRN36SLB;;BASE;;;;;;STANDARD:Standard Slam:57;Brunn 3,1-6 m³, slam. Budning KVAN ANTL
 BRN36SLBUD;;BASE;;;;;;STANDARD:Standard Slam:24;Brunn 3,1-6 m³, slam. Budning ÅRKV 0
-BRN36SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:15;Brunn 3,1-6 m³, slam. Budning Slam Slam ÅRKV BRN36SLBUD | Brunn 3,1-6 m³, slam. Budning | ÅRKV | Brunn 3,1-6 m³, slam. Budning | 0
+BRN36SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:33;Brunn 3,1-6 m³, slam. Budning Slam Slam ÅRKV BRN36SLBUD | Brunn 3,1-6 m³, slam. Budning | ÅRKV | Brunn 3,1-6 m³, slam. Budning | ANTB
 BRN36SLO;;BASE;;;;;;STANDARD:Standard Slam:41;Brunn 3,1-6 m³, slam. Ordinarie tur KVAN ANTL
 BRN36SLORD;;BASE;;;;;;STANDARD:Standard Slam:8;Brunn 3,1-6 m³, slam. Ordinarie tur ÅRKV 0
-BRN36SLORD;;BASE;;;;;;RULE:Taxa_från_edp:16;Brunn 3,1-6 m³, slam. Ordinarie tur Slam Slam ÅRKV BRN36SLORD | Brunn 3,1-6 m³, slam. Ordinarie tur | ÅRKV | Brunn 3,1-6 m³, slam. Ordinarie tur | 0
-BRN36SLORDDEL;;BASE;;;;;;RULE:Taxa_från_edp:17;Brunn 3-6 m³, slam. Ordinarie tur Slam Slam ÅRKV BRN36SLORDDEL | Brunn 3-6 m³, slam. Ordinarie tur | ÅRKV | Brunn 0-3 m³, slam. Ordinarie tur | 0
-BRN69LORDDEL;;BASE;;;;;;RULE:Taxa_från_edp:334;Brunn 6,1-9 m³, slam. Ordinarie tur Slam Slam ÅRKV BRN69LORDDEL | Brunn 6,1-9 m³, slam. Ordinarie tur | ÅRKV | Brunn 6,1-9 m³, slam. Ordinarie tur | 0
-BRN69SL;;BASE;;;;;;RULE:Taxa_från_edp:157;Brunn över 6,1 m³, slam Slam Slam KVAN BRN69SL | Brunn över 6,1 m³, slam | KVAN | Tömning slam, brunn över 6,1 m³ | ANTL
-BRN69SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:18;Brunn 6,1-9 m³, slam. Budning Slam Slam ÅRKV BRN69SLBUD | Brunn 6,1-9 m³, slam. Budning | ÅRKV | Brunn 6,1-9 m³, slam. Budning | 0
-BRN69SLORD;;BASE;;;;;;RULE:Taxa_från_edp:19;Brunn 6,1-9 m³, slam. Ordinarie tur Slam Slam ÅRKV BRN69SLORD | Brunn 6,1-9 m³, slam. Ordinarie tur | ÅRKV | Brunn 6,1-9 m³, slam. Ordinarie tur | 0
+BRN36SLORD;;BASE;;;;;;RULE:Taxa_från_edp:34;Brunn 3,1-6 m³, slam. Ord. tur Slam Slam ÅRKV BRN36SLORD | Brunn 3,1-6 m³, slam. Ord. tur | ÅRKV | Brunn över 6 m³, slam. Ord. tur | ANTB
 BRNÖ6SL;;BASE;;;;;;STANDARD:Standard Slam:75;Brunn över 6 m³, slam KVAN ANTL
 BRNÖ6SLB;;BASE;;;;;;STANDARD:Standard Slam:58;Brunn över 6 m³, slam. Budning KVAN ANTL
 BRNÖ6SLBUD;;BASE;;;;;;STANDARD:Standard Slam:25;Brunn över 6 m³, slam. Budning ÅRKV 0
+BRNÖ6SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:35;Brunn över 6 m³, slam. Budning Slam Slam ÅRKV BRNÖ6SLBUD | Brunn över 6 m³, slam. Budning | ÅRKV | Brunn över 6 m³, slam. Budning | ANTB
 BRNÖ6SLO;;BASE;;;;;;STANDARD:Standard Slam:42;Brunn över 6 m³, slam. Ordinarie tur KVAN ANTL
 BRNÖ6SLORD;;BASE;;;;;;STANDARD:Standard Slam:9;Brunn över 6 m³, slam. Ordinarie tur ÅRKV 0
-BRNÖ9SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:20;Brunn över 9 m³, slam. Budning Slam Slam ÅRKV BRNÖ9SLBUD | Brunn över 9 m³, slam. Budning | ÅRKV | Brunn över 9 m³, slam. Budning | 0
-BRNÖ9SLORD;;BASE;;;;;;RULE:Taxa_från_edp:21;Brunn över 9 m³, slam. Ordinarie tur Slam Slam ÅRKV BRNÖ9SLORD | Brunn över 9 m³, slam. Ordinarie tur | ÅRKV | Brunn över 9 m³, slam. Ordinarie tur | 0
+BRNÖ6SLORD;;BASE;;;;;;RULE:Taxa_från_edp:36;Brunn över 6 m³, slam. Ord. tur Slam Slam ÅRKV BRNÖ6SLORD | Brunn över 6 m³, slam. Ord. tur | ÅRKV | Brunn över 6 m³, slam. Ord. tur | ANTB
 CO08BR52;;BASE;;;;;;STANDARD:Standard Avfall:416;Container 8 m³, brännbart avfall. Varje vecka ÅRKV ANTB
 CO08BR52;;BASE;;;;;;STANDARD:Standard Avfall:421;Container 8 m³, brännbart avfall. Varje vecka ÅRKV ANTB
 FKOMPPÅSE9;;BASE;;;;;;STANDARD:Standard Avfall:278;Försäljning kompostpåsar, 9 L KVAN ANTL
-FOSTÖM1000;;BASE;;;;;;RULE:Taxa_från_edp:92;Tömning och behandling fosforfilter 500-1000 kg Okänd KVAN FOSTÖM1000 | Tömning och behandling fosforfilter 500-1000 kg | KVAN | Tömning och behandling fosforfilter 500-1000 kg | ANTL
-FOSTÖM500;;BASE;;;;;;RULE:Taxa_från_edp:93;Tömning och behandling fosforfilter under 500 kg Okänd KVAN FOSTÖM500 | Tömning och behandling fosforfilter under 500 kg | KVAN | Tömning och behandling fosforfilter under 500 kg | ANTL
 FSÄMB52;;BASE;;;;;;STANDARD:Standard Avfall:296;Försäljning säck, markbehållare. Varje vecka KVAN ANTL
+GRUNDFÖR1;;BASE;;;;;;RULE:Taxa_från_edp:69;Grundavgift nivå 1, små/medel Okänd ÅRPR GRUNDFÖR1 | Grundavgift nivå 1, små/medel | ÅRPR | Grundavgift nivå 1 | 
+GRUNDFÖR2;;BASE;;;;;;RULE:Taxa_från_edp:70;Grundavgift nivå 2, större företag Okänd ÅRPR GRUNDFÖR2 | Grundavgift nivå 2, större företag | ÅRPR | Grundavgift nivå 2 | 
+HCO03;;BASE;;;;;;RULE:Taxa_från_edp:83;Hyra container 3 m³ Okänd ÅRKV HCO03 | Hyra container 3 m³ | ÅRKV | Hyra container 3 m³ | ANTB
+HCO05;;BASE;;;;;;RULE:Taxa_från_edp:84;Hyra container 5 m³ Okänd ÅRKV HCO05 | Hyra container 5 m³ | ÅRKV | Hyra container 5 m³ | ANTB
 HCO08;;BASE;;;;;;STANDARD:Standard Avfall:425;Hyra container 8 m³ ÅRKV ANTB
+HCO08;;BASE;;;;;;RULE:Taxa_från_edp:85;Hyra container 8 m³ Okänd ÅRKV HCO08 | Hyra container 8 m³ | ÅRKV | Hyra container 8 m³ | ANTB
 HRF20;;BASE;;;;;;STANDARD:Standard Avfall:467;Hyra rullflak container 10-20 m³ ÅRKV ANTB
 HRF20K;;BASE;;;;;;STANDARD:Standard Avfall:468;Hyra rullflak container 10-20 m³, korttidsHyra ÅRKV ANTB
 HRF40;;BASE;;;;;;STANDARD:Standard Avfall:469;Hyra rullflak container 22-40 m³ ÅRKV ANTB
@@ -144,7 +168,6 @@ MB1600OS13;;BASE;;;;;;STANDARD:Standard Avfall:256;Markbehållare 1,6 m³, osort
 MB1600OS26;;BASE;;;;;;STANDARD:Standard Avfall:255;Markbehållare 1,6 m³, osorterat avfall. Var 14:e dag ÅRKV ANTB
 MB1600OS52;;BASE;;;;;;STANDARD:Standard Avfall:254;Markbehållare 1,6 m³, osorterat avfall. Varje vecka ÅRKV ANTB
 MB1600OSBUD;;BASE;;;;;;STANDARD:Standard Avfall:257;Markbehållare 1,6 m³, osorterat avfall. Budning KVAN ANTL
-MB1600TÖM;;BASE;;;;;;RULE:Taxa_från_edp:210;Tömning Markbehållare 1,6 m³, osorterat avfall Okänd KVAN MB1600TÖM | Tömning Markbehållare 1,6 m³, osorterat avfall | KVAN | Tömning Markbehållare 1,6 m³, osorterat avfall | ANTB
 MB2200OS13;;BASE;;;;;;STANDARD:Standard Avfall:262;Markbehållare 2,2 m³, osorterat avfall. Var 4:e vecka ÅRKV ANTB
 MB2200OS26;;BASE;;;;;;STANDARD:Standard Avfall:261;Markbehållare 2,2 m³, osorterat avfall. Var 14:e dag ÅRKV ANTB
 MB2200OS52;;BASE;;;;;;STANDARD:Standard Avfall:260;Markbehållare 2,2 m³, osorterat avfall. Varje vecka ÅRKV ANTB
@@ -153,115 +176,92 @@ MB3200OS13;;BASE;;;;;;STANDARD:Standard Avfall:268;Markbehållare 3,2 m³, osort
 MB3200OS26;;BASE;;;;;;STANDARD:Standard Avfall:267;Markbehållare 3,2 m³, osorterat avfall. Var 14:e dag ÅRKV ANTB
 MB3200OS52;;BASE;;;;;;STANDARD:Standard Avfall:266;Markbehållare 3,2 m³, osorterat avfall. Varje vecka ÅRKV ANTB
 MB3200OSBUD;;BASE;;;;;;STANDARD:Standard Avfall:269;Markbehållare 3,2 m³, osorterat avfall. Budning KVAN ANTL
-MB3200TÖM;;BASE;;;;;;RULE:Taxa_från_edp:211;Tömning Markbehållare 3,2 m³, osorterat avfall Okänd KVAN MB3200TÖM | Tömning Markbehållare 3,2 m³, osorterat avfall | KVAN | Tömning Markbehållare 3,2 m³, osorterat avfall | ANTB
-MB3600TÖM;;BASE;;;;;;RULE:Taxa_från_edp:212;Tömning Markbehållare 3,6 m³, osorterat avfall Okänd KVAN MB3600TÖM | Tömning Markbehållare 3,6 m³, osorterat avfall | KVAN | Tömning Markbehållare 3,6 m³, osorterat avfall | ANTB
 MB5000OS13;;BASE;;;;;;STANDARD:Standard Avfall:274;Markbehållare 5 m³, osorterat avfall. Var 4:e vecka ÅRKV ANTB
 MB5000OS26;;BASE;;;;;;STANDARD:Standard Avfall:273;Markbehållare 5 m³, osorterat avfall. Var 14:e dag ÅRKV ANTB
 MB5000OS52;;BASE;;;;;;STANDARD:Standard Avfall:272;Markbehållare 5 m³, osorterat avfall. Varje vecka ÅRKV ANTB
 MB5000OSBUD;;BASE;;;;;;STANDARD:Standard Avfall:275;Markbehållare 5 m³, osorterat avfall. Budning KVAN ANTL
-MB5000TÖM;;BASE;;;;;;RULE:Taxa_från_edp:213;Tömning Markbehållare 5 m³, osorterat avfall Okänd KVAN MB5000TÖM | Tömning Markbehållare 5 m³, osorterat avfall | KVAN | Tömning Markbehållare 5 m³, osorterat avfall | ANTB
+MF1;;BASE;;;;;;RULE:Taxa_från_edp:155;Miljöfarligt avfall nivå , små/medel företag Okänd ÅRPR MF1 | Miljöfarligt avfall nivå , små/medel företag | ÅRPR | Miljöfarligt avfall nivå 1 | 
+MF2;;BASE;;;;;;RULE:Taxa_från_edp:156;Miljöfarligt avfall nivå 2, större företag Okänd ÅRPR MF2 | Miljöfarligt avfall nivå 2, större företag | ÅRPR | Miljöfarligt avfall nivå 2 | 
 MRV03SL;;BASE;;;;;;STANDARD:Standard Slam:82;Minireningsverk, 0-3 m³ slam KVAN ANTL
 MRV03SLB;;BASE;;;;;;STANDARD:Standard Slam:65;Minireningsverk, 0-3 m³ slam. Budning KVAN ANTL
 MRV03SLBUD;;BASE;;;;;;STANDARD:Standard Slam:32;Minireningsverk, 0-3 m³ slam. Budning ÅRKV 2
-MRV03SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:160;Minireningsverk 0-3 m³, slam. Budning Slam Slam ÅRKV MRV03SLBUD | Minireningsverk 0-3 m³, slam. Budning | ÅRKV | Minireningsverk 0-3 m³, slam. Budning | 0
+MRV03SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:157;Minireningsverk 0-3 m³, slam. Budning Slam Slam ÅRKV MRV03SLBUD | Minireningsverk 0-3 m³, slam. Budning | ÅRKV | Minireningsverk 0-3 m³, slam. Budning | ANTB
 MRV03SLO;;BASE;;;;;;STANDARD:Standard Slam:49;Minireningsverk, 0-3 m³ slam. Ordinarie tur KVAN ANTL
 MRV03SLORD;;BASE;;;;;;STANDARD:Standard Slam:16;Minireningsverk, 0-3 m³ slam. Ordinarie tur ÅRKV 0
-MRV03SLORD;;BASE;;;;;;RULE:Taxa_från_edp:161;Minireningsverk 0-3 m³, slam. Ordinarie tur Slam Slam ÅRKV MRV03SLORD | Minireningsverk 0-3 m³, slam. Ordinarie tur | ÅRKV | Minireningsverk 0-3 m³, slam. Ordinarie tur | 0
+MRV03SLORD;;BASE;;;;;;RULE:Taxa_från_edp:158;Minireningsverk 0-3 m³, slam. Ordinarie tur Slam Slam ÅRKV MRV03SLORD | Minireningsverk 0-3 m³, slam. Ordinarie tur | ÅRKV | Minireningsverk 0-3 m³, slam. Ordinarie tur | ANTB
 MRV36SL;;BASE;;;;;;STANDARD:Standard Slam:83;Minireningsverk, 3,1-6 m³ slam KVAN ANTL
 MRV36SLB;;BASE;;;;;;STANDARD:Standard Slam:66;Minireningsverk, 3,1-6 m³ slam. Budning KVAN ANTL
 MRV36SLBUD;;BASE;;;;;;STANDARD:Standard Slam:33;Minireningsverk, 3,1-6 m³ slam. Budning ÅRKV 3
-MRV36SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:162;Minireningsverk 3,1-6 m³, slam. Budning Slam Slam ÅRKV MRV36SLBUD | Minireningsverk 3,1-6 m³, slam. Budning | ÅRKV | Minireningsverk 3,1-6 m³, slam. Budning | 0
+MRV36SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:159;Minireningsverk 3,1-6 m³, slam. Budning Slam Slam ÅRKV MRV36SLBUD | Minireningsverk 3,1-6 m³, slam. Budning | ÅRKV | Minireningsverk 3,1-6 m³, slam. Budning | ANTB
 MRV36SLO;;BASE;;;;;;STANDARD:Standard Slam:50;Minireningsverk, 3,1-6 m³ slam. Ordinarie tur KVAN ANTL
 MRV36SLORD;;BASE;;;;;;STANDARD:Standard Slam:17;Minireningsverk, 3,1-6 m³ slam. Ordinarie tur ÅRKV 0
-MRV36SLORD;;BASE;;;;;;RULE:Taxa_från_edp:163;Minireningsverk 3,1-6 m³, slam. Ordinarie tur Slam Slam ÅRKV MRV36SLORD | Minireningsverk 3,1-6 m³, slam. Ordinarie tur | ÅRKV | Minireningsverk 3,1-6 m³, slam. Ordinarie tur | 0
-MRV69SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:164;Minireningsverk 6,1-9 m³, slam. Budning Slam Slam ÅRKV MRV69SLBUD | Minireningsverk 6,1-9 m³, slam. Budning | ÅRKV | Minireningsverk 6,1-9 m³, slam. Budning | 0
-MRV69SLORD;;BASE;;;;;;RULE:Taxa_från_edp:165;Minireningsverk 6,1-9 m³, slam. Ordinarie tur Slam Slam ÅRKV MRV69SLORD | Minireningsverk 6,1-9 m³, slam. Ordinarie tur | ÅRKV | Minireningsverk 6,1-9 m³, slam. Ordinarie tur | 0
+MRV36SLORD;;BASE;;;;;;RULE:Taxa_från_edp:160;Minireningsverk 3,1-6 m³, slam. Ordinarie tur Slam Slam ÅRKV MRV36SLORD | Minireningsverk 3,1-6 m³, slam. Ordinarie tur | ÅRKV | Minireningsverk 3,1-6 m³, slam. Ordinarie tur | ANTB
 MRVÖ6SL;;BASE;;;;;;STANDARD:Standard Slam:84;Minireningsverk, över 6 m³ slam KVAN ANTL
 MRVÖ6SLB;;BASE;;;;;;STANDARD:Standard Slam:67;Minireningsverk, över 6 m³ slam. Budning KVAN ANTL
 MRVÖ6SLBUD;;BASE;;;;;;STANDARD:Standard Slam:34;Minireningsverk, över 6 m³ slam. Budning ÅRKV 4
+MRVÖ6SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:161;Minireningsverk över 6 m³, slam. Budning Slam Slam ÅRKV MRVÖ6SLBUD | Minireningsverk över 6 m³, slam. Budning | ÅRKV | Minireningsverk över 6 m³, slam. Budning | ANTB
 MRVÖ6SLO;;BASE;;;;;;STANDARD:Standard Slam:51;Minireningsverk, över 6 m³ slam. Ordinarie tur KVAN ANTL
 MRVÖ6SLORD;;BASE;;;;;;STANDARD:Standard Slam:18;Minireningsverk, över 6 m³ slam. Ordinarie tur ÅRKV 0
-MRVÖ9SLBUD;;BASE;;;;;;RULE:Taxa_från_edp:166;Minireningsverk över 9 m³, slam. Budning Slam Slam ÅRKV MRVÖ9SLBUD | Minireningsverk över 9 m³, slam. Budning | ÅRKV | Minireningsverk över 9 m³, slam. Budning | 0
-MRVÖ9SLORD;;BASE;;;;;;RULE:Taxa_från_edp:167;Minireningsverk över 9 m³, slam. Ordinarie tur Slam Slam ÅRKV MRVÖ9SLORD | Minireningsverk över 9 m³, slam. Ordinarie tur | ÅRKV | Minireningsverk över 9 m³, slam. Ordinarie tur | 0
-NY MAT/REST;;BASE;;;;;;RULE:Taxa_från_edp:36;Tjänsttaxa för ny tjänst 2 fackkärl mat/rest Okänd ÅRKV NY MAT/REST | Tjänsttaxa för ny tjänst 2 fackkärl mat/rest | ÅRKV | Tjänsttaxa för ny tjänst Mat/Rest | 0
+MRVÖ6SLORD;;BASE;;;;;;RULE:Taxa_från_edp:162;Minireningsverk över 6 m³, slam. Ordinarie tur Slam Slam ÅRKV MRVÖ6SLORD | Minireningsverk över 6 m³, slam. Ordinarie tur | ÅRKV | Minireningsverk över 6 m³, slam. Ordinarie tur | ANTB
 NYFF1;;BASE;;;;;;STANDARD:Standard Avfall:312;Dummytaxa, ny tjänst via ändringsorder Fyrfack 1 ÅRKV 0
 NYFF2;;BASE;;;;;;STANDARD:Standard Avfall:313;Dummytaxa, ny tjänst via ändringsorder Fyrfack 2 ÅRKV 0
 RF30BR52;;BASE;;;;;;STANDARD:Standard Avfall:418;Rullflak container 30 m³, brännbart avfall. Varje vecka ÅRKV ANTB
-VS0;;BASE;;;;;;RULE:Taxa_från_edp:344;Dummytaxa för tjänst Okänd KVAN VS0 | Dummytaxa för tjänst | KVAN | Dummytaxa för tjänst | 
+VAK2;;BASE;;;;;;RULE:Taxa_från_edp:250;VA MER ÄN 200 kvm Okänd ÅRPR VAK2 | VA MER ÄN 200 kvm | ÅRPR | Vatten och avlopp | 
+VOLVOL60G;;BASE;;;;;;RULE:Taxa_från_edp:276;Volvo L60G- externa tjänster Okänd KVAN VOLVOL60G | Volvo L60G- externa tjänster | KVAN | Volvo L60G | TIMT
+BASSLORDKOM;;BASSLORDKOM;;;;BASSLORDKOM;;RULE:Taxa_från_edp:17;Reningsverksbassäng, slam. Ord. tur Kommunal Slam Slam ÅRKV BASSLORDKOM | Reningsverksbassäng, slam. Ord. tur Kommunal | ÅRKV | Reningsverksbassäng, slam. Ord. tur Kommunal | ANTB
 BBRÄNNBART;;BBRÄNNBART;;;;BBRÄNNBART;;STANDARD:Standard Avfall:448;Behandling brännbart avfall, pris per kilo KVAN VIKG
-BEKÄMPNING;;BEKÄMPNING;;;;BEKÄMPNING;;RULE:Taxa_från_edp:68;Bekämpningsmedel, ej kvicksilverhaltiga Okänd KVAN BEKÄMPNING | Bekämpningsmedel, ej kvicksilverhaltiga | KVAN | Bekämpningsmedel, ej kvicksilverhaltiga | VIKG
-BENSINRESTER;;BENSINRESTER;;;;BENSINRESTER;;RULE:Taxa_från_edp:69;Bensinrester Okänd KVAN BENSINRESTER | Bensinrester | KVAN | Bensinrester | LITE
-BETALSÄCK;;BETALSÄCK|VERKSAMHET;;;;BETALSÄCK;VERKSAMHET;RULE:Taxa_från_edp:196;Mottagningsavgift extrasäck till ÅVC ÅVC/verksamhetsavfall KVAN BETALSÄCK | Mottagningsavgift extrasäck till ÅVC | KVAN | Mottagningsavgift extrasäck till ÅVC | ANTL
-BRANDSLÄCKARE;;BRANDSLÄCKARE;;;;BRANDSLÄCKARE;;RULE:Taxa_från_edp:70;Brandsläckare Okänd KVAN BRANDSLÄCKARE | Brandsläckare | KVAN | Brandsläckare | VIKG
-BRBUD;;BRBUD;;;;BRBUD;;RULE:Taxa_från_edp:71;Budad hämtning, bygg- rivningsavfall. Pris per m³ Okänd KVAN BRBUD | Budad hämtning, bygg- rivningsavfall. Pris per m³ | KVAN | Budad hämtning, bygg- rivningsavfall. Pris per m³ | KBMÖ
-BROMSVÄTSKA;;BROMSVÄTSKA;;;;BROMSVÄTSKA;;RULE:Taxa_från_edp:72;Bromsvätska Okänd KVAN BROMSVÄTSKA | Bromsvätska | KVAN | Bromsvätska | VIKG
-BRÄNNBARTSORT;;BRÄNNBARTSORT;;;;BRÄNNBARTSORT;;RULE:Taxa_från_edp:73;Brännbart, sorterat <20 x 20 x 80 cm Okänd KVAN BRÄNNBARTSORT | Brännbart, sorterat <20 x 20 x 80 cm | KVAN | Brännbart, sorterat <20 x 20 x 80 cm | KBMÖ
-BRÄNNBARTÖVER;;BRÄNNBARTÖVER;;;;BRÄNNBARTÖVER;;RULE:Taxa_från_edp:74;Brännbart, överstort t.ex. möbler Okänd KVAN BRÄNNBARTÖVER | Brännbart, överstort t.ex. möbler | KVAN | Brännbart, överstort | KBMÖ
+BEHASKA;;BEHASKA;;;;BEHASKA;;RULE:Taxa_från_edp:24;Behandlingsavgift Aska Okänd KVAN BEHASKA | Behandlingsavgift Aska | KVAN | Behandlingsavgift Aska | KBM
+BEHSLAM;;BEHSLAM;;;;BEHSLAM;;RULE:Taxa_från_edp:26;Behandlingsavgift Slam Slam Slam KVAN BEHSLAM | Behandlingsavgift Slam | KVAN | Behandlingsavgift Slam | KBM
+BEHSLAMSTAT;;BEHSLAMSTAT;;;;BEHSLAMSTAT;;RULE:Taxa_från_edp:27;Behandlingsavgift Slam Statistik Slam Slam KVAN BEHSLAMSTAT | Behandlingsavgift Slam Statistik | KVAN | Behandlingsavgift Slam | KBM
+BETALSÄCK;;BETALSÄCK;;;;BETALSÄCK;;RULE:Taxepunkter:150;Betalsäck Hushåll KVAN §2.4.10 | §2.4.10 | Betalsäck |  | st/säck | BETALSÄCK | BETALSÄCK | KVAN |  |  |  | 
+BETALSÄCK;;BETALSÄCK;;;;BETALSÄCK;;RULE:Taxa_från_edp:28;Betalsäck, pris per säck Okänd KVAN BETALSÄCK | Betalsäck, pris per säck | KVAN | Betalsäck, pris per säck | ANTL
+BRÄNNBART;;BRÄNNBART;;;;BRÄNNBART;;RULE:Taxa_från_edp:37;Brännbart avfall Okänd KVAN BRÄNNBART | Brännbart avfall | KVAN | Brännbart avfall | VITO
+BS;;BS;;;;BS;;RULE:Taxa_från_edp:38;Byte av sopkärl Okänd KVAN BS | Byte av sopkärl | KVAN | Byte av sopkärl | ANTL
 BUDNING;;BUDNING;;;;BUDNING;;STANDARD:Standard Avfall:200;Budningsavgift KVAN ANTL
-BV;;BV;;;;BV;;RULE:Taxa_från_edp:158;Byggvatten, med mätare Okänd FÖRB BV | Byggvatten, med mätare | FÖRB | Byggvatten, Rörlig avgift, förbrukning per m³ | 
-BVU;;BVU;;;;BVU;;RULE:Taxa_från_edp:159;Byggvatten, utan mätare Okänd UPFÖ BVU | Byggvatten, utan mätare | UPFÖ | Byggvatten, Rörlig avgift, uppsk. förbrukning per m³ | 
-BYGGRIVTRÄ;;BYGGRIVTRÄ;;;;BYGGRIVTRÄ;;RULE:Taxa_från_edp:76;Bygg- och rivningsavfall, trä Okänd Träavfall KVAN BYGGRIVTRÄ | Bygg- och rivningsavfall, trä | KVAN | Bygg- och rivningsavfall, trä | KBMÖ
-CYTOTOXISKA;;CYTOTOXISKA;;;;CYTOTOXISKA;;RULE:Taxa_från_edp:77;Cytotoxiska/Cytostatika Okänd KVAN CYTOTOXISKA | Cytotoxiska/Cytostatika | KVAN | Cytotoxiska/Cytostatika | VIKG
-DEPONIREST;;DEPONIREST;;;;DEPONIREST;;RULE:Taxa_från_edp:78;Deponirest utsorterad/ej brännbart Okänd KVAN DEPONIREST | Deponirest utsorterad/ej brännbart | KVAN | Deponirest utsorterad/ej brännbart | KBMÖ
-Dummy SMS;;DUMMYSMS;;;;DUMMYSMS;;RULE:Taxa_från_edp:24;Dummy SMS Okänd ÅRKV Dummy SMS | Dummy SMS | ÅRKV | Brunn 0-3 m³, slam. Ordinarie tur | 0
-EGENMATFETT;;EGENMATFETT;;;;EGENMATFETT;;RULE:Taxepunkter:108;Egen överlämning av förbrukat matfett enligt anvisning Hushåll §2.2.7 | §2.2.7 | Egen överlämning av förbrukat matfett enligt anvisning |  | st/år | EGENMATFETT | EGENMATFETT |  |  |  |  | 
-EJKLASSFA;;EJKLASSFA;;;;EJKLASSFA;;RULE:Taxa_från_edp:79;Felaktigt eller farligt avfall som inte är klassat, pris per tillfälle Okänd Farligt avfall Tillfälle KVAN EJKLASSFA | Felaktigt eller farligt avfall som inte är klassat, pris per tillfälle | KVAN | Felaktigt/farligt avfall ej klassat, pris per tillfälle | ANTL
-EJSPECFA;;EJSPECFA;;;;EJSPECFA;;RULE:Taxa_från_edp:80;Ej specificerat farligt avfall Okänd Farligt avfall KVAN EJSPECFA | Ej specificerat farligt avfall | KVAN | Ej specificerat farligt avfall | VIKG
-ELEKTRONIK;;ELEKTRONIK;;;;ELEKTRONIK;;RULE:Taxa_från_edp:81;Elektronikavfall, ej producentansvar Okänd KVAN ELEKTRONIK | Elektronikavfall, ej producentansvar | KVAN | Elektronikavfall, ej producentansvar | ANTL
-EVEFRAMKÖR;;EVEFRAMKÖR;;;;EVEFRAMKÖR;;RULE:Taxa_från_edp:82;Evenemang framkörningsavgift Okänd KVAN EVEFRAMKÖR | Evenemang framkörningsavgift | KVAN | Evenemang framkörningsavgift | ANTL
-EVENEMANG;;EVENEMANG;;;;EVENEMANG;;RULE:Taxa_från_edp:25;Tjänsttaxa för tillfälliga evenemangskärl Okänd ÅRKV EVENEMANG | Tjänsttaxa för tillfälliga evenemangskärl | ÅRKV | Tjänsttaxa för tillfälliga evenemangskärl | 0
-EXTMÄTVS;;EX;;;;EX;;RULE:Taxa_från_edp:87;Extra mätställe, vatten/spillvatten Okänd ÅRPR EXTMÄTVS | Extra mätställe, vatten/spillvatten | ÅRPR | Fast avgift, vatten/spillvatten | 
+DRÖJRÄNTA;;DRÖJRÄNTA;;;;DRÖJRÄNTA;;RULE:Taxa_från_edp:43;Dröjsmålsränta Okänd KVAN DRÖJRÄNTA | Dröjsmålsränta | KVAN | Dröjsmålsränta | 
+EVENEMANG;;EVENEMANG;;;;EVENEMANG;;RULE:Taxa_från_edp:47;Tjänsttaxa för tillfälliga evenemangskärl Okänd ÅRKV EVENEMANG | Tjänsttaxa för tillfälliga evenemangskärl | ÅRKV | Tjänsttaxa för evenemangskärl | 0
+EXTRA;;EX;;;;EX;;RULE:Taxa_från_edp:48;Efteranmälan slamtömning Slam Slam KVAN EXTRA | Efteranmälan slamtömning | KVAN | Förseningsavgift efteranmälan | ANTL
+VAK2;;EX;;;;EX;;RULE:Taxa_från_edp:251;VA MER ÄN 200 kvm Okänd ÅRKV VAK2 | VA MER ÄN 200 kvm | ÅRKV | Extra avgift per 100kvm över 200kvm | KVM
 FBATTLÅDA;;FBATTLÅDA;;;;FBATTLÅDA;;STANDARD:Standard Avfall:288;Försäljning batterilåda, inkl. stativ KVAN ANTL
 FDEKALL;;FDEKALL;;;;FDEKALL;;STANDARD:Standard Avfall:285;Försäljning dekal, liten KVAN ANTL
 FDEKALS;;FDEKALS;;;;FDEKALS;;STANDARD:Standard Avfall:286;Försäljning dekal, stor KVAN ANTL
 FEAKUT;;FEAKUT;;;;FEAKUT;;STANDARD:Standard Slam:119;Fett, akuttömning KVAN ANTL
 FEBEHAVG;;FEBEHAVG;;;;FEBEHAVG;;STANDARD:Standard Slam:120;Fett, behandlingsavgift KVAN VITO eller KBMF
 FEBUD;;FEBUD;;;;FEBUD;;STANDARD:Standard Slam:118;Fett, tillägg budning KVAN ANTL
-FELSORT;;FELSORT;;;;FELSORT;;RULE:Taxa_från_edp:214;Felsorteringsavgift Okänd KVAN FELSORT | Felsorteringsavgift | KVAN | Felsorteringsavgift | ANTL
+FELSORT;;FELSORT;;;;FELSORT;;RULE:Taxepunkter:131;Kärl Hushåll Tillfälle KVAN §2.4.6 | §2.4.6 | Kärl |  | st/tillfälle | FELSORT | FELSORT | KVAN |  |  |  | 
+FELSORT;;FELSORT;;;;FELSORT;;RULE:Taxepunkter:132;Bottentömmande behållare Hushåll Tillfälle KVAN §2.4.6 | §2.4.6 | Bottentömmande behållare |  | st/tillfälle | FELSORT | FELSORT | KVAN |  |  |  | 
+FELSORT;;FELSORT;;;;FELSORT;;RULE:Taxa_från_edp:50;Felsorteringsavgift, pris per tillfälle och kärl Okänd Tillfälle KVAN FELSORT | Felsorteringsavgift, pris per tillfälle och kärl | KVAN | Felsorteringsavgift, pris per tillfälle och kärl | ANTL
 FELSORTAVG;;FELSORTAVG;;;;FELSORTAVG;;STANDARD:Standard Avfall:303;Felsorteringsavgift KVAN ANTL
 FEÖVERKBM;;FEÖVERKBM;;;;FEÖVERKBM;;STANDARD:Standard Slam:121;Fett, tillägg överkbm KVAN KBMÖ
+FILMBESIKT;;FILMBESIKT;;;;FILMBESIKT;;RULE:Taxa_från_edp:51;Filmning/besiktning Okänd KVAN FILMBESIKT | Filmning/besiktning | KVAN | Filmning/besiktning | TIMT
+FJ;;FJ;;;;FJ;;RULE:Taxa_från_edp:52;FJÄRRVÄRME Okänd FÖRB FJ | FJÄRRVÄRME | FÖRB | Fjärrvärme | 
 FLAKÄRL;;FLAKÄRL;;;;FLAKÄRL;;STANDARD:Standard Avfall:284;Försäljning Latrinkärl KVAN ANTL
-FOBFRI;;FOBFRI|FRITID;;;;FOBFRI;FRITID;RULE:Taxepunkter:35;Fysisk nyckel, kallad fob (engångskostnad) Hushåll Tillfälle TILLFÄLLE §2.2.3 | §2.2.3 | Fysisk nyckel, kallad fob (engångskostnad) |  | st/tillfälle | FOBFRI | FOBFRI |  |  |  |  | 
-Fob;;FOB|FRITID;;;;FOB;FRITID;RULE:Taxa_från_edp:197;Nyckelfob mat- och rest frihus Okänd ÅRKV Fob | Nyckelfob mat- och rest frihus | ÅRKV | Nyckelfob, engångskostnad | ANTL
-FOSFORBUD;;FOSFORBUD;;;;FOSFORBUD;;RULE:Taxa_från_edp:27;Fosforfälla. Budning Okänd ÅRKV FOSFORBUD | Fosforfälla. Budning | ÅRKV | Fosforfälla. Budning | 0
-FOSFORORD;;FOSFORORD;;;;FOSFORORD;;RULE:Taxa_från_edp:28;Fosforfälla. Ordinarie tur Okänd ÅRKV FOSFORORD | Fosforfälla. Ordinarie tur | ÅRKV | Fosforfälla. Ordinarie tur | 0
-FOTOKEM;;FOTOKEM;;;;FOTOKEM;;RULE:Taxa_från_edp:94;Fotokemikalier Okänd KVAN FOTOKEM | Fotokemikalier | KVAN | Fotokemikalier | VIKG
-FRAMKÖRKOM;;FRAMKÖRKOM;;;;FRAMKÖRKOM;;RULE:Taxa_från_edp:95;Framkörningsavgift, hämtning av kommunalt avfall Okänd KVAN FRAMKÖRKOM | Framkörningsavgift, hämtning av kommunalt avfall | KVAN | Framkörningsavgift, hämtning av kommunalt avfall | ANTL
+FRAMKAVG;;FRAMKAVG;;;;FRAMKAVG;;RULE:Taxa_från_edp:53;Framkörningsavgift Okänd KVAN FRAMKAVG | Framkörningsavgift | KVAN | Framkörningsavgift | ANTL
+FRAMKAVG;;FRAMKAVG|VERKSAMHET;;;;FRAMKAVG;VERKSAMHET;RULE:Taxepunkter:193;Framkörningsavgift då ordinarie tömning inte skett på grund av hinder, abonnenten vägrar, bristfällig väg eller annat Flerbostad/verksamhet Tillfälle KVAN §3.3.2 | §3.3.2 | Framkörningsavgift då ordinarie tömning inte skett på grund av hinder, abonnenten vägrar, bristfällig väg eller annat |  | kr/tillfälle | FRAMKAVG | FRAMKAVG | KVAN |  |  |  | 
+GEMNYCKEL3;;FRITID;;;;;FRITID;RULE:Taxa_från_edp:61;Telefonnyckel nr 3 Gemlipfri Okänd ÅRPR GEMNYCKEL3 | Telefonnyckel nr 3 Gemlipfri | ÅRPR | Telefonnyckel nr 3 Gemlipfri | 
+GEMNYCKEL4;;FRITID;;;;;FRITID;RULE:Taxa_från_edp:62;Telefonnyckel nr 4 Gemlipfri Okänd ÅRPR GEMNYCKEL4 | Telefonnyckel nr 4 Gemlipfri | ÅRPR | Telefonnyckel nr 4 Gemlipfri | 
+FRIFAKTURA;;FRI|FRITID;;;;FRI;FRITID;RULE:Taxa_från_edp:54;Fri faktura, standard Okänd KVAN FRIFAKTURA | Fri faktura, standard | KVAN | Fri faktura, standard | 
+FRIKV;;FRI|FRITID;;;;FRI;FRITID;RULE:Taxa_från_edp:55;FRI KVANTITET Okänd KVAN FRIKV | FRI KVANTITET | KVAN |  | ANTB
+FRIUT;;FRI|FRITID;;;;FRI;FRITID;RULE:Taxa_från_edp:56;FRITT UTFÖRANDE Okänd KVAN FRIUT | FRITT UTFÖRANDE | KVAN |  | ANTL
+FRUSEN;;FRUSEN;;;;FRUSEN;;RULE:Taxa_från_edp:57;BYTE AV FRUSEN MÄTARE Okänd KVAN FRUSEN | BYTE AV FRUSEN MÄTARE | KVAN | Byte av frusen mätare | ANTL
 FSKYLT;;FSKYLT;;;;FSKYLT;;STANDARD:Standard Avfall:287;Försäljning skylt KVAN ANTL
 FSÄMB;;FSÄMB;;;;FSÄMB;;STANDARD:Standard Avfall:295;Försäljning säck, markbehållare. Pris per st KVAN ANTL
-FÄRGEJKONS;;FÄRGEJKONS;;;;FÄRGEJKONS;;RULE:Taxa_från_edp:96;Färg ej konsumentförpackat Okänd KVAN FÄRGEJKONS | Färg ej konsumentförpackat | KVAN | Färg ej konsumentförpackat | VIKG
-FÄRGLÖSNING;;FÄRGLÖSNING;;;;FÄRGLÖSNING;;RULE:Taxa_från_edp:97;Färg/lackavfall/lim lösningsbaserat Okänd KVAN FÄRGLÖSNING | Färg/lackavfall/lim lösningsbaserat | KVAN | Färg/lackavfall/lim lösningsbaserat | VIKG
-FÄRGVATTEN;;FÄRGVATTEN;;;;FÄRGVATTEN;;RULE:Taxa_från_edp:98;Färg/lackavfall/lim vattenbaserat Okänd KVAN FÄRGVATTEN | Färg/lackavfall/lim vattenbaserat | KVAN | Färg/lackavfall/lim vattenbaserat | VIKG
-FÖRGÄV;;FÖRGÄV;;;;FÖRGÄV;;RULE:Taxa_från_edp:198;Förgävesbesök vid avtalad tid eller avisering Okänd KVAN FÖRGÄV | Förgävesbesök vid avtalad tid eller avisering | KVAN | Förgävesbesök vid avtalad tid eller avisering | ANTL
-GASOL;;GASOL;;;;GASOL;;RULE:Taxa_från_edp:99;Gasol, blå programmet (kräver speciell transport) Okänd KVAN GASOL | Gasol, blå programmet (kräver speciell transport) | KVAN | Gasol, blå programmet | VIKG
-GEMKÄFRI;;GEMKÄFRI|FRITID;;;;GEMKÄFRI;FRITID;RULE:Taxa_från_edp:100;Gemensam uppsamlingsplats med eget kärl, fritidshus Okänd ÅRKV GEMKÄFRI | Gemensam uppsamlingsplats med eget kärl, fritidshus | ÅRKV | Hämtningavgift gemensam uppsamlingsplats, eget kärl | ANTB
-GEMUPPBYTE;;GEMUPPBYTE;;;;GEMUPPBYTE;;RULE:Taxepunkter:36;Byte av telefonnummer kopplat till licens Hushåll Tillfälle TILLFÄLLE §2.2.3 | §2.2.3 | Byte av telefonnummer kopplat till licens |  | st/tillfälle | GEMUPPBYTE | GEMUPPBYTE |  |  |  |  | 
-GEMUPPEXTRA;;GEMUPPEXTRA;;;;GEMUPPEXTRA;;RULE:Taxepunkter:373;Extra digital licens (årskostnad) Hushåll §2.2.3 | §2.2.3 | Extra digital licens (årskostnad) |  | st/år | GEMUPPEXTRA | GEMUPPEXTRA |  |  |  |  | 
-GEMUPPEXTRAFRI;;GEMUPPEXTRAFRI|FRITID;;;;GEMUPPEXTRAFRI;FRITID;RULE:Taxepunkter:34;Extra digital licens (årskostnad) Hushåll §2.2.3 | §2.2.3 | Extra digital licens (årskostnad) |  | st/år | GEMUPPEXTRAFRI | GEMUPPEXTRAFRI |  |  |  |  | 
-GEMUPPEXTRAFRI;;GEMUPPEXTRAFRI|FRITID;;;;GEMUPPEXTRAFRI;FRITID;RULE:Taxa_från_edp:102;Extra mobilnyckel till Gemensam uppsamlingsplats, fritidshus Okänd ÅRPR GEMUPPEXTRAFRI | Extra mobilnyckel till Gemensam uppsamlingsplats, fritidshus | ÅRPR | Extra Mobilnyckel till ÅVS | 
-GEMUPPFOB;;GEMUPPFOB;;;;GEMUPPFOB;;RULE:Taxepunkter:374;Fysisk nyckel, kallad fob (engångskostnad) Hushåll §2.2.3 | §2.2.3 | Fysisk nyckel, kallad fob (engångskostnad) |  | st/år | GEMUPPFOB | GEMUPPFOB |  |  |  |  | 
-GEMUPPFPFRI;;GEMUPPFPFRI|FRITID;;;;GEMUPPFPFRI;FRITID;RULE:Taxepunkter:378;Gemensam uppsamlingsplats för förpackningar Hushåll Förpackningar §2.2.3 | §2.2.3 | Gemensam uppsamlingsplats för förpackningar | Kostnadsfritt | st/år | GEMUPPFPFRI | GEMUPPFPFRI |  |  |  |  | 
-GEMUPPFRINYCKEL;;GEMUPPFRINYCKEL|FRITID;;;;GEMUPPFRINYCKEL;FRITID;RULE:Taxa_från_edp:103;Nyckelfob till Gemensam uppsamlingsplats, fritidshus Okänd TEXT GEMUPPFRINYCKEL | Nyckelfob till Gemensam uppsamlingsplats, fritidshus | TEXT | Nyckelfob, engångskostnad | 
-GEMUPPFRI;;GEMUPPFRI|FRITID;;;;GEMUPPFRI;FRITID;RULE:Taxepunkter:33;Gemensam uppsamlingsplats för förpackningar Hushåll Förpackningar §2.2.3 | §2.2.3 | Gemensam uppsamlingsplats för förpackningar | Kostnadsfritt | st/år | GEMUPPFRI | GEMUPPFRI |  |  |  |  | 
-GEMUPPFÖRPFLB;;GEMUPPFÖRPFLB;;;;GEMUPPFÖRPFLB;;RULE:Taxa_från_edp:104;Gemensam uppsamlingsplats Förpackning, Flerbostadshus Okänd Förpackningar ÅRKV GEMUPPFÖRPFLB | Gemensam uppsamlingsplats Förpackning, Flerbostadshus | ÅRKV | Gemensam uppsamlingsplats Förpackning, Flerbostadshus | FAST
-GEMUPPÖPP;;GEMUPPÖPP;;;;GEMUPPÖPP;;RULE:Taxepunkter:37;Kostnad för öppning av behållare Hushåll Tillfälle TILLFÄLLE §2.2.3 | §2.2.3 | Kostnad för öppning av behållare |  | st/tillfälle | GEMUPPÖPP | GEMUPPÖPP |  |  |  |  | 
-GRBUD;;GRBUD;;;;GRBUD;;RULE:Taxa_från_edp:106;Budad hämtning, grovavfall. Pris per m³ Okänd KVAN GRBUD | Budad hämtning, grovavfall. Pris per m³ | KVAN | Budad hämtning, grovavfall. Pris per m³ | KBMÖ
-GROVAVFALL;;GROVAVFALL;;;;GROVAVFALL;;RULE:Taxa_från_edp:29;Tjänsttaxa för grovavfall Okänd ÅRKV GROVAVFALL | Tjänsttaxa för grovavfall | ÅRKV | Tjänsttaxa för grovavfall | 0
+GEMKÄFRI;;GEMKÄFRI|FRITID;;;;GEMKÄFRI;FRITID;RULE:Taxa_från_edp:58;Gemensam uppsamlingsplats med eget kärl, fritidshus Okänd ÅRKV GEMKÄFRI | Gemensam uppsamlingsplats med eget kärl, fritidshus | ÅRKV | Hämtningavgift gemensam uppsamlingsplats, eget kärl | ANTB
+GEMNYCKELTAGG;;GEMNYCKELTAGG|FRITID;;;;GEMNYCKELTAGG;FRITID;RULE:Taxa_från_edp:63;Tagg Gemlipfri Okänd ÅRPR GEMNYCKELTAGG | Tagg Gemlipfri | ÅRPR | Tagg Gemlipfri | 
+GM;;GM;;;;GM;;RULE:Taxa_från_edp:64;GRUND OCH MÄTARAVGIFT Okänd ÅRPR GM | GRUND OCH MÄTARAVGIFT | ÅRPR | Grund och mätaravgift | 
+GROVAVFALL;;GROVAVFALL|VERKSAMHET;;;;GROVAVFALL;VERKSAMHET;RULE:Taxa_från_edp:65;Grovavfall/organiskt avfall, storkompost (verksamhet) Okänd KVAN GROVAVFALL | Grovavfall/organiskt avfall, storkompost (verksamhet) | KVAN | Grovavfall/organiskt avfall, storkompost | VITO
 GROVBUD;;GROVBUD;;;;GROVBUD;;STANDARD:Standard Avfall:198;Hämtning grovavfall, budning KVAN ANTL
-GROVBUD;;GROVBUD;;;;GROVBUD;;RULE:Taxa_från_edp:107;Budning av grovavfall per m³ Okänd KVAN GROVBUD | Budning av grovavfall per m³ | KVAN | Budning av grovavfall per m³ | KBMÖ
-GRUNDANL;;GRUNDANL;;;;GRUNDANL;;RULE:Taxepunkter:12;Anläggning Hushåll §2.1 | §2.1 | Anläggning |  | st/år | GRUNDANL | GRUNDANL |  |  |  |  | 
-GRUNDCAMP;;GRUNDCAMP|LÄGENHET;;;;GRUNDCAMP;LÄGENHET;RULE:Taxepunkter:14;Campingstuga/-lägenhet Hushåll §2.1 | §2.1 | Campingstuga/-lägenhet |  | st/år | GRUNDCAMP | GRUNDCAMP |  |  |  |  | 
-GRUNDFLB;;GRUNDFLB;;;;GRUNDFLB;;RULE:Taxa_från_edp:108;Grundavgift, del i flerbostadshus Okänd ÅRKV GRUNDFLB | Grundavgift, del i flerbostadshus | ÅRKV | Grundavgift, del i flerbostadshus | GRUN
-GRUNDFLB;;GRUNDFLB|LÄGENHET;;;;GRUNDFLB;LÄGENHET;RULE:Taxepunkter:10;Lägenhet i flerbostadshus Hushåll §2.1 | §2.1 | Lägenhet i flerbostadshus |  | st/år | GRUNDFLB | GRUNDFLB |  |  |  |  | 
-GRUNDFRI;;GRUNDFRI|FRITID;;;;GRUNDFRI;FRITID;RULE:Taxepunkter:8;Fritidshus Hushåll §2.1 | §2.1 | Fritidshus |  | st/år | GRUNDFRI | GRUNDFRI |  |  |  |  | 
-GRUNDFRI;;GRUNDFRI|FRITID;;;;GRUNDFRI;FRITID;RULE:Taxa_från_edp:109;Grundavgift, fritidshus Okänd ÅRKV GRUNDFRI | Grundavgift, fritidshus | ÅRKV | Grundavgift, fritidshus | GRUN
-GRUNDSMÅ;;GRUNDSMÅ;;;;GRUNDSMÅ;;RULE:Taxa_från_edp:199;Grundavgift, småhus 1- och 2 familjshus Okänd ÅRKV GRUNDSMÅ | Grundavgift, småhus 1- och 2 familjshus | ÅRKV | Grundavgift, småhus 1- och 2 familjshus | GRUN
-GRUNDSMÅ;;GRUNDSMÅ|SMÅHUS;;;;GRUNDSMÅ;SMÅHUS;RULE:Taxepunkter:7;En- och tvåbostadshus Hushåll §2.1 | §2.1 | En- och tvåbostadshus |  | st/år | GRUNDSMÅ | GRUNDSMÅ |  |  |  |  | 
-GRUNDSPEC;;GRUNDSPEC|LÄGENHET;;;;GRUNDSPEC;LÄGENHET;RULE:Taxepunkter:11;Lägenhet för specialändamål Hushåll §2.1 | §2.1 | Lägenhet för specialändamål |  | st/år | GRUNDSPEC | GRUNDSPEC |  |  |  |  | 
-GRUNDSÄS;;GRUNDSÄS;;;;GRUNDSÄS;;RULE:Taxepunkter:13;Säsongsbaserad uppställningsplats Hushåll §2.1 | §2.1 | Säsongsbaserad uppställningsplats |  | st/år | GRUNDSÄS | GRUNDSÄS |  |  |  |  | 
-GRUNDVHT;;GRUNDVHT|VERKSAMHET;;;;GRUNDVHT;VERKSAMHET;RULE:Taxepunkter:9;Verksamhet Hushåll §2.1 | §2.1 | Verksamhet |  | st/år | GRUNDVHT | GRUNDVHT |  |  |  |  | 
-GRUNDVHT;;GRUNDVHT|VERKSAMHET;;;;GRUNDVHT;VERKSAMHET;RULE:Taxa_från_edp:110;Grundavgift, verksamheter Okänd ÅRKV GRUNDVHT | Grundavgift, verksamheter | ÅRKV | Grundavgift, verksamheter | GRUN
-HALONGAS;;HALONGAS;;;;HALONGAS;;RULE:Taxa_från_edp:111;Halon gaser (kräver speciell transport) Okänd KVAN HALONGAS | Halon gaser (kräver speciell transport) | KVAN | Halon gaser | VIKG
+GROVBUD;;GROVBUD;;;;GROVBUD;;RULE:Taxa_från_edp:66;Budning av grovavfall, pris per tillfälle Okänd Tillfälle KVAN GROVBUD | Budning av grovavfall, pris per tillfälle | KVAN | Budning av grovavfall, pris per tillfälle | ANTL
+GRUNDFLB;;GRUNDFLB|LÄGENHET;;;;GRUNDFLB;LÄGENHET;RULE:Taxepunkter:12;Lägenhet i flerbostadshus Hushåll ÅRKV §2.1 | §2.1 | Lägenhet i flerbostadshus |  | st/år | GRUNDFLB | GRUNDFLB | ÅRKV |  |  |  | 
+GRUNDFLB;;GRUNDFLB|LÄGENHET;;;;GRUNDFLB;LÄGENHET;RULE:Taxa_från_edp:67;Grundavgift per lägenhet, flerbostadshus Okänd ÅRKV GRUNDFLB | Grundavgift per lägenhet, flerbostadshus | ÅRKV | Grundavgift per lägenhet | LÄGH
+GRUNDFRI;;GRUNDFRI|FRITID;;;;GRUNDFRI;FRITID;RULE:Taxepunkter:10;Fritidshus Hushåll ÅRPR §2.1 | §2.1 | Fritidshus |  | st/år | GRUNDFRI | GRUNDFRI | ÅRPR |  |  |  | 
+GRUNDFRI;;GRUNDFRI|FRITID;;;;GRUNDFRI;FRITID;RULE:Taxa_från_edp:68;Grundavgift fritidshus Okänd ÅRPR GRUNDFRI | Grundavgift fritidshus | ÅRPR | Grundavg. renhåll. fritid | 
+GRUNDLOK;;GRUNDLOK;;;;GRUNDLOK;;RULE:Taxa_från_edp:71;Grundavgift lokaler, föreningar etc. Okänd ÅRPR GRUNDLOK | Grundavgift lokaler, föreningar etc. | ÅRPR | Grundavgift | 
+GRUNDLÄG;;GRUNDLÄG|LÄGENHET;;;;GRUNDLÄG;LÄGENHET;RULE:Taxa_från_edp:72;Grundavgift, tvåbostadshus Okänd ÅRKV GRUNDLÄG | Grundavgift, tvåbostadshus | ÅRKV | Grundavgift per lägenhet | LÄGH
+GRUNDLÄG;;GRUNDLÄG|VERKSAMHET;;;;GRUNDLÄG;VERKSAMHET;RULE:Taxepunkter:11;Verksamhet Hushåll ÅRKV §2.1 | §2.1 | Verksamhet |  | st/år | GRUNDLÄG | GRUNDLÄG | ÅRKV |  |  |  | 
+GRUNDPERM;;GRUNDPERM|PERMANENT;;;;GRUNDPERM;PERMANENT;RULE:Taxa_från_edp:74;Grundavgift permanentboende *ska upphöra* Okänd ÅRPR GRUNDPERM | Grundavgift permanentboende *ska upphöra* | ÅRPR | Grundavgift permanentboende | 
+GRUNDPER;;GRUNDPER|PERMANENT;;;;GRUNDPER;PERMANENT;RULE:Taxa_från_edp:73;Grundavgift permanentboende Okänd ÅRPR GRUNDPER | Grundavgift permanentboende | ÅRPR | Grundavgift renhållning perm. | 
+GRUNDPER;;GRUNDPER|SMÅHUS;;;;GRUNDPER;SMÅHUS;RULE:Taxepunkter:9;En- och tvåbostadshus Hushåll ÅRPR §2.1 | §2.1 | En- och tvåbostadshus |  | st/år | GRUNDPER | GRUNDPER | ÅRPR |  |  |  | 
 HBL;;HBL;;;;HBL;;STANDARD:Standard Avfall:457;Hyra batterilåda ÅRKV ANTB
 HBL;;HBL;;;;HBL;;STANDARD:Standard Avfall:463;Hyra baklastar container ÅRKV ANTB
 HBP;;HBP;;;;HBP;;STANDARD:Standard Avfall:458;Hyra balpress ÅRKV ANTB
@@ -270,103 +270,98 @@ HFL;;HFL;;;;HFL;;STANDARD:Standard Avfall:462;Hyra frontlastar container ÅRKV A
 HKP;;HKP;;;;HKP;;STANDARD:Standard Avfall:464;Hyra komprimator/ komprimerande container ÅRKV ANTB
 HLD;;HLD;;;;HLD;;STANDARD:Standard Avfall:465;Hyra liftdumper container ÅRKV ANTB
 HLDK;;HLDK;;;;HLDK;;STANDARD:Standard Avfall:466;Hyra liftdumper container, korttidsHyra ÅRKV ANTB
-HYDRAULSLANG;;HYDRAULSLANG;;;;HYDRAULSLANG;;RULE:Taxa_från_edp:112;Hydraulslang Okänd KVAN HYDRAULSLANG | Hydraulslang | KVAN | Hydraulslang | VIKG
-HÄRDARE;;HÄRDARE;;;;HÄRDARE;;RULE:Taxa_från_edp:113;Härdare Okänd KVAN HÄRDARE | Härdare | KVAN | Härdare | VIKG
-IMPREGTRÄ;;IMPREGTRÄ;;;;IMPREGTRÄ;;RULE:Taxa_från_edp:114;Impregnerat trä, bygg- o rivningsavfall Okänd Träavfall KVAN IMPREGTRÄ | Impregnerat trä, bygg- o rivningsavfall | KVAN | Impregnerat trä, bygg- o rivningsavfall | KBMÖ
-INVÄXTHUSH;;INVÄXTHUSH;;;;INVÄXTHUSH;;RULE:Taxa_från_edp:200;Invasiva växter från hushåll Okänd KVAN INVÄXTHUSH | Invasiva växter från hushåll | KVAN | Invasiva växter från hushåll | ANTL
-INVÄXTVERKS;;INVÄXTVERKS|VERKSAMHET;;;;INVÄXTVERKS;VERKSAMHET;RULE:Taxa_från_edp:115;Invasiva växter från verksamheter Okänd KVAN INVÄXTVERKS | Invasiva växter från verksamheter | KVAN | Invasiva växter från verksamheter | ANTL
-KOLSYREPATRON;;KOLSYREPATRON;;;;KOLSYREPATRON;;RULE:Taxa_från_edp:116;Kolsyrepatroner Okänd KVAN KOLSYREPATRON | Kolsyrepatroner | KVAN | Kolsyrepatroner | VIKG
-KOMMUNALT;;KOMMUNALT;;;;KOMMUNALT;;RULE:Taxa_från_edp:30;Tjänsttaxa kommunalt avfall Okänd ÅRKV KOMMUNALT | Tjänsttaxa kommunalt avfall | ÅRKV | Tjänsttaxa kommunalt avfall | 0
+HÄMTFARLIGT;;HÄMTFARLIGT;;;;HÄMTFARLIGT;;RULE:Taxa_från_edp:99;Hämtning av farligt avfall hos hushåll (max 25 kg) Okänd Farligt avfall KVAN HÄMTFARLIGT | Hämtning av farligt avfall hos hushåll (max 25 kg) | KVAN | Hämtning av farligt avfall, pris per tillfälle | ANTL
+INERTAVFALL;;INERTAVFALL;;;;INERTAVFALL;;RULE:Taxa_från_edp:100;Inert avfall. Tex klinker, porslin, toalettstolar Okänd KVAN INERTAVFALL | Inert avfall. Tex klinker, porslin, toalettstolar | KVAN | Inert avfall. Tex klinker, porslin, toalettstolar | VITO
+INKASSO;;INKASSO;;;;INKASSO;;RULE:Taxa_från_edp:101;Inkassoavgift Okänd KVAN INKASSO | Inkassoavgift | KVAN | Inkassoavgift | 
 KONTRAVG;;KONTRAVG;;;;KONTRAVG;;STANDARD:Standard Avfall:302;Kontrollavgift KVAN ANTL
-KVICKSILVER;;KVICKSILVER;;;;KVICKSILVER;;RULE:Taxa_från_edp:117;Kvicksilverinstrument/komponenter Okänd KVAN KVICKSILVER | Kvicksilverinstrument/komponenter | KVAN | Kvicksilverinstrument/komponenter | VIKG
-KYLDISKAR;;KYLDISKAR;;;;KYLDISKAR;;RULE:Taxa_från_edp:118;Kyldiskar och större kylmöbler Okänd KVAN KYLDISKAR | Kyldiskar och större kylmöbler | KVAN | Kyldiskar och större kylmöbler | ANTL
-KYLMÖBLER;;KYLMÖBLER;;;;KYLMÖBLER;;RULE:Taxa_från_edp:119;Kylmöbler, mindre (60 cm x 60 cm) Okänd KVAN KYLMÖBLER | Kylmöbler, mindre (60 cm x 60 cm) | KVAN | Kylmöbler, mindre (60 cm x 60 cm) | ANTL
+KREDGRUNDPER;;KREDGRUNDPER;;;;KREDGRUNDPER;;RULE:Taxa_från_edp:102;Kreditering av grundavgifter april/maj 2023 Okänd KVAN KREDGRUNDPER | Kreditering av grundavgifter april/maj 2023 | KVAN | Kreditering av grundavgifter april/maj 2023 | ANTL
 KÖKSL;;KÖKSL;;;;KÖKSL;;STANDARD:Standard Slam:88;Köksavlopp, slam KVAN ANTL
 KÖKSLB;;KÖKSLB;;;;KÖKSLB;;STANDARD:Standard Slam:71;Köksavlopp, slam. Budning KVAN ANTL
 KÖKSLBUD;;KÖKSLBUD;;;;KÖKSLBUD;;STANDARD:Standard Slam:38;Köksavlopp, slam. Budning ÅRKV 8
 KÖKSLO;;KÖKSLO;;;;KÖKSLO;;STANDARD:Standard Slam:55;Köksavlopp, slam. Ordinarie tur KVAN ANTL
 KÖKSLORD;;KÖKSLORD;;;;KÖKSLORD;;STANDARD:Standard Slam:22;Köksavlopp, slam. Ordinarie tur ÅRKV 0
+L;;L;;;;L;;RULE:Taxa_från_edp:133;EXTRA SLANG > 5 M Okänd KVAN L | EXTRA SLANG > 5 M | KVAN | Extra slang > 5 m | ANTL
 LATKOMP;;LATKOMP;;;;LATKOMP;;STANDARD:Standard Avfall:317;Dummytaxa latrinkompost ÅRKV 0
-LATRINBEHÅLL;;LATRINBEHÅLL|VERKSAMHET;;;;LATRINBEHÅLL;VERKSAMHET;RULE:Taxa_från_edp:122;Mottagningsavgift latrin till ÅVC ÅVC/verksamhetsavfall KVAN LATRINBEHÅLL | Mottagningsavgift latrin till ÅVC | KVAN | Mottagningsavgift latrin till ÅVC | ANTL
-LATRINBUD;;LATRINBUD;;;;LATRINBUD;;RULE:Taxa_från_edp:123;Budad hämtning, latrin i godkänd latrinbehållare Okänd KVAN LATRINBUD | Budad hämtning, latrin i godkänd latrinbehållare | KVAN | Budad hämtning, latrin i godkänd latrinbehållare | ANTL
-LATRINKÖP;;LATRINKÖP;;;;LATRINKÖP;;RULE:Taxa_från_edp:124;Köp av godkänd latrinbehållare Okänd KVAN LATRINKÖP | Köp av godkänd latrinbehållare | KVAN | Köp av godkänd latrinbehållare | ANTL
+LATRINBEHÅLL;;LATRINBEHÅLL;;;;LATRINBEHÅLL;;RULE:Taxa_från_edp:134;Avgift för latrinbehållare Okänd KVAN LATRINBEHÅLL | Avgift för latrinbehållare | KVAN | Avgift för latrinbehållare | ANTL
+VAL2;;LÄGENHET;;;;;LÄGENHET;RULE:Taxa_från_edp:252;VA HÖGST 2 LÄGENHETER Okänd ÅRPR VAL2 | VA HÖGST 2 LÄGENHETER | ÅRPR | Vatten och avlopp | 
+VAL3;;LÄGENHET;;;;;LÄGENHET;RULE:Taxa_från_edp:253;VA MER ÄN 2 LÄGENHETER Okänd ÅRKV VAL3 | VA MER ÄN 2 LÄGENHETER | ÅRKV | Vatten och avlopp mer än 2 lgh | KBMV
+BINI1000;;LÅS;;;;LÅS;;RULE:Taxa_från_edp:29;Bini 1000 lastväxlare- Okänd KVAN BINI1000 | Bini 1000 lastväxlare- | KVAN | Bini 1000 lastväxlare | TIMT
 FL04BR26;;LÅS;;;;LÅS;;STANDARD:Standard Avfall:417;Frontlastar container 4 m³, brännbart avfall. Var 14:e dag ÅRKV ANTB
-LÖSNINGSMEDEL;;LÖSNINGSMEDEL;;;;LÖSNINGSMEDEL;;RULE:Taxa_från_edp:125;Lösningsmedel och träolja Okänd KVAN LÖSNINGSMEDEL | Lösningsmedel och träolja | KVAN | Lösningsmedel och träolja | VIKG
+MB1400GF;;LÅS;;;;LÅS;;RULE:Taxa_från_edp:136;Tömning Markbehållare 1.4 m³, glas färgat. Tjänsttaxa Okänd ÅRKV MB1400GF | Tömning Markbehållare 1.4 m³, glas färgat. Tjänsttaxa | ÅRKV | Tömning Markbehållare 1.4 m³, glas färgat. | 0
+MB1400GFTÖM;;LÅS;;;;LÅS;;RULE:Taxa_från_edp:137;Tömning Markbehållare 1.4 m³, glas färgat. Okänd KVAN MB1400GFTÖM | Tömning Markbehållare 1.4 m³, glas färgat. | KVAN | Tömning Markbehållare 1.4 m³, glas färgat. | ANTL
+MB1400GO;;LÅS;;;;LÅS;;RULE:Taxa_från_edp:138;Tömning Markbehållare 1.4 m³, glas ofärgat. Tjänsttaxa Okänd ÅRKV MB1400GO | Tömning Markbehållare 1.4 m³, glas ofärgat. Tjänsttaxa | ÅRKV | Tömning Markbehållare 1.4 m³, glas ofärgat. | 0
+MB1400GOTÖM;;LÅS;;;;LÅS;;RULE:Taxa_från_edp:139;Tömning Markbehållare 1.4 m³, glas ofärgat. Okänd KVAN MB1400GOTÖM | Tömning Markbehållare 1.4 m³, glas ofärgat. | KVAN | TTömning Markbehållare 1.4 m³, glas ofärgat. | ANTL
+UJ1500GF;;LÅS;;;;LÅS;;RULE:Taxa_från_edp:225;Underjordsbehållare 1,5 m³, glas färgat. Tjänsttaxa Okänd ÅRKV UJ1500GF | Underjordsbehållare 1,5 m³, glas färgat. Tjänsttaxa | ÅRKV | Underjordsbehållare 1,5 m³, glas färgat | 0
+UJ1500GFTÖM;;LÅS;;;;LÅS;;RULE:Taxa_från_edp:226;Tömning underjordsbehållare 1,5 m³, glasförp färgat Okänd KVAN UJ1500GFTÖM | Tömning underjordsbehållare 1,5 m³, glasförp färgat | KVAN | Tömning underjordsbehållare 1,5 m³, glasförp färgat | ANTL
+UJ1500GO;;LÅS;;;;LÅS;;RULE:Taxa_från_edp:227;Underjordsbehållare 1,5 m³, glas ofärgat. Tjänsttaxa Okänd ÅRKV UJ1500GO | Underjordsbehållare 1,5 m³, glas ofärgat. Tjänsttaxa | ÅRKV | Underjordsbehållare 1,5 m³, glas ofärgat | 0
+UJ1500GOTÖM;;LÅS;;;;LÅS;;RULE:Taxa_från_edp:228;Tömning underjordsbehållare 1,5 m³, glasförp ofärgat Okänd KVAN UJ1500GOTÖM | Tömning underjordsbehållare 1,5 m³, glasförp ofärgat | KVAN | Tömning underjordsbehållare 1,5 m³, glasförp ofärgat | ANTL
 LÖSTKBMBUD;;LÖSTKBMBUD;;;;LÖSTKBMBUD;;STANDARD:Standard Avfall:199;Hämtning löst avfall, per kbm. Budning KVAN ANTL
 MB1300MA13;;MA;;MA;;;;STANDARD:Standard Avfall:238;Markbehållare 1,3 m³, matavfall. Var 4:e vecka ÅRKV ANTB
 MB1300MA26;;MA;;MA;;;;STANDARD:Standard Avfall:237;Markbehållare 1,3 m³, matavfall. Var 14:e dag ÅRKV ANTB
 MB1300MA52;;MA;;MA;;;;STANDARD:Standard Avfall:236;Markbehållare 1,3 m³, matavfall. Varje vecka ÅRKV ANTB
 MB1300MABUD;;MA;;MA;;;;STANDARD:Standard Avfall:239;Markbehållare 1,3 m³, matavfall. Budning KVAN ANTL
+MB1400MA;;MA;;MA;;;;RULE:Taxa_från_edp:140;Tömning Markbehållare 1.4 m³, matavfall. Tjänsttaxa Okänd Matavfall ÅRKV MB1400MA | Tömning Markbehållare 1.4 m³, matavfall. Tjänsttaxa | ÅRKV | Tömning Markbehållare 1.4 m³, matavfall. | 0
+MB1400MATÖM;;MA;;MA;;;;RULE:Taxa_från_edp:141;Tömning Markbehållare 1.4 m³, matavfall Okänd Matavfall KVAN MB1400MATÖM | Tömning Markbehållare 1.4 m³, matavfall | KVAN | Tömning Markbehållare 1.4 m³, matavfall | ANTL
+MB1400TÖM;;MA;;MA;;;;RULE:Taxa_från_edp:146;Tömning Markbehållare 1.4 m³, matavfall Okänd Matavfall KVAN MB1400TÖM | Tömning Markbehållare 1.4 m³, matavfall | KVAN | Tömning Markbehållare 1.4 m³, matavfall | ANTL
 MB1600MA13;;MA;;MA;;;;STANDARD:Standard Avfall:250;Markbehållare 1,6 m³, matavfall. Var 4:e vecka ÅRKV ANTB
 MB1600MA26;;MA;;MA;;;;STANDARD:Standard Avfall:249;Markbehållare 1,6 m³, matavfall. Var 14:e dag ÅRKV ANTB
-MB1600MA26;;MA;;MA;;;;RULE:Taxa_från_edp:266;Tjänsttaxa markbehållare för matavfall Okänd Matavfall ÅRKV MB1600MA26 | Tjänsttaxa markbehållare för matavfall | ÅRKV | Tjänsttaxa markbehållare för matavfall | 0
-MB1600MA26;;MA;;MA;;;;RULE:Taxa_från_edp:267;Tjänsttaxa markbehållare för matavfall Okänd Matavfall KVAN MB1600MA26 | Tjänsttaxa markbehållare för matavfall | KVAN | Viktavgift matavfall | VIKG
-MB1600MA26;;MA;;MA;;;;RULE:Taxa_från_edp:268;Tjänsttaxa markbehållare för matavfall Okänd Matavfall KVAN MB1600MA26 | Tjänsttaxa markbehållare för matavfall | KVAN | Tömning Markbehållare 1,6 m³, Matavfall | ANTB
 MB1600MA52;;MA;;MA;;;;STANDARD:Standard Avfall:248;Markbehållare 1,6 m³, matavfall. Varje vecka ÅRKV ANTB
 MB1600MABUD;;MA;;MA;;;;STANDARD:Standard Avfall:251;Markbehållare 1,6m³, matavfall. Budning KVAN ANTL
 MB800MA13;;MA;;MA;;;;STANDARD:Standard Avfall:232;Markbehållare 0,8 m³, matavfall. Var 4:e vecka ÅRKV ANTB
 MB800MA26;;MA;;MA;;;;STANDARD:Standard Avfall:231;Markbehållare 0,8 m³, matavfall. Var 14:e dag ÅRKV ANTB
 MB800MA52;;MA;;MA;;;;STANDARD:Standard Avfall:230;Markbehållare 0,8 m³, matavfall. Varje vecka ÅRKV ANTB
 MB800MABUD;;MA;;MA;;;;STANDARD:Standard Avfall:233;Markbehållare 0,8 m³, matavfall. Budning KVAN ANTL
+UJ800MA;;MA;;MA;;;;RULE:Taxa_från_edp:241;Underjordsbehållare 0,8 m³, matavfall. Tjänsttaxa Okänd Matavfall ÅRKV UJ800MA | Underjordsbehållare 0,8 m³, matavfall. Tjänsttaxa | ÅRKV | Underjordsbehållare 0,8 m³, matavfall | 0
+UJ800MATÖM;;MA;;MA;;;;RULE:Taxa_från_edp:242;Tömning underjordsbehållare 0,8 m³, matavfall Okänd Matavfall KVAN UJ800MATÖM | Tömning underjordsbehållare 0,8 m³, matavfall | KVAN | Tömning underjordsbehållare 0,8 m³, matavfall | ANTL
 MB1300MA104;;MA|2;;MA;2;;;STANDARD:Standard Avfall:235;Markbehållare 1,3 m³, matavfall. 2ggr/ vecka ÅRKV ANTB
 MB1600MA104;;MA|2;;MA;2;;;STANDARD:Standard Avfall:247;Markbehållare 1,6 m³, matavfall. 2ggr/ vecka ÅRKV ANTB
 MB800MA104;;MA|2;;MA;2;;;STANDARD:Standard Avfall:229;Markbehållare 0,8 m³, matavfall. 2ggr/ vecka ÅRKV ANTB
-GEMKÄFRI;;MA|GEMKÄFRI|FRITID;;MA;;GEMKÄFRI;FRITID;RULE:Taxa_från_edp:101;Gemensam uppsamlingsplats med eget kärl, fritidshus Okänd KVAN GEMKÄFRI | Gemensam uppsamlingsplats med eget kärl, fritidshus | KVAN | Viktavgift rest- matavfall kr/kg | VIKG
+GEMKÄFRI;;MA|GEMKÄFRI|FRITID;;MA;;GEMKÄFRI;FRITID;RULE:Taxa_från_edp:59;Gemensam uppsamlingsplats med eget kärl, fritidshus Okänd ÅRKV GEMKÄFRI | Gemensam uppsamlingsplats med eget kärl, fritidshus | ÅRKV | Viktavgift rest- matavfall kr/kg | VIKG
 NYMAT;;MA|NYMAT;;MA;;NYMAT;;STANDARD:Standard Avfall:311;Dummytaxa, ny tjänst via ändringsorder Matavfall ÅRKV 0
-NYMAT;;MA|NYMAT;;MA;;NYMAT;;RULE:Taxa_från_edp:37;Tjänsttaxa för ny tjänst matavfall Okänd Matavfall ÅRKV NYMAT | Tjänsttaxa för ny tjänst matavfall | ÅRKV | Tjänsttaxa för ny tjänst matavfall | 0
-NYMATx;;MA|NYMATX;;MA;;NYMATX;;RULE:Taxa_från_edp:38;Tjänsttaxa för ny tjänst matavfall Okänd Matavfall KVAN NYMATx | Tjänsttaxa för ny tjänst matavfall | KVAN | Tjänsttaxa för ny tjänst matavfall | 0
-NYRFID;;MA|NYRFID;;MA;;NYRFID;;RULE:Taxa_från_edp:43;Mottagarantjänstför okänt RFID Okänd ÅRKV NYRFID | Mottagarantjänstför okänt RFID | ÅRKV | Tjänsttaxa för ny tjänst matavfall | 0
-TÖMCOMA;;MA|TÖMCOMA;;MA;;TÖMCOMA;;RULE:Taxa_från_edp:149;Tömningar container, matavfall Okänd Matavfall KVAN TÖMCOMA | Tömningar container, matavfall | KVAN | Tömningar container, matavfall | ANTL
-TÖMUJMA;;MA|TÖMUJMA;;MA;;TÖMUJMA;;RULE:Taxa_från_edp:151;Tömningar underjordsbehållare, matavfall Okänd Matavfall KVAN TÖMUJMA | Tömningar underjordsbehållare, matavfall | KVAN | Tömningar underjordsbehållare, matavfall | ANTL
-UNDERJORDMA;;MA|UNDERJORDMA;;MA;;UNDERJORDMA;;RULE:Taxa_från_edp:58;Tjänsttaxa underjordsbehållare för matavfall Okänd Matavfall ÅRKV UNDERJORDMA | Tjänsttaxa underjordsbehållare för matavfall | ÅRKV | Tjänsttaxa underjordsbehållare för matavfall | 0
-VIKTMATMB;;MA|VIKTMATMB;;MA;;VIKTMATMB;;RULE:Taxa_från_edp:298;Markbehållare , viktavgift matavfall Okänd Matavfall KVAN VIKTMATMB | Markbehållare , viktavgift matavfall | KVAN | Viktavgift matavfall | VIKG
-VIKTMATUJ;;MA|VIKTMATUJ;;MA;;VIKTMATUJ;;RULE:Taxa_från_edp:299;Underjordsbehållare , viktavgift matavfall Okänd Matavfall KVAN VIKTMATUJ | Underjordsbehållare , viktavgift matavfall | KVAN | Viktavgift matavfall | VIKG
-ÅBEHMA;;MA|ÅBEHMA;;MA;;ÅBEHMA;;RULE:Taxa_från_edp:348;ÅVS behandling matavfall Okänd Matavfall KVAN ÅBEHMA | ÅVS behandling matavfall | KVAN | ÅVS behandling matavfall | VIKG
-ÅTÖMMA;;MA|ÅTÖMMA;;MA;;ÅTÖMMA;;RULE:Taxa_från_edp:357;ÅVS tömning matavfall Okänd Matavfall KVAN ÅTÖMMA | ÅVS tömning matavfall | KVAN | ÅVS tömning matavfall | ANTB
-ÅVSMAT;;MA|ÅVSMAT;;MA;;ÅVSMAT;;RULE:Taxa_från_edp:366;ÅVS matavfall. Tjänsttaxa Okänd Matavfall ÅRKV ÅVSMAT | ÅVS matavfall. Tjänsttaxa | ÅRKV | ÅVS matavfall. Tjänsttaxa | 0
-TEST240METE13;;ME;;ME;;;;RULE:Taxa_från_edp:340;240 kärl/4 vecka 2-delat metallförp textil TEST Okänd ÅRKV TEST240METE13 | 240 kärl/4 vecka 2-delat metallförp textil TEST | ÅRKV | 240 kärl/4 test metallförp textil | ANTB
-SORTERING;;ME|SORTERING;;ME;;SORTERING;;RULE:Taxa_från_edp:138;Sortering, sanering mm. Timtid Okänd KVAN SORTERING | Sortering, sanering mm. Timtid | KVAN | Metallskrot, rent. Timtid | TIMT
+NYRFID;;MA|NYRFID;;MA;;NYRFID;;RULE:Taxa_från_edp:163;Mottagarantjänstför okänt RFID Okänd ÅRKV NYRFID | Mottagarantjänstför okänt RFID | ÅRKV | Tvåfackskärl , rest/matavfall. | 0
+VIKTMA;;MA|VIKTMA;;MA;;VIKTMA;;RULE:Taxa_från_edp:264;Vikt, matavfall Okänd Matavfall KVAN VIKTMA | Vikt, matavfall | KVAN | Vikt, matavfall | VIKG
+VIKTMAT;;MA|VIKTMAT;;MA;;VIKTMAT;;RULE:Taxepunkter:106;Viktavgift matavfall Hushåll Matavfall KVAN §2.3.1 | §2.3.1 | Viktavgift matavfall |  | kr/kg | VIKTMAT |  | KVAN |  |  |  | 
+MBSPRINTER;;MBSPRINTER;;;;MBSPRINTER;;RULE:Taxa_från_edp:153;MB Sprinter- externa tjänster Okänd KVAN MBSPRINTER | MB Sprinter- externa tjänster | KVAN | MB Sprinter | TIMT
+MB1400ME;;ME;;ME;;;;RULE:Taxa_från_edp:142;Tömning Markbehållare 1.4 m³, metallförpackningar. Tjänsttaxa Okänd ÅRKV MB1400ME | Tömning Markbehållare 1.4 m³, metallförpackningar. Tjänsttaxa | ÅRKV | Tömning Markbehållare 1.4 m³, metallförpackningar. | 0
+MB1400METÖM;;ME;;ME;;;;RULE:Taxa_från_edp:143;Tömning Markbehållare 1.4 m³, metallförpackningar. Okänd KVAN MB1400METÖM | Tömning Markbehållare 1.4 m³, metallförpackningar. | KVAN | Tömning Markbehållare 1.4 m³, metallförpackningar. | ANTL
+UJ1500ME;;ME;;ME;;;;RULE:Taxa_från_edp:229;Underjordsbehållare 1,5 m³, metallförpackningar. Tjänsttaxa Okänd ÅRKV UJ1500ME | Underjordsbehållare 1,5 m³, metallförpackningar. Tjänsttaxa | ÅRKV | Underjordsbehållare 1,5 m³, metallförpackningar | 0
+UJ1500METÖM;;ME;;ME;;;;RULE:Taxa_från_edp:230;Tömning underjordsbehållare 1,5 m³, metallförpackningar Okänd KVAN UJ1500METÖM | Tömning underjordsbehållare 1,5 m³, metallförpackningar | KVAN | Tömning underjordsbehållare 1,5 m³, metallförpackningar | ANTL
+VIKTME;;ME|VIKTME;;ME;;VIKTME;;RULE:Taxa_från_edp:268;Vikt, metallförpackningar Okänd KVAN VIKTME | Vikt, metallförpackningar | KVAN | Vikt, metallförpackningar | VIKG
 ÅBEHME;;ME|ÅBEHME;;ME;;ÅBEHME;;STANDARD:Standard ÅVS:16;ÅVS behandling metallförpackningar KVAN ANTL
-ÅBEHME;;ME|ÅBEHME;;ME;;ÅBEHME;;RULE:Taxa_från_edp:349;ÅVS behandling metallförpackningar Okänd KVAN ÅBEHME | ÅVS behandling metallförpackningar | KVAN | ÅVS behandling metallförpackningar | VIKG
 ÅBUDME;;ME|ÅBUDME;;ME;;ÅBUDME;;STANDARD:Standard ÅVS:27;ÅVS budad tömning metallförpackningar KVAN ANTL
-ÅSVME;;ME|ÅSVME;;ME;;ÅSVME;;RULE:Taxa_från_edp:354;ÅVS metallförpackningar. Tjänsttaxa Okänd ÅRKV ÅSVME | ÅVS metallförpackningar. Tjänsttaxa | ÅRKV | ÅVS metallförpackningar. Tjänsttaxa | 0
 ÅTÖMME;;ME|ÅTÖMME;;ME;;ÅTÖMME;;STANDARD:Standard ÅVS:15;ÅVS tömning metallförpackningar KVAN ANTL
-ÅTÖMME;;ME|ÅTÖMME;;ME;;ÅTÖMME;;RULE:Taxa_från_edp:358;ÅVS tömning metallförpackningar Okänd KVAN ÅTÖMME | ÅVS tömning metallförpackningar | KVAN | ÅVS tömning metallförpackningar | ANTB
 ÅVSME;;ME|ÅVSME;;ME;;ÅVSME;;STANDARD:Standard ÅVS:5;ÅVS metallförpackningar. Tjänsttaxa ÅRKV ANTB
-ÅVSME;;ME|ÅVSME;;ME;;ÅVSME;;RULE:Taxa_från_edp:367;ÅVS metallförpackningar. Tjänsttaxa Okänd ÅRKV ÅVSME | ÅVS metallförpackningar. Tjänsttaxa | ÅRKV | ÅVS metallförpackningar. Tjänsttaxa | 0
-MOBGEMFRI;;MOBGEMFRI|FRITID;;;;MOBGEMFRI;FRITID;RULE:Taxa_från_edp:130;Mobilnyckel Gemensam uppsamlingsplats, fritidshus Okänd ÅRKV MOBGEMFRI | Mobilnyckel Gemensam uppsamlingsplats, fritidshus | ÅRKV | Extra mobilnyckel | ANTL-1,MIN0
-NEDTAG;;NEDTAG;;;;NEDTAG;;RULE:Taxa_från_edp:201;Nedtagning VA-mätare Okänd KVAN NEDTAG | Nedtagning VA-mätare | KVAN | Nedtagning VA-mätare | ANTL
 NYOSO;;NYOSO;;;;NYOSO;;STANDARD:Standard Avfall:310;Dummytaxa, ny tjänst via ändringsorder Osorterat avfall ÅRKV 0
-NYOSORT;;NYOSORT;;;;NYOSORT;;RULE:Taxa_från_edp:39;Tjänsttaxa för ny tjänst osorterat avfall Okänd ÅRKV NYOSORT | Tjänsttaxa för ny tjänst osorterat avfall | ÅRKV | Tjänsttaxa för ny tjänst osorterat avfall | 0
-NYOSORTx;;NYOSORTX;;;;NYOSORTX;;RULE:Taxa_från_edp:40;Tjänsttaxa för ny tjänst osorterat avfall Okänd KVAN NYOSORTx | Tjänsttaxa för ny tjänst osorterat avfall | KVAN | Tjänsttaxa för ny tjänst osorterat avfall | 0
 NYTJÄNST;;NYTJÄNST;;;;NYTJÄNST;;STANDARD:Standard Avfall:314;Dummytaxa, ny tjänst via ändringsorder ÅRKV 0
-OLJEFILTER;;OLJEFILTER;;;;OLJEFILTER;;RULE:Taxa_från_edp:131;Oljefilter Okänd Oljeavfall KVAN OLJEFILTER | Oljefilter | KVAN | Oljefilter | VIKG
-ORANTALHEM;;ORANTALHEM;;;;ORANTALHEM;;RULE:Taxa_från_edp:44;Orderrad för ändrat antal. Hemtagning Okänd KVAN ORANTALHEM | Orderrad för ändrat antal. Hemtagning | KVAN | Orderrad för ändrat antal. Hemtagning | 0
-ORANTALUTS;;ORANTALUTS;;;;ORANTALUTS;;RULE:Taxa_från_edp:45;Orderrad för ändrat antal kärl, utsättning Okänd KVAN ORANTALUTS | Orderrad för ändrat antal kärl, utsättning | KVAN | Orderrad för ändrat antal kärl, utsättning | 0
-ORFREKVENSBYTE;;ORFREKVENSBYTE;;;;ORFREKVENSBYTE;;RULE:Taxa_från_edp:46;Orderrad för tömningsfrekvensbyte Okänd KVAN ORFREKVENSBYTE | Orderrad för tömningsfrekvensbyte | KVAN | Orderrad för tömningsfrekvensbyte | 0
-ORKÄRLBYTE;;ORKÄRLBYTE;;;;ORKÄRLBYTE;;RULE:Taxa_från_edp:47;Orderrad för kärlbyte storlek, utsättning samt hemtagning Okänd KVAN ORKÄRLBYTE | Orderrad för kärlbyte storlek, utsättning samt hemtagning | KVAN | Orderrad för kärlbyte storlek, utsättning samt hemtagning | 0
-ORNYTJÄNST;;ORNYTJÄNST;;;;ORNYTJÄNST;;RULE:Taxa_från_edp:48;Orderrad för ny tjänst, utsättning Okänd KVAN ORNYTJÄNST | Orderrad för ny tjänst, utsättning | KVAN | Orderrad för ny tjänst, utsättning | 0
-ORTRASIGTKÄ;;ORTRASIGTKÄ;;;;ORTRASIGTKÄ;;RULE:Taxa_från_edp:49;Orderrad för trasigt kärl. Laga/byta Okänd KVAN ORTRASIGTKÄ | Orderrad för trasigt kärl. Laga/byta | KVAN | Orderrad för trasigt kärl. Laga/byta | 0
-EGENKONTRET;;PA|EGENKONTRET;;PA;;EGENKONTRET;;RULE:Taxepunkter:379;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning Hushåll §2.2.7 | §2.2.7 | Egen överlämning av förbrukat kontors-/returpapper enligt anvisning |  | st/år | EGENKONTRET | EGENKONTRET |  |  |  |  | 
+NYTJÄNST;;NYTJÄNST;;;;NYTJÄNST;;RULE:Taxa_från_edp:164;Dummytaxa, ny tjänst via ändringsorder Okänd ÅRKV NYTJÄNST | Dummytaxa, ny tjänst via ändringsorder | ÅRKV | Dummytaxa, ny tjänst via ändringsorder | ANTB
+OA;;OA;;;;OA;;RULE:Taxa_från_edp:165;OBEBOTT AVLOPP Okänd ÅRPR OA | OBEBOTT AVLOPP | ÅRPR | Obebott, avlopp | 
+OMKLASS;;OMKLASS;;;;OMKLASS;;RULE:Taxa_från_edp:166;Omklassning av felsorterad container Okänd KVAN OMKLASS | Omklassning av felsorterad container | KVAN | Omklassning av felsorterad container | ANTL
+ORTRASIGTKÄRL;;ORTRASIGTKÄRL;;;;ORTRASIGTKÄRL;;RULE:Taxa_från_edp:167;Orderrad för trasigt kärl, byta/laga Okänd KVAN ORTRASIGTKÄRL | Orderrad för trasigt kärl, byta/laga | KVAN | Orderrad för trasigt kärl, byta/laga | 0
+OV;;OV;;;;OV;;RULE:Taxa_från_edp:168;OBEBOTT VATTEN Okänd ÅRPR OV | OBEBOTT VATTEN | ÅRPR | Obebott, vatten | 
+OVA;;OVA;;;;OVA;;RULE:Taxa_från_edp:169;OBEBOTT VA Okänd ÅRPR OVA | OBEBOTT VA | ÅRPR | Obebott, vatten och avlopp | 
+MB2600PA;;PA;;PA;;;;RULE:Taxa_från_edp:147;Tömning Markbehållare 2,6 m³, pappersförpackningar. Tjänsttaxa Okänd ÅRKV MB2600PA | Tömning Markbehållare 2,6 m³, pappersförpackningar. Tjänsttaxa | ÅRKV | Tömning Markbehållare 2,6 m³, pappersförpackningar. | 0
+MB2600PATÖM;;PA;;PA;;;;RULE:Taxa_från_edp:148;Tömning Markbehållare 2,6 m³, pappersförpackningar. Okänd KVAN MB2600PATÖM | Tömning Markbehållare 2,6 m³, pappersförpackningar. | KVAN | Tömning Markbehållare 2,6 m³, pappersförpackningar. | ANTL
+UJ5000PA;;PA;;PA;;;;RULE:Taxa_från_edp:237;Underjordsbehållare 5 m³, pappersförpackningar. Tjänsttaxa Okänd ÅRKV UJ5000PA | Underjordsbehållare 5 m³, pappersförpackningar. Tjänsttaxa | ÅRKV | Underjordsbehållare 5 m³, pappersförpackningar | 0
+UJ5000PATÖM;;PA;;PA;;;;RULE:Taxa_från_edp:238;Tömning underjordsbehållare 5 m³, pappersförpackningar Okänd KVAN UJ5000PATÖM | Tömning underjordsbehållare 5 m³, pappersförpackningar | KVAN | Tömning underjordsbehållare 5 m³, pappersförpackningar | ANTL
+VIKTPA;;PA|VIKTPA;;PA;;VIKTPA;;RULE:Taxa_från_edp:269;Vikt, pappersförpackningar Okänd KVAN VIKTPA | Vikt, pappersförpackningar | KVAN | Vikt, pappersförpackningar | VIKG
 ÅBEHPA;;PA|ÅBEHPA;;PA;;ÅBEHPA;;STANDARD:Standard ÅVS:18;ÅVS behandling pappersförpackningar KVAN ANTL
-ÅBEHPA;;PA|ÅBEHPA;;PA;;ÅBEHPA;;RULE:Taxa_från_edp:350;ÅVS behandling pappersförpackningar Okänd KVAN ÅBEHPA | ÅVS behandling pappersförpackningar | KVAN | ÅVS behandling pappersförpackningar | VIKG
 ÅBUDPA;;PA|ÅBUDPA;;PA;;ÅBUDPA;;STANDARD:Standard ÅVS:28;ÅVS budad tömning pappersförpackningar KVAN ANTL
 ÅTÖMPA;;PA|ÅTÖMPA;;PA;;ÅTÖMPA;;STANDARD:Standard ÅVS:17;ÅVS tömning pappersförpackningar KVAN ANTL
-ÅTÖMPA;;PA|ÅTÖMPA;;PA;;ÅTÖMPA;;RULE:Taxa_från_edp:359;ÅVS tömning pappersförpackningar Okänd KVAN ÅTÖMPA | ÅVS tömning pappersförpackningar | KVAN | ÅVS tömning pappersförpackningar | ANTB
 ÅVSPA;;PA|ÅVSPA;;PA;;ÅVSPA;;STANDARD:Standard ÅVS:6;ÅVS pappersförpackningar. Tjänsttaxa ÅRKV ANTB
-ÅVSPA;;PA|ÅVSPA;;PA;;ÅVSPA;;RULE:Taxa_från_edp:368;ÅVS pappersförpackningar. Tjänsttaxa Okänd ÅRKV ÅVSPA | ÅVS pappersförpackningar. Tjänsttaxa | ÅRKV | ÅVS pappersförpackningar. Tjänsttaxa | 0
-BYGGRIVPLAST;;PL|BYGGRIVPLAST;;PL;;BYGGRIVPLAST;;RULE:Taxa_från_edp:75;Bygg- och rivningsavfall, plast Okänd Plast KVAN BYGGRIVPLAST | Bygg- och rivningsavfall, plast | KVAN | Bygg- och rivningsavfall, plast | KBMÖ
-TEST370VV;;PL|LÅS;;PL;;LÅS;;RULE:Taxa_från_edp:342;370 I Kärl/14 dgr 2-delat kärl papper o plast Okänd Plast ÅRKV TEST370VV | 370 I Kärl/14 dgr 2-delat kärl papper o plast | ÅRKV | 370 I Kärl/14 dgr TEST papper plast | ANTB
-TEST370VV;;PL|LÅS;;PL;;LÅS;;RULE:Taxa_från_edp:343;370 I Kärl/14 dgr 2-delat kärl papper o plast Okänd Plast KVAN TEST370VV | 370 I Kärl/14 dgr 2-delat kärl papper o plast | KVAN | 370 I Kärl - viktavgift papper och plast TEST | VIKG
-Miljövagn;;PL|MILJÖVAGN;;PL;;MILJÖVAGN;;RULE:Taxa_från_edp:335;Miljövagn, Papper plast tidning metall glasof glasf Okänd Metall ÅRKV Miljövagn | Miljövagn, Papper plast tidning metall glasof glasf | ÅRKV | Miljövagn | 0
+PERSONAL;;PERSONAL;;;;PERSONAL;;RULE:Taxa_från_edp:170;Personal- externa tjänster Okänd KVAN PERSONAL | Personal- externa tjänster | KVAN | Personal | TIMT
+PERSONBIL;;PERSONBIL;;;;PERSONBIL;;RULE:Taxa_från_edp:171;Personbil- externa tjänster Okänd KVAN PERSONBIL | Personbil- externa tjänster | KVAN | Personbil | TIMT
+MB2600PL;;PL|LÅS;;PL;;LÅS;;RULE:Taxa_från_edp:149;Tömning Markbehållare 2,6 m³, plastförpackning. Tjänsttaxa Okänd ÅRKV MB2600PL | Tömning Markbehållare 2,6 m³, plastförpackning. Tjänsttaxa | ÅRKV | Tömning Markbehållare 2,6 m³, plastförpackning. | 0
+MB2600PLTÖM;;PL|LÅS;;PL;;LÅS;;RULE:Taxa_från_edp:150;Tömning Markbehållare 2,6 m³, plastförpackning. Okänd KVAN MB2600PLTÖM | Tömning Markbehållare 2,6 m³, plastförpackning. | KVAN | Tömning Markbehållare 2,6 m³, plastförpackning. | ANTL
+UJ3200PL;;PL|LÅS;;PL;;LÅS;;RULE:Taxa_från_edp:233;Underjordsbehållare 3,2 m³, plastförpackningar. Tjänsttaxa Okänd ÅRKV UJ3200PL | Underjordsbehållare 3,2 m³, plastförpackningar. Tjänsttaxa | ÅRKV | Underjordsbehållare 3,2 m³, plastförpackningar | 0
+UJ3200PLTÖM;;PL|LÅS;;PL;;LÅS;;RULE:Taxa_från_edp:234;Tömning underjordsbehållare 3,2 m³, plastförpackningar Okänd KVAN UJ3200PLTÖM | Tömning underjordsbehållare 3,2 m³, plastförpackningar | KVAN | Tömning underjordsbehållare 3,2 m³, plastförpackningar | ANTL
+UJ5000PL;;PL|LÅS;;PL;;LÅS;;RULE:Taxa_från_edp:239;Underjordsbehållare 5 m³, plastförpackningar. Tjänsttaxa Okänd ÅRKV UJ5000PL | Underjordsbehållare 5 m³, plastförpackningar. Tjänsttaxa | ÅRKV | Underjordsbehållare 5 m³, plastförpackningar | 0
+UJ5000PLTÖM;;PL|LÅS;;PL;;LÅS;;RULE:Taxa_från_edp:240;Tömning underjordsbehållare 5 m³, plastförpackningar Okänd KVAN UJ5000PLTÖM | Tömning underjordsbehållare 5 m³, plastförpackningar | KVAN | Tömning underjordsbehållare 5 m³, plastförpackningar | ANTL
+VIKTPL;;PL|VIKTPL;;PL;;VIKTPL;;RULE:Taxa_från_edp:270;Vikt, plastförpackningar Okänd KVAN VIKTPL | Vikt, plastförpackningar | KVAN | Vikt, plastförpackningar | VIKG
 ÅBEHPL;;PL|ÅBEHPL;;PL;;ÅBEHPL;;STANDARD:Standard ÅVS:20;ÅVS behandling plastförpackningar KVAN ANTL
-ÅBEHPL;;PL|ÅBEHPL;;PL;;ÅBEHPL;;RULE:Taxa_från_edp:351;ÅVS behandling plastförpackningar Okänd KVAN ÅBEHPL | ÅVS behandling plastförpackningar | KVAN | ÅVS behandling plastförpackningar | VIKG
 ÅBUDPL;;PL|ÅBUDPL;;PL;;ÅBUDPL;;STANDARD:Standard ÅVS:29;ÅVS budad tömning plastförpackningar KVAN ANTL
 ÅTÖMPL;;PL|ÅTÖMPL;;PL;;ÅTÖMPL;;STANDARD:Standard ÅVS:19;ÅVS tömning plastförpackningar KVAN ANTL
-ÅTÖMPL;;PL|ÅTÖMPL;;PL;;ÅTÖMPL;;RULE:Taxa_från_edp:360;ÅVS tömning plastförpackningar Okänd KVAN ÅTÖMPL | ÅVS tömning plastförpackningar | KVAN | ÅVS tömning plastförpackningar | ANTB
 ÅVSPL;;PL|ÅVSPL;;PL;;ÅVSPL;;STANDARD:Standard ÅVS:7;ÅVS plastförpackningar. Tjänsttaxa ÅRKV ANTB
-ÅVSPL;;PL|ÅVSPL;;PL;;ÅVSPL;;RULE:Taxa_från_edp:369;ÅVS plastförpackningar. Tjänsttaxa Okänd ÅRKV ÅVSPL | ÅVS plastförpackningar. Tjänsttaxa | ÅRKV | ÅVS plastförpackningar. Tjänsttaxa | 0
-PÅSLÄPP;;PÅSLÄPP;;;;PÅSLÄPP;;RULE:Taxa_från_edp:202;Påsläpp av vattentillförsel Okänd KVAN PÅSLÄPP | Påsläpp av vattentillförsel | KVAN | Påsläpp av vattentillförsel | ANTL
+PÅMINN;;PÅMINN;;;;PÅMINN;;RULE:Taxa_från_edp:172;Påminnelsavgift Okänd KVAN PÅMINN | Påminnelsavgift | KVAN | Påminnelsavgift | 
 RBRSL;;RBRSL;;;;RBRSL;;STANDARD:Standard Slam:87;Rensbrunn, slam KVAN ANTL
 RBRSLB;;RBRSLB;;;;RBRSLB;;STANDARD:Standard Slam:70;Rensbrunn, slam. Budning KVAN ANTL
 RBRSLBUD;;RBRSLBUD;;;;RBRSLBUD;;STANDARD:Standard Slam:37;Rensbrunn, slam. Budning ÅRKV 7
@@ -380,124 +375,74 @@ MB2200RE13;;RE;;RE;;;;STANDARD:Standard Avfall:220;Markbehållare 2,2 m³, resta
 MB2200RE26;;RE;;RE;;;;STANDARD:Standard Avfall:219;Markbehållare 2,2 m³, restavfall. Var 14:e dag ÅRKV ANTB
 MB2200RE52;;RE;;RE;;;;STANDARD:Standard Avfall:218;Markbehållare 2,2 m³, restavfall. Varje vecka ÅRKV ANTB
 MB2200REBUD;;RE;;RE;;;;STANDARD:Standard Avfall:221;Markbehållare 2,2 m³, restavfall. Budning KVAN ANTL
-MB3200RE26;;RE;;RE;;;;RULE:Taxa_från_edp:269;Tjänsttaxa underjordsbehållare för restavfall Okänd Restavfall ÅRKV MB3200RE26 | Tjänsttaxa underjordsbehållare för restavfall | ÅRKV | Tjänsttaxa underjordsbehållare för restavfall | 0
-MB3200RE26;;RE;;RE;;;;RULE:Taxa_från_edp:270;Tjänsttaxa underjordsbehållare för restavfall Okänd Restavfall KVAN MB3200RE26 | Tjänsttaxa underjordsbehållare för restavfall | KVAN | Viktavgift restavfall kr/kg | VIKG
-MB3200RE26;;RE;;RE;;;;RULE:Taxa_från_edp:271;Tjänsttaxa underjordsbehållare för restavfall Okänd Restavfall KVAN MB3200RE26 | Tjänsttaxa underjordsbehållare för restavfall | KVAN | Tömning Markbehållare 3,2 m³, Restavfall | ANTB
-MB3600RE26;;RE;;RE;;;;RULE:Taxa_från_edp:35;Tjänsttaxa underjordsbehållare för restavfall Okänd Restavfall ÅRKV MB3600RE26 | Tjänsttaxa underjordsbehållare för restavfall | ÅRKV | Tjänsttaxa underjordsbehållare för matavfall | 0
+MB2600RE;;RE;;RE;;;;RULE:Taxa_från_edp:151;Tömning Markbehållare 2,6 m³, restavfall. Tjänsttaxa Okänd Restavfall ÅRKV MB2600RE | Tömning Markbehållare 2,6 m³, restavfall. Tjänsttaxa | ÅRKV | Tömning Markbehållare 2,6 m³, restavfall. | 0
+MB2600RETÖM;;RE;;RE;;;;RULE:Taxa_från_edp:152;Tömning Markbehållare 2,6 m³, restavfall. Okänd Restavfall KVAN MB2600RETÖM | Tömning Markbehållare 2,6 m³, restavfall. | KVAN | Tömning Markbehållare 2,6 m³, restavfall. | ANTL
 MB5000RE13;;RE;;RE;;;;STANDARD:Standard Avfall:226;Markbehållare 5 m³, restavfall. Var 4:e vecka ÅRKV ANTB
 MB5000RE26;;RE;;RE;;;;STANDARD:Standard Avfall:225;Markbehållare 5 m³, restavfall. Var 14:e dag ÅRKV ANTB
 MB5000RE52;;RE;;RE;;;;STANDARD:Standard Avfall:224;Markbehållare 5 m³, restavfall. Varje vecka ÅRKV ANTB
 MB5000REBUD;;RE;;RE;;;;STANDARD:Standard Avfall:227;Markbehållare 5 m³, restavfall. Budning KVAN ANTL
-MBRM2VDH;;RE;;RE;;;;RULE:Taxepunkter:103;Bottentömmande behållare (mat-/restavfall) Hushåll Restavfall §2.2.6 | §2.2.6 | Bottentömmande behållare (mat-/restavfall) | Tillägg för två tömningar per vecka | st/tömning | MBRM2VDH | MBRM2VDH |  |  |  |  | 
-MBRM2VFV;;RE;;RE;;;;RULE:Taxepunkter:86;Bottentömmande behållare (mat-/restavfall) Hushåll Restavfall §2.2.5 | §2.2.5 | Bottentömmande behållare (mat-/restavfall) | Tillägg för två tömningar per vecka | st/tömning | MBRM2VFV | MBRM2VFV |  |  |  |  | 
-MBRMFP2VFV;;RE;;RE;;;;RULE:Taxepunkter:68;Bottentömmande behållare (mat-/restavfall, förpackningar) Hushåll Restavfall §2.2.4 | §2.2.4 | Bottentömmande behållare (mat-/restavfall, förpackningar) | Tillägg för två tömningar per vecka | st/tömning | MBRMFP2VFV | MBRMFP2VFV |  |  |  |  | 
+UJ3200RE;;RE;;RE;;;;RULE:Taxa_från_edp:235;Underjordsbehållare 3,2 m³, restavfall. Tjänsttaxa Okänd Restavfall ÅRKV UJ3200RE | Underjordsbehållare 3,2 m³, restavfall. Tjänsttaxa | ÅRKV | Underjordsbehållare 3,2 m³, restavfall | 0
+UJ3200RETÖM;;RE;;RE;;;;RULE:Taxa_från_edp:236;Tömning underjordsbehållare 3,2 m³, restavfall Okänd Restavfall KVAN UJ3200RETÖM | Tömning underjordsbehållare 3,2 m³, restavfall | KVAN | Tömning underjordsbehållare 3,2 m³, restavfall | ANTL
 MB1300RE104;;RE|2;;RE;2;;;STANDARD:Standard Avfall:211;Markbehållare 1,3 m³, restavfall. 2ggr/ vecka ÅRKV ANTB
 MB2200RE104;;RE|2;;RE;2;;;STANDARD:Standard Avfall:217;Markbehållare 2,2 m³, restavfall. 2ggr/ vecka ÅRKV ANTB
 MB5000RE104;;RE|2;;RE;2;;;STANDARD:Standard Avfall:223;Markbehållare 5 m³, restavfall. 2ggr/ vecka ÅRKV ANTB
-FOBFRI;;RE|FOBFRI|FRITID;;RE;;FOBFRI;FRITID;RULE:Taxa_från_edp:91;Nyckelfob mat- och restavfall fritidshus (engångs) Okänd Restavfall KVAN FOBFRI | Nyckelfob mat- och restavfall fritidshus (engångs) | KVAN | Avser fysisk nyckel för mat-och restavfall - Engångskostnad | ANTL
-GEMUPPFRI;;RE|GEMUPPFRI|FRITID;;RE;;GEMUPPFRI;FRITID;RULE:Taxepunkter:32;Gemensam uppsamlingsplats för mat-/restavfall Hushåll Restavfall §2.2.3 | §2.2.3 | Gemensam uppsamlingsplats för mat-/restavfall |  | st/år | GEMUPPFRI | GEMUPPFRI |  |  |  |  | 
-GEMUPPFRI;;RE|GEMUPPFRI|FRITID;;RE;;GEMUPPFRI;FRITID;RULE:Taxa_från_edp:215;Gemensam uppsamlingsplats, fritidshus Okänd ÅRKV GEMUPPFRI | Gemensam uppsamlingsplats, fritidshus | ÅRKV | Gemensam uppsamlingsplats, mat- och restavfall | FAST
-GEMUPPMR;;RE|GEMUPPMR;;RE;;GEMUPPMR;;RULE:Taxepunkter:372;Gemensam uppsamlingsplats för mat-/restavfall Hushåll Restavfall §2.2.3 | §2.2.3 | Gemensam uppsamlingsplats för mat-/restavfall |  | st/år | GEMUPPMR | GEMUPPMR |  |  |  |  | 
-GEMUPPMRFPFLB;;RE|GEMUPPMRFPFLB|LÄGENHET;;RE;;GEMUPPMRFPFLB;LÄGENHET;RULE:Taxepunkter:69;Gemensam uppsamlingsplats för mat-/restavfall, förpackningar Hushåll Restavfall §2.2.4 | §2.2.4 | Gemensam uppsamlingsplats för mat-/restavfall, förpackningar | Avgift per lägenhet | lägenhet/år | GEMUPPMRFPFLB | GEMUPPMRFPFLB |  |  |  |  | 
-GEMUPPORDFRI;;RE|GEMUPPORDFRI|FRITID;;RE;;GEMUPPORDFRI;FRITID;RULE:Taxa_från_edp:105;Mobilnyckel Gemensam uppsamlingsplats, fritidshus Okänd ÅRKV GEMUPPORDFRI | Mobilnyckel Gemensam uppsamlingsplats, fritidshus | ÅRKV | Mobilnyckel Gemensam uppsamlingsplats, mat- och restavfall | FAST
-LVREDH;;RE|LVREDH;;RE;;LVREDH;;RULE:Taxepunkter:102;Lastväxlarflak (restavfall) Hushåll Restavfall §2.2.6 | §2.2.6 | Lastväxlarflak (restavfall) | Avgift per tömning | st/tömning | LVREDH | LVREDH |  |  |  |  | 
-LVREFV;;RE|LVREFV;;RE;;LVREFV;;RULE:Taxepunkter:85;Lastväxlarflak (restavfall) Hushåll Restavfall §2.2.5 | §2.2.5 | Lastväxlarflak (restavfall) | Avgift per tömning | st/tömning | LVREFV | LVREFV |  |  |  |  | 
-MBRMDH;;RE|MBRMDH;;RE;;MBRMDH;;RULE:Taxepunkter:376;Bottentömmande behållare (mat-/restavfall) Hushåll Restavfall §2.2.6 | §2.2.6 | Bottentömmande behållare (mat-/restavfall) | Avgift per tömning | st/år | MBRMDH | MBRMDH |  |  |  |  | 
-MBRMFPFV;;RE|MBRMFPFV;;RE;;MBRMFPFV;;RULE:Taxepunkter:67;Bottentömmande behållare (mat-/restavfall, förpackningar) Hushåll Restavfall §2.2.4 | §2.2.4 | Bottentömmande behållare (mat-/restavfall, förpackningar) | Avgift per tömning | st/tömning | MBRMFPFV | MBRMFPFV |  |  |  |  | 
-MBRMFV;;RE|MBRMFV;;RE;;MBRMFV;;RULE:Taxepunkter:375;Bottentömmande behållare (mat-/restavfall) Hushåll Restavfall §2.2.5 | §2.2.5 | Bottentömmande behållare (mat-/restavfall) | Avgift per tömning | st/år | MBRMFV | MBRMFV |  |  |  |  | 
-MOBGEMFRI;;RE|MOBGEMFRI|FRITID;;RE;;MOBGEMFRI;FRITID;RULE:Taxa_från_edp:129;Mobilnyckel Gemensam uppsamlingsplats, fritidshus Okänd ÅRKV MOBGEMFRI | Mobilnyckel Gemensam uppsamlingsplats, fritidshus | ÅRKV | Mobilnyckel Gemensam uppsamlingsplats, mat- och restavfall | ANTL, MAX1
+BEHREST;;RE|BEHREST;;RE;;BEHREST;;RULE:Taxa_från_edp:25;Behandlingsavgift Restavfall Okänd Restavfall KVAN BEHREST | Behandlingsavgift Restavfall | KVAN | Behandlingsavgift Restavfall | VITO
+GEMLIPFRI;;RE|GEMLIPFRI|FRITID;;RE;;GEMLIPFRI;FRITID;RULE:Taxa_från_edp:60;Gemensam uppsamlingsplats (LIP), fritidshus Okänd ÅRKV GEMLIPFRI | Gemensam uppsamlingsplats (LIP), fritidshus | ÅRKV | LIP, mat- och restavfall | FAST
+GEMUPPFRI;;RE|GEMUPPFRI|FRITID;;RE;;GEMUPPFRI;FRITID;RULE:Taxepunkter:31;Gemensam uppsamlingsplats för mat-/restavfall Hushåll Restavfall §2.2.3 | §2.2.3 | Gemensam uppsamlingsplats för mat-/restavfall |  | st/år | GEMUPPFRI | GEMUPPFRI |  |  |  |  | 
 NYRES;;RE|NYRES;;RE;;NYRES;;STANDARD:Standard Avfall:309;Dummytaxa, ny tjänst via ändringsorder Restavfall ÅRKV 0
-NYREST;;RE|NYREST;;RE;;NYREST;;RULE:Taxa_från_edp:41;Tjänsttaxa för ny tjänst restavfall Okänd Restavfall ÅRKV NYREST | Tjänsttaxa för ny tjänst restavfall | ÅRKV | Tjänsttaxa för ny tjänst restavfall | 0
-NYRESTx;;RE|NYRESTX;;RE;;NYRESTX;;RULE:Taxa_från_edp:42;Tjänsttaxa för ny tjänst restavfall Okänd Restavfall KVAN NYRESTx | Tjänsttaxa för ny tjänst restavfall | KVAN | Tjänsttaxa för ny tjänst restavfall | 0
-TÖMCORE;;RE|TÖMCORE;;RE;;TÖMCORE;;RULE:Taxa_från_edp:150;Tömningar container, restavfall Okänd Restavfall KVAN TÖMCORE | Tömningar container, restavfall | KVAN | Tömningar container, restavfall | ANTL
-TÖMUJRE;;RE|TÖMUJRE;;RE;;TÖMUJRE;;RULE:Taxa_från_edp:152;Tömningar underjordsbehållare, restavfall Okänd Restavfall KVAN TÖMUJRE | Tömningar underjordsbehållare, restavfall | KVAN | Tömningar underjordsbehållare, restavfall | ANTL
-UNDERJORDRE;;RE|UNDERJORDRE;;RE;;UNDERJORDRE;;RULE:Taxa_från_edp:59;Tjänsttaxa underjordsbehållare för restavfall Okänd Restavfall ÅRKV UNDERJORDRE | Tjänsttaxa underjordsbehållare för restavfall | ÅRKV | Tjänsttaxa underjordsbehållare för restavfall | 0
-VIKTRESTMB;;RE|VIKTRESTMB;;RE;;VIKTRESTMB;;RULE:Taxa_från_edp:304;Markbehållare, viktavgift restavfall Okänd Restavfall KVAN VIKTRESTMB | Markbehållare, viktavgift restavfall | KVAN | Viktavgift restavfall | VIKG
-ÅBEHREST;;RE|ÅBEHREST;;RE;;ÅBEHREST;;RULE:Taxa_från_edp:352;ÅVS behandling restavfall Okänd Restavfall KVAN ÅBEHREST | ÅVS behandling restavfall | KVAN | ÅVS behandling restavfall | VIKG
-ÅTÖMREST;;RE|ÅTÖMREST;;RE;;ÅTÖMREST;;RULE:Taxa_från_edp:361;ÅVS tömning restavfall Okänd Restavfall KVAN ÅTÖMREST | ÅVS tömning restavfall | KVAN | ÅVS tömning restavfall | ANTB
-ÅVSREST;;RE|ÅVSREST;;RE;;ÅVSREST;;RULE:Taxa_från_edp:370;ÅVS restavfall. Tjänsttaxa Okänd Restavfall ÅRKV ÅVSREST | ÅVS restavfall. Tjänsttaxa | ÅRKV | ÅVS restavfall. Tjänsttaxa | 0
+VIKTRE;;RE|VIKTRE;;RE;;VIKTRE;;RULE:Taxa_från_edp:271;Vikt, restavfall Okänd Restavfall KVAN VIKTRE | Vikt, restavfall | KVAN | Vikt, restavfall | VIKG
+VIKTREST;;RE|VIKTREST;;RE;;VIKTREST;;RULE:Taxepunkter:107;Viktavgift restavfall Hushåll Restavfall KVAN §2.3.1 | §2.3.1 | Viktavgift restavfall |  | kr/kg | VIKTREST |  | KVAN |  |  |  | 
+VIKTREST;;RE|VIKTREST;;RE;;VIKTREST;;RULE:Taxa_från_edp:272;Tvåfackskärl, viktavgift rest Okänd KVAN VIKTREST | Tvåfackskärl, viktavgift rest | KVAN | Viktavgift restavfall | VIKG,MAX60
+VIKTREST;;RE|VIKTREST;;RE;;VIKTREST;;RULE:Taxa_från_edp:273;Tvåfackskärl, viktavgift rest Okänd KVAN VIKTREST | Tvåfackskärl, viktavgift rest | KVAN | Vikt över 60 kg, restavfall | VIKG-60,MIN0
 RHKORR;;RHKORR;;;;RHKORR;;STANDARD:Standard Avfall:304;Korrigering av händelse, konto och pris sätts manuellt KVAN ANTL
-SBOSTAD;;SBOSTAD;;;;SBOSTAD;;RULE:Taxa_från_edp:276;Spillvatten Bostad Okänd ÅRPR SBOSTAD | Spillvatten Bostad | ÅRPR | Fast avgift spillvatten | 
-SBOSTAD;;SBOSTAD;;;;SBOSTAD;;RULE:Taxa_från_edp:277;Spillvatten Bostad Okänd FÖRB SBOSTAD | Spillvatten Bostad | FÖRB | Förbrukningsavgift, avlopp | 
-SBOSTAD;;SBOSTAD;;;;SBOSTAD;;RULE:Taxa_från_edp:279;Spillvatten Bostad Okänd ÅRKV SBOSTAD | Spillvatten Bostad | ÅRKV | Avgift per påbörjad 150-tal m² bruttoarea | HELTALSDEL((BTAY+149)/150)
-SBOSTAD;;SBOSTAD|LÄGENHET;;;;SBOSTAD;LÄGENHET;RULE:Taxa_från_edp:278;Spillvatten Bostad Okänd ÅRKV SBOSTAD | Spillvatten Bostad | ÅRKV | Avgift, per lägenhet | LÄGH
-SMS Avvik;;SMSAVVIK;;;;SMSAVVIK;;RULE:Taxa_från_edp:337;Sms Okänd ÅRKV SMS Avvik | Sms | ÅRKV | Sms till kund | ANTL
-SMÅKEM;;SMÅKEM;;;;SMÅKEM;;RULE:Taxa_från_edp:136;Småkemikalier Okänd KVAN SMÅKEM | Småkemikalier | KVAN | Småkemikalier | VIKG
-SMÖRJFETT;;SMÖRJFETT;;;;SMÖRJFETT;;RULE:Taxa_från_edp:137;Smörjfett/oljor Okänd KVAN SMÖRJFETT | Smörjfett/oljor | KVAN | Smörjfett/oljor | VIKG
-SPACKEL;;SPACKEL;;;;SPACKEL;;RULE:Taxa_från_edp:139;Spackel och fönsterkitt Okänd KVAN SPACKEL | Spackel och fönsterkitt | KVAN | Spackel och fönsterkitt | VIKG
-SPILLOLJA;;SPILLOLJA;;;;SPILLOLJA;;RULE:Taxa_från_edp:140;Spillolja Okänd KVAN SPILLOLJA | Spillolja | KVAN | Spillolja | LITE
-SUANNAN;;SUANNAN;;;;SUANNAN;;RULE:Taxa_från_edp:280;Spillvatten Uppsk. Förbrukning Annan fastighet Okänd ÅRPR SUANNAN | Spillvatten Uppsk. Förbrukning Annan fastighet | ÅRPR | Fast avgift spillvatten | 
-SUANNAN;;SUANNAN;;;;SUANNAN;;RULE:Taxa_från_edp:281;Spillvatten Uppsk. Förbrukning Annan fastighet Okänd UPFÖ SUANNAN | Spillvatten Uppsk. Förbrukning Annan fastighet | UPFÖ | Rörlig avgift, uppsk. förbrukning spillvatten | 
-SUBOSTAD;;SUBOSTAD;;;;SUBOSTAD;;RULE:Taxa_från_edp:282;Spillvatten Uppsk. Förbrukning Bostad Okänd ÅRPR SUBOSTAD | Spillvatten Uppsk. Förbrukning Bostad | ÅRPR | Fast avgift spillvatten | 
-SUBOSTAD;;SUBOSTAD;;;;SUBOSTAD;;RULE:Taxa_från_edp:283;Spillvatten Uppsk. Förbrukning Bostad Okänd UPFÖ SUBOSTAD | Spillvatten Uppsk. Förbrukning Bostad | UPFÖ | Rörlig avgift, uppsk. förbrukning spillvatten | 
-SUBOSTAD;;SUBOSTAD;;;;SUBOSTAD;;RULE:Taxa_från_edp:285;Spillvatten Uppsk. Förbrukning Bostad Okänd ÅRKV SUBOSTAD | Spillvatten Uppsk. Förbrukning Bostad | ÅRKV | Avgift per påbörjad 150-tal m² bruttoarea | BTAY
-SUBOSTAD;;SUBOSTAD|LÄGENHET;;;;SUBOSTAD;LÄGENHET;RULE:Taxa_från_edp:284;Spillvatten Uppsk. Förbrukning Bostad Okänd ÅRKV SUBOSTAD | Spillvatten Uppsk. Förbrukning Bostad | ÅRKV | Avgift, per lägenhet | LÄGH
-SYROR;;SYROR;;;;SYROR;;RULE:Taxa_från_edp:141;Syror eller basiskt avfall Okänd KVAN SYROR | Syror eller basiskt avfall | KVAN | Syror eller basiskt avfall | VIKG
+RHTILLAV;;RHTILLAV;;;;RHTILLAV;;RULE:Taxa_från_edp:175;Renh, tillägg-avdrag Okänd KVAN RHTILLAV | Renh, tillägg-avdrag | KVAN | Renh, tillägg-avdrag | 
+SORTERING;;SORTERING;;;;SORTERING;;RULE:Taxa_från_edp:212;Material till sortering (Ej farligt avfall och elavfall) Okänd Elavfall KVAN SORTERING | Material till sortering (Ej farligt avfall och elavfall) | KVAN | Material till sortering | VITO
+SPOLVAGN;;SPOLVAGN;;;;SPOLVAGN;;RULE:Taxa_från_edp:213;Spolvagn- externa tjänster Okänd KVAN SPOLVAGN | Spolvagn- externa tjänster | KVAN | Spolvagn | TIMT
 TBL;;TBL;;;;TBL;;STANDARD:Standard Avfall:442;Transport/ tömning baklastarbil KVAN ANTL
 TBOM;;TBOM;;;;TBOM;;STANDARD:Standard Avfall:432;Transport, bomkörning KVAN ANTL
 TCOTIM;;TCOTIM;;;;TCOTIM;;STANDARD:Standard Avfall:438;Transport/tömning container, timtid KVAN ANTL
 TFB;;TFB;;;;TFB;;STANDARD:Standard Avfall:441;Transport/ tömning flakbil KVAN ANTL
 TFL;;TFL;;;;TFL;;STANDARD:Standard Avfall:440;Transport/ tömning frontlastarbil KVAN ANTL
-ÅBEHTI;;TI|ÅBEHTI;;TI;;ÅBEHTI;;RULE:Taxa_från_edp:353;ÅVS behandling tidningar Okänd KVAN ÅBEHTI | ÅVS behandling tidningar | KVAN | ÅVS behandling tidningar | VIKG
-ÅTÖMTI;;TI|ÅTÖMTI;;TI;;ÅTÖMTI;;RULE:Taxa_från_edp:362;ÅVS tömning tidningar Okänd KVAN ÅTÖMTI | ÅVS tömning tidningar | KVAN | ÅVS tömning tidningar | ANTB
-ÅVSTI;;TI|ÅVSTI;;TI;;ÅVSTI;;RULE:Taxa_från_edp:371;ÅVS tidningar. Tjänsttaxa Okänd ÅRKV ÅVSTI | ÅVS tidningar. Tjänsttaxa | ÅRKV | ÅVS tidningar. Tjänsttaxa | 0
+MB1400TI;;TI;;TI;;;;RULE:Taxa_från_edp:144;Tömning Markbehållare 1.4 m³, tidningar. Tjänsttaxa Okänd ÅRKV MB1400TI | Tömning Markbehållare 1.4 m³, tidningar. Tjänsttaxa | ÅRKV | Tömning Markbehållare 1.4 m³, tidningar. | 0
+MB1400TITÖM;;TI;;TI;;;;RULE:Taxa_från_edp:145;Tömning Markbehållare 1.4 m³, tidningar. Okänd KVAN MB1400TITÖM | Tömning Markbehållare 1.4 m³, tidningar. | KVAN | Tömning Markbehållare 1.4 m³, tidningar. | ANTL
+UJ1500TI;;TI;;TI;;;;RULE:Taxa_från_edp:231;Underjordsbehållare 1,5 m³, tidningar. Tjänsttaxa Okänd ÅRKV UJ1500TI | Underjordsbehållare 1,5 m³, tidningar. Tjänsttaxa | ÅRKV | Underjordsbehållare 1,5 m³, tidningar | 0
+UJ1500TITÖM;;TI;;TI;;;;RULE:Taxa_från_edp:232;Tömning underjordsbehållare 1,5 m³, tidningar Okänd KVAN UJ1500TITÖM | Tömning underjordsbehållare 1,5 m³, tidningar | KVAN | Tömning underjordsbehållare 1,5 m³, tidningar | ANTL
+VIKTTI;;TI|VIKTTI;;TI;;VIKTTI;;RULE:Taxa_från_edp:274;Vikt, tidningar Okänd KVAN VIKTTI | Vikt, tidningar | KVAN | Vikt, tidningar | VIKG
 TLD;;TLD;;;;TLD;;STANDARD:Standard Avfall:443;Transport/ tömning liftdumperbil KVAN ANTL
 TLEVERANS;;TLEVERANS;;;;TLEVERANS;;STANDARD:Standard Avfall:433;Transport, leveranskostnad KVAN ANTL
 TLV;;TLV;;;;TLV;;STANDARD:Standard Avfall:444;Transport/ tömning lastväxlarbil KVAN ANTL
 TSBTIM;;TSBTIM;;;;TSBTIM;;STANDARD:Standard Avfall:439;Transport/ tömning sopbil, timtid KVAN ANTL
+Tungt lock;;TUNGTLOCK;;;;TUNGTLOCK;;RULE:Taxa_från_edp:224;Lyft av tung lock över 15 kilo slam Slam Slam KVAN Tungt lock | Lyft av tung lock över 15 kilo slam | KVAN | Lyft av tungt brunnslock över 15 kg | ANTL
 TUTSTÄLLCO;;TUTSTÄLLCO;;;;TUTSTÄLLCO;;STANDARD:Standard Avfall:436;Transport, utställningskostnad container KVAN ANTL
 TUTSTÄLLKÄ;;TUTSTÄLLKÄ;;;;TUTSTÄLLKÄ;;STANDARD:Standard Avfall:434;Transport, utställningskostnad kärl KVAN ANTL
-TÄNDARE;;TÄNDARE;;;;TÄNDARE;;RULE:Taxa_från_edp:147;Tändare Okänd KVAN TÄNDARE | Tändare | KVAN | Tändare | VIKG
-UNDERSÖK;;UNDERSÖK;;;;UNDERSÖK;;RULE:Taxa_från_edp:203;Undersökning av vattenmätare Okänd KVAN UNDERSÖK | Undersökning av vattenmätare | KVAN | Undersökning av vattenmätare | ANTL
 UPPEHÅLL;;UPPEHÅLL;;;;UPPEHÅLL;;STANDARD:Standard Avfall:308;Dummytaxa för tjänst som har upphåll i hämtning ÅRKV 0
-UPPSÄTT;;UPPSÄTT;;;;UPPSÄTT;;RULE:Taxa_från_edp:204;Uppsättning VA-mätare Okänd KVAN UPPSÄTT | Uppsättning VA-mätare | KVAN | Uppsättning VA-mätare | ANTL
-VANNAN;;VANNAN;;;;VANNAN;;RULE:Taxa_från_edp:287;Vatten Annan fastighet Okänd ÅRPR VANNAN | Vatten Annan fastighet | ÅRPR | Grundavgift VA | 
-VANNAN;;VANNAN;;;;VANNAN;;RULE:Taxa_från_edp:288;Vatten Annan fastighet Okänd FÖRB VANNAN | Vatten Annan fastighet | FÖRB | Avgift per m³ levererat vatten | 
-VANNAN;;VANNAN;;;;VANNAN;;RULE:Taxa_från_edp:289;Vatten Annan fastighet Okänd ÅRKV VANNAN | Vatten Annan fastighet | ÅRKV | Bostadsenhetsavgift | LÄGH
-VANNAN;;VANNAN;;;;VANNAN;;RULE:Taxa_från_edp:290;Vatten Annan fastighet Okänd ÅRKV VANNAN | Vatten Annan fastighet | ÅRKV | Avgift per påbörjad 150-tal m² bruttoarea | HELTALSDEL((BTAY+149)/150)
-VATTENBLAND;;VATTENBLAND;;;;VATTENBLAND;;RULE:Taxa_från_edp:153;Vattenhaltiga blandningar av glykol, olja m.m Okänd Oljeavfall KVAN VATTENBLAND | Vattenhaltiga blandningar av glykol, olja m.m | KVAN | Vattenhaltiga blandningar av glykol, olja m.m | VIKG
-VBOSTAD;;VBOSTAD;;;;VBOSTAD;;RULE:Taxa_från_edp:291;Vatten Bostad Okänd ÅRPR VBOSTAD | Vatten Bostad | ÅRPR | Grundavgift VA | 
-VBOSTAD;;VBOSTAD;;;;VBOSTAD;;RULE:Taxa_från_edp:292;Vatten Bostad Okänd FÖRB VBOSTAD | Vatten Bostad | FÖRB | Avgift per m³ levererat vatten | 
-VBOSTAD;;VBOSTAD;;;;VBOSTAD;;RULE:Taxa_från_edp:293;Vatten Bostad Okänd ÅRKV VBOSTAD | Vatten Bostad | ÅRKV | Bostadsenhetsavgift | LÄGH
-VBOSTAD;;VBOSTAD;;;;VBOSTAD;;RULE:Taxa_från_edp:294;Vatten Bostad Okänd ÅRKV VBOSTAD | Vatten Bostad | ÅRKV | Bostadsenhetsavgift per påbörjad 150-tal m² bruttoarea | HELTALSDEL((BTAY+149)/150)
-AVGNIVÅ1V;;VERKSAMHET;;;;;VERKSAMHET;RULE:Taxa_från_edp:193;ÅVC-abonnemang nivå 1 – ej miljöfarligt avfall. Verksamhet Okänd ÅRPR AVGNIVÅ1V | ÅVC-abonnemang nivå 1 – ej miljöfarligt avfall. Verksamhet | ÅRPR | ÅVC-abonnemang nivå 1 – ej miljöfarligt avfall | 
-AVGNIVÅ2V;;VERKSAMHET;;;;;VERKSAMHET;RULE:Taxa_från_edp:194;ÅVC-abonnemang nivå 2 – med miljöfarligt avfall. Verksamhet Okänd ÅRPR AVGNIVÅ2V | ÅVC-abonnemang nivå 2 – med miljöfarligt avfall. Verksamhet | ÅRPR | ÅVC-abonnemang nivå 2 – med miljöfarligt avfall | 
-VFÖRB;;VFÖRB;;;;VFÖRB;;RULE:Taxa_från_edp:295;Endast förbrukning vatten Okänd FÖRB VFÖRB | Endast förbrukning vatten | FÖRB | Avgift per m³ levererat vatten | 
-VSANNAN;;VSANNAN;;;;VSANNAN;;RULE:Taxa_från_edp:305;Vatten/spillvatten Annan fastighet Okänd ÅRPR VSANNAN | Vatten/spillvatten Annan fastighet | ÅRPR | Fast avgift vatten/spillvatten | 
-VSANNAN;;VSANNAN;;;;VSANNAN;;RULE:Taxa_från_edp:306;Vatten/spillvatten Annan fastighet Okänd FÖRB VSANNAN | Vatten/spillvatten Annan fastighet | FÖRB | Rörlig avgift, förbrukning per m³ | 
-VSANNAN;;VSANNAN;;;;VSANNAN;;RULE:Taxa_från_edp:307;Vatten/spillvatten Annan fastighet Okänd ÅRKV VSANNAN | Vatten/spillvatten Annan fastighet | ÅRKV | Bostadsenhetsavgift VA | LÄGH
-VSANNAN;;VSANNAN;;;;VSANNAN;;RULE:Taxa_från_edp:308;Vatten/spillvatten Annan fastighet Okänd ÅRKV VSANNAN | Vatten/spillvatten Annan fastighet | ÅRKV | Avgift per påbörjad 150-tal m² bruttoarea | HELTALSDEL((BTAY+149)/150)
-VSAVSTÄNGT;;VSAVSTÄNGT;;;;VSAVSTÄNGT;;RULE:Taxa_från_edp:309;Vatten/Spillvatten avstängt 0 förbrukning Okänd ÅRPR VSAVSTÄNGT | Vatten/Spillvatten avstängt 0 förbrukning | ÅRPR | Grundavgift + Bostadsenhetsavgift VA | 
-VSBOSTAD;;VSBOSTAD;;;;VSBOSTAD;;RULE:Taxa_från_edp:310;Vatten/spillvatten Bostad Okänd ÅRPR VSBOSTAD | Vatten/spillvatten Bostad | ÅRPR | Grundavgift VA | 
-VSBOSTAD;;VSBOSTAD;;;;VSBOSTAD;;RULE:Taxa_från_edp:311;Vatten/spillvatten Bostad Okänd FÖRB VSBOSTAD | Vatten/spillvatten Bostad | FÖRB | Rörlig avgift, förbrukning per m³ | 
-VSBOSTAD;;VSBOSTAD;;;;VSBOSTAD;;RULE:Taxa_från_edp:312;Vatten/spillvatten Bostad Okänd ÅRKV VSBOSTAD | Vatten/spillvatten Bostad | ÅRKV | Bostadsenhetsavgift VA | LÄGH
-VSBOSTAD;;VSBOSTAD;;;;VSBOSTAD;;RULE:Taxa_från_edp:313;Vatten/spillvatten Bostad Okänd ÅRKV VSBOSTAD | Vatten/spillvatten Bostad | ÅRKV | Bostadsenhetsavgift per påbörjad 150-tal m² bruttoarea | HELTALSDEL((BTAY+149)/150)
-VSFÖRB;;VSFÖRB;;;;VSFÖRB;;RULE:Taxa_från_edp:314;Endast förbrukning vatten/spillvatten Okänd FÖRB VSFÖRB | Endast förbrukning vatten/spillvatten | FÖRB | Endast förbrukning vatten/spillvatten | 
-VSKORR;;VSKORR;;;;VSKORR;;RULE:Taxa_från_edp:345;Korrigering av händelse, konto och pris sätts manuellt Okänd KVAN VSKORR | Korrigering av händelse, konto och pris sätts manuellt | KVAN | Korrigering av händelse, konto och pris sätts manuellt | 
-VSOMMAR;;VSOMMAR|FRITID;;;;VSOMMAR;FRITID;RULE:Taxa_från_edp:205;Sommarvatten Okänd ÅRKV VSOMMAR | Sommarvatten | ÅRKV | Total årskostnad för sommarvatten per Fritidshus maj-sept | BOEN
-VSUANNAN;;VSUANNAN;;;;VSUANNAN;;RULE:Taxa_från_edp:315;Vatten/spillvatten Uppsk. Förbrukning Annan fastighet Okänd ÅRPR VSUANNAN | Vatten/spillvatten Uppsk. Förbrukning Annan fastighet | ÅRPR | Grundavgift + Bostadsenhetsavgift VA | 
-VSUANNAN;;VSUANNAN;;;;VSUANNAN;;RULE:Taxa_från_edp:316;Vatten/spillvatten Uppsk. Förbrukning Annan fastighet Okänd UPFÖ VSUANNAN | Vatten/spillvatten Uppsk. Förbrukning Annan fastighet | UPFÖ | Rörlig avgift, uppsk. förbrukning per m³ | 
-VSUBOSTAD;;VSUBOSTAD;;;;VSUBOSTAD;;RULE:Taxa_från_edp:317;Vatten/spillvatten Uppsk. förbrukning Bostad Okänd ÅRPR VSUBOSTAD | Vatten/spillvatten Uppsk. förbrukning Bostad | ÅRPR | Grundavgift VA | 
-VSUBOSTAD;;VSUBOSTAD;;;;VSUBOSTAD;;RULE:Taxa_från_edp:318;Vatten/spillvatten Uppsk. förbrukning Bostad Okänd UPFÖ VSUBOSTAD | Vatten/spillvatten Uppsk. förbrukning Bostad | UPFÖ | Rörlig avgift, uppsk. förbrukning per m³ | 
-VSUBOSTAD;;VSUBOSTAD;;;;VSUBOSTAD;;RULE:Taxa_från_edp:319;Vatten/spillvatten Uppsk. förbrukning Bostad Okänd ÅRKV VSUBOSTAD | Vatten/spillvatten Uppsk. förbrukning Bostad | ÅRKV | Bostadsenhetsavgift VA | LÄGH
-VSUBOSTAD;;VSUBOSTAD;;;;VSUBOSTAD;;RULE:Taxa_från_edp:320;Vatten/spillvatten Uppsk. förbrukning Bostad Okänd ÅRKV VSUBOSTAD | Vatten/spillvatten Uppsk. förbrukning Bostad | ÅRKV | Bostadsenhetsavgift, per påbörjad 150-tal m² bruttoarea | HELTALSDEL((BTAY+149)/150)
-VSUFRI;;VSUFRI|FRITID;;;;VSUFRI;FRITID;RULE:Taxa_från_edp:321;Vatten och spillvatten utan mätning fritidshus Okänd ÅRPR VSUFRI | Vatten och spillvatten utan mätning fritidshus | ÅRPR | Grundavgift VA | 
-VSUFRI;;VSUFRI|FRITID;;;;VSUFRI;FRITID;RULE:Taxa_från_edp:322;Vatten och spillvatten utan mätning fritidshus Okänd UPFÖ VSUFRI | Vatten och spillvatten utan mätning fritidshus | UPFÖ | Rörlig avgift uppskattad förbrukning per m³ | 
-VSUFRI;;VSUFRI|FRITID;;;;VSUFRI;FRITID;RULE:Taxa_från_edp:323;Vatten och spillvatten utan mätning fritidshus Okänd ÅRKV VSUFRI | Vatten och spillvatten utan mätning fritidshus | ÅRKV | Bostadsenhetsavgift per bostadsenhet VA | LÄGH
-VSUFRI;;VSUFRI|FRITID;;;;VSUFRI;FRITID;RULE:Taxa_från_edp:324;Vatten och spillvatten utan mätning fritidshus Okänd ÅRKV VSUFRI | Vatten och spillvatten utan mätning fritidshus | ÅRKV | Avgift per påbörjad 150-tal m² bruttoarea | HELTALSDEL((BTAY+149)/150)
-VUANNAN;;VUANNAN;;;;VUANNAN;;RULE:Taxa_från_edp:325;Vatten Uppsk. Förbrukning Annan fastighet Okänd ÅRPR VUANNAN | Vatten Uppsk. Förbrukning Annan fastighet | ÅRPR | Grundavgift VA och Bostadsenhetsavgift | 
-VUANNAN;;VUANNAN;;;;VUANNAN;;RULE:Taxa_från_edp:326;Vatten Uppsk. Förbrukning Annan fastighet Okänd UPFÖ VUANNAN | Vatten Uppsk. Förbrukning Annan fastighet | UPFÖ | Rörlig avgift, uppsk. förbrukning per m³ | 
-VUBOSTAD;;VUBOSTAD;;;;VUBOSTAD;;RULE:Taxa_från_edp:327;Vatten Uppsk. förbrukning Bostad Okänd ÅRPR VUBOSTAD | Vatten Uppsk. förbrukning Bostad | ÅRPR | Grundavgift VA | 
-VUBOSTAD;;VUBOSTAD;;;;VUBOSTAD;;RULE:Taxa_från_edp:328;Vatten Uppsk. förbrukning Bostad Okänd UPFÖ VUBOSTAD | Vatten Uppsk. förbrukning Bostad | UPFÖ | Rörlig avgift, uppsk. förbrukning per m³ | 
-VUBOSTAD;;VUBOSTAD;;;;VUBOSTAD;;RULE:Taxa_från_edp:329;Vatten Uppsk. förbrukning Bostad Okänd ÅRKV VUBOSTAD | Vatten Uppsk. förbrukning Bostad | ÅRKV | Bostadsenhetsavgift | LÄGH
-VUBOSTAD;;VUBOSTAD;;;;VUBOSTAD;;RULE:Taxa_från_edp:330;Vatten Uppsk. förbrukning Bostad Okänd ÅRKV VUBOSTAD | Vatten Uppsk. förbrukning Bostad | ÅRKV | Bostadsenhetsavgift, per påbörjad 150 m² BTA | HELTALSDEL((BTAY+149)/150)
-VUFRI;;VUFRI|FRITID;;;;VUFRI;FRITID;RULE:Taxa_från_edp:331;Vatten utan mätare fritidshus Okänd ÅRPR VUFRI | Vatten utan mätare fritidshus | ÅRPR | Grundavgift + Bostadsenhetsavgift VA | 
-VUFRI;;VUFRI|FRITID;;;;VUFRI;FRITID;RULE:Taxa_från_edp:332;Vatten utan mätare fritidshus Okänd UPFÖ VUFRI | Vatten utan mätare fritidshus | UPFÖ | Rörlig avgift, uppsk. förbrukning per m³ | 
+UTEDASS;;UTEDASS;;;;UTEDASS;;RULE:Taxa_från_edp:243;Utedass Okänd ÅRKV UTEDASS | Utedass | ÅRKV | Utedass | ANTL
+V;;V;;;;V;;RULE:Taxa_från_edp:244;VATTEN BOSTADSHUS Okänd ÅRPR V | VATTEN BOSTADSHUS | ÅRPR | Vatten bostadshus | 
+VA;;VA;;;;VA;;RULE:Taxa_från_edp:245;VA-AVGIFTER Okänd FÖRB VA | VA-AVGIFTER | FÖRB | Förbrukning | 
+VA;;VA;;;;VA;;RULE:Taxa_från_edp:246;VA-AVGIFTER Okänd ÅRPR VA | VA-AVGIFTER | ÅRPR | Grund och mätaravgift | 
+VAF;;VAF;;;;VAF;;RULE:Taxa_från_edp:247;VA-ENDAST FÖRBRUKNING Okänd FÖRB VAF | VA-ENDAST FÖRBRUKNING | FÖRB | Förbrukning | 
+VAFP;;VAFP|FRITID;;;;VAFP;FRITID;RULE:Taxa_från_edp:248;VA FRITIDSHUS PARHUS Okänd ÅRPR VAFP | VA FRITIDSHUS PARHUS | ÅRPR | Vatten och avlopp | 
+VAK;;VAK;;;;VAK;;RULE:Taxa_från_edp:249;VA MAX 200 kvm Okänd ÅRPR VAK | VA MAX 200 kvm | ÅRPR | Vatten och avlopp | 
+VAOBF;;VAOBF;;;;VAOBF;;RULE:Taxa_från_edp:255;VA, OBEBYGGD FASTIGHET INOM DETALJLAGT OMRÅDE Okänd ÅRPR VAOBF | VA, OBEBYGGD FASTIGHET INOM DETALJLAGT OMRÅDE | ÅRPR | VA inom detaljplan obebyggd | 
+VAOB;;VAOB|PERMANENT;;;;VAOB;PERMANENT;RULE:Taxa_från_edp:254;PERMANENTHUS, OBEBOTT LÄNGRE ÄN 3 MÅN Okänd ÅRPR VAOB | PERMANENTHUS, OBEBOTT LÄNGRE ÄN 3 MÅN | ÅRPR | Vatten avlopp obebott | 
+VATILLAV;;VATILLAV;;;;VATILLAV;;RULE:Taxa_från_edp:256;VA, tillägg-avdrag Okänd KVAN VATILLAV | VA, tillägg-avdrag | KVAN | VA, tillägg-avdrag | 
+VAUMC;;VAUMC|FRITID;;;;VAUMC;FRITID;RULE:Taxa_från_edp:258;VA FRITIDSHUS CAMPING Okänd ÅRPR VAUMC | VA FRITIDSHUS CAMPING | ÅRPR | Fast avgift camping | 
+VAUMC;;VAUMC|FRITID;;;;VAUMC;FRITID;RULE:Taxa_från_edp:259;VA FRITIDSHUS CAMPING Okänd ÅRKV VAUMC | VA FRITIDSHUS CAMPING | ÅRKV | Extra för varje stuga | STUG
+VAUMF;;VAUMF|FRITID;;;;VAUMF;FRITID;RULE:Taxa_från_edp:260;VA FRITIDSHUS Okänd ÅRPR VAUMF | VA FRITIDSHUS | ÅRPR | Fast avgift va fritidshus | 
+VAUM;;VAUM|PERMANENT;;;;VAUM;PERMANENT;RULE:Taxa_från_edp:257;VA Permanentboende Okänd ÅRPR VAUM | VA Permanentboende | ÅRPR | VA Fast avgift - permanentbo. | 
+BDT03SLORD;;VERKSAMHET;;;;;VERKSAMHET;RULE:Taxepunkter:170;Bad-, disk- och tvättbrunn upp till 3 m3 Flerbostad/verksamhet Volym ÅRKV §3.1.1 | §3.1.1 | Bad-, disk- och tvättbrunn upp till 3 m3 |  | kr/tömning | BDT03SLORD | BDT03SLORD | ÅRKV |  |  |  | 
+BDT36SLORD;;VERKSAMHET;;;;;VERKSAMHET;RULE:Taxepunkter:167;Mellan 3 m3 och 6 m3 Flerbostad/verksamhet Volym ÅRKV §3.1.1 | §3.1.1 | Mellan 3 m3 och 6 m3 |  | kr/tömning | BDT36SLORD | BDT36SLORD | ÅRKV |  |  |  | 
+BRN03SLORD;;VERKSAMHET;;;;;VERKSAMHET;RULE:Taxepunkter:166;Upp till 3 m3 Flerbostad/verksamhet Volym ÅRKV §3.1.1 | §3.1.1 | Upp till 3 m3 |  | kr/tömning | BRN03SLORD | BRN03SLORD | ÅRKV |  |  |  | 
+BRNÖ6SLORD;;VERKSAMHET;;;;;VERKSAMHET;RULE:Taxepunkter:168;Mellan 6 m3 och 9 m3 Flerbostad/verksamhet Volym ÅRKV §3.1.1 | §3.1.1 | Mellan 6 m3 och 9 m3 |  | kr/tömning | BRNÖ6SLORD | BRNÖ6SLORD | ÅRKV |  |  |  | 
+VF;;VF|FRITID;;;;VF;FRITID;RULE:Taxa_från_edp:261;VATTEN FRITIDSHUS Okänd ÅRPR VF | VATTEN FRITIDSHUS | ÅRPR | Vatten fritidshus | 
+VIKTGF;;VIKTGF;;;;VIKTGF;;RULE:Taxa_från_edp:262;Vikt, glasförpackningar färgat Okänd KVAN VIKTGF | Vikt, glasförpackningar färgat | KVAN | Vikt, glasförpackningar färgat | VIKG
+VIKTGO;;VIKTGO;;;;VIKTGO;;RULE:Taxa_från_edp:263;Vikt, glasförpackningar ofärgat Okänd KVAN VIKTGO | Vikt, glasförpackningar ofärgat | KVAN | Vikt, glasförpackningar ofärgat | VIKG
+VIKTMAREST;;VIKTMAREST;;;;VIKTMAREST;;RULE:Taxa_från_edp:265;Vikt hushållsavfall ma/rest Okänd KVAN VIKTMAREST | Vikt hushållsavfall ma/rest | KVAN | Viktavgift hushållsavfall | VIKG
+VOBF;;VOBF;;;;VOBF;;RULE:Taxa_från_edp:275;V, OBEBYGGD FASTIGHET Okänd ÅRPR VOBF | V, OBEBYGGD FASTIGHET | ÅRPR | Vatten obebygg. inom detaljp. | 
 ÄNDRAVG;;ÄNDRAVG;;;;ÄNDRAVG;;STANDARD:Standard Avfall:300;Ändringsavgift KVAN ANTL
+ÄNDRING;;ÄNDRING;;;;ÄNDRING;;RULE:Taxa_från_edp:277;Ändring på kund Okänd KVAN ÄNDRING | Ändring på kund | KVAN | Ändring på kund | ANTL
 ÅBEHGF;;ÅBEHGF;;;;ÅBEHGF;;STANDARD:Standard ÅVS:12;ÅVS behandling glasförpackningar, färgade KVAN ANTL
-ÅBEHGF;;ÅBEHGF;;;;ÅBEHGF;;RULE:Taxa_från_edp:346;ÅVS behandling glasförpackningar, färgade Okänd KVAN ÅBEHGF | ÅVS behandling glasförpackningar, färgade | KVAN | ÅVS behandling glasförpackningar, färgade | VIKG
 ÅBEHGO;;ÅBEHGO;;;;ÅBEHGO;;STANDARD:Standard ÅVS:14;ÅVS behandling glasförpackningar, ofärgade KVAN ANTL
-ÅBEHGO;;ÅBEHGO;;;;ÅBEHGO;;RULE:Taxa_från_edp:347;ÅVS behandling glasförpackningar, ofärgade Okänd KVAN ÅBEHGO | ÅVS behandling glasförpackningar, ofärgade | KVAN | ÅVS behandling glasförpackningar, ofärgade | VIKG
 ÅBUDGF;;ÅBUDGF;;;;ÅBUDGF;;STANDARD:Standard ÅVS:25;ÅVS budad tömning glasförpackningar, färgade KVAN ANTL
 ÅBUDGO;;ÅBUDGO;;;;ÅBUDGO;;STANDARD:Standard ÅVS:26;ÅVS budad tömning glasförpackningar, ofärgade KVAN ANTL
 ÅBUDRE;;ÅBUDRE;;;;ÅBUDRE;;STANDARD:Standard ÅVS:30;ÅVS budad renhållning KVAN ANTL
@@ -505,46 +450,29 @@ VUFRI;;VUFRI|FRITID;;;;VUFRI;FRITID;RULE:Taxa_från_edp:332;Vatten utan mätare 
 ÅFYLL;;ÅFYLL;;;;ÅFYLL;;STANDARD:Standard ÅVS:23;ÅVS fyllnadsgrad x - y KVAN ANTL
 ÅRENH;;ÅRENH;;;;ÅRENH;;STANDARD:Standard ÅVS:21;ÅVS renhållning KVAN ANTL
 ÅTÖMGF;;ÅTÖMGF;;;;ÅTÖMGF;;STANDARD:Standard ÅVS:11;ÅVS tömning glasförpackningar, färgade KVAN ANTL
-ÅTÖMGF;;ÅTÖMGF;;;;ÅTÖMGF;;RULE:Taxa_från_edp:355;ÅVS tömning, glasförpackningar, färgade Okänd KVAN ÅTÖMGF | ÅVS tömning, glasförpackningar, färgade | KVAN | ÅVS tömning, glasförpackningar, färgade | ANTB
 ÅTÖMGO;;ÅTÖMGO;;;;ÅTÖMGO;;STANDARD:Standard ÅVS:13;ÅVS tömning glasförpackningar, ofärgade KVAN ANTL
-ÅTÖMGO;;ÅTÖMGO;;;;ÅTÖMGO;;RULE:Taxa_från_edp:356;ÅVS tömning glasförpackningar, ofärgade Okänd KVAN ÅTÖMGO | ÅVS tömning glasförpackningar, ofärgade | KVAN | ÅVS tömning glasförpackningar, ofärgade | ANTB
-ÅVCVERKSAMFA;;ÅVCVERKSAMFA|VERKSAMHET;;;;ÅVCVERKSAMFA;VERKSAMHET;RULE:Taxa_från_edp:207;ÅVC abonnemang 2 - farligt avfall ÅVC/verksamhetsavfall ÅRKV ÅVCVERKSAMFA | ÅVC abonnemang 2 - farligt avfall | ÅRKV | ÅVC-abonnemang nivå 2 – med miljöfarligt avfall | FAST
-ÅVCVERKSAM;;ÅVCVERKSAM|VERKSAMHET;;;;ÅVCVERKSAM;VERKSAMHET;RULE:Taxa_från_edp:206;ÅVC abonnemang 1 - ej miljöfarligt avfall ÅVC/verksamhetsavfall ÅRKV ÅVCVERKSAM | ÅVC abonnemang 1 - ej miljöfarligt avfall | ÅRKV | ÅVC-abonnemang nivå 1 – ej miljöfarligt avfall | FAST
 ÅVINH;;ÅVINH;;;;ÅVINH;;STANDARD:Standard ÅVS:22;ÅVS vinterhållning KVAN ANTL
-ÅVSFYLL;;ÅVSFYLL;;;;ÅVSFYLL;;RULE:Taxa_från_edp:363;Fyllnadsgrad Okänd KVAN ÅVSFYLL | Fyllnadsgrad | KVAN | Fyllnadsgrad | FYLL
 ÅVSGF;;ÅVSGF;;;;ÅVSGF;;STANDARD:Standard ÅVS:3;ÅVS glasförpackningar, färgade. Tjänsttaxa ÅRKV ANTB
-ÅVSGF;;ÅVSGF;;;;ÅVSGF;;RULE:Taxa_från_edp:364;ÅVS, glasförpackningar, färgade, Tjänsttaxa Okänd ÅRKV ÅVSGF | ÅVS, glasförpackningar, färgade, Tjänsttaxa | ÅRKV | ÅVS, glasförpackningar, färgade, Tjänsttaxa | 0
 ÅVSGO;;ÅVSGO;;;;ÅVSGO;;STANDARD:Standard ÅVS:4;ÅVS glasförpackningar, ofärgade. Tjänsttaxa ÅRKV ANTB
-ÅVSGO;;ÅVSGO;;;;ÅVSGO;;RULE:Taxa_från_edp:365;ÅVS glasförpackningar, ofärgade. Tjänsttaxa Okänd ÅRKV ÅVSGO | ÅVS glasförpackningar, ofärgade. Tjänsttaxa | ÅRKV | ÅVS glasförpackningar, ofärgade. Tjänsttaxa | 0
 ÅVSRE;;ÅVSRE;;;;ÅVSRE;;STANDARD:Standard ÅVS:8;ÅVS renhållning. Tjänsttaxa ÅRKV ANTB
 ÅVSVI;;ÅVSVI;;;;ÅVSVI;;STANDARD:Standard ÅVS:9;ÅVS vinterhållning. Tjänsttaxa ÅRKV ANTB
-140MAT;140MA;140|MA|T;140;MA;;T;;RULE:Taxa_från_edp:2;140L kärl, viktavgift matavfall Okänd Matavfall Behållarvolym KVAN 140MAT | 140L kärl, viktavgift matavfall | KVAN | 140L kärl - viktavgift matavfall | VIKG,MAX60
-140MAT;140MA;140|MA|T;140;MA;;T;;RULE:Taxa_från_edp:3;140L kärl, viktavgift matavfall Okänd Matavfall Behållarvolym KVAN 140MAT | 140L kärl, viktavgift matavfall | KVAN | Överviktsavgift för vikt över 60 kg, matavfall | VIKG-60,MIN0
-370REST;370RE;370|RE|ST;370;RE;;ST;;RULE:Taxa_från_edp:4;140-370L kärl, viktavgift restavfall Okänd Restavfall Behållarvolym KVAN 370REST | 140-370L kärl, viktavgift restavfall | KVAN | 140-370L kärl - viktavgift restavfall | VIKG,MAX60
-370REST;370RE;370|RE|ST;370;RE;;ST;;RULE:Taxa_från_edp:5;140-370L kärl, viktavgift restavfall Okänd Restavfall Behållarvolym KVAN 370REST | 140-370L kärl, viktavgift restavfall | KVAN | Överviktsavgift för vikt över 60 kg, restavfall | VIKG-60,MIN0
-660REST;660RE;660|RE|ST;660;RE;;ST;;RULE:Taxa_från_edp:6;660L kärl, viktavgift restavfall Okänd Restavfall Behållarvolym KVAN 660REST | 660L kärl, viktavgift restavfall | KVAN | 660L kärl - viktavgift restavfall | VIKG,MAX100
-660REST;660RE;660|RE|ST;660;RE;;ST;;RULE:Taxa_från_edp:7;660L kärl, viktavgift restavfall Okänd Restavfall Behållarvolym KVAN 660REST | 660L kärl, viktavgift restavfall | KVAN | Överviktsavgift för vikt över 100 kg, restavfall | VIKG-100,MIN0
-ASBEST;ASB;ASB|EST;;ASB;;EST;;RULE:Taxa_från_edp:65;Asbest max 15kg Okänd Asbest KVAN ASBEST | Asbest max 15kg | KVAN | Asbest max 15kg | KBMÖ
-ASBESTEMB;ASB;ASB|ESTEMB;;ASB;;ESTEMB;;RULE:Taxa_från_edp:66;Asbest, emballeringskostnad vid dåligt emballage Okänd Asbest KVAN ASBESTEMB | Asbest, emballeringskostnad vid dåligt emballage | KVAN | Asbest, emballeringskostnad vid dåligt emballage | KBMÖ
-CONTAINERMA;CON;MA|TAINERMA;;MA;;TAINERMA;;RULE:Taxa_från_edp:22;Tjänsttaxa container för matavfall Okänd Matavfall ÅRKV CONTAINERMA | Tjänsttaxa container för matavfall | ÅRKV | Tjänsttaxa container för matavfall | 0
-CONTAINERRE;CON;RE|TAINERRE;;RE;;TAINERRE;;RULE:Taxa_från_edp:23;Tjänsttaxa container för restavfall Okänd Restavfall ÅRKV CONTAINERRE | Tjänsttaxa container för restavfall | ÅRKV | Tjänsttaxa container för restavfall | 0
-FARLIGTAVFALL;FA;RLIGTAVFALL;;;;RLIGTAVFALL;;RULE:Taxa_från_edp:26;Tjänsttaxa för farligt avfall Okänd Farligt avfall ÅRKV FARLIGTAVFALL | Tjänsttaxa för farligt avfall | ÅRKV | Tjänsttaxa för farligt avfall | 0
-FARLIGTBUD;FA;RLIGTBUD;;;;RLIGTBUD;;RULE:Taxa_från_edp:88;Budning av farligt avfall per m³ Okänd Farligt avfall KVAN FARLIGTBUD | Budning av farligt avfall per m³ | KVAN | Budning av farligt avfall per m³ | ANTL
+CONT10ASBUD;CON;BASE;;;;;;RULE:Taxa_från_edp:39;Container 10m3 Aska Okänd ÅRKV CONT10ASBUD | Container 10m3 Aska | ÅRKV | Container 10m3 Aska | ANTB
+CONT12SLBUD;CON;BASE;;;;;;RULE:Taxa_från_edp:41;Container 12 m3, Slam Slam Slam Volym ÅRKV CONT12SLBUD | Container 12 m3, Slam | ÅRKV | Container 12 m3, Slam | ANTB
+CONT12_6FREBUD;CON;RE;;RE;;;;RULE:Taxa_från_edp:40;Container 12m3 6-fack Restavfall Okänd Restavfall ÅRKV CONT12_6FREBUD | Container 12m3 6-fack Restavfall | ÅRKV | Container 12m3 6-fack | ANTB
+FARLIGTBUD;FA;RLIGTBUD;;;;RLIGTBUD;;RULE:Taxa_från_edp:49;Budning av farligt avfall, pris per tillfälle Okänd Farligt avfall Tillfälle KVAN FARLIGTBUD | Budning av farligt avfall, pris per tillfälle | KVAN | Budning av farligt avfall, pris per tillfälle | ANTL
 FASTFE;FA;STFE;;;;STFE;;STANDARD:Standard Slam:4;Fast grundavgift, fett ÅRKV FAST/GRUND/ANTL
 FASTFLB;FA;STFLB;;;;STFLB;;STANDARD:Standard Avfall:4;Fast grundavgift,  flerbostadshus per bostadsenhet ÅRKV FAST
 FASTFRI;FA;STFRI|FRITID;;;;STFRI;FRITID;STANDARD:Standard Avfall:5;Fast grundavgift, fritidshus ÅRKV FAST
-FASTOLJEAVFALL;FA;STOLJEAVFALL;;;;STOLJEAVFALL;;RULE:Taxa_från_edp:89;Fast oljeavfall Okänd Oljeavfall KVAN FASTOLJEAVFALL | Fast oljeavfall | KVAN | Fast oljeavfall | VIKG
 FASTSL;FA;STSL;;;;STSL;;STANDARD:Standard Slam:3;Fast grundavgift, slam ÅRKV FAST/GRUND/ANTL
 FASTSMÅ;FA;STSMÅ;;;;STSMÅ;;STANDARD:Standard Avfall:3;Fast grundavgift, småhus ÅRKV FAST
-FASTSODA;FA;STSODA;;;;STSODA;;RULE:Taxa_från_edp:90;Fast soda i små emballage Okänd KVAN FASTSODA | Fast soda i små emballage | KVAN | Fast soda i små emballage | VIKG
 FASTVHT;FA;STVHT|VERKSAMHET;;;;STVHT;VERKSAMHET;STANDARD:Standard Avfall:6;Fast grundavgift, verksamheter ÅRKV FAST
-KÄRLBYTE240;KÄ;240|EX;240;;;EX;;RULE:Taxa_från_edp:264;Byte/återtag av behållare en extra gång 140–240 liter Okänd Behållarvolym KVAN KÄRLBYTE240 | Byte/återtag av behållare en extra gång 140–240 liter | KVAN | Byte/återtag av behållare en extra gång 140–240 liter | ANTL
-KÄRLBYTE660;KÄ;660|EX;660;;;EX;;RULE:Taxa_från_edp:120;Byte/återtag av behållare en extra gång 370–660 liter Okänd Behållarvolym KVAN KÄRLBYTE660 | Byte/återtag av behållare en extra gång 370–660 liter | KVAN | Byte/återtag av behållare en extra gång 370–660 liter | ANTL
+KÄRLBYTE240;KÄ;240|1;240;;1;;;RULE:Taxa_från_edp:130;Byte/återtag av behållare 140–240 L, 1 ggr/år Okänd Behållarvolym KVAN KÄRLBYTE240 | Byte/återtag av behållare 140–240 L, 1 ggr/år | KVAN | Byte/återtag av behållare 140–240 L, 1 ggr/år | ANTL
+KÄRLBYTE660;KÄ;660|1;660;;1;;;RULE:Taxa_från_edp:131;Byte/återtag av behållare 370–660 L, 1 ggr/år Okänd Behållarvolym KVAN KÄRLBYTE660 | Byte/återtag av behållare 370–660 L, 1 ggr/år | KVAN | Byte/återtag av behållare 370–660 L, 1 ggr/år | ANTL
 KÄOSBUD;KÄ;660|OSBUD;660;;;OSBUD;;STANDARD:Standard Avfall:184;Kärl 140-660 L, osort. avfall. Budning KVAN ANTL
 KÄEXTORD;KÄ;EX;;;;EX;;STANDARD:Standard Avfall:301;Tömning extra kärl/säck, ordinarie tur KVAN ANTB
 KÄLABUD;KÄ;LABUD;;;;LABUD;;STANDARD:Standard Avfall:207;Kärl, latrin. Budning KVAN ANTL
 KÄLAEXTORD;KÄ;LAEXTORD;;;;LAEXTORD;;STANDARD:Standard Avfall:208;Kärl, latrin. Extrakärl, ordinarie hämtning KVAN ANTL
-KÄRLBYTEFLER;KÄ;RLBYTEFLER;;;;RLBYTEFLER;;RULE:Taxa_från_edp:121;Ytterligare byte av kärl under kalenderåret Okänd KVAN KÄRLBYTEFLER | Ytterligare byte av kärl under kalenderåret | KVAN | Ytterligare byte av kärl under kalenderåret | ANTL
+KÄRLBYTEFLER;KÄ;RLBYTEFLER;;;;RLBYTEFLER;;RULE:Taxa_från_edp:132;Ytterligare byte av kärl under kalenderåret Okänd KVAN KÄRLBYTEFLER | Ytterligare byte av kärl under kalenderåret | KVAN | Ytterligare byte av kärl under kalenderåret | ANTL
 KÄRLTVÄTT;KÄ;RLTVÄTT;;;;RLTVÄTT;;STANDARD:Standard Avfall:299;Kärltvätt, pris per kärl ÅRKV eller KVAN ANTB eller ANTL
 KÄ140OS11S;KÄ140;140;140;;;;;STANDARD:Standard Avfall:127;Kärl 140 L, osort. avfall. Var 14:e dag säsong ÅRKV ANTB
 KÄ140OS13;KÄ140;140;140;;;;;STANDARD:Standard Avfall:124;Kärl 140 L, osort. avfall. Var 4:e vecka ÅRKV ANTB
@@ -557,31 +485,24 @@ KÄ140OS44S;KÄ140;140|2;140;;2;;;STANDARD:Standard Avfall:125;Kärl 140 L, osor
 KÄ140OS156;KÄ140;140|3;140;;3;;;STANDARD:Standard Avfall:120;Kärl 140 L, osort. avfall. 3ggr/ vecka ÅRKV ANTB
 KÄ140MA104;KÄ140MA;140|MA|104;140;MA;104;;;STANDARD:Standard Avfall:78;Kärl 140 L, matavfall. 2ggr/ vecka ÅRKV ANTB
 KÄ140MA11S;KÄ140MA;140|MA|11|S;140;MA;11;S;;STANDARD:Standard Avfall:84;Kärl 140 L, matavfall. Var 14:e dag säsong ÅRKV ANTB
-KÄ140MA12DH;KÄ140MA;140|MA|12|DH;140;MA;12;DH;;RULE:Taxepunkter:100;Kärl 140 l (matavfall) Hushåll Matavfall Behållarvolym VOLYM/BEHÅLLARE 140 §2.2.6 | §2.2.6 | Kärl 140 l (matavfall) | Hämtning månadsvis | st/år | KÄ140MA12DH | KÄ140MA12DH |  |  |  |  | 
-KÄ140MA12FV;KÄ140MA;140|MA|12|FV|FRITID;140;MA;12;FV;FRITID;RULE:Taxepunkter:51;Kärl 140 l (matavfall) Hushåll Matavfall Behållarvolym VOLYM/BEHÅLLARE 140 §2.2.4 | §2.2.4 | Kärl 140 l (matavfall) | Hämtning månadsvis | st/år | KÄ140MA12FV | KÄ140MA12FV |  |  |  |  | 
 KÄ140MA13;KÄ140MA;140|MA|13;140;MA;13;;;STANDARD:Standard Avfall:81;Kärl 140 L, matavfall. Var 4:e vecka ÅRKV ANTB
 KÄ140MA156;KÄ140MA;140|MA|156;140;MA;156;;;STANDARD:Standard Avfall:77;Kärl 140 L, matavfall. 3ggr/ vecka ÅRKV ANTB
 KÄ140MA22S;KÄ140MA;140|MA|22|S;140;MA;22;S;;STANDARD:Standard Avfall:83;Kärl 140 L, matavfall. Varje vecka säsong ÅRKV ANTB
 KÄ140MA26;KÄ140MA;140|MA|26;140;MA;26;;;STANDARD:Standard Avfall:80;Kärl 140 L, matavfall. Var 14:e dag ÅRKV ANTB
-KÄ140MA26DH;KÄ140MA;140|MA|26|DH;140;MA;26;DH;;RULE:Taxepunkter:99;Kärl 140 l (matavfall) Hushåll Matavfall Behållarvolym VOLYM/BEHÅLLARE 140 §2.2.6 | §2.2.6 | Kärl 140 l (matavfall) | Hämtning var 14:e dag | st/år | KÄ140MA26DH | KÄ140MA26DH |  |  |  |  | 
-KÄ140MA26FV;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxepunkter:50;Kärl 140 l (matavfall) Hushåll Matavfall Behållarvolym VOLYM/BEHÅLLARE 140 §2.2.4 | §2.2.4 | Kärl 140 l (matavfall) | Hämtning var 14:e dag | st/år | KÄ140MA26FV | KÄ140MA26FV |  |  |  |  | 
-KÄ140MA26FV;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxepunkter:82;Kärl 140 l (matavfall) Hushåll Matavfall Behållarvolym VOLYM/BEHÅLLARE 140 §2.2.5 | §2.2.5 | Kärl 140 l (matavfall) | Hämtning var 14:e dag | st/år | KÄ140MA26FV | KÄ140MA26FV |  |  |  |  | 
-KÄ140MA26FV;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxa_från_edp:216;Kärl 140L, matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ140MA26FV | Kärl 140L, matavfall. Var 14:e dag. FLB/VHT | ÅRKV | Kärl 140L, matavfall. Var 14:e dag | ANTB
-KÄ140MA26FV;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxa_från_edp:217;Kärl 140L, matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym KVAN KÄ140MA26FV | Kärl 140L, matavfall. Var 14:e dag. FLB/VHT | KVAN | Kärl 140L Viktavgift matavfall kr/kg | VIKG,MAX60
-KÄ140MA26FV;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxa_från_edp:218;Kärl 140L, matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ140MA26FV | Kärl 140L, matavfall. Var 14:e dag. FLB/VHT | ÅRKV | Dragväg 1,5-10 meter | DR10
-KÄ140MA26FV;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxa_från_edp:219;Kärl 140L, matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ140MA26FV | Kärl 140L, matavfall. Var 14:e dag. FLB/VHT | ÅRKV | Dragväg 10,1-20 meter | DR20
-KÄ140MA26FV;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxa_från_edp:220;Kärl 140L, matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym KVAN KÄ140MA26FV | Kärl 140L, matavfall. Var 14:e dag. FLB/VHT | KVAN | Kärl 140L Överviktsavgift för vikt över 60 kg, matavfall | VIKG-60,MIN0
+KÄ140MA26FV;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxepunkter:48;Kärl 140 l (matavfall) Hushåll Matavfall Behållarvolym ÅRKV 140 §2.2.4 | §2.2.4 | Kärl 140 l (matavfall) | Hämtning var 14:e dag | st/år | KÄ140MA26FV | KÄ140MA26FV | ÅRKV |  |  |  | 
+KÄ140MA26FV;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxepunkter:79;Kärl 140 l (matavfall) Hushåll Matavfall Behållarvolym ÅRKV 140 §2.2.5 | §2.2.5 | Kärl 140 l (matavfall) | Hämtning var 14:e dag | st/år | KÄ140MA26FV | KÄ140MA26FV | ÅRKV |  |  |  | 
+KÄ140MA26FV;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxa_från_edp:103;Kärl 140 L, matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ140MA26FV | Kärl 140 L, matavfall. Var 14:e dag. FLB/VHT | ÅRKV | Kärl 140 L matavfall FLB/VHT | ANTB
+KÄ140MA26FV;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxa_från_edp:104;Kärl 140 L, matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym KVAN KÄ140MA26FV | Kärl 140 L, matavfall. Var 14:e dag. FLB/VHT | KVAN | Viktavgift matavfall kr/kg | VIKG,MAX60
+KÄ140MA26FV;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxa_från_edp:105;Kärl 140 L, matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym KVAN KÄ140MA26FV | Kärl 140 L, matavfall. Var 14:e dag. FLB/VHT | KVAN | Vikt över 60 kg, matavfall | VIKG-60,MIN0
+KÄ140MA26FV_old;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxa_från_edp:106;Kärl 140 L, matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ140MA26FV_old | Kärl 140 L, matavfall. Var 14:e dag. FLB/VHT | ÅRKV | Kärlavgift 140 L kärl, matavfall. Var 14:e dag | ANTB
+KÄ140MA26FV_old;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxa_från_edp:107;Kärl 140 L, matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym KVAN KÄ140MA26FV_old | Kärl 140 L, matavfall. Var 14:e dag. FLB/VHT | KVAN | Viktavgift restavfall kr/kg | 0
+KÄ140MA26FV_old;KÄ140MA;140|MA|26|FV|FRITID;140;MA;26;FV;FRITID;RULE:Taxa_från_edp:108;Kärl 140 L, matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym KVAN KÄ140MA26FV_old | Kärl 140 L, matavfall. Var 14:e dag. FLB/VHT | KVAN | Viktavgift matavfall kr/kg | VIKG
 KÄ140MA44S;KÄ140MA;140|MA|44|S;140;MA;44;S;;STANDARD:Standard Avfall:82;Kärl 140 L, matavfall. 2ggr/ vecka säsong ÅRKV ANTB
 KÄ140MA52;KÄ140MA;140|MA|52;140;MA;52;;;STANDARD:Standard Avfall:79;Kärl 140 L, matavfall. Varje vecka ÅRKV ANTB
-KÄ140MA52DH;KÄ140MA;140|MA|52|DH;140;MA;52;DH;;RULE:Taxepunkter:98;Kärl 140 l (matavfall) Hushåll Matavfall Behållarvolym VOLYM/BEHÅLLARE 140 §2.2.6 | §2.2.6 | Kärl 140 l (matavfall) | Hämtning varje vecka | st/år | KÄ140MA52DH | KÄ140MA52DH |  |  |  |  | 
-KÄ140MA52FV;KÄ140MA;140|MA|52|FV|FRITID;140;MA;52;FV;FRITID;RULE:Taxepunkter:49;Kärl 140 l (matavfall) Hushåll Matavfall Behållarvolym VOLYM/BEHÅLLARE 140 §2.2.4 | §2.2.4 | Kärl 140 l (matavfall) | Hämtning varje vecka | st/år | KÄ140MA52FV | KÄ140MA52FV |  |  |  |  | 
-KÄ140MA52FV;KÄ140MA;140|MA|52|FV|FRITID;140;MA;52;FV;FRITID;RULE:Taxepunkter:81;Kärl 140 l (matavfall) Hushåll Matavfall Behållarvolym VOLYM/BEHÅLLARE 140 §2.2.5 | §2.2.5 | Kärl 140 l (matavfall) | Hämtning varje vecka | st/år | KÄ140MA52FV | KÄ140MA52FV |  |  |  |  | 
-KÄ140MA52FV;KÄ140MA;140|MA|52|FV|FRITID;140;MA;52;FV;FRITID;RULE:Taxa_från_edp:221;Kärl 140L, matavfall. Varje vecka. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ140MA52FV | Kärl 140L, matavfall. Varje vecka. FLB/VHT | ÅRKV | Kärl 140L, matavfall. Varje vecka | ANTB
-KÄ140MA52FV;KÄ140MA;140|MA|52|FV|FRITID;140;MA;52;FV;FRITID;RULE:Taxa_från_edp:222;Kärl 140L, matavfall. Varje vecka. FLB/VHT Okänd Matavfall Behållarvolym KVAN KÄ140MA52FV | Kärl 140L, matavfall. Varje vecka. FLB/VHT | KVAN | Kärl 140L Viktavgift matavfall kr/kg | VIKG,MAX60
-KÄ140MA52FV;KÄ140MA;140|MA|52|FV|FRITID;140;MA;52;FV;FRITID;RULE:Taxa_från_edp:223;Kärl 140L, matavfall. Varje vecka. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ140MA52FV | Kärl 140L, matavfall. Varje vecka. FLB/VHT | ÅRKV | Dragväg 1,5-10 meter | DR10
-KÄ140MA52FV;KÄ140MA;140|MA|52|FV|FRITID;140;MA;52;FV;FRITID;RULE:Taxa_från_edp:224;Kärl 140L, matavfall. Varje vecka. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ140MA52FV | Kärl 140L, matavfall. Varje vecka. FLB/VHT | ÅRKV | Dragväg 10,1-20 meter | DR20
-KÄ140MA52FV;KÄ140MA;140|MA|52|FV|FRITID;140;MA;52;FV;FRITID;RULE:Taxa_från_edp:225;Kärl 140L, matavfall. Varje vecka. FLB/VHT Okänd Matavfall Behållarvolym KVAN KÄ140MA52FV | Kärl 140L, matavfall. Varje vecka. FLB/VHT | KVAN | Kärl 140L Överviktsavgift för vikt över 60 kg, matavfall | VIKG-60,MIN0
 KÄ140MA6S;KÄ140MA;140|MA|6|S;140;MA;6;S;;STANDARD:Standard Avfall:85;Kärl 140 L, matavfall. Var 4:e vecka säsong ÅRKV ANTB
+KÄ140MAEXTRA;KÄ140MA;140|MA|EX;140;MA;;EX;;RULE:Taxa_från_edp:109;Kärlavgift för extra kärl 140 L, matavfall. Var 14:e dag Okänd Matavfall Behållarvolym ÅRKV KÄ140MAEXTRA | Kärlavgift för extra kärl 140 L, matavfall. Var 14:e dag | ÅRKV | Extra kärl 140 L, matavfall | ANTB
+KÄ140MAEXTRA;KÄ140MA;140|MA|EX;140;MA;;EX;;RULE:Taxa_från_edp:110;Kärlavgift för extra kärl 140 L, matavfall. Var 14:e dag Okänd Matavfall Behållarvolym KVAN KÄ140MAEXTRA | Kärlavgift för extra kärl 140 L, matavfall. Var 14:e dag | KVAN | Viktavgift matavfall kr/kg | VIKG,MAX60
+KÄ140MAEXTRA;KÄ140MA;140|MA|EX;140;MA;;EX;;RULE:Taxa_från_edp:111;Kärlavgift för extra kärl 140 L, matavfall. Var 14:e dag Okänd Matavfall Behållarvolym KVAN KÄ140MAEXTRA | Kärlavgift för extra kärl 140 L, matavfall. Var 14:e dag | KVAN | Vikt över 60 kg, matavfall | VIKG-60,MIN0
 KÄ140RE104;KÄ140RE;140|RE|104;140;RE;104;;;STANDARD:Standard Avfall:26;Kärl 140 L, restavfall. 2ggr/ vecka ÅRKV ANTB
 KÄ140RE11S;KÄ140RE;140|RE|11|S;140;RE;11;S;;STANDARD:Standard Avfall:32;Kärl 140 L, restavfall. Var 14:e dag säsong ÅRKV ANTB
 KÄ140RE13;KÄ140RE;140|RE|13;140;RE;13;;;STANDARD:Standard Avfall:29;Kärl 140 L, restavfall. Var 4:e vecka ÅRKV ANTB
@@ -594,10 +515,9 @@ KÄ140RE26V;KÄ140RE;140|RE|26|V|VERKSAMHET;140;RE;26;V;VERKSAMHET;STANDARD:Stan
 KÄ140RE44S;KÄ140RE;140|RE|44|S;140;RE;44;S;;STANDARD:Standard Avfall:30;Kärl 140 L, restavfall. 2ggr/ vecka säsong ÅRKV ANTB
 KÄ140RE52;KÄ140RE;140|RE|52;140;RE;52;;;STANDARD:Standard Avfall:27;Kärl 140 L, restavfall. Varje vecka ÅRKV ANTB
 KÄ140RE6S;KÄ140RE;140|RE|6|S;140;RE;6;S;;STANDARD:Standard Avfall:33;Kärl 140 L, restavfall. Var 4:e vecka säsong ÅRKV ANTB
-KÄ140TI;KÄ140TI;140|TI;140;TI;;;;RULE:Taxepunkter:106;Kärl 140 l (kontors-/returpapper) Hushåll Behållarvolym VOLYM/BEHÅLLARE 140 §2.2.7 | §2.2.7 | Kärl 140 l (kontors-/returpapper) |  | st/år | KÄ140TI | KÄ140TI |  |  |  |  | 
-KÄ190FP12FV;KÄ190;190;190;;;;;RULE:Taxepunkter:54;Kärl 190 l (förpackningar) Hushåll Förpackningar Behållarvolym VOLYM/BEHÅLLARE 190 §2.2.4 | §2.2.4 | Kärl 190 l (förpackningar) | Hämtning månadsvis | st/år | KÄ190FP12FV | KÄ190FP12FV |  |  |  |  | 
-KÄ190FP26FV;KÄ190;190;190;;;;;RULE:Taxepunkter:53;Kärl 190 l (förpackningar) Hushåll Förpackningar Behållarvolym VOLYM/BEHÅLLARE 190 §2.2.4 | §2.2.4 | Kärl 190 l (förpackningar) | Hämtning var 14:e dag | st/år | KÄ190FP26FV | KÄ190FP26FV |  |  |  |  | 
-KÄ190FP52FV;KÄ190;190;190;;;;;RULE:Taxepunkter:52;Kärl 190 l (förpackningar) Hushåll Förpackningar Behållarvolym VOLYM/BEHÅLLARE 190 §2.2.4 | §2.2.4 | Kärl 190 l (förpackningar) | Hämtning varje vecka | st/år | KÄ190FP52FV | KÄ190FP52FV |  |  |  |  | 
+KÄ140REEXTRA;KÄ140RE;140|RE|EX;140;RE;;EX;;RULE:Taxa_från_edp:112;Kärlavgift för extra kärl 140 L, restavfall. Var 14:e dag Okänd Restavfall Behållarvolym ÅRKV KÄ140REEXTRA | Kärlavgift för extra kärl 140 L, restavfall. Var 14:e dag | ÅRKV | Extra kärl 140 L, restavfall | ANTB
+KÄ140REEXTRA;KÄ140RE;140|RE|EX;140;RE;;EX;;RULE:Taxa_från_edp:113;Kärlavgift för extra kärl 140 L, restavfall. Var 14:e dag Okänd Restavfall Behållarvolym KVAN KÄ140REEXTRA | Kärlavgift för extra kärl 140 L, restavfall. Var 14:e dag | KVAN | Viktavgift restavfall kr/kg | VIKG,MAX60
+KÄ140REEXTRA;KÄ140RE;140|RE|EX;140;RE;;EX;;RULE:Taxa_från_edp:114;Kärlavgift för extra kärl 140 L, restavfall. Var 14:e dag Okänd Restavfall Behållarvolym KVAN KÄ140REEXTRA | Kärlavgift för extra kärl 140 L, restavfall. Var 14:e dag | KVAN | Vikt över 60 kg, restavfall | VIKG-60,MIN0
 KÄ190OS11S;KÄ190;190;190;;;;;STANDARD:Standard Avfall:147;Kärl 190 L, osort. avfall. Var 14:e dag säsong ÅRKV ANTB
 KÄ190OS13;KÄ190;190;190;;;;;STANDARD:Standard Avfall:144;Kärl 190 L, osort. avfall. Var 4:e vecka ÅRKV ANTB
 KÄ190OS22S;KÄ190;190;190;;;;;STANDARD:Standard Avfall:146;Kärl 190 L, osort. avfall. Varje vecka säsong ÅRKV ANTB
@@ -613,14 +533,8 @@ KÄ190OS104;KÄ190;190|2;190;;2;;;STANDARD:Standard Avfall:141;Kärl 190 L, osor
 KÄ190OS44S;KÄ190;190|2;190;;2;;;STANDARD:Standard Avfall:145;Kärl 190 L, osort. avfall. 2ggr/ vecka säsong ÅRKV ANTB
 KÄ190WE104;KÄ190;190|2;190;;2;;;STANDARD:Standard Avfall:325;Kärl 190 L, wellpapp. 2ggr/ vecka ÅRKV ANTB
 KÄ190OS156;KÄ190;190|3;190;;3;;;STANDARD:Standard Avfall:140;Kärl 190 L, osort. avfall. 3ggr/ vecka ÅRKV ANTB
-KÄ190XRM26;KÄ190;190|MA|EX;190;MA;;EX;;RULE:Taxa_från_edp:226;Kärl 120-190L extrakärl, rest/matavfall. Var 14:e dag Okänd Matavfall Behållarvolym ÅRKV KÄ190XRM26 | Kärl 120-190L extrakärl, rest/matavfall. Var 14:e dag | ÅRKV | Kärl 120-190L extrakärl, rest/matavfall. Var 14:e dag | ANTB
-KÄ190XRM26;KÄ190;190|MA|EX;190;MA;;EX;;RULE:Taxa_från_edp:227;Kärl 120-190L extrakärl, rest/matavfall. Var 14:e dag Okänd Matavfall Behållarvolym KVAN KÄ190XRM26 | Kärl 120-190L extrakärl, rest/matavfall. Var 14:e dag | KVAN | Viktavgift rest- matavfall kr/kg | VIKG
-KÄ190XRM26FV;KÄ190;190|MA|EX;190;MA;;EX;;RULE:Taxa_från_edp:228;Kärl 120-190L extrakärl, rest/matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ190XRM26FV | Kärl 120-190L extrakärl, rest/matavfall. Var 14:e dag. FLB/VHT | ÅRKV | Kärl 120-190L extrakärl, rest/matavfall. Var 14:e dag | ANTB
-KÄ190XRM26FV;KÄ190;190|MA|EX;190;MA;;EX;;RULE:Taxa_från_edp:229;Kärl 120-190L extrakärl, rest/matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym KVAN KÄ190XRM26FV | Kärl 120-190L extrakärl, rest/matavfall. Var 14:e dag. FLB/VHT | KVAN | Viktavgift rest- matavfall kr/kg | VIKG
-KÄ190XRM12;KÄ190;190|RE|EX;190;RE;;EX;;RULE:Taxepunkter:21;Extrakärl 190 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 190 §2.2.1 | §2.2.1 | Extrakärl 190 l (restavfall) | Hämtning månadsvis | st/år | KÄ190XRM12 | KÄ190XRM12 |  |  |  |  | 
-KÄ190XRM26;KÄ190;190|RE|EX;190;RE;;EX;;RULE:Taxepunkter:20;Extrakärl 190 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 190 §2.2.1 | §2.2.1 | Extrakärl 190 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ190XRM26 | KÄ190XRM26 |  |  |  |  | 
-KÄ190XRM12FRI;KÄ190;190|RE|EX|FRITID;190;RE;;EX;FRITID;RULE:Taxepunkter:371;Extrakärl 190 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 190 §2.2.2 | §2.2.2 | Extrakärl 190 l (restavfall) | Hämtning månadsvis | st/år | KÄ190XRM12FRI | KÄ190XRM12FRI |  |  |  |  | 
-KÄ190XRM26FRI;KÄ190;190|RE|EX|FRITID;190;RE;;EX;FRITID;RULE:Taxepunkter:27;Extrakärl 190 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 190 §2.2.2 | §2.2.2 | Extrakärl 190 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ190XRM26FRI | KÄ190XRM26FRI |  |  |  |  | 
+KÄ190XRM26;KÄ190;190|RE|EX;190;RE;;EX;;RULE:Taxepunkter:22;Extrakärl 190 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 190 §2.2.1 | §2.2.1 | Extrakärl 190 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ190XRM26 | KÄ190XRM26 |  |  |  |  | 
+KÄ190XRM26FRI;KÄ190;190|RE|EX|FRITID;190;RE;;EX;FRITID;RULE:Taxepunkter:28;Extrakärl 190 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 190 §2.2.2 | §2.2.2 | Extrakärl 190 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ190XRM26FRI | KÄ190XRM26FRI |  |  |  |  | 
 KÄ190WEBUD;KÄ190;190|WEBUD;190;;;WEBUD;;STANDARD:Standard Avfall:329;Kärl 190 L, wellpapp. Budning KVAN ANTL
 KÄ190MA104;KÄ190MA;190|MA|104;190;MA;104;;;STANDARD:Standard Avfall:88;Kärl 190 L, matavfall. 2ggr/ vecka ÅRKV ANTB
 KÄ190MA11S;KÄ190MA;190|MA|11|S;190;MA;11;S;;STANDARD:Standard Avfall:94;Kärl 190 L, matavfall. Var 14:e dag säsong ÅRKV ANTB
@@ -656,12 +570,9 @@ KÄ190RE44S;KÄ190RE;190|RE|44|S;190;RE;44;S;;STANDARD:Standard Avfall:40;Kärl 
 KÄ190RE52;KÄ190RE;190|RE|52;190;RE;52;;;STANDARD:Standard Avfall:37;Kärl 190 L, restavfall. Varje vecka ÅRKV ANTB
 KÄ190RE6S;KÄ190RE;190|RE|6|S;190;RE;6;S;;STANDARD:Standard Avfall:43;Kärl 190 L, restavfall. Var 4:e vecka säsong ÅRKV ANTB
 KÄ190TI104;KÄ190TI;190|TI|104;190;TI;104;;;STANDARD:Standard Avfall:331;Kärl 190 L, tidningar. 2ggr/ vecka ÅRKV ANTB
-KÄ190TI12FV;KÄ190TI;190|TI|12|FV|FRITID;190;TI;12;FV;FRITID;RULE:Taxepunkter:63;Kärl 190 l (tidningar och returpapper) Hushåll Behållarvolym VOLYM/BEHÅLLARE 190 §2.2.4 | §2.2.4 | Kärl 190 l (tidningar och returpapper) | Hämtning månadsvis | st/år | KÄ190TI12FV | KÄ190TI12FV |  |  |  |  | 
 KÄ190TI13;KÄ190TI;190|TI|13;190;TI;13;;;STANDARD:Standard Avfall:334;Kärl 190 L, tidningar. Var 4:e vecka ÅRKV ANTB
 KÄ190TI26;KÄ190TI;190|TI|26;190;TI;26;;;STANDARD:Standard Avfall:333;Kärl 190 L, tidningar. Var 14:e dag ÅRKV ANTB
-KÄ190TI26FV;KÄ190TI;190|TI|26|FV|FRITID;190;TI;26;FV;FRITID;RULE:Taxepunkter:62;Kärl 190 l (tidningar och returpapper) Hushåll Behållarvolym VOLYM/BEHÅLLARE 190 §2.2.4 | §2.2.4 | Kärl 190 l (tidningar och returpapper) | Hämtning var 14:e dag | st/år | KÄ190TI26FV | KÄ190TI26FV |  |  |  |  | 
 KÄ190TI52;KÄ190TI;190|TI|52;190;TI;52;;;STANDARD:Standard Avfall:332;Kärl 190 L, tidningar. Varje vecka ÅRKV ANTB
-KÄ190TI52FV;KÄ190TI;190|TI|52|FV|FRITID;190;TI;52;FV;FRITID;RULE:Taxepunkter:61;Kärl 190 l (tidningar och returpapper) Hushåll Behållarvolym VOLYM/BEHÅLLARE 190 §2.2.4 | §2.2.4 | Kärl 190 l (tidningar och returpapper) | Hämtning varje vecka | st/år | KÄ190TI52FV | KÄ190TI52FV |  |  |  |  | 
 KÄ190TIBUD;KÄ190TI;190|TI|BUD;190;TI;;BUD;;STANDARD:Standard Avfall:335;Kärl 190 L, tidningar. Budning KVAN ANTB
 KÄ240OS11S;KÄ240;240;240;;;;;STANDARD:Standard Avfall:157;Kärl 240 L, osort. avfall. Var 14:e dag säsong ÅRKV ANTB
 KÄ240OS13;KÄ240;240;240;;;;;STANDARD:Standard Avfall:154;Kärl 240 L, osort. avfall. Var 4:e vecka ÅRKV ANTB
@@ -672,10 +583,8 @@ KÄ240OS6S;KÄ240;240;240;;;;;STANDARD:Standard Avfall:158;Kärl 240 L, osort. a
 KÄ240OS104;KÄ240;240|2;240;;2;;;STANDARD:Standard Avfall:151;Kärl 240 L, osort. avfall. 2ggr/ vecka ÅRKV ANTB
 KÄ240OS44S;KÄ240;240|2;240;;2;;;STANDARD:Standard Avfall:155;Kärl 240 L, osort. avfall. 2ggr/vecka säsong ÅRKV ANTB
 KÄ240OS156;KÄ240;240|3;240;;3;;;STANDARD:Standard Avfall:150;Kärl 240 L, osort. avfall. 3ggr/ vecka ÅRKV ANTB
-KÄ240RK26;KÄ240;240|RE;240;RE;;;;RULE:Taxa_från_edp:230;Tvåfackskärl 240L, restavfall/kompost. Var 14:e dag Okänd Restavfall Behållarvolym ÅRKV KÄ240RK26 | Tvåfackskärl 240L, restavfall/kompost. Var 14:e dag | ÅRKV | Tvåfackskärl 240L, restavfall/kompost. Var 14:e dag | ANTB
-KÄ240RK26;KÄ240;240|RE;240;RE;;;;RULE:Taxa_från_edp:231;Tvåfackskärl 240L, restavfall/kompost. Var 14:e dag Okänd Restavfall Behållarvolym KVAN KÄ240RK26 | Tvåfackskärl 240L, restavfall/kompost. Var 14:e dag | KVAN | Viktavgift restavfall kr/kg | VIKG
-KÄ240RK26FRI;KÄ240;240|RE|FRITID;240;RE;;;FRITID;RULE:Taxa_från_edp:232;Tvåfackskärl 240L, restavfall/kompost. Var 14:e dag fritidshus Okänd Restavfall Behållarvolym ÅRKV KÄ240RK26FRI | Tvåfackskärl 240L, restavfall/kompost. Var 14:e dag fritidshus | ÅRKV | Tvåfackskärl 240L, restavfall/kompost. Var 14:e dag | ANTB
-KÄ240RK26FRI;KÄ240;240|RE|FRITID;240;RE;;;FRITID;RULE:Taxa_från_edp:233;Tvåfackskärl 240L, restavfall/kompost. Var 14:e dag fritidshus Okänd Restavfall Behållarvolym KVAN KÄ240RK26FRI | Tvåfackskärl 240L, restavfall/kompost. Var 14:e dag fritidshus | KVAN | Viktavgift restavfall kr/kg | VIKG
+KÄ240RK26;KÄ240;240|RE;240;RE;;;;RULE:Taxa_från_edp:115;Tvåfackskärl, rest/kompost. Okänd ÅRKV KÄ240RK26 | Tvåfackskärl, rest/kompost. | ÅRKV | Kärl 240L , restavfall/kompost | ANTB
+KÄ240RK26;KÄ240;240|RE;240;RE;;;;RULE:Taxa_från_edp:116;Tvåfackskärl, rest/kompost. Okänd KVAN KÄ240RK26 | Tvåfackskärl, rest/kompost. | KVAN | Viktavgift restavfall kr/kg | VIKG
 KÄ240MA104;KÄ240MA;240|MA|104;240;MA;104;;;STANDARD:Standard Avfall:98;Kärl 240 L, matavfall. 2ggr/ vecka ÅRKV ANTB
 KÄ240MA11S;KÄ240MA;240|MA|11|S;240;MA;11;S;;STANDARD:Standard Avfall:104;Kärl 240 L, matavfall. Var 14:e dag säsong ÅRKV ANTB
 KÄ240MA13;KÄ240MA;240|MA|13;240;MA;13;;;STANDARD:Standard Avfall:101;Kärl 240 L, matavfall. Var 4:e vecka ÅRKV ANTB
@@ -694,30 +603,16 @@ KÄ240RE26;KÄ240RE;240|RE|26;240;RE;26;;;STANDARD:Standard Avfall:48;Kärl 240 
 KÄ240RE44S;KÄ240RE;240|RE|44|S;240;RE;44;S;;STANDARD:Standard Avfall:50;Kärl 240 L, restavfall. 2ggr/ vecka säsong ÅRKV ANTB
 KÄ240RE52;KÄ240RE;240|RE|52;240;RE;52;;;STANDARD:Standard Avfall:47;Kärl 240 L, restavfall. Varje vecka ÅRKV ANTB
 KÄ240RE6S;KÄ240RE;240|RE|6|S;240;RE;6;S;;STANDARD:Standard Avfall:53;Kärl 240 L, restavfall. Var 4:e vecka säsong ÅRKV ANTB
-KÄ240RM12;KÄ240RM;240|RM|12;240;RM;12;;;RULE:Taxepunkter:19;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 240 §2.2.1 | §2.2.1 | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | st/år | KÄ240RM12 | KÄ240RM12 |  |  |  |  | 
-KÄ240RM12DH;KÄ240RM;240|RM|12|DH;240;RM;12;DH;;RULE:Taxepunkter:91;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 240 §2.2.6 | §2.2.6 | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | st/år | KÄ240RM12DH | KÄ240RM12DH |  |  |  |  | 
-KÄ240RM12FRI;KÄ240RM;240|RM|12|FRI|FRITID;240;RM;12;FRI;FRITID;RULE:Taxepunkter:26;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 240 §2.2.2 | §2.2.2 | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | st/år | KÄ240RM12FRI | KÄ240RM12FRI |  |  |  |  | 
-KÄ240RM12FV;KÄ240RM;240|RM|12|FV|FRITID;240;RM;12;FV;FRITID;RULE:Taxepunkter:42;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 240 §2.2.4 | §2.2.4 | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | st/år | KÄ240RM12FV | KÄ240RM12FV |  |  |  |  | 
-KÄ240RM26;KÄ240RM;240|RM|26;240;RM;26;;;RULE:Taxepunkter:18;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 240 §2.2.1 | §2.2.1 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26 | KÄ240RM26 |  |  |  |  | 
-KÄ240RM26;KÄ240RM;240|RM|26;240;RM;26;;;RULE:Taxa_från_edp:234;Tvåfackskärl 240L, rest/matavfall. Var 14:e dag Okänd Matavfall Behållarvolym ÅRKV KÄ240RM26 | Tvåfackskärl 240L, rest/matavfall. Var 14:e dag | ÅRKV | Tvåfackskärl 240L, rest/matavfall. Var 14:e dag | ANTB
-KÄ240RM26;KÄ240RM;240|RM|26;240;RM;26;;;RULE:Taxa_från_edp:235;Tvåfackskärl 240L, rest/matavfall. Var 14:e dag Okänd Matavfall Behållarvolym KVAN KÄ240RM26 | Tvåfackskärl 240L, rest/matavfall. Var 14:e dag | KVAN | Viktavgift rest- matavfall kr/kg | VIKG
-KÄ240RM26DH;KÄ240RM;240|RM|26|DH;240;RM;26;DH;;RULE:Taxepunkter:90;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 240 §2.2.6 | §2.2.6 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26DH | KÄ240RM26DH |  |  |  |  | 
-KÄ240RM26FRI;KÄ240RM;240|RM|26|FRI|FRITID;240;RM;26;FRI;FRITID;RULE:Taxepunkter:25;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 240 §2.2.2 | §2.2.2 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26FRI | KÄ240RM26FRI |  |  |  |  | 
-KÄ240RM26FRI;KÄ240RM;240|RM|26|FRI|FRITID;240;RM;26;FRI;FRITID;RULE:Taxa_från_edp:236;Tvåfackskärl 240L, rest/matavfall. Var 14:e dag fritidshus Okänd Matavfall Behållarvolym ÅRKV KÄ240RM26FRI | Tvåfackskärl 240L, rest/matavfall. Var 14:e dag fritidshus | ÅRKV | Tvåfackskärl 240L, rest/matavfall. Var 14:e dag | ANTB
-KÄ240RM26FRI;KÄ240RM;240|RM|26|FRI|FRITID;240;RM;26;FRI;FRITID;RULE:Taxa_från_edp:237;Tvåfackskärl 240L, rest/matavfall. Var 14:e dag fritidshus Okänd Matavfall Behållarvolym KVAN KÄ240RM26FRI | Tvåfackskärl 240L, rest/matavfall. Var 14:e dag fritidshus | KVAN | Viktavgift rest- matavfall kr/kg | VIKG
-KÄ240RM26FV;KÄ240RM;240|RM|26|FV|FRITID;240;RM;26;FV;FRITID;RULE:Taxepunkter:41;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 240 §2.2.4 | §2.2.4 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26FV | KÄ240RM26FV |  |  |  |  | 
-KÄ240RM26FV;KÄ240RM;240|RM|26|FV|FRITID;240;RM;26;FV;FRITID;RULE:Taxepunkter:73;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 240 §2.2.5 | §2.2.5 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26FV | KÄ240RM26FV |  |  |  |  | 
-KÄ240RM26FV;KÄ240RM;240|RM|26|FV|FRITID;240;RM;26;FV;FRITID;RULE:Taxa_från_edp:238;Tvåfackskärl 240L, rest/matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ240RM26FV | Tvåfackskärl 240L, rest/matavfall. Var 14:e dag. FLB/VHT | ÅRKV | Tvåfackskärl 240L, rest/matavfall. Var 14:e dag | ANTB
-KÄ240RM26FV;KÄ240RM;240|RM|26|FV|FRITID;240;RM;26;FV;FRITID;RULE:Taxa_från_edp:239;Tvåfackskärl 240L, rest/matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym KVAN KÄ240RM26FV | Tvåfackskärl 240L, rest/matavfall. Var 14:e dag. FLB/VHT | KVAN | Viktavgift rest- matavfall kr/kg | VIKG
-KÄ240RM26FV;KÄ240RM;240|RM|26|FV|FRITID;240;RM;26;FV;FRITID;RULE:Taxa_från_edp:240;Tvåfackskärl 240L, rest/matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ240RM26FV | Tvåfackskärl 240L, rest/matavfall. Var 14:e dag. FLB/VHT | ÅRKV | Dragväg 1,5-10 meter | DR10
-KÄ240RM26FV;KÄ240RM;240|RM|26|FV|FRITID;240;RM;26;FV;FRITID;RULE:Taxa_från_edp:241;Tvåfackskärl 240L, rest/matavfall. Var 14:e dag. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ240RM26FV | Tvåfackskärl 240L, rest/matavfall. Var 14:e dag. FLB/VHT | ÅRKV | Dragväg 10,1-20 meter | DR20
-KÄ240RM52DH;KÄ240RM;240|RM|52|DH;240;RM;52;DH;;RULE:Taxepunkter:89;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 240 §2.2.6 | §2.2.6 | Kärl 240 l (mat-/restavfall) | Hämtning varje vecka | st/år | KÄ240RM52DH | KÄ240RM52DH |  |  |  |  | 
-KÄ240RM52FV;KÄ240RM;240|RM|52|FV|FRITID;240;RM;52;FV;FRITID;RULE:Taxepunkter:40;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 240 §2.2.4 | §2.2.4 | Kärl 240 l (mat-/restavfall) | Hämtning varje vecka | st/år | KÄ240RM52FV | KÄ240RM52FV |  |  |  |  | 
-KÄ240RM52FV;KÄ240RM;240|RM|52|FV|FRITID;240;RM;52;FV;FRITID;RULE:Taxepunkter:72;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 240 §2.2.5 | §2.2.5 | Kärl 240 l (mat-/restavfall) | Hämtning varje vecka | st/år | KÄ240RM52FV | KÄ240RM52FV |  |  |  |  | 
-KÄ240RM52FV;KÄ240RM;240|RM|52|FV|FRITID;240;RM;52;FV;FRITID;RULE:Taxa_från_edp:31;Tvåfackskärl 240L, rest/matavfall. Varje vecka. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ240RM52FV | Tvåfackskärl 240L, rest/matavfall. Varje vecka. FLB/VHT | ÅRKV | Tvåfackskärl 240L, rest/matavfall. Varje vecka | ANTB
-KÄ240RM52FV;KÄ240RM;240|RM|52|FV|FRITID;240;RM;52;FV;FRITID;RULE:Taxa_från_edp:32;Tvåfackskärl 240L, rest/matavfall. Varje vecka. FLB/VHT Okänd Matavfall Behållarvolym KVAN KÄ240RM52FV | Tvåfackskärl 240L, rest/matavfall. Varje vecka. FLB/VHT | KVAN | Viktavgift rest- matavfall kr/kg | VIKG
-KÄ240RM52FV;KÄ240RM;240|RM|52|FV|FRITID;240;RM;52;FV;FRITID;RULE:Taxa_från_edp:33;Tvåfackskärl 240L, rest/matavfall. Varje vecka. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ240RM52FV | Tvåfackskärl 240L, rest/matavfall. Varje vecka. FLB/VHT | ÅRKV | Dragväg 1,5-10 meter | DR10
-KÄ240RM52FV;KÄ240RM;240|RM|52|FV|FRITID;240;RM;52;FV;FRITID;RULE:Taxa_från_edp:34;Tvåfackskärl 240L, rest/matavfall. Varje vecka. FLB/VHT Okänd Matavfall Behållarvolym ÅRKV KÄ240RM52FV | Tvåfackskärl 240L, rest/matavfall. Varje vecka. FLB/VHT | ÅRKV | Dragväg 10,1-20 meter | DR20
+KÄ240RM26;KÄ240RM;240|RM|26;240;RM;26;;;RULE:Taxepunkter:20;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym ÅRKV 240 §2.2.1 | §2.2.1 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26 | KÄ240RM26 | ÅRKV |  |  |  | 
+KÄ240RM26;KÄ240RM;240|RM|26;240;RM;26;;;RULE:Taxepunkter:26;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym ÅRKV 240 §2.2.2 | §2.2.2 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26 | KÄ240RM26 | ÅRKV |  |  |  | 
+KÄ240RM26;KÄ240RM;240|RM|26;240;RM;26;;;RULE:Taxa_från_edp:117;Tvåfackskärl , rest/matavfall. Okänd Matavfall ÅRKV KÄ240RM26 | Tvåfackskärl , rest/matavfall. | ÅRKV | Tvåfackskärl , rest/matavfall. | ANTB
+KÄ240RM26;KÄ240RM;240|RM|26;240;RM;26;;;RULE:Taxa_från_edp:118;Tvåfackskärl , rest/matavfall. Okänd Matavfall KVAN KÄ240RM26 | Tvåfackskärl , rest/matavfall. | KVAN | Viktavgift restavfall kr/kg | 0
+KÄ240RM26;KÄ240RM;240|RM|26;240;RM;26;;;RULE:Taxa_från_edp:119;Tvåfackskärl , rest/matavfall. Okänd Matavfall KVAN KÄ240RM26 | Tvåfackskärl , rest/matavfall. | KVAN | Viktavgift matavfall kr/kg | 0
+KÄ240RM26FV;KÄ240RM;240|RM|26|FV|FRITID;240;RM;26;FV;FRITID;RULE:Taxepunkter:39;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym ÅRKV 240 §2.2.4 | §2.2.4 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26FV | KÄ240RM26FV | ÅRKV |  |  |  | 
+KÄ240RM26FV;KÄ240RM;240|RM|26|FV|FRITID;240;RM;26;FV;FRITID;RULE:Taxepunkter:70;Kärl 240 l (mat-/restavfall) Hushåll Restavfall Behållarvolym ÅRKV 240 §2.2.5 | §2.2.5 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26FV | KÄ240RM26FV | ÅRKV |  |  |  | 
+KÄ240RM26FV;KÄ240RM;240|RM|26|FV|FRITID;240;RM;26;FV;FRITID;RULE:Taxa_från_edp:120;Tvåfackskärl, rest/mat FLB/VHT Okänd ÅRKV KÄ240RM26FV | Tvåfackskärl, rest/mat FLB/VHT | ÅRKV | Kärl 240L , rest/mat FLB/VHT | ANTB
+KÄ240RM26FV;KÄ240RM;240|RM|26|FV|FRITID;240;RM;26;FV;FRITID;RULE:Taxa_från_edp:121;Tvåfackskärl, rest/mat FLB/VHT Okänd KVAN KÄ240RM26FV | Tvåfackskärl, rest/mat FLB/VHT | KVAN | Viktavgift restavfall kr/kg | 0
+KÄ240RM26FV;KÄ240RM;240|RM|26|FV|FRITID;240;RM;26;FV;FRITID;RULE:Taxa_från_edp:122;Tvåfackskärl, rest/mat FLB/VHT Okänd KVAN KÄ240RM26FV | Tvåfackskärl, rest/mat FLB/VHT | KVAN | Viktavgift matavfall kr/kg | 0
 KÄ37LA11S;KÄ37;37;37;;;;;STANDARD:Standard Avfall:205;Kärl 37 L, latrin. Var 14:e dag, säsong ÅRKV ANTB
 KÄ37LA12;KÄ37;37;37;;;;;STANDARD:Standard Avfall:204;Kärl 37 L, latrin. Var 4:e vecka ÅRKV ANTB
 KÄ37LA26;KÄ37;37;37;;;;;STANDARD:Standard Avfall:203;Kärl 37 L, latrin. Var 14:e dag ÅRKV ANTB
@@ -730,9 +625,6 @@ KÄ370FF16S;KÄ370;370;370;;;;;STANDARD:Standard Avfall:194;Kärl, 370 L fyrfack
 KÄ370FF213;KÄ370;370;370;;;;;STANDARD:Standard Avfall:190;Kärl, 370 L fyrfack. kärl 2. Var 4:e vecka ÅRKV ANTB
 KÄ370FF226;KÄ370;370;370;;;;;STANDARD:Standard Avfall:188;Kärl, 370 L fyrfack. Kärl 2. Var 14:e dag ÅRKV ANTB
 KÄ370FF26S;KÄ370;370;370;;;;;STANDARD:Standard Avfall:195;Kärl, 370 L fyrfack. Kärl 2. Var 4:e vecka säsong ÅRKV ANTB
-KÄ370FP12FV;KÄ370;370;370;;;;;RULE:Taxepunkter:57;Kärl 370 l (förpackningar) Hushåll Förpackningar Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.4 | §2.2.4 | Kärl 370 l (förpackningar) | Hämtning månadsvis | st/år | KÄ370FP12FV | KÄ370FP12FV |  |  |  |  | 
-KÄ370FP26FV;KÄ370;370;370;;;;;RULE:Taxepunkter:56;Kärl 370 l (förpackningar) Hushåll Förpackningar Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.4 | §2.2.4 | Kärl 370 l (förpackningar) | Hämtning var 14:e dag | st/år | KÄ370FP26FV | KÄ370FP26FV |  |  |  |  | 
-KÄ370FP52FV;KÄ370;370;370;;;;;RULE:Taxepunkter:55;Kärl 370 l (förpackningar) Hushåll Förpackningar Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.4 | §2.2.4 | Kärl 370 l (förpackningar) | Hämtning varje vecka | st/år | KÄ370FP52FV | KÄ370FP52FV |  |  |  |  | 
 KÄ370OS11S;KÄ370;370;370;;;;;STANDARD:Standard Avfall:167;Kärl 370 L, osort. avfall. Var 14:e dag säsong ÅRKV ANTB
 KÄ370OS13;KÄ370;370;370;;;;;STANDARD:Standard Avfall:164;Kärl 370 L, osort. avfall. Var 4:e vecka ÅRKV ANTB
 KÄ370OS22S;KÄ370;370;370;;;;;STANDARD:Standard Avfall:166;Kärl 370 L, osort. avfall. Varje vecka säsong ÅRKV ANTB
@@ -746,8 +638,6 @@ KÄ370OS104;KÄ370;370|2;370;;2;;;STANDARD:Standard Avfall:161;Kärl 370 L, osor
 KÄ370OS44S;KÄ370;370|2;370;;2;;;STANDARD:Standard Avfall:165;Kärl 370 L, osort. avfall. 2ggr/vecka säsong ÅRKV ANTB
 KÄ370WE104;KÄ370;370|2;370;;2;;;STANDARD:Standard Avfall:355;Kärl 370 L, wellpapp. 2ggr/ vecka ÅRKV ANTB
 KÄ370OS156;KÄ370;370|3;370;;3;;;STANDARD:Standard Avfall:160;Kärl 370 L, osort. avfall. 3ggr/ vecka ÅRKV ANTB
-KÄ370FPFRI;KÄ370;370|PL|FPFRI|FRITID;370;PL;;FPFRI;FRITID;RULE:Taxepunkter:377;Kärl 370 l (papper-/plastförpackningar) Hushåll Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.2 | §2.2.2 | Kärl 370 l (papper-/plastförpackningar) | Kostnadsfritt | st/år | KÄ370FPFRI | KÄ370FPFRI |  |  |  |  | 
-KÄ370FP;KÄ370;370|PL|FP|FRITID;370;PL;;FP;FRITID;RULE:Taxepunkter:29;Kärl 370 l (papper-/plastförpackningar) Hushåll Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.2 | §2.2.2 | Kärl 370 l (papper-/plastförpackningar) | Kostnadsfritt | st/år | KÄ370FP | KÄ370FP |  |  |  |  | 
 KÄ370WEBUD;KÄ370;370|WEBUD;370;;;WEBUD;;STANDARD:Standard Avfall:359;Kärl 370 L, wellpapp. Budning KVAN ANTL
 KÄ370MA104;KÄ370MA;370|MA|104;370;MA;104;;;STANDARD:Standard Avfall:108;Kärl 370 L, matavfall. 2ggr/ vecka ÅRKV ANTB
 KÄ370MA11S;KÄ370MA;370|MA|11|S;370;MA;11;S;;STANDARD:Standard Avfall:114;Kärl 370 L, matavfall. Var 14:e dag säsong ÅRKV ANTB
@@ -775,44 +665,23 @@ KÄ370PL52;KÄ370PL;370|PL|52|LÅS;370;PL;52;LÅS;;STANDARD:Standard Avfall:380;
 KÄ370PLBUD;KÄ370PL;370|PL|BUD;370;PL;;BUD;;STANDARD:Standard Avfall:383;Kärl 370 L, plastförpackningar. Budning KVAN ANTL
 KÄ370RE104;KÄ370RE;370|RE|104;370;RE;104;;;STANDARD:Standard Avfall:56;Kärl 370 L, restavfall. 2ggr/ vecka ÅRKV ANTB
 KÄ370RE11S;KÄ370RE;370|RE|11|S;370;RE;11;S;;STANDARD:Standard Avfall:62;Kärl 370 L, restavfall. Var 14:e dag säsong ÅRKV ANTB
-KÄ370RE12DH;KÄ370RE;370|RE|12|DH;370;RE;12;DH;;RULE:Taxepunkter:94;Kärl 370 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.6 | §2.2.6 | Kärl 370 l (restavfall) | Hämtning månadsvis | st/år | KÄ370RE12DH | KÄ370RE12DH |  |  |  |  | 
-KÄ370RE12FV;KÄ370RE;370|RE|12|FV|FRITID;370;RE;12;FV;FRITID;RULE:Taxepunkter:45;Kärl 370 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.4 | §2.2.4 | Kärl 370 l (restavfall) | Hämtning månadsvis | st/år | KÄ370RE12FV | KÄ370RE12FV |  |  |  |  | 
 KÄ370RE13;KÄ370RE;370|RE|13;370;RE;13;;;STANDARD:Standard Avfall:59;Kärl 370 L, restavfall. Var 4:e vecka ÅRKV ANTB
 KÄ370RE156;KÄ370RE;370|RE|156;370;RE;156;;;STANDARD:Standard Avfall:55;Kärl 370 L, restavfall. 3ggr/ vecka ÅRKV ANTB
 KÄ370RE22S;KÄ370RE;370|RE|22|S;370;RE;22;S;;STANDARD:Standard Avfall:61;Kärl 370 L, restavfall. Varje vecka säsong ÅRKV ANTB
 KÄ370RE26;KÄ370RE;370|RE|26;370;RE;26;;;STANDARD:Standard Avfall:58;Kärl 370 L, restavfall. Var 14:e dag ÅRKV ANTB
-KÄ370RE26DH;KÄ370RE;370|RE|26|DH;370;RE;26;DH;;RULE:Taxepunkter:93;Kärl 370 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.6 | §2.2.6 | Kärl 370 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ370RE26DH | KÄ370RE26DH |  |  |  |  | 
-KÄ370RE26FV;KÄ370RE;370|RE|26|FV|FRITID;370;RE;26;FV;FRITID;RULE:Taxepunkter:44;Kärl 370 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.4 | §2.2.4 | Kärl 370 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ370RE26FV | KÄ370RE26FV |  |  |  |  | 
-KÄ370RE26FV;KÄ370RE;370|RE|26|FV|FRITID;370;RE;26;FV;FRITID;RULE:Taxepunkter:76;Kärl 370 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.5 | §2.2.5 | Kärl 370 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ370RE26FV | KÄ370RE26FV |  |  |  |  | 
-KÄ370RE26FV;KÄ370RE;370|RE|26|FV|FRITID;370;RE;26;FV;FRITID;RULE:Taxa_från_edp:242;Kärl 370L, restavfall. Var 14:e dag. FLB/VHT Okänd Restavfall Behållarvolym ÅRKV KÄ370RE26FV | Kärl 370L, restavfall. Var 14:e dag. FLB/VHT | ÅRKV | Kärl 370L, restavfall. Var 14:e dag | ANTB
-KÄ370RE26FV;KÄ370RE;370|RE|26|FV|FRITID;370;RE;26;FV;FRITID;RULE:Taxa_från_edp:243;Kärl 370L, restavfall. Var 14:e dag. FLB/VHT Okänd Restavfall Behållarvolym KVAN KÄ370RE26FV | Kärl 370L, restavfall. Var 14:e dag. FLB/VHT | KVAN | Kärl 370L 26V Viktavgift restavfall kr/kg | VIKG,MAX60
-KÄ370RE26FV;KÄ370RE;370|RE|26|FV|FRITID;370;RE;26;FV;FRITID;RULE:Taxa_från_edp:244;Kärl 370L, restavfall. Var 14:e dag. FLB/VHT Okänd Restavfall Behållarvolym ÅRKV KÄ370RE26FV | Kärl 370L, restavfall. Var 14:e dag. FLB/VHT | ÅRKV | Dragväg 1,5-10 meter | DR10
-KÄ370RE26FV;KÄ370RE;370|RE|26|FV|FRITID;370;RE;26;FV;FRITID;RULE:Taxa_från_edp:245;Kärl 370L, restavfall. Var 14:e dag. FLB/VHT Okänd Restavfall Behållarvolym ÅRKV KÄ370RE26FV | Kärl 370L, restavfall. Var 14:e dag. FLB/VHT | ÅRKV | Dragväg 10,1-20 meter | DR20
-KÄ370RE26FV;KÄ370RE;370|RE|26|FV|FRITID;370;RE;26;FV;FRITID;RULE:Taxa_från_edp:246;Kärl 370L, restavfall. Var 14:e dag. FLB/VHT Okänd Restavfall Behållarvolym KVAN KÄ370RE26FV | Kärl 370L, restavfall. Var 14:e dag. FLB/VHT | KVAN | Kärl 370L 26V Överviktsavgift vikt över 60 kg, restavfall | VIKG-60,MIN0
+KÄ370RE26FV;KÄ370RE;370|RE|26|FV|FRITID;370;RE;26;FV;FRITID;RULE:Taxepunkter:42;Kärl 370 l (restavfall) Hushåll Restavfall Behållarvolym ÅRKV 370 §2.2.4 | §2.2.4 | Kärl 370 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ370RE26FV | KÄ370RE26FV | ÅRKV |  |  |  | 
+KÄ370RE26FV;KÄ370RE;370|RE|26|FV|FRITID;370;RE;26;FV;FRITID;RULE:Taxepunkter:73;Kärl 370 l (restavfall) Hushåll Restavfall Behållarvolym ÅRKV 370 §2.2.5 | §2.2.5 | Kärl 370 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ370RE26FV | KÄ370RE26FV | ÅRKV |  |  |  | 
+KÄ370RE26FV;KÄ370RE;370|RE|26|FV|FRITID;370;RE;26;FV;FRITID;RULE:Taxa_från_edp:123;Kärl 370 L, rest. FLB/VHT Okänd Behållarvolym ÅRKV KÄ370RE26FV | Kärl 370 L, rest. FLB/VHT | ÅRKV | Kärl 370 L kärl, rest. FLB/VHT | ANTB
+KÄ370RE26FV;KÄ370RE;370|RE|26|FV|FRITID;370;RE;26;FV;FRITID;RULE:Taxa_från_edp:124;Kärl 370 L, rest. FLB/VHT Okänd Behållarvolym KVAN KÄ370RE26FV | Kärl 370 L, rest. FLB/VHT | KVAN | Viktavgift restavfall kr/kg | VIKG,MAX60
+KÄ370RE26FV;KÄ370RE;370|RE|26|FV|FRITID;370;RE;26;FV;FRITID;RULE:Taxa_från_edp:125;Kärl 370 L, rest. FLB/VHT Okänd Behållarvolym KVAN KÄ370RE26FV | Kärl 370 L, rest. FLB/VHT | KVAN | Avgift över 60 kg, restavfall | VIKG-60,MIN0
 KÄ370RE44S;KÄ370RE;370|RE|44|S;370;RE;44;S;;STANDARD:Standard Avfall:60;Kärl 370 L, restavfall. 2ggr/ vecka säsong ÅRKV ANTB
 KÄ370RE52;KÄ370RE;370|RE|52;370;RE;52;;;STANDARD:Standard Avfall:57;Kärl 370 L, restavfall. Varje vecka ÅRKV ANTB
-KÄ370RE52DH;KÄ370RE;370|RE|52|DH;370;RE;52;DH;;RULE:Taxepunkter:92;Kärl 370 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.6 | §2.2.6 | Kärl 370 l (restavfall) | Hämtning varje vecka | st/år | KÄ370RE52DH | KÄ370RE52DH |  |  |  |  | 
-KÄ370RE52FV;KÄ370RE;370|RE|52|FV|FRITID;370;RE;52;FV;FRITID;RULE:Taxepunkter:43;Kärl 370 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.4 | §2.2.4 | Kärl 370 l (restavfall) | Hämtning varje vecka | st/år | KÄ370RE52FV | KÄ370RE52FV |  |  |  |  | 
-KÄ370RE52FV;KÄ370RE;370|RE|52|FV|FRITID;370;RE;52;FV;FRITID;RULE:Taxepunkter:75;Kärl 370 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.5 | §2.2.5 | Kärl 370 l (restavfall) | Hämtning varje vecka | st/år | KÄ370RE52FV | KÄ370RE52FV |  |  |  |  | 
-KÄ370RE52FV;KÄ370RE;370|RE|52|FV|FRITID;370;RE;52;FV;FRITID;RULE:Taxa_från_edp:247;Kärl 370L, restavfall. Varje vecka. FLB/VHT Okänd Restavfall Behållarvolym ÅRKV KÄ370RE52FV | Kärl 370L, restavfall. Varje vecka. FLB/VHT | ÅRKV | Kärl 370L, restavfall. Varje vecka | ANTB
-KÄ370RE52FV;KÄ370RE;370|RE|52|FV|FRITID;370;RE;52;FV;FRITID;RULE:Taxa_från_edp:248;Kärl 370L, restavfall. Varje vecka. FLB/VHT Okänd Restavfall Behållarvolym KVAN KÄ370RE52FV | Kärl 370L, restavfall. Varje vecka. FLB/VHT | KVAN | Kärl 370L 52V Viktavgift restavfall kr/kg | VIKG,MAX60
-KÄ370RE52FV;KÄ370RE;370|RE|52|FV|FRITID;370;RE;52;FV;FRITID;RULE:Taxa_från_edp:249;Kärl 370L, restavfall. Varje vecka. FLB/VHT Okänd Restavfall Behållarvolym ÅRKV KÄ370RE52FV | Kärl 370L, restavfall. Varje vecka. FLB/VHT | ÅRKV | Dragväg 1,5-10 meter | DR10
-KÄ370RE52FV;KÄ370RE;370|RE|52|FV|FRITID;370;RE;52;FV;FRITID;RULE:Taxa_från_edp:250;Kärl 370L, restavfall. Varje vecka. FLB/VHT Okänd Restavfall Behållarvolym ÅRKV KÄ370RE52FV | Kärl 370L, restavfall. Varje vecka. FLB/VHT | ÅRKV | Dragväg 10,1-20 meter | DR20
-KÄ370RE52FV;KÄ370RE;370|RE|52|FV|FRITID;370;RE;52;FV;FRITID;RULE:Taxa_från_edp:251;Kärl 370L, restavfall. Varje vecka. FLB/VHT Okänd Restavfall Behållarvolym KVAN KÄ370RE52FV | Kärl 370L, restavfall. Varje vecka. FLB/VHT | KVAN | Kärl 370L 52V Överviktsavgift vikt över 60 kg, restavfall | VIKG-60,MIN0
 KÄ370RE6S;KÄ370RE;370|RE|6|S;370;RE;6;S;;STANDARD:Standard Avfall:63;Kärl 370 L, restavfall. Var 4:e vecka säsong ÅRKV ANTB
 KÄ370TI104;KÄ370TI;370|TI|104;370;TI;104;;;STANDARD:Standard Avfall:361;Kärl 370 L, tidningar. 2ggr/ vecka ÅRKV ANTB
-KÄ370TI12FV;KÄ370TI;370|TI|12|FV|FRITID;370;TI;12;FV;FRITID;RULE:Taxepunkter:66;Kärl 370 l (tidningar och returpapper) Hushåll Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.4 | §2.2.4 | Kärl 370 l (tidningar och returpapper) | Hämtning månadsvis | st/år | KÄ370TI12FV | KÄ370TI12FV |  |  |  |  | 
 KÄ370TI13;KÄ370TI;370|TI|13;370;TI;13;;;STANDARD:Standard Avfall:364;Kärl 370 L, tidningar. Var 4:e vecka ÅRKV ANTB
 KÄ370TI26;KÄ370TI;370|TI|26;370;TI;26;;;STANDARD:Standard Avfall:363;Kärl 370 L, tidningar. Var 14:e dag ÅRKV ANTB
-KÄ370TI26FV;KÄ370TI;370|TI|26|FV|FRITID;370;TI;26;FV;FRITID;RULE:Taxepunkter:65;Kärl 370 l (tidningar och returpapper) Hushåll Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.4 | §2.2.4 | Kärl 370 l (tidningar och returpapper) | Hämtning var 14:e dag | st/år | KÄ370TI26FV | KÄ370TI26FV |  |  |  |  | 
 KÄ370TI52;KÄ370TI;370|TI|52;370;TI;52;;;STANDARD:Standard Avfall:362;Kärl 370 L, tidningar. Varje vecka ÅRKV ANTB
-KÄ370TI52FV;KÄ370TI;370|TI|52|FV|FRITID;370;TI;52;FV;FRITID;RULE:Taxepunkter:64;Kärl 370 l (tidningar och returpapper) Hushåll Behållarvolym VOLYM/BEHÅLLARE 370 §2.2.4 | §2.2.4 | Kärl 370 l (tidningar och returpapper) | Hämtning varje vecka | st/år | KÄ370TI52FV | KÄ370TI52FV |  |  |  |  | 
 KÄ370TIBUD;KÄ370TI;370|TI|BUD;370;TI;;BUD;;STANDARD:Standard Avfall:365;Kärl 370 L, tidningar. Budning KVAN ANTL
-KÄ50HL;KÄ50;50|HL;50;;;HL;;RULE:Taxa_från_edp:252;Kärl 50L Hundlatrin Okänd Behållarvolym ÅRKV KÄ50HL | Kärl 50L Hundlatrin | ÅRKV | Kärl 50l | ANTB
-KÄ50HL;KÄ50;50|MA|HL;50;MA;;HL;;RULE:Taxa_från_edp:253;Kärl 50L Hundlatrin Okänd Behållarvolym KVAN KÄ50HL | Kärl 50L Hundlatrin | KVAN | Viktavgift rest- matavfall kr/kg | VIKG
-KÄ660FP12FV;KÄ660;660;660;;;;;RULE:Taxepunkter:60;Kärl 660 l (förpackningar) Hushåll Förpackningar Behållarvolym VOLYM/BEHÅLLARE 660 §2.2.4 | §2.2.4 | Kärl 660 l (förpackningar) | Hämtning månadsvis | st/år | KÄ660FP12FV | KÄ660FP12FV |  |  |  |  | 
-KÄ660FP26FV;KÄ660;660;660;;;;;RULE:Taxepunkter:59;Kärl 660 l (förpackningar) Hushåll Förpackningar Behållarvolym VOLYM/BEHÅLLARE 660 §2.2.4 | §2.2.4 | Kärl 660 l (förpackningar) | Hämtning var 14:e dag | st/år | KÄ660FP26FV | KÄ660FP26FV |  |  |  |  | 
-KÄ660FP52FV;KÄ660;660;660;;;;;RULE:Taxepunkter:58;Kärl 660 l (förpackningar) Hushåll Förpackningar Behållarvolym VOLYM/BEHÅLLARE 660 §2.2.4 | §2.2.4 | Kärl 660 l (förpackningar) | Hämtning varje vecka | st/år | KÄ660FP52FV | KÄ660FP52FV |  |  |  |  | 
 KÄ660OS11S;KÄ660;660;660;;;;;STANDARD:Standard Avfall:181;Kärl 660 L, osort. avfall. Var 14:e dag säsong ÅRKV ANTB
 KÄ660OS13;KÄ660;660;660;;;;;STANDARD:Standard Avfall:178;Kärl 660 L, osort. avfall. Var 4:e vecka ÅRKV ANTB
 KÄ660OS22S;KÄ660;660;660;;;;;STANDARD:Standard Avfall:180;Kärl 660 L, osort. avfall. Varje vecka säsong ÅRKV ANTB
@@ -827,6 +696,7 @@ KÄ660OS44S;KÄ660;660|2;660;;2;;;STANDARD:Standard Avfall:179;Kärl 660 L, osor
 KÄ660WE104;KÄ660;660|2;660;;2;;;STANDARD:Standard Avfall:385;Kärl 660 L, wellpapp. 2ggr/ vecka ÅRKV ANTB
 KÄ660OS156;KÄ660;660|3;660;;3;;;STANDARD:Standard Avfall:174;Kärl 660 L, osort. avfall. 3ggr/ vecka ÅRKV ANTB
 KÄ660WEBUD;KÄ660;660|WEBUD;660;;;WEBUD;;STANDARD:Standard Avfall:389;Kärl 660 L, wellpapp. Budning KVAN ANTL
+KÄ660ÖVRIGT;KÄ660;660|ÖVRIGT;660;;;ÖVRIGT;;RULE:Taxa_från_edp:129;Kärl 660 kommunens egna kärl för tex akutsäck Okänd ÅRKV KÄ660ÖVRIGT | Kärl 660 kommunens egna kärl för tex akutsäck | ÅRKV | Kärl 660 L, rest. FLB/VHT | ANTB
 KÄ660ME104;KÄ660ME;660|ME|104;660;ME;104;;;STANDARD:Standard Avfall:403;Kärl 660 L, metallförpackningar. 2ggr/ vecka ÅRKV ANTB
 KÄ660ME13;KÄ660ME;660|ME|13;660;ME;13;;;STANDARD:Standard Avfall:406;Kärl 660 L, metallförpackningar. Var 4:e vecka ÅRKV ANTB
 KÄ660ME26;KÄ660ME;660|ME|26;660;ME;26;;;STANDARD:Standard Avfall:405;Kärl 660 L, metallförpackningar. Var 14:e dag ÅRKV ANTB
@@ -845,31 +715,18 @@ KÄ660PLBUD;KÄ660PL;660|PL|BUD;660;PL;;BUD;;STANDARD:Standard Avfall:413;Kärl 
 KÄ660RE026;KÄ660RE;660|RE|026;660;RE;026;;;STANDARD:Standard Avfall:68;Kärl 660 L, restavfall. Var 14:e dag ÅRKV ANTB
 KÄ660RE104;KÄ660RE;660|RE|104;660;RE;104;;;STANDARD:Standard Avfall:66;Kärl 660 L, restavfall. 2ggr/ vecka ÅRKV ANTB
 KÄ660RE11S;KÄ660RE;660|RE|11|S;660;RE;11;S;;STANDARD:Standard Avfall:72;Kärl 660 L, restavfall. Var 14:e dag säsong ÅRKV ANTB
-KÄ660RE12DH;KÄ660RE;660|RE|12|DH;660;RE;12;DH;;RULE:Taxepunkter:97;Kärl 660 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 660 §2.2.6 | §2.2.6 | Kärl 660 l (restavfall) | Hämtning månadsvis | st/år | KÄ660RE12DH | KÄ660RE12DH |  |  |  |  | 
-KÄ660RE12FV;KÄ660RE;660|RE|12|FV|FRITID;660;RE;12;FV;FRITID;RULE:Taxepunkter:48;Kärl 660 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 660 §2.2.4 | §2.2.4 | Kärl 660 l (restavfall) | Hämtning månadsvis | st/år | KÄ660RE12FV | KÄ660RE12FV |  |  |  |  | 
 KÄ660RE13;KÄ660RE;660|RE|13;660;RE;13;;;STANDARD:Standard Avfall:69;Kärl 660 L, restavfall. Var 4:e vecka ÅRKV ANTB
 KÄ660RE13D2;KÄ660RE;660|RE|13;660;RE;13;;;STANDARD:Standard Avfall:9;Kärl 660 L, restavfall. Var 4:e vecka. 2 hh ÅRKV ANTB
 KÄ660RE156;KÄ660RE;660|RE|156;660;RE;156;;;STANDARD:Standard Avfall:65;Kärl 660 L, restavfall. 3ggr/ vecka ÅRKV ANTB
 KÄ660RE22S;KÄ660RE;660|RE|22|S;660;RE;22;S;;STANDARD:Standard Avfall:71;Kärl 660 L, restavfall. Varje vecka säsong ÅRKV ANTB
-KÄ660RE26DH;KÄ660RE;660|RE|26|DH;660;RE;26;DH;;RULE:Taxepunkter:96;Kärl 660 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 660 §2.2.6 | §2.2.6 | Kärl 660 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ660RE26DH | KÄ660RE26DH |  |  |  |  | 
-KÄ660RE26FV;KÄ660RE;660|RE|26|FV|FRITID;660;RE;26;FV;FRITID;RULE:Taxepunkter:47;Kärl 660 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 660 §2.2.4 | §2.2.4 | Kärl 660 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ660RE26FV | KÄ660RE26FV |  |  |  |  | 
-KÄ660RE26FV;KÄ660RE;660|RE|26|FV|FRITID;660;RE;26;FV;FRITID;RULE:Taxepunkter:79;Kärl 660 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 660 §2.2.5 | §2.2.5 | Kärl 660 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ660RE26FV | KÄ660RE26FV |  |  |  |  | 
-KÄ660RE26FV;KÄ660RE;660|RE|26|FV|FRITID;660;RE;26;FV;FRITID;RULE:Taxa_från_edp:254;Kärl 660L, restavfall. Var 14:e dag FLB/VHT Okänd Restavfall Behållarvolym ÅRKV KÄ660RE26FV | Kärl 660L, restavfall. Var 14:e dag FLB/VHT | ÅRKV | Kärl 660L, restavfall. Var 14:e dag | ANTB
-KÄ660RE26FV;KÄ660RE;660|RE|26|FV|FRITID;660;RE;26;FV;FRITID;RULE:Taxa_från_edp:255;Kärl 660L, restavfall. Var 14:e dag FLB/VHT Okänd Restavfall Behållarvolym KVAN KÄ660RE26FV | Kärl 660L, restavfall. Var 14:e dag FLB/VHT | KVAN | Kärl 660L 26V Viktavgift restavfall kr/kg | VIKG,MAX100
-KÄ660RE26FV;KÄ660RE;660|RE|26|FV|FRITID;660;RE;26;FV;FRITID;RULE:Taxa_från_edp:256;Kärl 660L, restavfall. Var 14:e dag FLB/VHT Okänd Restavfall Behållarvolym ÅRKV KÄ660RE26FV | Kärl 660L, restavfall. Var 14:e dag FLB/VHT | ÅRKV | Dragväg 1,5-10 meter | DR10
-KÄ660RE26FV;KÄ660RE;660|RE|26|FV|FRITID;660;RE;26;FV;FRITID;RULE:Taxa_från_edp:257;Kärl 660L, restavfall. Var 14:e dag FLB/VHT Okänd Restavfall Behållarvolym ÅRKV KÄ660RE26FV | Kärl 660L, restavfall. Var 14:e dag FLB/VHT | ÅRKV | Dragväg 10,1-20 meter | DR20
-KÄ660RE26FV;KÄ660RE;660|RE|26|FV|FRITID;660;RE;26;FV;FRITID;RULE:Taxa_från_edp:258;Kärl 660L, restavfall. Var 14:e dag FLB/VHT Okänd Restavfall Behållarvolym KVAN KÄ660RE26FV | Kärl 660L, restavfall. Var 14:e dag FLB/VHT | KVAN | Kärl 660L 26V Överviktsavgift vikt över 100 kg, restavfall | VIKG-100,MIN0
+KÄ660RE26FV;KÄ660RE;660|RE|26|FV|FRITID;660;RE;26;FV;FRITID;RULE:Taxepunkter:45;Kärl 660 l (restavfall) Hushåll Restavfall Behållarvolym ÅRKV 660 §2.2.4 | §2.2.4 | Kärl 660 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ660RE26FV | KÄ660RE26FV | ÅRKV |  |  |  | 
+KÄ660RE26FV;KÄ660RE;660|RE|26|FV|FRITID;660;RE;26;FV;FRITID;RULE:Taxepunkter:76;Kärl 660 l (restavfall) Hushåll Restavfall Behållarvolym ÅRKV 660 §2.2.5 | §2.2.5 | Kärl 660 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ660RE26FV | KÄ660RE26FV | ÅRKV |  |  |  | 
+KÄ660RE26FV;KÄ660RE;660|RE|26|FV|FRITID;660;RE;26;FV;FRITID;RULE:Taxa_från_edp:126;Kärl 660 L, rest. FLB/VHT Okänd Behållarvolym ÅRKV KÄ660RE26FV | Kärl 660 L, rest. FLB/VHT | ÅRKV | Kärl 660 L, rest. FLB/VHT | ANTB
+KÄ660RE26FV;KÄ660RE;660|RE|26|FV|FRITID;660;RE;26;FV;FRITID;RULE:Taxa_från_edp:127;Kärl 660 L, rest. FLB/VHT Okänd Behållarvolym KVAN KÄ660RE26FV | Kärl 660 L, rest. FLB/VHT | KVAN | Viktavgift restavfall kr/kg | VIKG,MAX60
+KÄ660RE26FV;KÄ660RE;660|RE|26|FV|FRITID;660;RE;26;FV;FRITID;RULE:Taxa_från_edp:128;Kärl 660 L, rest. FLB/VHT Okänd Behållarvolym KVAN KÄ660RE26FV | Kärl 660 L, rest. FLB/VHT | KVAN | Avgift över 60 kg, restavfall | VIKG-60,MIN0
 KÄ660RE44SD4;KÄ660RE;660|RE|44;660;RE;44;;;STANDARD:Standard Avfall:11;Kärl 660 L, restavfall. 2ggr/vecka säsong. 4 hh ÅRKV ANTB
 KÄ660RE44S;KÄ660RE;660|RE|44|S;660;RE;44;S;;STANDARD:Standard Avfall:70;Kärl 660 L, restavfall. 2ggr/vecka säsong ÅRKV ANTB
 KÄ660RE52;KÄ660RE;660|RE|52;660;RE;52;;;STANDARD:Standard Avfall:67;Kärl 660 L, restavfall. Varje vecka ÅRKV ANTB
-KÄ660RE52DH;KÄ660RE;660|RE|52|DH;660;RE;52;DH;;RULE:Taxepunkter:95;Kärl 660 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 660 §2.2.6 | §2.2.6 | Kärl 660 l (restavfall) | Hämtning varje vecka | st/år | KÄ660RE52DH | KÄ660RE52DH |  |  |  |  | 
-KÄ660RE52FV;KÄ660RE;660|RE|52|FV|FRITID;660;RE;52;FV;FRITID;RULE:Taxepunkter:46;Kärl 660 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 660 §2.2.4 | §2.2.4 | Kärl 660 l (restavfall) | Hämtning varje vecka | st/år | KÄ660RE52FV | KÄ660RE52FV |  |  |  |  | 
-KÄ660RE52FV;KÄ660RE;660|RE|52|FV|FRITID;660;RE;52;FV;FRITID;RULE:Taxepunkter:78;Kärl 660 l (restavfall) Hushåll Restavfall Behållarvolym VOLYM/BEHÅLLARE 660 §2.2.5 | §2.2.5 | Kärl 660 l (restavfall) | Hämtning varje vecka | st/år | KÄ660RE52FV | KÄ660RE52FV |  |  |  |  | 
-KÄ660RE52FV;KÄ660RE;660|RE|52|FV|FRITID;660;RE;52;FV;FRITID;RULE:Taxa_från_edp:259;Kärl 660L, restavfall. Varje vecka. FLB/VHT Okänd Restavfall Behållarvolym ÅRKV KÄ660RE52FV | Kärl 660L, restavfall. Varje vecka. FLB/VHT | ÅRKV | Kärl 660L, restavfall. Varje vecka | ANTB
-KÄ660RE52FV;KÄ660RE;660|RE|52|FV|FRITID;660;RE;52;FV;FRITID;RULE:Taxa_från_edp:260;Kärl 660L, restavfall. Varje vecka. FLB/VHT Okänd Restavfall Behållarvolym KVAN KÄ660RE52FV | Kärl 660L, restavfall. Varje vecka. FLB/VHT | KVAN | Kärl 660L 52V Viktavgift restavfall kr/kg | VIKG,MAX100
-KÄ660RE52FV;KÄ660RE;660|RE|52|FV|FRITID;660;RE;52;FV;FRITID;RULE:Taxa_från_edp:261;Kärl 660L, restavfall. Varje vecka. FLB/VHT Okänd Restavfall Behållarvolym ÅRKV KÄ660RE52FV | Kärl 660L, restavfall. Varje vecka. FLB/VHT | ÅRKV | Dragväg 1,5-10 meter | DR10
-KÄ660RE52FV;KÄ660RE;660|RE|52|FV|FRITID;660;RE;52;FV;FRITID;RULE:Taxa_från_edp:262;Kärl 660L, restavfall. Varje vecka. FLB/VHT Okänd Restavfall Behållarvolym ÅRKV KÄ660RE52FV | Kärl 660L, restavfall. Varje vecka. FLB/VHT | ÅRKV | Dragväg 10,1-20 meter | DR20
-KÄ660RE52FV;KÄ660RE;660|RE|52|FV|FRITID;660;RE;52;FV;FRITID;RULE:Taxa_från_edp:263;Kärl 660L, restavfall. Varje vecka. FLB/VHT Okänd Restavfall Behållarvolym KVAN KÄ660RE52FV | Kärl 660L, restavfall. Varje vecka. FLB/VHT | KVAN | Kärl 660L 52V Överviktsavgift vikt över 100 kg, restavfall | VIKG-100,MIN0
 KÄ660RE52FV;KÄ660RE;660|RE|52|FV|VERKSAMHET;660;RE;52;FV;VERKSAMHET;STANDARD:Standard Avfall:17;Kärl 660 L, restavfall. Varje vecka. Flerb.hus/Verksamheter ÅRKV ANTB
 KÄ660RE6S;KÄ660RE;660|RE|6|S;660;RE;6;S;;STANDARD:Standard Avfall:73;Kärl 660 L, restavfall. Var 4:e vecka säsong ÅRKV ANTB
 KÄ660TI104;KÄ660TI;660|TI|104;660;TI;104;;;STANDARD:Standard Avfall:391;Kärl 660 L, tidningar. 2ggr/ vecka ÅRKV ANTB
@@ -879,78 +736,70 @@ KÄ660TI52;KÄ660TI;660|TI|52;660;TI;52;;;STANDARD:Standard Avfall:392;Kärl 660
 KÄ660TIBUD;KÄ660TI;660|TI|BUD;660;TI;;BUD;;STANDARD:Standard Avfall:395;Kärl 660 L, tidningar. Budning KVAN ANTL
 KÄMABUD;KÄMA;370|MA|BUD;370;MA;;BUD;;STANDARD:Standard Avfall:117;Kärl 140-370 L, matavfall. Budning KVAN ANTL
 KÄREBUD;KÄRE;660|RE|BUD;660;RE;;BUD;;STANDARD:Standard Avfall:74;Kärl 140-660 L, restavfall. Budning KVAN ANTL
-MANUELLSORT;MA;MA|NUELLSORT;;MA;;NUELLSORT;;RULE:Taxa_från_edp:126;Manuell sortering och hantering per person Okänd KVAN MANUELLSORT | Manuell sortering och hantering per person | KVAN | Manuell sortering och hantering per person | TIMT
-MAT;MA;MA|T;;MA;;T;;RULE:Taxa_från_edp:265;Viktavgift matavfall Okänd Matavfall KVAN MAT | Viktavgift matavfall | KVAN | Viktavgift matavfall | VIKG
-METALLFÖRPFA;ME;ME|TALLFÖRPFA;;ME;;TALLFÖRPFA;;RULE:Taxa_från_edp:127;Metallförpackningar med farlig fast/porös fyllning, tomma tryckbehållare Okänd KVAN METALLFÖRPFA | Metallförpackningar med farlig fast/porös fyllning, tomma tryckbehållare | KVAN | Metallförpackningar, farlig fast/porös fyllning, tryckbehåll | VIKG
-METALLSKROTREN;ME;ME|TALLSKROTREN|FRITID;;ME;;TALLSKROTREN;FRITID;RULE:Taxa_från_edp:128;Metallskrot, rent (vätskefritt, utan el) Okänd KVAN METALLSKROTREN | Metallskrot, rent (vätskefritt, utan el) | KVAN | Metallskrot, rent | KBMÖ
-ReAvfallSum;RE;660|RE|AVFALLSUM;660;RE;;AVFALLSUM;;RULE:Taxa_från_edp:272;Viktavgift restavfall Sumerad KÄ660 1 veckastömning Okänd Restavfall KVAN ReAvfallSum | Viktavgift restavfall Sumerad KÄ660 1 veckastömning | KVAN | Kärl 660L Viktavgift restavfall kr/kg (period) | VIKG
+MANLASTBIL;MA;MA|NLASTBIL;;MA;;NLASTBIL;;RULE:Taxa_från_edp:135;MAN Lastbil- externa tjänster Okänd KVAN MANLASTBIL | MAN Lastbil- externa tjänster | KVAN | MAN Lastbil | TIMT
+METALLSKROT;ME;ME|TALLSKROT;;ME;;TALLSKROT;;RULE:Taxa_från_edp:154;Metallskrot- rent Okänd KVAN METALLSKROT | Metallskrot- rent | KVAN | Metallskrot- rent | VITO
+RES;RE;660|RE|S;660;RE;;S;;RULE:Taxa_från_edp:173;660 L RESURSKÄRL Okänd Behållarvolym KVAN RES | 660 L RESURSKÄRL | KVAN | Tömning av resurskärl | ANTL
 RENH0;RE;RE;;RE;;;;STANDARD:Standard Avfall:307;Dummytaxa för tjänst ÅRKV 0
-REGLRESTBELOPP;RE;RE|GLRESTBELOPP;;RE;;GLRESTBELOPP;;RULE:Taxa_från_edp:336;Reglering restbelopp tidigare faktura Okänd KVAN REGLRESTBELOPP | Reglering restbelopp tidigare faktura | KVAN | Reglering restbelopp tidigare faktura | ANTL
-REGLTILLGODO;RE;RE|GLTILLGODO;;RE;;GLTILLGODO;;RULE:Taxa_från_edp:154;Reglering tillgodo tidigare faktura Okänd KVAN REGLTILLGODO | Reglering tillgodo tidigare faktura | KVAN | Reglering tillgodo tidigare faktura | ANTL
-RENGÖRINGBIL;RE;RE|NGÖRINGBIL;;RE;;NGÖRINGBIL;;RULE:Taxa_från_edp:132;Rengöringsmedel samt bilvårdsprodukter Okänd KVAN RENGÖRINGBIL | Rengöringsmedel samt bilvårdsprodukter | KVAN | Rengöringsmedel samt bilvårdsprodukter | VIKG
-REST;RE;RE|ST;;RE;;ST;;RULE:Taxa_från_edp:273;Viktavgift restavfall Okänd Restavfall KVAN REST | Viktavgift restavfall | KVAN | Viktavgift restavfall | VIKG
-SANNAN;SA;NNAN;;;;NNAN;;RULE:Taxa_från_edp:274;Spillvatten Annan fastighet Okänd ÅRPR SANNAN | Spillvatten Annan fastighet | ÅRPR | Fast avgift spillvatten | 
-SANNAN;SA;NNAN;;;;NNAN;;RULE:Taxa_från_edp:275;Spillvatten Annan fastighet Okänd FÖRB SANNAN | Spillvatten Annan fastighet | FÖRB | Förbrukningsavgift, spillvatten | 
-SLBUD7DGR;SL;7;;;7;;;RULE:Taxa_från_edp:192;Tillägg för budning inom 7 dagar Okänd KVAN SLBUD7DGR | Tillägg för budning inom 7 dagar | KVAN | Tillägg för budning inom 7 dagar | ANTL
-SLBUDFOS;SL;7|BUDFOS;;;7;BUDFOS;;RULE:Taxa_från_edp:133;Tillägg budad tömning inom 7 dagar, fosforfilter Okänd KVAN SLBUDFOS | Tillägg budad tömning inom 7 dagar, fosforfilter | KVAN | Tillägg budad tömning | ANTL
-SLKBM3;SL;BASE;;;;;;RULE:Taxa_från_edp:134;Tömning BDT-vatten tillägg över 3 m³ Okänd KVAN SLKBM3 | Tömning BDT-vatten tillägg över 3 m³ | KVAN | Tillägg över 3 m³ | KBMS
-SLKBM9;SL;BASE;;;;;;RULE:Taxa_från_edp:174;Tillägg för kubikmeter överstigande 9,1 m³ Okänd Volym KVAN SLKBM9 | Tillägg för kubikmeter överstigande 9,1 m³ | KVAN | Tillägg för kubikmeter överstigande 9,1 m³ | KBMS
+RESTSKULD;RE;RE|STSKULD;;RE;;STSKULD;;RULE:Taxa_från_edp:174;Restskuld Okänd KVAN RESTSKULD | Restskuld | KVAN | Restskuld | 
+SAML;SA;ML;;;;ML;;RULE:Taxa_från_edp:178;SAMLINGSKÄRL Okänd ÅRPR SAML | SAMLINGSKÄRL | ÅRPR | Sophämtning samlingskärl | 
+SAML;SA;ML;;;;ML;;RULE:Taxa_från_edp:179;SAMLINGSKÄRL Okänd ÅRPR SAML | SAMLINGSKÄRL | ÅRPR | Grundavgift | 
+SAMLB;SA;MLB|FRITID;;;;MLB;FRITID;RULE:Taxa_från_edp:180;FRITIDSHUS BRÄSKAFORS Okänd ÅRPR SAMLB | FRITIDSHUS BRÄSKAFORS | ÅRPR | Sophämtning samlingskärl | 
+SAMLB;SA;MLB|FRITID;;;;MLB;FRITID;RULE:Taxa_från_edp:181;FRITIDSHUS BRÄSKAFORS Okänd ÅRPR SAMLB | FRITIDSHUS BRÄSKAFORS | ÅRPR | Grundavgift | 
+SAMLF;SA;MLF|FRITID;;;;MLF;FRITID;RULE:Taxa_från_edp:182;SAMLINGSKÄRL FRITIDSHUS Okänd ÅRPR SAMLF | SAMLINGSKÄRL FRITIDSHUS | ÅRPR | Sophämtning samlingskärl | 
+SAMLF;SA;MLF|FRITID;;;;MLF;FRITID;RULE:Taxa_från_edp:183;SAMLINGSKÄRL FRITIDSHUS Okänd ÅRPR SAMLF | SAMLINGSKÄRL FRITIDSHUS | ÅRPR | Grundavgift | 
+SAMAM;SAMA;MA|M;;MA;;M;;RULE:Taxa_från_edp:176;SAMLINGSKÄRL AMMARNÄS Okänd ÅRPR SAMAM | SAMLINGSKÄRL AMMARNÄS | ÅRPR | Sophämtning samlingskärl | 
+SAMAM;SAMA;MA|M;;MA;;M;;RULE:Taxa_från_edp:177;SAMLINGSKÄRL AMMARNÄS Okänd ÅRPR SAMAM | SAMLINGSKÄRL AMMARNÄS | ÅRPR | Grundavgift | 
 SLT03SL;SL;BASE;;;;;;STANDARD:Standard Slam:79;Sluten tank 0-3 m³, slam KVAN ANTL
-SLT03SL;SL;BASE;;;;;;RULE:Taxa_från_edp:169;Sluten tank 0-3 m³, slam Slam Slam KVAN SLT03SL | Sluten tank 0-3 m³, slam | KVAN | Tömning slam, sluten tank 0-3 m³ | ANTL
 SLT03SLB;SL;BASE;;;;;;STANDARD:Standard Slam:62;Sluten tank 0-3 m³, slam. Budning KVAN ANTL
 SLT03SLBUD;SL;BASE;;;;;;STANDARD:Standard Slam:29;Sluten tank 0-3 m³, slam. Budning ÅRKV 0
-SLT03SLBUD;SL;BASE;;;;;;RULE:Taxa_från_edp:50;Sluten tank 0-3 m³, slam. Budning Slam Slam ÅRKV SLT03SLBUD | Sluten tank 0-3 m³, slam. Budning | ÅRKV | Sluten tank 0-3 m³, slam. Budning | 0
+SLT03SLBUD;SL;BASE;;;;;;RULE:Taxa_från_edp:203;Sluten tank 0-3 m³, slam. Budning Slam Slam ÅRKV SLT03SLBUD | Sluten tank 0-3 m³, slam. Budning | ÅRKV | Sluten tank 0-3 m³, slam. Bud | ANTB
 SLT03SLO;SL;BASE;;;;;;STANDARD:Standard Slam:46;Sluten tank 0-3 m³, slam. Ordinarie tur KVAN ANTL
 SLT03SLORD;SL;BASE;;;;;;STANDARD:Standard Slam:13;Sluten tank 0-3 m³, slam. Ordinarie tur ÅRKV 0
-SLT03SLORD;SL;BASE;;;;;;RULE:Taxa_från_edp:51;Sluten tank 0-3 m³, slam. Ordinarie tur Slam Slam ÅRKV SLT03SLORD | Sluten tank 0-3 m³, slam. Ordinarie tur | ÅRKV | Sluten tank 0-3 m³, slam. Ordinarie tur | 0
+SLT03SLORD;SL;BASE;;;;;;RULE:Taxa_från_edp:204;Sluten tank 0-3 m³, slam. Ordinarie tur Slam Slam ÅRKV SLT03SLORD | Sluten tank 0-3 m³, slam. Ordinarie tur | ÅRKV | Sluten tank 0-3 m³, slam. Ord | ANTB
 SLT36SL;SL;BASE;;;;;;STANDARD:Standard Slam:80;Sluten tank 3,1-6 m³, slam KVAN ANTL
-SLT36SL;SL;BASE;;;;;;RULE:Taxa_från_edp:170;Sluten tank 3,1-6 m³, slam Slam Slam KVAN SLT36SL | Sluten tank 3,1-6 m³, slam | KVAN | Tömning slam, sluten tank 3,1-6 m³ | ANTL
 SLT36SLB;SL;BASE;;;;;;STANDARD:Standard Slam:63;Sluten tank 3,1-6 m³, slam. Budning KVAN ANTL
 SLT36SLBUD;SL;BASE;;;;;;STANDARD:Standard Slam:30;Sluten tank 3,1-6 m³, slam. Budning ÅRKV 0
-SLT36SLBUD;SL;BASE;;;;;;RULE:Taxa_från_edp:52;Sluten tank 3,1-6 m³, slam. Budning Slam Slam ÅRKV SLT36SLBUD | Sluten tank 3,1-6 m³, slam. Budning | ÅRKV | Sluten tank 3,1-6 m³, slam. Budning | 0
+SLT36SLBUD;SL;BASE;;;;;;RULE:Taxa_från_edp:205;Sluten tank 3,1-6 m³, slam. Budning Slam Slam ÅRKV SLT36SLBUD | Sluten tank 3,1-6 m³, slam. Budning | ÅRKV | Sluten tank 3,1-6 m³, slam. Bud | ANTB
 SLT36SLO;SL;BASE;;;;;;STANDARD:Standard Slam:47;Sluten tank 3,1-6 m³, slam. Ordinarie tur KVAN ANTL
 SLT36SLORD;SL;BASE;;;;;;STANDARD:Standard Slam:14;Sluten tank 3,1-6 m³, slam. Ordinarie tur ÅRKV 0
-SLT36SLORD;SL;BASE;;;;;;RULE:Taxa_från_edp:53;Sluten tank 3,1-6 m³, slam. Ordinarie tur Slam Slam ÅRKV SLT36SLORD | Sluten tank 3,1-6 m³, slam. Ordinarie tur | ÅRKV | Sluten tank 3,1-6 m³, slam. Ordinarie tur | 0
-SLT69SL;SL;BASE;;;;;;RULE:Taxa_från_edp:171;Sluten tank över 6,1 m³, slam Slam Slam KVAN SLT69SL | Sluten tank över 6,1 m³, slam | KVAN | Tömning slam, sluten tank över 6,1 m³ | ANTL
-SLT69SLBUD;SL;BASE;;;;;;RULE:Taxa_från_edp:54;Sluten tank 6,1-9 m³, slam. Budning Slam Slam ÅRKV SLT69SLBUD | Sluten tank 6,1-9 m³, slam. Budning | ÅRKV | Sluten tank 6,1-9 m³, slam. Budning | 0
-SLT69SLORD;SL;BASE;;;;;;RULE:Taxa_från_edp:55;Sluten tank 6,1-9 m³, slam. Ordinarie tur Slam Slam ÅRKV SLT69SLORD | Sluten tank 6,1-9 m³, slam. Ordinarie tur | ÅRKV | Sluten tank 6,1-9 m³, slam. Ordinarie tur | 0
+SLT36SLORD;SL;BASE;;;;;;RULE:Taxa_från_edp:206;Sluten tank 3,1-6 m³, slam. Ordinarie tur Slam Slam ÅRKV SLT36SLORD | Sluten tank 3,1-6 m³, slam. Ordinarie tur | ÅRKV | Sluten tank 3,1-6 m³, slam. Ord | ANTB
 SLTÖ6SL;SL;BASE;;;;;;STANDARD:Standard Slam:81;Sluten tank över 6 m³, slam KVAN ANTL
 SLTÖ6SLB;SL;BASE;;;;;;STANDARD:Standard Slam:64;Sluten tank över 6 m³, slam. Budning KVAN ANTL
 SLTÖ6SLBUD;SL;BASE;;;;;;STANDARD:Standard Slam:31;Sluten tank över 6 m³, slam. Budning ÅRKV 1
+SLTÖ6SLBUD;SL;BASE;;;;;;RULE:Taxa_från_edp:210;Sluten tank över 6 m³, slam. Budning Slam Slam ÅRKV SLTÖ6SLBUD | Sluten tank över 6 m³, slam. Budning | ÅRKV | Sluten tank över 6 m³, slam. Bud | ANTB
 SLTÖ6SLO;SL;BASE;;;;;;STANDARD:Standard Slam:48;Sluten tank över 6 m³, slam. Ordinarie tur KVAN ANTL
 SLTÖ6SLORD;SL;BASE;;;;;;STANDARD:Standard Slam:15;Sluten tank över 6 m³, slam. Ordinarie tur ÅRKV 0
-SLTÖ9SLBUD;SL;BASE;;;;;;RULE:Taxa_från_edp:56;Sluten tank över 9 m³, slam. Budning Slam Slam ÅRKV SLTÖ9SLBUD | Sluten tank över 9 m³, slam. Budning | ÅRKV | Sluten tank över 9 m³, slam. Budning | 0
-SLTÖ9SLORD;SL;BASE;;;;;;RULE:Taxa_från_edp:57;Sluten tank över 9 m³, slam. Ordinarie tur Slam Slam ÅRKV SLTÖ9SLORD | Sluten tank över 9 m³, slam. Ordinarie tur | ÅRKV | Sluten tank över 9 m³, slam. Ordinarie tur | 0
+SLTÖ6SLORD;SL;BASE;;;;;;RULE:Taxa_från_edp:211;Sluten tank över 6 m³, slam. Ordinarie tur Slam Slam ÅRKV SLTÖ6SLORD | Sluten tank över 6 m³, slam. Ordinarie tur | ÅRKV | Sluten tank över 6 m³, slam. Ord | ANTB
 SLBEHAVG;SL;BEHAVG;;;;BEHAVG;;STANDARD:Standard Slam:93;Slam, behandlingsavgift KVAN VITO/KBMS
 SLBOM;SL;BOM;;;;BOM;;STANDARD:Standard Slam:92;Slam, bomkörning KVAN ANTL
 SLBUD;SL;BUD;;;;BUD;;STANDARD:Standard Slam:90;Slam, tillägg budning KVAN ANTL
-SLFRAMKÖR;SL;FRAMKÖR;;;;FRAMKÖR;;RULE:Taxa_från_edp:173;Framkörningsavgift/bom vid ej genomförd tömning Okänd KVAN SLFRAMKÖR | Framkörningsavgift/bom vid ej genomförd tömning | KVAN | Framkörningsavgift vid ej genomförd tömning | ANTL
-SLSAMTIDA;SL;SAMTIDA;;;;SAMTIDA;;RULE:Taxa_från_edp:176;Tömning slam samtida brunn/tank mindre än 5 m³ Slam Slam KVAN SLSAMTIDA | Tömning slam samtida brunn/tank mindre än 5 m³ | KVAN | Tömning slam samtida brunn/tank mindre än 5 m³ | ANTL
+SLFRAMKÖR;SL;FRAMKÖR;;;;FRAMKÖR;;RULE:Taxa_från_edp:199;Slam, framkörningsavgift Slam Slam KVAN SLFRAMKÖR | Slam, framkörningsavgift | KVAN | Framkörningsavgift slam | ANTL
 SLSLANG;SL;SLANG;;;;SLANG;;STANDARD:Standard Slam:95;Slam, tillägg slanglängd KVAN SLNG
-SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:177;Total slanglängd (meter) Okänd KVAN SLSLANG | Total slanglängd (meter) | KVAN | Total slanglängd, 10-30 m | SLNG[10-30],MAX1
-SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:178;Total slanglängd (meter) Okänd KVAN SLSLANG | Total slanglängd (meter) | KVAN | Total slanglängd, 30-40 m | SLNG[31-40],MAX1
-SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:179;Total slanglängd (meter) Okänd KVAN SLSLANG | Total slanglängd (meter) | KVAN | Total slanglängd, över 40 m | SLNG[41-],MAX1
-SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:180;Total slanglängd (meter) Okänd KVAN SLSLANG | Total slanglängd (meter) | KVAN | ENT Total slanglängd, 1-10 m | SLNG[1-10],MAX1
-SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:181;Total slanglängd (meter) Okänd KVAN SLSLANG | Total slanglängd (meter) | KVAN | ENT Total slanglängd, 11-20 m | SLNG[11-20],MAX1
-SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:182;Total slanglängd (meter) Okänd KVAN SLSLANG | Total slanglängd (meter) | KVAN | ENT Total slanglängd, 21-30 m | SLNG[21-30],MAX1
-SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:183;Total slanglängd (meter) Okänd KVAN SLSLANG | Total slanglängd (meter) | KVAN | ENT Total slanglängd, 31-40 m | SLNG[31-40],MAX1
-SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:184;Total slanglängd (meter) Okänd KVAN SLSLANG | Total slanglängd (meter) | KVAN | ENT Total slanglängd, 41-50 m | SLNG[41-50],MAX1
-SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:185;Total slanglängd (meter) Okänd KVAN SLSLANG | Total slanglängd (meter) | KVAN | Total slanglängd 0-10 meter | SLNG[0-10],MAX1
-SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:186;Total slanglängd (meter) Okänd KVAN SLSLANG | Total slanglängd (meter) | KVAN | Total slanglängd 21-30 meter | SLNG[21-30],MAX1
-SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:187;Total slanglängd (meter) Okänd KVAN SLSLANG | Total slanglängd (meter) | KVAN | Total slanglängd 11-20 meter | SLNG[11-20],MAX1
-SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:188;Total slanglängd (meter) Okänd KVAN SLSLANG | Total slanglängd (meter) | KVAN | Total slanglängd 31-40 meter | SLNG[31-40],MAX1
-SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:189;Total slanglängd (meter) Okänd KVAN SLSLANG | Total slanglängd (meter) | KVAN | Total slanglängd 41-50 meter | SLNG[41-50],MAX1
-SLSPECTID;SL;SPECTID;;;;SPECTID;;RULE:Taxa_från_edp:190;Tillägg för specificerad inställelsetid för tömning Okänd KVAN SLSPECTID | Tillägg för specificerad inställelsetid för tömning | KVAN | Tillägg för specificerad inställelsetid för tömning | ANTL
-SLSTATISTIK;SL;STATISTIK;;;;STATISTIK;;RULE:Taxa_från_edp:135;Statistik vikt slam Slam Slam KVAN SLSTATISTIK | Statistik vikt slam | KVAN | Statistik vikt slam | VIKG
-SLTOAVAGN;SL;TOAVAGN;;;;TOAVAGN;;RULE:Taxa_från_edp:191;Tömning av toalettvagnar/TC, spolbil Okänd KVAN SLTOAVAGN | Tömning av toalettvagnar/TC, spolbil | KVAN | Tömning av toalettvagnar/TC, spolbil | ANTL
+SLSLANG;SL;SLANG;;;;SLANG;;RULE:Taxa_från_edp:201;Slam, tillägg för slangdragning Slam Slam KVAN SLSLANG | Slam, tillägg för slangdragning | KVAN | Slam, tillägg för slangdragning | ANTL
+SLSLANGSTAT;SL;SLANGSTAT;;;;SLANGSTAT;;RULE:Taxa_från_edp:202;Slam, tillägg för slangdragning Slam Slam KVAN SLSLANGSTAT | Slam, tillägg för slangdragning | KVAN | Slam, tillägg för slangdragning | SLNG
+SLTOAVAGN;SL;TOAVAGN;;;;TOAVAGN;;RULE:Taxa_från_edp:208;Tömning av toalettvagn eller liknande Okänd KVAN SLTOAVAGN | Tömning av toalettvagn eller liknande | KVAN | Tömning av toalettvagn eller liknande | ANTL
 SLTUNGTL;SL;TUNGTL;;;;TUNGTL;;STANDARD:Standard Slam:96;Slam, tillägg tungt lock KVAN ANTL
-SLTUNGTLOCK;SL;TUNGTLOCK;;;;TUNGTLOCK;;RULE:Taxa_från_edp:172;Tillägg lyft av tungt brunnslock över 15 kg Okänd KVAN SLTUNGTLOCK | Tillägg lyft av tungt brunnslock över 15 kg | KVAN | Tillägg lyft av tungt brunnslock över 15 kg | ANTL
+SLTUNGTLOCK;SL;TUNGTLOCK;;;;TUNGTLOCK;;RULE:Taxa_från_edp:209;Lyft av tungt brunnslock över 15 kg Okänd KVAN SLTUNGTLOCK | Lyft av tungt brunnslock över 15 kg | KVAN | Lyft av tungt brunnslock över 15 kg | ANTL
 SLÖVERKBM;SL;ÖVERKBM;;;;ÖVERKBM;;STANDARD:Standard Slam:94;Slam, tillägg överkbm KVAN KBMÖ
-SLAKUT48TIM;SLA;BASE;;;;;;RULE:Taxa_från_edp:168;Tillägg för budning inom 48 timmar Okänd KVAN SLAKUT48TIM | Tillägg för budning inom 48 timmar | KVAN | Tillägg för budning inom 48 timmar | ANTL
+SLAM3;SLA;BASE;;;;;;RULE:Taxa_från_edp:186;SLAM MER ÄN 3 kbm Slam Slam KVAN SLAM3 | SLAM MER ÄN 3 kbm | KVAN | Tömning av slambrunn | ANTL
+SLAM3D;SLA;BASE;;;;;;RULE:Taxa_från_edp:187;Slam3 dummy Okänd KVAN SLAM3D | Slam3 dummy | KVAN | Slam >3 kbm | ANTB
+SLAM6;SLA;BASE;;;;;;RULE:Taxa_från_edp:189;SLAMBRUNN ÖVER 6 KBM Okänd KVAN SLAM6 | SLAMBRUNN ÖVER 6 KBM | KVAN | Tömn av slambrunn över 6 kbm | ANTL
+SLAM6D;SLA;BASE;;;;;;RULE:Taxa_från_edp:190;Slam6 dummy Okänd KVAN SLAM6D | Slam6 dummy | KVAN | Slam >6 kbm | ANTB
+SLAM3D;SLA;EX;;;;EX;;RULE:Taxa_från_edp:188;Slam3 dummy Okänd KVAN SLAM3D | Slam3 dummy | KVAN | Extra slang > 5 m | SLNG
+SLAM6D;SLA;EX;;;;EX;;RULE:Taxa_från_edp:191;Slam6 dummy Okänd KVAN SLAM6D | Slam6 dummy | KVAN | Extra slang > 5 m | SLNG
 SLAKUT;SLA;KUT;;;;KUT;;STANDARD:Standard Slam:91;Slam, tillägg akuttömning KVAN ANTL
+SLAKUT;SLA;KUT;;;;KUT;;RULE:Taxa_från_edp:184;Slam, tillägg för akut tömning Slam Slam KVAN SLAKUT | Slam, tillägg för akut tömning | KVAN | Tillägg för akut tömning | ANTL
+SLAM;SLA;M;;;;M;;RULE:Taxa_från_edp:185;SLAM Slam Slam KVAN SLAM | SLAM | KVAN | Tömning av slambrunn | ANTL
+SLAMD;SLA;MD;;;;MD;;RULE:Taxa_från_edp:192;Slam dummy Slam Slam KVAN SLAMD | Slam dummy | KVAN | Slam <3 kbm | ANTB
+SLAMD;SLA;MD;;;;MD;;RULE:Taxa_från_edp:193;Slam dummy Slam Slam KVAN SLAMD | Slam dummy | KVAN | Extra slang > 5 m | SLNG
+SlamInfo;SLA;MINFO;;;;MINFO;;RULE:Taxa_från_edp:194;SLAM Slam Slam KVAN SlamInfo | SLAM | KVAN | Tömning av slambrunn | ANTL
+SlamInfo;SLA;MINFO;;;;MINFO;;RULE:Taxa_från_edp:195;SLAM Slam Slam KVAN SlamInfo | SLAM | KVAN | Slanglängd | SLNG
 SLAMKOMP;SLA;MKOMP;;;;MKOMP;;STANDARD:Standard Avfall:316;Dummytaxa slamkompost ÅRKV 0
-SLMEDDELANDE;SLME;ME|DDELANDE;;ME;;DDELANDE;;RULE:Taxa_från_edp:175;Tillägg om förändring av slamtömning inte meddelats Slam Slam KVAN SLMEDDELANDE | Tillägg om förändring av slamtömning inte meddelats | KVAN | Tillägg om förändring av slamtömning inte meddelats | ANTL
-SÄ140MABUD;SÄ140MA;140|MA|BUD;140;MA;;BUD;;RULE:Taxa_från_edp:142;Budad hämtning, 140 L pappersäck matavfall Okänd Matavfall Behållarvolym KVAN SÄ140MABUD | Budad hämtning, 140 L pappersäck matavfall | KVAN | Budad hämtning, 140 L pappersäck matavfall | ANTL
+SLAMTUNNA;SLA;MTUNNA;;;;MTUNNA;;RULE:Taxa_från_edp:196;Rolba slamtunna- externa tjänster Okänd KVAN SLAMTUNNA | Rolba slamtunna- externa tjänster | KVAN | Rolba slamtunna | TIMT
+SLAVROP;SLA;VROP;;;;VROP;;RULE:Taxa_från_edp:197;Slam, tillägg för avropad/budad tömning Slam Slam KVAN SLAVROP | Slam, tillägg för avropad/budad tömning | KVAN | Tillägg för avropad/budad tömning | ANTL
+SLAVSTEG;SLA;VSTEG;;;;VSTEG;;RULE:Taxa_från_edp:198;Slam, avgift avsteg från gällande abonnemang Slam Slam KVAN SLAVSTEG | Slam, avgift avsteg från gällande abonnemang | KVAN | Avgift avsteg från gällande abonnemang | ANTL
+SLMEDDELANDE;SLME;ME|DDELANDE;;ME;;DDELANDE;;RULE:Taxa_från_edp:200;Avgift för ej uppfyllt meddelaransvar Okänd KVAN SLMEDDELANDE | Avgift för ej uppfyllt meddelaransvar | KVAN | Avgift för ej uppfyllt meddelaransvar | ANTL
+SLTIMTID;SLTI;TI|MTID;;TI;;MTID;;RULE:Taxa_från_edp:207;Slam, tillägg timtid för tömning överstigande 1 timme Slam Slam KVAN SLTIMTID | Slam, tillägg timtid för tömning överstigande 1 timme | KVAN | Tömning överstigande 1 timme | TIMT
 SÄ160OS11S;SÄ160;160;160;;;;;STANDARD:Standard Avfall:137;Säck 160 L, osort. avfall. Var 14:e dag säsong ÅRKV ANTB
 SÄ160OS13;SÄ160;160;160;;;;;STANDARD:Standard Avfall:134;Säck 160 L, osort. avfall. Var 4:e vecka ÅRKV ANTB
 SÄ160OS22S;SÄ160;160;160;;;;;STANDARD:Standard Avfall:136;Säck 160 L, osort. avfall. Varje vecka säsong ÅRKV ANTB
@@ -960,10 +809,9 @@ SÄ160OS6S;SÄ160;160;160;;;;;STANDARD:Standard Avfall:138;Säck 160 L, osort. a
 SÄ160OS104;SÄ160;160|2;160;;2;;;STANDARD:Standard Avfall:131;Säck 160 L, osort. avfall. 2ggr/ vecka ÅRKV ANTB
 SÄ160OS44S;SÄ160;160|2;160;;2;;;STANDARD:Standard Avfall:135;Säck 160 L, osort. avfall. 2ggr/ vecka säsong ÅRKV ANTB
 SÄ160OS156;SÄ160;160|3;160;;3;;;STANDARD:Standard Avfall:130;Säck 160 L, osort. avfall. 3ggr/ vecka ÅRKV ANTB
-SÄ160REBUD;SÄ160RE;160|RE|BUD;160;RE;;BUD;;RULE:Taxa_från_edp:143;Budad hämtning, 160 L säck restavfall Okänd Restavfall Behållarvolym KVAN SÄ160REBUD | Budad hämtning, 160 L säck restavfall | KVAN | Budad hämtning, 160 L säck restavfall | ANTL
-SÄTRBUD;SÄTR;TR|BUD;;TR;;BUD;;RULE:Taxa_från_edp:144;Budad hämtning, trädgårdsavfall. Pris per säck Okänd KVAN SÄTRBUD | Budad hämtning, trädgårdsavfall. Pris per säck | KVAN | Budad hämtning, trädgårdsavfall. Pris per säck | ANTL
+TILLGODO;TI;TI|LLGODO;;TI;;LLGODO;;RULE:Taxa_från_edp:220;Kreditavdrag Okänd KRED TILLGODO | Kreditavdrag | KRED | Kreditavdrag | 
 TINTAGCO;TI;TI|NTAGCO;;TI;;NTAGCO;;STANDARD:Standard Avfall:437;Transport, intagskostnad container KVAN ANTL
 TINTAGKÄ;TI;TI|NTAGKÄ;;TI;;NTAGKÄ;;STANDARD:Standard Avfall:435;Transport, intagskostnad kärl KVAN ANTL
-TRBUD;TR;TR|BUD;;TR;;BUD;;RULE:Taxa_från_edp:145;Budad hämtning, trädgårdsavfall. Pris per m³ Okänd KVAN TRBUD | Budad hämtning, trädgårdsavfall. Pris per m³ | KVAN | Budad hämtning, trädgårdsavfall. Pris per m³ | KBMÖ
-TRÄDGÅRD;TR;TR|ÄDGÅRD;;TR;;ÄDGÅRD;;RULE:Taxa_från_edp:286;Trädgårdsavfall, ris och stubbar till krossning Okänd KVAN TRÄDGÅRD | Trädgårdsavfall, ris och stubbar till krossning | KVAN | Trädgårdsavfall, ris och stubbar till krossning | KBMÖ
-TRÄDGÅRDKOMP;TR;TR|ÄDGÅRDKOMP;;TR;;ÄDGÅRDKOMP;;RULE:Taxa_från_edp:146;Trädgårdsavfall komposterbart Okänd KVAN TRÄDGÅRDKOMP | Trädgårdsavfall komposterbart | KVAN | Trädgårdsavfall komposterbart | KBMÖ
+TRÄBEHANDL;TR;TR|ÄBEHANDL;;TR;;ÄBEHANDL;;RULE:Taxa_från_edp:221;Träavfall- behandlat utan tapet, plastmatta, tjärpapp Okänd KVAN TRÄBEHANDL | Träavfall- behandlat utan tapet, plastmatta, tjärpapp | KVAN | Träavfall- behandlat | VITO
+TRÄDGÅRDBUD;TR;TR|ÄDGÅRDBUD;;TR;;ÄDGÅRDBUD;;RULE:Taxa_från_edp:222;Budning av trädgårdsavfall, pris per tillfälle Okänd Tillfälle KVAN TRÄDGÅRDBUD | Budning av trädgårdsavfall, pris per tillfälle | KVAN | Budning av trädgårdsavfall, pris per tillfälle | ANTL
+TRÄRENT;TR;TR|ÄRENT;;TR;;ÄRENT;;RULE:Taxa_från_edp:223;Träavfall- rent utan tapet, plastmatta, tjärpapp Okänd KVAN TRÄRENT | Träavfall- rent utan tapet, plastmatta, tjärpapp | KVAN | Träavfall- rent | VITO

@@ -2,22 +2,21 @@ Tax Family Intelligence Report
 
 Status: Grupperar taxekoder i familjer som beslutsstöd.
 Taxa_från_edp ändras inte och kommununik data delas inte.
-Families: 52
-Members: 368
-Warnings: 435
+Families: 45
+Members: 315
+Warnings: 404
 
 Largest families:
-- SL: 36 kod(er), intervall=-, varianter=BEHAVG,BOM,BUD,BUDFOS,FRAMKÖR,SAMTIDA,SLANG,SPECTID,STATISTIK,TOAVAGN,TUNGTL,TUNGTLOCK,ÖVERKBM
-- KÄ370: 26 kod(er), intervall=-, varianter=FP,FPFRI,WEBUD
-- KÄ190: 24 kod(er), intervall=-, varianter=WEBUD
-- KÄ660: 17 kod(er), intervall=-, varianter=WEBUD
-- KÄ660RE: 17 kod(er), intervall=026,104,11,12,13,156,22,26,44,52,6, varianter=DH,FV,S
-- KÄ140MA: 15 kod(er), intervall=104,11,12,13,156,22,26,44,52,6, varianter=DH,FV,S
-- KÄ370RE: 15 kod(er), intervall=104,11,12,13,156,22,26,44,52,6, varianter=DH,FV,S
-- KÄ140RE: 12 kod(er), intervall=104,11,13,156,22,26,44,52,6, varianter=F,H,S,V
-- KÄ240: 11 kod(er), intervall=-, varianter=-
-- FA: 10 kod(er), intervall=-, varianter=RLIGTAVFALL,RLIGTBUD,STFE,STFLB,STFRI,STOLJEAVFALL,STSL,STSMÅ,STSODA,STVHT
-- KÄ240RM: 10 kod(er), intervall=12,26,52, varianter=DH,FRI,FV
+- SL: 25 kod(er), intervall=-, varianter=BEHAVG,BOM,BUD,FRAMKÖR,SLANG,SLANGSTAT,TOAVAGN,TUNGTL,TUNGTLOCK,ÖVERKBM
+- KÄ370: 21 kod(er), intervall=-, varianter=WEBUD
+- KÄ190: 18 kod(er), intervall=-, varianter=WEBUD
+- KÄ660: 15 kod(er), intervall=-, varianter=WEBUD,ÖVRIGT
+- KÄ140RE: 13 kod(er), intervall=104,11,13,156,22,26,44,52,6, varianter=EX,F,H,S,V
+- KÄ660RE: 13 kod(er), intervall=026,104,11,13,156,22,26,44,52,6, varianter=FV,S
+- KÄ140MA: 12 kod(er), intervall=104,11,13,156,22,26,44,52,6, varianter=EX,FV,S
+- SLA: 12 kod(er), intervall=-, varianter=KUT,M,MD,MINFO,MKOMP,MTUNNA,VROP,VSTEG
+- KÄ240: 10 kod(er), intervall=-, varianter=-
+- KÄ370RE: 10 kod(er), intervall=104,11,13,156,22,26,44,52,6, varianter=FV,S
 - KÄ140: 9 kod(er), intervall=-, varianter=-
 - KÄ190MA: 9 kod(er), intervall=104,11,13,156,22,26,44,52,6, varianter=S
 - KÄ190RE: 9 kod(er), intervall=104,11,13,156,22,26,44,52,6, varianter=S
@@ -26,17 +25,24 @@ Largest families:
 - KÄ370MA: 9 kod(er), intervall=104,11,13,156,22,26,44,52,6, varianter=S
 - SÄ160: 9 kod(er), intervall=-, varianter=-
 - KÄ: 8 kod(er), intervall=-, varianter=EX,LABUD,LAEXTORD,OSBUD,RLBYTEFLER,RLTVÄTT
-- KÄ190TI: 8 kod(er), intervall=104,12,13,26,52, varianter=BUD,FV
+- FA: 7 kod(er), intervall=-, varianter=RLIGTBUD,STFE,STFLB,STFRI,STSL,STSMÅ,STVHT
+- KÄ190ME: 5 kod(er), intervall=104,13,26,52, varianter=BUD
 
 Warnings:
-- Ingen familj kunde identifieras för taxekod: ABSORBERING
-- Ingen familj kunde identifieras för taxekod: ADMINDISP
-- Ingen familj kunde identifieras för taxekod: AEROSOLER
-- Ingen familj kunde identifieras för taxekod: AEROSOLERFÄRG
-- Ingen familj kunde identifieras för taxekod: AEROSOLERHÄRD
-- Ingen familj kunde identifieras för taxekod: AMMONIAK
-- Ingen familj kunde identifieras för taxekod: AVGNIVÅ1V
-- Ingen familj kunde identifieras för taxekod: AVGNIVÅ2V
+- Ingen familj kunde identifieras för taxekod: A
+- Ingen familj kunde identifieras för taxekod: AF
+- Ingen familj kunde identifieras för taxekod: AFC
+- Ingen familj kunde identifieras för taxekod: AKUT
+- Ingen familj kunde identifieras för taxekod: AKUTSÄCK
+- Ingen familj kunde identifieras för taxekod: AMOAVISER
+- Ingen familj kunde identifieras för taxekod: AMOPLAN
+- Ingen familj kunde identifieras för taxekod: AMORÄNTA
+- Ingen familj kunde identifieras för taxekod: AMOUPP
+- Ingen familj kunde identifieras för taxekod: ANL03SL
+- Ingen familj kunde identifieras för taxekod: ANL36SL
+- Ingen familj kunde identifieras för taxekod: ANLSLBASTÖM
+- Ingen familj kunde identifieras för taxekod: ANLÖ6SL
+- Ingen familj kunde identifieras för taxekod: AOBF
 - Ingen familj kunde identifieras för taxekod: AVS03FE
 - Ingen familj kunde identifieras för taxekod: AVS03FEB
 - Ingen familj kunde identifieras för taxekod: AVS03FEBUD
@@ -58,7 +64,6 @@ Warnings:
 - Ingen familj kunde identifieras för taxekod: AVS36SLO
 - Ingen familj kunde identifieras för taxekod: AVS36SLORD
 - Ingen familj kunde identifieras för taxekod: AVSLUTA_TJÄNST
-- Ingen familj kunde identifieras för taxekod: AVSTÄNG
 - Ingen familj kunde identifieras för taxekod: AVSÖ6FE
 - Ingen familj kunde identifieras för taxekod: AVSÖ6FEB
 - Ingen familj kunde identifieras för taxekod: AVSÖ6FEBUD
@@ -70,12 +75,7 @@ Warnings:
 - Ingen familj kunde identifieras för taxekod: AVSÖ6SLO
 - Ingen familj kunde identifieras för taxekod: AVSÖ6SLORD
 - Ingen familj kunde identifieras för taxekod: B100
+- Ingen familj kunde identifieras för taxekod: BASSLORDKOM
 - Ingen familj kunde identifieras för taxekod: BBRÄNNBART
 - Ingen familj kunde identifieras för taxekod: BDT03SL
 - Ingen familj kunde identifieras för taxekod: BDT03SLB
-- Ingen familj kunde identifieras för taxekod: BDT03SLBUD
-- Ingen familj kunde identifieras för taxekod: BDT03SLO
-- Ingen familj kunde identifieras för taxekod: BDT03SLORD
-- Ingen familj kunde identifieras för taxekod: BDT36SL
-- Ingen familj kunde identifieras för taxekod: BDT36SLB
-- Ingen familj kunde identifieras för taxekod: BDT36SLBUD

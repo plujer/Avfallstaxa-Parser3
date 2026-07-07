@@ -1,7 +1,7 @@
 C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
   warn(msg)
 Arbets-Excel profile klar
-Workbook: data/master_templates/ArbetsExcel_Template_v1.0.xlsx
+Workbook: data\master_templates\ArbetsExcel_Template_v1.0.xlsx
 Sheets: 25
 Report: output\excel\arbets_excel_profile_report.txt
 C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed

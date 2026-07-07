@@ -1,6 +1,9 @@
 @echo off
 setlocal
-echo Skapar rapportzip...
-powershell -NoProfile -ExecutionPolicy Bypass -File tools\zip_excel_report.ps1
-pause
-endlocal
+
+echo ==========================================
+echo Excel Builder - run_reports.bat
+echo ==========================================
+echo Skapar om rapportzip fran befintlig output.
+
+powershell -NoProfile -ExecutionPolicy Bypass -File pause

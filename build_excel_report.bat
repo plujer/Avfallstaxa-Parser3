@@ -1,9 +1,14 @@
 @echo off
-setlocal
+setlocal EnableExtensions EnableDelayedExpansion
+
+set BLOCK_NAME=Block45 Developer Experience Test Automation
+set PYTEST_FAILED=0
+set PIPELINE_FAILED=0
 
 echo ==========================================
-echo Excel Builder Full Report Package
+echo Excel Builder - %BLOCK_NAME%
 echo ==========================================
+echo.
 
 if not exist output mkdir output
 if not exist output\excel mkdir output\excel
@@ -13,133 +18,191 @@ if not exist output\acceptance mkdir output\acceptance
 if not exist output\projects mkdir output\projects
 if not exist rapportzip mkdir rapportzip
 
-echo.
-echo [1/29] Kontrollerar masterkällor...
+echo [1/37] Kontrollerar masterkällor...
 python tools\check_master_sources.py > output\diagnostics\master_sources_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [2/30] Kontrollerar immutable master enforcement...
+echo [2/37] Kontrollerar immutable master enforcement...
 python tools\check_immutable_master_enforcement.py > output\diagnostics\immutable_master_enforcement_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [3/30] Kontrollerar v1.0-specifikation...
+echo [3/37] Kontrollerar v1.0-specifikation...
 python tools\check_v1_spec.py > output\diagnostics\v1_spec_report.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [4/30] Rensar dubbletter i teststruktur...
+echo [4/37] Rensar dubbletter i teststruktur...
 python tools\cleanup_duplicate_tests.py > output\diagnostics\test_cleanup_report.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [5/30] Kontrollerar testsyntax...
+echo [5/37] Kontrollerar testsyntax...
 python tools\check_test_syntax.py > output\diagnostics\test_syntax_report.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [6/30] Kör tester...
-python -m pytest -v --tb=short > output\diagnostics\pytest_report.txt 2>&1
+echo [6/37] Klassificerar dokumentstruktur...
+python excel_builder_document_structure.py --parser-result "output\reports\parser3_result.json" > output\excel\document_structure_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [7/30] Löser parserkontext...
+echo [7/37] Löser parserkontext...
 python excel_builder_context_resolve.py --parser-result "output\reports\parser3_result.json" > output\excel\context_resolution_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [8/30] Scannar masterarbetsbokens schema...
-python excel_builder_schema_scan.py --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" > output\excel\workbook_schema_console.txt 2>&1
+echo [8/37] Scannar masterarbetsbokens schema...
+python excel_builder_schema_scan.py --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" > output\excel\workbook_schema_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [9/30] Scannar och normaliserar standardtaxekatalog...
+echo [9/37] Scannar och normaliserar standardtaxekatalog...
 python excel_builder_standard_catalog_scan.py --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" > output\excel\standard_catalog_schema_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [10/30] Tolkar taxekoder...
-python excel_builder_tax_codes.py --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" > output\excel\tax_code_intelligence_console.txt 2>&1
+echo [10/37] Tolkar taxekoder...
+python excel_builder_tax_codes.py --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" > output\excel\tax_code_intelligence_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [11/30] Extraherar taxekunskap...
+echo [11/37] Bygger Tax Family Intelligence...
+python excel_builder_tax_family.py --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" > output\excel\tax_family_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
+
+echo [12/37] Bygger Variant Intelligence...
+python excel_builder_variant_intelligence.py --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" > output\excel\variant_intelligence_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
+
+echo [13/37] Bygger Semantic Attribute Intelligence...
+python excel_builder_semantic_attributes.py --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" > output\excel\semantic_attribute_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
+
+echo [14/37] Bygger Composite Matching Engine...
+python excel_builder_composite_matching.py --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" > output\excel\composite_matching_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
+
+echo [15/37] Bygger Explainable Decision Engine...
+python excel_builder_decision_explainer.py --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" > output\excel\explainable_decision_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
+
+echo [16/37] Extraherar taxekunskap...
 python excel_builder_tax_knowledge.py --parser-result "output\reports\parser3_result.json" > output\excel\tax_knowledge_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [12/30] Bygger Knowledge Index...
+echo [17/37] Bygger Knowledge Index...
 python excel_builder_knowledge_index.py --parser-result "output\reports\parser3_result.json" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" > output\excel\knowledge_index_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [13/30] Bygger semantiska taxaprofiler...
-python excel_builder_semantic_profiles.py --parser-result "output\reports\parser3_result.json" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" > output\excel\semantic_profile_console.txt 2>&1
+echo [18/37] Bygger semantiska taxaprofiler...
+python excel_builder_semantic_profiles.py --parser-result "output\reports\parser3_result.json" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" > output\excel\semantic_profile_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [14/30] Rankar semantiska kandidater...
-python excel_builder_semantic_candidates.py --parser-result "output\reports\parser3_result.json" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" > output\excel\semantic_candidate_console.txt 2>&1
+echo [19/37] Rankar semantiska kandidater...
+python excel_builder_semantic_candidates.py --parser-result "output\reports\parser3_result.json" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" > output\excel\semantic_candidate_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [15/30] Profilerar Arbets-Excel...
-python excel_builder_inspect.py --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" --out "output\excel\arbets_excel_profile_report.txt" > output\excel\excel_inspect_console.txt 2>&1
+echo [20/37] Profilerar Arbets-Excel...
+python excel_builder_inspect.py --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" --out "output\excel\arbets_excel_profile_report.txt" > output\excel\excel_inspect_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [16/30] Läser EDP-regelverk...
-python excel_builder_rulebook.py --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" --out "output\excel\edp_rulebook_report.txt" > output\excel\edp_rulebook_console.txt 2>&1
+echo [21/37] Läser EDP-regelverk...
+python excel_builder_rulebook.py --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" --out "output\excel\edp_rulebook_report.txt" > output\excel\edp_rulebook_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [17/30] Bygger Master Rule Repository...
-python excel_builder_rule_repository.py --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" > output\excel\master_rule_repository_console.txt 2>&1
+echo [22/37] Bygger Master Rule Repository...
+python excel_builder_rule_repository.py --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" > output\excel\master_rule_repository_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [18/30] Skapar Arbets-Excel snapshot...
-python excel_builder_snapshot.py --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" --out "output\excel\arbets_excel_snapshot.txt" --max-rows 40 >> output\excel\excel_inspect_console.txt 2>&1
+echo [23/37] Skapar Arbets-Excel snapshot...
+python excel_builder_snapshot.py --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" --out "output\excel\arbets_excel_snapshot.txt" --max-rows 40 >> output\excel\excel_inspect_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [19/30] Bygger Taxepunkter row plan...
-python excel_builder_row_plan.py --parser-result "output\reports\parser3_result.json" --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" > output\excel\taxepunkter_row_plan_console.txt 2>&1
+echo [24/37] Bygger Taxepunkter row plan...
+python excel_builder_row_plan.py --parser-result "output\reports\parser3_result.json" --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" > output\excel\taxepunkter_row_plan_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [20/30] Kör Matching Engine preview...
-python excel_builder_match.py --parser-result "output\reports\parser3_result.json" --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" > output\excel\excel_matching_console.txt 2>&1
+echo [25/37] Kör Matching Engine preview...
+python excel_builder_match.py --parser-result "output\reports\parser3_result.json" --workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" > output\excel\excel_matching_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [21/30] Skapar standardtaxeförslag...
+echo [26/37] Skapar standardtaxeförslag...
 python excel_builder_standard_suggestions.py --parser-result "output\reports\parser3_result.json" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" > output\excel\standard_tax_suggestions_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [22/30] Bygger Arbets-Excel från parseroutput...
+echo [27/37] Bygger Arbets-Excel från parseroutput...
 python excel_builder_cli.py --parser-result "output\reports\parser3_result.json" --out "output\excel\ArbetsExcel_byggd_fran_parser.xlsx" > output\excel\excel_builder_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [23/30] Skriver Tax Knowledge till Arbets-Excel...
+echo [28/37] Skriver Tax Knowledge till Arbets-Excel...
 python excel_builder_tax_knowledge.py --parser-result "output\reports\parser3_result.json" --workbook "output\excel\ArbetsExcel_byggd_fran_parser.xlsx" >> output\excel\tax_knowledge_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [24/30] Skriver standardtaxeförslag till Arbets-Excel...
+echo [29/37] Skriver standardtaxeförslag till Arbets-Excel...
 python excel_builder_apply_suggestions.py --parser-result "output\reports\parser3_result.json" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\excel\ArbetsExcel_byggd_fran_parser.xlsx" --municipality "" >> output\excel\standard_tax_suggestions_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [25/30] Kör gammal beslutsmotor för jämförelse...
-python excel_builder_decide.py --parser-result "output\reports\parser3_result.json" --reference-workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\excel\ArbetsExcel_byggd_fran_parser.xlsx" > output\excel\tax_decision_console.txt 2>&1
+echo [30/37] Kör gammal beslutsmotor för jämförelse...
+python excel_builder_decide.py --parser-result "output\reports\parser3_result.json" --reference-workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\excel\ArbetsExcel_byggd_fran_parser.xlsx" > output\excel\tax_decision_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [26/30] Kör semantisk beslutsmotor...
-python excel_builder_decide_semantic.py --parser-result "output\reports\parser3_result.json" --reference-workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\excel\ArbetsExcel_byggd_fran_parser.xlsx" > output\excel\tax_decision_semantic_console.txt 2>&1
+echo [31/37] Kör semantisk beslutsmotor...
+python excel_builder_decide_semantic.py --parser-result "output\reports\parser3_result.json" --reference-workbook "data\master_templates\ArbetsExcel_Template_v1.0.xlsx" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\excel\ArbetsExcel_byggd_fran_parser.xlsx" > output\excel\tax_decision_semantic_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [27/30] Validerar att alla Word-taxor finns i Taxepunkter...
+echo [32/37] Validerar att alla Word-taxor finns i Taxepunkter...
 python excel_builder_coverage.py --parser-result "output\reports\parser3_result.json" --workbook "output\excel\ArbetsExcel_byggd_fran_parser.xlsx" > output\excel\word_tax_coverage_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [28/30] Kör isolerad Sorsele projektkörning...
+echo [33/37] Kör isolerad Sorsele projektkörning...
 python excel_builder_project_run.py --config "data\projects\Sorsele\project_config.json" > output\excel\sorsele_project_run_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 python excel_builder_tax_knowledge.py --parser-result "output\reports\parser3_result.json" --workbook "output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx" >> output\excel\sorsele_project_run_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 python excel_builder_apply_suggestions.py --parser-result "output\reports\parser3_result.json" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx" --municipality "Sorsele" >> output\excel\sorsele_project_run_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 python excel_builder_edp_deviations.py --municipality "Sorsele" --edp-export "data\edp_exports\Sorsele.xlsx" --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "output\projects\Sorsele\excel\ArbetsExcel_Sorsele_byggd.xlsx" >> output\excel\sorsele_project_run_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [29/30] Skapar standardiserad rapportzip...
+echo [34/37] Kör hela testsviten i slutet av pipeline...
+python -m pytest -v --tb=short > output\diagnostics\pytest_report.txt 2>&1
+if errorlevel 1 set PYTEST_FAILED=1
+
+echo [35/37] Sammanfattar senaste teststatus...
+python tools\check_latest_run_status.py > output\diagnostics\latest_run_status_console.txt 2>&1
+if errorlevel 1 set PYTEST_FAILED=1
+
+echo [36/37] Skapar standardiserad rapportzip...
 powershell -NoProfile -ExecutionPolicy Bypass -File tools\zip_excel_report.ps1
+if errorlevel 1 set PIPELINE_FAILED=1
 
-echo.
-echo [30/30] Klar.
+echo [37/37] Klar.
 
 echo.
 echo ==========================================
-echo KLAR
-echo Skicka senaste ZIP-filen från rapportzip till ChatGPT.
+echo Excel Builder - KORNING SAMMANFATTNING
 echo ==========================================
-
+type output\diagnostics\latest_run_status.txt
+echo.
+if "%PIPELINE_FAILED%"=="1" (
+    echo Pipeline ............ FAILED
+) else (
+    echo Pipeline ............ OK
+)
+if "%PYTEST_FAILED%"=="1" (
+    echo Tests ............... FAILED
+    echo.
+    echo DO NOT COMMIT.
+    echo Skicka senaste ZIP-filen från rapportzip\ om den skapades.
+echo Skicka rapportzip eller pytest_report.txt for felsokning.
+    echo ==========================================
+    pause
+    exit /b 1
+)
+if "%PIPELINE_FAILED%"=="1" (
+    echo Tests ............... OK, men pipeline hade varningar/fel.
+    echo DO NOT COMMIT innan detta ar granskat.
+    echo ==========================================
+    pause
+    exit /b 1
+)
+echo Tests ............... OK
+echo Report ZIP .......... CREATED
+echo.
+echo Skicka senaste ZIP-filen från rapportzip\
+echo Skicka endast senaste ZIP-filen fran rapportzip\
+echo ==========================================
 pause
-endlocal
+exit /b 0

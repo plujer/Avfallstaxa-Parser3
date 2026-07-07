@@ -1,67 +1,27 @@
-# Block43 – Master Source Integration & Immutable Template Guard
+# Block45.2 – Commit guard PermissionError fix
 
 ## Syfte
 
-Block43 gör de nya masterfilerna till projektets officiella källor och inför tekniska spärrar så att de aldrig skrivs över.
+Rättar felet där `git_commit_block.bat` låste `output\diagnostics\latest_run_status.txt` genom att både omdirigera Python-output till filen och låta Python-scriptet skriva till samma fil.
 
-## Nya masterkällor
+## Ändrade filer
 
-- `data/word_templates/Taxestruktur_Master_v1.0.docx`
-- `data/master_templates/ArbetsExcel_Template_v1.0.xlsx`
-
-## Viktiga regler
-
-- Masterfilerna är immutable.
-- Om en ändring behövs ska en ny versionsfil skapas.
-- `Taxepunkter!A:E` får inte skrivas automatiskt.
-- `Taxa_från_edp` får inte skrivas automatiskt alls.
-- Projektet ska alltid arbeta på kopior av vald Excel-master.
+- `tools/check_latest_run_status.py`
+- `git_commit_block.bat`
 
 ## Installera
 
-Packa upp ZIP-filen i projektets rotkatalog och låt filer skrivas över där det efterfrågas.
+Kopiera filerna till projektets rot och skriv över befintliga filer.
 
 ## Kör
 
-Kör alltid först:
-
-```bat
-run_project.bat
-```
-
-Endast om `run_project.bat` själv säger att tester behövs:
-
-```bat
-run_tests.bat
-```
-
-## Skicka tillbaka
-
-Skicka endast senaste ZIP-filen från:
-
-```text
-rapportzip\ExcelBuilder_Run_*.zip
-```
-
-## Git efter godkännande
-
-Efter att blocket är godkänt:
+1. Kör inte om hela projektet om senaste `run_project.bat` redan visar `Tests: OK`, `Passed: 344`, `Failed: 0`.
+2. Kör:
 
 ```bat
 git_commit_block.bat
 ```
 
-Kör inte release förrän du får klartecken:
+## Om felet ändå kvarstår
 
-```bat
-git_release_block.bat
-```
-
-## Lokal verifiering i detta paket
-
-Följande kördes lokalt:
-
-```text
-python -m pytest -q
-292 passed
-```
+Stäng program som kan ha öppnat `output\diagnostics\latest_run_status.txt`, exempelvis Notepad, Excel eller VS Code, och kör igen.

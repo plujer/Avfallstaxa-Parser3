@@ -1,92 +1,17 @@
-# CHANGELOG – Excel Builder
 
-## Block33 – Build System Stabilization
+## Block45.1 – Test Automation Stabilization
+- Fixed `build_excel_report.bat` so `check_latest_run_status.py` no longer writes to the same file as shell redirection.
+- Kept `run_project.bat` as the single normal verification command and ensured it prints the expected reportzip instruction.
+- Restored semantic tax family bonus in `SemanticCandidateRanker`.
+- Updated pipeline order test to reflect the new rule that pytest runs at the end of the full pipeline.
+- Added `create_project_package.bat` for compact project ZIP creation when ChatGPT needs the current project.
 
-- Återställde full `build_excel_report.bat`.
-- La till `tools/check_v1_spec.py` som första steg.
-- Återställde full rapportzip.
-- La till tester som förhindrar att buildkedjan ersätts med minimal pipeline igen.
+# CHANGELOG
 
-## Block32 – Version 1.0 Specification
+## Block45 – Developer Experience Test Automation
 
-- Skapade v1.0-specifikation.
-- Skapade roadmap.
-- Skapade invariants.
-- Introducerade specifikationskontroll.
-- Problem: buildfilen blev för minimal och behövde återställas i Block33.
-
-## Block31 – Tax Code Intelligence
-
-- Införde `TaxCodeParser`.
-- Delade upp taxekoder som `KÄ240RM26FV`.
-- Skapade rapporter för taxekoder och familjenycklar.
-
-## Block30 – Context Resolver
-
-- Införde `ParserContextResolver`.
-- Berikar parserrader med sektion, fastighetstyp, avfallstyp, tjänstetyp och behållartyp.
-- Känd brist: rullande kontext kan läcka mellan avsnitt.
-
-## Block29 – Semantic Decision Integration
-
-- Kopplade semantisk kandidatranking till beslutsmotor.
-- Införde källprioritet.
-- Införde ambiguitetshantering.
-
-## Block28 – Semantic Candidate Ranking
-
-- Införde poängbaserad kandidatjämförelse.
-- Skapade förklaringar för kandidatmatchning.
-
-## Block27 – Tax Semantic Profile Engine
-
-- Införde gemensam taxaprofil för Word, standardtaxor och regelrepository.
-
-## Block26 – Standard Tax Catalog Reverse Engineering
-
-- Läste standardtaxefilen med flera sektioner.
-- Normaliserade standardtaxor till ny rapportarbetsbok.
-
-## Block25 – Dynamic Taxepunkter Reader
-
-- Löste att `Taxepunkter` har rubrikrad 5.
-- Rule Repository började läsa Taxepunkter korrekt.
-
-## Block24 – Workbook Schema Scanner
-
-- Scannade masterarbetsboken.
-- Identifierade rubrikrader, tabeller, namngivna områden, formler och struktur.
-
-## Block23 – Master Rule Repository
-
-- Byggde regelrepository från masterarbetsboken.
-
-## Block22 – Knowledge Index
-
-- Införde första indexeringen av Word-taxor och standardtaxor.
-
-## Block21 – Knowledge Based Standard Matching
-
-- Började använda Tax Knowledge i standardmatchning.
-
-## Tidigare block
-
-Tidigare block byggde parser, Excel Builder, rapportkedja, standardtaxestöd, projektisolering och grundläggande testsvit.
-
-## Block43 – Master Source Integration & Immutable Template Guard
-
-- Added immutable master source configuration in `config/master_sources.json`.
-- Added official v1.0 Word and Excel master files.
-- Added runtime guard preventing writes to master files and protected workbook areas.
-- Updated template manager default from old draft template to v1.0 master source.
-- Updated workbook generation to create working copies from master instead of creating blank workbooks.
-- Updated report package to include master source diagnostics.
-
-## Block44 - Immutable Master Enforcement
-
-- Added central `MasterGuard` for immutable master source enforcement.
-- Added `MasterCopyManager` to create working copies without changing sources.
-- Added protected range enforcement for `Taxepunkter!A:E`.
-- Added immutable sheet enforcement for `Taxa_från_edp`.
-- Added verification tool and tests for protected master behavior.
-- Updated BAT workflow for Block44.
+- `run_project.bat` kör nu hela pipeline och därefter hela pytest-sviten automatiskt.
+- `build_excel_report.bat` återställer saknade rapportsteg från Block36–Block40.
+- `git_commit_block.bat` stoppar commit om senaste testresultat inte är godkänt.
+- Rapportzip inkluderar `latest_run_status.txt`.
+- Dokumenterat att legitim dubblettkoppling Word-rad → samma EDP-taxa inte är fel i sig.

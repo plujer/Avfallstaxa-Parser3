@@ -1,4 +1,6 @@
+C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
 Semantic Attribute Intelligence klar.
-Profiles: 1392
-Profiles with attributes: 1073
-Warnings: 319
+Profiles: 1214
+Profiles with attributes: 966
+Warnings: 248

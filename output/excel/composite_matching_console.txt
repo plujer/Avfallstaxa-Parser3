@@ -1,6 +1,8 @@
+C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
 Composite Matching Engine klar.
-Results: 59
-MATCH: 26
-REVIEW: 33
+Results: 31
+MATCH: 8
+REVIEW: 23
 NO_MATCH: 0
 Warnings: 0

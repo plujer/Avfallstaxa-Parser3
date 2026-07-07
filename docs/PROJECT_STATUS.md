@@ -1,122 +1,15 @@
-# PROJECT_STATUS – Excel Builder
 
-## Senaste stabila version
+## Block45.1 – Test Automation Stabilization
+- Fixed `build_excel_report.bat` so `check_latest_run_status.py` no longer writes to the same file as shell redirection.
+- Kept `run_project.bat` as the single normal verification command and ensured it prints the expected reportzip instruction.
+- Restored semantic tax family bonus in `SemanticCandidateRanker`.
+- Updated pipeline order test to reflect the new rule that pytest runs at the end of the full pipeline.
+- Added `create_project_package.bat` for compact project ZIP creation when ChatGPT needs the current project.
 
-```text
-v0.9.3-build-stable
-Block33 – Build System Stabilization
-```
+# PROJECT_STATUS
 
-## Senaste verifierade rapport
+Aktuellt block: Block45 – Developer Experience Test Automation.
 
-```text
-ExcelBuilder_Run_2026-07-07_10-37-44.zip
-```
+Status: Paket framtaget. Ska verifieras i användarens projektmiljö med `run_project.bat`.
 
-## Aktuell sammanfattning
-
-Projektet har lämnat grundläggande infrastrukturfelsökning och är nu i domänintelligensfasen.
-
-Det som fungerar:
-
-```text
-Parser
-Excel Builder
-Masterkopiering
-Kommunisolering
-EDP-import
-Standardtaxekatalog
-Workbook Schema Scanner
-Dynamic Taxepunkter Reader
-Rule Repository
-Semantic Profiles
-Semantic Candidate Ranking
-Semantic Decision Engine
-Context Resolver
-Tax Code Intelligence
-Full build pipeline
-v1.0-specifikation
-```
-
-## Senaste viktiga resultat
-
-Block33 återställde den fullständiga byggkedjan efter att Block32 av misstag hade ersatt den med en minimal specifikationspipeline.
-
-Nu gäller:
-
-```text
-v1.0-specifikationskontroll körs först
-full rapportpipeline körs igen
-alla centrala rapporter ingår i rapportzip
-stabiliseringstester finns för att förhindra regression
-```
-
-## Känd huvudflaskhals
-
-Parsern och Context Resolver behandlar fortfarande vissa rubriker som taxor.
-
-Exempel på rader som inte ska bli `NEW_TAXA`:
-
-```text
-En- och tvåbostadshus
-Fritidshus
-Verksamhet
-Lägenhet i flerbostadshus
-```
-
-Dessa är dokumentstruktur/rubriker, inte faktiska taxepunkter.
-
-## Nästa prioritet
-
-```text
-Block34 – Document Structure Engine
-```
-
-Mål:
-
-```text
-1. Klassificera parserrader som SECTION, SUBSECTION, TABLE_HEADER, TABLE_ROW, TAX_NODE, NOTE.
-2. Bygga ett dokumentträd.
-3. Endast skicka TAX_NODE vidare till semantik och beslut.
-4. Förhindra att rubriker blir NEW_TAXA.
-5. Minska kontextläckage.
-```
-
-## Aktuell mognadsbedömning
-
-| Område | Status |
-|---|---:|
-| Projektarkitektur | 99 % |
-| Excel-/EDP-hantering | 99 % |
-| Projektisolering | 100 % |
-| Standardtaxekatalog | 99 % |
-| Rule Repository | 95 % |
-| Semantisk modell | 93 % |
-| Tax Code Intelligence | 85 % |
-| Beslutsmotor | 88 % |
-| Dokumentstrukturförståelse | 50 % |
-
-## Block43 – Master Source Integration & Immutable Template Guard
-
-Status: Implementerat.
-
-- Nya v1.0-masterfiler har lagts in under `data/master_templates` och `data/word_templates`.
-- `config/master_sources.json` är ny central källa för aktiv Word-master och Excel-master.
-- `TemplateMasterManager` använder nu konfigurerad v1.0 Excel-master.
-- `WorkbookWriter` skapar arbetskopior från immutable master och skriver genererade parserrader i `Builder_Output`.
-- Skyddsregler införda för `Taxepunkter!A:E` och hela `Taxa_från_edp`.
-- Masterfiler verifieras med `tools/check_master_sources.py` och rapporteras i rapportzip.
-
-## Block44 - Immutable Master Enforcement
-
-Status: Levererat för verifiering.
-
-Inför ett centralt skyddslager för masterfiler och skyddade arbetsboksområden:
-
-- `MasterGuard`
-- `MasterCopyManager`
-- `ImmutableSheetGuard`
-- `ProtectedRangeGuard`
-- verifieringsverktyget `tools/check_immutable_master_enforcement.py`
-
-Blocket säkerställer att masterfiler endast får läsas/kopieras och att skrivning mot `Taxepunkter!A:E` samt `Taxa_från_edp` blockeras.
+Viktig ändring: Tester körs alltid automatiskt i slutet av `run_project.bat`.

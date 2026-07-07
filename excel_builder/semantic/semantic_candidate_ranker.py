@@ -12,9 +12,12 @@ from excel_builder.models import (
     SemanticScorePart,
     TaxSemanticProfile,
 )
+from excel_builder.tax_family import TaxFamilyMatcher
 
 
 class SemanticCandidateRanker:
+    TAX_FAMILY_BONUS_WEIGHT = 0.04
+
     WEIGHTS = {
         "category": 0.14,
         "waste_type": 0.24,
@@ -30,6 +33,9 @@ class SemanticCandidateRanker:
     AUTO_MATCH_THRESHOLD = 0.98
     STANDARD_PROPOSAL_THRESHOLD = 0.88
     REVIEW_THRESHOLD = 0.70
+
+    def __init__(self) -> None:
+        self.tax_family_matcher = TaxFamilyMatcher()
 
     def rank(
         self,
@@ -103,6 +109,22 @@ class SemanticCandidateRanker:
                     matched=matched,
                     score=part_score,
                     explanation=explanation,
+                )
+            )
+
+        family_bonus = self.tax_family_matcher.bonus(word.tax_code, candidate.tax_code)
+        if family_bonus > 0:
+            match = self.tax_family_matcher.compare(word.tax_code, candidate.tax_code)
+            total += family_bonus
+            parts.append(
+                SemanticScorePart(
+                    field="tax_family",
+                    word_value=match.word_family,
+                    candidate_value=match.candidate_family,
+                    weight=self.TAX_FAMILY_BONUS_WEIGHT,
+                    matched=match.same_family,
+                    score=family_bonus,
+                    explanation=match.explanation,
                 )
             )
 

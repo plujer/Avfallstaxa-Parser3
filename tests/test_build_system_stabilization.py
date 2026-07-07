@@ -26,4 +26,4 @@ def test_build_pipeline_order_spec_before_tests_and_reports():
     text = Path("build_excel_report.bat").read_text(encoding="utf-8")
 
     assert text.index("check_v1_spec.py") < text.index("pytest")
-    assert text.index("pytest") < text.index("excel_builder_context_resolve.py")
+    assert text.index("excel_builder_context_resolve.py") < text.index("pytest")

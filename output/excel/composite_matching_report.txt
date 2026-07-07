@@ -2,35 +2,35 @@ Composite Matching Engine Report
 
 Status: Vägt beslutsstöd från struktur, kontext, taxefamilj, variant, attribut, EDP och standardtaxa.
 Taxa_från_edp ändras inte. Kommununik data delas inte mellan kommunprojekt.
-Results: 59
-MATCH: 26
-REVIEW: 33
+Results: 31
+MATCH: 8
+REVIEW: 23
 NO_MATCH: 0
 Warnings: 0
 
 Top composite results:
-- MATCH 0.7820 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
-- MATCH 0.7820 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
+- MATCH 0.7500 | SLAKUT -> SLAKUT | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
 - MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
-- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
-- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
-- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
-- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
-- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
-- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
-- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
-- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
-- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
-- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
-- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
-- MATCH 0.7500 | SLSLANG -> SLSLANG | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=1.00; tax_family=1.00.
-- MATCH 0.7320 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
-- MATCH 0.7320 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
-- MATCH 0.7320 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
-- MATCH 0.7320 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
-- MATCH 0.7320 | KÄ660RE52FV -> KÄ660RE52FV | MATCH: samlad poäng bygger främst på edp_exact=1.00; variant=0.91; tax_family=1.00.
 - MATCH 0.6600 | SLT03SLBUD -> SLT03SLBUD | MATCH: samlad poäng bygger främst på edp_exact=1.00; tax_family=1.00; variant=0.55.
 - MATCH 0.6600 | SLT03SLORD -> SLT03SLORD | MATCH: samlad poäng bygger främst på edp_exact=1.00; tax_family=1.00; variant=0.55.
 - MATCH 0.6600 | SLT36SLBUD -> SLT36SLBUD | MATCH: samlad poäng bygger främst på edp_exact=1.00; tax_family=1.00; variant=0.55.
 - MATCH 0.6600 | SLT36SLORD -> SLT36SLORD | MATCH: samlad poäng bygger främst på edp_exact=1.00; tax_family=1.00; variant=0.55.
-- MATCH 0.6600 | SLT03SL -> SLT03SL | MATCH: samlad poäng bygger främst på edp_exact=1.00; tax_family=1.00; variant=0.55.
+- MATCH 0.6600 | SLTÖ6SLBUD -> SLTÖ6SLBUD | MATCH: samlad poäng bygger främst på edp_exact=1.00; tax_family=1.00; variant=0.55.
+- MATCH 0.6600 | SLTÖ6SLORD -> SLTÖ6SLORD | MATCH: samlad poäng bygger främst på edp_exact=1.00; tax_family=1.00; variant=0.55.
+- REVIEW 0.4900 | GROVBUD -> GROVBUD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; variant=0.45.
+- REVIEW 0.4900 | NYTJÄNST -> NYTJÄNST | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; variant=0.45.
+- REVIEW 0.4500 | BRN03SLORD -> BRN03SLORD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; document_structure=1.00.
+- REVIEW 0.4500 | BDT36SLORD -> BDT36SLORD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; document_structure=1.00.
+- REVIEW 0.4500 | BRNÖ6SLORD -> BRNÖ6SLORD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; document_structure=1.00.
+- REVIEW 0.4500 | BDT03SLORD -> BDT03SLORD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; document_structure=1.00.
+- REVIEW 0.4000 | BDT03SLBUD -> BDT03SLBUD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; tax_family=0.00.
+- REVIEW 0.4000 | BDT03SLORD -> BDT03SLORD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; tax_family=0.00.
+- REVIEW 0.4000 | BDT36SLBUD -> BDT36SLBUD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; tax_family=0.00.
+- REVIEW 0.4000 | BDT36SLORD -> BDT36SLORD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; tax_family=0.00.
+- REVIEW 0.4000 | BRN03SLBUD -> BRN03SLBUD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; tax_family=0.00.
+- REVIEW 0.4000 | BRN03SLORD -> BRN03SLORD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; tax_family=0.00.
+- REVIEW 0.4000 | BRN36SLBUD -> BRN36SLBUD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; tax_family=0.00.
+- REVIEW 0.4000 | BRN36SLORD -> BRN36SLORD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; tax_family=0.00.
+- REVIEW 0.4000 | BRNÖ6SLBUD -> BRNÖ6SLBUD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; tax_family=0.00.
+- REVIEW 0.4000 | BRNÖ6SLORD -> BRNÖ6SLORD | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; tax_family=0.00.
+- REVIEW 0.4000 | HCO08 -> HCO08 | REVIEW: samlad poäng bygger främst på edp_exact=1.00; hierarchical_context=1.00; tax_family=0.00.

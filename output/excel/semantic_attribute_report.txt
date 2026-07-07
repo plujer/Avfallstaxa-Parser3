@@ -2,31 +2,31 @@ Semantic Attribute Intelligence Report
 
 Status: Extraherar semantiska attribut som beslutsstöd.
 Taxa_från_edp ändras inte och kommununik data delas inte.
-Profiles: 1392
-Profiles with attributes: 1073
-Warnings: 319
+Profiles: 1214
+Profiles with attributes: 966
+Warnings: 248
 
 Top materials:
-- TRÄ: 87
-- PAPPER: 52
-- PLAST: 34
-- METALL: 31
-- GLAS: 18
-- JORD: 12
-- ASBEST: 6
-- STEN: 3
+- TRÄ: 73
+- PAPPER: 41
+- PLAST: 37
+- METALL: 28
+- GLAS: 21
+- JORD: 20
+- ASBEST: 2
+- STEN: 2
 - GIPS: 1
 - STUBBAR/RÖTTER: 1
 
 Top waste types:
-- REST: 211
-- MAT: 129
-- TIDNING: 32
-- FARLIGT AVFALL: 11
-- TRÄDGÅRDSAVFALL: 6
-- GROVAVFALL: 4
+- REST: 145
+- MAT: 92
+- TIDNING: 26
+- FARLIGT AVFALL: 13
+- GROVAVFALL: 3
 - FÄRGAT GLAS: 2
 - OFÄRGAT GLAS: 2
+- TRÄDGÅRDSAVFALL: 1
 
 Warnings:
 - Inga semantiska attribut hittades för STANDARD:Standard Avfall:4
