@@ -1,8 +1,9 @@
 Semantic Decision Engine klar
 Parser rows: 241
+Context enriched rows: 241
 Semantic candidates: 2410
 EDP_MATCH: 0
 STANDARD_PROPOSAL: 0
-REVIEW_REQUIRED: 173
-NEW_TAXA: 68
+REVIEW_REQUIRED: 131
+NEW_TAXA: 110
 Workbook: output\excel\ArbetsExcel_byggd_fran_parser.xlsx

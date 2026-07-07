@@ -1,0 +1,5 @@
+Context Resolver klar
+Rows: 241
+Enriched rows: 241
+TXT: output\excel\context_resolution_report.txt
+CSV: output\excel\context_resolved_rows.csv

@@ -12,6 +12,9 @@ $manifest = "output\excel\excel_report_manifest.txt"
 $files = @(
     "output\diagnostics\test_cleanup_report.txt",
     "output\diagnostics\test_syntax_report.txt",
+    "output\excel\context_resolution_report.txt",
+    "output\excel\context_resolved_rows.csv",
+    "output\excel\context_resolution_console.txt",
     "output\excel\tax_decision_semantic_report.txt",
     "output\excel\tax_decision_semantic_results.csv",
     "output\excel\tax_decision_semantic_console.txt",
