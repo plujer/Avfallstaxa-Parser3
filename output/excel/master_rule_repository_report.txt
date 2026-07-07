@@ -1,15 +1,17 @@
 Master Rule Repository Report
 
 Source workbook: data\ArbetsExcel_Reference.xlsx
-Rules: 508
+Rules: 873
 Warnings: 0
 
 Rule types:
 - DOCUMENTATION: 138
 - EDP: 370
+- TAXEPUNKT: 365
 
 Top source sheets:
 - Taxa_från_edp: 370
+- Taxepunkter: 365
 - Taxa_Saknas: 74
 - Dokumentation_Taxepunkter: 23
 - Dokumentation_Taxa_Saknas: 15

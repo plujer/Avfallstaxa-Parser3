@@ -1,4 +1,369 @@
 ﻿Rule type;Priority;Source sheet;Row;Section;Tax point;Category;Waste type;Unit type;Factor hint;Volume liter;Tax code;Formula;Tax part;Confidence;Source text
+TAXEPUNKT;30;Taxepunkter;6;§2.1 Grundavgift;;Hushåll;;;;;;;;0.75;§2.1 Grundavgift | §2.1 Grundavgift |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;7;§2.1;En- och tvåbostadshus;Hushåll;;;;;GRUNDSMÅ;;;1.00;§2.1 | §2.1 | En- och tvåbostadshus |  | st/år | GRUNDSMÅ | GRUNDSMÅ |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;8;§2.1;Fritidshus;Hushåll;;;;;GRUNDFRI;;;1.00;§2.1 | §2.1 | Fritidshus |  | st/år | GRUNDFRI | GRUNDFRI |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;9;§2.1;Verksamhet;Hushåll;;;;;GRUNDVHT;;;1.00;§2.1 | §2.1 | Verksamhet |  | st/år | GRUNDVHT | GRUNDVHT |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;10;§2.1;Lägenhet i flerbostadshus;Hushåll;;;;;GRUNDFLB;;;1.00;§2.1 | §2.1 | Lägenhet i flerbostadshus |  | st/år | GRUNDFLB | GRUNDFLB |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;11;§2.1;Lägenhet för specialändamål;Hushåll;;;;;;;;0.75;§2.1 | §2.1 | Lägenhet för specialändamål |  | st/år |  | GRUNDSPEC |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;12;§2.1;Anläggning;Hushåll;;;;;;;;0.75;§2.1 | §2.1 | Anläggning |  | st/år |  | GRUNDANL |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;13;§2.1;Säsongsbaserad uppställningsplats;Hushåll;;;;;;;;0.75;§2.1 | §2.1 | Säsongsbaserad uppställningsplats |  | st/år |  | GRUNDSÄS |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;14;§2.1;Campingstuga/-lägenhet;Hushåll;;;;;;;;0.75;§2.1 | §2.1 | Campingstuga/-lägenhet |  | st/år |  | GRUNDCAMP |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;15;§2.1;Administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar;Hushåll;;;;;;;;0.75;§2.1 | §2.1 | Administrativ avgift vid beviljad dispens om uppehåll i hämtning eller eget omhändertagande av avfall under kommunalt ansvar |  | st/år |  | ADMINDISP |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;16;§2.1;;Hushåll;;;;;;;;0.75;§2.1 | §2.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;17;§2.2.1 Hämtningsavgift per år för en- och tvåbostadshus;;Hushåll;;;;;;;;0.75;§2.2.1 Hämtningsavgift per år för en- och tvåbostadshus | §2.2.1 Hämtningsavgift per år för en- och tvåbostadshus |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;18;§2.2.1;Kärl 240 l (mat-/restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;KÄ240RM26;;;1.00;§2.2.1 | §2.2.1 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26 | KÄ240RM26 |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;19;§2.2.1;Kärl 240 l (mat-/restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;;;;0.75;§2.2.1 | §2.2.1 | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | st/år |  | KÄ240RM12 |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;20;§2.2.1;Extrakärl 190 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;190;KÄ190XRM26;;;1.00;§2.2.1 | §2.2.1 | Extrakärl 190 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ190XRM26 | KÄ190XRM26 |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;21;§2.2.1;Extrakärl 190 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;190;;;;0.75;§2.2.1 | §2.2.1 | Extrakärl 190 l (restavfall) | Hämtning månadsvis | st/år |  | KÄ190XRM12 |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;22;§2.2.1;;Hushåll;;;;;;;;0.75;§2.2.1 | §2.2.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;23;§2.2.1;;Hushåll;;;;;;;;0.75;§2.2.1 | §2.2.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;24;§2.2.2 Hämtningsavgift per år för fritidshus;;Hushåll;;;;;;;;0.75;§2.2.2 Hämtningsavgift per år för fritidshus | §2.2.2 Hämtningsavgift per år för fritidshus |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;25;§2.2.2;Kärl 240 l (mat-/restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;KÄ240RM26FRI;;;1.00;§2.2.2 | §2.2.2 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26FRI | KÄ240RM26FRI |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;26;§2.2.2;Kärl 240 l (mat-/restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;;;;0.75;§2.2.2 | §2.2.2 | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | st/år |  | KÄ240RM12FRI |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;27;§2.2.2;Extrakärl 190 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;190;;;;0.75;§2.2.2 | §2.2.2 | Extrakärl 190 l (restavfall) | Hämtning var 14:e dag | st/år |  | KÄ190XRM26FRI |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;28;§2.2.2;;Hushåll;;;;;;;;0.75;§2.2.2 | §2.2.2 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;29;§2.2.2;Kärl 370 l (papper-/plastförpackningar);Hushåll;;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.2.2 | §2.2.2 | Kärl 370 l (papper-/plastförpackningar) | Kostnadsfritt | st/år |  | KÄ370FPFRI |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;30;§2.2.2;;Hushåll;;;;;;;;0.75;§2.2.2 | §2.2.2 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;31;§2.2.3 Gemensam uppsamlingsplats inom hämtningsområde X;;Hushåll;;;;;;;;0.75;§2.2.3 Gemensam uppsamlingsplats inom hämtningsområde X | §2.2.3 Gemensam uppsamlingsplats inom hämtningsområde X |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;32;§2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;Hushåll;Restavfall;;;;GEMUPPFRI;;;1.00;§2.2.3 | §2.2.3 | Gemensam uppsamlingsplats för mat-/restavfall |  | st/år | GEMUPPFRI | GEMUPPFRI |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;33;§2.2.3;Gemensam uppsamlingsplats för förpackningar;Hushåll;Förpackningar;;;;GEMUPPFRI;;;1.00;§2.2.3 | §2.2.3 | Gemensam uppsamlingsplats för förpackningar | Kostnadsfritt | st/år | GEMUPPFRI | GEMUPPFRI |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;34;§2.2.3;Extra digital licens (årskostnad);Hushåll;;;;;GEMUPPEXTRAFRI;;;1.00;§2.2.3 | §2.2.3 | Extra digital licens (årskostnad) |  | st/år | GEMUPPEXTRAFRI | GEMUPPEXTRAFRI |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;35;§2.2.3;Fysisk nyckel, kallad fob (engångskostnad);Hushåll;;Tillfälle;TILLFÄLLE;;FOBFRI;;;1.00;§2.2.3 | §2.2.3 | Fysisk nyckel, kallad fob (engångskostnad) |  | st/tillfälle | FOBFRI | FOBFRI |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;36;§2.2.3;Byte av telefonnummer kopplat till licens;Hushåll;;Tillfälle;TILLFÄLLE;;;;;0.75;§2.2.3 | §2.2.3 | Byte av telefonnummer kopplat till licens |  | st/tillfälle |  | GEMUPPBYTE |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;37;§2.2.3;Kostnad för öppning av behållare;Hushåll;;Tillfälle;TILLFÄLLE;;;;;0.75;§2.2.3 | §2.2.3 | Kostnad för öppning av behållare |  | st/tillfälle |  | GEMUPPÖPP |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;38;§2.2.3;;Hushåll;;;;;;;;0.75;§2.2.3 | §2.2.3 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;39;§2.2.4 Hämtningsavgift per år för flerbostadshus;;Hushåll;;;;;;;;0.75;§2.2.4 Hämtningsavgift per år för flerbostadshus | §2.2.4 Hämtningsavgift per år för flerbostadshus |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;40;§2.2.4;Kärl 240 l (mat-/restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;KÄ240RM52FV;;;1.00;§2.2.4 | §2.2.4 | Kärl 240 l (mat-/restavfall) | Hämtning varje vecka | st/år | KÄ240RM52FV | KÄ240RM52FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;41;§2.2.4;Kärl 240 l (mat-/restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;KÄ240RM26FV;;;1.00;§2.2.4 | §2.2.4 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26FV | KÄ240RM26FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;42;§2.2.4;Kärl 240 l (mat-/restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;;;;0.75;§2.2.4 | §2.2.4 | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | st/år |  | KÄ240RM12FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;43;§2.2.4;Kärl 370 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;370;KÄ370RE52FV;;;1.00;§2.2.4 | §2.2.4 | Kärl 370 l (restavfall) | Hämtning varje vecka | st/år | KÄ370RE52FV | KÄ370RE52FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;44;§2.2.4;Kärl 370 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;370;KÄ370RE26FV;;;1.00;§2.2.4 | §2.2.4 | Kärl 370 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ370RE26FV | KÄ370RE26FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;45;§2.2.4;Kärl 370 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.2.4 | §2.2.4 | Kärl 370 l (restavfall) | Hämtning månadsvis | st/år |  | KÄ370RE12FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;46;§2.2.4;Kärl 660 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;660;KÄ660RE52FV;;;1.00;§2.2.4 | §2.2.4 | Kärl 660 l (restavfall) | Hämtning varje vecka | st/år | KÄ660RE52FV | KÄ660RE52FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;47;§2.2.4;Kärl 660 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;660;KÄ660RE26FV;;;1.00;§2.2.4 | §2.2.4 | Kärl 660 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ660RE26FV | KÄ660RE26FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;48;§2.2.4;Kärl 660 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;660;;;;0.75;§2.2.4 | §2.2.4 | Kärl 660 l (restavfall) | Hämtning månadsvis | st/år |  | KÄ660RE12FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;49;§2.2.4;Kärl 140 l (matavfall);Hushåll;Matavfall;Behållarvolym;VOLYM/BEHÅLLARE;140;KÄ140MA52FV;;;1.00;§2.2.4 | §2.2.4 | Kärl 140 l (matavfall) | Hämtning varje vecka | st/år | KÄ140MA52FV | KÄ140MA52FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;50;§2.2.4;Kärl 140 l (matavfall);Hushåll;Matavfall;Behållarvolym;VOLYM/BEHÅLLARE;140;KÄ140MA26FV;;;1.00;§2.2.4 | §2.2.4 | Kärl 140 l (matavfall) | Hämtning var 14:e dag | st/år | KÄ140MA26FV | KÄ140MA26FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;51;§2.2.4;Kärl 140 l (matavfall);Hushåll;Matavfall;Behållarvolym;VOLYM/BEHÅLLARE;140;;;;0.75;§2.2.4 | §2.2.4 | Kärl 140 l (matavfall) | Hämtning månadsvis | st/år |  | KÄ140MA12FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;52;§2.2.4;Kärl 190 l (förpackningar);Hushåll;Förpackningar;Behållarvolym;VOLYM/BEHÅLLARE;190;;;;0.75;§2.2.4 | §2.2.4 | Kärl 190 l (förpackningar) | Hämtning varje vecka | st/år |  | KÄ190FP52FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;53;§2.2.4;Kärl 190 l (förpackningar);Hushåll;Förpackningar;Behållarvolym;VOLYM/BEHÅLLARE;190;;;;0.75;§2.2.4 | §2.2.4 | Kärl 190 l (förpackningar) | Hämtning var 14:e dag | st/år |  | KÄ190FP26FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;54;§2.2.4;Kärl 190 l (förpackningar);Hushåll;Förpackningar;Behållarvolym;VOLYM/BEHÅLLARE;190;;;;0.75;§2.2.4 | §2.2.4 | Kärl 190 l (förpackningar) | Hämtning månadsvis | st/år |  | KÄ190FP12FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;55;§2.2.4;Kärl 370 l (förpackningar);Hushåll;Förpackningar;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.2.4 | §2.2.4 | Kärl 370 l (förpackningar) | Hämtning varje vecka | st/år |  | KÄ370FP52FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;56;§2.2.4;Kärl 370 l (förpackningar);Hushåll;Förpackningar;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.2.4 | §2.2.4 | Kärl 370 l (förpackningar) | Hämtning var 14:e dag | st/år |  | KÄ370FP26FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;57;§2.2.4;Kärl 370 l (förpackningar);Hushåll;Förpackningar;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.2.4 | §2.2.4 | Kärl 370 l (förpackningar) | Hämtning månadsvis | st/år |  | KÄ370FP12FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;58;§2.2.4;Kärl 660 l (förpackningar);Hushåll;Förpackningar;Behållarvolym;VOLYM/BEHÅLLARE;660;;;;0.75;§2.2.4 | §2.2.4 | Kärl 660 l (förpackningar) | Hämtning varje vecka | st/år |  | KÄ660FP52FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;59;§2.2.4;Kärl 660 l (förpackningar);Hushåll;Förpackningar;Behållarvolym;VOLYM/BEHÅLLARE;660;;;;0.75;§2.2.4 | §2.2.4 | Kärl 660 l (förpackningar) | Hämtning var 14:e dag | st/år |  | KÄ660FP26FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;60;§2.2.4;Kärl 660 l (förpackningar);Hushåll;Förpackningar;Behållarvolym;VOLYM/BEHÅLLARE;660;;;;0.75;§2.2.4 | §2.2.4 | Kärl 660 l (förpackningar) | Hämtning månadsvis | st/år |  | KÄ660FP12FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;61;§2.2.4;Kärl 190 l (tidningar och returpapper);Hushåll;;Behållarvolym;VOLYM/BEHÅLLARE;190;;;;0.75;§2.2.4 | §2.2.4 | Kärl 190 l (tidningar och returpapper) | Hämtning varje vecka | st/år |  | KÄ190TI52FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;62;§2.2.4;Kärl 190 l (tidningar och returpapper);Hushåll;;Behållarvolym;VOLYM/BEHÅLLARE;190;;;;0.75;§2.2.4 | §2.2.4 | Kärl 190 l (tidningar och returpapper) | Hämtning var 14:e dag | st/år |  | KÄ190TI26FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;63;§2.2.4;Kärl 190 l (tidningar och returpapper);Hushåll;;Behållarvolym;VOLYM/BEHÅLLARE;190;;;;0.75;§2.2.4 | §2.2.4 | Kärl 190 l (tidningar och returpapper) | Hämtning månadsvis | st/år |  | KÄ190TI12FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;64;§2.2.4;Kärl 370 l (tidningar och returpapper);Hushåll;;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.2.4 | §2.2.4 | Kärl 370 l (tidningar och returpapper) | Hämtning varje vecka | st/år |  | KÄ370TI52FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;65;§2.2.4;Kärl 370 l (tidningar och returpapper);Hushåll;;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.2.4 | §2.2.4 | Kärl 370 l (tidningar och returpapper) | Hämtning var 14:e dag | st/år |  | KÄ370TI26FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;66;§2.2.4;Kärl 370 l (tidningar och returpapper);Hushåll;;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.2.4 | §2.2.4 | Kärl 370 l (tidningar och returpapper) | Hämtning månadsvis | st/år |  | KÄ370TI12FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;67;§2.2.4;Bottentömmande behållare (mat-/restavfall, förpackningar);Hushåll;Restavfall;;;;;;;0.75;§2.2.4 | §2.2.4 | Bottentömmande behållare (mat-/restavfall, förpackningar) | Avgift per tömning | st/tömning |  | MBRMFPFV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;68;§2.2.4;Bottentömmande behållare (mat-/restavfall, förpackningar);Hushåll;Restavfall;;;;;;;0.75;§2.2.4 | §2.2.4 | Bottentömmande behållare (mat-/restavfall, förpackningar) | Tillägg för två tömningar per vecka | st/tömning |  | MBRMFP2VFV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;69;§2.2.4;Gemensam uppsamlingsplats för mat-/restavfall, förpackningar;Hushåll;Restavfall;;;;;;;0.75;§2.2.4 | §2.2.4 | Gemensam uppsamlingsplats för mat-/restavfall, förpackningar | Avgift per lägenhet | lägenhet/år |  | GEMUPPMRFPFLB |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;70;§2.2.4;;Hushåll;;;;;;;;0.75;§2.2.4 | §2.2.4 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;71;§2.2.5 Hämtningsavgift per år för verksamheter;;Hushåll;;;;;;;;0.75;§2.2.5 Hämtningsavgift per år för verksamheter | §2.2.5 Hämtningsavgift per år för verksamheter |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;72;§2.2.5;Kärl 240 l (mat-/restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;KÄ240RM52FV;;;1.00;§2.2.5 | §2.2.5 | Kärl 240 l (mat-/restavfall) | Hämtning varje vecka | st/år | KÄ240RM52FV | KÄ240RM52FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;73;§2.2.5;Kärl 240 l (mat-/restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;KÄ240RM26FV;;;1.00;§2.2.5 | §2.2.5 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år | KÄ240RM26FV | KÄ240RM26FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;74;§2.2.5;Kärl 240 l (mat-/restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;;;;0.75;§2.2.5 | §2.2.5 | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | st/år |  | KÄ240RM12FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;75;§2.2.5;Kärl 370 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;370;KÄ370RE52FV;;;1.00;§2.2.5 | §2.2.5 | Kärl 370 l (restavfall) | Hämtning varje vecka | st/år | KÄ370RE52FV | KÄ370RE52FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;76;§2.2.5;Kärl 370 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;370;KÄ370RE26FV;;;1.00;§2.2.5 | §2.2.5 | Kärl 370 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ370RE26FV | KÄ370RE26FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;77;§2.2.5;Kärl 370 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.2.5 | §2.2.5 | Kärl 370 l (restavfall) | Hämtning månadsvis | st/år |  | KÄ370RE12FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;78;§2.2.5;Kärl 660 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;660;KÄ660RE52FV;;;1.00;§2.2.5 | §2.2.5 | Kärl 660 l (restavfall) | Hämtning varje vecka | st/år | KÄ660RE52FV | KÄ660RE52FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;79;§2.2.5;Kärl 660 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;660;KÄ660RE26FV;;;1.00;§2.2.5 | §2.2.5 | Kärl 660 l (restavfall) | Hämtning var 14:e dag | st/år | KÄ660RE26FV | KÄ660RE26FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;80;§2.2.5;Kärl 660 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;660;;;;0.75;§2.2.5 | §2.2.5 | Kärl 660 l (restavfall) | Hämtning månadsvis | st/år |  | KÄ660RE12FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;81;§2.2.5;Kärl 140 l (matavfall);Hushåll;Matavfall;Behållarvolym;VOLYM/BEHÅLLARE;140;KÄ140MA52FV;;;1.00;§2.2.5 | §2.2.5 | Kärl 140 l (matavfall) | Hämtning varje vecka | st/år | KÄ140MA52FV | KÄ140MA52FV |  |  |  |  | 
+TAXEPUNKT;10;Taxepunkter;82;§2.2.5;Kärl 140 l (matavfall);Hushåll;Matavfall;Behållarvolym;VOLYM/BEHÅLLARE;140;KÄ140MA26FV;;;1.00;§2.2.5 | §2.2.5 | Kärl 140 l (matavfall) | Hämtning var 14:e dag | st/år | KÄ140MA26FV | KÄ140MA26FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;83;§2.2.5;Kärl 140 l (matavfall);Hushåll;Matavfall;Behållarvolym;VOLYM/BEHÅLLARE;140;;;;0.75;§2.2.5 | §2.2.5 | Kärl 140 l (matavfall) | Hämtning månadsvis | st/år |  | KÄ140MA12FV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;84;§2.2.5;;Hushåll;;;;;;;;0.75;§2.2.5 | §2.2.5 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;85;§2.2.5;Lastväxlarflak (restavfall);Hushåll;Restavfall;;;;;;;0.75;§2.2.5 | §2.2.5 | Lastväxlarflak (restavfall) | Avgift per tömning | st/tömning |  | LVREFV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;86;§2.2.5;Bottentömmande behållare (mat-/restavfall);Hushåll;Restavfall;;;;;;;0.75;§2.2.5 | §2.2.5 | Bottentömmande behållare (mat-/restavfall) | Tillägg för två tömningar per vecka | st/tömning |  | MBRM2VFV |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;87;§2.2.5;;Hushåll;;;;;;;;0.75;§2.2.5 | §2.2.5 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;88;§2.2.6 Hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall;;Hushåll;;;;;;;;0.75;§2.2.6 Hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall | §2.2.6 Hämtningsavgift per år för verksamhet inom detaljhandeln med beviljad hantering av kommunalt avfall |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;89;§2.2.6;Kärl 240 l (mat-/restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;;;;0.75;§2.2.6 | §2.2.6 | Kärl 240 l (mat-/restavfall) | Hämtning varje vecka | st/år |  | KÄ240RM52DH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;90;§2.2.6;Kärl 240 l (mat-/restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;;;;0.75;§2.2.6 | §2.2.6 | Kärl 240 l (mat-/restavfall) | Hämtning var 14:e dag | st/år |  | KÄ240RM26DH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;91;§2.2.6;Kärl 240 l (mat-/restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;;;;0.75;§2.2.6 | §2.2.6 | Kärl 240 l (mat-/restavfall) | Hämtning månadsvis | st/år |  | KÄ240RM12DH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;92;§2.2.6;Kärl 370 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.2.6 | §2.2.6 | Kärl 370 l (restavfall) | Hämtning varje vecka | st/år |  | KÄ370RE52DH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;93;§2.2.6;Kärl 370 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.2.6 | §2.2.6 | Kärl 370 l (restavfall) | Hämtning var 14:e dag | st/år |  | KÄ370RE26DH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;94;§2.2.6;Kärl 370 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.2.6 | §2.2.6 | Kärl 370 l (restavfall) | Hämtning månadsvis | st/år |  | KÄ370RE12DH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;95;§2.2.6;Kärl 660 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;660;;;;0.75;§2.2.6 | §2.2.6 | Kärl 660 l (restavfall) | Hämtning varje vecka | st/år |  | KÄ660RE52DH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;96;§2.2.6;Kärl 660 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;660;;;;0.75;§2.2.6 | §2.2.6 | Kärl 660 l (restavfall) | Hämtning var 14:e dag | st/år |  | KÄ660RE26DH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;97;§2.2.6;Kärl 660 l (restavfall);Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;660;;;;0.75;§2.2.6 | §2.2.6 | Kärl 660 l (restavfall) | Hämtning månadsvis | st/år |  | KÄ660RE12DH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;98;§2.2.6;Kärl 140 l (matavfall);Hushåll;Matavfall;Behållarvolym;VOLYM/BEHÅLLARE;140;;;;0.75;§2.2.6 | §2.2.6 | Kärl 140 l (matavfall) | Hämtning varje vecka | st/år |  | KÄ140MA52DH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;99;§2.2.6;Kärl 140 l (matavfall);Hushåll;Matavfall;Behållarvolym;VOLYM/BEHÅLLARE;140;;;;0.75;§2.2.6 | §2.2.6 | Kärl 140 l (matavfall) | Hämtning var 14:e dag | st/år |  | KÄ140MA26DH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;100;§2.2.6;Kärl 140 l (matavfall);Hushåll;Matavfall;Behållarvolym;VOLYM/BEHÅLLARE;140;;;;0.75;§2.2.6 | §2.2.6 | Kärl 140 l (matavfall) | Hämtning månadsvis | st/år |  | KÄ140MA12DH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;101;§2.2.6;;Hushåll;;;;;;;;0.75;§2.2.6 | §2.2.6 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;102;§2.2.6;Lastväxlarflak (restavfall);Hushåll;Restavfall;;;;;;;0.75;§2.2.6 | §2.2.6 | Lastväxlarflak (restavfall) | Avgift per tömning | st/tömning |  | LVREDH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;103;§2.2.6;Bottentömmande behållare (mat-/restavfall);Hushåll;Restavfall;;;;;;;0.75;§2.2.6 | §2.2.6 | Bottentömmande behållare (mat-/restavfall) | Tillägg för två tömningar per vecka | st/tömning |  | MBRM2VDH |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;104;§2.2.6;;Hushåll;;;;;;;;0.75;§2.2.6 | §2.2.6 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;105;§2.2.7 Verksamheter med beviljad hantering av förbrukat matfett, kontorspapper eller returpapper;;Hushåll;;;;;;;;0.75;§2.2.7 Verksamheter med beviljad hantering av förbrukat matfett, kontorspapper eller returpapper | §2.2.7 Verksamheter med beviljad hantering av förbrukat matfett, kontorspapper eller returpapper |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;106;§2.2.7;Kärl 140 l (kontors-/returpapper);Hushåll;;Behållarvolym;VOLYM/BEHÅLLARE;140;;;;0.75;§2.2.7 | §2.2.7 | Kärl 140 l (kontors-/returpapper) |  | st/år |  | KÄ140TI |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;107;§2.2.7;;Hushåll;;;;;;;;0.75;§2.2.7 | §2.2.7 |  |  |  |  | EGENKONTRET |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;108;§2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;Hushåll;;;;;;;;0.75;§2.2.7 | §2.2.7 | Egen överlämning av förbrukat matfett enligt anvisning |  | st/år |  | EGENMATFETT |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;109;§2.2.7;;Hushåll;;;;;;;;0.75;§2.2.7 | §2.2.7 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;110;§2.3 Rörlig avgift (gäller ej gemensam uppsamlingsplats);;Hushåll;;;;;;;;0.75;§2.3 Rörlig avgift (gäller ej gemensam uppsamlingsplats) | §2.3 Rörlig avgift (gäller ej gemensam uppsamlingsplats) |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;111;§2.3;Viktavgift matavfall;Hushåll;Matavfall;;;;;;;0.75;§2.3 | §2.3 | Viktavgift matavfall |  | kr/kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;112;§2.3;Viktavgift restavfall;Hushåll;Restavfall;;;;;;;0.75;§2.3 | §2.3 | Viktavgift restavfall |  | kr/kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;113;§2.3;;Hushåll;;;;;;;;0.75;§2.3 | §2.3 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;114;§2.3;;Hushåll;;;;;;;;0.75;§2.3 | §2.3 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;115;§2.4.1 Fakturaavgift;;Hushåll;;;;;;;;0.75;§2.4.1 Fakturaavgift | §2.4.1 Fakturaavgift |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;116;§2.4.1;;Hushåll;;;;;;;;0.75;§2.4.1 | §2.4.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;117;§2.4.1;;Hushåll;;;;;;;;0.75;§2.4.1 | §2.4.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;118;§2.4.2 Överviktsavgift kärl;;Hushåll;;;;;;;;0.75;§2.4.2 Överviktsavgift kärl | §2.4.2 Överviktsavgift kärl |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;119;§2.4.2;;Hushåll;;;;;;;;0.75;§2.4.2 | §2.4.2 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;120;§2.4.2;Delat kärl 240 l restavfall;Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;240;;;;0.75;§2.4.2 | §2.4.2 | Delat kärl 240 l restavfall | Över 40 kg | kr/kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;121;§2.4.2;Extra kärl 140 l matavfall;Hushåll;Matavfall;Behållarvolym;VOLYM/BEHÅLLARE;140;;;;0.75;§2.4.2 | §2.4.2 | Extra kärl 140 l matavfall | Över 60 kg | kr/kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;122;§2.4.2;;Hushåll;;;;;;;;0.75;§2.4.2 | §2.4.2 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;123;§2.4.2;Kärl 370 l restavfall;Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.4.2 | §2.4.2 | Kärl 370 l restavfall | Över 60 kg | kr/kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;124;§2.4.2;Kärl 660 l restavfall;Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;660;;;;0.75;§2.4.2 | §2.4.2 | Kärl 660 l restavfall | Över 100 kg | kr/kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;125;§2.4.2;;Hushåll;;;;;;;;0.75;§2.4.2 | §2.4.2 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;126;§2.4.3 Överfull behållare;;Hushåll;;;;;;;;0.75;§2.4.3 Överfull behållare | §2.4.3 Överfull behållare |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;127;§2.4.3;Överfullt kärl;Hushåll;;Tillfälle;TILLFÄLLE;;;;;0.75;§2.4.3 | §2.4.3 | Överfullt kärl |  | st/tillfälle/behållare |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;128;§2.4.3;Överfull bottentömmande behållare;Hushåll;;Tillfälle;TILLFÄLLE;;;;;0.75;§2.4.3 | §2.4.3 | Överfull bottentömmande behållare |  | st/tillfälle/behållare |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;129;§2.4.3;;Hushåll;;;;;;;;0.75;§2.4.3 | §2.4.3 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;130;§2.4.4 Byte av trasigt kärl;;Hushåll;;;;;;;;0.75;§2.4.4 Byte av trasigt kärl | §2.4.4 Byte av trasigt kärl |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;131;§2.4.4;Byte av trasigt kärl vid oaktsamhet;Hushåll;;;;;;;;0.75;§2.4.4 | §2.4.4 | Byte av trasigt kärl vid oaktsamhet |  | st/kärl |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;132;§2.4.4;;Hushåll;;;;;;;;0.75;§2.4.4 | §2.4.4 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;133;§2.4.5 Byte av abonnemang;;Hushåll;;;;;;;;0.75;§2.4.5 Byte av abonnemang | §2.4.5 Byte av abonnemang |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;134;§2.4.5;Byte/återtag av kärl en (1) ggr/år;Hushåll;;Behållarvolym;VOLYM/BEHÅLLARE;240;;;;0.75;§2.4.5 | §2.4.5 | Byte/återtag av kärl en (1) ggr/år | 140–240 liter | st/kärl |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;135;§2.4.5;Byte/återtag av kärl en (1) ggr/år;Hushåll;;Behållarvolym;VOLYM/BEHÅLLARE;660;;;;0.75;§2.4.5 | §2.4.5 | Byte/återtag av kärl en (1) ggr/år | 370–660 liter | st/kärl |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;136;§2.4.5;Ytterligare byte av kärl under kalenderåret;Hushåll;;;;;;;;0.75;§2.4.5 | §2.4.5 | Ytterligare byte av kärl under kalenderåret |  | st/kärl |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;137;§2.4.5;;Hushåll;;;;;;;;0.75;§2.4.5 | §2.4.5 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;138;§2.4.6 Felsorteringsavgift;;Hushåll;;;;;;;;0.75;§2.4.6 Felsorteringsavgift | §2.4.6 Felsorteringsavgift |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;139;§2.4.6;Kärl;Hushåll;;Tillfälle;TILLFÄLLE;;;;;0.75;§2.4.6 | §2.4.6 | Kärl |  | st/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;140;§2.4.6;Bottentömmande behållare;Hushåll;;Tillfälle;TILLFÄLLE;;;;;0.75;§2.4.6 | §2.4.6 | Bottentömmande behållare |  | st/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;141;§2.4.6;;Hushåll;;;;;;;;0.75;§2.4.6 | §2.4.6 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;142;§2.4.7 Dragväg och avfallsutrymmen;;Hushåll;;;;;;;;0.75;§2.4.7 Dragväg och avfallsutrymmen | §2.4.7 Dragväg och avfallsutrymmen |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;143;§2.4.7;;Hushåll;;;;;;;;0.75;§2.4.7 | §2.4.7 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;144;§2.4.7;Kärl 140-660 L;Hushåll;;Behållarvolym;VOLYM/BEHÅLLARE;660;;;;0.75;§2.4.7 | §2.4.7 | Kärl 140-660 L | 10-20 | st/år |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;145;§2.4.7;Kärl 140-660 L;Hushåll;;Behållarvolym;VOLYM/BEHÅLLARE;660;;;;0.75;§2.4.7 | §2.4.7 | Kärl 140-660 L | 20-30 | st/år |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;146;§2.4.7;;Hushåll;;;;;;;;0.75;§2.4.7 | §2.4.7 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;147;§2.4.7;Låst dörr, med kod;Hushåll;;;;;;;;0.75;§2.4.7 | §2.4.7 | Låst dörr, med kod |  | st/år |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;148;§2.4.7;;Hushåll;;;;;;;;0.75;§2.4.7 | §2.4.7 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;149;§2.4.8 Evenemang och andra tillfälliga händelser;;Hushåll;;;;;;;;0.75;§2.4.8 Evenemang och andra tillfälliga händelser | §2.4.8 Evenemang och andra tillfälliga händelser |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;150;§2.4.8;Kärl 140 l matavfall;Hushåll;Matavfall;Behållarvolym;VOLYM/BEHÅLLARE;140;;;;0.75;§2.4.8 | §2.4.8 | Kärl 140 l matavfall |  | st/period |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;151;§2.4.8;;Hushåll;;;;;;;;0.75;§2.4.8 | §2.4.8 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;152;§2.4.8;Kärl 370 l restavfall;Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;370;;;;0.75;§2.4.8 | §2.4.8 | Kärl 370 l restavfall |  | st/period |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;153;§2.4.8;Kärl 660 l restavfall;Hushåll;Restavfall;Behållarvolym;VOLYM/BEHÅLLARE;660;;;;0.75;§2.4.8 | §2.4.8 | Kärl 660 l restavfall |  | st/period |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;154;§2.4.8;;Hushåll;;;;;;;;0.75;§2.4.8 | §2.4.8 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;155;§2.4.8;;Hushåll;;;;;;;;0.75;§2.4.8 | §2.4.8 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;156;§2.4.9 Budning av mat- och restavfall;;Hushåll;Restavfall;;;;;;;0.75;§2.4.9 Budning av mat- och restavfall | §2.4.9 Budning av mat- och restavfall |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;157;§2.4.9;Sidlastande fordon;Hushåll;;Tillfälle;TILLFÄLLE;;;;;0.75;§2.4.9 | §2.4.9 | Sidlastande fordon |  | st/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;158;§2.4.9;Bottentömmande fordon;Hushåll;;Tillfälle;TILLFÄLLE;;;;;0.75;§2.4.9 | §2.4.9 | Bottentömmande fordon |  | st/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;159;§2.4.9;;Hushåll;;;;;;;;0.75;§2.4.9 | §2.4.9 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;160;§2.4.9;;Hushåll;;;;;;;;0.75;§2.4.9 | §2.4.9 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;161;§2.4.10 Betalsäck och akutsäck;;Hushåll;;;;;;;;0.75;§2.4.10 Betalsäck och akutsäck | §2.4.10 Betalsäck och akutsäck |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;162;§2.4.10;Betalsäck;Hushåll;;;;;;;;0.75;§2.4.10 | §2.4.10 | Betalsäck |  | st/säck |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;163;§2.4.10;;Hushåll;;;;;;;;0.75;§2.4.10 | §2.4.10 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;164;§2.4.10;;Hushåll;;;;;;;;0.75;§2.4.10 | §2.4.10 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;165;§2.4.11 Tillbehör;;Hushåll;;;;;;;;0.75;§2.4.11 Tillbehör | §2.4.11 Tillbehör |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;166;§2.4.11;;Hushåll;;;;;;;;0.75;§2.4.11 | §2.4.11 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;167;§2.4.11;Matavfallspåsar 22 L;Hushåll;;Behållarvolym;VOLYM/BEHÅLLARE;22;;;;0.75;§2.4.11 | §2.4.11 | Matavfallspåsar 22 L |  | bunt |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;168;§2.4.11;Gravitationslås till kärl;Hushåll;;Styck;ST;;;;;0.75;§2.4.11 | §2.4.11 | Gravitationslås till kärl |  | st |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;169;§2.4.11;Extra nyckel till gravitationslås;Hushåll;;Styck;ST;;;;;0.75;§2.4.11 | §2.4.11 | Extra nyckel till gravitationslås |  | st |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;170;§2.4.11;;Hushåll;;;;;;;;0.75;§2.4.11 | §2.4.11 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;171;§2.5.1 Budning för fastighetsnära hämtning av kommunalt avfall;;Hushåll;;;;;;;;0.75;§2.5.1 Budning för fastighetsnära hämtning av kommunalt avfall | §2.5.1 Budning för fastighetsnära hämtning av kommunalt avfall |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;172;§2.5.1;Kommunalt avfall;Hushåll;;Tillfälle;TILLFÄLLE;;;;;0.75;§2.5.1 | §2.5.1 | Kommunalt avfall |  | st/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;173;§2.5.1;Farligt avfall (ej uppmärkt);Hushåll;Farligt avfall;Tillfälle;TILLFÄLLE;;;;;0.75;§2.5.1 | §2.5.1 | Farligt avfall (ej uppmärkt) |  | st/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;174;§2.5.1;Farligt avfall (uppmärkt);Hushåll;Farligt avfall;Tillfälle;TILLFÄLLE;;;;;0.75;§2.5.1 | §2.5.1 | Farligt avfall (uppmärkt) |  | st/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;175;§2.5.1;;Hushåll;;;;;;;;0.75;§2.5.1 | §2.5.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;176;§2.5.1;;Hushåll;;;;;;;;0.75;§2.5.1 | §2.5.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;177;§3.1 Ordinarie tömning slam;;Flerbostad/verksamhet;Slam;;;;;;;0.75;§3.1 Ordinarie tömning slam | §3.1 Ordinarie tömning slam |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;178;§3.1;;Flerbostad/verksamhet;;;;;;;;0.75;§3.1 | §3.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;179;§3.1;Mellan 3 m3 och 6 m3;Flerbostad/verksamhet;;Volym;VOLM;;;;;0.75;§3.1 | §3.1 | Mellan 3 m3 och 6 m3 |  | kr/tömning |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;180;§3.1;Mellan 6 m3 och 9 m3;Flerbostad/verksamhet;;Volym;VOLM;;;;;0.75;§3.1 | §3.1 | Mellan 6 m3 och 9 m3 |  | kr/tömning |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;181;§3.1;Tillägg per m3 över 9 m3;Flerbostad/verksamhet;;Volym;VOLM;;;;;0.75;§3.1 | §3.1 | Tillägg per m3 över 9 m3 |  | kr/m3 |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;182;§3.1;Bad-, disk- och tvättbrunn upp till 3 m3;Flerbostad/verksamhet;;Volym;VOLM;;;;;0.75;§3.1 | §3.1 | Bad-, disk- och tvättbrunn upp till 3 m3 |  | kr/tömning |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;183;§3.1;;Flerbostad/verksamhet;;;;;;;;0.75;§3.1 | §3.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;184;§3.1;;Flerbostad/verksamhet;;;;;;;;0.75;§3.1 | §3.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;185;§3.2 Tilläggstjänster slam;;Flerbostad/verksamhet;Slam;;;;;;;0.75;§3.2 Tilläggstjänster slam | §3.2 Tilläggstjänster slam |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;186;§3.2;;Flerbostad/verksamhet;;;;;;;;0.75;§3.2 | §3.2 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;187;§3.2;Dragning av extra slang vid 25-35 m;Flerbostad/verksamhet;;Tillfälle;TILLFÄLLE;;;;;0.75;§3.2 | §3.2 | Dragning av extra slang vid 25-35 m |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;188;§3.2;Dragning av extra slang vid 36-45 m;Flerbostad/verksamhet;;Tillfälle;TILLFÄLLE;;;;;0.75;§3.2 | §3.2 | Dragning av extra slang vid 36-45 m |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;189;§3.2;;Flerbostad/verksamhet;;;;;;;;0.75;§3.2 | §3.2 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;190;§3.2;Hantering av brunnslock som väger 15-25 kg;Flerbostad/verksamhet;;Tillfälle;TILLFÄLLE;;;;;0.75;§3.2 | §3.2 | Hantering av brunnslock som väger 15-25 kg |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;191;§3.2;Krav på information om tömningstid;Flerbostad/verksamhet;;Tillfälle;TILLFÄLLE;;;;;0.75;§3.2 | §3.2 | Krav på information om tömningstid |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;192;§3.2;Krav på närvaro vid specificerad tömningstid;Flerbostad/verksamhet;;Tillfälle;TILLFÄLLE;;;;;0.75;§3.2 | §3.2 | Krav på närvaro vid specificerad tömningstid |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;193;§3.2;Hantering av kod för kodlås vid slamtömning;Flerbostad/verksamhet;Slam;Tillfälle;TILLFÄLLE;;;;;0.75;§3.2 | §3.2 | Hantering av kod för kodlås vid slamtömning |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;194;§3.2;Hetvattentvätt med spolbil, timersättning;Flerbostad/verksamhet;;Tillfälle;TILLFÄLLE;;;;;0.75;§3.2 | §3.2 | Hetvattentvätt med spolbil, timersättning |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;195;§3.2;Avgift om tömning ej kan utföras pga. hinder, bristande transportväg, betonglock, lock tyngre än 25 kg eller vägran;Flerbostad/verksamhet;;Tillfälle;TILLFÄLLE;;;;;0.75;§3.2 | §3.2 | Avgift om tömning ej kan utföras pga. hinder, bristande transportväg, betonglock, lock tyngre än 25 kg eller vägran |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;196;§3.2;Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3;Flerbostad/verksamhet;;Volym;VOLM;;;;;0.75;§3.2 | §3.2 | Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3 |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;197;§3.2;;Flerbostad/verksamhet;;;;;;;;0.75;§3.2 | §3.2 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;198;§3.3 Övriga avgifter och tillägg slam;;Flerbostad/verksamhet;Slam;;;;;;;0.75;§3.3 Övriga avgifter och tillägg slam | §3.3 Övriga avgifter och tillägg slam |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;199;§3.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);Flerbostad/verksamhet;;Tillfälle;TILLFÄLLE;;;;;0.75;§3.3 | §3.3 | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) | Inom 24 timmar | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;200;§3.3;Budning utanför ordinarie tömningsperiod (1 nov – 30 april);Flerbostad/verksamhet;;Tillfälle;TILLFÄLLE;;;;;0.75;§3.3 | §3.3 | Budning utanför ordinarie tömningsperiod (1 nov – 30 april) | Inom 24 timmar | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;201;§3.3;;Flerbostad/verksamhet;;;;;;;;0.75;§3.3 | §3.3 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;202;§3.3;Budning utanför ordinarie tömningsperiod (1 nov – 30 april);Flerbostad/verksamhet;;Tillfälle;TILLFÄLLE;;;;;0.75;§3.3 | §3.3 | Budning utanför ordinarie tömningsperiod (1 nov – 30 april) | Inom 7 arbetsdagar | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;203;§3.3;Tömning av toalettvagnar eller liknande;Flerbostad/verksamhet;;Tillfälle;TILLFÄLLE;;;;;0.75;§3.3 | §3.3 | Tömning av toalettvagnar eller liknande |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;204;§3.3;Framkörningsavgift då ordinarie tömning inte skett på grund av hinder, abonnenten vägrar, bristfällig väg eller annat;Flerbostad/verksamhet;;Tillfälle;TILLFÄLLE;;;;;0.75;§3.3 | §3.3 | Framkörningsavgift då ordinarie tömning inte skett på grund av hinder, abonnenten vägrar, bristfällig väg eller annat |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;205;§3.3;Sen anmälan om förändringar av tömningsintervall. Om förändring, nyanmälan eller avbokning av slamtömning meddelas efter 1 april innevarande år.;Flerbostad/verksamhet;Slam;Tillfälle;TILLFÄLLE;;;;;0.75;§3.3 | §3.3 | Sen anmälan om förändringar av tömningsintervall. Om förändring, nyanmälan eller avbokning av slamtömning meddelas efter 1 april innevarande år. |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;206;§3.3;;Flerbostad/verksamhet;;;;;;;;0.75;§3.3 | §3.3 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;207;§3.4 Latrinbehållare;;Flerbostad/verksamhet;;;;;;;;0.75;§3.4 Latrinbehållare | §3.4 Latrinbehållare |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;208;§3.4;Latrinbehållare 37 liter inkl. mottagning och behandling;Flerbostad/verksamhet;;Styck;ST;37;;;;0.75;§3.4 | §3.4 | Latrinbehållare 37 liter inkl. mottagning och behandling |  | st |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;209;§3.4;;Flerbostad/verksamhet;;;;;;;;0.75;§3.4 | §3.4 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;210;§4.1 Budad hämtning fosforfilter;;Tilläggstjänst;;;;;;;;0.75;§4.1 Budad hämtning fosforfilter | §4.1 Budad hämtning fosforfilter |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;211;§4.1;Filtermassor upp till 500 kg;Tilläggstjänst;;Tillfälle;TILLFÄLLE;;;;;0.75;§4.1 | §4.1 | Filtermassor upp till 500 kg | Budad hämtning inom sju (7) arbetsdagar | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;212;§4.1;Filtermassor 500-1000 kg;Tilläggstjänst;;Tillfälle;TILLFÄLLE;;;;;0.75;§4.1 | §4.1 | Filtermassor 500-1000 kg | Budad hämtning inom sju (7) arbetsdagar | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;213;§4.1;;Tilläggstjänst;;;;;;;;0.75;§4.1 | §4.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;214;§4.1;Filtermassor 500-1000 kg;Tilläggstjänst;;Tillfälle;TILLFÄLLE;;;;;0.75;§4.1 | §4.1 | Filtermassor 500-1000 kg | Tillägg för transport och behandlingskostnad | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;215;§4.1;;Tilläggstjänst;;;;;;;;0.75;§4.1 | §4.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;216;§4.2 Tilläggstjänster fosforfilter;;Tilläggstjänst;;;;;;;;0.75;§4.2 Tilläggstjänster fosforfilter | §4.2 Tilläggstjänster fosforfilter |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;217;§4.2;Krav på information om hämtningstid;Tilläggstjänst;;Tillfälle;TILLFÄLLE;;;;;0.75;§4.2 | §4.2 | Krav på information om hämtningstid |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;218;§4.2;Krav på närvaro vid specificerad hämtningstid;Tilläggstjänst;;Tillfälle;TILLFÄLLE;;;;;0.75;§4.2 | §4.2 | Krav på närvaro vid specificerad hämtningstid |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;219;§4.2;Hantering av kod för kodlås;Tilläggstjänst;;Tillfälle;TILLFÄLLE;;;;;0.75;§4.2 | §4.2 | Hantering av kod för kodlås |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;220;§4.2;Avgift om hämtning ej kan utföras pga hinder, bristande väg eller vägran;Tilläggstjänst;;Tillfälle;TILLFÄLLE;;;;;0.75;§4.2 | §4.2 | Avgift om hämtning ej kan utföras pga hinder, bristande väg eller vägran |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;221;§4.2;;Tilläggstjänst;;;;;;;;0.75;§4.2 | §4.2 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;222;§5.1 Ordinarie tömning av fettavskiljare;;Slam;;;;;;;;0.75;§5.1 Ordinarie tömning av fettavskiljare | §5.1 Ordinarie tömning av fettavskiljare |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;223;§5.1;Upp till 3 m3;Slam;;Volym;VOLM;;;;;0.75;§5.1 | §5.1 | Upp till 3 m3 | Tömning, transport och behandling av fettavskiljare/tank enligt anmält tömningsintervall | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;224;§5.1;Mellan 3 m3 och 6 m3;Slam;;Volym;VOLM;;;;;0.75;§5.1 | §5.1 | Mellan 3 m3 och 6 m3 | Tömning, transport och behandling av fettavskiljare/tank enligt anmält tömningsintervall | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;225;§5.1;Över 6 m3;Slam;;Volym;VOLM;;;;;0.75;§5.1 | §5.1 | Över 6 m3 | Tömning, transport och behandling av fettavskiljare/tank enligt anmält tömningsintervall | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;226;§5.1;;Slam;;;;;;;;0.75;§5.1 | §5.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;227;§5.1;Mellan 3 m3 och 6 m3;Slam;;Volym;VOLM;;;;;0.75;§5.1 | §5.1 | Mellan 3 m3 och 6 m3 | Tillägg för transport och behandlingskostnad | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;228;§5.1;Över 6 m3;Slam;;Volym;VOLM;;;;;0.75;§5.1 | §5.1 | Över 6 m3 | Tillägg för transport och behandlingskostnad | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;229;§5.1;;Slam;;;;;;;;0.75;§5.1 | §5.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;230;§5.2 Tilläggstjänster fettavskiljare;;Slam;;;;;;;;0.75;§5.2 Tilläggstjänster fettavskiljare | §5.2 Tilläggstjänster fettavskiljare |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;231;§5.2;Dragning av extra slang vid 5-25 m;Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.2 | §5.2 | Dragning av extra slang vid 5-25 m |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;232;§5.2;Dragning av extra slang vid 25-35 m;Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.2 | §5.2 | Dragning av extra slang vid 25-35 m |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;233;§5.2;Dragning av extra slang vid 36-45 m;Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.2 | §5.2 | Dragning av extra slang vid 36-45 m |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;234;§5.2;;Slam;;;;;;;;0.75;§5.2 | §5.2 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;235;§5.2;Hantering av brunnslock som väger 15-25 kg;Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.2 | §5.2 | Hantering av brunnslock som väger 15-25 kg |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;236;§5.2;Krav på information om tömningstid;Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.2 | §5.2 | Krav på information om tömningstid |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;237;§5.2;;Slam;;;;;;;;0.75;§5.2 | §5.2 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;238;§5.2;Hantering av kod för kodlås vid tömning;Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.2 | §5.2 | Hantering av kod för kodlås vid tömning |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;239;§5.2;Hetvattentvätt med spolbil, timersättning;Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.2 | §5.2 | Hetvattentvätt med spolbil, timersättning |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;240;§5.2;Silikontätning per lock;Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.2 | §5.2 | Silikontätning per lock |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;241;§5.2;Avgift om tömning ej kan utföras pga hinder, bristande transportväg, betonglock, lock tyngre än 25 kg eller vägran;Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.2 | §5.2 | Avgift om tömning ej kan utföras pga hinder, bristande transportväg, betonglock, lock tyngre än 25 kg eller vägran |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;242;§5.2;Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;Slam;;Volym;VOLM;;;;;0.75;§5.2 | §5.2 | Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3 |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;243;§5.2;;Slam;;;;;;;;0.75;§5.2 | §5.2 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;244;§5.3 Övriga avgifter och tillägg fettavskiljare;;Slam;;;;;;;;0.75;§5.3 Övriga avgifter och tillägg fettavskiljare | §5.3 Övriga avgifter och tillägg fettavskiljare |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;245;§5.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.3 | §5.3 | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) | Inom 48 timmar | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;246;§5.3;Budning utanför ordinarie tömningsperiod;Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.3 | §5.3 | Budning utanför ordinarie tömningsperiod | Inom 48 timmar | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;247;§5.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.3 | §5.3 | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) | Inom 8 arbetsdagar | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;248;§5.3;Budning utanför ordinarie tömningsperiod;Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.3 | §5.3 | Budning utanför ordinarie tömningsperiod | Inom 8 arbetsdagar | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;249;§5.3;Framkörningsavgift då ordinarie tömning inte skett på grund av hinder, abonnenten vägrar, bristfällig väg eller annat;Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.3 | §5.3 | Framkörningsavgift då ordinarie tömning inte skett på grund av hinder, abonnenten vägrar, bristfällig väg eller annat |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;250;§5.3;Sen anmälan om förändringar av tömningsintervall. Om förändring, nyanmälan eller avbokning av tömning meddelas efter 1 april innevarande år.;Slam;;Tillfälle;TILLFÄLLE;;;;;0.75;§5.3 | §5.3 | Sen anmälan om förändringar av tömningsintervall. Om förändring, nyanmälan eller avbokning av tömning meddelas efter 1 april innevarande år. |  | kr/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;251;§5.3;;Slam;;;;;;;;0.75;§5.3 | §5.3 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;252;§6.1.1 Inpassering på ÅVC;;Verksamhetsavfall;;;;;;;;0.75;§6.1.1 Inpassering på ÅVC | §6.1.1 Inpassering på ÅVC |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;253;§6.1.1;Verksamheter;Verksamhetsavfall;;;;;;;;0.75;§6.1.1 | §6.1.1 | Verksamheter |  | kr/besök |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;254;§6.1.1;Övriga abonnemangstyper;Verksamhetsavfall;;;;;;;;0.75;§6.1.1 | §6.1.1 | Övriga abonnemangstyper |  | kr/besök |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;255;§6.1.1;Vågkort;Verksamhetsavfall;;;;;;;;0.75;§6.1.1 | §6.1.1 | Vågkort |  | kr/besök |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;256;§6.1.1;Borttappat vågkort;Verksamhetsavfall;;;;;;;;0.75;§6.1.1 | §6.1.1 | Borttappat vågkort |  | kr/besök |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;257;§6.1.1;;Verksamhetsavfall;;;;;;;;0.75;§6.1.1 | §6.1.1 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;258;§6.1.2 Hanteringsavgifter för avfall inlämnat på återvinningscentral;;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 Hanteringsavgifter för avfall inlämnat på återvinningscentral | §6.1.2 Hanteringsavgifter för avfall inlämnat på återvinningscentral |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;259;§6.1.2;Avfall till energiåtervinning (<20x20x80cm);ÅVC/verksamhetsavfall;;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Avfall till energiåtervinning (<20x20x80cm) |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;260;§6.1.2;Skrymmande avfall till energiåtervinning (>20x20x80cm);ÅVC/verksamhetsavfall;;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Skrymmande avfall till energiåtervinning (>20x20x80cm) |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;261;§6.1.2;Material till sortering (ej innehålla farligt avfall och elavfall);ÅVC/verksamhetsavfall;Elavfall;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Material till sortering (ej innehålla farligt avfall och elavfall) |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;262;§6.1.2;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;ÅVC/verksamhetsavfall;;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;263;§6.1.2;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;ÅVC/verksamhetsavfall;;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Träavfall – behandlat, utan tapet, plastmatta, tjärpapp |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;264;§6.1.2;Tryckimpregnerat trä (inkl pall);ÅVC/verksamhetsavfall;Tryckimpregnerat trä;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Tryckimpregnerat trä (inkl pall) |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;265;§6.1.2;Klinker, porslin;ÅVC/verksamhetsavfall;;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Klinker, porslin |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;266;§6.1.2;Gips;ÅVC/verksamhetsavfall;Gips;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Gips |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;267;§6.1.2;Tegel;ÅVC/verksamhetsavfall;Tegel;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Tegel |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;268;§6.1.2;Planglas (fönster utan karm);ÅVC/verksamhetsavfall;;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Planglas (fönster utan karm) |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;269;§6.1.2;Fönster med karm;ÅVC/verksamhetsavfall;;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Fönster med karm |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;270;§6.1.2;Isolering utan innehåll av asbest;ÅVC/verksamhetsavfall;Asbest;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Isolering utan innehåll av asbest |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;271;§6.1.2;Metallskrot rent;ÅVC/verksamhetsavfall;;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Metallskrot rent |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;272;§6.1.2;Trädgårdsavfall;ÅVC/verksamhetsavfall;;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Trädgårdsavfall |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;273;§6.1.2;Kvistar och grenar;ÅVC/verksamhetsavfall;;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Kvistar och grenar |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;274;§6.1.2;Jord och sten;ÅVC/verksamhetsavfall;;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Jord och sten |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;275;§6.1.2;Betong;ÅVC/verksamhetsavfall;Betong;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Betong |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;276;§6.1.2;Asbest;ÅVC/verksamhetsavfall;Asbest;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Asbest |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;277;§6.1.2;Elavfall producentansvar (tex lysrör, glödlampor,;ÅVC/verksamhetsavfall;Elavfall;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Elavfall producentansvar (tex lysrör, glödlampor, |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;278;§6.1.2;kylsklåp/frys av hushållsmodell);ÅVC/verksamhetsavfall;Kyl/frys;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | kylsklåp/frys av hushållsmodell) |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;279;§6.1.2;Elavfall ej producentansvar (tex ventillationsfläkt, kyldisk);ÅVC/verksamhetsavfall;Elavfall;Vikt;VIKG;;;;;0.75;§6.1.2 | §6.1.2 | Elavfall ej producentansvar (tex ventillationsfläkt, kyldisk) |  | kr/ton |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;280;§6.1.2;Blandat avfall för sortering på ramp (max 2 m3);ÅVC/verksamhetsavfall;;Volym;VOLM;;;;;0.75;§6.1.2 | §6.1.2 | Blandat avfall för sortering på ramp (max 2 m3) |  | kr/fordon |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;281;§6.1.2;Oljehaltigt avfall (Spillolja) i dunkar mindre än 10 liter Avfallskod 20 01 26*;ÅVC/verksamhetsavfall;Oljeavfall;Behållarvolym;VOLYM/BEHÅLLARE;10;;;;0.75;§6.1.2 | §6.1.2 | Oljehaltigt avfall (Spillolja) i dunkar mindre än 10 liter Avfallskod 20 01 26* | 3295 | Kr/l |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;282;§6.1.2;Oljehaltigt avfall (Spillolja) i fat och dunkar större än 10 liter Avfallskod 20 01 26*;ÅVC/verksamhetsavfall;Oljeavfall;Behållarvolym;VOLYM/BEHÅLLARE;10;;;;0.75;§6.1.2 | §6.1.2 | Oljehaltigt avfall (Spillolja) i fat och dunkar större än 10 liter Avfallskod 20 01 26* | 3295 | Kr/l |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;283;§6.1.2;Förorenad olja (ej PCB) Avfallskod 20 01 26*;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;;0.75;§6.1.2 | §6.1.2 | Förorenad olja (ej PCB) Avfallskod 20 01 26* | 3295 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;284;§6.1.2;Förorenad olja innehållande PCB Avfallskod 13 03 01*;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;;0.75;§6.1.2 | §6.1.2 | Förorenad olja innehållande PCB Avfallskod 13 03 01* | 3295 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;285;§6.1.2;Bensinrester Avfallskod 13 07 02*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Bensinrester Avfallskod 13 07 02* | 1203 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;286;§6.1.2;Diesel Avfallskod 13 07 01*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Diesel Avfallskod 13 07 01* | 1202 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;287;§6.1.2;Oljefilter Avfallskod 16 01 07*;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;;0.75;§6.1.2 | §6.1.2 | Oljefilter Avfallskod 16 01 07* | 3295 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;288;§6.1.2;Färg, lack och lim lösningsbaserat Avfallskod 20 01 27*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Färg, lack och lim lösningsbaserat Avfallskod 20 01 27* | 1263 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;289;§6.1.2;Aerosoler, färg, lack och lim Avfallskod 20 01 27*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Aerosoler, färg, lack och lim Avfallskod 20 01 27* | 1950 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;290;§6.1.2;Färg, lack och lim vattenbaserad Avfallskod 20 01 28;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Färg, lack och lim vattenbaserad Avfallskod 20 01 28 |  | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;291;§6.1.2;Alkaliskt flytande avfall Avfallskod 20 01 29*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Alkaliskt flytande avfall Avfallskod 20 01 29* | 3266 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;292;§6.1.2;Alkaliskt avfall fast Avfallskod 20 01 15*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Alkaliskt avfall fast Avfallskod 20 01 15* | 3262 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;293;§6.1.2;Lösningsmedel Avfallskod 20 01 13*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Lösningsmedel Avfallskod 20 01 13* | 1993 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;294;§6.1.2;Smittförande avfall Avfallskod 18 01 03*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Smittförande avfall Avfallskod 18 01 03* | 3291 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;295;§6.1.2;Bekämpningsmedel Flytande Avfallskod 20 01 19*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Bekämpningsmedel Flytande Avfallskod 20 01 19* | 2903 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;296;§6.1.2;Bekämpningsmedel Fast Avfallskod 20 01 19*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Bekämpningsmedel Fast Avfallskod 20 01 19* | 2588 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;297;§6.1.2;Bekämpningsmedel aerosoler Avfallskod 20 01 19*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Bekämpningsmedel aerosoler Avfallskod 20 01 19* | 1950 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;298;§6.1.2;Giftig oorganisk vätska Avfallskod 16 05 06*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Giftig oorganisk vätska Avfallskod 16 05 06* | 3287 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;299;§6.1.2;Giftig organisk vätska Avfallskod 16 05 06*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Giftig organisk vätska Avfallskod 16 05 06* | 2810 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;300;§6.1.2;Surt organisk vätska ämne Avfallskod 20 01 14*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Surt organisk vätska ämne Avfallskod 20 01 14* | 3265 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;301;§6.1.2;Surt organisk fast ämne Avfallskod 20 01 14*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Surt organisk fast ämne Avfallskod 20 01 14* | 3261 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;302;§6.1.2;Surt oorganiskt fast ämne Avfallskod 20 01 14*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Surt oorganiskt fast ämne Avfallskod 20 01 14* | 3260 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;303;§6.1.2;Surt oorganisk vätska Avfallskod 20 01 14*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Surt oorganisk vätska Avfallskod 20 01 14* | 3264 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;304;§6.1.2;Svavelsyra Avfallskod 20 01 14*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Svavelsyra Avfallskod 20 01 14* | 1832 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;305;§6.1.2;Salpetersyra Avfallskod 20 01 14*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Salpetersyra Avfallskod 20 01 14* | 2031 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;306;§6.1.2;Fluorvätesyra Avfallskod 20 01 14*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Fluorvätesyra Avfallskod 20 01 14* | 1790 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;307;§6.1.2;Basiskt organiskt fast ämne/flytande Avfallskod 20 01 15*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Basiskt organiskt fast ämne/flytande Avfallskod 20 01 15* | 3263 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;308;§6.1.2;Ammoniaklösning Avfallskod 20 01 15*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Ammoniaklösning Avfallskod 20 01 15* | 2672 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;309;§6.1.2;Rengöringsmedel Avfallskod 20 01 29*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Rengöringsmedel Avfallskod 20 01 29* | 2903 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;310;§6.1.2;Väteperoxid Avfallskod 20 01 13*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Väteperoxid Avfallskod 20 01 13* | 2014 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;311;§6.1.2;Glykolspill Avfallskod 16 01 14*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Glykolspill Avfallskod 16 01 14* |  | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;312;§6.1.2;Härdare dibenzoylperoxid Avfallskod 20 01 27*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Härdare dibenzoylperoxid Avfallskod 20 01 27* | 3106 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;313;§6.1.2;Härdare metyletylketonperoxid Avfallskod 20 01 27*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Härdare metyletylketonperoxid Avfallskod 20 01 27* | 3105 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;314;§6.1.2;Fotokemikalier Avfallskod 20 01 17*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Fotokemikalier Avfallskod 20 01 17* |  | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;315;§6.1.2;Avfall med kvicksilverinnehåll Avfallskod 20 01 21*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Avfall med kvicksilverinnehåll Avfallskod 20 01 21* | 2809 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;316;§6.1.2;Kvicksilver i föremål Avfallskod 20 01 21*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Kvicksilver i föremål Avfallskod 20 01 21* | 3506 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;317;§6.1.2;Småkemikalier, ej Hg-haltiga Avfallskod 16 05 06*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Småkemikalier, ej Hg-haltiga Avfallskod 16 05 06* | 3286 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;318;§6.1.2;Förpackningar, tömda ej rengjorda Avfallskod 15 01 10*;ÅVC/verksamhetsavfall;Förpackningar;;;;;;;0.75;§6.1.2 | §6.1.2 | Förpackningar, tömda ej rengjorda Avfallskod 15 01 10* |  | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;319;§6.1.2;Toner/färgpatroner Avfallskod 08 03 07;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Toner/färgpatroner Avfallskod 08 03 07 |  | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;320;§6.1.2;Oxiderande fast ämnen/vätska Avfallskod 16 05 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Oxiderande fast ämnen/vätska Avfallskod 16 05 04* | 1479 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;321;§6.1.2;Klorex Avfallskod 16 05 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Klorex Avfallskod 16 05 04* | 1495 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;322;§6.1.2;Aerosoler isocyanat/bekämpningsmedel/ugnsrengöring Avfallskod 16 05 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Aerosoler isocyanat/bekämpningsmedel/ugnsrengöring Avfallskod 16 05 04* | 1950 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;323;§6.1.2;Tändare Avfallskod 16 05 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Tändare Avfallskod 16 05 04* | 1057 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;324;§6.1.2;Engångsgasol Avfallskod 16 05 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Engångsgasol Avfallskod 16 05 04* | 2037 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;325;§6.1.2;Brandsläckare Avfallskod 16 05 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Brandsläckare Avfallskod 16 05 04* | 1044 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;326;§6.1.2;Koldioxid Avfallskod 16 05 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Koldioxid Avfallskod 16 05 04* | 1013 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;327;§6.1.2;Gasol Avfallskod 16 05 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Gasol Avfallskod 16 05 04* | 1965 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;328;§6.1.2;Helium Avfallskod 16 05 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Helium Avfallskod 16 05 04* | 1046 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;329;§6.1.2;Syrgas Avfallskod 16 05 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Syrgas Avfallskod 16 05 04* | 1072 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;330;§6.1.2;Halon Avfallskod 16 05 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Halon Avfallskod 16 05 04* | 1009 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;331;§6.1.2;Absorbermedel, filtermaterial Avfallskod 15 02 02*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Absorbermedel, filtermaterial Avfallskod 15 02 02* | 1993 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;332;§6.1.2;Cytotoxiska/Cytostatika Avfallskod 20 01 31*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Cytotoxiska/Cytostatika Avfallskod 20 01 31* | 3249 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;333;§6.1.2;Isocyanater Avfallskod 20 01 27*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Isocyanater Avfallskod 20 01 27* | 3080 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;334;§6.1.2;Tensider, flytande, alkaliskt FA Avfallskod 20 01 29*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Tensider, flytande, alkaliskt FA Avfallskod 20 01 29* | 1304 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;335;§6.1.2;Oxidationsmedel, flytande Avfallskod 16 09 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Oxidationsmedel, flytande Avfallskod 16 09 04* | 1497 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;336;§6.1.2;Explosiva komponenter Avfallskod 16 01 01*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Explosiva komponenter Avfallskod 16 01 01* | 12 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;337;§6.1.2;Kasserad ammunition och fyverkerier Avfallskod 16 04 02*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Kasserad ammunition och fyverkerier Avfallskod 16 04 02* | 333 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;338;§6.1.2;Kasserad ammunition och fyverkerier Avfallskod 16 04 01*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Kasserad ammunition och fyverkerier Avfallskod 16 04 01* | 12 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;339;§6.1.2;Gödsel Avfallskod 02 01 06;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Gödsel Avfallskod 02 01 06 | 1043 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;340;§6.1.2;Oljeemulsion, emballerat Avfallskod 12 01 09*;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;;0.75;§6.1.2 | §6.1.2 | Oljeemulsion, emballerat Avfallskod 12 01 09* | 1202 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;341;§6.1.2;Oljeavfall, fast osortrat emballage Avfallskod 15 02 02*;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;;0.75;§6.1.2 | §6.1.2 | Oljeavfall, fast osortrat emballage Avfallskod 15 02 02* | 1202 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;342;§6.1.2;Oljevskiljarslam Avfallskod 13 05 08*;ÅVC/verksamhetsavfall;Oljeavfall;;;;;;;0.75;§6.1.2 | §6.1.2 | Oljevskiljarslam Avfallskod 13 05 08* | 3295 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;343;§6.1.2;Asbest, emballerad Avfallskod 17 06 01*;ÅVC/verksamhetsavfall;Asbest;;;;;;;0.75;§6.1.2 | §6.1.2 | Asbest, emballerad Avfallskod 17 06 01* | 2212 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;344;§6.1.2;Hydraulslang, med och utan koppling Avfallskod 13 08 99*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Hydraulslang, med och utan koppling Avfallskod 13 08 99* | 3106 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;345;§6.1.2;Bromsvätska Avfallskod 16 01 13*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Bromsvätska Avfallskod 16 01 13* |  | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;346;§6.1.2;Transformatorer och kondensatorer som innehåller PCB Avfallskod 16 02 09*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Transformatorer och kondensatorer som innehåller PCB Avfallskod 16 02 09* | 3295 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;347;§6.1.2;Rökdetektorer, Innehållande Am 241 Avfallskod 20 01 35*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Rökdetektorer, Innehållande Am 241 Avfallskod 20 01 35* | 2911 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;348;§6.1.2;Rökdetektorer, innehållande andra isotoper än Am 241 Avfallskod 20 01 35*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Rökdetektorer, innehållande andra isotoper än Am 241 Avfallskod 20 01 35* | 2911 | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;349;§6.1.2;Gasol, blå programmet Avfallskod 16 05 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Gasol, blå programmet Avfallskod 16 05 04* |  | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;350;§6.1.2;Halongaser Avfallskod 16 05 04*;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Halongaser Avfallskod 16 05 04* |  | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;351;§6.1.2;Tryckinpregnerat virke Avfallskod 17 02 04*;ÅVC/verksamhetsavfall;Träavfall;;;;;;;0.75;§6.1.2 | §6.1.2 | Tryckinpregnerat virke Avfallskod 17 02 04* |  | Kr/Kg |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;352;§6.1.2;Saknade uppgifter om avfallsslag, startavgift första fraktionen (Kemist);ÅVC/verksamhetsavfall;;Styck;ST;;;;;0.75;§6.1.2 | §6.1.2 | Saknade uppgifter om avfallsslag, startavgift första fraktionen (Kemist) |  | st |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;353;§6.1.2;Efterföljande fraktioner;ÅVC/verksamhetsavfall;;Styck;ST;;;;;0.75;§6.1.2 | §6.1.2 | Efterföljande fraktioner |  | st |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;354;§6.1.2;Administrativ rapporteringsavgift;ÅVC/verksamhetsavfall;;Styck;ST;;;;;0.75;§6.1.2 | §6.1.2 | Administrativ rapporteringsavgift |  | st |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;355;§6.1.2;Metallskrot rent;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Metallskrot rent |  | kr |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;356;§6.1.2;Trädgårdsavfall;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Trädgårdsavfall |  | kr |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;357;§6.1.2;Kvistar och grenar;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Kvistar och grenar |  | kr |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;358;§6.1.2;Jord och sten;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 | Jord och sten |  | kr |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;359;§6.1.2;Betong;ÅVC/verksamhetsavfall;Betong;;;;;;;0.75;§6.1.2 | §6.1.2 | Betong |  | kr |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;360;§6.1.2;Asbest;ÅVC/verksamhetsavfall;Asbest;;;;;;;0.75;§6.1.2 | §6.1.2 | Asbest |  | kr |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;361;§6.1.2;Blandat avfall för sortering på ramp (max 2 m3);ÅVC/verksamhetsavfall;;Volym;VOLM;;;;;0.75;§6.1.2 | §6.1.2 | Blandat avfall för sortering på ramp (max 2 m3) |  | kr |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;362;§6.1.2;;ÅVC/verksamhetsavfall;;;;;;;;0.75;§6.1.2 | §6.1.2 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;363;§6.1.3 Hyra av container;;Verksamhetsavfall;;;;;;;;0.75;§6.1.3 Hyra av container | §6.1.3 Hyra av container |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;364;§6.1.3;Container 3 m3;Verksamhetsavfall;;Volym;VOLM;;;;;0.75;§6.1.3 | §6.1.3 | Container 3 m3 |  | st/dygn |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;365;§6.1.3;Container 5 m3;Verksamhetsavfall;;Volym;VOLM;;;;;0.75;§6.1.3 | §6.1.3 | Container 5 m3 |  | st/dygn |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;366;§6.1.3;Container 8 m3;Verksamhetsavfall;;Volym;VOLM;;;;;0.75;§6.1.3 | §6.1.3 | Container 8 m3 |  | st/dygn |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;367;§6.1.3;;Verksamhetsavfall;;;;;;;;0.75;§6.1.3 | §6.1.3 |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;368;§6.1.4 Tillägg och avgifter;;Verksamhetsavfall;;;;;;;;0.75;§6.1.4 Tillägg och avgifter | §6.1.4 Tillägg och avgifter |  |  |  |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;369;§6.1.4;Administrativ rapporteringsavgift;Verksamhetsavfall;;Tillfälle;TILLFÄLLE;;;;;0.75;§6.1.4 | §6.1.4 | Administrativ rapporteringsavgift |  | st/tillfälle |  |  |  |  |  |  | 
+TAXEPUNKT;30;Taxepunkter;370;§6.1.4;;Verksamhetsavfall;;;;;;;;0.75;§6.1.4 | §6.1.4 |  |  |  |  |  |  |  |  |  | 
 EDP;5;Taxa_från_edp;2;;140L kärl, viktavgift matavfall;Okänd;Matavfall;Behållarvolym;KVAN;;140MAT;VIKG,MAX60;140L kärl - viktavgift matavfall;1.00;140MAT | 140L kärl, viktavgift matavfall | KVAN | 140L kärl - viktavgift matavfall | VIKG,MAX60
 EDP;5;Taxa_från_edp;3;;140L kärl, viktavgift matavfall;Okänd;Matavfall;Behållarvolym;KVAN;;140MAT;VIKG-60,MIN0;Överviktsavgift för vikt över 60 kg, matavfall;1.00;140MAT | 140L kärl, viktavgift matavfall | KVAN | Överviktsavgift för vikt över 60 kg, matavfall | VIKG-60,MIN0
 EDP;5;Taxa_från_edp;4;;140-370L kärl, viktavgift restavfall;Okänd;Restavfall;Behållarvolym;KVAN;;370REST;VIKG,MAX60;140-370L kärl - viktavgift restavfall;1.00;370REST | 140-370L kärl, viktavgift restavfall | KVAN | 140-370L kärl - viktavgift restavfall | VIKG,MAX60

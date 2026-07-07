@@ -16,6 +16,7 @@ from openpyxl import load_workbook
 from excel_builder.knowledge import TaxKnowledgeExtractor
 from excel_builder.matching import MatchNormalizer
 from excel_builder.models import MasterRule, ParserTaxRow, RuleRepository
+from excel_builder.rules.dynamic_taxepunkter_reader import DynamicTaxepunkterReader
 
 
 class MasterRuleRepositoryReader:
@@ -25,6 +26,7 @@ class MasterRuleRepositoryReader:
     def __init__(self) -> None:
         self.normalizer = MatchNormalizer()
         self.knowledge_extractor = TaxKnowledgeExtractor()
+        self.dynamic_taxepunkter_reader = DynamicTaxepunkterReader()
 
     def read(self, workbook_path: str | Path) -> RuleRepository:
         source = Path(workbook_path)
@@ -37,7 +39,9 @@ class MasterRuleRepositoryReader:
         wb = load_workbook(source, data_only=True, read_only=False)
 
         if self.TAXEPUNKTER_SHEET in wb.sheetnames:
-            self._read_taxepunkter(wb[self.TAXEPUNKTER_SHEET], repo)
+            rules, warnings = self.dynamic_taxepunkter_reader.read(source)
+            repo.rules.extend(rules)
+            repo.warnings.extend(warnings)
         else:
             repo.warnings.append("Fliken Taxepunkter saknas i masterarbetsboken.")
 
@@ -49,47 +53,6 @@ class MasterRuleRepositoryReader:
         self._read_documentation_sheets(wb, repo)
 
         return repo
-
-    def _read_taxepunkter(self, ws, repo: RuleRepository) -> None:
-        headers = self._headers(ws)
-        if not headers:
-            repo.warnings.append("Taxepunkter saknar läsbar header.")
-            return
-
-        for row_idx in range(2, ws.max_row + 1):
-            section = self._cell(ws, row_idx, headers, ["paragraf", "section"])
-            tax_point = self._cell(ws, row_idx, headers, ["taxapunkt", "namn", "name"])
-            variant = self._cell(ws, row_idx, headers, ["variant"])
-            unit = self._cell(ws, row_idx, headers, ["enhet", "unit"])
-            tax_code = self._cell(ws, row_idx, headers, ["taxakod", "edp taxekod", "edp_taxekod"])
-            formula = self._cell(ws, row_idx, headers, ["formel", "strformel"])
-            tax_part = self._cell(ws, row_idx, headers, ["taxedel", "strtaxedelavser"])
-
-            if not any([section, tax_point, tax_code, formula, tax_part]):
-                continue
-
-            feature = self._feature(section, tax_point, variant, unit)
-
-            repo.rules.append(
-                MasterRule(
-                    source_sheet=ws.title,
-                    row_number=row_idx,
-                    rule_type="TAXEPUNKT",
-                    priority=10 if tax_code else 30,
-                    section=section,
-                    tax_point=tax_point,
-                    category=feature.category,
-                    waste_type=feature.waste_type,
-                    unit_type=feature.unit_type,
-                    factor_hint=feature.factor_hint,
-                    container_volume_liter=feature.container_volume_liter,
-                    tax_code=tax_code,
-                    formula=formula,
-                    tax_part=tax_part,
-                    source_text=" | ".join([section, tax_point, variant, unit, tax_code, formula, tax_part]),
-                    confidence=1.0 if tax_code else 0.75,
-                )
-            )
 
     def _read_edp(self, ws, repo: RuleRepository) -> None:
         header_row = self._find_header_row(ws, ["strtaxekod", "strtaxebenamning"])

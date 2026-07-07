@@ -1,3 +1,4 @@
 from .rulebook_reader import RulebookReader
 from .edp_rule_validator import EdpRuleValidator
+from .dynamic_taxepunkter_reader import DynamicTaxepunkterReader
 from .master_rule_repository_reader import MasterRuleRepositoryReader
