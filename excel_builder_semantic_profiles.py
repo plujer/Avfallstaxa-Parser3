@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 
-from excel_builder.document import DocumentStructureEngine
 from excel_builder.io import ParserMatchReader
 from excel_builder.knowledge import TaxKnowledgeExtractor
 from excel_builder.reports import SemanticProfileReporter
@@ -15,14 +14,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Build semantic tax profiles")
     parser.add_argument("--parser-result", default="output/reports/parser3_result.json")
     parser.add_argument("--standard-tax", default="data/edp_standard/EDP_Future_Standard_Taxor_Renhallning.xlsx")
-    parser.add_argument("--workbook", default="data/ArbetsExcel_Reference.xlsx")
+    parser.add_argument("--workbook", default="data/master_templates/ArbetsExcel_Template_v1.0.xlsx")
     parser.add_argument("--txt", default="output/excel/semantic_profile_report.txt")
     parser.add_argument("--csv", default="output/excel/semantic_profiles.csv")
     args = parser.parse_args()
 
     engine = TaxSemanticProfileEngine()
 
-    parser_rows = DocumentStructureEngine().filter_tax_nodes(ParserMatchReader().read(args.parser_result))
+    parser_rows = ParserMatchReader().read(args.parser_result)
     knowledge_report = TaxKnowledgeExtractor().extract(parser_rows)
     word_profiles = engine.from_knowledge_report(knowledge_report)
 

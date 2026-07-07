@@ -1,7 +1,9 @@
+C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
 Semantic Candidate Ranking klar
-Word profiles: 229
-Candidate profiles: 1392
-Total candidates returned: 2290
-Word profiles with candidates: 229
+Word profiles: 241
+Candidate profiles: 1214
+Total candidates returned: 2410
+Word profiles with candidates: 241
 TXT: output\excel\semantic_candidate_report.txt
 CSV: output\excel\semantic_candidates.csv

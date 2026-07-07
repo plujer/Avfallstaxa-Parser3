@@ -5,7 +5,7 @@ from excel_builder.reports.workbook_schema_reporter import WorkbookSchemaReporte
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Scan workbook schema")
-    parser.add_argument("--workbook", default="data/ArbetsExcel_Reference.xlsx")
+    parser.add_argument("--workbook", default="data/master_templates/ArbetsExcel_Template_v1.0.xlsx")
     parser.add_argument("--txt", default="output/excel/workbook_schema_report.txt")
     parser.add_argument("--sheets-csv", default="output/excel/workbook_schema_sheets.csv")
     parser.add_argument("--headers-csv", default="output/excel/workbook_schema_header_candidates.csv")

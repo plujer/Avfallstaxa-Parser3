@@ -3,29 +3,29 @@ Excel Builder Matching Report
 Status: Read-only matching preview. Arbets-Excel is not master.
 Total parser rows: 241
 EXACT: 0
-PROBABLE: 73
+PROBABLE: 67
 REVIEW: 0
-NEW: 168
+NEW: 174
 Warnings: 0
 
 Details:
-- PROBABLE score=0.900 method=section+tax_point | 2.1 | En- och tvåbostadshus | excel_row=7 tax_code=GRUNDSMÅ | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.1 | Fritidshus | excel_row=8 tax_code=GRUNDFRI | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.1 | Verksamhet | excel_row=9 tax_code=GRUNDVHT | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.1 | Lägenhet i flerbostadshus | excel_row=10 tax_code=GRUNDFLB | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.1 | Lägenhet för specialändamål | excel_row=11 tax_code=GRUNDSPEC | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.1 | Anläggning | excel_row=12 tax_code=GRUNDANL | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.1 | Säsongsbaserad uppställningsplats | excel_row=13 tax_code=GRUNDSÄS | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.1 | Campingstuga/-lägenhet | excel_row=14 tax_code=GRUNDCAMP | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.1 | En- och tvåbostadshus | excel_row=9 tax_code=GRUNDPER | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.1 | Fritidshus | excel_row=10 tax_code=GRUNDFRI | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.1 | Verksamhet | excel_row=11 tax_code=GRUNDLÄG | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.1 | Lägenhet i flerbostadshus | excel_row=12 tax_code=GRUNDFLB | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.1 | Lägenhet för specialändamål | excel_row=13 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.1 | Anläggning | excel_row=14 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.1 | Säsongsbaserad uppställningsplats | excel_row=15 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.1 | Campingstuga/-lägenhet | excel_row=16 tax_code= | Variant/enhet skiljer eller saknas
 - NEW score=0.000 method=no match | 2.2.1 | Kärl 240 l (mat-/restavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.2.1 | Extrakärl 190 l (restavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.2.2 | Kärl 240 l (mat-/restavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 2.2.2 | Extrakärl 190 l (restavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 2.2.3 | Gemensam uppsamlingsplats för mat-/restavfall | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 2.2.3 | Extra digital licens (årskostnad) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 2.2.3 | Fysisk nyckel, kallad fob (engångskostnad) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 2.2.3 | Byte av telefonnummer kopplat till licens | excel_row=36 tax_code=GEMUPPBYTE | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.2.3 | Kostnad för öppning av behållare | excel_row=37 tax_code=GEMUPPÖPP | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.2.2 | Extrakärl 190 l (restavfall) | excel_row=28 tax_code=KÄ190XRM26FRI | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.2.3 | Gemensam uppsamlingsplats för mat-/restavfall | excel_row=31 tax_code=GEMUPPFRI | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.2.3 | Extra digital licens (årskostnad) | excel_row=33 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.2.3 | Fysisk nyckel, kallad fob (engångskostnad) | excel_row=34 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.2.3 | Byte av telefonnummer kopplat till licens | excel_row=35 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.2.3 | Kostnad för öppning av behållare | excel_row=36 tax_code= | Variant/enhet skiljer eller saknas
 - NEW score=0.000 method=no match | 2.2.4 | Kärl 240 l (mat-/restavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.2.4 | Kärl 370 l (restavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.2.4 | Kärl 660 l (restavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
@@ -41,18 +41,18 @@ Details:
 - NEW score=0.000 method=no match | 2.2.5 | Kärl 660 l (restavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.2.5 | Kärl 140 l (matavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.2.5 | Bottentömmande behållare (mat-/restavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 2.2.5 | Lastväxlarflak (restavfall) | excel_row=85 tax_code=LVREFV | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.2.5 | Lastväxlarflak (restavfall) | excel_row=82 tax_code= | Variant/enhet skiljer eller saknas
 - NEW score=0.000 method=no match | 2.2.6 | Kärl 240 l (mat-/restavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.2.6 | Kärl 370 l (restavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.2.6 | Kärl 660 l (restavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.2.6 | Kärl 140 l (matavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.2.6 | Bottentömmande behållare (mat-/restavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 2.2.6 | Lastväxlarflak (restavfall) | excel_row=102 tax_code=LVREDH | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.2.7 | Kärl 140 l (kontors-/returpapper) | excel_row=106 tax_code=KÄ140TI | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.2.7 | Egen överlämning av förbrukat kontors-/returpapper enligt anvisning | excel_row=379 tax_code=EGENKONTRET | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.2.7 | Egen överlämning av förbrukat matfett enligt anvisning | excel_row=108 tax_code=EGENMATFETT | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.3 | Viktavgift matavfall | excel_row=111 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.3 | Viktavgift restavfall | excel_row=112 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.2.6 | Lastväxlarflak (restavfall) | excel_row=98 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.2.7 | Kärl 140 l (kontors-/returpapper) | excel_row=101 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.2.7 | Egen överlämning av förbrukat kontors-/returpapper enligt anvisning | excel_row=102 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.2.7 | Egen överlämning av förbrukat matfett enligt anvisning | excel_row=103 tax_code= | Variant/enhet skiljer eller saknas
+- NEW score=0.000 method=no match | 2.3 | Viktavgift matavfall | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 2.3 | Viktavgift restavfall | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.3 | Lyftavgift kärl | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.4.1 | Fakturavgift | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.4.2 | Delat kärl 240 l matavfall 40 kg | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
@@ -61,107 +61,107 @@ Details:
 - NEW score=0.000 method=no match | 2.4.2 | Extra kärl 140-190 l restavfall 60 kg | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.4.2 | Kärl 370 l restavfall 60 kg | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.4.2 | Kärl 660 l restavfall 100 kg | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 2.4.3 | Överfullt kärl | excel_row=127 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.4.3 | Överfull bottentömmande behållare | excel_row=128 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.4.4 | Byte av trasigt kärl vid oaktsamhet | excel_row=131 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.3 | Överfullt kärl | excel_row=121 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.3 | Överfull bottentömmande behållare | excel_row=122 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.4 | Byte av trasigt kärl vid oaktsamhet | excel_row=124 tax_code= | Variant/enhet skiljer eller saknas
 - NEW score=0.000 method=no match | 2.4.5 | Byte/återtag av kärl en (1) ggr/år 140–240 liter | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.4.5 | Byte/återtag av kärl en (1) ggr/år 370–660 liter | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 2.4.5 | Ytterligare byte av kärl under kalenderåret | excel_row=136 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.4.6 | Kärl | excel_row=139 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.4.6 | Bottentömmande behållare | excel_row=140 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.5 | Ytterligare byte av kärl under kalenderåret | excel_row=129 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.6 | Kärl | excel_row=131 tax_code=FELSORT | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.6 | Bottentömmande behållare | excel_row=132 tax_code=FELSORT | Variant/enhet skiljer eller saknas
 - NEW score=0.000 method=no match | 2.4.7 | Kärl 140-660 L 1,5-10 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.4.7 | Kärl 140-660 L 10-20 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.4.7 | Kärl 140-660 L 20-30 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.4.7 | Avfallsport/dörr | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 2.4.7 | Låst dörr, med kod | excel_row=147 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.4.8 | Kärl 140 l matavfall | excel_row=150 tax_code= | Variant/enhet skiljer eller saknas
-- NEW score=0.000 method=no match | 2.4.8 | Kärl 190 l restavfall | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 2.4.8 | Kärl 370 l restavfall | excel_row=152 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.4.8 | Kärl 660 l restavfall | excel_row=153 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.7 | Låst dörr, med kod | excel_row=138 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.8 | Kärl 140 l matavfall | excel_row=140 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.8 | Kärl 190 l restavfall | excel_row=141 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.8 | Kärl 370 l restavfall | excel_row=142 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.8 | Kärl 660 l restavfall | excel_row=143 tax_code= | Variant/enhet skiljer eller saknas
 - NEW score=0.000 method=no match | 2.4.8 | Bottentömmande behållare | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 2.4.9 | Sidlastande fordon | excel_row=157 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.4.9 | Bottentömmande fordon | excel_row=158 tax_code= | Variant/enhet skiljer eller saknas
-- NEW score=0.000 method=no match | 2.4.9 | Tömningsavgift per behållare | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 2.4.10 | Betalsäck | excel_row=162 tax_code= | Variant/enhet skiljer eller saknas
-- NEW score=0.000 method=no match | 2.4.10 | Akutsäck | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 2.4.11 | Matavfallspåsar 9 L | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 2.4.11 | Matavfallspåsar 22 L | excel_row=167 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.4.11 | Gravitationslås till kärl | excel_row=168 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.4.11 | Extra nyckel till gravitationslås | excel_row=169 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.5.1 | Kommunalt avfall | excel_row=172 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.5.1 | Farligt avfall (ej uppmärkt) | excel_row=173 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 2.5.1 | Farligt avfall (uppmärkt) | excel_row=174 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.9 | Sidlastande fordon | excel_row=146 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.9 | Bottentömmande fordon | excel_row=147 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.9 | Tömningsavgift per behållare | excel_row=148 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.10 | Betalsäck | excel_row=150 tax_code=BETALSÄCK | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.10 | Akutsäck | excel_row=151 tax_code=AKUTSÄCK | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.11 | Matavfallspåsar 9 L | excel_row=153 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.11 | Matavfallspåsar 22 L | excel_row=154 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.11 | Gravitationslås till kärl | excel_row=155 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.4.11 | Extra nyckel till gravitationslås | excel_row=156 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.5.1 | Kommunalt avfall | excel_row=159 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 2.5.1 | Farligt avfall (ej uppmärkt) | excel_row=160 tax_code= | Variant/enhet skiljer eller saknas
+- NEW score=0.000 method=no match | 2.5.1 | Farligt avfall (uppmärkt) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 2.5.1 | Avisering av ankomst | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 3.1 | Upp till 3 m3 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 3.1 | Mellan 3 m3 och 6 m3 | excel_row=179 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 3.1 | Mellan 6 m3 och 9 m3 | excel_row=180 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 3.1 | Tillägg per m3 över 9 m3 | excel_row=181 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 3.1 | Bad-, disk- och tvättbrunn upp till 3 m3 | excel_row=182 tax_code= | Variant/enhet skiljer eller saknas
+- NEW score=0.000 method=no match | 3.1 | Mellan 3 m3 och 6 m3 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 3.1 | Mellan 6 m3 och 9 m3 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 3.1 | Tillägg per m3 över 9 m3 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 3.1 | Bad-, disk- och tvättbrunn upp till 3 m3 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 3.1 | Tillägg per m3 över 3 m3 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 3.2 | Dragning av extra slang vid 5-25 m | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 3.2 | Dragning av extra slang vid 25-35 m | excel_row=187 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 3.2 | Dragning av extra slang vid 36-45 m | excel_row=188 tax_code= | Variant/enhet skiljer eller saknas
+- NEW score=0.000 method=no match | 3.2 | Dragning av extra slang vid 25-35 m | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 3.2 | Dragning av extra slang vid 36-45 m | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 3.2 | Dragning av extra slang vid 46-55 m | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 3.2 | Hantering av brunnslock som väger 15-25 kg | excel_row=190 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 3.2 | Krav på information om tömningstid | excel_row=191 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 3.2 | Krav på närvaro vid specificerad tömningstid | excel_row=192 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 3.2 | Hantering av kod för kodlås vid slamtömning | excel_row=193 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 3.2 | Hetvattentvätt med spolbil, timersättning | excel_row=194 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 3.2 | Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3 | excel_row=196 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 3.3 | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) | excel_row=199 tax_code= | Variant/enhet skiljer eller saknas
+- NEW score=0.000 method=no match | 3.2 | Hantering av brunnslock som väger 15-25 kg | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 3.2 | Krav på information om tömningstid | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 3.2 | Krav på närvaro vid specificerad tömningstid | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 3.2 | Hantering av kod för kodlås vid slamtömning | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 3.2 | Hetvattentvätt med spolbil, timersättning | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 3.2 | Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 3.3 | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 3.3 | Budning utanför ordinarie tömningsperiod (1 nov – 30 april) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 3.3 | Tömning av toalettvagnar eller liknande /styck | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 3.4 | Latrinbehållare 37 liter inkl. mottagning och behandling | excel_row=208 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 4.1 | Filtermassor upp till 500 kg | excel_row=211 tax_code= | Variant/enhet skiljer eller saknas
+- NEW score=0.000 method=no match | 3.4 | Latrinbehållare 37 liter inkl. mottagning och behandling | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 4.1 | Filtermassor upp till 500 kg | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 4.1 | Filtermassor 500-1000 kg | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 4.2 | Krav på information om hämtningstid | excel_row=217 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 4.2 | Krav på närvaro vid specificerad hämtningstid | excel_row=218 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 4.2 | Hantering av kod för kodlås | excel_row=219 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 5.1 | Upp till 3 m3 | excel_row=223 tax_code= | Variant/enhet skiljer eller saknas
+- NEW score=0.000 method=no match | 4.2 | Krav på information om hämtningstid | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 4.2 | Krav på närvaro vid specificerad hämtningstid | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 4.2 | Hantering av kod för kodlås | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 5.1 | Upp till 3 m3 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 5.1 | Mellan 3 m3 och 6 m3 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 5.1 | Över 6 m3 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 5.2 | Dragning av extra slang vid 5-25 m | excel_row=231 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 5.2 | Dragning av extra slang vid 25-35 m | excel_row=232 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 5.2 | Dragning av extra slang vid 36-45 m | excel_row=233 tax_code= | Variant/enhet skiljer eller saknas
+- NEW score=0.000 method=no match | 5.2 | Dragning av extra slang vid 5-25 m | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 5.2 | Dragning av extra slang vid 25-35 m | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 5.2 | Dragning av extra slang vid 36-45 m | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 5.2 | Dragning av extra slang vid 46-55 m | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 5.2 | Hantering av brunnslock som väger 15-25 kg | excel_row=235 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 5.2 | Krav på information om tömningstid | excel_row=236 tax_code= | Variant/enhet skiljer eller saknas
+- NEW score=0.000 method=no match | 5.2 | Hantering av brunnslock som väger 15-25 kg | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 5.2 | Krav på information om tömningstid | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 5.2 | Krav på närvaro vid specificerad tömningstid | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 5.2 | Hantering av kod för kodlås vid tömning | excel_row=238 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 5.2 | Hetvattentvätt med spolbil, timersättning | excel_row=239 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 5.2 | Silikontätning per lock | excel_row=240 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 5.2 | Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3 | excel_row=242 tax_code= | Variant/enhet skiljer eller saknas
+- NEW score=0.000 method=no match | 5.2 | Hantering av kod för kodlås vid tömning | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 5.2 | Hetvattentvätt med spolbil, timersättning | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 5.2 | Silikontätning per lock | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- NEW score=0.000 method=no match | 5.2 | Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 5.3 | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 5.3 | Budning utanför ordinarie tömningsperiod | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 6.1.1 | Verksamheter | excel_row=253 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 6.1.1 | Övriga abonnemangstyper | excel_row=254 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 6.1.1 | Vågkort | excel_row=255 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 6.1.1 | Borttappat vågkort | excel_row=256 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.1 | Verksamheter | excel_row=246 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.1 | Övriga abonnemangstyper | excel_row=247 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.1 | Vågkort | excel_row=248 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.1 | Borttappat vågkort | excel_row=249 tax_code= | Variant/enhet skiljer eller saknas
 - NEW score=0.000 method=no match | 6.1.1 | Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.1 | Ej redovisad eller fel redovisad fraktion av avfall | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.2 | Avfall till energiåtervinning (240 L sopsäck) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.2 | Avfall till energiåtervinning | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.2 | Skrymmande avfall till energiåtervinning större än 20×20×80 | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp | excel_row=262 tax_code= | Variant/enhet skiljer eller saknas
-- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Träavfall – behandlat, utan tapet, plastmatta, tjärpapp | excel_row=263 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.1 | Ej redovisad eller fel redovisad fraktion av avfall | excel_row=251 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Avfall till energiåtervinning (240 L sopsäck) | excel_row=253 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Avfall till energiåtervinning | excel_row=254 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Skrymmande avfall till energiåtervinning större än 20×20×80 | excel_row=255 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp | excel_row=256 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Träavfall – behandlat, utan tapet, plastmatta, tjärpapp | excel_row=257 tax_code= | Variant/enhet skiljer eller saknas
 - NEW score=0.000 method=no match | 6.1.2 | Tryckimpregnerat virke, pall | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.2 | Betong, lättbetong | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.2 | Gips, gipsskivor | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Tegel | excel_row=267 tax_code= | Variant/enhet skiljer eller saknas
-- NEW score=0.000 method=no match | 6.1.2 | Fönster- och planglas utan karm | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Fönster med karm | excel_row=269 tax_code= | Variant/enhet skiljer eller saknas
-- NEW score=0.000 method=no match | 6.1.2 | Plast | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Isolering utan innehåll av asbest | excel_row=270 tax_code= | Variant/enhet skiljer eller saknas
-- NEW score=0.000 method=no match | 6.1.2 | Klinker, keramik, porslin | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.2 | Handfat | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Betong, lättbetong | excel_row=259 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Gips, gipsskivor | excel_row=260 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Tegel | excel_row=261 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Fönster- och planglas utan karm | excel_row=262 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Fönster med karm | excel_row=263 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Plast | excel_row=264 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Isolering utan innehåll av asbest | excel_row=265 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Klinker, keramik, porslin | excel_row=266 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Handfat | excel_row=267 tax_code= | Variant/enhet skiljer eller saknas
 - NEW score=0.000 method=no match | 6.1.2 | WC-stol | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.2 | Metall | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.2 | Textilier | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.2 | Fiskeredskap | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.2 | Ätbart fett/frityrolja | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.2 | Kvistar och grenar | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.2 | Jord | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
-- NEW score=0.000 method=no match | 6.1.2 | Sten | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Metall | excel_row=269 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Textilier | excel_row=270 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Fiskeredskap | excel_row=271 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Ätbart fett/frityrolja | excel_row=272 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Kvistar och grenar | excel_row=273 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Jord | excel_row=274 tax_code= | Variant/enhet skiljer eller saknas
+- PROBABLE score=0.900 method=section+tax_point | 6.1.2 | Sten | excel_row=275 tax_code= | Variant/enhet skiljer eller saknas
 - NEW score=0.000 method=no match | 6.1.2 | Stubbar/rötter för krossning | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 6.1.2 | Flera fraktioner för egen sortering på ramp (max 2 m³) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel
 - NEW score=0.000 method=no match | 6.1.2 | Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) | excel_row= tax_code= | Ny rad behövs i Arbets-Excel

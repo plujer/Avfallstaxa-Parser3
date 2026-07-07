@@ -1,3 +1,5 @@
+C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
 Excel Builder klar
 Rader: 241
 Excel: output\excel\ArbetsExcel_byggd_fran_parser.xlsx

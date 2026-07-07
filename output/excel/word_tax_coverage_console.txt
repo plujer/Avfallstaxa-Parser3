@@ -1,9 +1,9 @@
 Word Tax Coverage klar
 Parser rows: 241
-Workbook rows: 241
-COVERED: 238
-REVIEW: 3
-MISSING: 0
-Passed: True
+Workbook rows: 306
+COVERED: 67
+REVIEW: 23
+MISSING: 151
+Passed: False
 TXT: output\excel\word_tax_coverage_report.txt
 CSV: output\excel\word_tax_coverage_results.csv

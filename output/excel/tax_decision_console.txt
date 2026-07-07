@@ -1,8 +1,10 @@
+C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
 Tax Decision Engine klar
-Parser rows: 229
-Workbook rows: 280
-EDP_MATCH: 7
+Parser rows: 241
+Workbook rows: 306
+EDP_MATCH: 10
 STANDARD_PROPOSAL: 0
-REVIEW_REQUIRED: 72
-NEW_TAXA: 150
+REVIEW_REQUIRED: 71
+NEW_TAXA: 160
 Workbook: output\excel\ArbetsExcel_byggd_fran_parser.xlsx

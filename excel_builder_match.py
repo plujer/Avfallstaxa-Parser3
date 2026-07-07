@@ -10,7 +10,7 @@ from excel_builder.reports import MatchingReporter
 def main() -> None:
     parser = argparse.ArgumentParser(description="Excel Builder Matching Engine preview")
     parser.add_argument("--parser-result", default="output/reports/parser3_result.json")
-    parser.add_argument("--workbook", default="data/ArbetsExcel_Reference.xlsx")
+    parser.add_argument("--workbook", default="data/master_templates/ArbetsExcel_Template_v1.0.xlsx")
     parser.add_argument("--txt", default="output/excel/excel_matching_report.txt")
     parser.add_argument("--csv", default="output/excel/excel_matching_results.csv")
     args = parser.parse_args()

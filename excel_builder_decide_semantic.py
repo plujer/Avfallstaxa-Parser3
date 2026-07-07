@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 
-from excel_builder.document import DocumentStructureEngine
 from excel_builder.context import ParserContextResolver
 from excel_builder.decision import DecisionWorkbookWriter, SemanticDecisionEngine
 from excel_builder.io import ParserMatchReader
@@ -17,14 +16,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Create final decisions using semantic candidate ranking")
     parser.add_argument("--parser-result", default="output/reports/parser3_result.json")
     parser.add_argument("--standard-tax", default="data/edp_standard/EDP_Future_Standard_Taxor_Renhallning.xlsx")
-    parser.add_argument("--reference-workbook", default="data/ArbetsExcel_Reference.xlsx")
+    parser.add_argument("--reference-workbook", default="data/master_templates/ArbetsExcel_Template_v1.0.xlsx")
     parser.add_argument("--workbook", required=True)
     parser.add_argument("--municipality", default="")
     parser.add_argument("--txt", default="output/excel/tax_decision_semantic_report.txt")
     parser.add_argument("--csv", default="output/excel/tax_decision_semantic_results.csv")
     args = parser.parse_args()
 
-    original_rows = DocumentStructureEngine().filter_tax_nodes(ParserMatchReader().read(args.parser_result))
+    original_rows = ParserMatchReader().read(args.parser_result)
     context_report = ParserContextResolver().resolve(original_rows)
     enriched_rows = [item.enriched_row for item in context_report.rows]
 

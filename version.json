@@ -1,0 +1,13 @@
+{
+  "version": "v0.9.4",
+  "block_id": 42,
+  "block_name": "Project Metadata and Release Checklist",
+  "release_tag": "v0.9.4-block42",
+  "status": "development",
+  "report_prefix": "ExcelBuilder_Run",
+  "updated_at": "2026-07-07",
+  "notes": [
+    "Block42 inför versionsmetadata som BAT-filer och rapporter kan läsa.",
+    "Release-checklistan verifierar standardfiler innan taggning."
+  ]
+}

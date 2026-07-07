@@ -1,0 +1,28 @@
+Excel Builder Project Metadata Report
+
+Version: v0.9.4
+Block: 42
+Block name: Project Metadata and Release Checklist
+Release tag: v0.9.4-block42
+Status: development
+Report prefix: ExcelBuilder_Run
+Metadata source: version.json
+
+Release checklist:
+- [OK] run_project.bat: run_project.bat
+- [OK] run_tests.bat: run_tests.bat
+- [OK] run_reports.bat: run_reports.bat
+- [OK] run_clean.bat: run_clean.bat
+- [OK] git_commit_block.bat: git_commit_block.bat
+- [OK] git_release_block.bat: git_release_block.bat
+- [OK] PROJECT_STATUS.md: docs\PROJECT_STATUS.md
+- [OK] CHANGELOG.md: docs\CHANGELOG.md
+- [OK] BLOCK_HISTORY.md: docs\history\BLOCK_HISTORY.md
+- [OK] release_tag_format: v0.9.4-block42 (förväntat v0.9.4-block42)
+- [OK] metadata_status: development
+
+Notes:
+- Block42 inför versionsmetadata som BAT-filer och rapporter kan läsa.
+- Release-checklistan verifierar standardfiler innan taggning.
+
+Release ready: True

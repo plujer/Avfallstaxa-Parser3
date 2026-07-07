@@ -1,9 +1,11 @@
+C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
 Semantic Decision Engine klar
-Parser rows: 229
-Context enriched rows: 228
+Parser rows: 241
+Context enriched rows: 229
 Semantic candidates: 2290
 EDP_MATCH: 0
 STANDARD_PROPOSAL: 0
-REVIEW_REQUIRED: 161
-NEW_TAXA: 68
+REVIEW_REQUIRED: 113
+NEW_TAXA: 128
 Workbook: output\excel\ArbetsExcel_byggd_fran_parser.xlsx

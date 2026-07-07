@@ -11,7 +11,7 @@ from excel_builder.taxcode import TaxCodeCatalogBuilder
 def main() -> None:
     parser = argparse.ArgumentParser(description="Parse and report EDP tax codes")
     parser.add_argument("--standard-tax", default="data/edp_standard/EDP_Future_Standard_Taxor_Renhallning.xlsx")
-    parser.add_argument("--workbook", default="data/ArbetsExcel_Reference.xlsx")
+    parser.add_argument("--workbook", default="data/master_templates/ArbetsExcel_Template_v1.0.xlsx")
     parser.add_argument("--txt", default="output/excel/tax_code_intelligence_report.txt")
     parser.add_argument("--csv", default="output/excel/tax_code_intelligence.csv")
     args = parser.parse_args()

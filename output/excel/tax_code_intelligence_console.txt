@@ -1,5 +1,7 @@
+C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
 Tax Code Intelligence klar
-Tax codes: 803
-With family key: 368
+Tax codes: 719
+With family key: 315
 TXT: output\excel\tax_code_intelligence_report.txt
 CSV: output\excel\tax_code_intelligence.csv

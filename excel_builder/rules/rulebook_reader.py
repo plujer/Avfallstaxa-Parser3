@@ -31,7 +31,7 @@ class RulebookReader:
         "Revision_Formler_DV",
     ]
 
-    def read(self, workbook_path: str | Path = "data/ArbetsExcel_Reference.xlsx") -> Rulebook:
+    def read(self, workbook_path: str | Path = "data/master_templates/ArbetsExcel_Template_v1.0.xlsx") -> Rulebook:
         source = Path(workbook_path)
         rulebook = Rulebook()
 

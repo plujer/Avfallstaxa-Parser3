@@ -1,19 +1,10 @@
 ﻿Sheet;State;Rows;Columns;Detected header row;Detected headers;Tables;Formula count;Data validations;Merged ranges count;Hidden columns;Hidden rows count;Freeze panes;Auto filter
-Dashboard;visible;9;2;3;Total intäkt (kr) | =SUM(Taxepunkter_Rådata!K:K);;6;0;0;;0;;
-Taxepunkter;visible;379;14;5;Paragraf | Paragrafnamn | Taxapunkt | Variant | Enhet | Taxakod | Föreslagen Taxa | Taxabeskrivning | Faktor | Aktuellt pris (exkl m) | Föreslaget pris | Antal | Pris kr (inkl.) | Intäkt (kr) exkl;;2186;2;96;;0;;
-Taxepunkter_Rådata;visible;292;12;1;Paragraf | Paragrafnamn | Taxapunkt | Variant | Enhet | Taxakod | Taxabeskrivning | Faktor | Aktuellt pris (exkl m) | Antal | Pris (kr) | Intäkt (kr);;3492;0;0;;0;;
-Pivot Variant;visible;74;3;3;Paragraf | Variant | Total intäkt (kr);;71;0;0;;0;;
-Pivot Paragraf;visible;35;2;3;Paragraf | Total intäkt (kr);;32;0;0;;0;;
-Pivot Kapitel;visible;8;2;3;Kapitel | Total intäkt (kr);;5;0;0;;0;;
-Diagram Intäkt;visible;1;1;;;;0;0;0;;0;;
-Kontroller;visible;8;3;3;Kontroll | Resultat | Status;;10;0;0;;0;;
+Taxepunkter;visible;368;14;5;Paragraf | Paragrafnamn | Taxapunkt | Variant | Enhet | Taxakod | Föreslagen Taxa | Taxabeskrivning | Faktor | Aktuellt pris (exkl m) | Föreslaget pris | Antal | Pris kr (inkl.) | Intäkt (kr) exkl;;2046;0;64;;0;;
+Taxepunkter_Rådata;visible;362;12;1;Paragraf | Paragrafnamn | Taxapunkt | Variant | Enhet | Taxakod | Taxabeskrivning | Faktor | Aktuellt pris (exkl m) | Antal | Pris (kr) | Intäkt (kr);;4320;0;0;;0;;
 Taxa_från_edp;visible;371;26;1;intRecnum | strTaxekod | strTaxebenamning | strProdukt | strDelProdukt | bytDelradnr | strFaktor | strTaxedelAvser | strEntreprenorkod | strRenhDistrKod | curNuvarandePris | datNuvarandePrisDatum | bolPrisPerTomning | strAvvikandeFormel | bolPriserInklMoms | bytMomskod | strFormel;;0;0;0;;0;;
 Taxa_till_edp;visible;1;17;1;intRecnum | strTaxekod | strTaxebenamning | strProdukt | strDelProdukt | bytDelradnr | strFaktor | strTaxedelAvser | strEntreprenorkod | strRenhDistrKod | curNuvarandePris | datNuvarandePrisDatum | bolPrisPerTomning | strAvvikandeFormel | bolPriserInklMoms | bytMomskod | strFormel;;0;0;0;;0;;
-Sammanställning;visible;35;4;3;Paragraf | Paragrafnamn | Total intäkt (kr);;32;0;0;;0;;
-Kostnadstäckning;visible;5;3;3;Total intäkt (kr) | =SUM(Taxepunkter!I:I);;2;0;0;;0;;
 QA Word-Excel struktur;visible;16;2;16;Obs | Taxakod/pris har bara bevarats där befintlig rad kunde matchas. Nya rader saknar taxakod/pris tills ni fyller i dessa.;;0;0;0;;0;;
-Taxa_Saknas;visible;200;25;1;Källparagraf | Källpunkt | Rad i Taxepunkter | Wordtext | Status | Matchmetod | FöreslagenTaxekod | intRecnum | Taxepunkt | strTaxekod | strTaxebenamning | strProdukt | strDelProdukt | bytDelradnr | strFaktor | strTaxedelAvser | strEntreprenorkod | strRenhDistrKod | curNuvarandePris | datNuvarandePrisDatum | bolPrisPerTomning | strAvvikandeFormel | bolPriserInklMoms | bytMomskod | strFormel;;2142;0;0;;0;;
-Kontrollrapport;visible;156;8;1;Typ | Paragraf | Rad i Taxepunkter | Källpunkt | Taxapunkt | Variant | Föreslagen taxekod | Status/Kommentar;;0;0;0;;0;;
+Taxa_Saknas;visible;200;25;1;Källparagraf | Källpunkt | Rad i Taxepunkter | Wordtext | Status | Matchmetod | FöreslagenTaxekod | intRecnum | Taxepunkt | strTaxekod | strTaxebenamning | strProdukt | strDelProdukt | bytDelradnr | strFaktor | strTaxedelAvser | strEntreprenorkod | strRenhDistrKod | curNuvarandePris | datNuvarandePrisDatum | bolPrisPerTomning | strAvvikandeFormel | bolPriserInklMoms | bytMomskod | strFormel;;119;0;0;;0;;
 Taxekod_Tolkning;visible;80;8;8;RE | Avfallsslag | Restavfall | KÄ370RE26FV | Taxa_från_edp rad 242 / strTaxekod KÄ370RE26FV | strTaxebenamning + strTaxedelAvser | Bekräftad;;0;0;0;;0;;
 Källa_Prislista_DH;visible;28;26;7;Post | Exkl. moms | Inkl. moms;;0;0;0;;0;;
 Källa_Kvantitetskoder;visible;15;26;10;DR10 | Dragväg 1,5–10 meter | Taxa_från_edp strFormel/strTaxedelAvser;;0;0;0;;0;;
@@ -31,4 +22,5 @@ Dokumentation_Taxa_Saknas;visible;300;26;10;I | Taxepunkt | Arbetskolumn | Taxep
 Dokumentation_Taxa_från_edp;visible;300;26;3;B | strTaxekod | Primär nyckel för bekräftade taxor | Taxakod i Taxepunkter måste vara exakt värdet härifrån.;;0;0;0;;0;;
 Revision_Etapp1;visible;300;26;4;Taxepunkter kolumnstruktur | Kontrollerad | A:N används med Taxakod, Föreslagen Taxa, Aktuellt pris och Föreslaget pris. | OK;;0;0;0;;0;;
 Revision_Formler_DV;visible;20;4;2;Taxepunkter G | Föreslagen Taxa | OK | Visar Taxakod om F finns, annars XLOOKUP mot Taxa_Saknas intRecnum/H och FöreslagenTaxekod/G.;;0;0;0;;0;;
-00_MasterInfo;visible;14;2;1;Fält | Värde;;0;0;0;;0;;
+00_MasterInfo;visible;13;2;1;Fält | Värde;;0;0;0;;0;;
+EDP_Import_Logg;visible;10;2;1;Kontroll | Värde;;0;0;0;;0;;

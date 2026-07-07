@@ -1,9 +1,11 @@
+C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
 Excel Builder Matching preview klar
 Parser rows: 241
-Workbook rows: 280
+Workbook rows: 306
 EXACT: 0
-PROBABLE: 73
+PROBABLE: 67
 REVIEW: 0
-NEW: 168
+NEW: 174
 TXT: output\excel\excel_matching_report.txt
 CSV: output\excel\excel_matching_results.csv

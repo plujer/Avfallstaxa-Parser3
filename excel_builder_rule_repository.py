@@ -8,7 +8,7 @@ from excel_builder.reports import RuleRepositoryReporter
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build Master Rule Repository from workbook")
-    parser.add_argument("--workbook", default="data/ArbetsExcel_Reference.xlsx")
+    parser.add_argument("--workbook", default="data/master_templates/ArbetsExcel_Template_v1.0.xlsx")
     parser.add_argument("--txt", default="output/excel/master_rule_repository_report.txt")
     parser.add_argument("--csv", default="output/excel/master_rule_repository.csv")
     args = parser.parse_args()

@@ -1,0 +1,6 @@
+Projektmetadata verifierad
+Version: v0.9.4
+Block: 42 - Project Metadata and Release Checklist
+Release tag: v0.9.4-block42
+Release ready: True
+Rapport: output\excel\project_metadata_report.txt

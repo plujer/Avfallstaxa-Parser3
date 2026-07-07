@@ -1,6 +1,8 @@
+C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
 Workbook Schema Scan klar
-Workbook: data\master_templates\ArbetsExcel_Template_v0.9.4_draft.xlsx
-Sheets: 33
+Workbook: data/master_templates/ArbetsExcel_Template_v1.0.xlsx
+Sheets: 25
 Defined names: 274
 Warnings: 0
 TXT: output\excel\workbook_schema_report.txt

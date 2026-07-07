@@ -1,20 +1,20 @@
 Master Rule Repository Report
 
-Source workbook: data\master_templates\ArbetsExcel_Template_v0.9.4_draft.xlsx
-Rules: 882
+Source workbook: data\master_templates\ArbetsExcel_Template_v1.0.xlsx
+Rules: 704
 Warnings: 0
 
 Rule types:
-- DOCUMENTATION: 138
-- EDP: 370
-- TAXEPUNKT: 374
+- DOCUMENTATION: 65
+- EDP: 276
+- TAXEPUNKT: 363
 
 Top source sheets:
-- Taxepunkter: 374
-- Taxa_från_edp: 370
-- Taxa_Saknas: 74
+- Taxepunkter: 363
+- Taxa_från_edp: 276
 - Dokumentation_Taxepunkter: 23
 - Dokumentation_Taxa_Saknas: 15
 - Färgstandard: 14
 - Dokumentation_Taxa_från_edp: 11
 - Taxa_till_edp: 1
+- Taxa_Saknas: 1

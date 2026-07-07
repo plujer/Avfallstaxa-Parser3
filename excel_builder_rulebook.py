@@ -8,7 +8,7 @@ from excel_builder.reports import RulebookReporter
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Read Excel Builder rulebook from Arbets-Excel")
-    parser.add_argument("--workbook", default="data/ArbetsExcel_Reference.xlsx")
+    parser.add_argument("--workbook", default="data/master_templates/ArbetsExcel_Template_v1.0.xlsx")
     parser.add_argument("--out", default="output/excel/edp_rulebook_report.txt")
     args = parser.parse_args()
 

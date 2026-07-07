@@ -1,31 +1,30 @@
 Tax Code Intelligence Report
 
 Status: Taxekoder delas upp i semantiska delar. Inga EDP-data ändras.
-Tax codes: 803
-With family key: 368
+Tax codes: 719
+With family key: 315
 
 Prefixes:
-- (okänd): 455
-- CON: 2
-- FA: 10
-- KÄ: 283
-- SA: 1
-- SL: 37
-- SLA: 3
-- SÄ: 12
+- (okänd): 415
+- CON: 3
+- FA: 7
+- KÄ: 242
+- SA: 4
+- SL: 27
+- SLA: 12
+- SÄ: 9
 
 Top families:
-- SL: 36
-- KÄ370: 26
-- KÄ190: 24
-- KÄ660: 17
-- KÄ660RE: 17
-- KÄ140MA: 15
-- KÄ370RE: 15
-- KÄ140RE: 12
-- KÄ240: 11
-- FA: 10
-- KÄ240RM: 10
+- SL: 25
+- KÄ370: 21
+- KÄ190: 18
+- KÄ660: 15
+- KÄ140RE: 13
+- KÄ660RE: 13
+- KÄ140MA: 12
+- SLA: 12
+- KÄ240: 10
+- KÄ370RE: 10
 - KÄ140: 9
 - KÄ190MA: 9
 - KÄ190RE: 9
@@ -33,15 +32,16 @@ Top families:
 - KÄ240RE: 9
 - KÄ370MA: 9
 - SÄ160: 9
-- KÄ190TI: 8
-- KÄ370TI: 8
 - KÄ: 8
-- RE: 6
+- FA: 7
 - KÄ190ME: 5
 - KÄ190PA: 5
 - KÄ190PL: 5
+- KÄ190TI: 5
 - KÄ370ME: 5
 - KÄ370PA: 5
 - KÄ370PL: 5
+- KÄ370TI: 5
 - KÄ660ME: 5
 - KÄ660PA: 5
+- KÄ660PL: 5

@@ -1,242 +1,242 @@
 ﻿Status;Metod;Parser paragraf;Parser taxapunkt;Parser variant;Parser enhet;Excel rad;Excel taxapunkt;Excel variant;Excel enhet;Excel taxakod;Kommentar
-COVERED;exact row;2.1;En- och tvåbostadshus;;;2;En- och tvåbostadshus;;;1 650,00 kr;
-COVERED;exact row;2.1;Fritidshus;;;3;Fritidshus;;;XX kr;
-COVERED;exact row;2.1;Verksamhet;;;4;Verksamhet;;;XX kr;
-COVERED;exact row;2.1;Lägenhet i flerbostadshus;;lägenhet;5;Lägenhet i flerbostadshus;;lägenhet;XX kr;
-COVERED;exact row;2.1;Lägenhet för specialändamål;;lägenhet;6;Lägenhet för specialändamål;;lägenhet;XX kr;
-COVERED;exact row;2.1;Anläggning;;;7;Anläggning;;;XX kr;
-COVERED;exact row;2.1;Säsongsbaserad uppställningsplats;;;8;Säsongsbaserad uppställningsplats;;;XX kr;
-COVERED;exact row;2.1;Campingstuga/-lägenhet;;lägenhet;9;Campingstuga/-lägenhet;;lägenhet;XX kr;
-COVERED;exact row;2.2.1;Kärl 240 l (mat-/restavfall);;kärl;10;Kärl 240 l (mat-/restavfall);;kärl;XX kr;
-COVERED;exact row;2.2.1;Extrakärl 190 l (restavfall);;;11;Extrakärl 190 l (restavfall);;;XX kr;
-COVERED;exact row;2.2.2;Kärl 240 l (mat-/restavfall);;kärl;12;Kärl 240 l (mat-/restavfall);;kärl;XX kr;
-COVERED;exact row;2.2.2;Extrakärl 190 l (restavfall);;;13;Extrakärl 190 l (restavfall);;;XX kr;
-COVERED;exact row;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;14;Gemensam uppsamlingsplats för mat-/restavfall;;;XX kr;
-COVERED;exact row;2.2.3;Extra digital licens (årskostnad);;;15;Extra digital licens (årskostnad);;;XX kr;
-COVERED;exact row;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;16;Fysisk nyckel, kallad fob (engångskostnad);;;XX kr;
-COVERED;exact row;2.2.3;Byte av telefonnummer kopplat till licens;;;17;Byte av telefonnummer kopplat till licens;;;XX kr;
-COVERED;exact row;2.2.3;Kostnad för öppning av behållare;;;18;Kostnad för öppning av behållare;;;XX kr;
-COVERED;exact row;2.2.4;Kärl 240 l (mat-/restavfall);;kärl;19;Kärl 240 l (mat-/restavfall);;kärl;XX kr;
-COVERED;exact row;2.2.4;Kärl 370 l (restavfall);;kärl;20;Kärl 370 l (restavfall);;kärl;XX kr;
-COVERED;exact row;2.2.4;Kärl 660 l (restavfall);;kärl;21;Kärl 660 l (restavfall);;kärl;XX kr;
-COVERED;exact row;2.2.4;Kärl 140 l (matavfall);;kärl;22;Kärl 140 l (matavfall);;kärl;XX kr;
-COVERED;exact row;2.2.4;Kärl 190 l (förpackningar);;kärl;23;Kärl 190 l (förpackningar);;kärl;XX kr;
-COVERED;exact row;2.2.4;Kärl 370 l (förpackningar);;kärl;24;Kärl 370 l (förpackningar);;kärl;XX kr;
-COVERED;exact row;2.2.4;Kärl 660 l (förpackningar);;kärl;25;Kärl 660 l (förpackningar);;kärl;XX kr;
-COVERED;exact row;2.2.4;Kärl 190 l (tidningar och returpapper);;kärl;26;Kärl 190 l (tidningar och returpapper);;kärl;XX kr;
-COVERED;exact row;2.2.4;Kärl 370 l (tidningar och returpapper);;kärl;27;Kärl 370 l (tidningar och returpapper);;kärl;XX kr;
-COVERED;exact row;2.2.4;(mat-/restavfall, förpackningar);;;28;(mat-/restavfall, förpackningar);;;XX kr;
-COVERED;exact row;2.2.5;Kärl 240 l (mat-/restavfall);;kärl;29;Kärl 240 l (mat-/restavfall);;kärl;XX kr;
-COVERED;exact row;2.2.5;Kärl 370 l (restavfall);;kärl;30;Kärl 370 l (restavfall);;kärl;XX kr;
-COVERED;exact row;2.2.5;Kärl 660 l (restavfall);;kärl;31;Kärl 660 l (restavfall);;kärl;XX kr;
-COVERED;exact row;2.2.5;Kärl 140 l (matavfall);;kärl;32;Kärl 140 l (matavfall);;kärl;XX kr;
-COVERED;exact row;2.2.5;Bottentömmande behållare (mat-/restavfall);;;33;Bottentömmande behållare (mat-/restavfall);;;XX kr;
-COVERED;exact row;2.2.5;Lastväxlarflak (restavfall);;;34;Lastväxlarflak (restavfall);;;XX kr;
-COVERED;exact row;2.2.6;Kärl 240 l (mat-/restavfall);;kärl;35;Kärl 240 l (mat-/restavfall);;kärl;XX kr;
-COVERED;exact row;2.2.6;Kärl 370 l (restavfall);;kärl;36;Kärl 370 l (restavfall);;kärl;XX kr;
-COVERED;exact row;2.2.6;Kärl 660 l (restavfall);;kärl;37;Kärl 660 l (restavfall);;kärl;XX kr;
-COVERED;exact row;2.2.6;Kärl 140 l (matavfall);;kärl;38;Kärl 140 l (matavfall);;kärl;XX kr;
-COVERED;exact row;2.2.6;Bottentömmande behållare (mat-/restavfall);;;39;Bottentömmande behållare (mat-/restavfall);;;XX kr;
-COVERED;exact row;2.2.6;Lastväxlarflak (restavfall);;;40;Lastväxlarflak (restavfall);;;XX kr;
-COVERED;exact row;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;41;Kärl 140 l (kontors-/returpapper);;kärl;XX kr;
-COVERED;exact row;2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;42;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;XX kr;
-COVERED;exact row;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;43;Egen överlämning av förbrukat matfett enligt anvisning;;;XX kr;
-COVERED;exact row;2.3;Viktavgift matavfall;;;44;Viktavgift matavfall;;;XX kr;
-COVERED;exact row;2.3;Viktavgift restavfall;;;45;Viktavgift restavfall;;;XX kr;
-COVERED;exact row;2.3;Lyftavgift kärl;;kärl;46;Lyftavgift kärl;;kärl;XX kr;
-COVERED;exact row;2.4.1;Fakturavgift;;;47;Fakturavgift;;;XX kr;
-COVERED;exact row;2.4.2;Delat kärl 240 l matavfall 40 kg;;kilogram;48;Delat kärl 240 l matavfall 40 kg;;kilogram;XX kr;
-COVERED;exact row;2.4.2;Delat kärl 240 l restavfall 40 kg;;kilogram;49;Delat kärl 240 l restavfall 40 kg;;kilogram;XX kr;
-COVERED;exact row;2.4.2;Extra kärl 140 l matavfall 60 kg;;kilogram;50;Extra kärl 140 l matavfall 60 kg;;kilogram;XX kr;
-COVERED;exact row;2.4.2;Extra kärl 140-190 l restavfall 60 kg;;kilogram;51;Extra kärl 140-190 l restavfall 60 kg;;kilogram;XX kr;
-COVERED;exact row;2.4.2;Kärl 370 l restavfall 60 kg;;kilogram;52;Kärl 370 l restavfall 60 kg;;kilogram;XX kr;
-COVERED;exact row;2.4.2;Kärl 660 l restavfall 100 kg;;kilogram;53;Kärl 660 l restavfall 100 kg;;kilogram;XX kr;
-COVERED;exact row;2.4.3;Överfullt kärl;;kärl;54;Överfullt kärl;;kärl;XX kr;
-COVERED;exact row;2.4.3;Överfull bottentömmande behållare;;;55;Överfull bottentömmande behållare;;;XX kr;
-COVERED;exact row;2.4.4;Byte av trasigt kärl vid oaktsamhet;;kärl;56;Byte av trasigt kärl vid oaktsamhet;;kärl;XX kr;
-COVERED;exact row;2.4.5;Byte/återtag av kärl en (1) ggr/år 140–240 liter;;liter;57;Byte/återtag av kärl en (1) ggr/år 140–240 liter;;liter;XX kr;
-COVERED;exact row;2.4.5;Byte/återtag av kärl en (1) ggr/år 370–660 liter;;liter;58;Byte/återtag av kärl en (1) ggr/år 370–660 liter;;liter;XX kr;
-COVERED;exact row;2.4.5;Ytterligare byte av kärl under kalenderåret;;kärl;59;Ytterligare byte av kärl under kalenderåret;;kärl;XX kr;
-COVERED;exact row;2.4.6;Kärl;;kärl;60;Kärl;;kärl;XX kr;
-COVERED;exact row;2.4.6;Bottentömmande behållare;;;61;Bottentömmande behållare;;;XX kr;
-COVERED;exact row;2.4.7;Kärl 140-660 L 1,5-10;;kärl;62;Kärl 140-660 L 1,5-10;;kärl;XX kr;
-COVERED;exact row;2.4.7;Kärl 140-660 L 10-20;;kärl;63;Kärl 140-660 L 10-20;;kärl;XX kr;
-COVERED;exact row;2.4.7;Kärl 140-660 L 20-30;;kärl;64;Kärl 140-660 L 20-30;;kärl;XX kr;
-COVERED;exact row;2.4.7;Avfallsport/dörr;;;65;Avfallsport/dörr;;;XX kr;
-COVERED;exact row;2.4.7;Låst dörr, med kod;;;66;Låst dörr, med kod;;;XX kr;
-COVERED;exact row;2.4.8;Kärl 140 l matavfall;;kärl;67;Kärl 140 l matavfall;;kärl;XX kr;
-COVERED;exact row;2.4.8;Kärl 190 l restavfall;;kärl;68;Kärl 190 l restavfall;;kärl;XX kr;
-COVERED;exact row;2.4.8;Kärl 370 l restavfall;;kärl;69;Kärl 370 l restavfall;;kärl;XX kr;
-COVERED;exact row;2.4.8;Kärl 660 l restavfall;;kärl;70;Kärl 660 l restavfall;;kärl;XX kr;
-COVERED;exact row;2.4.8;Bottentömmande behållare;;;71;Bottentömmande behållare;;;XX kr;
-COVERED;exact row;2.4.9;Sidlastande fordon;;;72;Sidlastande fordon;;;XX kr;
-COVERED;exact row;2.4.9;Bottentömmande fordon;;;73;Bottentömmande fordon;;;XX kr;
-COVERED;exact row;2.4.9;Tömningsavgift per behållare;;;74;Tömningsavgift per behållare;;;XX kr;
-COVERED;exact row;2.4.10;Betalsäck;;;75;Betalsäck;;;XX kr;
-COVERED;exact row;2.4.10;Akutsäck;;;76;Akutsäck;;;XX kr;
-COVERED;exact row;2.4.11;Matavfallspåsar 9 L;;;77;Matavfallspåsar 9 L;;;XX kr;
-COVERED;exact row;2.4.11;Matavfallspåsar 22 L;;;78;Matavfallspåsar 22 L;;;XX kr;
-COVERED;exact row;2.4.11;Gravitationslås till kärl;;kärl;79;Gravitationslås till kärl;;kärl;XX kr;
-COVERED;exact row;2.4.11;Extra nyckel till gravitationslås;;;80;Extra nyckel till gravitationslås;;;XX kr;
-COVERED;exact row;2.5.1;Kommunalt avfall;;;81;Kommunalt avfall;;;XX kr;
-COVERED;exact row;2.5.1;Farligt avfall (ej uppmärkt);;;82;Farligt avfall (ej uppmärkt);;;XX kr;
-COVERED;exact row;2.5.1;Farligt avfall (uppmärkt);;;83;Farligt avfall (uppmärkt);;;XX kr;
-COVERED;exact row;2.5.1;Avisering av ankomst;;;84;Avisering av ankomst;;;XX kr;
-COVERED;exact row;3.1;Upp till 3 m3;;m³;85;Upp till 3 m3;;m³;XX kr;
-COVERED;exact row;3.1;Mellan 3 m3 och 6 m3;;m³;86;Mellan 3 m3 och 6 m3;;m³;XX kr;
-COVERED;exact row;3.1;Mellan 6 m3 och 9 m3;;m³;87;Mellan 6 m3 och 9 m3;;m³;XX kr;
-COVERED;exact row;3.1;Tillägg per m3 över 9 m3;;m³;88;Tillägg per m3 över 9 m3;;m³;XX kr;
-COVERED;exact row;3.1;Bad-, disk- och tvättbrunn upp till 3 m3;;m³;89;Bad-, disk- och tvättbrunn upp till 3 m3;;m³;XX kr;
-COVERED;exact row;3.1;Tillägg per m3 över 3 m3;;m³;90;Tillägg per m3 över 3 m3;;m³;XX kr;
-COVERED;exact row;3.2;Dragning av extra slang vid 5-25 m;;;91;Dragning av extra slang vid 5-25 m;;;XX kr;
-COVERED;exact row;3.2;Dragning av extra slang vid 25-35 m;;;92;Dragning av extra slang vid 25-35 m;;;XX kr;
-COVERED;exact row;3.2;Dragning av extra slang vid 36-45 m;;;93;Dragning av extra slang vid 36-45 m;;;XX kr;
-COVERED;exact row;3.2;Dragning av extra slang vid 46-55 m;;;94;Dragning av extra slang vid 46-55 m;;;XX kr;
-COVERED;exact row;3.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;95;Hantering av brunnslock som väger 15-25 kg;;kilogram;XX kr;
-COVERED;exact row;3.2;Krav på information om tömningstid;;;96;Krav på information om tömningstid;;;XX kr;
-COVERED;exact row;3.2;Krav på närvaro vid specificerad tömningstid;;;97;Krav på närvaro vid specificerad tömningstid;;;XX kr;
-COVERED;exact row;3.2;Hantering av kod för kodlås vid slamtömning;;;98;Hantering av kod för kodlås vid slamtömning;;;XX kr;
-COVERED;exact row;3.2;Hetvattentvätt med spolbil, timersättning;;;99;Hetvattentvätt med spolbil, timersättning;;;XX kr;
-COVERED;exact row;3.2;Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3;;m³;100;Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3;;m³;XX kr;
-COVERED;exact row;3.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;101;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;XX kr;
-COVERED;exact row;3.3;Budning utanför ordinarie tömningsperiod (1 nov – 30 april);;;102;Budning utanför ordinarie tömningsperiod (1 nov – 30 april);;;XX kr;
-COVERED;exact row;3.3;Tömning av toalettvagnar eller liknande /styck;;styck;103;Tömning av toalettvagnar eller liknande /styck;;styck;XX kr;
-COVERED;exact row;3.4;Latrinbehållare 37 liter inkl. mottagning och behandling;;liter;104;Latrinbehållare 37 liter inkl. mottagning och behandling;;liter;XX kr;
-COVERED;exact row;4.1;Filtermassor upp till 500 kg;;kilogram;105;Filtermassor upp till 500 kg;;kilogram;XX kr;
-COVERED;exact row;4.1;Filtermassor 500-1000 kg;;kilogram;106;Filtermassor 500-1000 kg;;kilogram;XX kr;
-COVERED;exact row;4.2;Krav på information om hämtningstid;;;107;Krav på information om hämtningstid;;;XX kr;
-COVERED;exact row;4.2;Krav på närvaro vid specificerad hämtningstid;;;108;Krav på närvaro vid specificerad hämtningstid;;;XX kr;
-COVERED;exact row;4.2;Hantering av kod för kodlås;;;109;Hantering av kod för kodlås;;;XX kr;
-COVERED;exact row;5.1;Upp till 3 m3;;m³;110;Upp till 3 m3;;m³;XX kr;
-COVERED;exact row;5.1;Mellan 3 m3 och 6 m3;;m³;111;Mellan 3 m3 och 6 m3;;m³;XX kr;
-COVERED;exact row;5.1;Över 6 m3;;m³;112;Över 6 m3;;m³;XX kr;
-COVERED;exact row;5.2;Dragning av extra slang vid 5-25 m;;;113;Dragning av extra slang vid 5-25 m;;;XX kr;
-COVERED;exact row;5.2;Dragning av extra slang vid 25-35 m;;;114;Dragning av extra slang vid 25-35 m;;;XX kr;
-COVERED;exact row;5.2;Dragning av extra slang vid 36-45 m;;;115;Dragning av extra slang vid 36-45 m;;;XX kr;
-COVERED;exact row;5.2;Dragning av extra slang vid 46-55 m;;;116;Dragning av extra slang vid 46-55 m;;;XX kr;
-COVERED;exact row;5.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;117;Hantering av brunnslock som väger 15-25 kg;;kilogram;XX kr;
-COVERED;exact row;5.2;Krav på information om tömningstid;;;118;Krav på information om tömningstid;;;XX kr;
-COVERED;exact row;5.2;Krav på närvaro vid specificerad tömningstid;;;119;Krav på närvaro vid specificerad tömningstid;;;XX kr;
-COVERED;exact row;5.2;Hantering av kod för kodlås vid tömning;;tömning;120;Hantering av kod för kodlås vid tömning;;tömning;XX kr;
-COVERED;exact row;5.2;Hetvattentvätt med spolbil, timersättning;;;121;Hetvattentvätt med spolbil, timersättning;;;XX kr;
-COVERED;exact row;5.2;Silikontätning per lock;;;122;Silikontätning per lock;;;XX kr;
-COVERED;exact row;5.2;Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;;m³;123;Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;;m³;XX kr;
-COVERED;exact row;5.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;124;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;XX kr;
-COVERED;exact row;5.3;Budning utanför ordinarie tömningsperiod;;;125;Budning utanför ordinarie tömningsperiod;;;XX kr;
-COVERED;exact row;6.1.1;Verksamheter;;;126;Verksamheter;;;XX kr;
-COVERED;exact row;6.1.1;Övriga abonnemangstyper;;;127;Övriga abonnemangstyper;;;XX kr;
-COVERED;exact row;6.1.1;Vågkort;;;128;Vågkort;;;XX kr;
-COVERED;exact row;6.1.1;Borttappat vågkort;;;129;Borttappat vågkort;;;XX kr;
-COVERED;exact row;6.1.1;Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst);;besök;130;Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst);;besök;XX kr;
-COVERED;exact row;6.1.1;Ej redovisad eller fel redovisad fraktion av avfall;;fraktion;131;Ej redovisad eller fel redovisad fraktion av avfall;;fraktion;XXXX kr;
-COVERED;exact row;6.1.2;Avfall till energiåtervinning (240 L sopsäck);;styck;132;Avfall till energiåtervinning (240 L sopsäck);;styck;;
-COVERED;exact row;6.1.2;Avfall till energiåtervinning;;kilogram;133;Avfall till energiåtervinning;;kilogram;;
-COVERED;exact row;6.1.2;Skrymmande avfall till energiåtervinning större än 20×20×80;;kilogram;134;Skrymmande avfall till energiåtervinning större än 20×20×80;;kilogram;;
-COVERED;exact row;6.1.2;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;;kilogram;135;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;;kilogram;;
-COVERED;exact row;6.1.2;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;;kilogram;136;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;;kilogram;;
-COVERED;exact row;6.1.2;Tryckimpregnerat virke, pall;;kilogram;137;Tryckimpregnerat virke, pall;;kilogram;;
-COVERED;exact row;6.1.2;Betong, lättbetong;;kilogram;138;Betong, lättbetong;;kilogram;;
-COVERED;exact row;6.1.2;Gips, gipsskivor;;kilogram;139;Gips, gipsskivor;;kilogram;;
-COVERED;exact row;6.1.2;Tegel;;kilogram;140;Tegel;;kilogram;;
-COVERED;exact row;6.1.2;Fönster- och planglas utan karm;;kilogram;141;Fönster- och planglas utan karm;;kilogram;;
-COVERED;exact row;6.1.2;Fönster med karm;;;142;Fönster med karm;;;;
-COVERED;exact row;6.1.2;Plast;;kilogram;143;Plast;;kilogram;;
-COVERED;exact row;6.1.2;Isolering utan innehåll av asbest;;m³;144;Isolering utan innehåll av asbest;;m³;;
-COVERED;exact row;6.1.2;Klinker, keramik, porslin;;kilogram;145;Klinker, keramik, porslin;;kilogram;;
-COVERED;exact row;6.1.2;Handfat;;styck;146;Handfat;;styck;;
-COVERED;exact row;6.1.2;WC-stol;;styck;147;WC-stol;;styck;;
-COVERED;exact row;6.1.2;Metall;;kilogram;148;Metall;;kilogram;;
-COVERED;exact row;6.1.2;Textilier;;kilogram;149;Textilier;;kilogram;;
-COVERED;exact row;6.1.2;Fiskeredskap;;kilogram;150;Fiskeredskap;;kilogram;;
-COVERED;exact row;6.1.2;Ätbart fett/frityrolja;;liter;151;Ätbart fett/frityrolja;;liter;;
-COVERED;exact row;6.1.2;Kvistar och grenar;;m³;152;Kvistar och grenar;;m³;;
-COVERED;exact row;6.1.2;Jord;;;153;Jord;;;;
-COVERED;exact row;6.1.2;Sten;;;154;Sten;;;;
-COVERED;exact row;6.1.2;Stubbar/rötter för krossning;;;155;Stubbar/rötter för krossning;;;;
-COVERED;exact row;6.1.2;Flera fraktioner för egen sortering på ramp (max 2 m³);;m³;156;Flera fraktioner för egen sortering på ramp (max 2 m³);;m³;;
-COVERED;exact row;6.1.2;Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall);;;157;Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall);;;;
-COVERED;exact row;6.1.2;Tonerkassetter, utan elektronik/chip;;kilogram;158;Tonerkassetter, utan elektronik/chip;;kilogram;31,88;
-COVERED;exact row;6.1.2;Oljeemulsion, emballerat;;kilogram;159;Oljeemulsion, emballerat;;kilogram;20,81;
-COVERED;exact row;6.1.2;Förorenad olja innehållande PCB;;kilogram;160;Förorenad olja innehållande PCB;;kilogram;38,25;
-COVERED;exact row;6.1.2;Oljeavskiljarslam;;kilogram;161;Oljeavskiljarslam;;kilogram;6,56;
-COVERED;exact row;6.1.2;Diesel;;kilogram;162;Diesel;;kilogram;21,94;
-COVERED;exact row;6.1.2;Bensinrester;;kilogram;163;Bensinrester;;kilogram;21,94;
-COVERED;exact row;6.1.2;Hydralslang, med/utan koppling;;kilogram;164;Hydralslang, med/utan koppling;;kilogram;33,94;
-COVERED;exact row;6.1.2;Förpackningar, tömde ej rengjorda;;kilogram;165;Förpackningar, tömde ej rengjorda;;kilogram;25,50;
-COVERED;exact row;6.1.2;Oljeavfall, fast osorterat emba;;kilogram;166;Oljeavfall, fast osorterat emba;;kilogram;23,44;
-COVERED;exact row;6.1.2;Absorbermedel, filtermaterial;;kilogram;167;Absorbermedel, filtermaterial;;kilogram;15,38;
-COVERED;exact row;6.1.2;Oljefilter;;kilogram;168;Oljefilter;;kilogram;15,38;
-COVERED;exact row;6.1.2;Bromsvätska;;kilogram;169;Bromsvätska;;kilogram;11,44;
-COVERED;exact row;6.1.2;Transformator, kondensator med PCB;;kilogram;170;Transformator, kondensator med PCB;;kilogram;84,94;
-COVERED;exact row;6.1.2;Fogskum;;kilogram;171;Fogskum;;kilogram;90,00;
-COVERED;exact row;6.1.2;Halon;;kilogram;172;Halon;;kilogram;127,50;
-COVERED;exact row;6.1.2;Koldioxid;;kilogram;173;Koldioxid;;kilogram;112,13;
-COVERED;exact row;6.1.2;Brandsläckare;;kilogram;174;Brandsläckare;;kilogram;91,69;
-COVERED;exact row;6.1.2;Helium;;kilogram;175;Helium;;kilogram;117,19;
-COVERED;exact row;6.1.2;Tändare;;kilogram;176;Tändare;;kilogram;127,50;
-COVERED;exact row;6.1.2;Syrgas;;kilogram;177;Syrgas;;kilogram;117,19;
-COVERED;exact row;6.1.2;Oxiderande fast ämne/vätska;;kilogram;178;Oxiderande fast ämne/vätska;;kilogram;103,31;
-COVERED;exact row;6.1.2;Klorex;;kilogram;179;Klorex;;kilogram;103,31;
-COVERED;exact row;6.1.2;Aerosoler isocyanat, bekämpning;;kilogram;180;Aerosoler isocyanat, bekämpning;;kilogram;101,06;
-COVERED;exact row;6.1.2;Gasol inkl tub;;kilogram;181;Gasol inkl tub;;kilogram;102,00;
-COVERED;exact row;6.1.2;Gasol, blå programmet;;kilogram;182;Gasol, blå programmet;;kilogram;169,88;
-COVERED;exact row;6.1.2;Giftig organisk vätska;;kilogram;183;Giftig organisk vätska;;kilogram;103,31;
-COVERED;exact row;6.1.2;Småkemikalier, ej Hg-haltiga;;kilogram;184;Småkemikalier, ej Hg-haltiga;;kilogram;103,31;
-COVERED;exact row;6.1.2;Giftig oorganisk vätska;;kilogram;185;Giftig oorganisk vätska;;kilogram;103,31;
-COVERED;exact row;6.1.2;Oxidationsmedel, flytande;;kilogram;186;Oxidationsmedel, flytande;;kilogram;103,31;
-COVERED;exact row;6.1.2;Asbest, emballerat;;kilogram;187;Asbest, emballerat;;kilogram;22,88;
-COVERED;exact row;6.1.2;Smittförande avfall;;kilogram;188;Smittförande avfall;;kilogram;40,31;
-COVERED;exact row;6.1.2;Lösningsmedel;;kilogram;189;Lösningsmedel;;kilogram;20,63;
-COVERED;exact row;6.1.2;Väteperoxid;;kilogram;190;Väteperoxid;;kilogram;103,31;
-COVERED;exact row;6.1.2;Flourvätesyra;;kilogram;191;Flourvätesyra;;kilogram;81,38;
-COVERED;exact row;6.1.2;Svavelsyra;;kilogram;192;Svavelsyra;;kilogram;81,38;
-COVERED;exact row;6.1.2;Salpetersyra;;kilogram;193;Salpetersyra;;kilogram;81,38;
-COVERED;exact row;6.1.2;Surt oorganisk fast ämne;;kilogram;194;Surt oorganisk fast ämne;;kilogram;103,31;
-COVERED;exact row;6.1.2;Surt organisk fast ämne;;kilogram;195;Surt organisk fast ämne;;kilogram;127,50;
-COVERED;exact row;6.1.2;Surt oorganisk vätska;;kilogram;196;Surt oorganisk vätska;;kilogram;127,50;
-COVERED;exact row;6.1.2;Surt organisk vätska;;kilogram;197;Surt organisk vätska;;kilogram;127,50;
-COVERED;exact row;6.1.2;Ammoniaklösning;;kilogram;198;Ammoniaklösning;;kilogram;63,38;
-COVERED;exact row;6.1.2;Alkaliskt avfall fast;;kilogram;199;Alkaliskt avfall fast;;kilogram;27,75;
-COVERED;exact row;6.1.2;Basiskt organiskt fast/flytande;;kilogram;200;Basiskt organiskt fast/flytande;;kilogram;46,50;
-COVERED;exact row;6.1.2;Fotokemikalier;;kilogram;201;Fotokemikalier;;kilogram;38,25;
-COVERED;exact row;6.1.2;Bekämpningsmedel aerosoler;;kilogram;202;Bekämpningsmedel aerosoler;;kilogram;73,69;
-COVERED;exact row;6.1.2;Bekämpningsmedel fast;;kilogram;203;Bekämpningsmedel fast;;kilogram;85,88;
-COVERED;exact row;6.1.2;Bekämpningsmedel flytande;;kilogram;204;Bekämpningsmedel flytande;;kilogram;61,69;
-COVERED;exact row;6.1.2;Kvicksilverhaltigt avfall;;kilogram;205;Kvicksilverhaltigt avfall;;kilogram;1 034,81;
-COVERED;exact row;6.1.2;Kvicksilver i föremål;;kilogram;206;Kvicksilver i föremål;;kilogram;1 034,81;
-COVERED;exact row;6.1.2;Oljehaltigt avfall (ej PCB);;liter;207;Oljehaltigt avfall (ej PCB);;liter;15,94;
-COVERED;exact row;6.1.2;Olja förorenad (ej PCB);;liter;208;Olja förorenad (ej PCB);;liter;23,44;
-COVERED;exact row;6.1.2;Färg-, lack-, limburkar lösning;;kilogram;209;Färg-, lack-, limburkar lösning;;kilogram;19,88;
-COVERED;exact row;6.1.2;Färg-, lack-, limburkar lösning aerosoler;;kilogram;210;Färg-, lack-, limburkar lösning aerosoler;;kilogram;43,31;
-COVERED;exact row;6.1.2;Isocyanater;;kilogram;211;Isocyanater;;kilogram;103,88;
-COVERED;exact row;6.1.2;Härdare metyl- etylketonperoxid;;kilogram;212;Härdare metyl- etylketonperoxid;;kilogram;109,88;
-COVERED;exact row;6.1.2;Härdare dibenzoylperoxid;;kilogram;213;Härdare dibenzoylperoxid;;kilogram;114,38;
-COVERED;exact row;6.1.2;Färg-,lack-, limburkar vattenbaserade;;kilogram;214;Färg-,lack-, limburkar vattenbaserade;;kilogram;15,38;
-COVERED;exact row;6.1.2;Tensida alkaliska flytande avfall;;kilogram;215;Tensida alkaliska flytande avfall;;kilogram;25,50;
-COVERED;exact row;6.1.2;Rengöring/vaskmedel fast;;kilogram;216;Rengöring/vaskmedel fast;;kilogram;27,19;
-COVERED;exact row;6.1.2;Alkaliska flytande avfall;;kilogram;217;Alkaliska flytande avfall;;kilogram;27,75;
-COVERED;exact row;6.1.2;Cytotoxiska läkemedel, cytostat;;kilogram;218;Cytotoxiska läkemedel, cytostat;;kilogram;64,88;
-COVERED;exact row;6.1.2;Rökdetektor med andra isotoper;;kilogram;219;Rökdetektor med andra isotoper;;kilogram;1 911,75;
-COVERED;exact row;6.1.2;Rökdetektor med Am 241;;kilogram;220;Rökdetektor med Am 241;;kilogram;1 911,75;
-COVERED;exact row;6.1.2;Batterier stav, pencell;;kilogram;221;Batterier stav, pencell;;kilogram;0,00;
-COVERED;exact row;6.1.2;Batterier lithium;;kilogram;222;Batterier lithium;;kilogram;0,00;
-COVERED;exact row;6.1.2;Bil-, mcbatteri med bly;;styck;223;Bil-, mcbatteri med bly;;styck;0,00;
-COVERED;exact row;6.1.2;Glödlampor;;kilogram;224;Glödlampor;;kilogram;0,00;
-COVERED;exact row;6.1.2;Lysrör;;kilogram;225;Lysrör;;kilogram;0,00;
-COVERED;exact row;6.1.2;Elavfall, små elektronik;;kilogram;226;Elavfall, små elektronik;;kilogram;0,00;
-COVERED;exact row;6.1.2;El-avfall fast installation;;kilogram;227;El-avfall fast installation;;kilogram;37,60;
-COVERED;exact row;6.1.2;El-avfall kabel;;kilogram;228;El-avfall kabel;;kilogram;0,00;
-COVERED;exact row;6.1.2;Toner, färgpatron med elektronik;;kilogram;229;Toner, färgpatron med elektronik;;kilogram;37,60;
-COVERED;exact row;6.1.2;Tv, radio, skärm, skrivare utan färgpatron;;kilogram;230;Tv, radio, skärm, skrivare utan färgpatron;;kilogram;0,00;
-COVERED;exact row;6.1.2;Kyl-, frysskåp, -box;;styck;231;Kyl-, frysskåp, -box;;styck;0,00;
-COVERED;exact row;6.1.2;Kyl-, frysskåp, -box från verksamhet;;kilogram;232;Kyl-, frysskåp, -box från verksamhet;;kilogram;37,60;
-COVERED;exact row;6.1.2;Spis, tvätt-, diskmaskin;;styck;233;Spis, tvätt-, diskmaskin;;styck;0,00;
-COVERED;exact row;6.1.2;Spis, tvätt-, diskmaskin från verksamhet;;kilogram;234;Spis, tvätt-, diskmaskin från verksamhet;;kilogram;37,60;
-REVIEW;duplicate exact row;6.1.3;Container X m3;;m³;235;Container X m3;;m³;XX kr;3 Taxepunkter rows match same parser row
-REVIEW;duplicate exact row;6.1.3;Container X m3;;m³;235;Container X m3;;m³;XX kr;3 Taxepunkter rows match same parser row
-REVIEW;duplicate exact row;6.1.3;Container X m3;;m³;235;Container X m3;;m³;XX kr;3 Taxepunkter rows match same parser row
-COVERED;exact row;6.1.3;Omklassning av felsorterad container;;container;238;Omklassning av felsorterad container;;container;XX kr;
-COVERED;exact row;6.1.4;Okänt farligt avfall (säkerhetsdatablad saknas);;fraktion;239;Okänt farligt avfall (säkerhetsdatablad saknas);;fraktion;XXX kr;
-COVERED;exact row;6.1.4;Ombud för rapportering av farligt avfall i Avfallsregistret;;tillfälle;240;Ombud för rapportering av farligt avfall i Avfallsregistret;;tillfälle;XXX kr;
-COVERED;exact row;6.1.4;Administrativ rapporteringsavgift till Avfallsregistret;;tillfälle;241;Administrativ rapporteringsavgift till Avfallsregistret;;tillfälle;XXX kr;
-COVERED;exact row;6.1.4;Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen;;tillfälle;242;Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen;;tillfälle;XXX kr;
+COVERED;section+tax_point;2.1;En- och tvåbostadshus;;;9;En- och tvåbostadshus;;st/år;GRUNDPER;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.1;Fritidshus;;;10;Fritidshus;;st/år;GRUNDFRI;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.1;Verksamhet;;;11;Verksamhet;;st/år;GRUNDLÄG;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.1;Lägenhet i flerbostadshus;;lägenhet;12;Lägenhet i flerbostadshus;;st/år;GRUNDFLB;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.1;Lägenhet för specialändamål;;lägenhet;13;Lägenhet för specialändamål;;st/år;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.1;Anläggning;;;14;Anläggning;;st/år;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.1;Säsongsbaserad uppställningsplats;;;15;Säsongsbaserad uppställningsplats;;st/år;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.1;Campingstuga/-lägenhet;;lägenhet;16;Campingstuga/-lägenhet;;st/år;;Variant/enhet skiljer men Word-taxan finns som egen rad
+REVIEW;multiple section+tax_point rows;2.2.1;Kärl 240 l (mat-/restavfall);;kärl;20;Kärl 240 l (mat-/restavfall);Hämtning var 14:e dag;st/år;KÄ240RM26;2 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.1;Extrakärl 190 l (restavfall);;;22;Extrakärl 190 l (restavfall);Hämtning var 14:e dag;st/år;KÄ190XRM26;2 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.2;Kärl 240 l (mat-/restavfall);;kärl;26;Kärl 240 l (mat-/restavfall);Hämtning var 14:e dag;st/år;KÄ240RM26;2 Taxepunkter rows share section+tax_point
+COVERED;section+tax_point;2.2.2;Extrakärl 190 l (restavfall);;;28;Extrakärl 190 l (restavfall);Hämtning var 14:e dag;st/år;KÄ190XRM26FRI;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.2.3;Gemensam uppsamlingsplats för mat-/restavfall;;;31;Gemensam uppsamlingsplats för mat-/restavfall;;st/år;GEMUPPFRI;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.2.3;Extra digital licens (årskostnad);;;33;Extra digital licens (årskostnad);;st/år;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.2.3;Fysisk nyckel, kallad fob (engångskostnad);;;34;Fysisk nyckel, kallad fob (engångskostnad);;st/tillfälle;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.2.3;Byte av telefonnummer kopplat till licens;;;35;Byte av telefonnummer kopplat till licens;;st/tillfälle;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.2.3;Kostnad för öppning av behållare;;;36;Kostnad för öppning av behållare;;st/tillfälle;;Variant/enhet skiljer men Word-taxan finns som egen rad
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 240 l (mat-/restavfall);;kärl;38;Kärl 240 l (mat-/restavfall);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 370 l (restavfall);;kärl;41;Kärl 370 l (restavfall);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 660 l (restavfall);;kärl;44;Kärl 660 l (restavfall);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 140 l (matavfall);;kärl;47;Kärl 140 l (matavfall);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 190 l (förpackningar);;kärl;50;Kärl 190 l (förpackningar);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 370 l (förpackningar);;kärl;53;Kärl 370 l (förpackningar);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 660 l (förpackningar);;kärl;56;Kärl 660 l (förpackningar);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 190 l (tidningar och returpapper);;kärl;59;Kärl 190 l (tidningar och returpapper);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.4;Kärl 370 l (tidningar och returpapper);;kärl;62;Kärl 370 l (tidningar och returpapper);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+MISSING;no Taxepunkter row;2.2.4;(mat-/restavfall, förpackningar);;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+REVIEW;multiple section+tax_point rows;2.2.5;Kärl 240 l (mat-/restavfall);;kärl;69;Kärl 240 l (mat-/restavfall);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.5;Kärl 370 l (restavfall);;kärl;72;Kärl 370 l (restavfall);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.5;Kärl 660 l (restavfall);;kärl;75;Kärl 660 l (restavfall);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.5;Kärl 140 l (matavfall);;kärl;78;Kärl 140 l (matavfall);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.5;Bottentömmande behållare (mat-/restavfall);;;81;Bottentömmande behållare (mat-/restavfall);Avgift per tömning;st/tömning;;2 Taxepunkter rows share section+tax_point
+COVERED;section+tax_point;2.2.5;Lastväxlarflak (restavfall);;;82;Lastväxlarflak (restavfall);Avgift per tömning;st/tömning;;Variant/enhet skiljer men Word-taxan finns som egen rad
+REVIEW;multiple section+tax_point rows;2.2.6;Kärl 240 l (mat-/restavfall);;kärl;85;Kärl 240 l (mat-/restavfall);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.6;Kärl 370 l (restavfall);;kärl;88;Kärl 370 l (restavfall);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.6;Kärl 660 l (restavfall);;kärl;91;Kärl 660 l (restavfall);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.6;Kärl 140 l (matavfall);;kärl;94;Kärl 140 l (matavfall);Hämtning varje vecka;st/år;;3 Taxepunkter rows share section+tax_point
+REVIEW;multiple section+tax_point rows;2.2.6;Bottentömmande behållare (mat-/restavfall);;;97;Bottentömmande behållare (mat-/restavfall);Avgift per tömning;st/tömning;;2 Taxepunkter rows share section+tax_point
+COVERED;section+tax_point;2.2.6;Lastväxlarflak (restavfall);;;98;Lastväxlarflak (restavfall);Avgift per tömning;st/tömning;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.2.7;Kärl 140 l (kontors-/returpapper);;kärl;101;Kärl 140 l (kontors-/returpapper);Avgift per tömning;st/tömning;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.2.7;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;;;102;Egen överlämning av förbrukat kontors-/returpapper enligt anvisning;Avgift per tömning;st/tömning;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.2.7;Egen överlämning av förbrukat matfett enligt anvisning;;;103;Egen överlämning av förbrukat matfett enligt anvisning;Avgift per tömning;st/tömning;;Variant/enhet skiljer men Word-taxan finns som egen rad
+MISSING;no Taxepunkter row;2.3;Viktavgift matavfall;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;2.3;Viktavgift restavfall;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;2.3;Lyftavgift kärl;;kärl;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;2.4.1;Fakturavgift;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;2.4.2;Delat kärl 240 l matavfall 40 kg;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;2.4.2;Delat kärl 240 l restavfall 40 kg;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;2.4.2;Extra kärl 140 l matavfall 60 kg;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;2.4.2;Extra kärl 140-190 l restavfall 60 kg;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;2.4.2;Kärl 370 l restavfall 60 kg;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;2.4.2;Kärl 660 l restavfall 100 kg;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+COVERED;section+tax_point;2.4.3;Överfullt kärl;;kärl;121;Överfullt kärl;;st/tillfälle/behållare;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.3;Överfull bottentömmande behållare;;;122;Överfull bottentömmande behållare;;st/tillfälle/behållare;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.4;Byte av trasigt kärl vid oaktsamhet;;kärl;124;Byte av trasigt kärl vid oaktsamhet;;st/kärl;;Variant/enhet skiljer men Word-taxan finns som egen rad
+MISSING;no Taxepunkter row;2.4.5;Byte/återtag av kärl en (1) ggr/år 140–240 liter;;liter;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;2.4.5;Byte/återtag av kärl en (1) ggr/år 370–660 liter;;liter;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+COVERED;section+tax_point;2.4.5;Ytterligare byte av kärl under kalenderåret;;kärl;129;Ytterligare byte av kärl under kalenderåret;;st/kärl;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.6;Kärl;;kärl;131;Kärl;;st/tillfälle;FELSORT;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.6;Bottentömmande behållare;;;132;Bottentömmande behållare;;st/tillfälle;FELSORT;Variant/enhet skiljer men Word-taxan finns som egen rad
+MISSING;no Taxepunkter row;2.4.7;Kärl 140-660 L 1,5-10;;kärl;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;2.4.7;Kärl 140-660 L 10-20;;kärl;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;2.4.7;Kärl 140-660 L 20-30;;kärl;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;2.4.7;Avfallsport/dörr;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+COVERED;section+tax_point;2.4.7;Låst dörr, med kod;;;138;Låst dörr, med kod;;st/år;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.8;Kärl 140 l matavfall;;kärl;140;Kärl 140 l matavfall;;st/period;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.8;Kärl 190 l restavfall;;kärl;141;Kärl 190 l restavfall;;st/period;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.8;Kärl 370 l restavfall;;kärl;142;Kärl 370 l restavfall;;st/period;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.8;Kärl 660 l restavfall;;kärl;143;Kärl 660 l restavfall;;st/period;;Variant/enhet skiljer men Word-taxan finns som egen rad
+MISSING;no Taxepunkter row;2.4.8;Bottentömmande behållare;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+COVERED;section+tax_point;2.4.9;Sidlastande fordon;;;146;Sidlastande fordon;;st/tillfälle;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.9;Bottentömmande fordon;;;147;Bottentömmande fordon;;st/tillfälle;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.9;Tömningsavgift per behållare;;;148;Tömningsavgift per behållare;;st/tillfälle;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.10;Betalsäck;;;150;Betalsäck;;st/säck;BETALSÄCK;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.10;Akutsäck;;;151;Akutsäck;;st/säck;AKUTSÄCK;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.11;Matavfallspåsar 9 L;;;153;Matavfallspåsar 9 L;;bunt;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.11;Matavfallspåsar 22 L;;;154;Matavfallspåsar 22 L;;bunt;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.11;Gravitationslås till kärl;;kärl;155;Gravitationslås till kärl;;st;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.4.11;Extra nyckel till gravitationslås;;;156;Extra nyckel till gravitationslås;;st;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.5.1;Kommunalt avfall;;;159;Kommunalt avfall;;st/tillfälle;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;2.5.1;Farligt avfall (ej uppmärkt);;;160;Farligt avfall (ej uppmärkt);;st/tillfälle;;Variant/enhet skiljer men Word-taxan finns som egen rad
+REVIEW;multiple section+tax_point rows;2.5.1;Farligt avfall (uppmärkt);;;161;Farligt avfall (uppmärkt);;st/tillfälle;;2 Taxepunkter rows share section+tax_point
+MISSING;no Taxepunkter row;2.5.1;Avisering av ankomst;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.1;Upp till 3 m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.1;Mellan 3 m3 och 6 m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.1;Mellan 6 m3 och 9 m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.1;Tillägg per m3 över 9 m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.1;Bad-, disk- och tvättbrunn upp till 3 m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.1;Tillägg per m3 över 3 m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.2;Dragning av extra slang vid 5-25 m;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.2;Dragning av extra slang vid 25-35 m;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.2;Dragning av extra slang vid 36-45 m;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.2;Dragning av extra slang vid 46-55 m;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.2;Krav på information om tömningstid;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.2;Krav på närvaro vid specificerad tömningstid;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.2;Hantering av kod för kodlås vid slamtömning;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.2;Hetvattentvätt med spolbil, timersättning;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.2;Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.3;Budning utanför ordinarie tömningsperiod (1 nov – 30 april);;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.3;Tömning av toalettvagnar eller liknande /styck;;styck;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;3.4;Latrinbehållare 37 liter inkl. mottagning och behandling;;liter;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;4.1;Filtermassor upp till 500 kg;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;4.1;Filtermassor 500-1000 kg;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;4.2;Krav på information om hämtningstid;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;4.2;Krav på närvaro vid specificerad hämtningstid;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;4.2;Hantering av kod för kodlås;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.1;Upp till 3 m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.1;Mellan 3 m3 och 6 m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.1;Över 6 m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.2;Dragning av extra slang vid 5-25 m;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.2;Dragning av extra slang vid 25-35 m;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.2;Dragning av extra slang vid 36-45 m;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.2;Dragning av extra slang vid 46-55 m;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.2;Hantering av brunnslock som väger 15-25 kg;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.2;Krav på information om tömningstid;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.2;Krav på närvaro vid specificerad tömningstid;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.2;Hantering av kod för kodlås vid tömning;;tömning;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.2;Hetvattentvätt med spolbil, timersättning;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.2;Silikontätning per lock;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.2;Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.3;Budning inom ordinarie tömningsperiod (1 maj- 31 oktober);;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;5.3;Budning utanför ordinarie tömningsperiod;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+COVERED;section+tax_point;6.1.1;Verksamheter;;;246;Verksamheter;;kr/besök;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.1;Övriga abonnemangstyper;;;247;Övriga abonnemangstyper;;kr/besök;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.1;Vågkort;;;248;Vågkort;;kr/besök;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.1;Borttappat vågkort;;;249;Borttappat vågkort;;kr/besök;;Variant/enhet skiljer men Word-taxan finns som egen rad
+MISSING;no Taxepunkter row;6.1.1;Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst);;besök;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+COVERED;section+tax_point;6.1.1;Ej redovisad eller fel redovisad fraktion av avfall;;fraktion;251;Ej redovisad eller fel redovisad fraktion av avfall;;kr/fraktion;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Avfall till energiåtervinning (240 L sopsäck);;styck;253;Avfall till energiåtervinning (240 L sopsäck);200301;kr/st;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Avfall till energiåtervinning;;kilogram;254;Avfall till energiåtervinning;200301;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Skrymmande avfall till energiåtervinning större än 20×20×80;;kilogram;255;Skrymmande avfall till energiåtervinning större än 20x20x80;200307;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;;kilogram;256;Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp;170201;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;;kilogram;257;Träavfall – behandlat, utan tapet, plastmatta, tjärpapp;170201;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+MISSING;no Taxepunkter row;6.1.2;Tryckimpregnerat virke, pall;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+COVERED;section+tax_point;6.1.2;Betong, lättbetong;;kilogram;259;Betong, lättbetong;170101;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Gips, gipsskivor;;kilogram;260;Gips, gipsskivor;170802;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Tegel;;kilogram;261;Tegel;170102;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Fönster- och planglas utan karm;;kilogram;262;Fönster- och planglas utan karm;170202;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Fönster med karm;;;263;Fönster med karm;;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Plast;;kilogram;264;Plast;;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Isolering utan innehåll av asbest;;m³;265;Isolering utan innehåll av asbest;170604;kr/m3;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Klinker, keramik, porslin;;kilogram;266;Klinker, keramik, porslin;170103;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Handfat;;styck;267;Handfat;170103;kr/st;;Variant/enhet skiljer men Word-taxan finns som egen rad
+MISSING;no Taxepunkter row;6.1.2;WC-stol;;styck;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+COVERED;section+tax_point;6.1.2;Metall;;kilogram;269;Metall;200140;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Textilier;;kilogram;270;Textilier;;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Fiskeredskap;;kilogram;271;Fiskeredskap;;kr/kg;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Ätbart fett/frityrolja;;liter;272;Ätbart fett/frityrolja;;kr/l;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Kvistar och grenar;;m³;273;Kvistar och grenar;200201;kr/m3;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Jord;;;274;Jord;;kr/m3;;Variant/enhet skiljer men Word-taxan finns som egen rad
+COVERED;section+tax_point;6.1.2;Sten;;;275;Sten;;kr/m3;;Variant/enhet skiljer men Word-taxan finns som egen rad
+MISSING;no Taxepunkter row;6.1.2;Stubbar/rötter för krossning;;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Flera fraktioner för egen sortering på ramp (max 2 m³);;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall);;;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Tonerkassetter, utan elektronik/chip;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Oljeemulsion, emballerat;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Förorenad olja innehållande PCB;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Oljeavskiljarslam;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Diesel;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Bensinrester;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Hydralslang, med/utan koppling;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Förpackningar, tömde ej rengjorda;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Oljeavfall, fast osorterat emba;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Absorbermedel, filtermaterial;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Oljefilter;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Bromsvätska;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Transformator, kondensator med PCB;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Fogskum;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Halon;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Koldioxid;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Brandsläckare;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Helium;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Tändare;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Syrgas;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Oxiderande fast ämne/vätska;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Klorex;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Aerosoler isocyanat, bekämpning;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Gasol inkl tub;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Gasol, blå programmet;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Giftig organisk vätska;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Småkemikalier, ej Hg-haltiga;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Giftig oorganisk vätska;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Oxidationsmedel, flytande;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Asbest, emballerat;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Smittförande avfall;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Lösningsmedel;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Väteperoxid;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Flourvätesyra;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Svavelsyra;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Salpetersyra;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Surt oorganisk fast ämne;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Surt organisk fast ämne;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Surt oorganisk vätska;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Surt organisk vätska;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Ammoniaklösning;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Alkaliskt avfall fast;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Basiskt organiskt fast/flytande;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Fotokemikalier;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Bekämpningsmedel aerosoler;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Bekämpningsmedel fast;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Bekämpningsmedel flytande;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Kvicksilverhaltigt avfall;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Kvicksilver i föremål;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Oljehaltigt avfall (ej PCB);;liter;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Olja förorenad (ej PCB);;liter;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Färg-, lack-, limburkar lösning;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Färg-, lack-, limburkar lösning aerosoler;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Isocyanater;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Härdare metyl- etylketonperoxid;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Härdare dibenzoylperoxid;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Färg-,lack-, limburkar vattenbaserade;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Tensida alkaliska flytande avfall;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Rengöring/vaskmedel fast;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Alkaliska flytande avfall;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Cytotoxiska läkemedel, cytostat;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Rökdetektor med andra isotoper;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Rökdetektor med Am 241;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Batterier stav, pencell;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Batterier lithium;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Bil-, mcbatteri med bly;;styck;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Glödlampor;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Lysrör;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Elavfall, små elektronik;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;El-avfall fast installation;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;El-avfall kabel;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Toner, färgpatron med elektronik;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Tv, radio, skärm, skrivare utan färgpatron;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Kyl-, frysskåp, -box;;styck;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Kyl-, frysskåp, -box från verksamhet;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Spis, tvätt-, diskmaskin;;styck;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.2;Spis, tvätt-, diskmaskin från verksamhet;;kilogram;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.3;Container X m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.3;Container X m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.3;Container X m3;;m³;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.3;Omklassning av felsorterad container;;container;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.4;Okänt farligt avfall (säkerhetsdatablad saknas);;fraktion;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.4;Ombud för rapportering av farligt avfall i Avfallsregistret;;tillfälle;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.4;Administrativ rapporteringsavgift till Avfallsregistret;;tillfälle;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+MISSING;no Taxepunkter row;6.1.4;Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen;;tillfälle;;;;;;Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP

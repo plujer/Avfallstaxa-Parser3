@@ -5,250 +5,250 @@ Alla taxor som hittas i Word måste finnas som egen rad i Taxepunkter.
 Detta gäller oavsett om Taxa_från_edp är tom eller saknar matchning.
 
 Total parser rows: 241
-COVERED: 238
-REVIEW: 3
-MISSING: 0
-Passed: True
+COVERED: 67
+REVIEW: 23
+MISSING: 151
+Passed: False
 
 Details:
-- COVERED | exact row | 2.1 | En- och tvåbostadshus | excel_row=2 tax_code=1 650,00 kr | 
-- COVERED | exact row | 2.1 | Fritidshus | excel_row=3 tax_code=XX kr | 
-- COVERED | exact row | 2.1 | Verksamhet | excel_row=4 tax_code=XX kr | 
-- COVERED | exact row | 2.1 | Lägenhet i flerbostadshus | excel_row=5 tax_code=XX kr | 
-- COVERED | exact row | 2.1 | Lägenhet för specialändamål | excel_row=6 tax_code=XX kr | 
-- COVERED | exact row | 2.1 | Anläggning | excel_row=7 tax_code=XX kr | 
-- COVERED | exact row | 2.1 | Säsongsbaserad uppställningsplats | excel_row=8 tax_code=XX kr | 
-- COVERED | exact row | 2.1 | Campingstuga/-lägenhet | excel_row=9 tax_code=XX kr | 
-- COVERED | exact row | 2.2.1 | Kärl 240 l (mat-/restavfall) | excel_row=10 tax_code=XX kr | 
-- COVERED | exact row | 2.2.1 | Extrakärl 190 l (restavfall) | excel_row=11 tax_code=XX kr | 
-- COVERED | exact row | 2.2.2 | Kärl 240 l (mat-/restavfall) | excel_row=12 tax_code=XX kr | 
-- COVERED | exact row | 2.2.2 | Extrakärl 190 l (restavfall) | excel_row=13 tax_code=XX kr | 
-- COVERED | exact row | 2.2.3 | Gemensam uppsamlingsplats för mat-/restavfall | excel_row=14 tax_code=XX kr | 
-- COVERED | exact row | 2.2.3 | Extra digital licens (årskostnad) | excel_row=15 tax_code=XX kr | 
-- COVERED | exact row | 2.2.3 | Fysisk nyckel, kallad fob (engångskostnad) | excel_row=16 tax_code=XX kr | 
-- COVERED | exact row | 2.2.3 | Byte av telefonnummer kopplat till licens | excel_row=17 tax_code=XX kr | 
-- COVERED | exact row | 2.2.3 | Kostnad för öppning av behållare | excel_row=18 tax_code=XX kr | 
-- COVERED | exact row | 2.2.4 | Kärl 240 l (mat-/restavfall) | excel_row=19 tax_code=XX kr | 
-- COVERED | exact row | 2.2.4 | Kärl 370 l (restavfall) | excel_row=20 tax_code=XX kr | 
-- COVERED | exact row | 2.2.4 | Kärl 660 l (restavfall) | excel_row=21 tax_code=XX kr | 
-- COVERED | exact row | 2.2.4 | Kärl 140 l (matavfall) | excel_row=22 tax_code=XX kr | 
-- COVERED | exact row | 2.2.4 | Kärl 190 l (förpackningar) | excel_row=23 tax_code=XX kr | 
-- COVERED | exact row | 2.2.4 | Kärl 370 l (förpackningar) | excel_row=24 tax_code=XX kr | 
-- COVERED | exact row | 2.2.4 | Kärl 660 l (förpackningar) | excel_row=25 tax_code=XX kr | 
-- COVERED | exact row | 2.2.4 | Kärl 190 l (tidningar och returpapper) | excel_row=26 tax_code=XX kr | 
-- COVERED | exact row | 2.2.4 | Kärl 370 l (tidningar och returpapper) | excel_row=27 tax_code=XX kr | 
-- COVERED | exact row | 2.2.4 | (mat-/restavfall, förpackningar) | excel_row=28 tax_code=XX kr | 
-- COVERED | exact row | 2.2.5 | Kärl 240 l (mat-/restavfall) | excel_row=29 tax_code=XX kr | 
-- COVERED | exact row | 2.2.5 | Kärl 370 l (restavfall) | excel_row=30 tax_code=XX kr | 
-- COVERED | exact row | 2.2.5 | Kärl 660 l (restavfall) | excel_row=31 tax_code=XX kr | 
-- COVERED | exact row | 2.2.5 | Kärl 140 l (matavfall) | excel_row=32 tax_code=XX kr | 
-- COVERED | exact row | 2.2.5 | Bottentömmande behållare (mat-/restavfall) | excel_row=33 tax_code=XX kr | 
-- COVERED | exact row | 2.2.5 | Lastväxlarflak (restavfall) | excel_row=34 tax_code=XX kr | 
-- COVERED | exact row | 2.2.6 | Kärl 240 l (mat-/restavfall) | excel_row=35 tax_code=XX kr | 
-- COVERED | exact row | 2.2.6 | Kärl 370 l (restavfall) | excel_row=36 tax_code=XX kr | 
-- COVERED | exact row | 2.2.6 | Kärl 660 l (restavfall) | excel_row=37 tax_code=XX kr | 
-- COVERED | exact row | 2.2.6 | Kärl 140 l (matavfall) | excel_row=38 tax_code=XX kr | 
-- COVERED | exact row | 2.2.6 | Bottentömmande behållare (mat-/restavfall) | excel_row=39 tax_code=XX kr | 
-- COVERED | exact row | 2.2.6 | Lastväxlarflak (restavfall) | excel_row=40 tax_code=XX kr | 
-- COVERED | exact row | 2.2.7 | Kärl 140 l (kontors-/returpapper) | excel_row=41 tax_code=XX kr | 
-- COVERED | exact row | 2.2.7 | Egen överlämning av förbrukat kontors-/returpapper enligt anvisning | excel_row=42 tax_code=XX kr | 
-- COVERED | exact row | 2.2.7 | Egen överlämning av förbrukat matfett enligt anvisning | excel_row=43 tax_code=XX kr | 
-- COVERED | exact row | 2.3 | Viktavgift matavfall | excel_row=44 tax_code=XX kr | 
-- COVERED | exact row | 2.3 | Viktavgift restavfall | excel_row=45 tax_code=XX kr | 
-- COVERED | exact row | 2.3 | Lyftavgift kärl | excel_row=46 tax_code=XX kr | 
-- COVERED | exact row | 2.4.1 | Fakturavgift | excel_row=47 tax_code=XX kr | 
-- COVERED | exact row | 2.4.2 | Delat kärl 240 l matavfall 40 kg | excel_row=48 tax_code=XX kr | 
-- COVERED | exact row | 2.4.2 | Delat kärl 240 l restavfall 40 kg | excel_row=49 tax_code=XX kr | 
-- COVERED | exact row | 2.4.2 | Extra kärl 140 l matavfall 60 kg | excel_row=50 tax_code=XX kr | 
-- COVERED | exact row | 2.4.2 | Extra kärl 140-190 l restavfall 60 kg | excel_row=51 tax_code=XX kr | 
-- COVERED | exact row | 2.4.2 | Kärl 370 l restavfall 60 kg | excel_row=52 tax_code=XX kr | 
-- COVERED | exact row | 2.4.2 | Kärl 660 l restavfall 100 kg | excel_row=53 tax_code=XX kr | 
-- COVERED | exact row | 2.4.3 | Överfullt kärl | excel_row=54 tax_code=XX kr | 
-- COVERED | exact row | 2.4.3 | Överfull bottentömmande behållare | excel_row=55 tax_code=XX kr | 
-- COVERED | exact row | 2.4.4 | Byte av trasigt kärl vid oaktsamhet | excel_row=56 tax_code=XX kr | 
-- COVERED | exact row | 2.4.5 | Byte/återtag av kärl en (1) ggr/år 140–240 liter | excel_row=57 tax_code=XX kr | 
-- COVERED | exact row | 2.4.5 | Byte/återtag av kärl en (1) ggr/år 370–660 liter | excel_row=58 tax_code=XX kr | 
-- COVERED | exact row | 2.4.5 | Ytterligare byte av kärl under kalenderåret | excel_row=59 tax_code=XX kr | 
-- COVERED | exact row | 2.4.6 | Kärl | excel_row=60 tax_code=XX kr | 
-- COVERED | exact row | 2.4.6 | Bottentömmande behållare | excel_row=61 tax_code=XX kr | 
-- COVERED | exact row | 2.4.7 | Kärl 140-660 L 1,5-10 | excel_row=62 tax_code=XX kr | 
-- COVERED | exact row | 2.4.7 | Kärl 140-660 L 10-20 | excel_row=63 tax_code=XX kr | 
-- COVERED | exact row | 2.4.7 | Kärl 140-660 L 20-30 | excel_row=64 tax_code=XX kr | 
-- COVERED | exact row | 2.4.7 | Avfallsport/dörr | excel_row=65 tax_code=XX kr | 
-- COVERED | exact row | 2.4.7 | Låst dörr, med kod | excel_row=66 tax_code=XX kr | 
-- COVERED | exact row | 2.4.8 | Kärl 140 l matavfall | excel_row=67 tax_code=XX kr | 
-- COVERED | exact row | 2.4.8 | Kärl 190 l restavfall | excel_row=68 tax_code=XX kr | 
-- COVERED | exact row | 2.4.8 | Kärl 370 l restavfall | excel_row=69 tax_code=XX kr | 
-- COVERED | exact row | 2.4.8 | Kärl 660 l restavfall | excel_row=70 tax_code=XX kr | 
-- COVERED | exact row | 2.4.8 | Bottentömmande behållare | excel_row=71 tax_code=XX kr | 
-- COVERED | exact row | 2.4.9 | Sidlastande fordon | excel_row=72 tax_code=XX kr | 
-- COVERED | exact row | 2.4.9 | Bottentömmande fordon | excel_row=73 tax_code=XX kr | 
-- COVERED | exact row | 2.4.9 | Tömningsavgift per behållare | excel_row=74 tax_code=XX kr | 
-- COVERED | exact row | 2.4.10 | Betalsäck | excel_row=75 tax_code=XX kr | 
-- COVERED | exact row | 2.4.10 | Akutsäck | excel_row=76 tax_code=XX kr | 
-- COVERED | exact row | 2.4.11 | Matavfallspåsar 9 L | excel_row=77 tax_code=XX kr | 
-- COVERED | exact row | 2.4.11 | Matavfallspåsar 22 L | excel_row=78 tax_code=XX kr | 
-- COVERED | exact row | 2.4.11 | Gravitationslås till kärl | excel_row=79 tax_code=XX kr | 
-- COVERED | exact row | 2.4.11 | Extra nyckel till gravitationslås | excel_row=80 tax_code=XX kr | 
-- COVERED | exact row | 2.5.1 | Kommunalt avfall | excel_row=81 tax_code=XX kr | 
-- COVERED | exact row | 2.5.1 | Farligt avfall (ej uppmärkt) | excel_row=82 tax_code=XX kr | 
-- COVERED | exact row | 2.5.1 | Farligt avfall (uppmärkt) | excel_row=83 tax_code=XX kr | 
-- COVERED | exact row | 2.5.1 | Avisering av ankomst | excel_row=84 tax_code=XX kr | 
-- COVERED | exact row | 3.1 | Upp till 3 m3 | excel_row=85 tax_code=XX kr | 
-- COVERED | exact row | 3.1 | Mellan 3 m3 och 6 m3 | excel_row=86 tax_code=XX kr | 
-- COVERED | exact row | 3.1 | Mellan 6 m3 och 9 m3 | excel_row=87 tax_code=XX kr | 
-- COVERED | exact row | 3.1 | Tillägg per m3 över 9 m3 | excel_row=88 tax_code=XX kr | 
-- COVERED | exact row | 3.1 | Bad-, disk- och tvättbrunn upp till 3 m3 | excel_row=89 tax_code=XX kr | 
-- COVERED | exact row | 3.1 | Tillägg per m3 över 3 m3 | excel_row=90 tax_code=XX kr | 
-- COVERED | exact row | 3.2 | Dragning av extra slang vid 5-25 m | excel_row=91 tax_code=XX kr | 
-- COVERED | exact row | 3.2 | Dragning av extra slang vid 25-35 m | excel_row=92 tax_code=XX kr | 
-- COVERED | exact row | 3.2 | Dragning av extra slang vid 36-45 m | excel_row=93 tax_code=XX kr | 
-- COVERED | exact row | 3.2 | Dragning av extra slang vid 46-55 m | excel_row=94 tax_code=XX kr | 
-- COVERED | exact row | 3.2 | Hantering av brunnslock som väger 15-25 kg | excel_row=95 tax_code=XX kr | 
-- COVERED | exact row | 3.2 | Krav på information om tömningstid | excel_row=96 tax_code=XX kr | 
-- COVERED | exact row | 3.2 | Krav på närvaro vid specificerad tömningstid | excel_row=97 tax_code=XX kr | 
-- COVERED | exact row | 3.2 | Hantering av kod för kodlås vid slamtömning | excel_row=98 tax_code=XX kr | 
-- COVERED | exact row | 3.2 | Hetvattentvätt med spolbil, timersättning | excel_row=99 tax_code=XX kr | 
-- COVERED | exact row | 3.2 | Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3 | excel_row=100 tax_code=XX kr | 
-- COVERED | exact row | 3.3 | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) | excel_row=101 tax_code=XX kr | 
-- COVERED | exact row | 3.3 | Budning utanför ordinarie tömningsperiod (1 nov – 30 april) | excel_row=102 tax_code=XX kr | 
-- COVERED | exact row | 3.3 | Tömning av toalettvagnar eller liknande /styck | excel_row=103 tax_code=XX kr | 
-- COVERED | exact row | 3.4 | Latrinbehållare 37 liter inkl. mottagning och behandling | excel_row=104 tax_code=XX kr | 
-- COVERED | exact row | 4.1 | Filtermassor upp till 500 kg | excel_row=105 tax_code=XX kr | 
-- COVERED | exact row | 4.1 | Filtermassor 500-1000 kg | excel_row=106 tax_code=XX kr | 
-- COVERED | exact row | 4.2 | Krav på information om hämtningstid | excel_row=107 tax_code=XX kr | 
-- COVERED | exact row | 4.2 | Krav på närvaro vid specificerad hämtningstid | excel_row=108 tax_code=XX kr | 
-- COVERED | exact row | 4.2 | Hantering av kod för kodlås | excel_row=109 tax_code=XX kr | 
-- COVERED | exact row | 5.1 | Upp till 3 m3 | excel_row=110 tax_code=XX kr | 
-- COVERED | exact row | 5.1 | Mellan 3 m3 och 6 m3 | excel_row=111 tax_code=XX kr | 
-- COVERED | exact row | 5.1 | Över 6 m3 | excel_row=112 tax_code=XX kr | 
-- COVERED | exact row | 5.2 | Dragning av extra slang vid 5-25 m | excel_row=113 tax_code=XX kr | 
-- COVERED | exact row | 5.2 | Dragning av extra slang vid 25-35 m | excel_row=114 tax_code=XX kr | 
-- COVERED | exact row | 5.2 | Dragning av extra slang vid 36-45 m | excel_row=115 tax_code=XX kr | 
-- COVERED | exact row | 5.2 | Dragning av extra slang vid 46-55 m | excel_row=116 tax_code=XX kr | 
-- COVERED | exact row | 5.2 | Hantering av brunnslock som väger 15-25 kg | excel_row=117 tax_code=XX kr | 
-- COVERED | exact row | 5.2 | Krav på information om tömningstid | excel_row=118 tax_code=XX kr | 
-- COVERED | exact row | 5.2 | Krav på närvaro vid specificerad tömningstid | excel_row=119 tax_code=XX kr | 
-- COVERED | exact row | 5.2 | Hantering av kod för kodlås vid tömning | excel_row=120 tax_code=XX kr | 
-- COVERED | exact row | 5.2 | Hetvattentvätt med spolbil, timersättning | excel_row=121 tax_code=XX kr | 
-- COVERED | exact row | 5.2 | Silikontätning per lock | excel_row=122 tax_code=XX kr | 
-- COVERED | exact row | 5.2 | Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3 | excel_row=123 tax_code=XX kr | 
-- COVERED | exact row | 5.3 | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) | excel_row=124 tax_code=XX kr | 
-- COVERED | exact row | 5.3 | Budning utanför ordinarie tömningsperiod | excel_row=125 tax_code=XX kr | 
-- COVERED | exact row | 6.1.1 | Verksamheter | excel_row=126 tax_code=XX kr | 
-- COVERED | exact row | 6.1.1 | Övriga abonnemangstyper | excel_row=127 tax_code=XX kr | 
-- COVERED | exact row | 6.1.1 | Vågkort | excel_row=128 tax_code=XX kr | 
-- COVERED | exact row | 6.1.1 | Borttappat vågkort | excel_row=129 tax_code=XX kr | 
-- COVERED | exact row | 6.1.1 | Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst) | excel_row=130 tax_code=XX kr | 
-- COVERED | exact row | 6.1.1 | Ej redovisad eller fel redovisad fraktion av avfall | excel_row=131 tax_code=XXXX kr | 
-- COVERED | exact row | 6.1.2 | Avfall till energiåtervinning (240 L sopsäck) | excel_row=132 tax_code= | 
-- COVERED | exact row | 6.1.2 | Avfall till energiåtervinning | excel_row=133 tax_code= | 
-- COVERED | exact row | 6.1.2 | Skrymmande avfall till energiåtervinning större än 20×20×80 | excel_row=134 tax_code= | 
-- COVERED | exact row | 6.1.2 | Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp | excel_row=135 tax_code= | 
-- COVERED | exact row | 6.1.2 | Träavfall – behandlat, utan tapet, plastmatta, tjärpapp | excel_row=136 tax_code= | 
-- COVERED | exact row | 6.1.2 | Tryckimpregnerat virke, pall | excel_row=137 tax_code= | 
-- COVERED | exact row | 6.1.2 | Betong, lättbetong | excel_row=138 tax_code= | 
-- COVERED | exact row | 6.1.2 | Gips, gipsskivor | excel_row=139 tax_code= | 
-- COVERED | exact row | 6.1.2 | Tegel | excel_row=140 tax_code= | 
-- COVERED | exact row | 6.1.2 | Fönster- och planglas utan karm | excel_row=141 tax_code= | 
-- COVERED | exact row | 6.1.2 | Fönster med karm | excel_row=142 tax_code= | 
-- COVERED | exact row | 6.1.2 | Plast | excel_row=143 tax_code= | 
-- COVERED | exact row | 6.1.2 | Isolering utan innehåll av asbest | excel_row=144 tax_code= | 
-- COVERED | exact row | 6.1.2 | Klinker, keramik, porslin | excel_row=145 tax_code= | 
-- COVERED | exact row | 6.1.2 | Handfat | excel_row=146 tax_code= | 
-- COVERED | exact row | 6.1.2 | WC-stol | excel_row=147 tax_code= | 
-- COVERED | exact row | 6.1.2 | Metall | excel_row=148 tax_code= | 
-- COVERED | exact row | 6.1.2 | Textilier | excel_row=149 tax_code= | 
-- COVERED | exact row | 6.1.2 | Fiskeredskap | excel_row=150 tax_code= | 
-- COVERED | exact row | 6.1.2 | Ätbart fett/frityrolja | excel_row=151 tax_code= | 
-- COVERED | exact row | 6.1.2 | Kvistar och grenar | excel_row=152 tax_code= | 
-- COVERED | exact row | 6.1.2 | Jord | excel_row=153 tax_code= | 
-- COVERED | exact row | 6.1.2 | Sten | excel_row=154 tax_code= | 
-- COVERED | exact row | 6.1.2 | Stubbar/rötter för krossning | excel_row=155 tax_code= | 
-- COVERED | exact row | 6.1.2 | Flera fraktioner för egen sortering på ramp (max 2 m³) | excel_row=156 tax_code= | 
-- COVERED | exact row | 6.1.2 | Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) | excel_row=157 tax_code= | 
-- COVERED | exact row | 6.1.2 | Tonerkassetter, utan elektronik/chip | excel_row=158 tax_code=31,88 | 
-- COVERED | exact row | 6.1.2 | Oljeemulsion, emballerat | excel_row=159 tax_code=20,81 | 
-- COVERED | exact row | 6.1.2 | Förorenad olja innehållande PCB | excel_row=160 tax_code=38,25 | 
-- COVERED | exact row | 6.1.2 | Oljeavskiljarslam | excel_row=161 tax_code=6,56 | 
-- COVERED | exact row | 6.1.2 | Diesel | excel_row=162 tax_code=21,94 | 
-- COVERED | exact row | 6.1.2 | Bensinrester | excel_row=163 tax_code=21,94 | 
-- COVERED | exact row | 6.1.2 | Hydralslang, med/utan koppling | excel_row=164 tax_code=33,94 | 
-- COVERED | exact row | 6.1.2 | Förpackningar, tömde ej rengjorda | excel_row=165 tax_code=25,50 | 
-- COVERED | exact row | 6.1.2 | Oljeavfall, fast osorterat emba | excel_row=166 tax_code=23,44 | 
-- COVERED | exact row | 6.1.2 | Absorbermedel, filtermaterial | excel_row=167 tax_code=15,38 | 
-- COVERED | exact row | 6.1.2 | Oljefilter | excel_row=168 tax_code=15,38 | 
-- COVERED | exact row | 6.1.2 | Bromsvätska | excel_row=169 tax_code=11,44 | 
-- COVERED | exact row | 6.1.2 | Transformator, kondensator med PCB | excel_row=170 tax_code=84,94 | 
-- COVERED | exact row | 6.1.2 | Fogskum | excel_row=171 tax_code=90,00 | 
-- COVERED | exact row | 6.1.2 | Halon | excel_row=172 tax_code=127,50 | 
-- COVERED | exact row | 6.1.2 | Koldioxid | excel_row=173 tax_code=112,13 | 
-- COVERED | exact row | 6.1.2 | Brandsläckare | excel_row=174 tax_code=91,69 | 
-- COVERED | exact row | 6.1.2 | Helium | excel_row=175 tax_code=117,19 | 
-- COVERED | exact row | 6.1.2 | Tändare | excel_row=176 tax_code=127,50 | 
-- COVERED | exact row | 6.1.2 | Syrgas | excel_row=177 tax_code=117,19 | 
-- COVERED | exact row | 6.1.2 | Oxiderande fast ämne/vätska | excel_row=178 tax_code=103,31 | 
-- COVERED | exact row | 6.1.2 | Klorex | excel_row=179 tax_code=103,31 | 
-- COVERED | exact row | 6.1.2 | Aerosoler isocyanat, bekämpning | excel_row=180 tax_code=101,06 | 
-- COVERED | exact row | 6.1.2 | Gasol inkl tub | excel_row=181 tax_code=102,00 | 
-- COVERED | exact row | 6.1.2 | Gasol, blå programmet | excel_row=182 tax_code=169,88 | 
-- COVERED | exact row | 6.1.2 | Giftig organisk vätska | excel_row=183 tax_code=103,31 | 
-- COVERED | exact row | 6.1.2 | Småkemikalier, ej Hg-haltiga | excel_row=184 tax_code=103,31 | 
-- COVERED | exact row | 6.1.2 | Giftig oorganisk vätska | excel_row=185 tax_code=103,31 | 
-- COVERED | exact row | 6.1.2 | Oxidationsmedel, flytande | excel_row=186 tax_code=103,31 | 
-- COVERED | exact row | 6.1.2 | Asbest, emballerat | excel_row=187 tax_code=22,88 | 
-- COVERED | exact row | 6.1.2 | Smittförande avfall | excel_row=188 tax_code=40,31 | 
-- COVERED | exact row | 6.1.2 | Lösningsmedel | excel_row=189 tax_code=20,63 | 
-- COVERED | exact row | 6.1.2 | Väteperoxid | excel_row=190 tax_code=103,31 | 
-- COVERED | exact row | 6.1.2 | Flourvätesyra | excel_row=191 tax_code=81,38 | 
-- COVERED | exact row | 6.1.2 | Svavelsyra | excel_row=192 tax_code=81,38 | 
-- COVERED | exact row | 6.1.2 | Salpetersyra | excel_row=193 tax_code=81,38 | 
-- COVERED | exact row | 6.1.2 | Surt oorganisk fast ämne | excel_row=194 tax_code=103,31 | 
-- COVERED | exact row | 6.1.2 | Surt organisk fast ämne | excel_row=195 tax_code=127,50 | 
-- COVERED | exact row | 6.1.2 | Surt oorganisk vätska | excel_row=196 tax_code=127,50 | 
-- COVERED | exact row | 6.1.2 | Surt organisk vätska | excel_row=197 tax_code=127,50 | 
-- COVERED | exact row | 6.1.2 | Ammoniaklösning | excel_row=198 tax_code=63,38 | 
-- COVERED | exact row | 6.1.2 | Alkaliskt avfall fast | excel_row=199 tax_code=27,75 | 
-- COVERED | exact row | 6.1.2 | Basiskt organiskt fast/flytande | excel_row=200 tax_code=46,50 | 
-- COVERED | exact row | 6.1.2 | Fotokemikalier | excel_row=201 tax_code=38,25 | 
-- COVERED | exact row | 6.1.2 | Bekämpningsmedel aerosoler | excel_row=202 tax_code=73,69 | 
-- COVERED | exact row | 6.1.2 | Bekämpningsmedel fast | excel_row=203 tax_code=85,88 | 
-- COVERED | exact row | 6.1.2 | Bekämpningsmedel flytande | excel_row=204 tax_code=61,69 | 
-- COVERED | exact row | 6.1.2 | Kvicksilverhaltigt avfall | excel_row=205 tax_code=1 034,81 | 
-- COVERED | exact row | 6.1.2 | Kvicksilver i föremål | excel_row=206 tax_code=1 034,81 | 
-- COVERED | exact row | 6.1.2 | Oljehaltigt avfall (ej PCB) | excel_row=207 tax_code=15,94 | 
-- COVERED | exact row | 6.1.2 | Olja förorenad (ej PCB) | excel_row=208 tax_code=23,44 | 
-- COVERED | exact row | 6.1.2 | Färg-, lack-, limburkar lösning | excel_row=209 tax_code=19,88 | 
-- COVERED | exact row | 6.1.2 | Färg-, lack-, limburkar lösning aerosoler | excel_row=210 tax_code=43,31 | 
-- COVERED | exact row | 6.1.2 | Isocyanater | excel_row=211 tax_code=103,88 | 
-- COVERED | exact row | 6.1.2 | Härdare metyl- etylketonperoxid | excel_row=212 tax_code=109,88 | 
-- COVERED | exact row | 6.1.2 | Härdare dibenzoylperoxid | excel_row=213 tax_code=114,38 | 
-- COVERED | exact row | 6.1.2 | Färg-,lack-, limburkar vattenbaserade | excel_row=214 tax_code=15,38 | 
-- COVERED | exact row | 6.1.2 | Tensida alkaliska flytande avfall | excel_row=215 tax_code=25,50 | 
-- COVERED | exact row | 6.1.2 | Rengöring/vaskmedel fast | excel_row=216 tax_code=27,19 | 
-- COVERED | exact row | 6.1.2 | Alkaliska flytande avfall | excel_row=217 tax_code=27,75 | 
-- COVERED | exact row | 6.1.2 | Cytotoxiska läkemedel, cytostat | excel_row=218 tax_code=64,88 | 
-- COVERED | exact row | 6.1.2 | Rökdetektor med andra isotoper | excel_row=219 tax_code=1 911,75 | 
-- COVERED | exact row | 6.1.2 | Rökdetektor med Am 241 | excel_row=220 tax_code=1 911,75 | 
-- COVERED | exact row | 6.1.2 | Batterier stav, pencell | excel_row=221 tax_code=0,00 | 
-- COVERED | exact row | 6.1.2 | Batterier lithium | excel_row=222 tax_code=0,00 | 
-- COVERED | exact row | 6.1.2 | Bil-, mcbatteri med bly | excel_row=223 tax_code=0,00 | 
-- COVERED | exact row | 6.1.2 | Glödlampor | excel_row=224 tax_code=0,00 | 
-- COVERED | exact row | 6.1.2 | Lysrör | excel_row=225 tax_code=0,00 | 
-- COVERED | exact row | 6.1.2 | Elavfall, små elektronik | excel_row=226 tax_code=0,00 | 
-- COVERED | exact row | 6.1.2 | El-avfall fast installation | excel_row=227 tax_code=37,60 | 
-- COVERED | exact row | 6.1.2 | El-avfall kabel | excel_row=228 tax_code=0,00 | 
-- COVERED | exact row | 6.1.2 | Toner, färgpatron med elektronik | excel_row=229 tax_code=37,60 | 
-- COVERED | exact row | 6.1.2 | Tv, radio, skärm, skrivare utan färgpatron | excel_row=230 tax_code=0,00 | 
-- COVERED | exact row | 6.1.2 | Kyl-, frysskåp, -box | excel_row=231 tax_code=0,00 | 
-- COVERED | exact row | 6.1.2 | Kyl-, frysskåp, -box från verksamhet | excel_row=232 tax_code=37,60 | 
-- COVERED | exact row | 6.1.2 | Spis, tvätt-, diskmaskin | excel_row=233 tax_code=0,00 | 
-- COVERED | exact row | 6.1.2 | Spis, tvätt-, diskmaskin från verksamhet | excel_row=234 tax_code=37,60 | 
-- REVIEW | duplicate exact row | 6.1.3 | Container X m3 | excel_row=235 tax_code=XX kr | 3 Taxepunkter rows match same parser row
-- REVIEW | duplicate exact row | 6.1.3 | Container X m3 | excel_row=235 tax_code=XX kr | 3 Taxepunkter rows match same parser row
-- REVIEW | duplicate exact row | 6.1.3 | Container X m3 | excel_row=235 tax_code=XX kr | 3 Taxepunkter rows match same parser row
-- COVERED | exact row | 6.1.3 | Omklassning av felsorterad container | excel_row=238 tax_code=XX kr | 
-- COVERED | exact row | 6.1.4 | Okänt farligt avfall (säkerhetsdatablad saknas) | excel_row=239 tax_code=XXX kr | 
-- COVERED | exact row | 6.1.4 | Ombud för rapportering av farligt avfall i Avfallsregistret | excel_row=240 tax_code=XXX kr | 
-- COVERED | exact row | 6.1.4 | Administrativ rapporteringsavgift till Avfallsregistret | excel_row=241 tax_code=XXX kr | 
-- COVERED | exact row | 6.1.4 | Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen | excel_row=242 tax_code=XXX kr | 
+- COVERED | section+tax_point | 2.1 | En- och tvåbostadshus | excel_row=9 tax_code=GRUNDPER | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.1 | Fritidshus | excel_row=10 tax_code=GRUNDFRI | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.1 | Verksamhet | excel_row=11 tax_code=GRUNDLÄG | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.1 | Lägenhet i flerbostadshus | excel_row=12 tax_code=GRUNDFLB | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.1 | Lägenhet för specialändamål | excel_row=13 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.1 | Anläggning | excel_row=14 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.1 | Säsongsbaserad uppställningsplats | excel_row=15 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.1 | Campingstuga/-lägenhet | excel_row=16 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- REVIEW | multiple section+tax_point rows | 2.2.1 | Kärl 240 l (mat-/restavfall) | excel_row=20 tax_code=KÄ240RM26 | 2 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.1 | Extrakärl 190 l (restavfall) | excel_row=22 tax_code=KÄ190XRM26 | 2 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.2 | Kärl 240 l (mat-/restavfall) | excel_row=26 tax_code=KÄ240RM26 | 2 Taxepunkter rows share section+tax_point
+- COVERED | section+tax_point | 2.2.2 | Extrakärl 190 l (restavfall) | excel_row=28 tax_code=KÄ190XRM26FRI | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.2.3 | Gemensam uppsamlingsplats för mat-/restavfall | excel_row=31 tax_code=GEMUPPFRI | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.2.3 | Extra digital licens (årskostnad) | excel_row=33 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.2.3 | Fysisk nyckel, kallad fob (engångskostnad) | excel_row=34 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.2.3 | Byte av telefonnummer kopplat till licens | excel_row=35 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.2.3 | Kostnad för öppning av behållare | excel_row=36 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 240 l (mat-/restavfall) | excel_row=38 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 370 l (restavfall) | excel_row=41 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 660 l (restavfall) | excel_row=44 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 140 l (matavfall) | excel_row=47 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 190 l (förpackningar) | excel_row=50 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 370 l (förpackningar) | excel_row=53 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 660 l (förpackningar) | excel_row=56 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 190 l (tidningar och returpapper) | excel_row=59 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 370 l (tidningar och returpapper) | excel_row=62 tax_code= | 3 Taxepunkter rows share section+tax_point
+- MISSING | no Taxepunkter row | 2.2.4 | (mat-/restavfall, förpackningar) | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- REVIEW | multiple section+tax_point rows | 2.2.5 | Kärl 240 l (mat-/restavfall) | excel_row=69 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.5 | Kärl 370 l (restavfall) | excel_row=72 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.5 | Kärl 660 l (restavfall) | excel_row=75 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.5 | Kärl 140 l (matavfall) | excel_row=78 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.5 | Bottentömmande behållare (mat-/restavfall) | excel_row=81 tax_code= | 2 Taxepunkter rows share section+tax_point
+- COVERED | section+tax_point | 2.2.5 | Lastväxlarflak (restavfall) | excel_row=82 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 240 l (mat-/restavfall) | excel_row=85 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 370 l (restavfall) | excel_row=88 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 660 l (restavfall) | excel_row=91 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 140 l (matavfall) | excel_row=94 tax_code= | 3 Taxepunkter rows share section+tax_point
+- REVIEW | multiple section+tax_point rows | 2.2.6 | Bottentömmande behållare (mat-/restavfall) | excel_row=97 tax_code= | 2 Taxepunkter rows share section+tax_point
+- COVERED | section+tax_point | 2.2.6 | Lastväxlarflak (restavfall) | excel_row=98 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.2.7 | Kärl 140 l (kontors-/returpapper) | excel_row=101 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.2.7 | Egen överlämning av förbrukat kontors-/returpapper enligt anvisning | excel_row=102 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.2.7 | Egen överlämning av förbrukat matfett enligt anvisning | excel_row=103 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- MISSING | no Taxepunkter row | 2.3 | Viktavgift matavfall | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 2.3 | Viktavgift restavfall | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 2.3 | Lyftavgift kärl | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 2.4.1 | Fakturavgift | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 2.4.2 | Delat kärl 240 l matavfall 40 kg | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 2.4.2 | Delat kärl 240 l restavfall 40 kg | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 2.4.2 | Extra kärl 140 l matavfall 60 kg | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 2.4.2 | Extra kärl 140-190 l restavfall 60 kg | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 2.4.2 | Kärl 370 l restavfall 60 kg | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 2.4.2 | Kärl 660 l restavfall 100 kg | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- COVERED | section+tax_point | 2.4.3 | Överfullt kärl | excel_row=121 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.3 | Överfull bottentömmande behållare | excel_row=122 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.4 | Byte av trasigt kärl vid oaktsamhet | excel_row=124 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- MISSING | no Taxepunkter row | 2.4.5 | Byte/återtag av kärl en (1) ggr/år 140–240 liter | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 2.4.5 | Byte/återtag av kärl en (1) ggr/år 370–660 liter | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- COVERED | section+tax_point | 2.4.5 | Ytterligare byte av kärl under kalenderåret | excel_row=129 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.6 | Kärl | excel_row=131 tax_code=FELSORT | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.6 | Bottentömmande behållare | excel_row=132 tax_code=FELSORT | Variant/enhet skiljer men Word-taxan finns som egen rad
+- MISSING | no Taxepunkter row | 2.4.7 | Kärl 140-660 L 1,5-10 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 2.4.7 | Kärl 140-660 L 10-20 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 2.4.7 | Kärl 140-660 L 20-30 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 2.4.7 | Avfallsport/dörr | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- COVERED | section+tax_point | 2.4.7 | Låst dörr, med kod | excel_row=138 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.8 | Kärl 140 l matavfall | excel_row=140 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.8 | Kärl 190 l restavfall | excel_row=141 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.8 | Kärl 370 l restavfall | excel_row=142 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.8 | Kärl 660 l restavfall | excel_row=143 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- MISSING | no Taxepunkter row | 2.4.8 | Bottentömmande behållare | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- COVERED | section+tax_point | 2.4.9 | Sidlastande fordon | excel_row=146 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.9 | Bottentömmande fordon | excel_row=147 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.9 | Tömningsavgift per behållare | excel_row=148 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.10 | Betalsäck | excel_row=150 tax_code=BETALSÄCK | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.10 | Akutsäck | excel_row=151 tax_code=AKUTSÄCK | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.11 | Matavfallspåsar 9 L | excel_row=153 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.11 | Matavfallspåsar 22 L | excel_row=154 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.11 | Gravitationslås till kärl | excel_row=155 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.4.11 | Extra nyckel till gravitationslås | excel_row=156 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.5.1 | Kommunalt avfall | excel_row=159 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 2.5.1 | Farligt avfall (ej uppmärkt) | excel_row=160 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- REVIEW | multiple section+tax_point rows | 2.5.1 | Farligt avfall (uppmärkt) | excel_row=161 tax_code= | 2 Taxepunkter rows share section+tax_point
+- MISSING | no Taxepunkter row | 2.5.1 | Avisering av ankomst | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.1 | Upp till 3 m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.1 | Mellan 3 m3 och 6 m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.1 | Mellan 6 m3 och 9 m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.1 | Tillägg per m3 över 9 m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.1 | Bad-, disk- och tvättbrunn upp till 3 m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.1 | Tillägg per m3 över 3 m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.2 | Dragning av extra slang vid 5-25 m | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.2 | Dragning av extra slang vid 25-35 m | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.2 | Dragning av extra slang vid 36-45 m | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.2 | Dragning av extra slang vid 46-55 m | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.2 | Hantering av brunnslock som väger 15-25 kg | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.2 | Krav på information om tömningstid | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.2 | Krav på närvaro vid specificerad tömningstid | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.2 | Hantering av kod för kodlås vid slamtömning | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.2 | Hetvattentvätt med spolbil, timersättning | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.2 | Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.3 | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.3 | Budning utanför ordinarie tömningsperiod (1 nov – 30 april) | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.3 | Tömning av toalettvagnar eller liknande /styck | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 3.4 | Latrinbehållare 37 liter inkl. mottagning och behandling | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 4.1 | Filtermassor upp till 500 kg | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 4.1 | Filtermassor 500-1000 kg | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 4.2 | Krav på information om hämtningstid | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 4.2 | Krav på närvaro vid specificerad hämtningstid | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 4.2 | Hantering av kod för kodlås | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.1 | Upp till 3 m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.1 | Mellan 3 m3 och 6 m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.1 | Över 6 m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.2 | Dragning av extra slang vid 5-25 m | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.2 | Dragning av extra slang vid 25-35 m | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.2 | Dragning av extra slang vid 36-45 m | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.2 | Dragning av extra slang vid 46-55 m | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.2 | Hantering av brunnslock som väger 15-25 kg | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.2 | Krav på information om tömningstid | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.2 | Krav på närvaro vid specificerad tömningstid | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.2 | Hantering av kod för kodlås vid tömning | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.2 | Hetvattentvätt med spolbil, timersättning | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.2 | Silikontätning per lock | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.2 | Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.3 | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 5.3 | Budning utanför ordinarie tömningsperiod | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- COVERED | section+tax_point | 6.1.1 | Verksamheter | excel_row=246 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.1 | Övriga abonnemangstyper | excel_row=247 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.1 | Vågkort | excel_row=248 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.1 | Borttappat vågkort | excel_row=249 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- MISSING | no Taxepunkter row | 6.1.1 | Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst) | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- COVERED | section+tax_point | 6.1.1 | Ej redovisad eller fel redovisad fraktion av avfall | excel_row=251 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Avfall till energiåtervinning (240 L sopsäck) | excel_row=253 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Avfall till energiåtervinning | excel_row=254 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Skrymmande avfall till energiåtervinning större än 20×20×80 | excel_row=255 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp | excel_row=256 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Träavfall – behandlat, utan tapet, plastmatta, tjärpapp | excel_row=257 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- MISSING | no Taxepunkter row | 6.1.2 | Tryckimpregnerat virke, pall | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- COVERED | section+tax_point | 6.1.2 | Betong, lättbetong | excel_row=259 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Gips, gipsskivor | excel_row=260 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Tegel | excel_row=261 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Fönster- och planglas utan karm | excel_row=262 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Fönster med karm | excel_row=263 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Plast | excel_row=264 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Isolering utan innehåll av asbest | excel_row=265 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Klinker, keramik, porslin | excel_row=266 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Handfat | excel_row=267 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- MISSING | no Taxepunkter row | 6.1.2 | WC-stol | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- COVERED | section+tax_point | 6.1.2 | Metall | excel_row=269 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Textilier | excel_row=270 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Fiskeredskap | excel_row=271 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Ätbart fett/frityrolja | excel_row=272 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Kvistar och grenar | excel_row=273 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Jord | excel_row=274 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- COVERED | section+tax_point | 6.1.2 | Sten | excel_row=275 tax_code= | Variant/enhet skiljer men Word-taxan finns som egen rad
+- MISSING | no Taxepunkter row | 6.1.2 | Stubbar/rötter för krossning | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Flera fraktioner för egen sortering på ramp (max 2 m³) | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Tonerkassetter, utan elektronik/chip | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Oljeemulsion, emballerat | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Förorenad olja innehållande PCB | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Oljeavskiljarslam | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Diesel | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Bensinrester | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Hydralslang, med/utan koppling | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Förpackningar, tömde ej rengjorda | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Oljeavfall, fast osorterat emba | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Absorbermedel, filtermaterial | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Oljefilter | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Bromsvätska | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Transformator, kondensator med PCB | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Fogskum | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Halon | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Koldioxid | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Brandsläckare | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Helium | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Tändare | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Syrgas | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Oxiderande fast ämne/vätska | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Klorex | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Aerosoler isocyanat, bekämpning | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Gasol inkl tub | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Gasol, blå programmet | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Giftig organisk vätska | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Småkemikalier, ej Hg-haltiga | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Giftig oorganisk vätska | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Oxidationsmedel, flytande | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Asbest, emballerat | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Smittförande avfall | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Lösningsmedel | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Väteperoxid | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Flourvätesyra | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Svavelsyra | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Salpetersyra | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Surt oorganisk fast ämne | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Surt organisk fast ämne | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Surt oorganisk vätska | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Surt organisk vätska | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Ammoniaklösning | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Alkaliskt avfall fast | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Basiskt organiskt fast/flytande | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Fotokemikalier | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Bekämpningsmedel aerosoler | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Bekämpningsmedel fast | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Bekämpningsmedel flytande | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Kvicksilverhaltigt avfall | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Kvicksilver i föremål | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Oljehaltigt avfall (ej PCB) | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Olja förorenad (ej PCB) | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Färg-, lack-, limburkar lösning | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Färg-, lack-, limburkar lösning aerosoler | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Isocyanater | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Härdare metyl- etylketonperoxid | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Härdare dibenzoylperoxid | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Färg-,lack-, limburkar vattenbaserade | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Tensida alkaliska flytande avfall | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Rengöring/vaskmedel fast | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Alkaliska flytande avfall | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Cytotoxiska läkemedel, cytostat | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Rökdetektor med andra isotoper | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Rökdetektor med Am 241 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Batterier stav, pencell | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Batterier lithium | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Bil-, mcbatteri med bly | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Glödlampor | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Lysrör | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Elavfall, små elektronik | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | El-avfall fast installation | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | El-avfall kabel | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Toner, färgpatron med elektronik | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Tv, radio, skärm, skrivare utan färgpatron | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Kyl-, frysskåp, -box | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Kyl-, frysskåp, -box från verksamhet | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Spis, tvätt-, diskmaskin | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.2 | Spis, tvätt-, diskmaskin från verksamhet | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.3 | Container X m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.3 | Container X m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.3 | Container X m3 | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.3 | Omklassning av felsorterad container | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.4 | Okänt farligt avfall (säkerhetsdatablad saknas) | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.4 | Ombud för rapportering av farligt avfall i Avfallsregistret | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.4 | Administrativ rapporteringsavgift till Avfallsregistret | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP
+- MISSING | no Taxepunkter row | 6.1.4 | Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen | excel_row= tax_code= | Word-taxan måste skapas som egen rad i Taxepunkter, oavsett EDP

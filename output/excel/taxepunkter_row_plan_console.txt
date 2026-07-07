@@ -1,9 +1,11 @@
+C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
 Taxepunkter row plan klar
 Parser rows: 241
-Workbook rows: 280
-REUSE: 73
-CREATE: 135
-REVIEW: 33
+Workbook rows: 306
+REUSE: 67
+CREATE: 151
+REVIEW: 23
 Coverage plan valid: True
 TXT: output\excel\taxepunkter_row_plan_report.txt
 CSV: output\excel\taxepunkter_row_plan.csv

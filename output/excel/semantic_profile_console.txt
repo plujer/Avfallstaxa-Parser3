@@ -1,7 +1,9 @@
+C:\PyProjects\Taxa 3.0\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
 Tax Semantic Profiles klar
-Word profiles: 229
+Word profiles: 241
 Standard profiles: 510
-Rule profiles: 882
-Total profiles: 1621
+Rule profiles: 704
+Total profiles: 1455
 TXT: output\excel\semantic_profile_report.txt
 CSV: output\excel\semantic_profiles.csv
