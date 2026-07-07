@@ -1,9 +1,12 @@
 ﻿Excel Builder Report Package
-Created: 2026-07-07_08-05-20
+Created: 2026-07-07_08-25-54
 
 Included files:
 [OK] output\diagnostics\test_cleanup_report.txt
 [OK] output\diagnostics\test_syntax_report.txt
+[OK] output\excel\tax_decision_semantic_report.txt
+[OK] output\excel\tax_decision_semantic_results.csv
+[OK] output\excel\tax_decision_semantic_console.txt
 [OK] output\excel\semantic_candidate_report.txt
 [OK] output\excel\semantic_candidates.csv
 [OK] output\excel\semantic_candidate_console.txt

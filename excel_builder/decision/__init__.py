@@ -1,2 +1,3 @@
 from .tax_decision_engine import TaxDecisionEngine
 from .decision_workbook_writer import DecisionWorkbookWriter
+from .semantic_decision_engine import SemanticDecisionEngine
