@@ -1,0 +1,9 @@
+Immutable Master Enforcement Report
+
+Status: OK
+
+OK | block_output_to_word_master | Output får inte vara masterfil: C:\PyProjects\Taxa 3.0\data\word_templates\Taxestruktur_Master_v1.0.docx
+OK | block_output_to_excel_master | Output får inte vara masterfil: C:\PyProjects\Taxa 3.0\data\master_templates\ArbetsExcel_Template_v1.0.xlsx
+OK | block_taxa_fran_edp | Bladet 'Taxa_från_edp' är immutable och får aldrig skrivas automatiskt.
+OK | block_taxepunkter_a_to_e | May be read and validated, but never written automatically. If edits are required, create a new versioned master file.
+OK | allow_taxepunkter_from_f | Taxepunkter column F+ allowed.

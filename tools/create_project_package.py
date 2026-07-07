@@ -1,8 +1,6 @@
 from __future__ import annotations
 
 import json
-import os
-import sys
 import zipfile
 from datetime import datetime
 from pathlib import Path
@@ -17,6 +15,7 @@ EXCLUDE_DIRS = {
     "output",
     "rapportzip",
     "project_packages",
+    "archive",
     "dist",
     "build",
     ".mypy_cache",
@@ -34,9 +33,12 @@ EXCLUDE_EXTENSIONS = {
 
 EXCLUDE_FILES = {
     "Project_For_ChatGPT.zip",
-    "PROJECT_PACKAGE_MANIFEST.txt",
-    "PROJECT_INFO_FOR_CHATGPT.txt",
 }
+
+OUTPUT_DIR = "project_packages"
+OUTPUT_NAME = "Project_For_ChatGPT.zip"
+INFO_NAME = "PROJECT_INFO_FOR_CHATGPT.txt"
+MANIFEST_NAME = "PROJECT_PACKAGE_MANIFEST.txt"
 
 
 def is_excluded(path: Path, root: Path) -> bool:
@@ -68,15 +70,16 @@ def read_version(root: Path) -> str:
 
 
 def create_package(root: Path) -> Path:
-    output_dir = root / "project_packages"
+    output_dir = root / OUTPUT_DIR
     output_dir.mkdir(parents=True, exist_ok=True)
-    output_zip = output_dir / "Project_For_ChatGPT.zip"
+    output_zip = output_dir / OUTPUT_NAME
+    manifest_path = output_dir / MANIFEST_NAME
+    info_path = output_dir / INFO_NAME
+
     if output_zip.exists():
         output_zip.unlink()
 
-    manifest_lines: list[str] = []
     files: list[Path] = []
-
     for path in root.rglob("*"):
         if not path.is_file():
             continue
@@ -90,6 +93,7 @@ def create_package(root: Path) -> Path:
             f"Created: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
             f"Root: {root}",
             f"Version: {read_version(root)}",
+            f"Output: {output_zip}",
             "",
             "Excluded directories:",
             *[f"- {d}" for d in sorted(EXCLUDE_DIRS)],
@@ -99,28 +103,27 @@ def create_package(root: Path) -> Path:
             "",
         ]
     )
+    info_path.write_text(info_text, encoding="utf-8")
+
+    manifest_lines = [
+        "Project_For_ChatGPT manifest",
+        f"Created: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        f"File count: {len(files) + 1}",
+        "",
+        INFO_NAME,
+    ]
 
     with zipfile.ZipFile(output_zip, "w", zipfile.ZIP_DEFLATED) as zf:
-        zf.writestr("PROJECT_INFO_FOR_CHATGPT.txt", info_text)
-
+        zf.write(info_path, INFO_NAME)
         for file_path in sorted(files):
             arcname = file_path.relative_to(root).as_posix()
             zf.write(file_path, arcname)
             manifest_lines.append(arcname)
+        zf.writestr(MANIFEST_NAME, "\n".join([*manifest_lines, ""]))
 
-        manifest_text = "\n".join(
-            [
-                "Project_For_ChatGPT manifest",
-                f"Created: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
-                f"File count: {len(manifest_lines)}",
-                "",
-                *manifest_lines,
-                "",
-            ]
-        )
-        zf.writestr("PROJECT_PACKAGE_MANIFEST.txt", manifest_text)
-
+    manifest_path.write_text("\n".join([*manifest_lines, ""]), encoding="utf-8")
     return output_zip
+
 
 def main() -> int:
     root = Path.cwd().resolve()
@@ -143,7 +146,7 @@ def main() -> int:
     print(output_zip)
     print()
     print("Send this file to ChatGPT:")
-    print("project_packages/Project_For_ChatGPT.zip")
+    print(f"{OUTPUT_DIR}\\{OUTPUT_NAME}")
     print("==========================================")
     return 0
 

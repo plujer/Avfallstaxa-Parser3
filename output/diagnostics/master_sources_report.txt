@@ -1,0 +1,17 @@
+Master Sources Report
+
+Version: v1.0
+Immutable: True
+Word master: data\word_templates\Taxestruktur_Master_v1.0.docx
+Word master exists: True
+Excel master: data\master_templates\ArbetsExcel_Template_v1.0.xlsx
+Excel master exists: True
+
+Protected sheets:
+- Taxepunkter: A:E | May be read and validated, but never written automatically. If edits are required, create a new versioned master file.
+- Taxa_från_edp: ALL | EDP source data is read-only facit and must never be modified.
+
+Policy:
+- Masterfiler får aldrig skrivas över.
+- Om redigering behövs ska ny versionsfil skapas.
+- Taxepunkter A:E och hela Taxa_från_edp är skyddade skrivområden.

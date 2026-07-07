@@ -1,4 +1,10 @@
-- Block46: Project package output now goes to `project_packages/Project_For_ChatGPT.zip`; `run_project.bat` refreshes it at the end of every successful pipeline run.
+
+## Block48 – Project Cleanup and Legacy Archive Tool
+
+- Added `archive_legacy_project_files.bat`.
+- Added `tools/archive_legacy_project_files.py`.
+- Project packages now exclude `archive/`.
+
 
 ## Block45.1 – Test Automation Stabilization
 - Fixed `build_excel_report.bat` so `check_latest_run_status.py` no longer writes to the same file as shell redirection.
@@ -16,3 +22,11 @@
 - `git_commit_block.bat` stoppar commit om senaste testresultat inte är godkänt.
 - Rapportzip inkluderar `latest_run_status.txt`.
 - Dokumenterat att legitim dubblettkoppling Word-rad → samma EDP-taxa inte är fel i sig.
+
+## Block47 – Word Excel Mapping Engine
+- Added deterministic Word → Excel mapping engine with stable `WordTaxID` values.
+- Added mapping reports: `word_excel_mapping_report.txt` and `word_excel_mapping.csv`.
+- Documented that repeated use of the same EDP tax code by multiple Word rows is allowed and not an automatic error.
+- Updated project package tool to write to `project_packages/Project_For_ChatGPT.zip` and overwrite the previous package.
+- Added automatic project package creation at the end of the normal `run_project.bat` pipeline.
+- Fixed latest test status parsing so `latest_run_status.txt` uses the final pytest summary, not earlier small summaries.

@@ -1,46 +1,60 @@
-# Block46 – Project Package Output Integration
+# Block49 – Pipeline Controller v1.0
 
 ## Syfte
 
-- Flyttar `Project_For_ChatGPT.zip` från projektroten till `project_packages/Project_For_ChatGPT.zip`.
-- `project_packages` exkluderas från paketet så gamla projektpaket inte packas in igen.
-- Paketet skrivs över vid varje körning, så det inte byggs upp flera stora ZIP-filer.
-- `build_excel_report.bat` / `run_project.bat` skapar automatiskt aktuellt projektpaket i slutet av körningen.
+Block49 inför en samlad pipeline-status så att `run_project.bat`, `git_commit_block.bat` och rapporteringen inte längre kan ge motstridiga resultat.
 
 ## Ändrade filer
 
-- `tools/create_project_package.py`
-- `create_project_package.bat`
-- `build_excel_report.bat`
-- `tests/test_project_package_tool.py`
-- `tests/test_project_metadata.py`
-- `version.json`
-- `docs/PROJECT_STATUS.md`
-- `docs/CHANGELOG.md`
-- `docs/history/BLOCK_HISTORY.md`
+```text
+build_excel_report.bat
+run_project.bat
+git_commit_block.bat
+tools/pipeline_status.py
+tools/check_pipeline_commit_ready.py
+tests/test_pipeline_status_controller.py
+```
 
 ## Installation
 
-Kopiera innehållet i paketet till projektets rotmapp och ersätt befintliga filer.
+Kopiera filerna till projektets rotmapp och skriv över befintliga filer.
 
-## Test
+## Körning
 
-Kör:
+Kör endast:
 
 ```bat
 run_project.bat
 ```
 
-Den ska nu både skapa rapportzip och uppdatera:
+Skicka tillbaka:
 
 ```text
-project_packages\Project_For_ChatGPT.zip
+rapportzip\senaste ExcelBuilder_Run_*.zip
 ```
 
-## Skicka tillbaka
+## Commitregel
 
-Skicka endast senaste:
+Kör **inte** `git_commit_block.bat` förrän ChatGPT uttryckligen skriver att blocket är godkänt.
+
+När blocket är godkänt kör du:
+
+```bat
+git_commit_block.bat
+```
+
+## Testat här
 
 ```text
-rapportzip\ExcelBuilder_Run_*.zip
+353 passed, 3 warnings
 ```
+
+## Git-kommandon
+
+Efter godkänd körning och efter att ChatGPT säger till:
+
+```bat
+git_commit_block.bat
+```
+
+Kör inte `git_release_block.bat` ännu.

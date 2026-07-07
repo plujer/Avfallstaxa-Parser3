@@ -1,0 +1,260 @@
+Word Excel Mapping Report
+
+Syfte:
+Skapar spårbar mappning mellan varje Word/parser-taxa och motsvarande rad i Taxepunkter.
+
+Regler:
+- Word-master ändras aldrig.
+- Excel-master ändras aldrig.
+- Taxepunkter A:E ändras aldrig automatiskt.
+- Taxa_från_edp ändras aldrig.
+- Samma EDP-taxa kan användas av flera Word-rader utan att det automatiskt är fel.
+
+Total Word rows: 241
+MAPPED: 67
+REVIEW: 23
+MISSING: 151
+Passed: False
+
+Details:
+- WTX-2-1-E3833423-01 | MAPPED | section+tax_point | 2.1 | En- och tvåbostadshus | excel_row=9 tax_code=GRUNDPER | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-1-C65FBDF1-01 | MAPPED | section+tax_point | 2.1 | Fritidshus | excel_row=10 tax_code=GRUNDFRI | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-1-F4E0DD8E-01 | MAPPED | section+tax_point | 2.1 | Verksamhet | excel_row=11 tax_code=GRUNDLÄG | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-1-B7B2E21A-01 | MAPPED | section+tax_point | 2.1 | Lägenhet i flerbostadshus | excel_row=12 tax_code=GRUNDFLB | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-1-EF4C378A-01 | MAPPED | section+tax_point | 2.1 | Lägenhet för specialändamål | excel_row=13 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-1-E5A075AE-01 | MAPPED | section+tax_point | 2.1 | Anläggning | excel_row=14 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-1-8E18B87D-01 | MAPPED | section+tax_point | 2.1 | Säsongsbaserad uppställningsplats | excel_row=15 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-1-FBA06BB3-01 | MAPPED | section+tax_point | 2.1 | Campingstuga/-lägenhet | excel_row=16 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-2-1-33B2D9B2-01 | REVIEW | multiple section+tax_point rows | 2.2.1 | Kärl 240 l (mat-/restavfall) | excel_row=20 tax_code=KÄ240RM26 | 2 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel. Samma EDP-taxa (KÄ240RM26) används av 2 Word-rader. Det är tillåtet och ska inte klassas som fel utan annan konflikt.
+- WTX-2-2-1-13C597EC-01 | REVIEW | multiple section+tax_point rows | 2.2.1 | Extrakärl 190 l (restavfall) | excel_row=22 tax_code=KÄ190XRM26 | 2 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-2-38211250-01 | REVIEW | multiple section+tax_point rows | 2.2.2 | Kärl 240 l (mat-/restavfall) | excel_row=26 tax_code=KÄ240RM26 | 2 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel. Samma EDP-taxa (KÄ240RM26) används av 2 Word-rader. Det är tillåtet och ska inte klassas som fel utan annan konflikt.
+- WTX-2-2-2-4FB7EBAD-01 | MAPPED | section+tax_point | 2.2.2 | Extrakärl 190 l (restavfall) | excel_row=28 tax_code=KÄ190XRM26FRI | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-2-3-CA81DEB2-01 | MAPPED | section+tax_point | 2.2.3 | Gemensam uppsamlingsplats för mat-/restavfall | excel_row=31 tax_code=GEMUPPFRI | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-2-3-5247F1E8-01 | MAPPED | section+tax_point | 2.2.3 | Extra digital licens (årskostnad) | excel_row=33 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-2-3-15503612-01 | MAPPED | section+tax_point | 2.2.3 | Fysisk nyckel, kallad fob (engångskostnad) | excel_row=34 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-2-3-F9FAD568-01 | MAPPED | section+tax_point | 2.2.3 | Byte av telefonnummer kopplat till licens | excel_row=35 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-2-3-B1BE7121-01 | MAPPED | section+tax_point | 2.2.3 | Kostnad för öppning av behållare | excel_row=36 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-2-4-87C11FCE-01 | REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 240 l (mat-/restavfall) | excel_row=38 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-4-CE349D63-01 | REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 370 l (restavfall) | excel_row=41 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-4-A7811053-01 | REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 660 l (restavfall) | excel_row=44 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-4-46A41188-01 | REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 140 l (matavfall) | excel_row=47 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-4-BF4F56C7-01 | REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 190 l (förpackningar) | excel_row=50 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-4-13866FDD-01 | REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 370 l (förpackningar) | excel_row=53 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-4-21AC3B1E-01 | REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 660 l (förpackningar) | excel_row=56 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-4-AB72D7D0-01 | REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 190 l (tidningar och returpapper) | excel_row=59 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-4-003F45C0-01 | REVIEW | multiple section+tax_point rows | 2.2.4 | Kärl 370 l (tidningar och returpapper) | excel_row=62 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-4-F2A2FB32-01 | MISSING | no Taxepunkter row | 2.2.4 | (mat-/restavfall, förpackningar) | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-2-5-C95D88A8-01 | REVIEW | multiple section+tax_point rows | 2.2.5 | Kärl 240 l (mat-/restavfall) | excel_row=69 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-5-324DC995-01 | REVIEW | multiple section+tax_point rows | 2.2.5 | Kärl 370 l (restavfall) | excel_row=72 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-5-8A3F7EE4-01 | REVIEW | multiple section+tax_point rows | 2.2.5 | Kärl 660 l (restavfall) | excel_row=75 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-5-6EFC63C2-01 | REVIEW | multiple section+tax_point rows | 2.2.5 | Kärl 140 l (matavfall) | excel_row=78 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-5-B3EF08A2-01 | REVIEW | multiple section+tax_point rows | 2.2.5 | Bottentömmande behållare (mat-/restavfall) | excel_row=81 tax_code= | 2 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-5-CE394662-01 | MAPPED | section+tax_point | 2.2.5 | Lastväxlarflak (restavfall) | excel_row=82 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-2-6-E4B45E25-01 | REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 240 l (mat-/restavfall) | excel_row=85 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-6-5BD56AE6-01 | REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 370 l (restavfall) | excel_row=88 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-6-6674120A-01 | REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 660 l (restavfall) | excel_row=91 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-6-52C538D2-01 | REVIEW | multiple section+tax_point rows | 2.2.6 | Kärl 140 l (matavfall) | excel_row=94 tax_code= | 3 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-6-D9CB98E7-01 | REVIEW | multiple section+tax_point rows | 2.2.6 | Bottentömmande behållare (mat-/restavfall) | excel_row=97 tax_code= | 2 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-2-6-0AD0B832-01 | MAPPED | section+tax_point | 2.2.6 | Lastväxlarflak (restavfall) | excel_row=98 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-2-7-A3CC7E20-01 | MAPPED | section+tax_point | 2.2.7 | Kärl 140 l (kontors-/returpapper) | excel_row=101 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-2-7-EDD305D3-01 | MAPPED | section+tax_point | 2.2.7 | Egen överlämning av förbrukat kontors-/returpapper enligt anvisning | excel_row=102 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-2-7-3D0F5E75-01 | MAPPED | section+tax_point | 2.2.7 | Egen överlämning av förbrukat matfett enligt anvisning | excel_row=103 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-3-EC152D91-01 | MISSING | no Taxepunkter row | 2.3 | Viktavgift matavfall | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-3-B2A59341-01 | MISSING | no Taxepunkter row | 2.3 | Viktavgift restavfall | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-3-860FD1D7-01 | MISSING | no Taxepunkter row | 2.3 | Lyftavgift kärl | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-1-599292AB-01 | MISSING | no Taxepunkter row | 2.4.1 | Fakturavgift | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-2-012DC104-01 | MISSING | no Taxepunkter row | 2.4.2 | Delat kärl 240 l matavfall 40 kg | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-2-12FC6812-01 | MISSING | no Taxepunkter row | 2.4.2 | Delat kärl 240 l restavfall 40 kg | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-2-D180BF41-01 | MISSING | no Taxepunkter row | 2.4.2 | Extra kärl 140 l matavfall 60 kg | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-2-0BF8ED71-01 | MISSING | no Taxepunkter row | 2.4.2 | Extra kärl 140-190 l restavfall 60 kg | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-2-2C84BAC6-01 | MISSING | no Taxepunkter row | 2.4.2 | Kärl 370 l restavfall 60 kg | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-2-E01FAB41-01 | MISSING | no Taxepunkter row | 2.4.2 | Kärl 660 l restavfall 100 kg | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-3-893E17AD-01 | MAPPED | section+tax_point | 2.4.3 | Överfullt kärl | excel_row=121 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-3-AF92F6D3-01 | MAPPED | section+tax_point | 2.4.3 | Överfull bottentömmande behållare | excel_row=122 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-4-D3BAF28D-01 | MAPPED | section+tax_point | 2.4.4 | Byte av trasigt kärl vid oaktsamhet | excel_row=124 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-5-3FB6AD13-01 | MISSING | no Taxepunkter row | 2.4.5 | Byte/återtag av kärl en (1) ggr/år 140–240 liter | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-5-80B57497-01 | MISSING | no Taxepunkter row | 2.4.5 | Byte/återtag av kärl en (1) ggr/år 370–660 liter | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-5-240D8EBA-01 | MAPPED | section+tax_point | 2.4.5 | Ytterligare byte av kärl under kalenderåret | excel_row=129 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-6-98CF8ADC-01 | MAPPED | section+tax_point | 2.4.6 | Kärl | excel_row=131 tax_code=FELSORT | Word-raden finns i Taxepunkter men variant eller enhet skiljer. Samma EDP-taxa (FELSORT) används av 2 Word-rader. Det är tillåtet och ska inte klassas som fel utan annan konflikt.
+- WTX-2-4-6-82A21ADE-01 | MAPPED | section+tax_point | 2.4.6 | Bottentömmande behållare | excel_row=132 tax_code=FELSORT | Word-raden finns i Taxepunkter men variant eller enhet skiljer. Samma EDP-taxa (FELSORT) används av 2 Word-rader. Det är tillåtet och ska inte klassas som fel utan annan konflikt.
+- WTX-2-4-7-542399A3-01 | MISSING | no Taxepunkter row | 2.4.7 | Kärl 140-660 L 1,5-10 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-7-AE7199F4-01 | MISSING | no Taxepunkter row | 2.4.7 | Kärl 140-660 L 10-20 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-7-AEEF240E-01 | MISSING | no Taxepunkter row | 2.4.7 | Kärl 140-660 L 20-30 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-7-B8941668-01 | MISSING | no Taxepunkter row | 2.4.7 | Avfallsport/dörr | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-7-5A487AC8-01 | MAPPED | section+tax_point | 2.4.7 | Låst dörr, med kod | excel_row=138 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-8-5A04F7EA-01 | MAPPED | section+tax_point | 2.4.8 | Kärl 140 l matavfall | excel_row=140 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-8-FDB20231-01 | MAPPED | section+tax_point | 2.4.8 | Kärl 190 l restavfall | excel_row=141 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-8-68320C3D-01 | MAPPED | section+tax_point | 2.4.8 | Kärl 370 l restavfall | excel_row=142 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-8-84E77559-01 | MAPPED | section+tax_point | 2.4.8 | Kärl 660 l restavfall | excel_row=143 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-8-DFCC4F8B-01 | MISSING | no Taxepunkter row | 2.4.8 | Bottentömmande behållare | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-2-4-9-0E177E9C-01 | MAPPED | section+tax_point | 2.4.9 | Sidlastande fordon | excel_row=146 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-9-75C122DA-01 | MAPPED | section+tax_point | 2.4.9 | Bottentömmande fordon | excel_row=147 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-9-C63CCE75-01 | MAPPED | section+tax_point | 2.4.9 | Tömningsavgift per behållare | excel_row=148 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-10-73F6F336-01 | MAPPED | section+tax_point | 2.4.10 | Betalsäck | excel_row=150 tax_code=BETALSÄCK | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-10-58F70F4D-01 | MAPPED | section+tax_point | 2.4.10 | Akutsäck | excel_row=151 tax_code=AKUTSÄCK | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-11-E2BEF277-01 | MAPPED | section+tax_point | 2.4.11 | Matavfallspåsar 9 L | excel_row=153 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-11-3738275A-01 | MAPPED | section+tax_point | 2.4.11 | Matavfallspåsar 22 L | excel_row=154 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-11-C25C860D-01 | MAPPED | section+tax_point | 2.4.11 | Gravitationslås till kärl | excel_row=155 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-4-11-B3C061B1-01 | MAPPED | section+tax_point | 2.4.11 | Extra nyckel till gravitationslås | excel_row=156 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-5-1-E71D5E74-01 | MAPPED | section+tax_point | 2.5.1 | Kommunalt avfall | excel_row=159 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-5-1-4D6E9911-01 | MAPPED | section+tax_point | 2.5.1 | Farligt avfall (ej uppmärkt) | excel_row=160 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-2-5-1-91EFCB49-01 | REVIEW | multiple section+tax_point rows | 2.5.1 | Farligt avfall (uppmärkt) | excel_row=161 tax_code= | 2 Excel-rader delar paragraf och taxepunkt. Kräver granskning men är inte automatiskt fel.
+- WTX-2-5-1-0CDDF608-01 | MISSING | no Taxepunkter row | 2.5.1 | Avisering av ankomst | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-1-72F9E607-01 | MISSING | no Taxepunkter row | 3.1 | Upp till 3 m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-1-FB70AF63-01 | MISSING | no Taxepunkter row | 3.1 | Mellan 3 m3 och 6 m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-1-8DD57ED4-01 | MISSING | no Taxepunkter row | 3.1 | Mellan 6 m3 och 9 m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-1-AAD165CE-01 | MISSING | no Taxepunkter row | 3.1 | Tillägg per m3 över 9 m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-1-EFFAFFA4-01 | MISSING | no Taxepunkter row | 3.1 | Bad-, disk- och tvättbrunn upp till 3 m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-1-C9D7506A-01 | MISSING | no Taxepunkter row | 3.1 | Tillägg per m3 över 3 m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-2-F099489B-01 | MISSING | no Taxepunkter row | 3.2 | Dragning av extra slang vid 5-25 m | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-2-F3107856-01 | MISSING | no Taxepunkter row | 3.2 | Dragning av extra slang vid 25-35 m | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-2-7E47ABD8-01 | MISSING | no Taxepunkter row | 3.2 | Dragning av extra slang vid 36-45 m | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-2-55C38365-01 | MISSING | no Taxepunkter row | 3.2 | Dragning av extra slang vid 46-55 m | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-2-1215CBE1-01 | MISSING | no Taxepunkter row | 3.2 | Hantering av brunnslock som väger 15-25 kg | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-2-6490412D-01 | MISSING | no Taxepunkter row | 3.2 | Krav på information om tömningstid | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-2-3EAF59A4-01 | MISSING | no Taxepunkter row | 3.2 | Krav på närvaro vid specificerad tömningstid | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-2-B8BD1D23-01 | MISSING | no Taxepunkter row | 3.2 | Hantering av kod för kodlås vid slamtömning | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-2-B53CBF03-01 | MISSING | no Taxepunkter row | 3.2 | Hetvattentvätt med spolbil, timersättning | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-2-1EC98959-01 | MISSING | no Taxepunkter row | 3.2 | Tömning av extra tank/brunn i samband med ordinarie/budad tömning upp till 5 m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-3-7F8CE3DC-01 | MISSING | no Taxepunkter row | 3.3 | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-3-80AB16B6-01 | MISSING | no Taxepunkter row | 3.3 | Budning utanför ordinarie tömningsperiod (1 nov – 30 april) | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-3-0F23C44B-01 | MISSING | no Taxepunkter row | 3.3 | Tömning av toalettvagnar eller liknande /styck | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-3-4-F211DAA1-01 | MISSING | no Taxepunkter row | 3.4 | Latrinbehållare 37 liter inkl. mottagning och behandling | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-4-1-8833528C-01 | MISSING | no Taxepunkter row | 4.1 | Filtermassor upp till 500 kg | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-4-1-3D107D66-01 | MISSING | no Taxepunkter row | 4.1 | Filtermassor 500-1000 kg | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-4-2-F6FF402E-01 | MISSING | no Taxepunkter row | 4.2 | Krav på information om hämtningstid | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-4-2-E5A9A60B-01 | MISSING | no Taxepunkter row | 4.2 | Krav på närvaro vid specificerad hämtningstid | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-4-2-97B4249F-01 | MISSING | no Taxepunkter row | 4.2 | Hantering av kod för kodlås | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-1-E02DEE1F-01 | MISSING | no Taxepunkter row | 5.1 | Upp till 3 m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-1-A1B04D60-01 | MISSING | no Taxepunkter row | 5.1 | Mellan 3 m3 och 6 m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-1-83D937C5-01 | MISSING | no Taxepunkter row | 5.1 | Över 6 m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-2-3BE6DFF8-01 | MISSING | no Taxepunkter row | 5.2 | Dragning av extra slang vid 5-25 m | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-2-BF8EF745-01 | MISSING | no Taxepunkter row | 5.2 | Dragning av extra slang vid 25-35 m | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-2-35039B5D-01 | MISSING | no Taxepunkter row | 5.2 | Dragning av extra slang vid 36-45 m | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-2-D16F054D-01 | MISSING | no Taxepunkter row | 5.2 | Dragning av extra slang vid 46-55 m | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-2-B520FF64-01 | MISSING | no Taxepunkter row | 5.2 | Hantering av brunnslock som väger 15-25 kg | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-2-4AE5AD4F-01 | MISSING | no Taxepunkter row | 5.2 | Krav på information om tömningstid | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-2-84B46C16-01 | MISSING | no Taxepunkter row | 5.2 | Krav på närvaro vid specificerad tömningstid | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-2-600A739F-01 | MISSING | no Taxepunkter row | 5.2 | Hantering av kod för kodlås vid tömning | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-2-AEB1EBD6-01 | MISSING | no Taxepunkter row | 5.2 | Hetvattentvätt med spolbil, timersättning | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-2-D1A679E9-01 | MISSING | no Taxepunkter row | 5.2 | Silikontätning per lock | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-2-E249C20D-01 | MISSING | no Taxepunkter row | 5.2 | Tömning av extra tank i samband med ordinarie/budad tömning upp till 5 m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-3-8480D728-01 | MISSING | no Taxepunkter row | 5.3 | Budning inom ordinarie tömningsperiod (1 maj- 31 oktober) | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-5-3-84845886-01 | MISSING | no Taxepunkter row | 5.3 | Budning utanför ordinarie tömningsperiod | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-1-D22C7D28-01 | MAPPED | section+tax_point | 6.1.1 | Verksamheter | excel_row=246 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-1-2070E839-01 | MAPPED | section+tax_point | 6.1.1 | Övriga abonnemangstyper | excel_row=247 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-1-8CE294ED-01 | MAPPED | section+tax_point | 6.1.1 | Vågkort | excel_row=248 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-1-7EB117E6-01 | MAPPED | section+tax_point | 6.1.1 | Borttappat vågkort | excel_row=249 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-1-CF0DADFC-01 | MISSING | no Taxepunkter row | 6.1.1 | Ej redovisad ankomst till ÅVC (för företagare och privatpersoner som lämnar verksamhetsavfall utan att anmäla sin ankomst) | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-1-BFE0328B-01 | MAPPED | section+tax_point | 6.1.1 | Ej redovisad eller fel redovisad fraktion av avfall | excel_row=251 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-69FC6FD5-01 | MAPPED | section+tax_point | 6.1.2 | Avfall till energiåtervinning (240 L sopsäck) | excel_row=253 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-3FECC6E9-01 | MAPPED | section+tax_point | 6.1.2 | Avfall till energiåtervinning | excel_row=254 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-C9589A99-01 | MAPPED | section+tax_point | 6.1.2 | Skrymmande avfall till energiåtervinning större än 20×20×80 | excel_row=255 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-1474A523-01 | MAPPED | section+tax_point | 6.1.2 | Träavfall – obehandlat, utan tapet, plastmatta, tjärpapp | excel_row=256 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-3C1B843B-01 | MAPPED | section+tax_point | 6.1.2 | Träavfall – behandlat, utan tapet, plastmatta, tjärpapp | excel_row=257 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-BEA4C41C-01 | MISSING | no Taxepunkter row | 6.1.2 | Tryckimpregnerat virke, pall | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-424F42FB-01 | MAPPED | section+tax_point | 6.1.2 | Betong, lättbetong | excel_row=259 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-F03A2296-01 | MAPPED | section+tax_point | 6.1.2 | Gips, gipsskivor | excel_row=260 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-FACCE0BD-01 | MAPPED | section+tax_point | 6.1.2 | Tegel | excel_row=261 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-5125883B-01 | MAPPED | section+tax_point | 6.1.2 | Fönster- och planglas utan karm | excel_row=262 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-F43A395E-01 | MAPPED | section+tax_point | 6.1.2 | Fönster med karm | excel_row=263 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-467B8014-01 | MAPPED | section+tax_point | 6.1.2 | Plast | excel_row=264 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-4CA30FB1-01 | MAPPED | section+tax_point | 6.1.2 | Isolering utan innehåll av asbest | excel_row=265 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-E56CCFA4-01 | MAPPED | section+tax_point | 6.1.2 | Klinker, keramik, porslin | excel_row=266 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-808B2B8D-01 | MAPPED | section+tax_point | 6.1.2 | Handfat | excel_row=267 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-C8307E11-01 | MISSING | no Taxepunkter row | 6.1.2 | WC-stol | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-CAD0382F-01 | MAPPED | section+tax_point | 6.1.2 | Metall | excel_row=269 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-A77386BF-01 | MAPPED | section+tax_point | 6.1.2 | Textilier | excel_row=270 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-762FD283-01 | MAPPED | section+tax_point | 6.1.2 | Fiskeredskap | excel_row=271 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-C94F8F6B-01 | MAPPED | section+tax_point | 6.1.2 | Ätbart fett/frityrolja | excel_row=272 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-A0502379-01 | MAPPED | section+tax_point | 6.1.2 | Kvistar och grenar | excel_row=273 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-8FEE73B7-01 | MAPPED | section+tax_point | 6.1.2 | Jord | excel_row=274 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-9A6D9B93-01 | MAPPED | section+tax_point | 6.1.2 | Sten | excel_row=275 tax_code= | Word-raden finns i Taxepunkter men variant eller enhet skiljer.
+- WTX-6-1-2-3A8CD008-01 | MISSING | no Taxepunkter row | 6.1.2 | Stubbar/rötter för krossning | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-0E866EC0-01 | MISSING | no Taxepunkter row | 6.1.2 | Flera fraktioner för egen sortering på ramp (max 2 m³) | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-F6699462-01 | MISSING | no Taxepunkter row | 6.1.2 | Osorterat avfall till sortering (ej innehåll av farligt avfall och elavfall) | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-53BC78A6-01 | MISSING | no Taxepunkter row | 6.1.2 | Tonerkassetter, utan elektronik/chip | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-424BE277-01 | MISSING | no Taxepunkter row | 6.1.2 | Oljeemulsion, emballerat | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-83A6C80F-01 | MISSING | no Taxepunkter row | 6.1.2 | Förorenad olja innehållande PCB | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-5C9B5626-01 | MISSING | no Taxepunkter row | 6.1.2 | Oljeavskiljarslam | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-DF5526D5-01 | MISSING | no Taxepunkter row | 6.1.2 | Diesel | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-DE6ADE4C-01 | MISSING | no Taxepunkter row | 6.1.2 | Bensinrester | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-8F916C0A-01 | MISSING | no Taxepunkter row | 6.1.2 | Hydralslang, med/utan koppling | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-138370B1-01 | MISSING | no Taxepunkter row | 6.1.2 | Förpackningar, tömde ej rengjorda | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-B4697E98-01 | MISSING | no Taxepunkter row | 6.1.2 | Oljeavfall, fast osorterat emba | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-68E450D8-01 | MISSING | no Taxepunkter row | 6.1.2 | Absorbermedel, filtermaterial | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-DBF10C2D-01 | MISSING | no Taxepunkter row | 6.1.2 | Oljefilter | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-9A213AE1-01 | MISSING | no Taxepunkter row | 6.1.2 | Bromsvätska | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-41D911DD-01 | MISSING | no Taxepunkter row | 6.1.2 | Transformator, kondensator med PCB | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-EC87E0C0-01 | MISSING | no Taxepunkter row | 6.1.2 | Fogskum | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-75726B03-01 | MISSING | no Taxepunkter row | 6.1.2 | Halon | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-0B3CA52F-01 | MISSING | no Taxepunkter row | 6.1.2 | Koldioxid | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-25BB6E14-01 | MISSING | no Taxepunkter row | 6.1.2 | Brandsläckare | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-6CB8AA0F-01 | MISSING | no Taxepunkter row | 6.1.2 | Helium | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-1B9385E6-01 | MISSING | no Taxepunkter row | 6.1.2 | Tändare | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-2454A459-01 | MISSING | no Taxepunkter row | 6.1.2 | Syrgas | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-27FA737E-01 | MISSING | no Taxepunkter row | 6.1.2 | Oxiderande fast ämne/vätska | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-0F00AE91-01 | MISSING | no Taxepunkter row | 6.1.2 | Klorex | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-28862044-01 | MISSING | no Taxepunkter row | 6.1.2 | Aerosoler isocyanat, bekämpning | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-545F29B6-01 | MISSING | no Taxepunkter row | 6.1.2 | Gasol inkl tub | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-F5FB256D-01 | MISSING | no Taxepunkter row | 6.1.2 | Gasol, blå programmet | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-C036E75E-01 | MISSING | no Taxepunkter row | 6.1.2 | Giftig organisk vätska | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-E7B6466C-01 | MISSING | no Taxepunkter row | 6.1.2 | Småkemikalier, ej Hg-haltiga | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-BE144EC5-01 | MISSING | no Taxepunkter row | 6.1.2 | Giftig oorganisk vätska | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-D3ECD2FB-01 | MISSING | no Taxepunkter row | 6.1.2 | Oxidationsmedel, flytande | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-417E6DD9-01 | MISSING | no Taxepunkter row | 6.1.2 | Asbest, emballerat | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-04B66A54-01 | MISSING | no Taxepunkter row | 6.1.2 | Smittförande avfall | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-07762697-01 | MISSING | no Taxepunkter row | 6.1.2 | Lösningsmedel | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-396875DF-01 | MISSING | no Taxepunkter row | 6.1.2 | Väteperoxid | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-E9A284D0-01 | MISSING | no Taxepunkter row | 6.1.2 | Flourvätesyra | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-152CE80D-01 | MISSING | no Taxepunkter row | 6.1.2 | Svavelsyra | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-59A5B96E-01 | MISSING | no Taxepunkter row | 6.1.2 | Salpetersyra | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-53F0B349-01 | MISSING | no Taxepunkter row | 6.1.2 | Surt oorganisk fast ämne | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-C8B61A27-01 | MISSING | no Taxepunkter row | 6.1.2 | Surt organisk fast ämne | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-14C82E98-01 | MISSING | no Taxepunkter row | 6.1.2 | Surt oorganisk vätska | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-3392FA4A-01 | MISSING | no Taxepunkter row | 6.1.2 | Surt organisk vätska | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-4B0A44E4-01 | MISSING | no Taxepunkter row | 6.1.2 | Ammoniaklösning | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-7DE8B19F-01 | MISSING | no Taxepunkter row | 6.1.2 | Alkaliskt avfall fast | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-F25DD6CA-01 | MISSING | no Taxepunkter row | 6.1.2 | Basiskt organiskt fast/flytande | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-1DD5AAB1-01 | MISSING | no Taxepunkter row | 6.1.2 | Fotokemikalier | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-C55E1322-01 | MISSING | no Taxepunkter row | 6.1.2 | Bekämpningsmedel aerosoler | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-08209A2F-01 | MISSING | no Taxepunkter row | 6.1.2 | Bekämpningsmedel fast | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-4DC2C846-01 | MISSING | no Taxepunkter row | 6.1.2 | Bekämpningsmedel flytande | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-3DD9F3BC-01 | MISSING | no Taxepunkter row | 6.1.2 | Kvicksilverhaltigt avfall | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-B50AC4EA-01 | MISSING | no Taxepunkter row | 6.1.2 | Kvicksilver i föremål | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-8D0B4721-01 | MISSING | no Taxepunkter row | 6.1.2 | Oljehaltigt avfall (ej PCB) | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-4D321AA5-01 | MISSING | no Taxepunkter row | 6.1.2 | Olja förorenad (ej PCB) | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-02E20EE4-01 | MISSING | no Taxepunkter row | 6.1.2 | Färg-, lack-, limburkar lösning | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-278514D5-01 | MISSING | no Taxepunkter row | 6.1.2 | Färg-, lack-, limburkar lösning aerosoler | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-79191E18-01 | MISSING | no Taxepunkter row | 6.1.2 | Isocyanater | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-6356D040-01 | MISSING | no Taxepunkter row | 6.1.2 | Härdare metyl- etylketonperoxid | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-8F4A8243-01 | MISSING | no Taxepunkter row | 6.1.2 | Härdare dibenzoylperoxid | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-997BDF26-01 | MISSING | no Taxepunkter row | 6.1.2 | Färg-,lack-, limburkar vattenbaserade | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-D9FF9E3B-01 | MISSING | no Taxepunkter row | 6.1.2 | Tensida alkaliska flytande avfall | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-502400A9-01 | MISSING | no Taxepunkter row | 6.1.2 | Rengöring/vaskmedel fast | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-09BFA3E0-01 | MISSING | no Taxepunkter row | 6.1.2 | Alkaliska flytande avfall | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-6CF8AC4F-01 | MISSING | no Taxepunkter row | 6.1.2 | Cytotoxiska läkemedel, cytostat | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-6B7D869E-01 | MISSING | no Taxepunkter row | 6.1.2 | Rökdetektor med andra isotoper | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-CC7235D7-01 | MISSING | no Taxepunkter row | 6.1.2 | Rökdetektor med Am 241 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-CA3DE9E0-01 | MISSING | no Taxepunkter row | 6.1.2 | Batterier stav, pencell | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-37DE3439-01 | MISSING | no Taxepunkter row | 6.1.2 | Batterier lithium | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-154504E5-01 | MISSING | no Taxepunkter row | 6.1.2 | Bil-, mcbatteri med bly | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-EE97EAA2-01 | MISSING | no Taxepunkter row | 6.1.2 | Glödlampor | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-F6F14BE3-01 | MISSING | no Taxepunkter row | 6.1.2 | Lysrör | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-6985E84D-01 | MISSING | no Taxepunkter row | 6.1.2 | Elavfall, små elektronik | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-CC332D3D-01 | MISSING | no Taxepunkter row | 6.1.2 | El-avfall fast installation | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-96815AFE-01 | MISSING | no Taxepunkter row | 6.1.2 | El-avfall kabel | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-9783DE46-01 | MISSING | no Taxepunkter row | 6.1.2 | Toner, färgpatron med elektronik | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-E201B61A-01 | MISSING | no Taxepunkter row | 6.1.2 | Tv, radio, skärm, skrivare utan färgpatron | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-B86F8F8A-01 | MISSING | no Taxepunkter row | 6.1.2 | Kyl-, frysskåp, -box | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-714578BE-01 | MISSING | no Taxepunkter row | 6.1.2 | Kyl-, frysskåp, -box från verksamhet | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-2845269C-01 | MISSING | no Taxepunkter row | 6.1.2 | Spis, tvätt-, diskmaskin | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-2-15B98EE1-01 | MISSING | no Taxepunkter row | 6.1.2 | Spis, tvätt-, diskmaskin från verksamhet | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-3-063B1C5A-01 | MISSING | no Taxepunkter row | 6.1.3 | Container X m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-3-063B1C5A-02 | MISSING | no Taxepunkter row | 6.1.3 | Container X m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-3-063B1C5A-03 | MISSING | no Taxepunkter row | 6.1.3 | Container X m3 | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-3-A54D38B1-01 | MISSING | no Taxepunkter row | 6.1.3 | Omklassning av felsorterad container | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-4-FC2CAF4E-01 | MISSING | no Taxepunkter row | 6.1.4 | Okänt farligt avfall (säkerhetsdatablad saknas) | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-4-B94E825F-01 | MISSING | no Taxepunkter row | 6.1.4 | Ombud för rapportering av farligt avfall i Avfallsregistret | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-4-BDF23A3F-01 | MISSING | no Taxepunkter row | 6.1.4 | Administrativ rapporteringsavgift till Avfallsregistret | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.
+- WTX-6-1-4-F599B5E1-01 | MISSING | no Taxepunkter row | 6.1.4 | Ombud för registrering av El-kretsen avlämnarintyg i Hämtplatsportalen | excel_row= tax_code= | Word-raden saknar motsvarande rad i Taxepunkter.

@@ -1,0 +1,31 @@
+{
+  "status": "OK",
+  "master_version": "v1.0",
+  "checks": [
+    {
+      "name": "block_output_to_word_master",
+      "passed": true,
+      "message": "Output får inte vara masterfil: C:\\PyProjects\\Taxa 3.0\\data\\word_templates\\Taxestruktur_Master_v1.0.docx"
+    },
+    {
+      "name": "block_output_to_excel_master",
+      "passed": true,
+      "message": "Output får inte vara masterfil: C:\\PyProjects\\Taxa 3.0\\data\\master_templates\\ArbetsExcel_Template_v1.0.xlsx"
+    },
+    {
+      "name": "block_taxa_fran_edp",
+      "passed": true,
+      "message": "Bladet 'Taxa_från_edp' är immutable och får aldrig skrivas automatiskt."
+    },
+    {
+      "name": "block_taxepunkter_a_to_e",
+      "passed": true,
+      "message": "May be read and validated, but never written automatically. If edits are required, create a new versioned master file."
+    },
+    {
+      "name": "allow_taxepunkter_from_f",
+      "passed": true,
+      "message": "Taxepunkter column F+ allowed."
+    }
+  ]
+}

@@ -1,16 +1,21 @@
-- Block46: Project package output now goes to `project_packages/Project_For_ChatGPT.zip`; `run_project.bat` refreshes it at the end of every successful pipeline run.
-
-## Block45.1 – Test Automation Stabilization
-- Fixed `build_excel_report.bat` so `check_latest_run_status.py` no longer writes to the same file as shell redirection.
-- Kept `run_project.bat` as the single normal verification command and ensured it prints the expected reportzip instruction.
-- Restored semantic tax family bonus in `SemanticCandidateRanker`.
-- Updated pipeline order test to reflect the new rule that pytest runs at the end of the full pipeline.
-- Added `create_project_package.bat` for compact project ZIP creation when ChatGPT needs the current project.
-
 # PROJECT_STATUS
 
-Aktuellt block: Block45 – Developer Experience Test Automation.
+Aktuellt block: Block47 – Word Excel Mapping Engine.
 
-Status: Paket framtaget. Ska verifieras i användarens projektmiljö med `run_project.bat`.
+Status: Paket framtaget och verifierat lokalt.
 
-Viktig ändring: Tester körs alltid automatiskt i slutet av `run_project.bat`.
+Verifiering:
+- `python -m pytest -q`
+- Resultat: 350 passed
+
+Viktig ändring:
+- `run_project.bat` kör fortsatt hela kedjan.
+- I slutet skapas även ett aktuellt kompakt projektpaket i `project_packages/Project_For_ChatGPT.zip`.
+- Word → Excel-mappning rapporteras i `word_excel_mapping_report.txt` och `word_excel_mapping.csv`.
+
+Permanenta regler:
+- Word-master ändras aldrig.
+- Excel-master ändras aldrig.
+- `Taxepunkter` A:E ändras aldrig automatiskt.
+- `Taxa_från_edp` ändras aldrig.
+- Samma EDP-taxa får användas av flera Word-rader utan att det automatiskt är fel.

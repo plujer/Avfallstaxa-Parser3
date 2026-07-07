@@ -3,24 +3,22 @@ setlocal EnableExtensions
 
  echo ==========================================
  echo Excel Builder - git_commit_block.bat
- echo Block45.2 Commit Status Fix
+ echo Block49 Pipeline Controller
  echo ==========================================
  echo.
 
-if not exist output\diagnostics\pytest_report.txt (
-    echo Ingen pytest_report.txt hittades.
+if not exist output\diagnostics\pipeline_status.json (
+    echo pipeline_status.json saknas.
     echo Kor run_project.bat forst.
     pause
     exit /b 1
 )
 
-REM Do NOT redirect Python output to latest_run_status.txt.
-REM The Python script writes that file itself using safe atomic replacement.
-python tools\check_latest_run_status.py
+python tools\check_pipeline_commit_ready.py
 if errorlevel 1 (
     echo.
-    echo Senaste testkorningen ar INTE godkand.
-    echo Commit stoppad. Kor run_project.bat och atgarda felen.
+    echo Senaste pipeline ar INTE godkand for commit.
+    echo Commit stoppad. Kor run_project.bat och skicka rapportzip for granskning.
     pause
     exit /b 1
 )
@@ -31,7 +29,7 @@ echo.
 
 git status
 git add .
-git commit -m "Block45.1: Stabilize test automation and commit guard"
+git commit -m "Block49: Add Pipeline Controller"
 if errorlevel 1 (
     echo Commit misslyckades eller inget fanns att committa.
     pause
@@ -41,5 +39,5 @@ if errorlevel 1 (
 git push
 
 echo.
-echo BLOCK45.1 COMMIT KLAR
+echo BLOCK49 COMMIT KLAR
 pause

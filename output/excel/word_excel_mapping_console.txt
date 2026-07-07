@@ -1,0 +1,9 @@
+Word Excel Mapping klar
+Word rows: 241
+Workbook rows: 306
+MAPPED: 67
+REVIEW: 23
+MISSING: 151
+Passed: False
+TXT: output\excel\word_excel_mapping_report.txt
+CSV: output\excel\word_excel_mapping.csv

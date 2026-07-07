@@ -64,3 +64,5 @@ from .decision_explainer_models import DecisionTracePart, DecisionTrace, Explain
 
 from .workbook_generation_models import WorkbookDecisionRow, WorkbookGenerationReport
 from .project_metadata_models import ProjectMetadata, ProjectMetadataReport, ReleaseChecklistItem
+
+from .word_excel_mapping_models import WordExcelMappingItem, WordExcelMappingReport

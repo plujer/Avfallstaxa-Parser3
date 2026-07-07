@@ -20,13 +20,15 @@ def parse_report(text: str) -> tuple[int | None, int | None, str]:
     failed = 0
     passed = None
 
-    m_failed = re.search(r"(\d+)\s+failed", text, flags=re.IGNORECASE)
-    if m_failed:
-        failed = int(m_failed.group(1))
+    # Pytest output can contain smaller sub-summaries before the final
+    # session summary. Use the last occurrence to represent the full run.
+    failed_matches = re.findall(r"(\d+)\s+failed", text, flags=re.IGNORECASE)
+    if failed_matches:
+        failed = int(failed_matches[-1])
 
-    m_passed = re.search(r"(\d+)\s+passed", text, flags=re.IGNORECASE)
-    if m_passed:
-        passed = int(m_passed.group(1))
+    passed_matches = re.findall(r"(\d+)\s+passed", text, flags=re.IGNORECASE)
+    if passed_matches:
+        passed = int(passed_matches[-1])
 
     if failed:
         return passed, failed, "FAILED"

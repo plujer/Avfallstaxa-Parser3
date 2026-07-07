@@ -1,0 +1,14 @@
+Excel Builder Pipeline Status
+Block: Block49 Pipeline Controller
+Overall: SUCCESS
+Commit allowed: YES
+
+Critical pipeline failed: NO
+Warnings: NO
+Tests: OK
+Passed: 355
+Failed: 0
+
+Next step:
+- Skicka senaste ZIP-filen från rapportzip\ till ChatGPT.
+- Kör git_commit_block.bat först efter ChatGPT har godkänt körningen.

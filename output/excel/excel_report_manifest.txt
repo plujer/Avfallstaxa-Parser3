@@ -1,5 +1,5 @@
 ﻿Excel Builder Full Report Package
-Created: 2026-07-07_22-31-03
+Created: 2026-07-07_23-21-29
 
 Included files:
 [OK] docs\spec\ExcelBuilder_v1_0_Specification.md
@@ -82,6 +82,9 @@ Included files:
 [OK] output\excel\word_tax_coverage_report.txt
 [OK] output\excel\word_tax_coverage_results.csv
 [OK] output\excel\word_tax_coverage_console.txt
+[OK] output\excel\word_excel_mapping_report.txt
+[OK] output\excel\word_excel_mapping.csv
+[OK] output\excel\word_excel_mapping_console.txt
 [OK] output\excel\excel_matching_results.csv
 [OK] output\excel\excel_matching_report.txt
 [OK] output\excel\excel_matching_console.txt
@@ -93,5 +96,6 @@ Included files:
 [OK] output\excel\excel_builder_console.txt
 [OK] output\excel\excel_inspect_console.txt
 [OK] output\diagnostics\pytest_report.txt
+[OK] output\diagnostics\project_package_console.txt
 [OK] output\reports\parser3_result.json
 [OK] output\acceptance\parser3_acceptance_report.txt

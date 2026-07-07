@@ -90,6 +90,9 @@ $files = @(
     "output\excel\word_tax_coverage_report.txt",
     "output\excel\word_tax_coverage_results.csv",
     "output\excel\word_tax_coverage_console.txt",
+    "output\excel\word_excel_mapping_report.txt",
+    "output\excel\word_excel_mapping.csv",
+    "output\excel\word_excel_mapping_console.txt",
     "output\excel\excel_matching_results.csv",
     "output\excel\excel_matching_report.txt",
     "output\excel\excel_matching_console.txt",
@@ -101,6 +104,7 @@ $files = @(
     "output\excel\excel_builder_console.txt",
     "output\excel\excel_inspect_console.txt",
     "output\diagnostics\pytest_report.txt",
+    "output\diagnostics\project_package_console.txt",
     "output\reports\parser3_result.json",
     "output\acceptance\parser3_acceptance_report.txt"
 )

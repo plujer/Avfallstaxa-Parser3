@@ -1,5 +1,5 @@
 @echo off
-setlocal
+setlocal EnableExtensions
 
 echo.
 echo Excel Builder - create project package
@@ -10,7 +10,8 @@ set ERR=%ERRORLEVEL%
 
 echo.
 if "%ERR%"=="0" (
-    echo Package complete: project_packages\Project_For_ChatGPT.zip
+    echo Package complete.
+    echo Send: project_packages\Project_For_ChatGPT.zip
 ) else (
     echo Package failed. Errorlevel: %ERR%
 )
