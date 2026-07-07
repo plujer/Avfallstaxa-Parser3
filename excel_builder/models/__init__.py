@@ -42,3 +42,5 @@ from .semantic_candidate_models import (
 from .context_models import ParserTaxContext, ContextResolvedTaxRow, ContextResolutionReport
 from .tax_code_models import ParsedTaxCode, TaxCodeParseReport
 from .document_structure_models import DocumentRowType, DocumentStructureNode, DocumentStructureReport
+
+from .tax_family_models import TaxFamilyKey, TaxFamilyMember, TaxFamily, TaxFamilyMatch, TaxFamilyReport

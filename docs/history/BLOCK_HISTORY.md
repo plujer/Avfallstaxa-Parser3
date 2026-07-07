@@ -64,3 +64,17 @@ Kunskapsbaserad standardmatchning.
 ## Block1–20
 
 Grundläggande parser, Excel Builder, teststruktur, rapportpaket, standardtaxestöd, projektisolering och stabilisering.
+
+## Block36 – Tax Family Intelligence
+
+Status: Levererad för verifiering.
+
+Syfte: Förstå relationen mellan taxekoder inom samma familj, till exempel `KÄ240RM26`, `KÄ240RM52` och `KÄ240RMFV`.
+
+Verifiering:
+
+- `run_project.bat`
+- `run_tests.bat` endast vid felsökning
+- rapportzip skickas tillbaka till granskning
+
+Regel: Informationen används endast som beslutsstöd. `Taxa_från_edp` ändras inte automatiskt.

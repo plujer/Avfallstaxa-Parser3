@@ -92,3 +92,11 @@
 ## Tidigare block
 
 Tidigare block byggde parser, Excel Builder, rapportkedja, standardtaxestöd, projektisolering och grundläggande testsvit.
+
+## Block36 – Tax Family Intelligence
+
+- Infört taxefamiljsmodell för att gruppera taxekoder efter prefix, volym och avfallstyp.
+- Lagt till taxefamiljsparser, repository och matcher.
+- Lagt till rapporter för taxefamiljer i rapportzip.
+- Lagt till liten taxefamiljsbonus i semantisk kandidatrankning som beslutsstöd.
+- Uppdaterat standardiserade BAT-filer för Block36.

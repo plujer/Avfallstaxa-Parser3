@@ -1,7 +1,7 @@
 @echo off
 setlocal
-set BLOCK_ID=35
-set BLOCK_NAME=Hierarchical Context Resolver
+set BLOCK_ID=36
+set BLOCK_NAME=Tax Family Intelligence
 set VERSION=v0.9.4
 set COMMIT_MESSAGE=Block%BLOCK_ID%: %BLOCK_NAME% (%VERSION%)
 

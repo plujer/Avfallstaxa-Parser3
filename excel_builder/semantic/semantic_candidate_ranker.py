@@ -12,6 +12,7 @@ from excel_builder.models import (
     SemanticScorePart,
     TaxSemanticProfile,
 )
+from excel_builder.tax_family import TaxFamilyMatcher
 
 
 class SemanticCandidateRanker:
@@ -30,6 +31,10 @@ class SemanticCandidateRanker:
     AUTO_MATCH_THRESHOLD = 0.98
     STANDARD_PROPOSAL_THRESHOLD = 0.88
     REVIEW_THRESHOLD = 0.70
+    TAX_FAMILY_BONUS_MAX = 0.04
+
+    def __init__(self) -> None:
+        self.tax_family_matcher = TaxFamilyMatcher()
 
     def rank(
         self,
@@ -106,7 +111,32 @@ class SemanticCandidateRanker:
                 )
             )
 
-        return round(total, 4), parts
+        family_bonus = self._tax_family_bonus(word, candidate)
+        if family_bonus:
+            total += family_bonus
+            parts.append(
+                SemanticScorePart(
+                    field="tax_family",
+                    word_value=self._profile_tax_code(word),
+                    candidate_value=self._profile_tax_code(candidate),
+                    weight=self.TAX_FAMILY_BONUS_MAX,
+                    matched=True,
+                    score=family_bonus,
+                    explanation="samma taxefamilj" if family_bonus < self.TAX_FAMILY_BONUS_MAX else "samma taxefamilj och variant",
+                )
+            )
+
+        return round(min(total, 1.0), 4), parts
+
+    def _profile_tax_code(self, profile: TaxSemanticProfile) -> str:
+        return profile.tax_code or profile.standard_tax_code
+
+    def _tax_family_bonus(self, word: TaxSemanticProfile, candidate: TaxSemanticProfile) -> float:
+        word_code = self._profile_tax_code(word)
+        candidate_code = self._profile_tax_code(candidate)
+        if not word_code or not candidate_code:
+            return 0.0
+        return self.tax_family_matcher.bonus(word_code, candidate_code)
 
     def status_for_score(self, score: float, candidate: TaxSemanticProfile) -> str:
         if score >= self.AUTO_MATCH_THRESHOLD and candidate.source.startswith("RULE:"):

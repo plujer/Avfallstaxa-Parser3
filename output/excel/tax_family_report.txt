@@ -1,0 +1,81 @@
+Tax Family Intelligence Report
+
+Status: Grupperar taxekoder i familjer som beslutsstöd.
+Taxa_från_edp ändras inte och kommununik data delas inte.
+Families: 52
+Members: 368
+Warnings: 435
+
+Largest families:
+- SL: 36 kod(er), intervall=-, varianter=BEHAVG,BOM,BUD,BUDFOS,FRAMKÖR,SAMTIDA,SLANG,SPECTID,STATISTIK,TOAVAGN,TUNGTL,TUNGTLOCK,ÖVERKBM
+- KÄ370: 26 kod(er), intervall=-, varianter=FP,FPFRI,WEBUD
+- KÄ190: 24 kod(er), intervall=-, varianter=WEBUD
+- KÄ660: 17 kod(er), intervall=-, varianter=WEBUD
+- KÄ660RE: 17 kod(er), intervall=026,104,11,12,13,156,22,26,44,52,6, varianter=DH,FV,S
+- KÄ140MA: 15 kod(er), intervall=104,11,12,13,156,22,26,44,52,6, varianter=DH,FV,S
+- KÄ370RE: 15 kod(er), intervall=104,11,12,13,156,22,26,44,52,6, varianter=DH,FV,S
+- KÄ140RE: 12 kod(er), intervall=104,11,13,156,22,26,44,52,6, varianter=F,H,S,V
+- KÄ240: 11 kod(er), intervall=-, varianter=-
+- FA: 10 kod(er), intervall=-, varianter=RLIGTAVFALL,RLIGTBUD,STFE,STFLB,STFRI,STOLJEAVFALL,STSL,STSMÅ,STSODA,STVHT
+- KÄ240RM: 10 kod(er), intervall=12,26,52, varianter=DH,FRI,FV
+- KÄ140: 9 kod(er), intervall=-, varianter=-
+- KÄ190MA: 9 kod(er), intervall=104,11,13,156,22,26,44,52,6, varianter=S
+- KÄ190RE: 9 kod(er), intervall=104,11,13,156,22,26,44,52,6, varianter=S
+- KÄ240MA: 9 kod(er), intervall=104,11,13,156,22,26,44,52,6, varianter=S
+- KÄ240RE: 9 kod(er), intervall=104,11,13,156,22,26,44,52,6, varianter=S
+- KÄ370MA: 9 kod(er), intervall=104,11,13,156,22,26,44,52,6, varianter=S
+- SÄ160: 9 kod(er), intervall=-, varianter=-
+- KÄ: 8 kod(er), intervall=-, varianter=EX,LABUD,LAEXTORD,OSBUD,RLBYTEFLER,RLTVÄTT
+- KÄ190TI: 8 kod(er), intervall=104,12,13,26,52, varianter=BUD,FV
+
+Warnings:
+- Ingen familj kunde identifieras för taxekod: ABSORBERING
+- Ingen familj kunde identifieras för taxekod: ADMINDISP
+- Ingen familj kunde identifieras för taxekod: AEROSOLER
+- Ingen familj kunde identifieras för taxekod: AEROSOLERFÄRG
+- Ingen familj kunde identifieras för taxekod: AEROSOLERHÄRD
+- Ingen familj kunde identifieras för taxekod: AMMONIAK
+- Ingen familj kunde identifieras för taxekod: AVGNIVÅ1V
+- Ingen familj kunde identifieras för taxekod: AVGNIVÅ2V
+- Ingen familj kunde identifieras för taxekod: AVS03FE
+- Ingen familj kunde identifieras för taxekod: AVS03FEB
+- Ingen familj kunde identifieras för taxekod: AVS03FEBUD
+- Ingen familj kunde identifieras för taxekod: AVS03FEO
+- Ingen familj kunde identifieras för taxekod: AVS03FEORD
+- Ingen familj kunde identifieras för taxekod: AVS03SL
+- Ingen familj kunde identifieras för taxekod: AVS03SLB
+- Ingen familj kunde identifieras för taxekod: AVS03SLBUD
+- Ingen familj kunde identifieras för taxekod: AVS03SLO
+- Ingen familj kunde identifieras för taxekod: AVS03SLORD
+- Ingen familj kunde identifieras för taxekod: AVS36FE
+- Ingen familj kunde identifieras för taxekod: AVS36FEB
+- Ingen familj kunde identifieras för taxekod: AVS36FEBUD
+- Ingen familj kunde identifieras för taxekod: AVS36FEO
+- Ingen familj kunde identifieras för taxekod: AVS36FEORD
+- Ingen familj kunde identifieras för taxekod: AVS36SL
+- Ingen familj kunde identifieras för taxekod: AVS36SLB
+- Ingen familj kunde identifieras för taxekod: AVS36SLBUD
+- Ingen familj kunde identifieras för taxekod: AVS36SLO
+- Ingen familj kunde identifieras för taxekod: AVS36SLORD
+- Ingen familj kunde identifieras för taxekod: AVSLUTA_TJÄNST
+- Ingen familj kunde identifieras för taxekod: AVSTÄNG
+- Ingen familj kunde identifieras för taxekod: AVSÖ6FE
+- Ingen familj kunde identifieras för taxekod: AVSÖ6FEB
+- Ingen familj kunde identifieras för taxekod: AVSÖ6FEBUD
+- Ingen familj kunde identifieras för taxekod: AVSÖ6FEO
+- Ingen familj kunde identifieras för taxekod: AVSÖ6FEORD
+- Ingen familj kunde identifieras för taxekod: AVSÖ6SL
+- Ingen familj kunde identifieras för taxekod: AVSÖ6SLB
+- Ingen familj kunde identifieras för taxekod: AVSÖ6SLBUD
+- Ingen familj kunde identifieras för taxekod: AVSÖ6SLO
+- Ingen familj kunde identifieras för taxekod: AVSÖ6SLORD
+- Ingen familj kunde identifieras för taxekod: B100
+- Ingen familj kunde identifieras för taxekod: BBRÄNNBART
+- Ingen familj kunde identifieras för taxekod: BDT03SL
+- Ingen familj kunde identifieras för taxekod: BDT03SLB
+- Ingen familj kunde identifieras för taxekod: BDT03SLBUD
+- Ingen familj kunde identifieras för taxekod: BDT03SLO
+- Ingen familj kunde identifieras för taxekod: BDT03SLORD
+- Ingen familj kunde identifieras för taxekod: BDT36SL
+- Ingen familj kunde identifieras för taxekod: BDT36SLB
+- Ingen familj kunde identifieras för taxekod: BDT36SLBUD

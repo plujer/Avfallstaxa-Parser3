@@ -102,3 +102,13 @@ Block36 – Tax Family Intelligence
 | Tax Code Intelligence | 85 % |
 | Beslutsmotor | 88 % |
 | Dokumentstrukturförståelse | 82 % |
+
+## Aktuellt block
+
+Block36 – Tax Family Intelligence är levererat för verifiering.
+
+Fokus:
+- gruppera taxekoder i stabila familjer,
+- förbättra semantisk kandidatrankning med taxefamiljsbonus,
+- lägga till taxefamiljsrapporter i rapportzip,
+- bibehålla regeln att Taxa_från_edp är facit.
