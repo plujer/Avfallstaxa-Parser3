@@ -1,0 +1,16 @@
+{
+  "master_version": "v1.0",
+  "word_master": "data/word_templates/Taxestruktur_Master_v1.0.docx",
+  "excel_master": "data/master_templates/ArbetsExcel_Template_v1.0.xlsx",
+  "immutable": true,
+  "protected_sheets": {
+    "Taxepunkter": {
+      "protected_columns": "A:E",
+      "rule": "May be read and validated, but never written automatically. If edits are required, create a new versioned master file."
+    },
+    "Taxa_från_edp": {
+      "protected_columns": "ALL",
+      "rule": "EDP source data is read-only facit and must never be modified."
+    }
+  }
+}

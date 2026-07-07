@@ -38,3 +38,20 @@ Master kopieras före skrivning.
 Ny masterversion skapas endast efter godkännande.
 Versionshistorik ska uppdateras vid masterändring.
 ```
+
+## Block43 – Immutable Master Source Policy
+
+Följande filer är projektets officiella masterkällor från och med v1.0:
+
+- `data/word_templates/Taxestruktur_Master_v1.0.docx`
+- `data/master_templates/ArbetsExcel_Template_v1.0.xlsx`
+
+Regler:
+
+1. Masterfiler är immutable och får aldrig skrivas över.
+2. Word-mastern får endast läsas av parsern.
+3. Excel-mastern får endast kopieras till arbetskopior.
+4. Om redigering krävs ska en ny versionsfil skapas, exempelvis `v1.1`.
+5. Fliken `Taxepunkter` kolumn A:E får inte skrivas automatiskt.
+6. Fliken `Taxa_från_edp` är facit och får inte skrivas automatiskt i någon kolumn eller rad.
+7. Projektet ska hämta aktiva masterkällor från `config/master_sources.json`.

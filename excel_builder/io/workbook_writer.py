@@ -1,17 +1,30 @@
-"""Write a new Arbets-Excel from parser rows."""
+"""Write Arbets-Excel output from parser rows using the immutable master template."""
 
 from __future__ import annotations
 
 from pathlib import Path
-from openpyxl import Workbook
+from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.worksheet.table import Table, TableStyleInfo
 
 from excel_builder.edp.proposal_trace_sheets import ProposalTraceSheets
+from excel_builder.guards import ImmutableMasterGuard
 from excel_builder.models import BuilderResult
+from excel_builder.template import TemplateMasterManager
 
 
 class WorkbookWriter:
+    """Create a working copy from the selected master and write generated data.
+
+    Protected source areas are deliberately not touched:
+    - Taxepunkter columns A:E are template columns and immutable in the master.
+    - Taxa_från_edp is EDP facit and immutable.
+
+    Generated parser rows are written to a separate Builder_Output sheet until a
+    later approved block maps them into allowed working columns.
+    """
+
+    OUTPUT_SHEET = "Builder_Output"
     HEADERS = [
         "Paragraf",
         "Paragrafnamn",
@@ -29,10 +42,15 @@ class WorkbookWriter:
         out = Path(path)
         out.parent.mkdir(parents=True, exist_ok=True)
 
-        wb = Workbook()
-        ws = wb.active
-        ws.title = "Taxepunkter"
+        template_info = TemplateMasterManager().create_working_copy(out)
+        if template_info.warnings:
+            raise RuntimeError("; ".join(template_info.warnings))
 
+        guard = ImmutableMasterGuard([template_info.template_path])
+        template_fingerprint = guard.fingerprint(template_info.template_path)
+
+        wb = load_workbook(out)
+        ws = self._replace_sheet(wb, self.OUTPUT_SHEET)
         ws.append(self.HEADERS)
 
         for row in result.rows:
@@ -51,12 +69,18 @@ class WorkbookWriter:
 
         self._style(ws)
         self._add_table(ws)
-        self._add_summary_sheet(wb, result)
-        self._add_readme_sheet(wb)
+        self._replace_summary_sheet(wb, result, template_info.template_path)
+        self._replace_readme_sheet(wb)
         ProposalTraceSheets().add(wb, municipality="", context="Parseroutput")
 
         wb.save(out)
+        guard.verify_unchanged(template_fingerprint)
         return out
+
+    def _replace_sheet(self, wb, sheet_name: str):
+        if sheet_name in wb.sheetnames:
+            del wb[sheet_name]
+        return wb.create_sheet(sheet_name)
 
     def _style(self, ws) -> None:
         header_fill = PatternFill("solid", fgColor="D9EAF7")
@@ -87,7 +111,7 @@ class WorkbookWriter:
         if ws.max_row < 2:
             return
         ref = f"A1:J{ws.max_row}"
-        table = Table(displayName="TaxepunkterTable", ref=ref)
+        table = Table(displayName="BuilderOutputTable", ref=ref)
         style = TableStyleInfo(
             name="TableStyleMedium2",
             showFirstColumn=False,
@@ -98,35 +122,33 @@ class WorkbookWriter:
         table.tableStyleInfo = style
         ws.add_table(table)
 
-    def _add_summary_sheet(self, wb, result: BuilderResult) -> None:
-        ws = wb.create_sheet("Sammanfattning")
+    def _replace_summary_sheet(self, wb, result: BuilderResult, template_path: str) -> None:
+        ws = self._replace_sheet(wb, "Sammanfattning")
         ws.append(["Mått", "Värde"])
         ws.append(["Antal rader från parser", result.row_count])
         ws.append(["Varningar", len(result.warnings)])
-        ws.append(["Status", "Arbets-Excel – inte master"])
-        ws.append(["Taxa_Förslag", "Ingår för föreslagna saknade taxekoder"])
-        ws.append(["Regelspårning", "Ingår för spårbarhet"])
+        ws.append(["Status", "Arbets-Excel skapad som kopia av immutable master"])
+        ws.append(["Master", template_path])
+        ws.append(["Skydd", "Taxepunkter A:E och Taxa_från_edp skrivs inte automatiskt"])
+        ws.append(["Genererad data", self.OUTPUT_SHEET])
         ws.column_dimensions["A"].width = 35
-        ws.column_dimensions["B"].width = 45
+        ws.column_dimensions["B"].width = 80
         for cell in ws[1]:
             cell.font = Font(bold=True)
 
-    def _add_readme_sheet(self, wb) -> None:
-        ws = wb.create_sheet("README")
+    def _replace_readme_sheet(self, wb) -> None:
+        ws = self._replace_sheet(wb, "README")
         rows = [
             ["Excel Builder"],
             [""],
-            ["Denna fil är en arbets-Excel."],
-            ["Den är inte master förrän användaren uttryckligen godkänner den."],
+            ["Denna fil är en arbetskopia skapad från immutable Excel-master."],
+            ["Masterfilen får aldrig ändras eller skrivas över."],
+            ["Taxepunkter kolumn A:E är mallkolumner och lämnas orörda."],
+            ["Taxa_från_edp är facit och lämnas helt orörd."],
             [""],
-            ["Taxa_Förslag och Regelspårning ingår i alla genererade arbetsböcker."],
-            [""],
-            ["Nästa steg:"],
-            ["1. Koppla mot befintlig Arbets-Excel/EDP-data."],
-            ["2. Behåll befintliga EDP-koder där matchning är säker."],
-            ["3. Markera osäkra rader för manuell kontroll."],
-            ["4. Skapa ny godkänd arbetsversion."],
+            ["Genererade parserrader skrivs till Builder_Output."],
+            ["Om master behöver ändras ska en ny versionsfil skapas och godkännas."],
         ]
         for row in rows:
             ws.append(row)
-        ws.column_dimensions["A"].width = 90
+        ws.column_dimensions["A"].width = 100

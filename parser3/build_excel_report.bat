@@ -18,19 +18,19 @@ python -m pytest -v --tb=short > output\diagnostics\pytest_report.txt 2>&1
 
 echo.
 echo [2/8] Profilerar Arbets-Excel...
-python excel_builder_inspect.py --workbook "data\ArbetsExcel_Reference.xlsx" --out "output\excel\arbets_excel_profile_report.txt" > output\excel\excel_inspect_console.txt 2>&1
+python excel_builder_inspect.py --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" --out "output\excel\arbets_excel_profile_report.txt" > output\excel\excel_inspect_console.txt 2>&1
 
 echo.
 echo [3/8] Läser EDP-regelverk...
-python excel_builder_rulebook.py --workbook "data\ArbetsExcel_Reference.xlsx" --out "output\excel\edp_rulebook_report.txt" > output\excel\edp_rulebook_console.txt 2>&1
+python excel_builder_rulebook.py --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" --out "output\excel\edp_rulebook_report.txt" > output\excel\edp_rulebook_console.txt 2>&1
 
 echo.
 echo [4/8] Skapar Arbets-Excel snapshot...
-python excel_builder_snapshot.py --workbook "data\ArbetsExcel_Reference.xlsx" --out "output\excel\arbets_excel_snapshot.txt" --max-rows 40 >> output\excel\excel_inspect_console.txt 2>&1
+python excel_builder_snapshot.py --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" --out "output\excel\arbets_excel_snapshot.txt" --max-rows 40 >> output\excel\excel_inspect_console.txt 2>&1
 
 echo.
 echo [5/8] Kör Matching Engine preview...
-python excel_builder_match.py --parser-result "output\reports\parser3_result.json" --workbook "data\ArbetsExcel_Reference.xlsx" > output\excel\excel_matching_console.txt 2>&1
+python excel_builder_match.py --parser-result "output\reports\parser3_result.json" --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" > output\excel\excel_matching_console.txt 2>&1
 
 echo.
 echo [6/8] Bygger Arbets-Excel från parseroutput...

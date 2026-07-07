@@ -3,8 +3,8 @@
 ## Senaste stabila version
 
 ```text
-v0.9.4-block41-candidate
-Block41 – Workbook Generation Engine
+v0.9.3-build-stable
+Block33 – Build System Stabilization
 ```
 
 ## Senaste verifierade rapport
@@ -66,27 +66,20 @@ Lägenhet i flerbostadshus
 
 Dessa är dokumentstruktur/rubriker, inte faktiska taxepunkter.
 
-## Senaste genomförda block
-
-```text
-Block41 – Workbook Generation Engine
-```
-
-Resultat:
-
-```text
-1. Context Resolver använder Document Structure Engine internt.
-2. Strukturrubriker skickas inte ut som kontextlösta taxarader.
-3. Fastighetstyp, avfallstyp, tjänstetyp och behållartyp ärvs från aktiv hierarki.
-4. Underkontext nollställs vid nya syskonrubriker så kontext inte läcker mellan avsnitt.
-5. context_resolved_rows.csv innehåller Hierarchy path och Parent structure index.
-6. Standardiserade BAT-filer införs för körning, tester, rapporter och Git-steg.
-```
-
 ## Nästa prioritet
 
 ```text
-Block36 – Tax Family Intelligence
+Block34 – Document Structure Engine
+```
+
+Mål:
+
+```text
+1. Klassificera parserrader som SECTION, SUBSECTION, TABLE_HEADER, TABLE_ROW, TAX_NODE, NOTE.
+2. Bygga ett dokumentträd.
+3. Endast skicka TAX_NODE vidare till semantik och beslut.
+4. Förhindra att rubriker blir NEW_TAXA.
+5. Minska kontextläckage.
 ```
 
 ## Aktuell mognadsbedömning
@@ -98,47 +91,18 @@ Block36 – Tax Family Intelligence
 | Projektisolering | 100 % |
 | Standardtaxekatalog | 99 % |
 | Rule Repository | 95 % |
-| Semantisk modell | 94 % |
+| Semantisk modell | 93 % |
 | Tax Code Intelligence | 85 % |
 | Beslutsmotor | 88 % |
-| Dokumentstrukturförståelse | 82 % |
+| Dokumentstrukturförståelse | 50 % |
 
-## Aktuellt block
+## Block43 – Master Source Integration & Immutable Template Guard
 
-Block36 – Tax Family Intelligence är levererat för verifiering.
+Status: Implementerat.
 
-Fokus:
-- gruppera taxekoder i stabila familjer,
-- förbättra semantisk kandidatrankning med taxefamiljsbonus,
-- lägga till taxefamiljsrapporter i rapportzip,
-- bibehålla regeln att Taxa_från_edp är facit.
-
-
-## Block37 – Variant Intelligence Engine
-Status: Implementerad för verifiering. Tolkar variantdimensioner inom taxefamiljer och skriver variantprofiler till rapportzip.
-
-## Block38 status
-
-Block38 inför Semantic Attribute Intelligence. Steget är beslutsstöd och får inte skriva över Taxa_från_edp eller blanda kommununik data mellan Sorsele, Malå och Norsjö.
-
-## Block39 status
-
-Block39 inför Composite Matching Engine som samlat beslutsstöd ovanpå Document Structure, Hierarchical Context, Tax Family, Variant och Semantic Attribute Intelligence.
-
-Status: Implementerad för verifiering.
-
-Verifiering:
-- kör `run_project.bat`,
-- kör `run_tests.bat` endast om huvudkörningen säger att tester behövs,
-- skicka senaste rapportzip från `rapportzip\`.
-
-Regel: Composite Matching får inte ändra `Taxa_från_edp` och får inte blanda kommununik data mellan Sorsele, Malå och Norsjö.
-## Block40 – Explainable Decision Engine
-Status: Implementerad för verifiering. Lägger till decision traces, confidence och separata rapporter.
-
-
-## Block41 – Workbook Generation Engine
-
-Status: Levererad för verifiering.
-
-Workbook Generation Engine skriver `Decision_Trace`, `Workbook_Generation` och beslutsspårningskolumner till genererad Arbets-Excel. `Taxa_från_edp` ändras inte.
+- Nya v1.0-masterfiler har lagts in under `data/master_templates` och `data/word_templates`.
+- `config/master_sources.json` är ny central källa för aktiv Word-master och Excel-master.
+- `TemplateMasterManager` använder nu konfigurerad v1.0 Excel-master.
+- `WorkbookWriter` skapar arbetskopior från immutable master och skriver genererade parserrader i `Builder_Output`.
+- Skyddsregler införda för `Taxepunkter!A:E` och hela `Taxa_från_edp`.
+- Masterfiler verifieras med `tools/check_master_sources.py` och rapporteras i rapportzip.

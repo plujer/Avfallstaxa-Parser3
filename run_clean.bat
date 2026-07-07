@@ -1,14 +1,13 @@
 @echo off
 setlocal
-
-echo ==========================================
-echo Rensar temporara output-mappar
-echo ==========================================
-
-if exist output\diagnostics del /q output\diagnostics\*.*
-if exist output\excel del /q output\excel\*.*
-if exist output\reports del /q output\reports\*.*
-
-echo Klar.
+echo Rensar output och temporära rapporter...
+if exist output rmdir /s /q output
+mkdir output
+mkdir output\excel
+mkdir output\diagnostics
+mkdir output\reports
+mkdir output\projects
+mkdir output\acceptance
+echo Klart.
 pause
 endlocal

@@ -13,14 +13,17 @@ import re
 import shutil
 
 from excel_builder.models import TemplateInfo
+from excel_builder.config import MasterSourcesReader
+from excel_builder.guards import ImmutableMasterGuard, ImmutableMasterViolation
 
 
 class TemplateMasterManager:
     DEFAULT_TEMPLATE_DIR = Path("data/master_templates")
-    DEFAULT_TEMPLATE_NAME = "ArbetsExcel_Template_v0.1.0_draft.xlsx"
+    DEFAULT_TEMPLATE_NAME = "ArbetsExcel_Template_v1.0.xlsx"
 
     def get_default_template(self) -> TemplateInfo:
-        path = self.DEFAULT_TEMPLATE_DIR / self.DEFAULT_TEMPLATE_NAME
+        configured = MasterSourcesReader().read()
+        path = configured.excel_master
         version = self._extract_version(path.name)
         status = "draft"
         if "locked" in path.stem.lower():
@@ -34,6 +37,7 @@ class TemplateMasterManager:
     def create_working_copy(self, output_path: str | Path, template_path: str | Path | None = None) -> TemplateInfo:
         source = Path(template_path) if template_path else Path(self.get_default_template().template_path)
         output = Path(output_path)
+        guard = ImmutableMasterGuard([source])
         output.parent.mkdir(parents=True, exist_ok=True)
 
         info = TemplateInfo(
@@ -47,11 +51,15 @@ class TemplateMasterManager:
             info.warnings.append(f"Template saknas: {source}")
             return info
 
-        if source.resolve() == output.resolve():
-            info.warnings.append("Output får inte vara samma fil som template/master.")
+        try:
+            guard.assert_output_allowed(output)
+        except ImmutableMasterViolation as exc:
+            info.warnings.append(str(exc))
             return info
 
+        before = guard.fingerprint(source)
         shutil.copy2(source, output)
+        guard.verify_unchanged(before)
         return info
 
     def propose_new_template_name(self, version: str, status: str = "draft") -> str:

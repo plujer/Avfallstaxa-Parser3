@@ -1,36 +1,29 @@
 @echo off
 setlocal
-set BLOCK_ID=41
-set BLOCK_NAME=Workbook Generation Engine
-set VERSION=v0.9.4
 
 echo ==========================================
-echo Excel Builder - Block%BLOCK_ID%
-echo %BLOCK_NAME%
-echo Version: %VERSION%
-echo ==========================================
-echo.
-echo Detta ar huvudkorningen for aktuellt block.
-echo Den kor full pipeline, tester och skapar rapportzip.
-echo.
+echo Excel Builder - Block43 Master Source Integration
+ echo ==========================================
 
+echo Kör full verifiering och rapportpaket...
 call build_excel_report.bat
+
 if errorlevel 1 (
     echo.
     echo ==========================================
-    echo BLOCK%BLOCK_ID% MISSLYCKADES
-    echo Kor run_tests.bat om du vill felsoka tester separat.
-    echo Skicka annars senaste rapportzip om den skapades.
+    echo BLOCK43 MISSLYCKADES
     echo ==========================================
+    echo Kör vid behov: run_tests.bat
     pause
     exit /b 1
 )
 
 echo.
 echo ==========================================
-echo BLOCK%BLOCK_ID% KORNING KLAR
-echo Skicka endast senaste ZIP-filen fran rapportzip\ till ChatGPT.
-echo run_tests.bat behovs INTE om inga fel visades.
+echo BLOCK43 VERIFIERING KLAR
+echo ==========================================
+echo Skicka endast senaste ZIP-filen från rapportzip\
+echo run_tests.bat behövs inte om inga fel visas ovan.
 echo ==========================================
 pause
 endlocal

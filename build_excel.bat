@@ -10,15 +10,15 @@ if not exist output\excel mkdir output\excel
 
 echo.
 echo [1/4] Profilerar Arbets-Excel...
-python excel_builder_inspect.py --workbook "data\ArbetsExcel_Reference.xlsx" --out "output\excel\arbets_excel_profile_report.txt"
+python excel_builder_inspect.py --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" --out "output\excel\arbets_excel_profile_report.txt"
 
 echo.
 echo [2/4] Skapar Arbets-Excel snapshot...
-python excel_builder_snapshot.py --workbook "data\ArbetsExcel_Reference.xlsx" --out "output\excel\arbets_excel_snapshot.txt" --max-rows 40
+python excel_builder_snapshot.py --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx" --out "output\excel\arbets_excel_snapshot.txt" --max-rows 40
 
 echo.
 echo [3/4] Kör Matching Engine preview...
-python excel_builder_match.py --parser-result "output\reports\parser3_result.json" --workbook "data\ArbetsExcel_Reference.xlsx"
+python excel_builder_match.py --parser-result "output\reports\parser3_result.json" --workbook "data/master_templates/ArbetsExcel_Template_v1.0.xlsx"
 
 echo.
 echo [4/4] Bygger första Arbets-Excel från parseroutput...

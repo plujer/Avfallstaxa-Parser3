@@ -30,7 +30,7 @@ def test_template_manager_refuses_overwrite_template(tmp_path):
     info = TemplateMasterManager().create_working_copy(template, template)
 
     assert info.warnings
-    assert "Output får inte vara samma fil" in info.warnings[0]
+    assert "Output får inte vara masterfil" in info.warnings[0]
 
 
 def test_template_manager_proposes_versioned_template_name():

@@ -1,25 +1,5 @@
 # CHANGELOG – Excel Builder
 
-
-## Block35 – Hierarchical Context Resolver
-
-- Ersatte rullande kontext med hierarkisk kontext baserad på Document Structure Engine.
-- Context Resolver klassificerar nu parserrader internt och returnerar endast TAX_NODE/TABLE_ROW.
-- Nollställer underkontext vid ny SECTION/SUBSECTION för att förhindra kontextläckning mellan syskonrubriker.
-- Lägger till `Hierarchy path` och `Parent structure index` i `context_resolved_rows.csv`.
-- Uppdaterade regressionstester för ny förväntad Block35-semantik.
-- Införde standardiserade BAT-filer för blockkörning, tester, rapportzip och Git-steg.
-
-## Block34 – Document Structure Engine
-
-- Införde Document Structure Engine.
-- Klassificerar parserrader som SECTION, SUBSECTION, TABLE_HEADER, TABLE_ROW, TAX_NODE eller NOTE.
-- Filtrerar så att endast TAX_NODE går vidare till kontext, Tax Knowledge, semantik och beslut.
-- Förhindrar att kända rubriker/fastighetstyper blir NEW_TAXA.
-- La till document_structure_report.txt och document_structure_rows.csv i rapportpaketet.
-- Uppdaterade rapportbygget till versionsstyrd master `data/master_templates/ArbetsExcel_Template_v0.9.4_draft.xlsx`.
-- La till regressionstester för dokumentstruktur.
-
 ## Block33 – Build System Stabilization
 
 - Återställde full `build_excel_report.bat`.
@@ -93,44 +73,11 @@
 
 Tidigare block byggde parser, Excel Builder, rapportkedja, standardtaxestöd, projektisolering och grundläggande testsvit.
 
-## Block36 – Tax Family Intelligence
+## Block43 – Master Source Integration & Immutable Template Guard
 
-- Infört taxefamiljsmodell för att gruppera taxekoder efter prefix, volym och avfallstyp.
-- Lagt till taxefamiljsparser, repository och matcher.
-- Lagt till rapporter för taxefamiljer i rapportzip.
-- Lagt till liten taxefamiljsbonus i semantisk kandidatrankning som beslutsstöd.
-- Uppdaterat standardiserade BAT-filer för Block36.
-
-
-## Block37 – Variant Intelligence Engine
-- Lade till VariantParser, VariantMatcher och VariantRepository.
-- Lade till CLI `excel_builder_variant_intelligence.py`.
-- Lade till rapporterna `variant_intelligence_report.txt` och `variant_profiles.csv`.
-- Uppdaterade BAT-flödet för Block37.
-
-## Block38 – Semantic Attribute Intelligence
-
-- Lade till Semantic Attribute Intelligence som extraherar material, avfallstyp, enhet, behållartyp, intervall och fastighetstyp som beslutsstöd.
-- Lade till rapporterna `semantic_attribute_report.txt` och `semantic_attributes.csv`.
-- Lade till tester för attributextraktion, attributmatchning och CLI/package-integrering.
-- Taxa_från_edp ändras inte och kommununik data delas inte.
-
-## Block39 – Composite Matching Engine
-
-- Lade till Composite Matching Engine som väger ihop EDP-träff, taxefamilj, variant, semantiska attribut, hierarkisk kontext och dokumentstruktur.
-- Lade till CLI `excel_builder_composite_matching.py`.
-- Lade till rapporterna `composite_matching_report.txt` och `composite_matches.csv` i rapportzip.
-- Lade till tester för composite scoring och CLI/package-integrering.
-- Uppdaterade BAT-filer till Block39.
-## Block40 – Explainable Decision Engine
-- Lade till Explainable Decision Engine med confidence och decision traces.
-- Lade till rapporterna explainable_decision_report.txt och decision_traces.csv.
-- Lade till tester och CLI för beslutsspårning.
-
-## Block41 – Workbook Generation Engine
-
-- Lade till Workbook Generation Engine som skriver `Decision_Trace` och `Workbook_Generation` direkt till genererad Arbets-Excel.
-- Lade till beslutsspårningskolumner i `Taxepunkter` utan att ändra `Taxa_från_edp`.
-- Lade till CLI `excel_builder_workbook_generation.py`.
-- Lade till rapporten `workbook_generation_report.txt` i rapportzip.
-- Uppdaterade BAT-filer till Block41.
+- Added immutable master source configuration in `config/master_sources.json`.
+- Added official v1.0 Word and Excel master files.
+- Added runtime guard preventing writes to master files and protected workbook areas.
+- Updated template manager default from old draft template to v1.0 master source.
+- Updated workbook generation to create working copies from master instead of creating blank workbooks.
+- Updated report package to include master source diagnostics.
