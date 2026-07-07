@@ -44,3 +44,5 @@ from .tax_code_models import ParsedTaxCode, TaxCodeParseReport
 from .document_structure_models import DocumentRowType, DocumentStructureNode, DocumentStructureReport
 
 from .tax_family_models import TaxFamilyKey, TaxFamilyMember, TaxFamily, TaxFamilyMatch, TaxFamilyReport
+
+from .variant_models import TaxVariantProfile, VariantComparison, VariantIntelligenceReport

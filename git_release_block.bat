@@ -1,7 +1,7 @@
 @echo off
 setlocal
-set BLOCK_ID=36
-set BLOCK_NAME=Tax Family Intelligence
+set BLOCK_ID=37
+set BLOCK_NAME=Variant Intelligence Engine
 set VERSION=v0.9.4
 set TAG=%VERSION%-block%BLOCK_ID%
 

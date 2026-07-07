@@ -1,0 +1,81 @@
+Variant Intelligence Report
+
+Status: Tolkar variantdimensioner inom taxefamiljer som beslutsstöd.
+Taxa_från_edp ändras inte och kommununik data delas inte.
+Profiles: 968
+Families: 52
+Warnings: 519
+
+Largest variant families:
+- SL: 55 profil(er), varianter=7, 7|BUDFOS, BASE, BEHAVG, BOM, BUD, FRAMKÖR, SAMTIDA
+- KÄ660RE: 30 profil(er), varianter=660|RE|026, 660|RE|104, 660|RE|11|S, 660|RE|12|DH, 660|RE|12|FV|FRITID, 660|RE|13, 660|RE|156, 660|RE|22|S
+- KÄ370RE: 27 profil(er), varianter=370|RE|104, 370|RE|11|S, 370|RE|12|DH, 370|RE|12|FV|FRITID, 370|RE|13, 370|RE|156, 370|RE|22|S, 370|RE|26
+- KÄ140MA: 27 profil(er), varianter=140|MA|104, 140|MA|11|S, 140|MA|12|DH, 140|MA|12|FV|FRITID, 140|MA|13, 140|MA|156, 140|MA|22|S, 140|MA|26
+- KÄ190: 27 profil(er), varianter=190, 190|2, 190|3, 190|MA|EX, 190|RE|EX, 190|RE|EX|FRITID, 190|WEBUD
+- KÄ370: 27 profil(er), varianter=370, 370|2, 370|3, 370|PL|FPFRI|FRITID, 370|PL|FP|FRITID, 370|WEBUD
+- KÄ240RM: 24 profil(er), varianter=240|RM|12, 240|RM|12|DH, 240|RM|12|FRI|FRITID, 240|RM|12|FV|FRITID, 240|RM|26, 240|RM|26|DH, 240|RM|26|FRI|FRITID, 240|RM|26|FV|FRITID
+- KÄ660: 17 profil(er), varianter=660, 660|2, 660|3, 660|WEBUD
+- KÄ240: 13 profil(er), varianter=240, 240|2, 240|3, 240|RE, 240|RE|FRITID
+- KÄ140RE: 12 profil(er), varianter=140|RE|104, 140|RE|11|S, 140|RE|13, 140|RE|156, 140|RE|22|S, 140|RE|26, 140|RE|26|F, 140|RE|26|H
+- FA: 10 profil(er), varianter=RLIGTAVFALL, RLIGTBUD, STFE, STFLB, STFRI|FRITID, STOLJEAVFALL, STSL, STSMÅ
+- KÄ190RE: 9 profil(er), varianter=190|RE|104, 190|RE|11|S, 190|RE|13, 190|RE|156, 190|RE|22|S, 190|RE|26, 190|RE|44|S, 190|RE|52
+- KÄ240RE: 9 profil(er), varianter=240|RE|104, 240|RE|11|S, 240|RE|13, 240|RE|156, 240|RE|22|S, 240|RE|26, 240|RE|44|S, 240|RE|52
+- KÄ190MA: 9 profil(er), varianter=190|MA|104, 190|MA|11|S, 190|MA|13, 190|MA|156, 190|MA|22|S, 190|MA|26, 190|MA|44|S, 190|MA|52
+- KÄ240MA: 9 profil(er), varianter=240|MA|104, 240|MA|11|S, 240|MA|13, 240|MA|156, 240|MA|22|S, 240|MA|26, 240|MA|44|S, 240|MA|52
+- KÄ370MA: 9 profil(er), varianter=370|MA|104, 370|MA|11|S, 370|MA|13, 370|MA|156, 370|MA|22|S, 370|MA|26, 370|MA|44|S, 370|MA|52
+- KÄ140: 9 profil(er), varianter=140, 140|2, 140|3
+- SÄ160: 9 profil(er), varianter=160, 160|2, 160|3
+- KÄ: 8 profil(er), varianter=240|EX, 660|EX, 660|OSBUD, EX, LABUD, LAEXTORD, RLBYTEFLER, RLTVÄTT
+- KÄ190TI: 8 profil(er), varianter=190|TI|104, 190|TI|12|FV|FRITID, 190|TI|13, 190|TI|26, 190|TI|26|FV|FRITID, 190|TI|52, 190|TI|52|FV|FRITID, 190|TI|BUD
+
+Warnings:
+- Ingen familj kunde identifieras för taxekod: KK400OS104
+- Ingen familj kunde identifieras för taxekod: KK400OS52
+- Ingen familj kunde identifieras för taxekod: KK400OS26
+- Ingen familj kunde identifieras för taxekod: GROVBUD
+- Ingen familj kunde identifieras för taxekod: LÖSTKBMBUD
+- Ingen familj kunde identifieras för taxekod: BUDNING
+- Ingen familj kunde identifieras för taxekod: MB1300RE104
+- Ingen familj kunde identifieras för taxekod: MB1300RE52
+- Ingen familj kunde identifieras för taxekod: MB1300RE26
+- Ingen familj kunde identifieras för taxekod: MB1300RE13
+- Ingen familj kunde identifieras för taxekod: MB1300REBUD
+- Ingen familj kunde identifieras för taxekod: MB2200RE104
+- Ingen familj kunde identifieras för taxekod: MB2200RE52
+- Ingen familj kunde identifieras för taxekod: MB2200RE26
+- Ingen familj kunde identifieras för taxekod: MB2200RE13
+- Ingen familj kunde identifieras för taxekod: MB2200REBUD
+- Ingen familj kunde identifieras för taxekod: MB5000RE104
+- Ingen familj kunde identifieras för taxekod: MB5000RE52
+- Ingen familj kunde identifieras för taxekod: MB5000RE26
+- Ingen familj kunde identifieras för taxekod: MB5000RE13
+- Ingen familj kunde identifieras för taxekod: MB5000REBUD
+- Ingen familj kunde identifieras för taxekod: MB800MA104
+- Ingen familj kunde identifieras för taxekod: MB800MA52
+- Ingen familj kunde identifieras för taxekod: MB800MA26
+- Ingen familj kunde identifieras för taxekod: MB800MA13
+- Ingen familj kunde identifieras för taxekod: MB800MABUD
+- Ingen familj kunde identifieras för taxekod: MB1300MA104
+- Ingen familj kunde identifieras för taxekod: MB1300MA52
+- Ingen familj kunde identifieras för taxekod: MB1300MA26
+- Ingen familj kunde identifieras för taxekod: MB1300MA13
+- Ingen familj kunde identifieras för taxekod: MB1300MABUD
+- Ingen familj kunde identifieras för taxekod: MB1300OS104
+- Ingen familj kunde identifieras för taxekod: MB1300OS52
+- Ingen familj kunde identifieras för taxekod: MB1300OS26
+- Ingen familj kunde identifieras för taxekod: MB1300OS13
+- Ingen familj kunde identifieras för taxekod: MB1300OSBUD
+- Ingen familj kunde identifieras för taxekod: MB1600MA104
+- Ingen familj kunde identifieras för taxekod: MB1600MA52
+- Ingen familj kunde identifieras för taxekod: MB1600MA26
+- Ingen familj kunde identifieras för taxekod: MB1600MA13
+- Ingen familj kunde identifieras för taxekod: MB1600MABUD
+- Ingen familj kunde identifieras för taxekod: MB1600OS104
+- Ingen familj kunde identifieras för taxekod: MB1600OS52
+- Ingen familj kunde identifieras för taxekod: MB1600OS26
+- Ingen familj kunde identifieras för taxekod: MB1600OS13
+- Ingen familj kunde identifieras för taxekod: MB1600OSBUD
+- Ingen familj kunde identifieras för taxekod: MB2200OS104
+- Ingen familj kunde identifieras för taxekod: MB2200OS52
+- Ingen familj kunde identifieras för taxekod: MB2200OS26
+- Ingen familj kunde identifieras för taxekod: MB2200OS13

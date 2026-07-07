@@ -100,3 +100,10 @@ Tidigare block byggde parser, Excel Builder, rapportkedja, standardtaxestöd, pr
 - Lagt till rapporter för taxefamiljer i rapportzip.
 - Lagt till liten taxefamiljsbonus i semantisk kandidatrankning som beslutsstöd.
 - Uppdaterat standardiserade BAT-filer för Block36.
+
+
+## Block37 – Variant Intelligence Engine
+- Lade till VariantParser, VariantMatcher och VariantRepository.
+- Lade till CLI `excel_builder_variant_intelligence.py`.
+- Lade till rapporterna `variant_intelligence_report.txt` och `variant_profiles.csv`.
+- Uppdaterade BAT-flödet för Block37.

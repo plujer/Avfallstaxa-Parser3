@@ -50,11 +50,15 @@ echo [9/30] Tolkar taxekoder...
 python excel_builder_tax_codes.py --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data\master_templates\ArbetsExcel_Template_v0.9.4_draft.xlsx" > output\excel\tax_code_intelligence_console.txt 2>&1
 
 echo.
-echo [10/30] Bygger Tax Family Intelligence...
+echo [10/31] Bygger Tax Family Intelligence...
 python excel_builder_tax_family.py --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data\master_templates\ArbetsExcel_Template_v0.9.4_draft.xlsx" > output\excel\tax_family_console.txt 2>&1
 
 echo.
-echo [11/30] Extraherar taxekunskap...
+echo [11/31] Bygger Variant Intelligence...
+python excel_builder_variant_intelligence.py --standard-tax "data\edp_standard\EDP_Future_Standard_Taxor_Renhallning.xlsx" --workbook "data\master_templates\ArbetsExcel_Template_v0.9.4_draft.xlsx" > output\excel\variant_intelligence_console.txt 2>&1
+
+echo.
+echo [12/31] Extraherar taxekunskap...
 python excel_builder_tax_knowledge.py --parser-result "output\reports\parser3_result.json" > output\excel\tax_knowledge_console.txt 2>&1
 
 echo.
@@ -133,7 +137,7 @@ echo [29/30] Skapar standardiserad rapportzip...
 powershell -NoProfile -ExecutionPolicy Bypass -File tools\zip_excel_report.ps1
 
 echo.
-echo [30/30] Klar.
+echo [31/31] Klar.
 
 echo.
 echo ==========================================

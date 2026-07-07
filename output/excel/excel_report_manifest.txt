@@ -1,5 +1,5 @@
 ﻿Excel Builder Full Report Package
-Created: 2026-07-07_15-29-52
+Created: 2026-07-07_15-38-58
 
 Included files:
 [OK] docs\spec\ExcelBuilder_v1_0_Specification.md
@@ -14,6 +14,9 @@ Included files:
 [OK] output\excel\tax_family_report.txt
 [OK] output\excel\tax_families.csv
 [OK] output\excel\tax_family_console.txt
+[OK] output\excel\variant_intelligence_report.txt
+[OK] output\excel\variant_profiles.csv
+[OK] output\excel\variant_intelligence_console.txt
 [OK] output\excel\context_resolution_report.txt
 [OK] output\excel\context_resolved_rows.csv
 [OK] output\excel\document_structure_report.txt

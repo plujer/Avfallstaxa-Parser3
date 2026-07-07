@@ -1,0 +1,4 @@
+Variant Intelligence klar.
+Profiles: 968
+Families: 52
+Warnings: 519

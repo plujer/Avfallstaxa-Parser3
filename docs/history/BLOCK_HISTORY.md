@@ -78,3 +78,7 @@ Verifiering:
 - rapportzip skickas tillbaka till granskning
 
 Regel: Informationen används endast som beslutsstöd. `Taxa_från_edp` ändras inte automatiskt.
+
+
+## Block37 – Variant Intelligence Engine
+Variantdimensioner inom taxefamiljer identifieras som beslutsstöd: volym, fraktion, intervall, variant och användningstyp.
