@@ -1,7 +1,7 @@
 @echo off
 setlocal EnableExtensions EnableDelayedExpansion
 
-set BLOCK_NAME=Block49 Pipeline Controller
+set BLOCK_NAME=Block50 Word Excel Mapping 2.0
 set PYTEST_FAILED=0
 set PIPELINE_FAILED=0
 set WARNING_FAILED=0

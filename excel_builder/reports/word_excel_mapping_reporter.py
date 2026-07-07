@@ -11,6 +11,8 @@ from excel_builder.models.word_excel_mapping_models import WordExcelMappingRepor
 class WordExcelMappingReporter:
     HEADERS = [
         "WordTaxID",
+        "StableTaxIdentity",
+        "ContentFingerprint",
         "Status",
         "Metod",
         "Confidence",
@@ -36,6 +38,7 @@ class WordExcelMappingReporter:
             "",
             "Syfte:",
             "Skapar spårbar mappning mellan varje Word/parser-taxa och motsvarande rad i Taxepunkter.",
+            "Block50: varje rad får både sectionsbundet WordTaxID och sectionsoberoende StableTaxIdentity.",
             "",
             "Regler:",
             "- Word-master ändras aldrig.",
@@ -43,6 +46,7 @@ class WordExcelMappingReporter:
             "- Taxepunkter A:E ändras aldrig automatiskt.",
             "- Taxa_från_edp ändras aldrig.",
             "- Samma EDP-taxa kan användas av flera Word-rader utan att det automatiskt är fel.",
+            "- StableTaxIdentity används för att känna igen samma taxepunkt även om den flyttas mellan paragrafer.",
             "",
             f"Total Word rows: {report.total}",
             f"MAPPED: {report.mapped}",
@@ -55,7 +59,7 @@ class WordExcelMappingReporter:
         for item in report.items:
             wb = item.workbook_row
             lines.append(
-                f"- {item.word_tax_id} | {item.status} | {item.method} | "
+                f"- {item.word_tax_id} | {item.stable_tax_identity} | {item.status} | {item.method} | "
                 f"{item.parser_row.section} | {item.parser_row.tax_point} | "
                 f"excel_row={wb.row_number if wb else ''} tax_code={wb.tax_code if wb else ''} | {item.comment}"
             )
@@ -72,6 +76,8 @@ class WordExcelMappingReporter:
                 wb = item.workbook_row
                 writer.writerow([
                     item.word_tax_id,
+                    item.stable_tax_identity,
+                    item.content_fingerprint,
                     item.status,
                     item.method,
                     item.confidence,

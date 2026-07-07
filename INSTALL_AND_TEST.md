@@ -1,60 +1,31 @@
-# Block49 – Pipeline Controller v1.0
+# Block50 – Word Excel Mapping 2.0
 
 ## Syfte
 
-Block49 inför en samlad pipeline-status så att `run_project.bat`, `git_commit_block.bat` och rapporteringen inte längre kan ge motstridiga resultat.
+Inför permanent intern identitet för Word-taxepunkter:
 
-## Ändrade filer
+- `WordTaxID` – sectionsbundet ID för exakt spårning i aktuell Word-master.
+- `StableTaxIdentity` – sectionsoberoende ID som kan känna igen samma taxepunkt även om den flyttas mellan paragrafer.
+- `ContentFingerprint` – hash för maskinell jämförelse mellan versioner.
 
-```text
-build_excel_report.bat
-run_project.bat
-git_commit_block.bat
-tools/pipeline_status.py
-tools/check_pipeline_commit_ready.py
-tests/test_pipeline_status_controller.py
-```
+## Installera
 
-## Installation
+Packa upp ZIP-filen i projektets rotmapp och låt filer skrivas över.
 
-Kopiera filerna till projektets rotmapp och skriv över befintliga filer.
-
-## Körning
-
-Kör endast:
+## Kör
 
 ```bat
 run_project.bat
 ```
 
-Skicka tillbaka:
+## Skicka tillbaka
+
+Skicka endast senaste ZIP från:
 
 ```text
-rapportzip\senaste ExcelBuilder_Run_*.zip
+rapportzip\ExcelBuilder_Run_*.zip
 ```
 
-## Commitregel
+## Commit
 
-Kör **inte** `git_commit_block.bat` förrän ChatGPT uttryckligen skriver att blocket är godkänt.
-
-När blocket är godkänt kör du:
-
-```bat
-git_commit_block.bat
-```
-
-## Testat här
-
-```text
-353 passed, 3 warnings
-```
-
-## Git-kommandon
-
-Efter godkänd körning och efter att ChatGPT säger till:
-
-```bat
-git_commit_block.bat
-```
-
-Kör inte `git_release_block.bat` ännu.
+Kör inte `git_commit_block.bat` förrän ChatGPT har granskat rapportzipen och uttryckligen säger att du ska köra commit-scriptet.

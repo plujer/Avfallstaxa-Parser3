@@ -19,3 +19,7 @@ Permanenta regler:
 - `Taxepunkter` A:E ändras aldrig automatiskt.
 - `Taxa_från_edp` ändras aldrig.
 - Samma EDP-taxa får användas av flera Word-rader utan att det automatiskt är fel.
+
+## Current block update: Block50
+
+Word → Excel Mapping 2.0 inför StableTaxIdentity och ContentFingerprint. Infrastruktur från Block49 behålls och `run_project.bat` är fortsatt standardkörning.

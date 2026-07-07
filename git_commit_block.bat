@@ -3,7 +3,7 @@ setlocal EnableExtensions
 
  echo ==========================================
  echo Excel Builder - git_commit_block.bat
- echo Block49 Pipeline Controller
+ echo Block50 Word Excel Mapping 2.0
  echo ==========================================
  echo.
 
@@ -29,7 +29,7 @@ echo.
 
 git status
 git add .
-git commit -m "Block49: Add Pipeline Controller"
+git commit -m "Block50: Add stable Word Excel Mapping identities"
 if errorlevel 1 (
     echo Commit misslyckades eller inget fanns att committa.
     pause
@@ -39,5 +39,5 @@ if errorlevel 1 (
 git push
 
 echo.
-echo BLOCK49 COMMIT KLAR
+echo BLOCK50 COMMIT KLAR
 pause

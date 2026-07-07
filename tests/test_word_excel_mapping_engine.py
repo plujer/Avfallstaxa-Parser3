@@ -40,3 +40,26 @@ def test_word_excel_mapping_marks_missing_word_tax():
     assert not report.passed
     assert report.missing == 1
     assert report.items[0].status == "MISSING"
+
+
+def test_word_excel_mapping_stable_identity_survives_section_move():
+    original = ParserTaxRow(section="2.2.1", tax_point="Kärl 240 l", variant="14 dagar", unit="kr")
+    moved = ParserTaxRow(section="2.2.9", tax_point="Kärl 240 l", variant="14 dagar", unit="kr")
+
+    report = WordExcelMappingEngine().build([original, moved], [])
+
+    assert report.items[0].word_tax_id != report.items[1].word_tax_id
+    assert report.items[0].stable_tax_identity == report.items[1].stable_tax_identity
+    assert report.items[0].content_fingerprint == report.items[1].content_fingerprint
+    assert "Stabil identitet" in report.items[0].comment
+    assert "inte automatiskt fel" in report.items[0].comment
+
+
+def test_word_excel_mapping_stable_identity_changes_when_variant_changes():
+    first = ParserTaxRow(section="2.2.1", tax_point="Kärl 240 l", variant="14 dagar", unit="kr")
+    second = ParserTaxRow(section="2.2.1", tax_point="Kärl 240 l", variant="månadsvis", unit="kr")
+
+    report = WordExcelMappingEngine().build([first, second], [])
+
+    assert report.items[0].stable_tax_identity != report.items[1].stable_tax_identity
+    assert report.items[0].content_fingerprint != report.items[1].content_fingerprint

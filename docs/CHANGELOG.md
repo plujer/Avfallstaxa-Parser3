@@ -1,11 +1,4 @@
 
-## Block48 – Project Cleanup and Legacy Archive Tool
-
-- Added `archive_legacy_project_files.bat`.
-- Added `tools/archive_legacy_project_files.py`.
-- Project packages now exclude `archive/`.
-
-
 ## Block45.1 – Test Automation Stabilization
 - Fixed `build_excel_report.bat` so `check_latest_run_status.py` no longer writes to the same file as shell redirection.
 - Kept `run_project.bat` as the single normal verification command and ensured it prints the expected reportzip instruction.
@@ -30,3 +23,9 @@
 - Updated project package tool to write to `project_packages/Project_For_ChatGPT.zip` and overwrite the previous package.
 - Added automatic project package creation at the end of the normal `run_project.bat` pipeline.
 - Fixed latest test status parsing so `latest_run_status.txt` uses the final pytest summary, not earlier small summaries.
+
+## Block50 – Word Excel Mapping 2.0
+
+- Lade till sectionsoberoende `StableTaxIdentity` för Word-taxor.
+- Lade till `ContentFingerprint` i Word→Excel-mappningen.
+- Uppdaterade rapport och CSV för spårbarhet vid flyttade Word-paragrafer.

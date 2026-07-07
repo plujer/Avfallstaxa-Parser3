@@ -10,6 +10,8 @@ from excel_builder.models.matching_models import ParserTaxRow, WorkbookTaxRow
 @dataclass
 class WordExcelMappingItem:
     word_tax_id: str
+    stable_tax_identity: str
+    content_fingerprint: str
     parser_row: ParserTaxRow
     workbook_row: WorkbookTaxRow | None
     status: str

@@ -1,12 +1,12 @@
 Excel Builder Pipeline Status
-Block: Block49 Pipeline Controller
+Block: Block50 Word Excel Mapping 2.0
 Overall: SUCCESS
 Commit allowed: YES
 
 Critical pipeline failed: NO
 Warnings: NO
 Tests: OK
-Passed: 355
+Passed: 357
 Failed: 0
 
 Next step:
