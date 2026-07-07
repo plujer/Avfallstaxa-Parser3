@@ -1,9 +1,12 @@
 ﻿Excel Builder Report Package
-Created: 2026-07-07_07-19-19
+Created: 2026-07-07_07-46-37
 
 Included files:
 [OK] output\diagnostics\test_cleanup_report.txt
 [OK] output\diagnostics\test_syntax_report.txt
+[OK] output\excel\semantic_profile_report.txt
+[OK] output\excel\semantic_profiles.csv
+[OK] output\excel\semantic_profile_console.txt
 [OK] output\excel\standard_catalog_schema_report.txt
 [OK] output\excel\standard_catalog_schema.csv
 [OK] output\excel\standard_catalog_schema_console.txt

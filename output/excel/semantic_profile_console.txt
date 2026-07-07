@@ -1,0 +1,7 @@
+Tax Semantic Profiles klar
+Word profiles: 241
+Standard profiles: 510
+Rule profiles: 873
+Total profiles: 1624
+TXT: output\excel\semantic_profile_report.txt
+CSV: output\excel\semantic_profiles.csv

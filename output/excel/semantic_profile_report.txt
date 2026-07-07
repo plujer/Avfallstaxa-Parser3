@@ -1,0 +1,44 @@
+Tax Semantic Profile Report
+
+Status: Gemensam semantisk taxaprofil för Word, standardtaxor och regelrepository.
+Profilerna ändrar inte Taxa_från_edp.
+Profiles: 1624
+Warnings: 0
+
+Sources:
+- RULE:DOCUMENTATION: 138
+- RULE:EDP: 370
+- RULE:TAXEPUNKT: 365
+- STANDARD: 510
+- WORD: 241
+
+Categories:
+- (tom): 138
+- Flerbostad/verksamhet: 53
+- Hushåll: 254
+- Okänd: 325
+- Slam: 196
+- Tilläggstjänst: 17
+- Verksamhetsavfall: 28
+- ÅVC/verksamhetsavfall: 586
+- ÅVS: 27
+
+Waste types:
+- (tom): 1093
+- Asbest: 8
+- Batterier: 2
+- Betong: 3
+- Elavfall: 7
+- Farligt avfall: 10
+- Förpackningar: 16
+- Gips: 2
+- Kyl/frys: 3
+- Matavfall: 119
+- Metall: 2
+- Oljeavfall: 18
+- Plast: 4
+- Restavfall: 195
+- Slam: 135
+- Tegel: 2
+- Tryckimpregnerat trä: 2
+- Träavfall: 3

@@ -29,3 +29,8 @@ from .standard_catalog_schema_models import (
     StandardCatalogSheetSchema,
     StandardCatalogSchema,
 )
+from .tax_semantic_profile_models import (
+    TaxSemanticProfile,
+    TaxSemanticProfileKey,
+    TaxSemanticProfileReport,
+)
