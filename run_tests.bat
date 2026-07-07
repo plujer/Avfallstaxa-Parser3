@@ -1,18 +1,19 @@
 @echo off
 setlocal
-if not exist output\diagnostics mkdir output\diagnostics
-
 echo ==========================================
-echo Excel Builder - Block43 tests
- echo ==========================================
+echo Excel Builder - Tester Block44
+echo ==========================================
+if not exist output mkdir output
+if not exist output\diagnostics mkdir output\diagnostics
 python -m pytest -v --tb=short > output\diagnostics\pytest_report.txt 2>&1
+type output\diagnostics\pytest_report.txt
 if errorlevel 1 (
-    echo Tester misslyckades. Se output\diagnostics\pytest_report.txt
-    type output\diagnostics\pytest_report.txt
-    pause
-    exit /b 1
+  echo.
+  echo TESTER MISSLYCKADES
+  pause
+  exit /b 1
 )
-echo Tester godkända.
-type output\diagnostics\pytest_report.txt | findstr /C:"passed"
+echo.
+echo TESTER KLARA
 pause
 endlocal

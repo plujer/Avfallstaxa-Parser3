@@ -68,3 +68,19 @@ Syfte: Göra de nya masterfilerna till projektets officiella källor och införa
 - BAT-filer uppdaterades för standardiserad körning.
 
 Regel: Om master behöver ändras ska ny versionsfil skapas. Befintlig master ändras aldrig.
+
+## Block44 - Immutable Master Enforcement
+
+Syfte: Göra masterfilskyddet tekniskt och testbart.
+
+Regler:
+- Word-master och Excel-master får aldrig skrivas över.
+- Ändringsbehov hanteras genom ny versionsfil.
+- `Taxepunkter!A:E` är mallområde och skrivskyddat.
+- `Taxa_från_edp` är facit och skrivskyddat.
+
+Leverans:
+- Guard-moduler
+- Testfall
+- Verifieringsverktyg
+- Uppdaterade BAT-filer

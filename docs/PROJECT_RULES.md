@@ -55,3 +55,19 @@ Regler:
 5. Fliken `Taxepunkter` kolumn A:E får inte skrivas automatiskt.
 6. Fliken `Taxa_från_edp` är facit och får inte skrivas automatiskt i någon kolumn eller rad.
 7. Projektet ska hämta aktiva masterkällor från `config/master_sources.json`.
+
+## Block44 - Immutable Master Enforcement
+
+Masterfiler är immutable. Projektet får aldrig skriva till eller spara över:
+
+- `data/word_templates/Taxestruktur_Master_v1.0.docx`
+- `data/master_templates/ArbetsExcel_Template_v1.0.xlsx`
+
+Om en master behöver ändras ska en ny versionsfil skapas. Tidigare masterversioner lämnas orörda.
+
+Skyddade arbetsboksområden:
+
+- `Taxepunkter!A:E` får inte skrivas automatiskt.
+- `Taxa_från_edp` får inte skrivas automatiskt i någon cell.
+
+All generering ska ske via arbetskopior i `output/` eller kommunseparerade projektmappar.

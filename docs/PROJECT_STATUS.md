@@ -106,3 +106,17 @@ Status: Implementerat.
 - `WorkbookWriter` skapar arbetskopior från immutable master och skriver genererade parserrader i `Builder_Output`.
 - Skyddsregler införda för `Taxepunkter!A:E` och hela `Taxa_från_edp`.
 - Masterfiler verifieras med `tools/check_master_sources.py` och rapporteras i rapportzip.
+
+## Block44 - Immutable Master Enforcement
+
+Status: Levererat för verifiering.
+
+Inför ett centralt skyddslager för masterfiler och skyddade arbetsboksområden:
+
+- `MasterGuard`
+- `MasterCopyManager`
+- `ImmutableSheetGuard`
+- `ProtectedRangeGuard`
+- verifieringsverktyget `tools/check_immutable_master_enforcement.py`
+
+Blocket säkerställer att masterfiler endast får läsas/kopieras och att skrivning mot `Taxepunkter!A:E` samt `Taxa_från_edp` blockeras.

@@ -81,3 +81,12 @@ Tidigare block byggde parser, Excel Builder, rapportkedja, standardtaxestöd, pr
 - Updated template manager default from old draft template to v1.0 master source.
 - Updated workbook generation to create working copies from master instead of creating blank workbooks.
 - Updated report package to include master source diagnostics.
+
+## Block44 - Immutable Master Enforcement
+
+- Added central `MasterGuard` for immutable master source enforcement.
+- Added `MasterCopyManager` to create working copies without changing sources.
+- Added protected range enforcement for `Taxepunkter!A:E`.
+- Added immutable sheet enforcement for `Taxa_från_edp`.
+- Added verification tool and tests for protected master behavior.
+- Updated BAT workflow for Block44.

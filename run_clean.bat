@@ -1,13 +1,10 @@
 @echo off
 setlocal
-echo Rensar output och temporära rapporter...
+echo Rensar output och temporära verifieringsfiler...
 if exist output rmdir /s /q output
-mkdir output
-mkdir output\excel
-mkdir output\diagnostics
-mkdir output\reports
-mkdir output\projects
-mkdir output\acceptance
-echo Klart.
+if not exist output mkdir output
+if not exist output\diagnostics mkdir output\diagnostics
+if not exist output\excel mkdir output\excel
+echo Klar.
 pause
 endlocal
