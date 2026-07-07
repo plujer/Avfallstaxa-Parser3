@@ -122,3 +122,7 @@ Tidigare block byggde parser, Excel Builder, rapportkedja, standardtaxestöd, pr
 - Lade till rapporterna `composite_matching_report.txt` och `composite_matches.csv` i rapportzip.
 - Lade till tester för composite scoring och CLI/package-integrering.
 - Uppdaterade BAT-filer till Block39.
+## Block40 – Explainable Decision Engine
+- Lade till Explainable Decision Engine med confidence och decision traces.
+- Lade till rapporterna explainable_decision_report.txt och decision_traces.csv.
+- Lade till tester och CLI för beslutsspårning.

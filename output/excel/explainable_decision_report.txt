@@ -1,0 +1,36 @@
+Explainable Decision Engine Report
+
+Status: Förklarar beslut från Composite Matching Engine med confidence och spårbara signaler.
+Taxa_från_edp ändras inte. Standardtaxor är endast beslutsstöd.
+Traces: 59
+ACCEPT: 26
+REVIEW: 33
+REJECT: 0
+Warnings: 0
+
+Top decision traces:
+- ACCEPT confidence=0.9120 score=0.7820 | KÄ660RE52FV -> KÄ660RE52FV | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.1820: Samma taxefamilj men identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.9120 score=0.7820 | KÄ660RE52FV -> KÄ660RE52FV | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.1820: Samma taxefamilj men identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8800 score=0.7500 | SLSLANG -> SLSLANG | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.2000: Samma taxefamilj och inga identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8800 score=0.7500 | SLSLANG -> SLSLANG | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.2000: Samma taxefamilj och inga identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8800 score=0.7500 | SLSLANG -> SLSLANG | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.2000: Samma taxefamilj och inga identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8800 score=0.7500 | SLSLANG -> SLSLANG | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.2000: Samma taxefamilj och inga identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8800 score=0.7500 | SLSLANG -> SLSLANG | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.2000: Samma taxefamilj och inga identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8800 score=0.7500 | SLSLANG -> SLSLANG | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.2000: Samma taxefamilj och inga identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8800 score=0.7500 | SLSLANG -> SLSLANG | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.2000: Samma taxefamilj och inga identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8800 score=0.7500 | SLSLANG -> SLSLANG | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.2000: Samma taxefamilj och inga identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8800 score=0.7500 | SLSLANG -> SLSLANG | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.2000: Samma taxefamilj och inga identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8800 score=0.7500 | SLSLANG -> SLSLANG | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.2000: Samma taxefamilj och inga identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8800 score=0.7500 | SLSLANG -> SLSLANG | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.2000: Samma taxefamilj och inga identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8800 score=0.7500 | SLSLANG -> SLSLANG | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.2000: Samma taxefamilj och inga identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8800 score=0.7500 | SLSLANG -> SLSLANG | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.2000: Samma taxefamilj och inga identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8620 score=0.7320 | KÄ660RE52FV -> KÄ660RE52FV | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.1820: Samma taxefamilj men identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8620 score=0.7320 | KÄ660RE52FV -> KÄ660RE52FV | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.1820: Samma taxefamilj men identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8620 score=0.7320 | KÄ660RE52FV -> KÄ660RE52FV | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.1820: Samma taxefamilj men identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8620 score=0.7320 | KÄ660RE52FV -> KÄ660RE52FV | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.1820: Samma taxefamilj men identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.8620 score=0.7320 | KÄ660RE52FV -> KÄ660RE52FV | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; variant bidrar 0.1820: Samma taxefamilj men identifierade variantavvikelser.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.
+- ACCEPT confidence=0.7900 score=0.6600 | SLT03SLBUD -> SLT03SLBUD | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.; variant bidrar 0.1100: Samma taxefamilj men identifierade variantavvikelser.
+- ACCEPT confidence=0.7900 score=0.6600 | SLT03SLORD -> SLT03SLORD | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.; variant bidrar 0.1100: Samma taxefamilj men identifierade variantavvikelser.
+- ACCEPT confidence=0.7900 score=0.6600 | SLT36SLBUD -> SLT36SLBUD | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.; variant bidrar 0.1100: Samma taxefamilj men identifierade variantavvikelser.
+- ACCEPT confidence=0.7900 score=0.6600 | SLT36SLORD -> SLT36SLORD | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.; variant bidrar 0.1100: Samma taxefamilj men identifierade variantavvikelser.
+- ACCEPT confidence=0.7900 score=0.6600 | SLT03SL -> SLT03SL | edp_exact bidrar 0.3000: Direkt träff mot Taxa_från_edp.; tax_family bidrar 0.1500: Samma taxefamilj och samma variant/intervall.; variant bidrar 0.1100: Samma taxefamilj men identifierade variantavvikelser.

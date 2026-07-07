@@ -113,3 +113,5 @@ Nya rapportfiler:
 - `composite_matches.csv`
 
 BAT-filerna är uppdaterade för Block39.
+## Block40 – Explainable Decision Engine
+Införde ett förklaringslager ovanpå Composite Matching Engine. Besluten får confidence, primära orsaker och signalsammanställning utan att ändra Taxa_från_edp.

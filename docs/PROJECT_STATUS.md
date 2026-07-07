@@ -133,3 +133,5 @@ Verifiering:
 - skicka senaste rapportzip från `rapportzip\`.
 
 Regel: Composite Matching får inte ändra `Taxa_från_edp` och får inte blanda kommununik data mellan Sorsele, Malå och Norsjö.
+## Block40 – Explainable Decision Engine
+Status: Implementerad för verifiering. Lägger till decision traces, confidence och separata rapporter.

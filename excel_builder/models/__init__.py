@@ -59,3 +59,5 @@ from .composite_matching_models import (
     CompositeMatchResult,
     CompositeMatchingReport,
 )
+
+from .decision_explainer_models import DecisionTracePart, DecisionTrace, ExplainableDecisionReport

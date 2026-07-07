@@ -1,7 +1,7 @@
 @echo off
 setlocal
-set BLOCK_ID=39
-set BLOCK_NAME=Composite Matching Engine
+set BLOCK_ID=40
+set BLOCK_NAME=Explainable Decision Engine
 set VERSION=v0.9.4
 set COMMIT_MESSAGE=Block%BLOCK_ID%: %BLOCK_NAME% (%VERSION%)
 

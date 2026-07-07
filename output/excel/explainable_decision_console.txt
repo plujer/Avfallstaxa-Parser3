@@ -1,0 +1,6 @@
+Explainable Decision Engine klar.
+Traces: 59
+ACCEPT: 26
+REVIEW: 33
+REJECT: 0
+Warnings: 0

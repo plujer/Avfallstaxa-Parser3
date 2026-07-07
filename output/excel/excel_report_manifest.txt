@@ -1,5 +1,5 @@
 ﻿Excel Builder Full Report Package
-Created: 2026-07-07_16-04-43
+Created: 2026-07-07_16-26-04
 
 Included files:
 [OK] docs\spec\ExcelBuilder_v1_0_Specification.md
@@ -23,6 +23,9 @@ Included files:
 [OK] output\excel\composite_matching_report.txt
 [OK] output\excel\composite_matches.csv
 [OK] output\excel\composite_matching_console.txt
+[OK] output\excel\explainable_decision_report.txt
+[OK] output\excel\decision_traces.csv
+[OK] output\excel\explainable_decision_console.txt
 [OK] output\excel\context_resolution_report.txt
 [OK] output\excel\context_resolved_rows.csv
 [OK] output\excel\document_structure_report.txt
