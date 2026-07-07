@@ -1,7 +1,7 @@
 @echo off
 setlocal
-set BLOCK_ID=40
-set BLOCK_NAME=Explainable Decision Engine
+set BLOCK_ID=41
+set BLOCK_NAME=Workbook Generation Engine
 set VERSION=v0.9.4
 set TAG=%VERSION%-block%BLOCK_ID%
 

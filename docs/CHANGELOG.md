@@ -126,3 +126,11 @@ Tidigare block byggde parser, Excel Builder, rapportkedja, standardtaxestöd, pr
 - Lade till Explainable Decision Engine med confidence och decision traces.
 - Lade till rapporterna explainable_decision_report.txt och decision_traces.csv.
 - Lade till tester och CLI för beslutsspårning.
+
+## Block41 – Workbook Generation Engine
+
+- Lade till Workbook Generation Engine som skriver `Decision_Trace` och `Workbook_Generation` direkt till genererad Arbets-Excel.
+- Lade till beslutsspårningskolumner i `Taxepunkter` utan att ändra `Taxa_från_edp`.
+- Lade till CLI `excel_builder_workbook_generation.py`.
+- Lade till rapporten `workbook_generation_report.txt` i rapportzip.
+- Uppdaterade BAT-filer till Block41.

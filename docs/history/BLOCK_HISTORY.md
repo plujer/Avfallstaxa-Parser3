@@ -115,3 +115,18 @@ Nya rapportfiler:
 BAT-filerna är uppdaterade för Block39.
 ## Block40 – Explainable Decision Engine
 Införde ett förklaringslager ovanpå Composite Matching Engine. Besluten får confidence, primära orsaker och signalsammanställning utan att ändra Taxa_från_edp.
+
+## Block41 – Workbook Generation Engine
+
+Syfte: göra slutprodukten mer spårbar genom att skriva Explainable Decision Engine-resultat till själva arbetsboken.
+
+Ändringar:
+- Nytt paket `excel_builder/workbook_generation/`.
+- Ny modellfil `workbook_generation_models.py`.
+- Ny CLI `excel_builder_workbook_generation.py`.
+- Ny reporter `workbook_generation_reporter.py`.
+- Build-pipeline kör Workbook Generation Engine efter semantisk beslutsmotor och före täckningskontroll.
+
+Verifiering: kör `run_project.bat`; `run_tests.bat` används endast om huvudkörningen själv säger att tester behövs.
+
+Regel: `Taxa_från_edp` ändras inte. Beslutsspårning är endast beslutsstöd.

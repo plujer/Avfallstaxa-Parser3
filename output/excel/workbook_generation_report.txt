@@ -1,0 +1,8 @@
+Workbook Generation Engine Report
+
+Status: Skriver beslutsspårning till Arbets-Excel utan att ändra Taxa_från_edp.
+Taxa_från_edp är facit. Standardtaxor och beslutsspår är endast beslutsstöd.
+Workbook: output\excel\ArbetsExcel_byggd_fran_parser.xlsx
+Decision_Trace rows written: 59
+Taxepunkter rows updated: 59
+Warnings: 0

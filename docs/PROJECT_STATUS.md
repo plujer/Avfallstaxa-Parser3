@@ -3,8 +3,8 @@
 ## Senaste stabila version
 
 ```text
-v0.9.4-block35-candidate
-Block35 – Hierarchical Context Resolver
+v0.9.4-block41-candidate
+Block41 – Workbook Generation Engine
 ```
 
 ## Senaste verifierade rapport
@@ -69,7 +69,7 @@ Dessa är dokumentstruktur/rubriker, inte faktiska taxepunkter.
 ## Senaste genomförda block
 
 ```text
-Block35 – Hierarchical Context Resolver
+Block41 – Workbook Generation Engine
 ```
 
 Resultat:
@@ -135,3 +135,10 @@ Verifiering:
 Regel: Composite Matching får inte ändra `Taxa_från_edp` och får inte blanda kommununik data mellan Sorsele, Malå och Norsjö.
 ## Block40 – Explainable Decision Engine
 Status: Implementerad för verifiering. Lägger till decision traces, confidence och separata rapporter.
+
+
+## Block41 – Workbook Generation Engine
+
+Status: Levererad för verifiering.
+
+Workbook Generation Engine skriver `Decision_Trace`, `Workbook_Generation` och beslutsspårningskolumner till genererad Arbets-Excel. `Taxa_från_edp` ändras inte.

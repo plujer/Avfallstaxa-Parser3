@@ -1,0 +1,5 @@
+Workbook Generation Engine klar.
+Workbook: output\excel\ArbetsExcel_byggd_fran_parser.xlsx
+Decision_Trace rows: 59
+Taxepunkter updated: 59
+Warnings: 0
