@@ -116,3 +116,7 @@ Fokus:
 
 ## Block37 – Variant Intelligence Engine
 Status: Implementerad för verifiering. Tolkar variantdimensioner inom taxefamiljer och skriver variantprofiler till rapportzip.
+
+## Block38 status
+
+Block38 inför Semantic Attribute Intelligence. Steget är beslutsstöd och får inte skriva över Taxa_från_edp eller blanda kommununik data mellan Sorsele, Malå och Norsjö.

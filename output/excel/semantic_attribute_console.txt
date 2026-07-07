@@ -1,0 +1,4 @@
+Semantic Attribute Intelligence klar.
+Profiles: 1392
+Profiles with attributes: 1073
+Warnings: 319

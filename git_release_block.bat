@@ -1,7 +1,7 @@
 @echo off
 setlocal
-set BLOCK_ID=37
-set BLOCK_NAME=Variant Intelligence Engine
+set BLOCK_ID=38
+set BLOCK_NAME=Semantic Attribute Intelligence
 set VERSION=v0.9.4
 set TAG=%VERSION%-block%BLOCK_ID%
 

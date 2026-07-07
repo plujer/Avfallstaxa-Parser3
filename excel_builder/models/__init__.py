@@ -46,3 +46,9 @@ from .document_structure_models import DocumentRowType, DocumentStructureNode, D
 from .tax_family_models import TaxFamilyKey, TaxFamilyMember, TaxFamily, TaxFamilyMatch, TaxFamilyReport
 
 from .variant_models import TaxVariantProfile, VariantComparison, VariantIntelligenceReport
+
+from .semantic_attribute_models import (
+    SemanticAttributeProfile,
+    SemanticAttributeComparison,
+    SemanticAttributeReport,
+)

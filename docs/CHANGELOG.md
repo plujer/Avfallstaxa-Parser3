@@ -107,3 +107,10 @@ Tidigare block byggde parser, Excel Builder, rapportkedja, standardtaxestöd, pr
 - Lade till CLI `excel_builder_variant_intelligence.py`.
 - Lade till rapporterna `variant_intelligence_report.txt` och `variant_profiles.csv`.
 - Uppdaterade BAT-flödet för Block37.
+
+## Block38 – Semantic Attribute Intelligence
+
+- Lade till Semantic Attribute Intelligence som extraherar material, avfallstyp, enhet, behållartyp, intervall och fastighetstyp som beslutsstöd.
+- Lade till rapporterna `semantic_attribute_report.txt` och `semantic_attributes.csv`.
+- Lade till tester för attributextraktion, attributmatchning och CLI/package-integrering.
+- Taxa_från_edp ändras inte och kommununik data delas inte.

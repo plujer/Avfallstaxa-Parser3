@@ -82,3 +82,16 @@ Regel: Informationen används endast som beslutsstöd. `Taxa_från_edp` ändras 
 
 ## Block37 – Variant Intelligence Engine
 Variantdimensioner inom taxefamiljer identifieras som beslutsstöd: volym, fraktion, intervall, variant och användningstyp.
+
+## Block38 – Semantic Attribute Intelligence
+
+Syfte: skapa ett konservativt attributlager ovanpå taxefamiljer och varianter.
+
+Ändringar:
+- Nytt paket `excel_builder/semantic_attributes/`.
+- Ny modellfil `semantic_attribute_models.py`.
+- Ny CLI `excel_builder_semantic_attributes.py`.
+- Ny reporter `semantic_attribute_reporter.py`.
+- Build-pipeline kör attributsteget innan befintlig taxekunskap och semantisk kandidatrankning.
+
+Verifiering: hela testsviten ska köras via `run_project.bat` och rapportzip ska skickas tillbaka.

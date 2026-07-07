@@ -1,0 +1,81 @@
+Semantic Attribute Intelligence Report
+
+Status: Extraherar semantiska attribut som beslutsstöd.
+Taxa_från_edp ändras inte och kommununik data delas inte.
+Profiles: 1392
+Profiles with attributes: 1073
+Warnings: 319
+
+Top materials:
+- TRÄ: 87
+- PAPPER: 52
+- PLAST: 34
+- METALL: 31
+- GLAS: 18
+- JORD: 12
+- ASBEST: 6
+- STEN: 3
+- GIPS: 1
+- STUBBAR/RÖTTER: 1
+
+Top waste types:
+- REST: 211
+- MAT: 129
+- TIDNING: 32
+- FARLIGT AVFALL: 11
+- TRÄDGÅRDSAVFALL: 6
+- GROVAVFALL: 4
+- FÄRGAT GLAS: 2
+- OFÄRGAT GLAS: 2
+
+Warnings:
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:4
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:200
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:285
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:286
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:287
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:288
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:300
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:302
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:303
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:304
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:307
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:310
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:314
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:315
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:316
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:317
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:447
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:448
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:457
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:458
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:459
+- Inga semantiska attribut hittades för STANDARD:Standard Avfall:460
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:3
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:4
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:21
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:22
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:37
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:38
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:54
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:55
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:70
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:71
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:87
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:88
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:90
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:91
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:92
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:93
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:94
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:95
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:96
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:118
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:119
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:120
+- Inga semantiska attribut hittades för STANDARD:Standard Slam:121
+- Inga semantiska attribut hittades för STANDARD:Standard ÅVS:8
+- Inga semantiska attribut hittades för STANDARD:Standard ÅVS:9
+- Inga semantiska attribut hittades för STANDARD:Standard ÅVS:21
+- Inga semantiska attribut hittades för STANDARD:Standard ÅVS:22
+- Inga semantiska attribut hittades för STANDARD:Standard ÅVS:23
