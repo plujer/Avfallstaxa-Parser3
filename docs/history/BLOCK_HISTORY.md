@@ -1,3 +1,4 @@
+- Block46: Project package output now goes to `project_packages/Project_For_ChatGPT.zip`; `run_project.bat` refreshes it at the end of every successful pipeline run.
 
 ## Block45.1 – Test Automation Stabilization
 - Fixed `build_excel_report.bat` so `check_latest_run_status.py` no longer writes to the same file as shell redirection.

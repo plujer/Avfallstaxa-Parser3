@@ -1,0 +1,12 @@
+
+==========================================
+Excel Builder - Project Package Tool
+==========================================
+Project root: C:\PyProjects\Taxa 3.0
+
+Package created successfully:
+C:\PyProjects\Taxa 3.0\project_packages\Project_For_ChatGPT.zip
+
+Send this file to ChatGPT:
+project_packages/Project_For_ChatGPT.zip
+==========================================

@@ -168,7 +168,11 @@ echo [36/37] Skapar standardiserad rapportzip...
 powershell -NoProfile -ExecutionPolicy Bypass -File tools\zip_excel_report.ps1
 if errorlevel 1 set PIPELINE_FAILED=1
 
-echo [37/37] Klar.
+echo [37/38] Skapar aktuellt projektpaket for ChatGPT...
+python tools\create_project_package.py > output\diagnostics\project_package_console.txt 2>&1
+if errorlevel 1 set PIPELINE_FAILED=1
+
+echo [38/38] Klar.
 
 echo.
 echo ==========================================
@@ -200,6 +204,10 @@ if "%PIPELINE_FAILED%"=="1" (
 )
 echo Tests ............... OK
 echo Report ZIP .......... CREATED
+echo Project package ...... CREATED/UPDATED
+echo.
+echo Vid behov av komplett projektkod finns aktuell zip har:
+echo project_packages\Project_For_ChatGPT.zip
 echo.
 echo Skicka senaste ZIP-filen från rapportzip\
 echo Skicka endast senaste ZIP-filen fran rapportzip\

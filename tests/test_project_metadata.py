@@ -47,6 +47,6 @@ def test_project_metadata_reporter_writes_report(tmp_path):
 
     text = out.read_text(encoding="utf-8")
     assert "Excel Builder Project Metadata Report" in text
-    assert "Version: v0.9.4" in text
-    assert "Block: 42" in text
+    assert f"Version: {metadata.version}" in text
+    assert f"Block: {metadata.block_id}" in text
     assert "Release checklist:" in text
